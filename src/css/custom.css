@@ -112,16 +112,23 @@ a:hover {
   color: #fff;
 }
 
-.theme-doc-sidebar-item-category-level-1>.menu__list {
-  border-left: 2px solid #000;
+.theme-doc-sidebar-item-category-level-1 {
+  border-left: 3px solid #000;
 }
 
 
-.theme-doc-sidebar-item-category-level-2>.menu__list {
-  border-left: 1px solid red;
+.theme-doc-sidebar-item-category-level-2 {
+  border-left: 2px solid rgba(0, 0, 0, 0.8);
 }
 
+.menu__list-item--collapsed {
+  border: none;
+}
 
-.theme-doc-sidebar-item-category-level-3>.menu__list {
-  border-left: 1px solid #74Bc1f;
+.theme-doc-sidebar-item-category-level-3 {
+  border-left: 1.5px solid rgba(0, 0, 0, 0.8);
+}
+
+.menu__list-item--collapsed {
+  border: none;
 }

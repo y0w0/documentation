@@ -113,12 +113,13 @@ a:hover {
 }
 
 .theme-doc-sidebar-item-category-level-1 {
-  border-left: 3px solid #000;
+
+  border-left: 1.5px solid #000;
 }
 
 
 .theme-doc-sidebar-item-category-level-2 {
-  border-left: 2px solid rgba(0, 0, 0, 0.8);
+  border-left: 1.5px solid #666;
 }
 
 .menu__list-item--collapsed {
@@ -126,7 +127,7 @@ a:hover {
 }
 
 .theme-doc-sidebar-item-category-level-3 {
-  border-left: 1.5px solid rgba(0, 0, 0, 0.8);
+  border-left: 1.5px solid #ccc;
 }
 
 .menu__list-item--collapsed {

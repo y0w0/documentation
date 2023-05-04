@@ -17,7 +17,7 @@ Connect the SBC to **the same switching network** as your computer via an RJ45 n
 
 The [wireless guide](../radxa_os/network) may be helpful.
 
-*Note: Some solutions require a WiFi module to be installed in order to connect to the wireless network. For more details, please check product parameters on https://radxa.com/product.*
+*Note: Some solutions require a WiFi module to be installed in order to connect to the wireless network. For more details, please check product parameters on [Product Introduction](https://radxa.com/product).*
 
 After flashing the image to a micro SD card, keep it connected with your Linux or Windows machines, the config folder will be available on file system. There are two files	**before.txt** and **config.txt** in it.  
 &nbsp;&nbsp;&nbsp;&nbsp;**before.txt**: Radxa First Boot Configuration, it will be copied into the correct location in the Linux root file system, the machine will use those settings to start up wireless networking.  

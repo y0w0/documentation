@@ -1,4 +1,4 @@
----
+﻿---
 sidebar_label: 'rsetup Tool Introduction'
 sidebar_position: 10
 ---
@@ -6,12 +6,40 @@ sidebar_position: 10
 # Introduce rsetup
 
 `rsetup` is the Radxa system setup utility devloped by radxa team. To enter the configrution utility, type the following on the terminal:  
+
 ```
 sudo rsetup  
 ```
+
 After typing your password, you will see the screen with options like this:  
 
-![rsetup](/img/configuration/rsetup.webp)  
+```
+┌──────────────────────────────────┤ RSETUP ├──────────────────────────────────┐
+│ Please select an option below:                                               │
+│                                                                              │
+│                             System Maintaince                                │
+│                             Hardware                                         │
+│                             Overlays                                         │
+│                             Connectivity                                     │
+│                             User Settings                                    │
+│                             Localization                                     │
+│                             About                                            │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                     <Ok>                         <Cancel>                    │
+│                                                                              │
+└──────────────────────────────────────────────────────────────────────────────┘
+```
+
 **Note: The menu shown may differ slightly.**  
 
 Use the `up` and `down` arrow keys to move the highlighted selection between the options available.
@@ -27,7 +55,33 @@ You can update **System** and **Bootloader** on this option.
 ## Hardware
 
 Some peripherals can be modified on this menu, the following is the introduction of them.  
-![rsetup_hardwarw](/img/configuration/rsetup_hardware.webp)
+
+```
+┌──────────────────────────────────┤ RSETUP ├──────────────────────────────────┐
+│ Manage on-board hardware                                                     │
+│                                                                              │
+│                      Video capture devices                                   │
+│                      GPIO LEDs                                               │
+│                      Thermal governor                                        │
+│                      Configure DSI display mirroring                         │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                     <Ok>                         <Cancel>                    │
+│                                                                              │
+└──────────────────────────────────────────────────────────────────────────────┘
+```
 
 ### Video capture devices
 
@@ -35,7 +89,7 @@ If you have connect a video device, this option can help you to capture an image
 
 ### GPIO LEDs
 
-On this option, you can change the status of power LED and user LED on the board.  
+On this option, you can change the status of power LED and user LED on the board (Sometimes only one).  
 For the details, please refer to the [LED Setup](../configuration/led).  
 
 ### Thermal governor
@@ -51,7 +105,7 @@ If DSI display has some peoblems when using HDMI display and DSI display at the 
 
 ## Overlays
 
-This option is for Configure Device Tree Overlay, please check [Device Tree Configuration](../configuration/devicetree) for more imaformations. 
+This option is for Configure Device Tree Overlay, please check [Device Tree Configuration](../configuration/devicetree) for more informations. 
 
 ## Connectivity
 
@@ -67,4 +121,4 @@ On this option, you can change `Timezone` `Locale` `Keybaed layout` `Wi-Fi Count
 
 ## About
 
-Here is the imformation of `rsetup`.
+Here is the information of `rsetup`.

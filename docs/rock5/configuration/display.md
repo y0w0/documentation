@@ -12,7 +12,7 @@ Take [ROCK 5A](https://radxa.com/product/detailed?product_name=rock_5a) for exam
 
 ## Display Setup
 
-This setting is just available when you operating on the monitor. You can change the display setting by following ways.  
+This setting is just available when you operating on the monitor, or you can set up a [Headless Device](../configuration/headless) as an alternative. You can change the display setting by following ways.  
 
 ### System Settings-Display Settings
 

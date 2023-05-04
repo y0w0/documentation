@@ -1,6 +1,7 @@
 ---
 sidebar_label: 'Welcome'
 sidebar_position: 1
+pagination_prev: null
 ---
 
 # About

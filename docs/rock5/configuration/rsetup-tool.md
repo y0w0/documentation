@@ -11,7 +11,7 @@ sudo rsetup
 ```
 After typing your password, you will see the screen with options like this:  
 
-![rsetup](/img/configuration/rsetup.png)  
+![rsetup](/img/configuration/rsetup.webp)  
 **Note: The menu shown may differ slightly.**  
 
 Use the `up` and `down` arrow keys to move the highlighted selection between the options available.
@@ -27,7 +27,7 @@ You can update **System** and **Bootloader** on this option.
 ## Hardware
 
 Some peripherals can be modified on this menu, the following is the introduction of them.  
-![rsetup_hardwarw](/img/configuration/rsetup_hardware.png)
+![rsetup_hardwarw](/img/configuration/rsetup_hardware.webp)
 
 ### Video capture devices
 

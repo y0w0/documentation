@@ -19,7 +19,7 @@ Left-clicking the volume icon on the desktop taskbar brings up the audio output 
 It also allows you to select any external audio devices, such as USB sound cards and Bluetooth audio devices.  
 A blue tick is shown against the currently selected audio output device — simply left-click the desired output to change this. 
 The volume control and mute operate on the currently selected device.  
-![audio manager](/img/configuration/audio_manager.jpg)
+![audio manager](/img/configuration/audio_manager.webp)
 
 
 ### Command Line Config

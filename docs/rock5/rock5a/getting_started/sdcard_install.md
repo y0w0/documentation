@@ -11,7 +11,7 @@ sidebar_position: 31
 2. Prepare an SD card reader
 3. Download the official Ubuntu/Debian system image from [Downloads](../downloads/official_images).
 4. Insert the SD card into the card reader, then insert the card reader into the USB port of the computer.  
-![ROCK5A Install](/img/accessories/sd_install-1.png)
+![ROCK5A Install](/img/accessories/sd_install_1.webp)
 
 
 ## Flash OS image to micro SD card
@@ -19,19 +19,19 @@ sidebar_position: 31
 ### Flash OS image to micro SD card via etcher
 
 1. Download the flash tool etcher from [downloads](https://www.balena.io/etcher#download-etcher).  
-  - ![ROCK5A via Ethcher 01](/img/rock5a/rock5a-etcher.png)
+  - ![ROCK5A via Ethcher 01](/img/rock5a/rock5a-etcher.webp)
 
 2. Open etcher and prepare to flash OS image to Micro SD card. In the etcher window, click flash from file to select the OS image you just downloaded.
-  - ![ROCK5A via Ethcher 02](/img/rock5a/rock5a-etcher-1.png)
+  - ![ROCK5A via Ethcher 02](/img/rock5a/rock5a-etcher-1.webp)
 
 3. In the etcher window, click Select Drive.
-  - ![ROCK5A via Ethcher 03](/img/rock5a/rock5a-etcher-2.png )
+  - ![ROCK5A via Ethcher 03](/img/rock5a/rock5a-etcher-2.webp)
 
 4. In the etcher window, click Flash and wait for flashing image process.
-  - ![ROCK5A via Ethcher 04](/img/rock5a/rock5a-etcher-3.png)
+  - ![ROCK5A via Ethcher 04](/img/rock5a/rock5a-etcher-3.webp)
 
 5. In the etcher window, it means success when it shows flash compete.
-  - ![ROCK5A via Ethcher 05](/img/rock5a/rock5a-etcher-4.png)
+  - ![ROCK5A via Ethcher 05](/img/rock5a/rock5a-etcher-4.webp)
   
 **If the flash OS image fails, please manually flash the image once again.**
 

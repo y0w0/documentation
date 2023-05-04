@@ -82,7 +82,7 @@ After identification, the setting interface appears:
                                               <OK> 
 ```
 Select `Edit a connection -- <Add>` to add a `Ethernet` adapter: 
-![add adapter](/img/configuration/add_adapter.png)  
+![add adapter](/img/configuration/add_adapter.webp)  
 Of the many options, we only need to fill in two of them:
 ```
         Device____  # Enter the third network card name you get by 'ip a', like: enxca5bfb533dd4

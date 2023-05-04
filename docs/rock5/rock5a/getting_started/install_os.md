@@ -11,13 +11,13 @@ eMMC is a built-in storage chip typically used in mobile devices and embedded sy
 Radxa offers **removable** eMMC modules.
 
 ![eMMC Module](/img/accessories/emmc_related_01.webp)
-![eMMC and SSD Comparison](/img/accessories/emmc_ssd_comparison.png)
+![eMMC and SSD Comparison](/img/accessories/emmc_ssd_comparison.webp)
 
 ## NVMe SSD
 
 SSD is a solid-state drive that uses flash memory chips as its storage medium. Compared to traditional mechanical hard drives, it has faster read/write speeds, higher durability, and does not fail due to mechanical wear. SSDs typically range in capacity from 128GB to 2TB and can be used in personal computers, servers, workstations, and other fields.
 
-![NVME SSD](/img/accessories/nvme-ssd-01.jpg)
+![NVME SSD](/img/accessories/nvme-ssd-01.webp)
 
 
 
@@ -25,7 +25,7 @@ SSD is a solid-state drive that uses flash memory chips as its storage medium. C
 
 Micro SD is a small flash memory storage card typically used to expand the storage space of devices such as smartphones, tablets, and digital cameras. Micro SD cards come in a range of capacities from a few hundred megabytes to several tens of gigabytes, with relatively slow read/write speeds. However, they are compact, portable, and can easily transfer data between different devices. 
 
-![Micro SD Card](/img/accessories/micro-sd-01.jpg)
+![Micro SD Card](/img/accessories/micro-sd-01.webp)
 
 ## Differences among the three
 In addition to the basic features mentioned above, these three types of storage devices have other important differences, such as:

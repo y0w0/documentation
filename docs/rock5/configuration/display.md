@@ -17,11 +17,11 @@ This setting is just available when you operating on the monitor. You can change
 ### System Settings-Display Settings
 
 On KDE desktop, you would see the `System Settings` after left clicking on the  `Appliction Launcher` in the lower left corner.  
-![System settings](/img/configuration/start_sys_setting.png)  
+![System settings](/img/configuration/start_sys_setting.webp)  
 Select the `System Settings`, find `Display and Monitor` in the `Hardware` option:  
-![System Settings](/img/configuration/system_setting.png)  
+![System Settings](/img/configuration/system_setting.webp)  
 You can modify the following settings in it:  
-![Display Settings](/img/configuration/display_setting.png) 
+![Display Settings](/img/configuration/display_setting.webp) 
 **Note: If you are using multiple monitors, the same steps are effective.**
 
 ### Terminal Command Settings

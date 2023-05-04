@@ -11,6 +11,7 @@ sidebar_position: 20
 
 - The picture below shows the RADXA M.2 Extension Board and the included parts.  
 **Please click the link for details.[M.2 Extension Board](../../../accessories/m2-extension-board)**
+
 ![ROCK5A Install M.2 Extension Board](/img/accessories/m2-extension-board-03.webp)
 
 - Please distinguish the front and back side of the IPEX cable first. As shown in the picture. 

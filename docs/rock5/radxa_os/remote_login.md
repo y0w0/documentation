@@ -3,7 +3,9 @@ sidebar_label: 'Remote Login'
 sidebar_position: 60
 ---
 
-# SSH
+# Remote Login
+
+## SSH
 Here is a tutorial on how to remotely login to ROCK 5A using SSH from a Windows computer.  
 
 To connect to a Debian system via the SSH protocol, you need to ensure that an SSH server has been installed on the Debian system. You can follow the steps below:  
@@ -37,7 +39,8 @@ For example:
 This is a basic SSH connection process. You can use other SSH options for more advanced connections.  
 
 
-# Remote Desktop
+## Remote Desktop
+
 Here is a tutorial on how to remotely control a ROCK 5A using VNC from a Windows computer.  
 
 ### Install VNC Server on the Rock 5A  

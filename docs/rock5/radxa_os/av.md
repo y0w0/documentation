@@ -3,7 +3,9 @@ sidebar_label: 'Audio and Video'
 sidebar_position: 70
 ---
 
-# Audio
+# Audio and Video
+
+## Audio
 
 The Radxa ROCK 5A product provides 2 audio output options, including the 3.5mm headphone jack and HDMI interface.  
 
@@ -14,7 +16,7 @@ The Radxa ROCK 5A product provides 2 audio output options, including the 3.5mm h
 ![ROCK5A_Audio](/img/rock5a/rock5a_audio.webp)
 
 
-# Video
+## Video
 
 - Dragon Player is the default media player included in the Debian system, If Dragon Player is not installed in the system, you can execute the following command to install it.  
 

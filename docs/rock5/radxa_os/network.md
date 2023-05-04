@@ -3,7 +3,9 @@ sidebar_label: 'Network Setting'
 sidebar_position: 20
 ---
 
-# Set Ethernet
+# Network Setting
+
+## Set Ethernet
 
 ROCK 5A offers a 10/100/1000Mbit RJ45 connector for wired networking. With additional PoE module/HAT, ROCK 5A can be powered by ethernet cable via RJ45 port by a PoE capable switch/router.   
 
@@ -12,7 +14,7 @@ When you use wired Internet, please plug the network cable into the RJ45 connect
 ![rock5a/rock5a_wifi](/img/rock5a/rock5a_ethernet.webp) 
 
 
-# Set WLAN
+## Set WLAN
 
 If you need to connect to the Internet wirelessly, you need to install a wireless module. Radxa recommends you to use Radxa Wireless Module A8.
 The following is the tutorial of ROCK 5A wireless Internet access:  

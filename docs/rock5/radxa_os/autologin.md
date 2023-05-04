@@ -3,7 +3,9 @@ sidebar_label: 'Auto Login'
 sidebar_position: 30
 ---
 
-# Set Auto Login
+# Auto Login
+
+## Set Auto Login
 
 If you feel that it is troublesome to enter the password every time you log in to the account, you can set it to automatically log in without entering the password.
 

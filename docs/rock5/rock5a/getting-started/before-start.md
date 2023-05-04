@@ -60,11 +60,13 @@ This is needed for serial console.
 - Camera Module
     
 ROCK 5A supports camera function.  
+
 **The official recommendation is to use [Radxa Camera 4K](../../../accessories/camera-4k)**
 
 - LCD Module
 
 ROCK 5A supports LCD display function.  
+
 **The official recommendation is to use [Radxa Display 8 HD](../../../accessories/lcd-8-hd) or [Radxa Display 10 HD](../../../accessories/lcd-10-hd)**
 
 - Audio cable

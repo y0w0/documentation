@@ -5,7 +5,6 @@ sidebar_position: 20
 
 # How to setup Radxa Display 8 HD on ROCK 5A
 
-
 ## Installation Guide
 
 The fpc provided by Radxa Display 8 HD, one port of fpc is connected to the screen, and the other is connected to ROCK 5A.  
@@ -20,11 +19,14 @@ Connect the FPC to ROCK 5A as shown in the figure. ROCK 5A provides a MIPI DSI i
 
 ## Configuration
 Press "Ctrl + Alt + T" simultaneously to open a terminal, run `rsetup` command as below:
+
 ```
 radxa@rock-5a:~$ rsetup
 ```
+
 Typing the password and select `Overlays` to rsetup tool interface.  
 Select `Overlays`:
+
 ```
 Configure Device Tree Overlay
         Manage overlays
@@ -33,7 +35,9 @@ Configure Device Tree Overlay
         Reset overlays
         <Ok>             <Cancel>
 ```
+
 Then, select `Manage overlays`:
+
 ```
 Configure Device Tree Overlay  
         Manage overlays  
@@ -47,6 +51,7 @@ Configure Device Tree Overlay
 
 Next, the installed device tree would shown, it may be different on different product.  
 Press the space bar to `Enable Radxa Display 8HD`
+
 ```
 Please select overlays: 
         [ ] Enable 1-Wire on GPIO4_B1
@@ -89,11 +94,15 @@ Please select overlays:
         [ ] Set OTG port to Peripheral mode
         <Ok>                   <Cancel>
 ```
+
 Select the overlays you want to load with the space bar,
+
 ```
 [*] Enable Radxa Camera 4K
 ```
+
 Overlay with a `*` indicates that it is enabled. It would work after reboot. 
+
 ```
 radxa@rock-5a:~$ sudo reboot
 ```

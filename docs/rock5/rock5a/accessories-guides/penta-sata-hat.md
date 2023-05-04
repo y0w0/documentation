@@ -40,6 +40,7 @@ sidebar_position: 20
 ## As a storage drive
 
 1.  you can check whether the SATA devices is recognized by ```lsblk```.
+
 ```
 radxa@rock-5a:~$ lsblk
 NAME         MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
@@ -59,4 +60,5 @@ mmcblk0boot1 179:64   0     4M  1 disk
 zram0        254:0    0   3.8G  0 disk [SWAP]
 radxa@rock-5a:~$ 
 ```
+
 2. As you can see, the system has recognized the SATA devices(sda/sdb/sdc/sdd).

@@ -5,7 +5,7 @@ sidebar_position: 31
 
 # Install OS to an SDCard
 
-## Prepare 
+## Preparation 
 
 1. Prepare a Micro SD card
 2. Prepare an SD card reader

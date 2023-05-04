@@ -3,7 +3,9 @@ sidebar_label: 'Social Media Apps'
 sidebar_position: 80
 ---
 
-# Discord
+# Social Media Apps
+
+## Discord
   
 1. Open a terminal and update your system using the following command:  
 

@@ -11,7 +11,7 @@ If you downloaded the image from our official website, the system default settin
 account: radxa
 password radxa
 ```
-# Update the user password
+## Update the user password
 - Click the second icon "system setting" in the lower left corner of the desktop.  
 
 ![ROCK5A_Update_Password](/img/rock5a/rock5a_update_password_1.webp)
@@ -33,7 +33,7 @@ Before the password change successfully, you need to enter your original passwor
 
 ![ROCK5A_Update_Password](/img/rock5a/rock5a_update_password_5.webp)  
 
-# Create new account   
+## Create new account   
 
 If you want to add a new user, click Add New User on the manage user interface. Enter the user name and enter the new user password as required by the information. As the picture shows:
 

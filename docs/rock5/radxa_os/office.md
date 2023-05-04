@@ -10,7 +10,7 @@ The office software provided by the operating system includes kate and kwrite. Y
 
 LibreOffice is a free, open-source office suite developed and maintained by The Document Foundation. It includes multiple applications such as word processor, spreadsheet, presentation maker, drawing and database management, and supports multiple operating systems and file formats.
 
-### How to install Libreoffice
+## How to install Libreoffice
 Press "Ctrl + Alt + T" at the same time or open Konsole to enter the command terminal.
 Enter the following command and click the Enter key, enter the password, and wait patiently for the installation.  
 

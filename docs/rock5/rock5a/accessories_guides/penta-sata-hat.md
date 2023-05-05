@@ -9,7 +9,7 @@ sidebar_position: 20
 ![ROCK5A Install Penta SATA HAT](/img/rock5a/rock5a-penta-sata-hat-05.webp)
 
 - The picture below shows the RADXA Penta SATA HAT and the included parts.
-**Please click the link for details. [Penta SATA HAT](../../../accessories/penta_sata_hat)**
+**Please click the link for details. [Penta SATA HAT](../../../accessories/penta-sata-hat)**
 ![ROCK5A Install M.2 Extension Board](/img/accessories/penta-sata-hat-01.webp)
 
 - Please distinguish the front and back side of the IPEX cable first. As shown in the picture. **The two ends of the IPEX cable we provide for ROCK5A are oriented in the same direction.**

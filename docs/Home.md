@@ -19,7 +19,7 @@ sidebar_custom_props: {
 				{
 					title: 'Getting started',
 					info: 'Getting started with your ROCK 5A',
-					url: '/rock5/rock5a/getting_started',
+					url: '/rock5/rock5a/getting-started',
 				},
 				{
 					title: 'Radxa OS',
@@ -34,7 +34,7 @@ sidebar_custom_props: {
 				{
 					title: 'Accessories',
 					info: 'Using accessories on ROCK 5A',
-					url: '/rock5/rock5a/using_accessories',
+					url: '/rock5/rock5a/using-accessories',
 				},
 				{
 					title: 'Build Guide',
@@ -44,7 +44,7 @@ sidebar_custom_props: {
 				{
 					title: 'Compliance',
 					info: 'Compliance documents for ROCK 5A',
-					url: '/rock5/rock5a/using_accessories',
+					url: '/compliance/rock5a',
 				},
 			],
 		},

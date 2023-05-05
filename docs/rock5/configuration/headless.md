@@ -47,7 +47,7 @@ If both of them don't work, it will be defficult, getting help via the internet 
 
 ## SSH Connection
 
-There is the [SSH guide](../radxa_os/remote_login), you can ignore it if you're familiar with it.  
+There is the [SSH guide](../radxa_os/remote-login), you can ignore it if you're familiar with it.  
 
 After installing the ssh service, connect remotely directly on terminal via username and ip address like following code.  
 `ssh <username>@[IP address]` 

@@ -84,15 +84,11 @@ a:hover {
   color: #606770;
 }
 
-.theme-doc-sidebar-item-link-level-4>a {
-  font-weight: 400 !important;
-  font-size: 15px !important;
-  line-height: 22px !important;
-  color: #606770;
-}
+
 
 .menu__link--active {
-  color: #297A4B !important;
+  color: #6aa700 !important;
+  font-weight: 700 !important;
 }
 
 .ant-select-item-option-active {
@@ -136,4 +132,15 @@ a:hover {
 
 .menu__list-item--collapsed {
   border: none;
+}
+
+[tabindex="0"] {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  color: #999999;
+}
+
+#__docusaurus * {
+  font-family: Arial, Helvetica, sans-serif
 }

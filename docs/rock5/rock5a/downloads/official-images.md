@@ -6,7 +6,7 @@ sidebar_position: 20
 # Official Images
 
 Radxa team supports the Debian-based Radxa OS officially. The first Release Version Software of ROCK 5A is available now.  
-If you want to try other operating systems, please refer to [Third Party Images](../downloads/3rd_images).  
+If you want to try other operating systems, please refer to [Third Party Images](../downloads/3rd-images).  
 ***Warning: Many of Third Party Images don't be tested officialy, they may have some issues.***
 
 ## Download
@@ -27,6 +27,6 @@ The release notice of the first official image of ROCK 5A is available:
 
 ## Installation
 
-For installation of images, please refer to this [start guide](../getting_started). 
+For installation of images, please refer to this [start guide](../getting-started). 
 If you have some problems during installation, you can try to find solutions on [Radxa Forum](https://forum.radxa.com/) fisrt, 
 after it doesn't be solved, please have a communication with our team. 

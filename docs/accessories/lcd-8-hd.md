@@ -3,7 +3,6 @@ sidebar_label: 'Radxa Display 8 HD'
 sidebar_position: 5
 ---
 
-
 # Radxa Display 8 HD
 
 
@@ -103,7 +102,6 @@ The Radxa Display 8 HD touch panel is powered by GT911, a new‑generation 5‑p
 |38   |NC         |No connection
 |39   |LED+       |LED Anode
 |40   |LED+       |LED Anode
-
 
 
 ## Mechanical Specification

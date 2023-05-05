@@ -20,7 +20,7 @@ Qualcomm Quick Charge 2.0 QC 3.0/2.0 adapter, 9V/2A, 12V/2A
 Power adapter with fixed voltage in 5.2V to 20V range on the USB Type-C port    
 5V Power applied to the GPIO PIN 2 & 4
 
-**The official recommendation is to use [Radxa Power PD30W](../../../accessories/pd_30w)**
+**The official recommendation is to use [Radxa Power PD30W](../../../accessories/pd-30w.md)**
 
 - USB Keyboard and Mouse
 
@@ -42,7 +42,7 @@ For flashing the image to the microSD Card
 
 - eMMC reader
 
-**The official recommendation is to use [Radxa eMMC reader](../../../accessories/emmc_reader)**
+**The official recommendation is to use [Radxa eMMC reader](../../../accessories/emmc-reader)**
 
 - Ethernet cable
 
@@ -60,12 +60,12 @@ This is needed for serial console.
 - Camera Module
     
 ROCK 5A supports camera function.  
-**The official recommendation is to use [Radxa Camera 4K](../../../accessories/camera_4k)**
+**The official recommendation is to use [Radxa Camera 4K](../../../accessories/camera-4k)**
 
 - LCD Module
 
 ROCK 5A supports LCD display function.  
-**The official recommendation is to use [Radxa Display 8 HD](../../../accessories/display_8hd) or [Radxa Display 10 HD](../../../accessories/display_10hd)**
+**The official recommendation is to use [Radxa Display 8 HD](../../../accessories/lcd-8-hd) or [Radxa Display 10 HD](../../../accessories/lcd-10-hd)**
 
 - Audio cable
 
@@ -73,4 +73,4 @@ Audio can be played through speaker or headphones using a standard 3.5mm jack.
 
 - WiFi/BT Cards
 
-**The official recommendation is to use [Radxa Wireless Module A8](../../../accessories/wireless_a8)**
+**The official recommendation is to use [Radxa Wireless Module A8](../../../accessories/wireless-a8)**

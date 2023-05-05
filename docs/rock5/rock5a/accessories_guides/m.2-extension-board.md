@@ -10,7 +10,7 @@ sidebar_position: 20
 ![ROCK5A Install M.2 Extension Board](/img/rock5a/rock5a-m2-extension-board-01.webp)
 
 - The picture below shows the RADXA M.2 Extension Board and the included parts.  
-**Please click the link for details.[M.2 Extension Board](../../../accessories/m2_extension_board)**
+**Please click the link for details.[M.2 Extension Board](../../../accessories/m2-extension-board)**
 ![ROCK5A Install M.2 Extension Board](/img/accessories/m2-extension-board-03.webp)
 
 - Please distinguish the front and back side of the IPEX cable first. As shown in the picture. 
@@ -57,4 +57,4 @@ radxa@rock-5a:~$
 
 ## As a system drive
 
-1. Please check the tutorial [Install OS to M.2 NVMe SSD](../getting_started/m2_install)
+1. Please check the tutorial [Install OS to M.2 NVMe SSD](../getting_started/m2-install.md)

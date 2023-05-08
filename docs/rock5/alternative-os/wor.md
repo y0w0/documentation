@@ -11,8 +11,8 @@ but you can try it follow this guide: [How to install on Rockchip device](https:
 
 ## Points of Attention
 
-ROCk 5A is based on Rockchip 3588S SoC, so you should choose [the UEFI](https://github.com/edk2-porting/edk2-rk35xx/releases) for 3588S, 
-rather than ROCK 5B which based on Rockchip 3588 SoC.  
+ROCk 5A is based on Rockchip RK3588S SoC, so you should choose [the UEFI](https://github.com/edk2-porting/edk2-rk35xx/releases) for RK3588S, 
+rather than ROCK 5B which based on Rockchip RK3588 SoC.  
 
 There are some differences from the installation of ROCk 5B:  
 only the HDMI port away from the USB-C port would work, it's also called HDMI_8K port;  

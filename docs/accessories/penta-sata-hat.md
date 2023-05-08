@@ -33,8 +33,9 @@ Currently supported Radxa ROCK Series products:
 - eSATA Cable
 - Screws for fixing
 - Adapter Board
+- IPEX Cable
 
-![Radxa Penta SATA HAT](/img/accessories/penta-sata-hat-01.webp)
+![Radxa Penta SATA HAT](/img/accessories/penta-sata-hat-2.webp)
 
 **Note꞉ The following products require an adapter board to support Penta SATA HAT**  
 

@@ -14,6 +14,5 @@ M2.E is an interface used to connect embedded devices, typically used to connect
 This expansion board is very easy to use, just plug it into the M2.E interface and then connect the SATA device to the expansion board. 
 
 ## Feature
-- Description: Convert M2.E port to SATA port  
-- Compatbility: Compatible with ROCK 5A / 5B   
-- Deminsion: 22mm x 30mm x 7mm  
+- Description: Convert M2.E port to SATA port   
+- Dimension: 22mm x 30mm x 7mm  

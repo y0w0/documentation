@@ -44,19 +44,48 @@ sidebar_custom_props: {
 				{
 					title: 'Compliance',
 					info: 'Compliance documents for ROCK 5A',
-					url: '/compliance/rock5a',
+					url: '/compliance/rock5/rock5a',
 				},
 			],
 		},
 		{
-			product_name: 'ROCK 5B',
+			# 产品代号
 			product_code: 'rs119',
+			# 产品名
+			product_name: 'ROCK 5B',
+			# 产品系列
 			Product_Line: 'ROCK 5 Series',
+			# 产品对应的所有文档
 			docs: [
 				{
-					title: 'Coming soon',
-					info: 'Under construction now, why not send a PR',
-					url: '/welcome',
+					title: 'Getting started',
+					info: 'Getting started with your ROCK 5B',
+					url: '/rock5/rock5b/getting-started',
+				},
+				{
+					title: 'Radxa OS',
+					info: 'Using the offcial operating system from Radxa',
+					url: '/rock5/radxa-os',
+				},
+				{
+					title: 'Configuration',
+					info: 'Configuring your ROCK 5B setting',
+					url: '/rock5/configuration',
+				},
+				{
+					title: 'Accessories',
+					info: 'Using accessories on ROCK 5B',
+					url: '/rock5/rock5b/using-accessories',
+				},
+				{
+					title: 'Build Guide',
+					info: 'Build from source code',
+					url: '/rock5/lowlevel-dev',
+				},
+				{
+					title: 'Compliance',
+					info: 'Compliance documents for ROCK 5A',
+					url: '/compliance/rock5/rock5b',
 				},
 			],
 		},

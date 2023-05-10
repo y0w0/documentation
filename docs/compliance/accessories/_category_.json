@@ -1,0 +1,9 @@
+{
+  "label": "Accessories Compliance",
+  "position": 10,
+  "link": {
+    "type": "generated-index",
+        "slug": "/accessories/compliance",
+    "description": "Radxa Accessories compliance"
+  }
+}

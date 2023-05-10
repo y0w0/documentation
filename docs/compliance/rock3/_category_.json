@@ -1,0 +1,9 @@
+{
+  "label": "ROCK 3 Family",
+  "position": 10,
+  "link": {
+    "type": "generated-index",
+        "slug": "/rock3/compliance",
+    "description": "Radxa ROCK 3 Series compliance"
+  }
+}

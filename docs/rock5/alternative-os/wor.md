@@ -5,9 +5,14 @@ sidebar_position: 10
 
 # Windows on R
 
+For ROCK 5B, because of the [UFEI of rk35xx](https://github.com/edk2-porting/edk2-rk35xx) and the efforts of [Windows On R team](https://worproject.com/), 
+the adaptation has completed, and the full guidance is already available:  
+[\[Guide\] How to install on Rockchip device](https://worproject.com/guides/how-to-install/on-rockchip) (Recommended).   
+[\[Guide\] How to install Windows 11 on ROCK 5B](https://forum.radxa.com/t/guide-how-to-install-windows-11-on-rock-5b/15524) (Reference).  
+
 Windows is not yet perfectly adapted to the ROCK 5A now, 
-but you can try it follow this guide: [How to install on Rockchip device](https://worproject.com/guides/how-to-install/on-rockchip).  
-**Note: ROCK 5A is not explicitly supported yet, please refer to other similar products.**  
+but you can also try it follow this guide: [How to install on Rockchip device](https://worproject.com/guides/how-to-install/on-rockchip).  
+**Note: ROCK 5A is not explicitly supported on the guide above yet, please refer to other similar products.**  
 
 ## Points of Attention
 

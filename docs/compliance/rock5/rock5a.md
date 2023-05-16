@@ -3,6 +3,8 @@ sidebar_label: 'ROCK 5A'
 sidebar_position: 3
 ---
 
+# ROCK 5A Compliance
+
 ## CE EMC
 
 - **Report number: BCTC2303654942C**

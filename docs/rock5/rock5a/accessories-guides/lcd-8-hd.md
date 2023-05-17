@@ -98,7 +98,7 @@ Please select overlays:
 Select the overlays you want to load with the space bar,
 
 ```
-[*] Enable Radxa Camera 4K
+[*] Enable Radxa Display 8 HD
 ```
 
 Overlay with a `*` indicates that it is enabled. It would work after reboot. 

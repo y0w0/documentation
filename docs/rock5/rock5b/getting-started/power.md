@@ -9,7 +9,7 @@ There are two ways for you to control the power of ROCK 5B, software and hardwar
 
 ## Software control
 
-Due to long time development of developers, there are many [third party operating systems](../download/3rd-images) available for ROCK 5B, everyone is difficult with others.  
+Due to long time development of developers, there are many [third party operating systems](../downloads/3rd-images) available for ROCK 5B, everyone is difficult with others.  
 **Take the debian system with KDE Desktop as an example here.**
 
 ### Desktop

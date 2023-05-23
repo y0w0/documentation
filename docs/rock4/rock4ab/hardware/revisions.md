@@ -1,7 +1,6 @@
 ---
-sidebar_label: 'Official Images'
+sidebar_label: 'Hardware Revisions'
 sidebar_position: 20
 ---
 
 # Coming Soon
-

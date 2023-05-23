@@ -16,11 +16,18 @@ jack with mic, USB Port, GbE LAN, 40-pin color expansion header, RTC.
 ROCK 4 series is first introduced in 2018 with ROCK 4 Model A and Model
 B, more models are added during the time:
 
-- ROCK 4A and 4B - 2018
-- ROCK 4C - 2020
-- ROCK 4A Plus and 4B Plus - 2021
-- ROCK 4C Plus - 2022
-- ROCK 4 SE - 2022
+|ROCK 4 SE - 2022|
+|---|
+|[![ROCK 4SE](/img/rock4/4se.webp)](/rock4/rock4se)|
+
+|ROCK 4C Plus - 2022|ROCK 4A/B Plus - 2021|
+|---|---|
+|[![ROCK 4C Plus](/img/rock4/4c+.webp)](/rock4/rock4cp)|[![ROCK 4A/B Plus](/img/rock4/4a+.webp)](/rock4/rock4abp)|
+
+| ROCK 4C - 2020 | ROCK 4A/B - 2018 |
+|---|---|
+|[![ROCK 4C](/img/rock4/4c.webp)](/rock4/rock4c)|[![ROCK 4A/B](/img/rock4/4b.webp)](/rock4/rock4ab)|
+
 
 The following are the parameters for each product. All models are supported by Radxa team until at least 2029.
 

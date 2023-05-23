@@ -31,7 +31,7 @@ Radxa M.2 Extension Board can be mounted on the top of the SBC or on the bottom 
 |M.2 E Key to IPEX    |           ROCK 5A               |
 
 - **ROCK 5A  M.2 Extension Board**   
-  Details refer to [unsing M.2 E extension board on ROCK 5A](http://localhost:3001/rock5/rock5a/accessories-guides/m.2-extension-board)
+  Details refer to [Using M.2 E extension board on ROCK 5A](/rock5/rock5a/accessories-guides/m.2-extension-board)
 ![Radxa M.2 Extension Board](/img/accessories/m2-extension-2.webp)
 
 

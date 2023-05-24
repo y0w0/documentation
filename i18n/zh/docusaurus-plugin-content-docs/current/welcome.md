@@ -1,30 +1,27 @@
 ---
-sidebar_label: '欢迎'
+sidebar_label: '关于本文档'
 sidebar_position: 1
-pagination_prev: null
 ---
 
 # 关于
 
-此瑞莎文档中心是适用于瑞莎单板计算机（开发板）及其配件的指导和参考，原文来自瑞莎团队和社区。
+瑞莎文档是由瑞莎团队和社区共同维护的用于支持瑞莎的单板机及其周边产品的教程和指南。
 
 # 遇到问题
 
-如果你在使用此文档时遇到了一些问题，请 [在GitHub提交issue](https://github.com/radxa-docs/documentation/issues)，我们会尽快回应。
+在使用本文档的过程中，如果遇到相关问题，请通过 Github 提交 issue，我们会第一时间回复。
 
 # 加入社区
 
-* 官方论坛: [Radxa Forum](http://forum.radxa.com) - 主要技术支持渠道，支持中英文, 中文内容需要发表在 [中文分区](https://forum.radxa.com/c/world/china).
-* Discord社区: [Radxa Discord](https://rock.sh/go) - 即时通讯和讨论组，只支持英文
-* QQ群: 591048098 - QQ讨论群，大部分使用中文
-* QQ频道: [Radxa QQ频道](https://pd.qq.com/s/23wlhn9j8)
-* 微信群: ![Radxa ROCK5B](/zh/img/wechat_group/ROCK5B.png)，大部分使用中文
+* 官方论坛: [Radxa Wiki](http://forum.radxa.com) - 主要技术支持渠道，中英文都支持，中文发帖需要发到中文板块。
+* Discord社群: [Radxa Discord](https://rock.sh/go) - 英文实时讨论群
+* QQ群: 591048098 - 中文讨论 QQ 群
+* 微信群: ![Radxa ROCK5B](/zh/img/wechat_group/ROCK5B.png) 中文讨论微信群
 
-## 注意
+注意:
 
-我们不推荐在封闭环境讨论技术问题和寻求帮助，比如(微信群/QQ群和其他类似软件，因为搜索引擎无法爬取)，建议在开放平台讨论技术问题，比如官方论坛或者Github issues。微信和QQ群的主要用途是社交与寻找同好。
+我们不推荐在封闭的软件如(微信群 / QQ群等不能被搜索引擎抓取内容的APP)讨论技术问题或者寻求帮助，技术讨论尽量在开放的场所如官方论坛或者 Github  issue 进行。微信 / QQ群的主要用途是社交和快速找到志趣相投的小伙伴。
 
-# 贡献
+# 贡献力量
 
-我们热烈欢迎所有人对瑞莎文档进行反馈、贡献补丁、添加内容和展示你的作品，只需要给我们发送PR。
-
+我们热烈欢迎大家给瑞莎文档反馈问题，贡献补丁，增加内容，展示创作。

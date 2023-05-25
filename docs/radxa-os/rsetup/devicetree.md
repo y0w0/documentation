@@ -19,7 +19,7 @@ run `rsetup` command as below:
 ```
 radxa@rock-5a:~$ rsetup
 ```
-After typing the password, you can see the [rsetup tool interface](../configuration/rsetup-tool).  
+After typing the password, you can see the [rsetup tool interface](rsetup-tool).  
 Select `Overlays`:
 ```
 Configure Device Tree Overlay

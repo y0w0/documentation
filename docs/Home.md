@@ -22,11 +22,6 @@ sidebar_custom_props: {
 					url: '/rock5/rock5a/getting-started',
 				},
 				{
-					title: 'Configuration',
-					info: 'Configuring your ROCK 5A setting',
-					url: '/rock5/configuration',
-				},
-				{
 					title: 'Accessories',
 					info: 'Using accessories on ROCK 5A',
 					url: '/rock5/rock5a/using-accessories',
@@ -56,11 +51,6 @@ sidebar_custom_props: {
 					title: 'Getting started',
 					info: 'Getting started with your ROCK 5B',
 					url: '/rock5/rock5b/getting-started',
-				},
-				{
-					title: 'Configuration',
-					info: 'Configuring your ROCK 5B setting',
-					url: '/rock5/configuration',
 				},
 				{
 					title: 'Accessories',

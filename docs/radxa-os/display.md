@@ -6,11 +6,11 @@ sidebar_position: 10
 # Display Introduction
 
 When choosing a monitor, you need to be aware of that different products support different display resolutions, please check the information on your [product](../../productlist) for details. 
-However, if you want to build a [headless platform](../configuration/headless), it'll not be a problem for you.
+However, if you want to build a [headless platform](headless), it'll not be a problem for you.
 
 ## Display Setup
 
-This setting is just available when you operating on the monitor, or you can set up a [Headless Device](../configuration/headless) as an alternative. You can change the display setting by following ways.  
+This setting is just available when you operating on the monitor, or you can set up a [Headless Device](headless) as an alternative. You can change the display setting by following ways.  
 
 ### System Settings-Display Settings
 
@@ -53,7 +53,7 @@ DP-1 disconnected (normal left inverted right x axis y axis)
 You can check which monitor is connected and the corresponding resolution.  
 #### Display Rotation
 
-You can rotate your screen display by modifying the [Display Settings](../configuration/display#system-settings-display-settings)-Orientation.  
+You can rotate your screen display by modifying the [Display Settings](display#system-settings-display-settings)-Orientation.  
 Or you can also achieving by command:
 ```
 Single Screen:

@@ -90,8 +90,18 @@ sidebar_custom_props: {
 					url: '/welcome',
 				},
 			],
+		},
+		{
+			product_name: 'Radxa OS',
+			product_code: 'radxa-os',
+			Product_Line: 'Radxa Software',
+			docs: [
+				{
+					title: 'User Manual',
+					url: '/radxa-os',
+				},
+			],
 		}
-
 	]
 }
 ---

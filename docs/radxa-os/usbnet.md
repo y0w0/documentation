@@ -5,9 +5,8 @@ sidebar_position: 10
 
 # USB Networking
 
-Most of radxa products have reserved a USB port as an OTG port, it also a adb debug port when runuing Android.You can consult the port definitions of the corresponding [products](https://radxa.com/product).  
-For ROCK 5A, it's the USB 3.0 port located above.  
-You can set up a shared network between two products by connecting their OTG ports. Now officially supported for latest linux and android images only.  
+Most of radxa products have reserved a USB port as an OTG port, it also a adb debug port when runuing Android. You can consult the port definitions of the corresponding [products](https://radxa.com/product).  
+You can set up a shared network between two products by connecting their OTG ports. Now officially supported for latest linux and android images.  
 
 ## Preparations
 
@@ -15,7 +14,7 @@ You can set up a shared network between two products by connecting their OTG por
 
 **Software**: If your SBC has not the latest software, connect you SBC to internet and type the following command:  
 ```
-radxa@rock-5a:~$ sudo apt update && apt upgrade
+sudo apt update && sudo apt full-upgrade
 ```
 
 **Service**: After updating software, you need to start the `radxa-usbnet` service:
@@ -40,7 +39,7 @@ The device machine enable this overlay:
 ```
 		[*] Set OTG port to Peripheral mode 
 ```
-Don't forget to reboot after enable options.  
+Reboot after enable options.  
 
 ### To the Host machine
 

@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Basic Setting'
+sidebar_label: 'Account management'
 sidebar_position: 10
 ---
 
@@ -9,7 +9,7 @@ sidebar_position: 10
 If you downloaded the image from our official website, the system default setting account name:
 ```
 account: radxa
-password radxa
+password: radxa
 ```
 ## Update the user password
 - Click the second icon "system setting" in the lower left corner of the desktop.  

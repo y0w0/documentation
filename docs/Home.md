@@ -22,11 +22,6 @@ sidebar_custom_props: {
 					url: '/rock5/rock5a/getting-started',
 				},
 				{
-					title: 'Radxa OS',
-					info: 'Using the offcial operating system from Radxa',
-					url: '/rock5/radxa-os',
-				},
-				{
 					title: 'Configuration',
 					info: 'Configuring your ROCK 5A setting',
 					url: '/rock5/configuration',
@@ -61,11 +56,6 @@ sidebar_custom_props: {
 					title: 'Getting started',
 					info: 'Getting started with your ROCK 5B',
 					url: '/rock5/rock5b/getting-started',
-				},
-				{
-					title: 'Radxa OS',
-					info: 'Using the offcial operating system from Radxa',
-					url: '/rock5/radxa-os',
 				},
 				{
 					title: 'Configuration',

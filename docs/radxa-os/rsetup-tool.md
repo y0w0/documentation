@@ -109,7 +109,7 @@ This option is for Configure Device Tree Overlay, please check [Device Tree Conf
 
 ## Connectivity
 
-This option is normally similar to [Network Setting](../../radxa-os/network). 
+This option is normally similar to [Network Setting](network). 
 
 ## User Settings
 

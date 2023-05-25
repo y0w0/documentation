@@ -10,12 +10,12 @@ The SSh service is automatically enabled when no monitor is available. Despite t
 
 ## Ethernet
 
-You can refer to this guide: [network guide](../../radxa-os/network).  
+You can refer to this guide: [network guide](network).  
 Connect the SBC to **the same switching network** as your computer via an RJ45 network cable. It usually manifested as the same router.
 
 ## Wireless
 
-The [wireless guide](../../radxa-os/network) may be helpful.
+The [wireless guide](network) may be helpful.
 
 *Note: Some solutions require a WiFi module to be installed in order to connect to the wireless network. For more details, please check product parameters on [Product Introduction](https://radxa.com/product).*
 
@@ -47,7 +47,7 @@ If both of them don't work, it will be defficult, getting help via the internet 
 
 ## SSH Connection
 
-There is the [SSH guide](../../radxa-os/remote-login), you can ignore it if you're familiar with it.  
+There is the [SSH guide](remote-login), you can ignore it if you're familiar with it.  
 
 After installing the ssh service, connect remotely directly on terminal via username and ip address like following code.  
 `ssh <username>@[IP address]` 

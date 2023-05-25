@@ -80,7 +80,7 @@ before using the mipi screen, you need to enable the corresponding overlay and r
 ```
 **Note: Different product may support different screen.**  
 
-There is a guide for using [Radxa Display 8HD](../rock5a/accessories-guides/lcd-8-hd.md) on ROCK 5A. 
+There is a guide for using [Radxa Display 8HD](../rock5/rock5a/accessories-guides/lcd-8-hd.md) on ROCK 5A. 
 
 In addition to Settings, the following commands enable you to modify in the display settings:
 

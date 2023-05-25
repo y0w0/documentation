@@ -4,7 +4,7 @@ sidebar_position: 1
 pagination_prev: null
 ---
 
-# About
+# Welcome to Radxa Documentation
 
 The Radxa Documentation Center is the place for tutorials and guides for supporting Radxa SBCs and accessories, maintained by the Radxa team and community.
 

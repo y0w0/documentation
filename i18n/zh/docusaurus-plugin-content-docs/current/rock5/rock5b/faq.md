@@ -27,14 +27,14 @@ sidebar_position: 4
 - 这里强烈建议使用官方电源适配器[Radxa Power PD 30W](../../accessories/pd_30w). Radxa Power PD 30W 在 ROCK 5B 的所有条件下进行了测试。
 - 使用更高速的 SD 卡或 eMMC 模块并禁用引导加载程序/内核串行控制台
 - 使用虚拟 12V USB C 电源
-- 检查Radxa社区报告的其他电源是否可用[Others Supply Power](./accessories/support_accessories)。
+- 检查Radxa社区报告的其他电源是否可用[Others Supply Power](./accessories-guides/support_accessories.md)。
 - 等待Radxa将PD协商移植到bootloader(u-boot)
 
 ### 我的ROCK 5B不开机，如何查看是否硬件问题
 
 * ROCK 5B故障排除步骤如下：
 1. ROCK 5B断电，取出eMMC模块、SD卡、NVMe SSD
-2. 按住 Maskrom Button按钮（**请查看ROCK5B标注图的标签 25**）[Maskrom Button](./intro)。
+2. 按住 Maskrom Button按钮（**请查看ROCK5B标注图的标签 25**）[Maskrom Button](./meet5b)。
 3. 使用 USB Type A 转 Type C 线材将 ROCK 5B USB C 插入 PC
 4. 检查PC设备管理器中是否有新的USB设备，如果有，则ROCK 5B已上电。 如果没有，请尝试其他 USB 端口，我们建议将 ROCK 5B 连接到 PC主机的后面板。
 

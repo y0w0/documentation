@@ -1,7 +1,6 @@
 ---
-sidebar_label: 'Radxa Camera 4K'
-sidebar_position: 3
+sidebar_label: '在ROCK 5B使用Radxa PD 30W 适配器'
+sidebar_position: 20
 ---
 
-
-# 待编辑
+# Comming Soon

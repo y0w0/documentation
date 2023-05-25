@@ -9,7 +9,7 @@ There are some preparations and operating notes of the installation of ROCK 5B.
 
 ## Necessary
 
-- An eMMC Module and a [Radxa eMMC Reader](../../../accessories/emmc-reader).  
+- An eMMC Module and a [Radxa eMMC Reader](../../../accessories/emmc_reader).  
 ![Radxa eMMC](/img/accessories/emmc_related_01.webp)  
 - The official image: you can get it on [This Page](../downloads/official-images).  
 - The flash tool: Officially recommended to use [balenaEtcher](https://etcher.balena.io). Of course, other tools like rufus and more are also supported. 

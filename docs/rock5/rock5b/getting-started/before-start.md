@@ -19,7 +19,7 @@ Qualcomm Quick Charge 2.0 QC 3.0/2.0 adapter, 9V/2A, 12V/2A
 Power adapter with fixed voltage in 5.2V to 20V range on the USB Type-C port    
 5V Power applied to the GPIO PIN 2 & 4
 
-**The official recommendation is to use [Radxa Power PD30W](../../../accessories/pd-30w.md)**
+**The official recommendation is to use [Radxa Power PD30W](../../../accessories/pd_30w)**
 
 - Installation media. 
 
@@ -45,7 +45,7 @@ The [**Settings Guide**](../../configuration/headless) will help you to complete
 
 - eMMC reader
 
-**The official recommendation is to use [Radxa eMMC reader](../../../accessories/emmc-reader).**
+**The official recommendation is to use [Radxa eMMC reader](../../../accessories/emmc_reader).**
 
 - Ethernet cable
 
@@ -64,7 +64,7 @@ This is needed for serial console.
     
 ROCK 5B supports camera function.  
 
-**The official recommendation is to use [Radxa Camera 4K](../../../accessories/camera-4k).**
+**The official recommendation is to use [Radxa Camera 4K](../../../accessories/camera_4k).**
 
 - LCD Module
 

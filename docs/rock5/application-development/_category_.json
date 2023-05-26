@@ -1,9 +1,9 @@
 {
-  "label": "Application Development",
+  "label": "应用开发",
   "position": 40,
   "link": {
     "type": "generated-index",
 	"slug": "/rock5/app-dev",
-    "description": "Application Development"
+    "description": "应用开发"
   }
 }

@@ -1,9 +1,9 @@
 {
-  "label": "Alternative OS",
+  "label": "备选操作系统",
   "position": 90,
   "link": {
     "type": "generated-index",
 	"slug": "/rock4/alt-os",
-    "description": "Many other OSes already supports ROCK 4 family"
+    "description": "ROCK 4系列已支持许多其他的操作系统"
   }
 }

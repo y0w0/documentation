@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Hardware Downloads'
+sidebar_label: '硬件资料 下载'
 sidebar_position: 20
 ---
 

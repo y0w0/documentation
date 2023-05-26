@@ -24,7 +24,7 @@ SSD: M.2 interface only.
 ROCK (Pi) 4C Plus doesn't support direct connection to SSD because there isn't a M.2 interface on board.**
 
 - Power supply:  
-Official power adapter [Radxa PD 30W](../../accessories/pd-30w) is recommended, it supports all products of ROCK 4 series.  
+Official power adapter [Radxa PD 30W](../../accessories/pd_30w) is recommended, it supports all products of ROCK 4 series.  
 Except for ROCK (Pi) 4C Plus support 5V only, other ROCK 4 series products support PD and QC charging protocols, poor chargers may cause some issues.
 
 **Note: If the power adapter is PD/QC compatible, the USB power cable must 

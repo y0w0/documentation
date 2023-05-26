@@ -50,13 +50,13 @@ sidebar_position: 1
 
 - LCD显示屏
 	* ROCK 5B支持LCD显示功能。
-	* 推荐使用 [Radxa Display 8 HD](../../../accessories/display_8hd).
+	* 推荐使用 [Radxa Display 8 HD](../../../accessories/lcd-8-hd).
 
 - 音频线
 	* 可以使用标准 3.5 毫米插孔通过扬声器或耳机播放音频。
 
 - WiFi/蓝牙卡
-	* ROCK5B 支持 市面上常见的无线模块，请查看[支持列表](../accessories/support_accessories)的 Wireless 列表。
+	* ROCK5B 支持 市面上常见的无线模块，请查看[支持列表](../accessories-guides/support_accessories)的 Wireless 列表。
 	* 推荐使用 Radxa Wireless Module A8 
 	![Radxa Wireless Module A8](/img/accessories/a8-module-01.png).
 
@@ -170,7 +170,7 @@ ping -c 5 www.google.com
 
 ###  WIFI&BT 连接
 
-- [WIFI_BT 支持和使用教程](../accessories/wifi_bt_access).
+- [WIFI_BT 支持和使用教程](../accessories-guides/wifi_bt_access).
 
 ### LED 状态
 

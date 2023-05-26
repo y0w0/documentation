@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Using Radxa SPI Flash Module  on ROCK 5A'
+sidebar_label: '在ROCK 5A上使用SPI Flash模块'
 sidebar_position: 20
 ---
 

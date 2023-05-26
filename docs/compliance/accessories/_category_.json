@@ -1,9 +1,9 @@
 {
-  "label": "Accessories",
+  "label": "配件认证信息",
   "position": 50,
   "link": {
     "type": "generated-index",
-        "slug": "/accessories/compliance",
-    "description": "Radxa Accessories compliance"
+    "slug": "/compliance/accessories",
+    "description": "瑞莎配件认证信息"
   }
 }

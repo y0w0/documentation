@@ -7,8 +7,6 @@ Radxa SPI Flash Module is an embedded storage module with high performance and r
 
 The SPI Flash module and the eMMC module write the OS image in the same way, you can refer to [Install OS to an SPI Flash Module](https://docs.radxa.com/rock5/rock5a/getting-started/emmc-install).
 
-
-
 # How to use SPI Flash module on ROCK 5A
 After you write the OS with SPI Flash module, you can install the SPI Flash module on the B2B connector of the ROCK 5A.
 

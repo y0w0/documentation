@@ -1,0 +1,9 @@
+{
+  "label": "ROCK 4A/B Plus",
+  "position": 20,
+  "link": {
+    "type": "generated-index",
+    "slug": "/rock4/rock4abp",
+    "description": "Single Board Computer with dual HDMI"
+  }
+}

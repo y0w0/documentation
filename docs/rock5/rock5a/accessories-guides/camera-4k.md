@@ -3,31 +3,31 @@ sidebar_label: 'Using Radxa Camera 4K on ROCK 5A'
 sidebar_position: 20
 ---
 
-# How to setup Radxa Camera 4K on ROCK 5A
+# 如何在 ROCK 5A 上安装 Radxa Camera 4K
 
-## How to connect fpc to camera and rock 5A
+## 如何使用FPC连接相机和rock 5A
 
-As shown in the picture, the black side of the FPC is insulated, and the other side is pins for connecting the circuit.
+如图所示，FPC 的黑色一面是绝缘的，另一面是用来连接电路的引脚。
 
 ![ROCK5A Install Radxa Camera 4K](/img/accessories/fpc.webp)
 
-Gently push the black structure up with your fingers, and then insert the fpc into the connector of the camera. Please refer to the picture for how to install. Then press down the black structure to fix the fpc on the camera module.
+用手指轻轻向上推黑色盖板，然后将 FPC 插入相机的连接器中。有关如何安装，请参阅图片。然后按下黑色的盖板来固定相机模块上的 FPC。
 
 ![ROCK5A Install Radxa Camera 4K](/img/accessories/camera_4k_pfc.webp)
 
-FPC is connected in the same way on ROCK 5A, as shown in the figure.
+在 ROCK 5A 上以同样的方式连接FPC，如图所示。
 
 ![ROCK5A Install Radxa Camera 4K](/img/accessories/rock5a_camera4k_fpc.webp)
 
-## Configure the Radxa Camera 4K
-Press "Ctrl + Alt + T" simultaneously to open a terminal, run `rsetup` command as below:
+## 配置 Radxa Camera 4K
+按下"Ctrl + Alt + T" 组合键打开终端,，运行 `rsetup` 命令：
 
 ```
 radxa@rock-5a:~$ rsetup
 ```
 
-Typing the password and select `Overlays` to rsetup tool interface.  
-Select `Overlays`:
+在rsetup工具界面，输入密码并选择 `Overlays` .  
+选择 `Overlays`:
 
 ```
 Configure Device Tree Overlay
@@ -38,7 +38,7 @@ Configure Device Tree Overlay
         <Ok>             <Cancel>
 ```
 
-Then, select `Manage overlays`:
+然后, 选择 `Manage overlays`:
 
 ```
 Configure Device Tree Overlay  
@@ -51,8 +51,7 @@ Configure Device Tree Overlay
       <Ok>            <Cancel>
 ```
 
-Next, the installed device tree would shown, it may be different on different product.  
-Press the space bar to `Radxa Camera 4K`
+接下来，将显示已安装的设备树，它可能在不同的产品上有所不同。在`Radxa Camera 4K`按下空格键
 
 ```
 Please select overlays: 
@@ -97,38 +96,38 @@ Please select overlays:
         <Ok>                   <Cancel>
 ```
 
-Select the overlays you want to load with the space bar,
+使用空格键选择你想加载的overlays，
 
 ```
 [*] Enable Radxa Camera 4K
 ```
 
-Overlay with a `*` indicates that it is enabled. It would work after reboot. 
+Overlay开头显示`*`表示它是启用的。它将在重新启动后工作。
 
 ```
 radxa@rock-5a:~$ sudo reboot
 ```
 
-## Using the Radxa Camera 4K
+## 使用 Radxa Camera 4K
 
-You can download **cheese** to use the camera with the following command:
+你可以下载 **cheese** 然后使用以下命令使用摄像机:
 ```
 radxa@rock-5a: sudo apt update
 radxa@rock-5a: sudo apt install cheese
 radxa@rock-5a: ./cheese
 ```
 
-At the same time, you can also use the terminal command to open the camera preview:
+同时，你也可以使用终端命令打开相机预览:
 ```
 gst-launch-1.0 v4l2src device=/dev/video11 io-mode=4 ! videoconvert ! video/x-raw,format=NV12,width=1920,height=1080 ! xvimagesink;   
 ```
 
-Take a picture using the following command:
+使用以下命令拍照:
 ```
 gst-launch-1.0 v4l2src device=/dev/video11 io-mode=4 ! videoconvert ! video/x-raw,format=NV12,width=1920,height=1080 ! jpegenc ! multifilesink location=file.name.jpg;  
 ```
 
-Take a video using the following command:
+使用以下命令拍摄视频:
 ```
 gst-launch-1.0 v4l2src num-buffers=512 device=/dev/video11 io-mode=4 ! videoconvert ! video/x-raw, format=NV12, width=1920, height=1080, framerate=30/1 ! tee name=t ! queue ! mpph264enc ! queue ! h264parse ! mpegtsmux ! filesink location=/home/radxa/file.name.mp4
 ```

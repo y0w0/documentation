@@ -2,7 +2,7 @@
 sidebar_label: 'Using Radxa eMMC Module on ROCK 5A'
 sidebar_position: 20
 ---
-# Using Radxa eMMC Module on ROCK 5A
+# 在ROCK 5A上使用eMMC模块
 
 Radxa eMMC 模块是一种嵌入式存储模块，具有超小面积、高性能和可靠性。使用双 B2B (Board to Board)连接器，Radxa eMMC 模块不用焊接就可以拔掉插头并更换，使数据存储维护变得容易。
 

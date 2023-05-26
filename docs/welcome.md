@@ -1,30 +1,27 @@
 ---
-sidebar_label: 'Welcome'
+sidebar_label: '关于本文档'
 sidebar_position: 1
-pagination_prev: null
 ---
 
-# Welcome to Radxa Documentation
+# 关于
 
-The Radxa Documentation Center is the place for tutorials and guides for supporting Radxa SBCs and accessories, maintained by the Radxa team and community.
+瑞莎文档是由瑞莎团队和社区共同维护的用于支持瑞莎的单板机及其周边产品的教程和指南。
 
-## Problems encountered
+# 遇到问题
 
-If you encounter any problems while using this documentation, please [submit an issue via Github](https://github.com/radxa-docs/documentation/issues) and we will respond as soon as possible.
+在使用本文档的过程中，如果遇到相关问题，请通过 Github 提交 issue，我们会第一时间回复。
 
-## Join the community
+# 加入社区
 
-* Official Forum: [Radxa Forum](http://forum.radxa.com) - Main technical support channel, both English and Chinese are supported, Chinese content should be posted in the [Chinese section](https://forum.radxa.com/c/world/china).
-* Discord Community: [Radxa Discord](https://rock.sh/go) - Instant chatting and discussion group, English only
-* QQ Group: 591048098 - QQ Discussion group, mostly Chinese
-* QQ Channel: [Radxa QQ Channel](https://pd.qq.com/s/23wlhn9j8)
-* WeChat group: ![Radxa ROCK5B](/zh/img/wechat_group/ROCK5B.png), mostly Chinese
+* 官方论坛: [Radxa Wiki](http://forum.radxa.com) - 主要技术支持渠道，中英文都支持，中文发帖需要发到中文板块。
+* Discord社群: [Radxa Discord](https://rock.sh/go) - 英文实时讨论群
+* QQ群: 591048098 - 中文讨论 QQ 群
+* 微信群: ![Radxa ROCK5B](/zh/img/wechat_group/ROCK5B.png) 中文讨论微信群
 
-## Attention
+注意:
 
-We do not recommend discussing technical issues or seeking help in closed environment such as (WeChat group / QQ group and other APPs that cannot be crawled by search engines), but try to discuss technical issues in open places such as official forums or Github issues. The main purpose of WeChat / QQ group is to socialize and quickly find like-minded people.
+我们不推荐在封闭的软件如(微信群 / QQ群等不能被搜索引擎抓取内容的APP)讨论技术问题或者寻求帮助，技术讨论尽量在开放的场所如官方论坛或者 Github  issue 进行。微信 / QQ群的主要用途是社交和快速找到志趣相投的小伙伴。
 
-## Contribute
+# 贡献力量
 
-We warmly welcome everyone to give feedback on Radxa documentation, contribute patches, add content, and showcase your creations. Just send us PR.
-
+我们热烈欢迎大家给瑞莎文档反馈问题，贡献补丁，增加内容，展示创作。

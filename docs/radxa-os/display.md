@@ -6,13 +6,11 @@ sidebar_position: 10
 # Display Introduction
 
 When choosing a monitor, you need to be aware of that different products support different display resolutions, please check the information on your [product](../../productlist) for details. 
-However, if you want to build a [headless platform](../configuration/headless), it'll not be a problem for you.
-
-Take [ROCK 5A](https://radxa.com/product/detailed?product_name=rock_5a) for example, there are two micro HDMI and one mipi display interface. One micro HDMI supports up to 8K resolution as another suports up to 4K. Theoretically, you can use three screens at the same time.  
+However, if you want to build a [headless platform](headless), it'll not be a problem for you.
 
 ## Display Setup
 
-This setting is just available when you operating on the monitor, or you can set up a [Headless Device](../configuration/headless) as an alternative. You can change the display setting by following ways.  
+This setting is just available when you operating on the monitor, or you can set up a [Headless Device](headless) as an alternative. You can change the display setting by following ways.  
 
 ### System Settings-Display Settings
 
@@ -29,7 +27,7 @@ You can modify the following settings in it:
 We also provide `xrandr` for display settings.  
 With the following command you can check the current display status:  
 ```
-radxa@rock-5a:~$ xrandr
+xrandr
 ```
 There is an example:
 ```
@@ -55,7 +53,7 @@ DP-1 disconnected (normal left inverted right x axis y axis)
 You can check which monitor is connected and the corresponding resolution.  
 #### Display Rotation
 
-You can rotate your screen display by modifying the [Display Settings](../configuration/display#system-settings-display-settings)-Orientation.  
+You can rotate your screen display by modifying the [Display Settings](display#system-settings-display-settings)-Orientation.  
 Or you can also achieving by command:
 ```
 Single Screen:
@@ -68,19 +66,23 @@ Single Screen:
    xrandr -rate       # Set refresh rate
 ```
 
-#### Multiple Screen Settings
+#### Using MIPI Screen
 
-ROCK 5A Supports up to three displays, two micro HDMI interfaces and one mipi interface, the **mipi display** should be enabled on overlay:  
-You can get the supported mipi screen model on [overlays menu](../configuration/devicetree#how-to-enable-an-overlay), 
-before using the mipi screen, you need to enable the corresponding overlay and reboot.  
+Some of Radxa products support MIPI displays connected via ribbon cable. However, they are not enabled by default.
+
+You can get the supported mipi screen model from the [overlay menu](rsetup/devicetree#how-to-enable-an-overlay).
+
+Before using the mipi screen, you need to enable the corresponding overlay and reboot.  
 
 ```
+        ...
         [ ] Enable Radxa Display 10HD 
         [ ] Enable Radxa Display 8HD
+        ...
 ```
 **Note: Different product may support different screen.**  
 
-There is a guide for using [Radxa Display 8HD](../rock5a/accessories-guides/lcd-8-hd.md) on ROCK 5A. 
+#### Multiple Screen Settings
 
 In addition to Settings, the following commands enable you to modify in the display settings:
 

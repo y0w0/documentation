@@ -37,7 +37,7 @@ With 2x USB-A 2.0 HOST connectors, ROCK 5B can be equipped with a full sized key
 -- Headless Start: 
 
 You can also start as a headless module if you don't want to use monitor and keyboard and mouse. 
-The [**Settings Guide**](../../configuration/headless) will help you to complete the headless set up.
+The [**Settings Guide**](../../../radxa-os/headless) will help you to complete the headless set up.
 
 ## Optional
 

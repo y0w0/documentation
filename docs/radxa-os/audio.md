@@ -5,14 +5,13 @@ sidebar_position: 10
 
 # Audio Introdution
 
-The ROCK 5 platform has up to four audio output modes: HDMI 1 and 2, a headphone jack, and bluetooth audio. You can switch between these modes at any time. 
+The system default sound output priority is: Bluetooth Audio > Headphones > HDMI Audio. After manual selection of audio output, The selection will be raised to the highest priority.
 
-The system default sound output priority is that:Bluetooth Audio> Headphones > HDMI Audio. After manual selection of audio output, The selection will be raised to the highest priority.  
 It means that connecting other audio devices does not switch the audio output when the device is playing at the highest priority device. 
 
 ## Audio Settings
 
-In addition to the graphical interface, we can also set up the audio by terminal. 
+In addition to the graphical interface, we can also set up the audio from the terminal. 
 
 ### Desktop Settings
 Left-clicking the volume icon on the desktop taskbar brings up the audio output selector; this allows you to select between the internal audio outputs. 

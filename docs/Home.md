@@ -22,16 +22,6 @@ sidebar_custom_props: {
 					url: '/rock5/rock5a/getting-started',
 				},
 				{
-					title: 'Radxa OS',
-					info: 'Using the offcial operating system from Radxa',
-					url: '/rock5/radxa-os',
-				},
-				{
-					title: 'Configuration',
-					info: 'Configuring your ROCK 5A setting',
-					url: '/rock5/configuration',
-				},
-				{
 					title: 'Accessories',
 					info: 'Using accessories on ROCK 5A',
 					url: '/rock5/rock5a/using-accessories',
@@ -63,16 +53,6 @@ sidebar_custom_props: {
 					url: '/rock5/rock5b/getting-started',
 				},
 				{
-					title: 'Radxa OS',
-					info: 'Using the offcial operating system from Radxa',
-					url: '/rock5/radxa-os',
-				},
-				{
-					title: 'Configuration',
-					info: 'Configuring your ROCK 5B setting',
-					url: '/rock5/configuration',
-				},
-				{
 					title: 'Accessories',
 					info: 'Using accessories on ROCK 5B',
 					url: '/rock5/rock5b/using-accessories',
@@ -100,8 +80,18 @@ sidebar_custom_props: {
 					url: '/welcome',
 				},
 			],
+		},
+		{
+			product_name: 'Radxa OS',
+			product_code: 'radxa-os',
+			Product_Line: 'Radxa Software',
+			docs: [
+				{
+					title: 'User Manual',
+					url: '/radxa-os',
+				},
+			],
 		}
-
 	]
 }
 ---

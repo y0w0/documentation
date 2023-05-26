@@ -7,8 +7,6 @@ sidebar_position: 70
 
 ## Audio
 
-The Radxa ROCK 5A product provides 2 audio output options, including the 3.5mm headphone jack and HDMI interface.  
-
 - When you use headphones to listen to music, please plug your headphones into the 3.5mm headphone jack. Open the sound icon in the lower right corner of the desktop and switch to the headphone driver.  
 
 - Additionally, through the HDMI interface, users can directly transmit audio and video signals to the connected display or TV without the need for additional audio cables. The HDMI interface also supports high-quality digital audio transmission, providing similar audio quality to the digital audio interface. Similarly, to switch to HDMI output, you only need to select HDMI/Display port in the audio output mode.

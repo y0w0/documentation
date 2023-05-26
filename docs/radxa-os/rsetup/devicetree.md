@@ -7,9 +7,9 @@ sidebar_position: 10
 
 ## Introduction
 
-This directory contains Device Tree overlays. Device Tree makes it possible to support many hardware configurations with a single kernel and without the need to explicitly load or blacklisr kernel modules.
+Device Tree Overlays make it possible to support many hardware configurations with a single kernel and without the need to explicitly load or blacklist kernel modules.
 
-On Radxa borad which uses linux5.10 kernel, you can use `rsetup` to load overlays that you want to enable, rsetup load overlays' dtbo from [Radxa/overlay](https://github.com/radxa/overlays/tree/main/arch/arm64/boot/dts/rockchip/overlays).  
+You can use `rsetup` to manage overlays.  
 
 ## How to enable an overlay
 
@@ -17,9 +17,9 @@ On Radxa borad which uses linux5.10 kernel, you can use `rsetup` to load overlay
 
 run `rsetup` command as below:
 ```
-radxa@rock-5a:~$ rsetup
+rsetup
 ```
-After typing the password, you can see the [rsetup tool interface](../configuration/rsetup-tool).  
+After typing the password, you can see the [rsetup tool interface](rsetup-tool).  
 Select `Overlays`:
 ```
 Configure Device Tree Overlay
@@ -41,7 +41,7 @@ Configure Device Tree Overlay
       <Ok>            <Cancel>
 ```
 
-Next, the installed device tree would shown, it may be different on different product.  
+Next, the compatible device tree would shown, it may be different on different product.  
 For example, those are for ROCK 5A:  
 ```
 Please select overlays: 
@@ -91,9 +91,3 @@ Select the overlays you want to load with the space bar,
 [*] Enable Radxa Camera 4K
 ```
 Overlay with a `*` indicates that it is enabled. It would work after reboot.
-
-## How to use an overylay written by yourself
-
-Write the overlay and put the overlay under `rockchip-bsp/kernel/arch/arm64/boot/dts/rockchip/overlay/`,then add the overlay name to the makefile in the `overlay/` directory. Then, recompile and build a new image.  
-
-In the recompiled image, you can find the overlay you have added.  

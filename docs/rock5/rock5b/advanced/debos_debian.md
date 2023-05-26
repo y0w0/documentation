@@ -12,12 +12,12 @@ sidebar_position: 8
 ### 获取源代码
 
 - 您需要 Git 获取多个 git 存储库来构建映像。
-```
+```bash
 sudo apt-get update
 sudo apt-get install git
 ```
 - 克隆源代码
-```
+```bash
 mkdir ~/rk3588-sdk && cd ~/rk3588-sdk
 git clone -b stable-5.10-rock5 https://github.com/radxa/u-boot.git
 git clone -b stable-5.10-rock5 https://github.com/radxa/kernel.git
@@ -26,7 +26,7 @@ git clone -b debian https://github.com/radxa/build.git
 git clone -b main https://github.com/radxa/debos-radxa.git
 ```
 - 你将得到以下
-```
+```bash
 build  kernel  rkbin u-boot
 ```
 
@@ -40,23 +40,23 @@ build  kernel  rkbin u-boot
 
 ### 安装工具链
 
-```
+```bash
 wget https://dl.radxa.com/tools/linux/gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu.tar.gz
 sudo tar zxvf gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu.tar.gz -C /usr/local/
 ```
 
 - 将以下行添加到文件末尾 ~/.bashrc
-```
+```bash
 export PATH="/usr/local/gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu/linux-x86/aarch64/gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu/bin:$PATH"
 ```
 
 - 重置~/.bashrc
-```
+```bash
 source ~/.bashrc
 ```
 
 - 检查toolchain版本
-```
+```bash
 radxa@x86-64:~$ which aarch64-none-linux-gnu-gcc
 /usr/local/gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu/linux-x86/aarch64/gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu/bin/aarch64-none-linux-gnu-gcc
 
@@ -72,7 +72,7 @@ gcc version 10.3.1 20210621 (GNU Toolchain for the A-profile Architecture 10.3-2
 ```
 
 - 安装其余工具
-```
+```bash
 sudo apt-get install device-tree-compiler libncurses5 libncurses5-dev build-essential libssl-dev mtools bc python dosfstools
 ```
 
@@ -81,13 +81,13 @@ sudo apt-get install device-tree-compiler libncurses5 libncurses5-dev build-esse
 - 需要检查分支 stable-5.10-rock5。
 
 - 使用默认的 rock-5b-rk3588_defconfig 构建 u-boot。
-```
+```bash
 cd ~/rk3588-sdk
 ./build/mk-uboot.sh rk3588-rock-5b # For ROCK 5B
 ```
 
 - 生成的images将被复制到 out/u-boot 文件夹
-```
+```bash
 ls out/u-boot/
 idbloader.img rk3588_spl_loader_v1.07.111.bin spi u-boot.itb
 ```
@@ -95,13 +95,13 @@ idbloader.img rk3588_spl_loader_v1.07.111.bin spi u-boot.itb
 ## 写入u-boot
 
 - 先检查out/u-boot 中的文件内容是否与如下一致：
-```
+```bash
 ls out/u-boot/
 idbloader.img  rk3588_spl_loader_v1.07.111.bin  spi  u-boot.itb
 ```
 
 - 烧录 u-boot 到你的存储介质
-```
+```bash
 sudo dd if=./idbloader.img of=/path/to/storage/device bs=512 seek=64
 sudo dd if=./u-boot.itb of=/path/to/storage/device bs=512 seek=16384
 ```
@@ -111,7 +111,7 @@ sudo dd if=./u-boot.itb of=/path/to/storage/device bs=512 seek=16384
 - 需要检查分支到 stable-5.10-rock5。
 
 - 使用默认的 rockchip_linux_defconfig 构建内核kernel。
-```
+```bash
 cd ~/rk3588-sdk
 ./build/mk-kernel.sh rk3588-rock-5b #For ROCK 5B
 ```
@@ -119,7 +119,7 @@ cd ~/rk3588-sdk
 ### 更改内核配置
 
 可以选择性更改默认内核配置
-```
+```bash
 cd ~/rk3588-sdk
 cd kernel
 export ARCH=arm64
@@ -133,7 +133,7 @@ cd ..
 ```
 
 - 您将获得内核映像和 dtb 文件
-```
+```bash
 ls out/kernel/
 Image  rk3588-rock-5b.dtb
 ```
@@ -142,13 +142,13 @@ Image  rk3588-rock-5b.dtb
 
 - 内核包构建可以将内核、设备树、模块和固件打包成 Debian 包，这使得在 ROCK 5B 上安装更容易。
 
-```
+```bash
 ./build/pack-kernel.sh -d rockchip_linux_defconfig -r 10 # rockchip_linux_defconfig: kernel defconfig; 1: release number
 ```
 
 - 生成的包将被复制到 out/packages 目录。
 
-```
+```bash
 ls out/packages/
 linux-5.10.66-10-rockchip-ge5013df5e066_5.10.66-10-rockchip_arm64.changes
 linux-image-5.10.66-10-rockchip-ge5013df5e066-dbg_5.10.66-10-rockchip_arm64.deb
@@ -160,7 +160,7 @@ linux-image-5.10.66-10-rockchip-ge5013df5e066_5.10.66-10-rockchip_arm64.deb
 - 当您想要将指定的内核包安装到您的操作系统时，请尝试以下步骤。
 - 将 linux-image-5.10.66-10-rockchip-ge5013df5e066-dbg_5.10.66-10-rockchip_arm64.deb 复制到您的 ROCK 5B。
 - 将它们安装在 ROCK 5 上。
-```
+```bash
 # dpkg -i linux-image-5.10.66-10-rockchip-ge5013df5e066-dbg_5.10.66-10-rockchip_arm64.deb
 ```
 
@@ -168,7 +168,7 @@ linux-image-5.10.66-10-rockchip-ge5013df5e066_5.10.66-10-rockchip_arm64.deb
 
 - 删除旧的 ROCK 5B U-boot 和内核包。
 
-```
+```bash
 $ cd ~/rk3588-sdk/debos-radxa
 
 $ ls rootfs/packages/arm64/kernel/*5.10.66*
@@ -184,13 +184,13 @@ rootfs/packages/arm64/u-boot/rock-5b-rk-ubootimg_2017.09-g592fa62ffe2-220419_all
 
 - 设置Docker
 
-```
+```bash
 $ cd ~/rk3588-sdk/debos-radxa
 $ ./docker/dev-shell
 ```
 
 - 在 Docker 容器中构建镜像image。
-```
+```bash
 # ./build.sh -c rk3588 -b rock-5b -m debian -d bullseye -v xfce4 -a arm64 -f gpt
 ```
 

@@ -1,15 +1,15 @@
 ---
-sidebar_label: 'Third Party Images'
+sidebar_label: '第三方镜像'
 sidebar_position: 30
 ---
 
-# Third Party Images
+# 第三方镜像
 
 ROCK 5B has been available for a while now. 
 Thanks to the efforts of the developers, there are a lot of third party images already available. 
 If you want a different experience with ROCK 5B, those images would be a good choice.  
 
-## Third Party Images Description
+## 第三方镜像介绍
 
 | [![RebornOS](/img/rock5b/downloads/Rebornos-arm.webp)](https://www.rebornos.org/download-arm) | [RebornOS ARM Rock5B Beta.](https://github.com/RebornOS-Developers/lxqt-rock5b-image/releases/latest)<br/>RebornOS is a desktop-oriented Linux distribution based on Arch Linux. Although the RebornOS live image provides one desktop only, the installation process offers a choice to install one of the many popular desktop environments and window managers. | RebornOS ARM on Arch: [Discussion Discord](https://discord.gg/K3BKe2A9)\| username and password are set upon installation\| Live w/Calamares for custom tailored installation of over 10 DE's based on preference.\| [Installation Wiki](https://wiki.rebornos.org/arm/install)\| Rolling ARM Distribution - - Made for you, made with you.|
 | ----  | ----------- |:---- |
@@ -20,7 +20,7 @@ If you want a different experience with ROCK 5B, those images would be a good ch
 | [![batocera](/img/rock5b/downloads/batocera.webp)](https://youtu.be/OE65lPvpu0I) | [Batocera for Rock 5](https://batocera.org/download)<br/>Fancy a good mugen? Batocera is here and allows you to get the best of emulators all in one system. | Batocera.linux is an open-source and completely free retro-gaming distribution that can be copied to a USB stick or an SD card with the aim of turning any computer/nano computer into a gaming console during a game or permanently. Batocera.linux does not require any modification on your computer.<br/>[Download](https://mirrors.o2switch.fr/batocera/rock-5b/stable/last/batocera-rk3588-rock-5b-36-20230310.img.gz)\|[Official Page](https://batocera.org/ )\|[Wiki](https://wiki.batocera.org/)\|[Forum](https://forum.batocera.org/)\|[Discord](https://discord.com/invite/ndyUKA5)\|[Helpful](https://forum.radxa.com/t/rom-batocera-for-radxa-zero/7414) |
 | [![openhd](/img/rock5b/downloads/openhd.webp)](https://openhdfpv.org/) | [OpenHD Images](https://github.com/OpenHD/OpenHD-ImageBuilder)<br/>OpenHD is a suite of open source software designed for long-range video transmission, telemetry, and RC control. While originally designed with hobbyist drones in mind, it can be adapted to a wide range of other applications as well. | OpenHD serves as an all-in-one solution for digital video transmission,also offering the ability to transmit additional telemetry and control data through MAVLINK. Its primary objective is to enable low latency and long-range video/data transmission using readily available off-the-shelf WiFi hardware, such as the rtl8812au.<br/>[Official Page](https://openhdfpv.org/)\|[Github](https://github.com/OpenHD/OpenHD)\|[Wiki](https://openhd.gitbook.io/)\|[Telegram](https://t.me/OpenHD_User)\|[Discord](https://discord.gg/NRRn5ugrxH) |
 
-## Community Built Images
+## 社区构建的镜像
 
 | [![UFEI](/img/rock5b/downloads/UFEI.webp)](https://github.com/edk2-porting/edk2-rk35xx) | ![logouiefi](/img/rock5b/downloads/logouiefi.webp) | [UEFI For Rock 5](https://forum.radxa.com/t/uefi-edk2-on-the-rock-5b/12642/1)<br/>Unified Extensible Firmware Interface (UEFI) is a specification for a software program that connects a computer's firmware to its operating system (OS). UEFI is expected to eventually replace basic input/output system (BIOS) but is compatible with it.<br/>[Forum for Discussion](https://forum.radxa.com/t/uefi-edk2-on-the-rock-5b/12642/1)\| [Windows on R UEFI](https://forum.radxa.com/t/windows-uefi-on-rock-5-mega-thread/12924/1)\| [Discord](https://discord.gg/Gh7STP7Qh3)|
 | ----  | ----------- |:---- |

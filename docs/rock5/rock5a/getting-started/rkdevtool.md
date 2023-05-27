@@ -20,7 +20,7 @@ We use the rkdeveloptool in Linux/macOS and the RKDevTool under Windows.
 # Steps
 
 - **Install Tool and Drivers on Windows:**  
-[RKDevTool V2.96](https://dl.radxa.com/tools/windows/RKDevTool_Release_v2.86.zip)  
+[RKDevTool V2.96](https://dl.radxa.com/tools/windows/RKDevTool_Release_v2.96-20221121.rar)  
 [DriverAssitant V5.0](https://dl.radxa.com/tools/windows/DriverAssitant_v5.0.zip)  
 
 - Boot the board to Maskrom mode:  

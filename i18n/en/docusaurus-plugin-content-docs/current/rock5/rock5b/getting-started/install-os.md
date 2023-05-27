@@ -8,25 +8,31 @@ sidebar_position: 30
 ROCK 5B supports three installation media to install operating system, micro SD card, eMMC and M.2 SSD. 
 You can get the suggestion of how to choose installation media on the following guide. 
 
-### eMMC 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<Tabs>
+  <TabItem value="eMMC" label="eMMC" default>
 
 eMMC is a built-in storage chip typically used in mobile devices and embedded systems. It integrates flash memory and a controller and has a relatively small capacity, usually ranging from 4GB to 128GB. eMMC has slower read/write speeds compared to SSD and is suitable for storing small applications, media, files and other data. The eMMC chip is often directly soldered onto the device motherboard, unlike SD cards or Micro SD cards, which can be inserted and replaced.  
 Radxa offers **removable** eMMC modules.
 
 ![eMMC Module](/img/accessories/emmc_related_01.webp)
 ![eMMC and SSD Comparison](/img/accessories/emmc_ssd_comparison.webp)
-
-### NVMe SSD
+  </TabItem>
+  <TabItem value="NVMe" label="NVMe">
 
 SSD is a solid-state drive that uses flash memory chips as its storage medium. Compared to traditional mechanical hard drives, it has faster read/write speeds, higher durability, and does not fail due to mechanical wear. SSDs typically range in capacity from 128GB to 2TB and can be used in personal computers, servers, workstations, and other fields.
 
 ![NVME SSD](/img/accessories/nvme-ssd-01.webp)
+  </TabItem>
+  <TabItem value="Micro SD" label="MicroSD">
 
-### Micro SD Card
-
-Micro SD is a small flash memory storage card typically used to expand the storage space of devices such as smartphones, tablets, and digital cameras. Micro SD cards come in a range of capacities from a few hundred megabytes to several tens of gigabytes, with relatively slow read/write speeds. However, they are compact, portable, and can easily transfer data between different devices. 
+Micro SD is a small flash memory storage card typically used to expand the storage space of devices such as smartphones, tablets, and digital cameras. Micro SD cards come in a range of capacities from a few hundred megabytes to several tens of gigabytes, with relatively slow read/write speeds. However, they are compact, portable, and can easily transfer data between different devices.
 
 ![Micro SD Card](/img/accessories/micro-sd-01.webp)
+  </TabItem>
+</Tabs>
 
 ## Differences
 

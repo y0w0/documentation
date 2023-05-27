@@ -93,7 +93,7 @@ GPIO4_D5 = 32*4 + 8*3 + 5 = 157
 ![GPIO_numbew](/zh/img/accessories/Gpio_number.png)
 
 - 设置GPIO4_D5输出
-```
+```bash
 # cd /sys/class/gpio
 # echo 157 > export
 # cd gpio157

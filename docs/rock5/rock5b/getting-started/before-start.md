@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Before start'
+sidebar_label: '准备工作'
 sidebar_position: 20
 ---
 

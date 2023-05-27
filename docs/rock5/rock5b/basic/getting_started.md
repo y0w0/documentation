@@ -100,19 +100,18 @@ sidebar_position: 1
 ### 访问 ROCK5B
 
 - 默认用户密码
-```
+```bash
 User Name : rock
 Password  : rock
 ```
 - 切换到 root 用户
-```
-rock@rock-5b:~$ 
+```bash
 rock@rock-5b:~$ sudo su
 [sudo] password for rock: 
 root@rock-5b:/home/rock# 
 ```
 - root 用户默认没有密码。 您可以通过“passwd root”设置密码。
-```
+```bash
 root@rock-5b:/home/rock# passwd root
 New password: 
 Retype new password: 
@@ -145,7 +144,7 @@ scp 命令格式
 - 用户名： ROCK5B的用户名，默认: rock。
 - IP地址: 此处为ROCK5B的IP地址，请根据实际情况填写。
 - 
-```
+```bash
 scp 选项   源地址  用户名@IP地址:目标地址
 ```
 **注意: 关于更多关于scp的命令，请参考man手册
@@ -160,12 +159,12 @@ scp 选项   源地址  用户名@IP地址:目标地址
 ### 以太网连接
 
 - 查看网络配置
-```
+```bash
 sudo ifconfig
 ```
 - 测试网络
-```
-ping -c 5 www.google.com
+```bash
+ping -c 5 www.bing.com
 ```
 
 ###  WIFI&BT 连接
@@ -191,10 +190,10 @@ GPIO 的开发。 ROCK 5B 支持 libmraa GPIO 库，点击[这里](https://wiki.
 ### 关机与重启
 
 - 立刻关机
-```
+```bash
 sudo shutdown -h now
 ```
 - 重启命令
-```
+```bash
 sudo reboot
 ```

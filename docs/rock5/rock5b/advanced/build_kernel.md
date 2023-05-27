@@ -9,14 +9,14 @@ sidebar_position: 6
 
 ## 安装必要包
 
-```
+```bash
 $ sudo apt-get update
 $ sudo apt-get install -y git  device-tree-compiler libncurses5 libncurses5-dev build-essential libssl-dev mtools bc python dosfstools bison flex rsync u-boot-tools make
 ```
 
 ## 获取源代码
 
-```
+```bash
 $ mkdir ~/rk3588-sdk && cd ~/rk3588-sdk
 $ git clone -b linux-5.10-gen-rkr3.4 https://github.com/radxa/kernel.git
 $ git clone -b master https://github.com/radxa/rkbin.git
@@ -24,7 +24,7 @@ $ git clone -b debian https://github.com/radxa/build.git
 ```
 
 - 你将获得如下内容
-```
+```bash
 build  kernel  rkbin
 ```
 
@@ -39,7 +39,7 @@ build  kernel  rkbin
 - 默认选择内核分支： linux-5.10-gen-rkr3.4.
 - 构建Kernel默认 rockchip_linux_defconfig.
 
-```
+```bash
 $ cd ~/rk3588-sdk
 $ ./build/mk-kernel.sh rk3588-rock-5b    # For ROCK 5B
 ```
@@ -48,7 +48,7 @@ $ ./build/mk-kernel.sh rk3588-rock-5b    # For ROCK 5B
 
 - 可以选择修改内核配置文件
 
-```
+```bash
 $ cd ~/rk3588-sdk
 $ cd kernel
 $ make rockchip_linux_defconfig
@@ -59,14 +59,14 @@ $ cp defconfig arch/arm64/configs/rockchip_linux_defconfig
 
 - 用新的配置文件构建Kernel
 
-```
+```bash
 $ cd ~/rk3588-sdk
 $ ./build/mk-kernel.sh rk3588-rock-5b    # For ROCK 5B
 ```
 
 - 你将得到内核image 和 dtb 文件
 
-```
+```bash
 $ ls out/kernel/
 Image  rk3588-rock-5b.dtb
 ```
@@ -75,13 +75,13 @@ Image  rk3588-rock-5b.dtb
 
 - 内核包kernel package构建可以将内核、设备树、模块和固件打包成 Debian 包，这使得在 ROCK 5B 上安装更容易。
 
-```
+```bash
 $ ./build/pack-kernel.sh -d rockchip_linux_defconfig -r 99 # [-d rockchip_linux_defconfig: kernel defconfig] [99: release number]
 ```
 
 - 生成的包将被复制到 out/packages 目录。
 
-```
+```bash
 $ ls out/packages/
 linux-5.10.110-99-rockchip-g9fd61a9a9912_5.10.110-99-rockchip_arm64.changes
 linux-headers-5.10.110-99-rockchip-g9fd61a9a9912_5.10.110-99-rockchip_arm64.deb
@@ -94,7 +94,7 @@ linux-libc-dev_5.10.110-99-rockchip_arm64.deb
 
 - 当您想要将指定的内核包安装到您的操作系统时，请尝试以下步骤。
 
-```
+```bash
 $ sudo dpkg -i out/packages/linux-headers-5.10.110-99-rockchip-g9fd61a9a9912_5.10.110-99-rockchip_arm64.deb
 $ sudo dpkg -i out/packages/linux-image-5.10.110-99-rockchip-g9fd61a9a9912_5.10.110-99-rockchip_arm64.deb
 ```
@@ -102,7 +102,7 @@ $ sudo dpkg -i out/packages/linux-image-5.10.110-99-rockchip-g9fd61a9a9912_5.10.
 - 你会发现在/boot目录下生成了一些文件。
 - 检查**配置文件/boot/extlinux/extlinux.conf。**
 
-```
+```bash
 timeout 10
 menu title select kernel
 
@@ -124,7 +124,7 @@ label kernel-5.10.110-34-rockchip-gca15bbe36e6c
 
 -  重启设备之后，检查内核版本
 
-```
+```bash
 $ uname -a
 Linux rock-5b 5.10.110-99-rockchip-g9fd61a9a9912 #rockchip SMP Sun Jan 29 17:51:26 UTC 2023 aarch64 GNU/Linux
 ```
@@ -132,7 +132,7 @@ Linux rock-5b 5.10.110-99-rockchip-g9fd61a9a9912 #rockchip SMP Sun Jan 29 17:51:
 ## FAQs
 
 - 构建内核包时，出现“internal compiler error: Segmentation fault”错误，如下：
-```
+```bash
   CC [M]  drivers/net/wireless/rockchip_wlan/rtl8852bu/phl/test/verify/phl_test_verify.o
 during GIMPLE pass: local-fnsummary
 drivers/net/wireless/rockchip_wlan/rtl8852be/phl/test/mp/phl_test_mp_reg.c: In function 'phl_mp_reg_read_macreg':
@@ -149,11 +149,11 @@ make[9]: *** Waiting for unfinished jobs....
 ```
 
 - 我们可以忽略它。 请在repository build构建中添加以下补丁。 并通过命令再次构建内核
-```
+```bash
 ./build/pack-kernel.sh -d rockchip_linux_defconfig -r 99
 ```
 
-```
+```bash
 diff --git a/pack-kernel.sh b/pack-kernel.sh
 index 5aa2e89ca..2ec116808 100755
 --- a/pack-kernel.sh

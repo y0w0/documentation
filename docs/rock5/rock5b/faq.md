@@ -14,7 +14,7 @@ sidebar_position: 4
 
 ### 没有eMMC和TF卡，ROCK 5B可以从PCIe M.2 NVME SSD启动吗？
 
-* 是的。 ROCK 5B 可以从 PCIe M.2 NVME SSD 启动。ROCK 5B 配备一个 16MB SPI Nor Flash 和 PCIe M.2 M-Key 连接器。SPI Nor Flash 存储 bootloader。 NVME SSD 存储整个系统映像（至少内核和 rootfs）。[SPI Nor Flash and PCIe NVME SSD boot](./advanced/install_images_nvme)
+* 是的。 ROCK 5B 可以从 PCIe M.2 NVME SSD 启动。ROCK 5B 配备一个 16MB SPI Nor Flash 和 PCIe M.2 M-Key 连接器。SPI Nor Flash 存储 bootloader。 NVME SSD 存储整个系统映像（至少内核和 rootfs）。[SPI Nor Flash and PCIe NVME SSD boot](./getting-started/m2-install.md)
 
 ### 另外，散热器和风扇是否包含在价格中？
 	
@@ -42,7 +42,7 @@ sidebar_position: 4
 
 1. 当我尝试运行 apt update 时，出现以下错误：
 
-```
+```bash
 root@rock-5b:~# apt update
 Hit:1 http://security.debian.org/debian-security bullseye-security InRelease   
 Hit:2 http://httpredir.debian.org/debian bullseye InRelease                    
@@ -59,7 +59,7 @@ N: See apt-secure(8) manpage for repository creation and user configuration deta
 ```
 2. 原因是公钥已过期。 您可以执行以下命令以获得新的可用。
 
-```
+```bash
 sudo apt-get install -y wget
 export DISTRO=bullseye-stable
 wget -O - apt.radxa.com/$DISTRO/public.key | sudo apt-key add -

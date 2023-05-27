@@ -38,7 +38,7 @@ sidebar_position: 4
 ## 主机串口连接ROCK5B
 
 ROCK 5B u-boot 和内核控制台的默认串行设置是：
-```
+```bash
 baudrate: 1500000
 data bit: 8
 stop bit: 1
@@ -51,40 +51,40 @@ flow control: none
 ***支持 Linux***
 
 1. 将串口USB端插入主机PC后，TTL端正确插入主板后。请先确定找到串口设备，输入以下命令，查看是否有输出。
-```
+```bash
 ls /dev/ttyUSB0
 ```
 
 ***注意： 这里串口存在无权限读取的情况.***
 
 ***临时处理: 通过chmod命令***
-```
+```bash
 sudo chmod 777 /dev/ttyUSB0
 ```
 
 ***永久处理： 通过将当前用户加入dialout组***
-```
+```bash
 sudo usermod -aG dialout 当前用户名
 ``` 
 
 2. minicom 是支持宽范围波特率的串口工具。 安装minicom：
-```
+```bash
 sudo apt-get update
 sudo apt-get install minicom
 ```
 
 3. 设置minicom。首先将当前非root或者不使用sudo的用户加入plugdev组
-```
+```bash
 sudo usermod -aG plugdev 当前用户名
 ``` 
 
 4. 编辑 ~/.bashrc，添加一下参数，打开新的终端后即可生效。
-```
+```bash
 alias minicom='minicom -w -t xterm -l -R UTF-8'
 ```
 
 5. 创建并且编辑文件 ~/.minirc.rock5b，添加下列内容，该处目的是设置ROCK5的配置。
-```
+```bash
 pu port             /dev/ttyUSB0
 pu baudrate         1500000
 pu bits             8
@@ -94,13 +94,13 @@ pu rtscts           No
 ```
 
 6. 现在运行以下命令，即可连接ROCK 5B主板。 参数rock5b是为了使用上面的配置。
-```
+```bash
 minicom rock5b
 ```
 
 ***注意***
 - 按照上面的正确线序插入USB to TTL线材，然后将 USB 一端插入主机后。命令行输入```dmesg | tail```会输出以下信息：
-```
+```bash
 [1036835.654076] usb 1-6.4.3: new full-speed USB device number 103 using xhci_hcd
 [1036835.755730] usb 1-6.4.3: New USB device found, idVendor=0403, idProduct=6001
 [1036835.755732] usb 1-6.4.3: New USB device strings: Mfr=1, Product=2, SerialNumber=0
@@ -153,12 +153,12 @@ minicom rock5b
 ***支持MacOS***
 
 1. 安装picocom
-```
+```bash
 % brew install --build-from-source radxa/picocom/picocom
 ```
 
 2. 开启picocom
-```
+```bash
 % picocom -b 1500000 -d 8 /dev/tty.usbserial-2130
 ```
 

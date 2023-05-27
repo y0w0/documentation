@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Install OS to an Micro SD Card'
+sidebar_label: '安装镜像到Micro SD Card'
 sidebar_position: 34
 ---
 

@@ -26,14 +26,14 @@ sidebar_position: 3
 
 - ssh登录rock5b
 
-```
+```bash
 ping rock5b的ip地址
 ssh rock@rock5b的ip地址
 ```
 
 - 若支持**本地域名(Local Domain)**,则可以使用一下命令，而不用扫描rock5b的ip地址。
 
-```
+```bash
 ping rock-5b.local
 ssh rock@rock-5b.local
 ```

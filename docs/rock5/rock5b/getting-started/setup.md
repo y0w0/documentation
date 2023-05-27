@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Setup'
+sidebar_label: '安装'
 sidebar_position: 40
 ---
 

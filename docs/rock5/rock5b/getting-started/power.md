@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Power off'
+sidebar_label: '关机'
 sidebar_position: 50
 ---
 

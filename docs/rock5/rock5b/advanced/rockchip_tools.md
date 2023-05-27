@@ -39,12 +39,12 @@ RKDevTool_v2.96 包含 ROCK 5B eMMC/SPI flash配置文件。推荐使用。
 - 要在基于 Debian 的 Linux 发行版上构建 rkdeveloptool，请按照以下说明操作：
 
 1. 安装构建依赖项：
-```
+```bash
   sudo apt-get install libudev-dev libusb-1.0-0-dev dh-autoreconf
 ```
 
 2. 克隆源代码并构建：
-```
+```bash
   git clone https://github.com/radxa/rkdeveloptool.git
   cd rkdeveloptool
   autoreconf -i
@@ -53,31 +53,31 @@ RKDevTool_v2.96 包含 ROCK 5B eMMC/SPI flash配置文件。推荐使用。
 ```
 
 3. 如果遇到如下编译错误
-```
-./configure: line 4269: syntax error near unexpected token `LIBUSB1,libusb-1.0'
+```bash
+ ./configure: line 4269: syntax error near unexpected token `LIBUSB1,libusb-1.0'
  ./configure: line 4269: `PKG_CHECK_MODULES(LIBUSB1,libusb-1.0)'
 ```
 
 4. 你应该安装 pkg-config libusb-1.0
-```
+```bash
   sudo apt-get install pkg-config libusb-1.0
 ```
 
 5. 然后重新运行
-```
+```bash
   autoreconf -i
   ./configure
   make
 ```
 
 6. 现在您在当前目录中有了 rkdeveloptool 可执行文件。
-```
+```bash
   sudo cp rkdeveloptool /usr/local/bin/
   sudo ldconfig
 ```
 
 7. 确保其版本为 1.32. 或更高版本
-```
+```bash
   rkdeveloptool -v
   rkdeveloptool ver 1.32
 ```
@@ -87,12 +87,12 @@ RKDevTool_v2.96 包含 ROCK 5B eMMC/SPI flash配置文件。推荐使用。
 1. 要在 macOS 上构建 rkdeveloptool，您需要 homebrew（或类似的包管理器）来安装所需的包。
 
 2. 安装构建依赖项：
-```
+```bash
   brew install automake autoconf libusb
 ```
 
 3. 克隆源代码并构建：
-```
+```bash
   git clone https://github.com/radxa/rkdeveloptool.git
   cd rkdeveloptool
   autoreconf -i
@@ -100,30 +100,30 @@ RKDevTool_v2.96 包含 ROCK 5B eMMC/SPI flash配置文件。推荐使用。
   make
 ```
 4. 如果遇到如下编译错误
-```
+```bash
  ./configure: line 5384: syntax error near unexpected token `LIBUSB1,libusb-1.0'
  ./configure: line 5384: `PKG_CHECK_MODULES(LIBUSB1,libusb-1.0)'
 ```
 
 5. 你应该安装 pkg-config libusb-1.0
-```
+```bash
   brew install pkg-config
 ```
 
 6. 然后重新运行
-```
+```bash
   autoreconf -i
   ./configure
   make
 ```
 
 7. 现在您在当前目录中有了 rkdeveloptool 可执行文件。
-```
+```bash
   sudo cp rkdeveloptool /opt/homebrew/bin/
 ```
 
 8. 确保其版本为 1.32 或更高版本。
-```
+```bash
   rkdeveloptool -v
   rkdeveloptool ver 1.32
 ```

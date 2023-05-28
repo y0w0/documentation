@@ -14,28 +14,28 @@ sidebar_position: 31
 ![ROCK5A Install](/img/accessories/sd_install_1.webp)
 
 
-## Flash OS image to micro SD card
+## Flash OS image to Micro SD card
 
-### Flash OS image to micro SD card via etcher
+### Flash OS image to Micro SD card via etcher
 
-1. Download the flash tool etcher from [downloads](https://www.balena.io/etcher#download-etcher).  
-  - ![ROCK5A via Ethcher 01](/img/rock5a/rock5a-etcher.webp)
+1. Download the flash tool etcher from [Downloads](https://www.balena.io/etcher#download-etcher).  
+  - ![ROCK5A via Etcher 01](/img/rock5a/rock5a-etcher.webp)
 
-2. Open etcher and prepare to flash OS image to Micro SD card. In the etcher window, click flash from file to select the OS image you just downloaded.
-  - ![ROCK5A via Ethcher 02](/img/rock5a/rock5a-etcher-1.webp)
+2. Open etcher and prepare to flash OS image to Micro SD card. In the etcher window, click `Flash from file` to select the OS image you just downloaded.
+  - ![ROCK5A via Etcher 02](/img/rock5a/rock5a-etcher-1.webp)
 
-3. In the etcher window, click Select Drive.
-  - ![ROCK5A via Ethcher 03](/img/rock5a/rock5a-etcher-2.webp)
+3. In the etcher window, click `Select target`.
+  - ![ROCK5A via Etcher 03](/img/rock5a/rock5a-etcher-2.webp)
 
-4. In the etcher window, click Flash and wait for flashing image process.
-  - ![ROCK5A via Ethcher 04](/img/rock5a/rock5a-etcher-3.webp)
+4. In the etcher window, click `Flash!` and wait for flashing image process.
+  - ![ROCK5A via Etcher 04](/img/rock5a/rock5a-etcher-3.webp)
 
-5. In the etcher window, it means success when it shows flash compete.
-  - ![ROCK5A via Ethcher 05](/img/rock5a/rock5a-etcher-4.webp)
+5. In the etcher window, it means success when it shows `Flash Complete!`
+  - ![ROCK5A via Etcher 05](/img/rock5a/rock5a-etcher-4.webp)
   
 **If the flash OS image fails, please manually flash the image once again.**
 
-### Flash OS image to micro SD card via Win32DiskImager
+### Flash OS image to Micro SD card via Win32DiskImager
 
 1. Download the flash tool Win32DiskImager from [downloads](https://win32diskimager.org/). 
   - ![ROCK5A via Win32DiskImager 01](/img/rock5a/rock5a-win32.png)

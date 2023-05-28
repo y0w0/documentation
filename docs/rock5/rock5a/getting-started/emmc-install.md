@@ -1,39 +1,39 @@
 ---
-sidebar_label: 'Install OS to an eMMC Module'
+sidebar_label: '在eMMC模块上安装操作系统'
 sidebar_position: 33
 ---
 
-# Install OS to an eMMC Module
+# 在eMMC模块上安装操作系统
 
-## Prepare 
+## 准备
 
-- Prepare an eMMC module and a [Radxa eMMC Reader](../../../accessories/emmc_reader).  
+- 准备一个eMMC模块和一个[Radxa eMMC读卡器](../../../accessories/emmc_reader)。
 ![Radxa eMMC](/img/accessories/emmc_related_01.webp)
-- Download the official Ubuntu/Debian system image from [Downloads](../downloads/official-images).
-- Download the flash tool etcher from [downloads](https://www.balena.io/etcher#download-etcher).  
-![ROCK5A via Ethcher](/img/rock5a/rock5a-etcher.webp)
+- [下载](../downloads/official-images)官方的Ubuntu/Debian系统镜像。
+- [下载](https://www.balena.io/etcher#download-etcher)刷写工具`Etcher`。
+![ROCK5A via Etcher](/img/rock5a/rock5a-etcher.webp)
 
-## Installation
+## 安装
 
-1. Insert the eMMC module into the Rock Pi eMMC USB reader, then insert the Rock Pi eMMC USB reader into the USB port of the computer. 
-    **Note: Please align the A1 port with the A2 port and insert the B1 port with the B2 port when inserting the eMMC module into the Radxa eMMC Reader**
+1. 将eMMC模块插入Radxa eMMC USB读卡器，然后将Radxa eMMC USB 读卡器插入计算机的USB接口。
+    **注意：将eMMC模块插入Radxa eMMC读卡器时，请将A1端口与A2端口对齐，然后将B1端口插入B2端口**
     
     ![ROCK5A eMMC Install 01](/img/accessories/emmc-install1.webp)
     ![ROCK5A eMMC Install 02](/img/accessories/emmc-install2.webp)
 
-- Open etcher and prepare to flash OS image to Micro SD card. In the etcher window, click flash from file to select the OS image you juet downloaded.
+- 打开Etcher，将准备的操作系统镜像刷写到eMMC模块。在Etcher窗口中，单击`Flash from file`选择刚下载的操作系统镜像。
     
     ![ROCK5A eMMC via Etcher 01](/img/rock5a/rock5a-etcher-1.webp)
 
-- In the etcher window, click Select target(Drive).
+- 在Etcher窗口中，点击`Select target`。
 
     ![ROCK5A eMMC via Etcher 02](/img/rock5a/rock5a-etcher-2.webp)
 
-- In the etcher window, click Flash and wait for flashing image process.
+- 在Etcher窗口中，点击`Flash!`然后等待刷写进度条。
 
     ![ROCK5A eMMC via Etcher 03](/img/rock5a/rock5a-etcher-3.webp)
 
-- In the etcher window, it means success when it shows flash compete.
+- 在Etcher窗口中，当刷写成功时将会显示`Flash Complete!`
     
     ![ROCK5A eMMC via Etcher 04](/img/rock5a/rock5a-etcher-4.webp)
 

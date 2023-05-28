@@ -10,7 +10,7 @@ Radxa SPI Flash模块是一种嵌入式存储模块，具有超小面积和可�
 SPI Flash模块和eMMC模块以相同的方式刷写操作系统映像，你可以参考[在SPI Flash模块上安装系统镜像](https://docs.radxa.com/rock5/rock5a/getting-started/emmc-install).
 
 # 如何在ROCK 5A上使用SPI Flash模块
-在你的SPI Flash模块刷写操作系统之后，你可以在 ROCK 5A 的 B2B 连接器上安装 SPI Flash 模块。
+在你的SPI Flash模块刷写操作系统之后，你可以在ROCK 5A的B2B连接器上安装SPI Flash模块。
 
 如图所示，将SPI Flash模块与B2B连接器对齐，然后轻轻按下，完成安装。
 

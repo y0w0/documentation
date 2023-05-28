@@ -53,7 +53,7 @@ sidebar_custom_props: {
 					url: '/rock5/rock5b/getting-started',
 				},
 				{
-					title: 'Accessories',
+					title: '配件使用',
 					info: '使用ROCK 5B配件',
 					url: '/rock5/rock5b/using-accessories',
 				},

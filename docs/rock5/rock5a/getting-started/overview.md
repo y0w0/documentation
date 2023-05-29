@@ -1,62 +1,65 @@
 ---
-sidebar_label: 'Overview'
+sidebar_label: '概览'
 sidebar_position: 10
 ---
 
-# Introduction
+# 简介
 
-The Radxa ROCK 5 Model A (ROCK 5A) is a Single Board Computer (SBC) in a compact form factor packed with a wide range of class-leading functionality, features and expansion options. The ROCK 5A is an ideal choice for makers, IoT enthusiasts, hobbyists, gamers, PC users and everyone who need an extremely highly specified platform with outstanding performance and reliability. Radxa offers the ROCK 5A board in various LPDDR4x RAM memory options:
-
+瑞莎ROCK 5 Model A (简称ROCK 5A)是一款外形紧凑、具有各种领先的功能特性且扩展性极佳的单板机(SBC)。
+ROCK 5A对于创客、物联网玩家、业余爱好者、游戏玩家以及个人电脑用户等需要一个指定的高性能高可靠性的平台的人来说是一个理想的选择。 
+瑞莎为ROCK 5A搭载了以下容量的LPDDR4X内存选项：  
 4GB  
 8GB  
 16GB  
 
 ![ROCK5A Interface](/img/rock5a/rock5a_interfaces.webp)
 
-**_Note:_ The actual board layout or components location may change during the time but the main connectors type and location will remain the same**
+**_提示:_ 实际的电路布局和元器件位置可能因为版本不同而产生变化，但是主要元件的类型和位置基本不会发生改变。**
 
-# Mechanical Specification
+# 尺寸规格
 
 ![ROCK5A Dimension Top](/img/rock5a/rock5a-dimension-top.webp)
 ![ROCK5A Dimension Bottom](/img/rock5a/rock5a-dimension-bottom.webp)
 
-# Electrical Specification
+# 电气规格
 
-## Power Requirements
+## 需求电源
 
-The ROCK 5A supports various power supply technologies including smart power adapter as well as fixed voltage:
+ROCK 5A支持包括固定电压和智能协议电压的各种电源技术：  
 
-- USB Type-C™ PD Version 2.0 with 9V/2A, 12V/2A, 15V/2A and 20V/2A.
-- Qualcomm® Quick Charge™ 2.0 QC 3.0/2.0 adapter, 9V/2A, 12V/2A
-- Power adapter with fixed voltage in 5.2V to 20V range on the USB Type-C port
-- 5V Power applied to the GPIO PIN 2 & 4
+- USB Type-C™ PD 2.0协议： 9V/2A, 12V/2A, 15V/2A, 20V/2A.
+- 骁龙® QC™ 2.0 QC 3.0/2.0 协议： 9V/2A, 12V/2A
+- USB Type-C接口的 5.2V 至 20V 电压
+- GPIO 2 & 4 针脚支持5V电压输出
 
-The recommended power source should be able to produce, at least, 24W without a M.2 SSD or 30W with a M.2 SSD.
+在使用SSD的情况下推荐至少能输出30W的适配器，不使用SSD时推荐适配器至少输出24W。
 
-### GPIO Voltage
+### GPIO 电压
 
-| GPIO       | Voltage Level | Tolerance |
+| GPIO       | 电压 | 最高 |
 | ---------- | ------------- | --------- |
-| All GPIO   | 3.3V          | 3.63V     |
+| 所有的GPIO   | 3.3V          | 3.63V     |
 | SARADC_IN5 | 3.3V          | 3.3V     |
 
-## Operating Conditions
+## 工作环境
 
-The ROCK 5A has been designed to operate between 0°C to 50°C.
+ROCK 5A的设计工作温度为0°C到50°C。  
 
-This temperature range was defined based on typical usage where the efficient use of Arm big.LITTLE technology can automatically select which processor core to utilise for a given task, the result of which is minimal heat generation and responsive user experience.
+这一温度范围是根据Arm big.LITTLE技术对特定任务自动选择处理器内核的使用情况来确定的，其结果是发热和用户操作体验的最优组合。  
 
-The ROCK 5A is built on a high‑performance mobile chipset which is designed to operate for extended durations on batteries with efficiency at its core. As with all electronic devices heat is a by‑product of operation which increases with performance and workload; during basic use cases such as web browsing, editing text or listening to music the SoC will automatically select the smallest processors available or dedicated hardware accelerators to reduce heat generation thus reserving the higher performance processors and thermal window for demanding tasks as and when required.
+ROCK 5A基于一套能长时间稳定运行且以效率为核心的高性能移动芯片组而设计。 其发热量随着性能释放以及工作负荷的增加而增加， 
+在浏览网页、编辑文本及听音乐等低负荷使用场景时，SoC将会自动选择最少的处理器核心或硬件加速器来减少发热， 以便于在需要时有新任务需求时能释放足够的性能。 
 
-The SoC (RK3588S) is specified to limit its maximum internal temperature to 80°C before throttling the clock speeds to maintain reliability within the allowed temperature range. If the ROCK 5A is intended to be used continuously in high performance applications, it may be necessary to use external cooling methods (for example, heat sink, fan, etc.) which will allow the SoC to continue running at maximum clock speed indefinitely below its predefined 80°C peak temperature limiter.
+为保证可靠性，本SoC(Rk3588S)在标准频率下的最高工作温度预设为80°C，如果需要ROCK 5A持续高负荷工作，就需要使用外部辅助散热，如风扇、散热器，在温度不超过峰值的情况下，处理器可以以标准频率持续运行。  
 
-# Peripherals
+# 外设
 
-## GPIO Interface
+## GPIO接口
 
-The ROCK 5A offers a 40 pin GPIO expansion header which provides extensive compatibility with a wide range of accessories developed for the SBC market.
+ROCK 5A提供了一个40pin针脚的GPIO座子，与市场上大多数的SBC配件兼容。  
+**_提示:_ 实际兼容情况以使用为准。**
 
-## GPIO Alternate Functions
+## GPIO其他功能
 
 | Function6 | Function5 |  Function4 |  Function3 | Function2 | Function1 | Pin# | Pin# |  Function1  | Function2 |  Function3 |  Function4 | Function5 | Function6 | Function7 |
 |-----------|-----------|:----------:|:----------:|:---------:|:---------:|:----:|:----:|:-----------:|:---------:|:----------:|:----------:|-----------|-----------|-----------|

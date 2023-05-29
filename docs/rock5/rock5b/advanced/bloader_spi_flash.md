@@ -1,6 +1,6 @@
 ---
 sidebar_label: '烧录 BootLoader 到 SPI Flash'
-sidebar_position: 1
+sidebar_position: 20
 ---
 
 
@@ -19,6 +19,13 @@ ROCK 5B 上有一个SPI Flash（SPI闪存），它包含用于备份引导的boo
 1. 初级方法：通过ROCK 5B自身烧录SPI
 2. 高级方法：通过主机和Maskrom模式烧录SPI
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<Tabs>
+<TabItem value="初级方法" label="初级方法" default>
+
+
 ## 初级方法
 
 ### 准备
@@ -31,28 +38,28 @@ ROCK 5B 上有一个SPI Flash（SPI闪存），它包含用于备份引导的boo
 
 1. 从SD card和eMMC启动Linux系统
 
-    详细教程请看基础使用教程中的[烧录方式选择](../basic/flash)
+   详细教程请看入门使用教程中的[烧录方式选择](../getting-started/getting_started#烧录方式选择)
 
 2. 在ROCK 5B上下载必要的文件
 
-    你可以通过wget下载到ROCK5B,前提是ROCK5B连接网络。
-    - 下载clear the spi文件
+   你可以通过wget下载到ROCK5B,前提是ROCK5B连接网络。
+   - 下载clear the spi文件
     ```bash
     wget https://dl.radxa.com/rock5/sw/images/others/zero.img.gz
     ```
 
-    - 下载最新版本spi bootloader
-    推荐除Armbian用户之外的用户使用通用版本，注意这个img已经关闭u-boot串行控制台
+   - 下载最新版本spi bootloader
+     推荐除Armbian用户之外的用户使用通用版本，注意这个img已经关闭u-boot串行控制台
     ```bash
     wget https://dl.radxa.com/rock5/sw/images/loader/rock-5b/release/rock-5b-spi-image-g49da44e116d.img
     ```
 
-    如果您想从M.2 NVME SSD启动armbian，请使用此选项
+   如果您想从M.2 NVME SSD启动armbian，请使用此选项
     ```bash
     wget https://github.com/huazi-yg/rock5b/releases/download/rock5b/rkspi_loader.img
     ```
 
-    针对高级用户的bootloader，已启动u-boot串行控制台。
+   针对高级用户的bootloader，已启动u-boot串行控制台。
     ```bash
     wget https://dl.radxa.com/rock5/sw/images/loader/rock-5b/debug/rock-5b-spi-image-g3caf61a44c2-debug.img
     ```
@@ -61,8 +68,8 @@ ROCK 5B 上有一个SPI Flash（SPI闪存），它包含用于备份引导的boo
     ```bash
     md5sum zero.img.gz 
     ```
-    
-    正确显示如下：
+
+   正确显示如下：
     ```bash
     ac581b250fda7a10d07ad11884a16834  zero.img.gz
     ```
@@ -72,7 +79,7 @@ ROCK 5B 上有一个SPI Flash（SPI闪存），它包含用于备份引导的boo
     gzip -d zero.img.gz
     md5sum zero.img
     ```
-    正确显示如下：
+   正确显示如下：
     ```bash
     2c7ab85a893283e98c931e9511add182  zero.img
     ```
@@ -81,8 +88,8 @@ ROCK 5B 上有一个SPI Flash（SPI闪存），它包含用于备份引导的boo
     ```bash
     md5sum rock-5b-spi-image-g49da44e116d.img
     ```
-    
-    显示正确结果如下：
+
+   显示正确结果如下：
     ```bash
     46de85de37b8e670883e6f6a8bb95776  rock-5b-spi-image-g49da44e116d.img
     958cbdb6cf9b2e0841fd76c26930db8f  rock-5b-spi-image-g3caf61a44c2-debug.img
@@ -90,38 +97,41 @@ ROCK 5B 上有一个SPI Flash（SPI闪存），它包含用于备份引导的boo
     ```
 
 6. 烧录SPI Flash
-    - 确保SPI Flash是可以使用的
+   - 确保SPI Flash是可以使用的
     ```bash
     ls /dev/mtdblock*
     # 返回
     /dev/mtdblock0
     ```
-    - 清理SPI Flash，这过程需要5分钟以上。
+   - 清理SPI Flash，这过程需要5分钟以上。
     ```bash
     sudo dd if=zero.img of=/dev/mtdblock0
     ```
-    - 检查是否被清除成功
+   - 检查是否被清除成功
     ```bash
     sudo md5sum /dev/mtdblock0 zero.img
     # 正确返回
     2c7ab85a893283e98c931e9511add182  /dev/mtdblock0
     2c7ab85a893283e98c931e9511add182  zero.img
     ```
-    - 烧录你下载的bootloader到SPI Flash，例如 rock-5b-spi-image-g49da44e116d.img
+   - 烧录你下载的bootloader到SPI Flash，例如 rock-5b-spi-image-g49da44e116d.img
     ```bash
     sudo dd if=rock-5b-spi-image-g49da44e116d.img of=/dev/mtdblock0
     sync
     # 检查是否成功烧录
     sudo md5sum /dev/mtdblock0 rock-5b-spi-image-g49da44e116d.img
     ```
-    返回的结果是相同的才是正确的。如果不是，请重新烧录一遍bootloader。  
+   返回的结果是相同的才是正确的。如果不是，请重新烧录一遍bootloader。
 
 7. 重启生效
 
 现在，您已经完成了刷新支持NVMe引导的引导加载程序。
-- 如果您没有Flash NVMe，请查看[安装镜像到NVME](../getting-started/m2-install.md)以进行烧录。
+- 如果您没有Flash NVMe，请查看[安装镜像到NVME](../getting-started/m2-install)以进行烧录。
 - 如果你Falsh NVMe，请关闭ROCK 5的电源，取出µSD卡或eMMC模块并重新通电。现在应该从NVMe启动
 
+
+</TabItem>
+<TabItem value="高级方法" label="高级方法">
 
 
 ## 高级方法
@@ -144,9 +154,9 @@ ROCK 5B 上有一个SPI Flash（SPI闪存），它包含用于备份引导的boo
 - 下载[loader images](https://dl.radxa.com/rock5/sw/images/loader/rock-5b/rk3588_spl_loader_v1.08.111.bin)
 
 - 下载最新SPI镜像
-    - [正式版本](https://dl.radxa.com/rock5/sw/images/loader/rock-5b/release/rock-5b-spi-image-g49da44e116d.img)，u-boot串口控制台关闭
-    - [Debug版本](https://dl.radxa.com/rock5/sw/images/loader/rock-5b/debug/rock-5b-spi-image-g3caf61a44c2-debug.img)，u-boot串口控制台启动
-    - [Armbian版本](https://github.com/huazi-yg/rock5b/releases/download/rock5b/rkspi_loader.img)，需要安装armbian Image到M.2 NVME SSD时使用
+   - [正式版本](https://dl.radxa.com/rock5/sw/images/loader/rock-5b/release/rock-5b-spi-image-g49da44e116d.img)，u-boot串口控制台关闭
+   - [Debug版本](https://dl.radxa.com/rock5/sw/images/loader/rock-5b/debug/rock-5b-spi-image-g3caf61a44c2-debug.img)，u-boot串口控制台启动
+   - [Armbian版本](https://github.com/huazi-yg/rock5b/releases/download/rock5b/rkspi_loader.img)，需要安装armbian Image到M.2 NVME SSD时使用
 
 3. ROCK5B进入Maskrom模式
 
@@ -164,7 +174,7 @@ ROCK 5B 上有一个SPI Flash（SPI闪存），它包含用于备份引导的boo
 4. 将u-boot镜像写入SPI NOR flash或擦除SPI NOR flash
 
 - 选择1. 使用 Linux PC/Mac 烧录
-在 linux 或 Mac 上，运行 rkdeveloptool
+  在 linux 或 Mac 上，运行 rkdeveloptool
 ```bash
 sudo rkdeveloptool ld
 DevNo=1 Vid=0x2207,Pid=0x350b,LocationID=106 Maskrom
@@ -239,3 +249,8 @@ sync
 - 结束后重启设备ResetDevice
 
 ![RKDevTool-04](/zh/img/rock5b/rock-5b-spi-flash-04.png)
+
+
+</TabItem>
+</Tabs>
+

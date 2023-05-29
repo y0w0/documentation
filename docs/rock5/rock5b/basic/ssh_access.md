@@ -1,6 +1,6 @@
 ---
 sidebar_label: 'SSH访问教程'
-sidebar_position: 3
+sidebar_position: 10
 ---
 
 # SSH访问教程

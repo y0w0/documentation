@@ -26,7 +26,7 @@ SSD is a solid-state drive that uses flash memory chips as its storage medium. C
 
 ![NVME SSD](/img/accessories/nvme-ssd-01.webp)
   </TabItem>
-  <TabItem value="Micro SD" label="MicroSD">
+  <TabItem value="Micro SD" label="Micro SD">
 
 Micro SD is a small flash memory storage card typically used to expand the storage space of devices such as smartphones, tablets, and digital cameras. Micro SD cards come in a range of capacities from a few hundred megabytes to several tens of gigabytes, with relatively slow read/write speeds. However, they are compact, portable, and can easily transfer data between different devices.
 

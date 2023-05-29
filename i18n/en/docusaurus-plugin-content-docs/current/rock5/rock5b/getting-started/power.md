@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Power off'
+sidebar_label: 'Power control'
 sidebar_position: 50
 ---
 

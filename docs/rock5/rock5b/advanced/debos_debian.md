@@ -1,6 +1,6 @@
 ---
 sidebar_label: '从 debos-radxa 构建 Debian'
-sidebar_position: 8
+sidebar_position: 70
 ---
 
 # Rockchip Debian SDK
@@ -161,7 +161,7 @@ linux-image-5.10.66-10-rockchip-ge5013df5e066_5.10.66-10-rockchip_arm64.deb
 - 将 linux-image-5.10.66-10-rockchip-ge5013df5e066-dbg_5.10.66-10-rockchip_arm64.deb 复制到您的 ROCK 5B。
 - 将它们安装在 ROCK 5 上。
 ```bash
-# dpkg -i linux-image-5.10.66-10-rockchip-ge5013df5e066-dbg_5.10.66-10-rockchip_arm64.deb
+dpkg -i linux-image-5.10.66-10-rockchip-ge5013df5e066-dbg_5.10.66-10-rockchip_arm64.deb
 ```
 
 ## 生成系统镜像image
@@ -169,13 +169,13 @@ linux-image-5.10.66-10-rockchip-ge5013df5e066_5.10.66-10-rockchip_arm64.deb
 - 删除旧的 ROCK 5B U-boot 和内核包。
 
 ```bash
-$ cd ~/rk3588-sdk/debos-radxa
+cd ~/rk3588-sdk/debos-radxa
 
-$ ls rootfs/packages/arm64/kernel/*5.10.66*
+ls rootfs/packages/arm64/kernel/*5.10.66*
 rootfs/packages/arm64/kernel/linux-headers-5.10.66-6-rockchip-gbb60f4aeba31_5.10.66-6-rockchip_arm64.deb
 rootfs/packages/arm64/kernel/linux-image-5.10.66-6-rockchip-gbb60f4aeba31_5.10.66-6-rockchip_arm64.deb
 
-$ ls rootfs/packages/arm64/u-boot/rock-5b*
+ls rootfs/packages/arm64/u-boot/rock-5b*
 rootfs/packages/arm64/u-boot/rock-5b-rk-ubootimg_2017.09-g592fa62ffe2-220419_all.deb
 ```
 
@@ -185,13 +185,13 @@ rootfs/packages/arm64/u-boot/rock-5b-rk-ubootimg_2017.09-g592fa62ffe2-220419_all
 - 设置Docker
 
 ```bash
-$ cd ~/rk3588-sdk/debos-radxa
-$ ./docker/dev-shell
+cd ~/rk3588-sdk/debos-radxa
+./docker/dev-shell
 ```
 
 - 在 Docker 容器中构建镜像image。
 ```bash
-# ./build.sh -c rk3588 -b rock-5b -m debian -d bullseye -v xfce4 -a arm64 -f gpt
+./build.sh -c rk3588 -b rock-5b -m debian -d bullseye -v xfce4 -a arm64 -f gpt
 ```
 
 - 生成的系统镜像system images会被复制到~/rk3588-sdk/debos-radxa/output 目录。

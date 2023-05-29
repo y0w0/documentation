@@ -8,55 +8,55 @@ sidebar_position: 5
 
 ![Radxa Display 8 HD](/img/accessories/display-8-hd.webp)
 
-## Overview
-Radxa Display 8 HD is a color active matrix LCD module with touch panel designed specifically for Radxa Single Board Computers. This 8.0 inch display lets you create interactive projects such as tablets, industrial HMI, information dashboards and so on. With a sinlge cable for power, display and touch, and enabled software on‑screen keyboard, the Radxa Display 8 HD gives you full human computer interface without the need to connect a keyboard or mouse. Additionally, a built‑in gensor on the display can be used for automatically potrail or landscape rotation. It has the following features:  
-・ 8.0 inch LCD  
-・ 800 x 1280, 16.7M colors resolution  
-・ Full angle viewing LCD  
-・ 5‑Point capacitive touch panel  
-・ Support PWM brightness control  
-・ Support Color enhancement  
-・ Built‑in g‑sensor for potrail/landscape rotation  
+## 概述
+Radxa Display 8 HD 是一款带触摸屏的彩色有源矩阵 LCD 模块，专为 Radxa 单板计算机设计。 这款 8.0 英寸显示屏可让您创建交互式项目，例如平板电脑、工业 HMI、信息仪表板等。 Radxa Display 8 HD 具有用于电源、显示和触摸的单根电缆以及启用的软件屏幕键盘，无需连接键盘或鼠标即可为您提供完整的人机界面。 此外，显示器上的内置传感器可用于自动纵向或横向旋转。 它具有以下特点：
+- 8.0英寸液晶显示器
+- 800 x 1280、16.7M 色分辨率
+- 全视角 LCD
+- 5 点电容式触摸屏
+- 支持PWM亮度控制
+- 支持颜色增强
+- 内置重力传感器，用于纵向/横向旋转 
 
 ## LCD
-###  Features
-・ Active area: 107.64(H) x 172.224(V) mm  
-・ Pixel Pitch: 0.04485(W) x 3 x 0.13455(H)  
-・ Pixels arrangement：RGB vertical stripe  
-・ Display color: 16.7M  
-・ Display Mode: Normally Black  
-・ Viewing Direction: All angle viewing  
-・ Luminance (cd/m^2): 300 type cd/㎡  
-・ Contrast Ratio: 1000(typical)  
-・ Surface Treatment: Anti‑glare  
-・ Interface: MIPI  
-・ Backlight: White LED  
-・ Input voltage: 1.8 V  
-・ Operation Temperature: ‑20 to 60℃  
-・ Storage Temperature: ‑30 to 60℃  
+### 特征
+- 有效范围：107.64(H) x 172.224(V) mm
+- 像素间距：0.04485(W) x 3 x 0.13455(H)
+- 像素排列：RGB竖条纹
+- 显示颜色：16.7M
+- 显示模式：常黑
+- 可视角度：全角度
+- 亮度（cd/m^2）：300型cd/㎡
+- 对比度：1000（典型值）
+- 表面处理：防眩光
+- 接口：MIPI
+- 背光：白色 LED
+- 输入电压：1.8V
+- 工作温度：‑20 至 60℃
+- 储存温度：‑30 至 60℃
+
 
 ## Touch
-The Radxa Display 8 HD touch panel is powered by GT911, a new‑generation 5‑point capacitive touch solution designed for 7” to 8” panels, consists of up to 26 transmitter electrodes and 14 receiver electrodes to provide higher touch accuracy. GT911 supports up to 5 concurrent touches with real‑time tracking of accurate position and motion trajectory as well as touch area. Furthermore, it is able to report such information to the host as required.  
+Radxa Display 8 HD 触控面板由 GT911 驱动，这是专为 7 英寸至 8 英寸面板设计的新一代 5 点电容式触控解决方案，由多达 26 个发射器电极和 14 个接收器电极组成，可提供更高的触控精度。 GT911 支持最多 5 点并发触控，实时追踪准确位置和运动轨迹以及触控区域。 此外，它还可以根据需要向主机报告这些信息。 
 
 
-###  Features
-
-- Built‑in capacitive sensing circuit and high‑performance MPU  
-    – Report rate: 100Hz  
-    – Outputs touch coordinates in real time  
-    – Unified software applicable to capacitive touch screens of various sizes  
-- Capacitive touch sensor    
-– Channels: 26 (Tx channels) * 14 (Rx channels)  
-    – Cover Lens thickness supported: 0.55mm ≦ Glass ≦ 2mm,0.5mm ≦ PMMA ≦ 1.2mm  
-    – Adaptive frequency hopping  
-    – Supports OGS full lamination
-- Environmental adaptability  
-    – Self‑calibration during initialization  
-    – Automatic drift compensation  
-- Response time  
-    – Green mode: <48ms  
-    – Sleep mode: <200ms  
-    – Initialization: <200ms  
+### 特征
+- 内置电容式感应电路和高性能 MPU  
+     – 报告率：100Hz  
+     – 实时输出触摸坐标  
+     – 适用于各种尺寸电容触摸屏的统一软件  
+- 电容式触摸传感器  
+– 通道：26（Tx 通道）* 14（Rx 通道）  
+     – 支持的 Cover Lens 厚度：0.55mm ≦ Glass ≦ 2mm,0.5mm ≦ PMMA ≦ 1.2mm  
+     – 自适应跳频  
+     – 支持OGS全贴合  
+- 环境适应性  
+     – 初始化期间的自校准  
+     – 自动漂移补偿  
+- 响应时间  
+     – 绿色模式：<48ms    
+     – 睡眠模式：<200ms  
+     – 初始化：<200ms  
 
 ## Pinout
 
@@ -83,5 +83,5 @@ The Radxa Display 8 HD touch panel is powered by GT911, a new‑generation 5‑p
 | 19  | GND      | Ground                                         | 39  | LED+     | LED Anode                                      |
 | 20  | MIPI_3N  | -MIPI differential data input                  | 40  | LED+     | LED Anode                                      |
 
-## Mechanical Specification
+## 物理规格
 ![Radxa Display 8 HD](/img/accessories/rock5a-display-8hd-spec.webp)

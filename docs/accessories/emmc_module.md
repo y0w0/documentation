@@ -3,15 +3,15 @@ sidebar_label: 'Radxa eMMC Module'
 sidebar_position: 5
 ---
 
-# eMMC Module
-Radxa eMMC Module uses the eMMC 5.1 specification and offers four capacity options: 16G / 32G / 64G / 128G. At the same time, you can choose models that support industrial-grade long life. In addition, this module supports JEDEC's standard eMMC command set and is designed for high-speed read and write, making data transfer faster.   
+# eMMC 模块
+Radxa eMMC模块采用eMMC 5.1规范，提供四种容量选择： 16g / 32g / 64g / 128g。同时，你可以选择支持工业级长寿命的型号。此外，该模块支持JEDEC的标准eMMC命令集，并为高速读写而设计，使数据传输更快。 
 
 ![eMMC Module](/img/accessories/emmc-module.webp)  
 
-### Read / write speed test
-The eMMC chip we use is branded as Foresee, by Longsys, a Shenzhen embedded storage company, who acquired Lexar Brand in 2017.  
+## 读 / 写速度测试
+我们使用的eMMC芯片的是Foresee，由深圳嵌入式存储公司Longsys生产，他们在2017年收购了Lexar品牌。 
 
-Below is the test we did on different brand eMMC chips.  
+下面是我们对不同品牌的eMMC芯片做的测试。  
 
 |Capacity | Brand       | Read    | Write    |  
 | ------  | --------    | ------- | -------- |
@@ -28,11 +28,11 @@ Below is the test we did on different brand eMMC chips.
 | 64G     | **Foresee** | 194MB/s | 148MB/s  |
 | 128G    | Toshiba     | 217MB/s | 143MB/s  |
 
-## Specifications
-- JEDEC Standard: v5.1
-- B2B Connector specification: GB042-34S-H10 (socket-34pin) + GB042-30S-H10 (socket-30pin)
-- Storage Options: 16G / 32G / 64G / 128G
-- Compatibility: Compatbile with ROCK 3A / 3C / 4A / 4B / 4C / 4C PLUS / 4SE / 5A / 5B  
-- Dimension：13mm x 18mm x 1.5mm
+## 规格
+- JEDEC 标准: v5.1
+- B2B连接器规格： GB042-34S-H10（插座-34针）+ GB042-30S-H10（插座-30针）。
+- 存储选项：16G / 32G / 64G / 128G
+- 兼容性: 兼容 ROCK 3A / 3C / 4A / 4B / 4C / 4C PLUS / 4SE / 5A / 5B  
+- 尺寸：13mm x 18mm x 1.5mm
 
 

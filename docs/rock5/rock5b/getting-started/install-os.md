@@ -7,13 +7,13 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 <Tabs>
-  <TabItem value="Micro SD" label="MicroSD" default>
-    # Coming Soon
+  <TabItem value="Micro SD" label="Micro SD" default>
+    Coming Soon
   </TabItem>
   <TabItem value="eMMC" label="eMMC">
-    # Coming Soon
+    Coming Soon
   </TabItem>
   <TabItem value="NVMe" label="NVMe">
-    # Coming Soon
+    Coming Soon
   </TabItem>
 </Tabs>

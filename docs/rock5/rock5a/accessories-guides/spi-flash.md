@@ -1,5 +1,5 @@
 ---
-sidebar_label: '在ROCK 5A上使用SPI Flash模块'
+sidebar_label: 'ROCK 5A使用SPI Flash模块教程'
 sidebar_position: 20
 ---
 

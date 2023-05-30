@@ -28,7 +28,7 @@ Radxa ROCK Penta SATA HAT 是为 ROCK 系列设计的附加 HAT。 它利用 ROC
 - 可选的 PWM 控制风扇用于 HDD 热量分配
 - 用于 IP/存储信息的可选 OLED 显示屏
 
-## 清单
+## 产品列表
 
 - Radxa ROCK Penta SATA HAT
 - eSATA 数据线

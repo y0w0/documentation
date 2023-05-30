@@ -46,15 +46,12 @@ The SD card slot is on the back of the ROCK 5A. When installing the SD card, ple
 
 ## eMMC Module & SPI Flash Module
 
-ROCK 5A offers a high speed socket for eMMC modules, which can be used for OS and data storage. The socket is compatible with readily available industrial pinout and form factor hardware.   
-The socket is on the back of RACK 5A. When you install, please align the missing angle of the flash module with the pattern on the board.   
+ROCK 5A provides a high-speed B2B interface for eMMC / SPI Flash, which can be used for operating system and data storage. When you receive ROCK 5A, ROCK 5A is installed with SPI Flash, you need to remove the SPI Flash before you install eMMC. Both eMMC and SPI Flash use B2B connectors, and they can be aligned with the B2B connection interface of ROCK 5A for installation. When installing, please align the missing corner of the module with the pattern area on the PCB, as shown in the figure:
 
-**Radxa recommends using Radxa eMMC Module**
-![ROCK5A eMMC](/img/rock5a/rock5a_emmc.webp)
+![ROCK5A Micro SD Card](/img/rock5a/rock5a-use-emmc.webp)  
+**Radxa recommends using Radxa eMMC Module**  
 
-**ROCK5A products are sold with SPI Flash Module.**
-![ROCK5A SPI Flash](/img/rock5a/rock5a_flash.webp)
-
+![ROCK5A eMMC](/img/rock5a/rock5a_emmc.webp)  
 
 ## USB Power
 Finally, plug in the power and start it up. The power interface of RACK 5A is type-c.  
@@ -62,15 +59,4 @@ Finally, plug in the power and start it up. The power interface of RACK 5A is ty
 **If the Power LED is off, please check whether the device is connected properly and whether the charger is damaged.**  
 **If the device still cannot work after checking the power, please contact us.**
 ![alt rock5a](/img/rock5a/rock5a_power.webp)
-
-
-
-
-
-
-
-
-
-
-
 

@@ -1,28 +1,28 @@
 ---
-sidebar_label: 'Using M.2 SATA breakout board on ROCK 5A'
+sidebar_label: 'ROCK 5A使用M.2 SATA breakout board教程'
 sidebar_position: 20
 ---
 
-# Using M.2 SATA breakout board on ROCK 5A
+# ROCK 5A使用M.2 SATA breakout board教程
 
-When you use M2.E to SATA breakout board, you need to prepare a SATA data cable for connecting with SATA hard disk and a SATA Power Splitter Cable for SATA power supply. 
+使用M2.E转SATA转接板时，需要准备一根SATA数据线用于连接SATA硬盘，一根SATA电源线用于供电。
 
-As shown in the figure, connect the M.2 E key to SATA breakout board to the M2.E port of RKCK 5A, and then use the SATA data cable to connect ROCK 5A and SATA SSD.  
-The red GPIO of Radxa's SBCs can be used for 5V power supply for SATA, and the black GPIO is usually used for GND.  
+如图，将SATA转接板的M.2 E key连接到RKCK 5A的M2.E口，然后用SATA数据线连接ROCK 5A和SATA SSD。    
+Radxa SBC 的红色 GPIO 可用于 SATA 的 5V 供电，黑色 GPIO 通常用于 GND，可用于SATA硬盘的供电。  
 
 ![Use M2.E SATA Breakout Board on ROCK 5A](/img/accessories/m2e-to-sata.webp)
 
-After you install, you need to enable SATA.
-Press "Ctrl + Alt + T" simultaneously to open a terminal, run `rsetup` command as below:
 
-```
+安装后，您需要通过设置启用 SATA。
+同时按“Ctrl + Alt + T”打开终端，运行“rsetup”命令如下：
+
+```bash
 radxa@rock-5a:~$ rsetup
 ```
 
-Typing the password and select `Overlays` to rsetup tool interface.  
-Select `Overlays`:
+输入密码并选择“Overlays”以配置设备树。
 
-```
+```bash
 Configure Device Tree Overlay
         Manage overlays
         View overlay info
@@ -31,9 +31,9 @@ Configure Device Tree Overlay
         <Ok>             <Cancel>
 ```
 
-Then, select `Manage overlays`:
+然后，选择 `Manage overlays`:
 
-```
+```bash
 Configure Device Tree Overlay  
         Manage overlays  
         View overlay info  
@@ -44,10 +44,9 @@ Configure Device Tree Overlay
       <Ok>            <Cancel>
 ```
 
-Next, the installed device tree would shown, it may be different on different product.  
-Press the space bar to `Enable SATA0`
+接下来会显示已安装的设备树，不同的产品可能会有所不同。  
 
-```
+```bash
 Please select overlays: 
         [ ] Enable 1-Wire on GPIO4_B1
         [ ] Enable FIQ Debugger on UART4-M2
@@ -91,19 +90,20 @@ Please select overlays:
         <Ok>                   <Cancel>
 ```
 
-Select the overlays you want to load with the space bar,
+按空格选中 `Enable SATA0`
 
-```
+```bash
 [*] Enable SATA0
 ```
 
-Overlay with a `*` indicates that it is enabled. It would work after reboot. 
+设备带有`*`表示它已启用，重新开机就可以使用了。
+
+## 查看SATA是否挂载成功
 
 
-## Check whether the SATA mount is successful
+你可以通过`lsblk`命令查看SSD是否被识别到。
 
-You can check whether the SSD card is recognized by ```lsblk```.
-```
+```bash
 radxa@rock-5a:~$ lsblk
 NAME         MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
 sda            8:0    0 476.9G  0 disk
@@ -114,4 +114,5 @@ mmcblk0boot0 179:32   0     4M  1 disk
 mmcblk0boot1 179:64   0     4M  1 disk
 zram0        254:0    0   3.9G  0 disk [SWAP]
 ```
-As you can see, the system has recognized the SATA (**sda**).
+当系统识别到SATA时，你可以查看到**sda**。
+

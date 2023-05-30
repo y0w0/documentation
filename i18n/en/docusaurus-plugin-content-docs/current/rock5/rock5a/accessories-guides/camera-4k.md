@@ -27,7 +27,6 @@ radxa@rock-5a:~$ rsetup
 ```
 
 Typing the password and select `Overlays` to rsetup tool interface.  
-Select `Overlays`:
 
 ```
 Configure Device Tree Overlay
@@ -97,7 +96,7 @@ Please select overlays:
         <Ok>                   <Cancel>
 ```
 
-Select the overlays you want to load with the space bar,
+Select the device you want to load with the space bar,
 
 ```
 [*] Enable Radxa Camera 4K

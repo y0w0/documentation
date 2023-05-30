@@ -1,45 +1,52 @@
 ---
-sidebar_label: 'Using Penta SATA HAT on ROCK 5A'
+sidebar_label: 'ROCK 5A使用Penta SATA HAT教程'
 sidebar_position: 20
 ---
 
-# How to setup Penta SATA HAT on ROCK 5A
+# ROCK 5A使用Penta SATA HAT教程
 
-- The picture shows the ROCK 5A with Radxa PENTA SATA HAT.
+- 图片为带Radxa PENTA SATA HAT的ROCK 5A。
+
 ![ROCK5A Install Penta SATA HAT](/img/rock5a/rock5a-penta-sata-hat-05.webp)
 
-- The picture below shows the RADXA Penta SATA HAT and the included parts.
-**Please click the link for details. [Penta SATA HAT](../../../accessories/penta-sata-hat)**
+- 下图是 RADXA Penta SATA HAT 和包含的零件。
+**链接详情请点击[Penta SATA HAT](../../../accessories/penta-sata-hat)**
 
 ![ROCK5A Install M.2 Extension Board](/img/accessories/penta-sata-hat-01.webp)
 
-- Please distinguish the front and back side of the IPEX cable first. As shown in the picture. **The two ends of the IPEX cable we provide for ROCK5A are oriented in the same direction.**
+- 请先区分 IPEX 线缆的正反面。 如图所示。 **我们为 ROCK5A 提供的 IPEX 线的两端方向相同。**
+
 ![ROCK5A Install M.2 Extension Board](/img/accessories/m2-extension-board-04.webp)
 
-- Please note that the ring buckle needs to jam into the connector.
+- 请注意，环扣需要卡入连接器中。
+
 ![E key to M key](/img/accessories/ekey-to-mkey-01.webp)
 
-## Install Guide
+## 安装教程
 
-1. M.2 E key to M.2 M key Board with IPEX Cable. **Note that the IPEX cable is installed here with the front side up and the ring buckle needs to be jammed to the interface to ensure that it is fixed.**
+1、M.2 E key to M.2 M key Board带 IPEX 电缆。 **注意这里安装的IPEX线是正面朝上的，环扣需要卡在接口上，确保固定。**
+
 ![ROCK5A Install M.2 Extension Board](/img/accessories/m2-extension-board-02.webp)
 
-2. Radxa Penta SATA HAT Board with IPEX Cable. **Note that the IPEX cable is installed here with the front side up and the ring buckle needs to be jammed to the interface to ensure that it is fixed.**
+2、Radxa Penta SATA HAT 主板，带 IPEX 电缆。 **注意这里安装的IPEX线是正面朝上的，环扣需要卡在接口上，确保固定。**
+
 ![ROCK5A Install Penta SATA HAT](/img/rock5a/rock5a-penta-sata-hat-04.webp)
 
-3. Please install the M2.5x18+6 copper post and M2.5x5 copper post included with the product on the ROCK5A as shown in the picture.
+3、请将产品附带的M2.5x18+6铜柱和M2.5x5铜柱安装在ROCK5A上，如图所示。
+
 ![ROCK5A Install M.2 Extension Board](/img/rock5a/rock5a-m2-extension-board-04.jpg)
 
-4. Please Connect one end of the IPEX cable to the M.2 E key to M Key board and the other end to the Radxa Penta SATA HAT and Install the M.2 E key to M key board to the M.2 E key connector of ROCK5A. As shown in the picture.
+4、请将 IPEX 线的一端连接到 M.2 E key to M Key board，另一端连接到 Radxa Penta SATA HAT 并将 M.2 E key to M key board 安装到 M.2 E key ROCK5A的连接器。 如图所示。
+
 ![ROCK5A Install Penta SATA HAT](/img/rock5a/rock5a-penta-sata-hat-03.webp)
 
-5. Finally, the Radxa Penta SATA HAT is assembled using M2.5x5+5 copper posts.
+5、最后，使用 M2.5x5+5 铜柱组装 Radxa Penta SATA HAT。
 ![ROCK5A Install Penta SATA HAT](/img/rock5a/rock5a-penta-sata-hat-01.webp)
 ![ROCK5A Install Penta SATA HAT](/img/rock5a/rock5a-penta-sata-hat-02.webp)
 
-## As a storage drive
+## 查看Penta SATA HAT挂载是否成功
 
-1.  you can check whether the SATA devices is recognized by ```lsblk```.
+1、通过```lsblk```查看SATA设备是否被识别。
 
 ```
 radxa@rock-5a:~$ lsblk
@@ -61,4 +68,5 @@ zram0        254:0    0   3.8G  0 disk [SWAP]
 radxa@rock-5a:~$ 
 ```
 
-2. As you can see, the system has recognized the SATA devices(sda/sdb/sdc/sdd).
+2、当系统识别到Penta SATA HAT时，你可以查看到SATA devices(sda/sdb/sdc/sdd)。
+

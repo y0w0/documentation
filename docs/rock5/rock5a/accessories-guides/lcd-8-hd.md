@@ -1,33 +1,32 @@
 ---
-sidebar_label: 'Using Radxa Display 8 HD on ROCK 5A'
+sidebar_label: 'ROCK 5A使用Radxa Display 8 HD教程'
 sidebar_position: 20
 ---
 
-# How to setup Radxa Display 8 HD on ROCK 5A
+# 如何在 ROCK 5A 上设置 Radxa Display 8 HD
 
-## Installation Guide
+## 安装教程
 
-The fpc provided by Radxa Display 8 HD, one port of fpc is connected to the screen, and the other is connected to ROCK 5A.  
+Radxa Display 8 HD提供的fpc，fpc一边是用于接屏幕，另一边是用于接ROCK 5A。
 
-Connect the FPC to the 8HD screen as shown in the figure, use your fingers to pull up the black module of the fpc connector, insert the fpc cable into the card slot, and then pull down the black module to fix the fpc cable.
+如图将FPC连接到8HD屏，用手指向上拉起fpc接头黑色模块，将fpc排线插入卡槽，然后按下黑色模块固定fpc排线。
 
 ![Radxa Display 8 HD](/img/accessories/8hd-connect-fpc.webp)
 
-Connect the FPC to ROCK 5A as shown in the figure. ROCK 5A provides a MIPI DSI interface. Pull up the black module of the MIPI DSI interface, insert the fpc into the connector and pull down the black module to fix the fpc.
+如图所示，将 FPC 连接到 ROCK 5A。 ROCK 5A 提供了一个 MIPI DSI 接口。 将MIPI DSI接口的黑色模块拉起，将fpc插入连接器，将黑色模块拉下固定fpc。
 
 ![Radxa Display 8 HD](/img/accessories/rock5a-connect-fpc.webp)
 
-## Configuration
-Press "Ctrl + Alt + T" simultaneously to open a terminal, run `rsetup` command as below:
+## 配置
+同时按“Ctrl + Alt + T”打开终端，运行“rsetup”命令如下：
 
-```
+```bash
 radxa@rock-5a:~$ rsetup
 ```
 
-Typing the password and select `Overlays` to rsetup tool interface.  
-Select `Overlays`:
+输入密码并选择 `Overlays` 进入 rsetup 工具界面。  
 
-```
+```bash
 Configure Device Tree Overlay
         Manage overlays
         View overlay info
@@ -36,9 +35,9 @@ Configure Device Tree Overlay
         <Ok>             <Cancel>
 ```
 
-Then, select `Manage overlays`:
+然后, 选择 `Manage overlays`:
 
-```
+```bash
 Configure Device Tree Overlay  
         Manage overlays  
         View overlay info  
@@ -49,10 +48,10 @@ Configure Device Tree Overlay
       <Ok>            <Cancel>
 ```
 
-Next, the installed device tree would shown, it may be different on different product.  
-Press the space bar to `Enable Radxa Display 8HD`
+接着，进入设备的管理界面，不同的产品可能会有所不同。
 
-```
+
+```bash
 Please select overlays: 
         [ ] Enable 1-Wire on GPIO4_B1
         [ ] Enable FIQ Debugger on UART4-M2
@@ -95,15 +94,15 @@ Please select overlays:
         <Ok>                   <Cancel>
 ```
 
-Select the overlays you want to load with the space bar,
+按下空格键使能8HD屏幕`Enable Radxa Display 8HD`
 
-```
+```bash
 [*] Enable Radxa Display 8 HD
 ```
 
-Overlay with a `*` indicates that it is enabled. It would work after reboot. 
+最后，重新启动就可以使用。
 
-```
+```bash
 radxa@rock-5a:~$ sudo reboot
 ```
 

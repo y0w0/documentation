@@ -1,20 +1,20 @@
 ---
-sidebar_label: 'Using Radxa Wireless Module A8 on ROCK 5A'
+sidebar_label: 'ROCK 5A使用Radxa Wireless Module A8教程'
 sidebar_position: 20
 ---
 
-# Using Radxa Wireless Module A8 on ROCK 5A
+# ROCK 5A使用Radxa Wireless Module A8教程
 
-As shown in the figure, first install the two antennas.
+如图所示，先安装两根天线。
 
 ![Wireless Module A8](/img/accessories/wireless-a8-1.webp)
 
-Connect the wireless module A8 to the M2.E port of ROCK 5A.
+将wireless module A8连接到ROCK 5A的M2.E口。
 
 ![Wireless Module A8](/img/accessories/wireless-a8-2.webp)
 
-**Note: It is best to turn off the power during installation.**
+**注意：安装时最好关闭电源。**
 
-After starting the computer, you will be able to enjoy WiFi6 Internet access.  
+启动电脑后，即可享受WiFi6上网。
 
-How to use the wireless module A8 to access the Internet wirelessly, you can refer to [Network Setting](https://docs.radxa.com/rock5/radxa-os/network).
+如何使用Wireless Module A8无线上网，可以参考[网络设置](https://docs.radxa.com/rock5/radxa-os/network).

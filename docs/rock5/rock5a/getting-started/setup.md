@@ -50,17 +50,13 @@ SD 卡槽位于 ROCK 5A 的背面。 安装SD卡时注意SD卡的引脚要靠近
 
 ## eMMC 模块 & SPI Flash 模块
 
-ROCK 5A 为 eMMC 模块提供高速 B2B 连接器，可用于操作系统和数据存储。      
-该 B2B 连接器位于 RACK 5A 的背面。 安装时，请将模块的缺角对准PCB板上的图案区域。   
+ROCK 5A 为 eMMC / SPI Flash 提供高速 B2B 连接口，可用于操作系统和数据存储。当你收到 ROCK 5A 时，ROCK 5A是安装了 SPI Flash，你需要把 SPI Flash 取下来之后才可以安装 eMMC。eMMC和SPI Flash都是采用的是B2B连接器，与ROCK 5A的B2B连接接口对准安装就可以。 安装时，请将模块的缺角对准PCB板上的图案区域，如图所示：
+
+![ROCK5A Use eMMC](/img/rock5a/rock5a-use-emmc.webp)
 
 **Radxa 推荐使用 Radxa eMMC Module**
 
 ![ROCK5A eMMC](/img/rock5a/rock5a_emmc.webp)
-
-**ROCK5A 产品与 SPI Flash模块一起出售。**
-
-![ROCK5A SPI Flash](/img/rock5a/rock5a_flash.webp)
-
 
 ## USB Power
 最后插上电源就可以开机。RACK 5A的电源接口为type-c。

@@ -1,6 +1,6 @@
 ---
 sidebar_label: 'Install OS to an Micro SD Card'
-sidebar_position: 34
+sidebar_position: 32
 ---
 
 # Install OS to an SDCard

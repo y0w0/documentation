@@ -1,6 +1,6 @@
 ---
 sidebar_label: '在ROCK 5B 构建 Kernel'
-sidebar_position: 6
+sidebar_position: 60
 ---
 
 # 在ROCK 5B 构建Kernel
@@ -10,22 +10,23 @@ sidebar_position: 6
 ## 安装必要包
 
 ```bash
-$ sudo apt-get update
-$ sudo apt-get install -y git  device-tree-compiler libncurses5 libncurses5-dev build-essential libssl-dev mtools bc python dosfstools bison flex rsync u-boot-tools make
+sudo apt-get update
+sudo apt-get install -y git  device-tree-compiler libncurses5 libncurses5-dev build-essential libssl-dev mtools bc python dosfstools bison flex rsync u-boot-tools make
 ```
 
 ## 获取源代码
 
 ```bash
-$ mkdir ~/rk3588-sdk && cd ~/rk3588-sdk
-$ git clone -b linux-5.10-gen-rkr3.4 https://github.com/radxa/kernel.git
-$ git clone -b master https://github.com/radxa/rkbin.git
-$ git clone -b debian https://github.com/radxa/build.git
+mkdir ~/rk3588-sdk && cd ~/rk3588-sdk
+git clone -b linux-5.10-gen-rkr3.4 https://github.com/radxa/kernel.git
+git clone -b master https://github.com/radxa/rkbin.git
+git clone -b debian https://github.com/radxa/build.git
 ```
 
 - 你将获得如下内容
 ```bash
-build  kernel  rkbin
+ls rk3588-sdk
+# build  kernel  rkbin
 ```
 
 ### 介绍
@@ -40,8 +41,8 @@ build  kernel  rkbin
 - 构建Kernel默认 rockchip_linux_defconfig.
 
 ```bash
-$ cd ~/rk3588-sdk
-$ ./build/mk-kernel.sh rk3588-rock-5b    # For ROCK 5B
+cd ~/rk3588-sdk
+./build/mk-kernel.sh rk3588-rock-5b    # For ROCK 5B
 ```
 
 ## 修改内核配置文件
@@ -49,25 +50,25 @@ $ ./build/mk-kernel.sh rk3588-rock-5b    # For ROCK 5B
 - 可以选择修改内核配置文件
 
 ```bash
-$ cd ~/rk3588-sdk
-$ cd kernel
-$ make rockchip_linux_defconfig
-$ make menuconfig
-$ make savedefconfig
-$ cp defconfig arch/arm64/configs/rockchip_linux_defconfig
+cd ~/rk3588-sdk
+cd kernel
+make rockchip_linux_defconfig
+make menuconfig
+make savedefconfig
+cp defconfig arch/arm64/configs/rockchip_linux_defconfig
 ```
 
 - 用新的配置文件构建Kernel
 
 ```bash
-$ cd ~/rk3588-sdk
-$ ./build/mk-kernel.sh rk3588-rock-5b    # For ROCK 5B
+cd ~/rk3588-sdk
+./build/mk-kernel.sh rk3588-rock-5b    # For ROCK 5B
 ```
 
 - 你将得到内核image 和 dtb 文件
 
 ```bash
-$ ls out/kernel/
+ls out/kernel/
 Image  rk3588-rock-5b.dtb
 ```
 
@@ -76,13 +77,14 @@ Image  rk3588-rock-5b.dtb
 - 内核包kernel package构建可以将内核、设备树、模块和固件打包成 Debian 包，这使得在 ROCK 5B 上安装更容易。
 
 ```bash
-$ ./build/pack-kernel.sh -d rockchip_linux_defconfig -r 99 # [-d rockchip_linux_defconfig: kernel defconfig] [99: release number]
+./build/pack-kernel.sh -d rockchip_linux_defconfig -r 99 # [-d rockchip_linux_defconfig: kernel defconfig] [99: release number]
 ```
 
 - 生成的包将被复制到 out/packages 目录。
 
 ```bash
-$ ls out/packages/
+ls out/packages/
+
 linux-5.10.110-99-rockchip-g9fd61a9a9912_5.10.110-99-rockchip_arm64.changes
 linux-headers-5.10.110-99-rockchip-g9fd61a9a9912_5.10.110-99-rockchip_arm64.deb
 linux-image-5.10.110-99-rockchip-g9fd61a9a9912-dbg_5.10.110-99-rockchip_arm64.deb
@@ -95,8 +97,8 @@ linux-libc-dev_5.10.110-99-rockchip_arm64.deb
 - 当您想要将指定的内核包安装到您的操作系统时，请尝试以下步骤。
 
 ```bash
-$ sudo dpkg -i out/packages/linux-headers-5.10.110-99-rockchip-g9fd61a9a9912_5.10.110-99-rockchip_arm64.deb
-$ sudo dpkg -i out/packages/linux-image-5.10.110-99-rockchip-g9fd61a9a9912_5.10.110-99-rockchip_arm64.deb
+sudo dpkg -i out/packages/linux-headers-5.10.110-99-rockchip-g9fd61a9a9912_5.10.110-99-rockchip_arm64.deb
+sudo dpkg -i out/packages/linux-image-5.10.110-99-rockchip-g9fd61a9a9912_5.10.110-99-rockchip_arm64.deb
 ```
 
 - 你会发现在/boot目录下生成了一些文件。
@@ -125,8 +127,9 @@ label kernel-5.10.110-34-rockchip-gca15bbe36e6c
 -  重启设备之后，检查内核版本
 
 ```bash
-$ uname -a
-Linux rock-5b 5.10.110-99-rockchip-g9fd61a9a9912 #rockchip SMP Sun Jan 29 17:51:26 UTC 2023 aarch64 GNU/Linux
+uname -a
+
+# Linux rock-5b 5.10.110-99-rockchip-g9fd61a9a9912 #rockchip SMP Sun Jan 29 17:51:26 UTC 2023 aarch64 GNU/Linux
 ```
 
 ## FAQs

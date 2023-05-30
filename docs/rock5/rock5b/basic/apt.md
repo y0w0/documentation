@@ -1,6 +1,6 @@
 ---
 sidebar_label: '软件源'
-sidebar_position: 8
+sidebar_position: 4
 ---
 
 ## Radxa APT

@@ -1,66 +1,66 @@
----
-sidebar_label: 'Setup'
+﻿---
+sidebar_label: '设置'
 sidebar_position: 40
 ---
 
-# Setting everything up
+# 总体设置
 
-Before you use RACK 5A, please familiarize yourself with the interface of the device so that you can use it better.
+在使用RACK 5A之前，请先熟悉设备的外观以及扩展接口来更好地使用它。
 
-## USB interface
-ROCK 5A provides two USB 2.0 and two USB 3.0 ports. You can choose a mouse or a keyboard as an input device.  
+## USB接口
+ROCK 5A提供两个USB 2.0和两个USB 3.0端口。你可以选择鼠标或键盘作为输入设备。 
 
-The installation method is shown in the picture: you just need to align the USB port of the mouse with the USB port of ROCK 5A and insert it.
+安装方法如图所示：你只需将鼠标的USB接口与ROCK 5A的USB接口对准，然后插入即可。
 
 ![ROCK5A USB](/img/rock5a/rock5a_usb.webp)
 
-## Ethernet port 
-If you are using wired Internet access, align the network cable with the GbE port on the ROCK 5A and plug it in.
+## 以太网口 
+如果您使用的是有线互联网接入，请将网线对准ROCK 5A上的RJ45端口，然后将其插入。
 
 ![ROCK5A Ethernet](/img/rock5a/rock5a_ethernet_01.webp)
-The following results will be displayed.
+将显示以下结果：
 
 ![ROCK5A Ethernet](/img/rock5a/rock5a_ethernet_02.webp)
 
-## Connect wireless module with M.2 E key interface
-If you have wireless Internet access, you can plug in the WIFI module through the M.2 E Key port.  
-Radxa recommends using **Radxa Wireless Module A8**.
+## 通过M.2接口安装无线模块
+如果你有无线互联网环境，你可以通过M.2端口接入WIFI模块。 
+Radxa推荐使用**Radxa无线模块A8**。
 
 ![ROCK5A M.2 E key](/img/rock5a/rock5a_m2.webp)
 
 ## Micro HDMI
-ROCK 5A provides 2 Micro HDMI ports.
-Micro HDMI to HDMI cable required.
+ROCK 5A提供2个Micro HDMI端口， 
+需要micro HDMI转HDMI线缆。
 ![Micro HDMI cable](/img/accessories/micro-hdmi-cable-01.webp)
-- To use 8Kp60, please select an HDMI port that supports 8Kp60. The 8Kp60 micro HDMI interface is close to the Headphone interface;
-- To use 4Kp60, please select an HDMI port that supports 4Kp60. The 4Kp60 micro HDMI interface is close to the USB Power port;  
+- 要使用8K60Hz显示输出，请选择耳机接口附近的支持8K60的HDMI接口；
+- 要使用4K60Hz显示输出，请选择靠近USB电源端口的支持4K60的HDMI接口；  
 ![ROCK5A HDMI](/img/rock5a/rock5a_hdmi.webp)
 
-## Headphone interface 
-ROCK 5A offers a Headphone and you can connect the headphone to the headphone port in ROCK 5A as shown in the picture.
+## 耳机接口 
+ROCK 5A提供了一个3.5mm耳机接口，你可以将耳机或喇叭连接到ROCK 5A的耳机口，如图所示。
 ![ROCK5A Headphone](/img/rock5a/rock5a_headphone.webp)
 
-## SD card  
-The SD card slot is on the back of the ROCK 5A. When installing the SD card, please note that the pins of the SD card are close to the surface of the PCB board. Ensure that the direction is not reversed, as shown in the picture for reference.  
+## SD卡  
+SD卡插槽在ROCK 5A的背面。安装SD卡时，请注意SD卡的针脚要紧贴PCB板的表面。确保方向正确，参考如图所示： 
 ![ROCK5A Micro SD Card](/img/rock5a/rock5_sd.webp)
 
-## eMMC Module & SPI Flash Module
+## eMMC模块或SPI刷写模块
 
-ROCK 5A offers a high speed socket for eMMC modules, which can be used for OS and data storage. The socket is compatible with readily available industrial pinout and form factor hardware.   
-The socket is on the back of RACK 5A. When you install, please align the missing angle of the flash module with the pattern on the board.   
+ROCK 5A提供一个高速eMMC插座，可用于安装操作系统和数据存储。该插座与现寸的引脚和外形尺寸硬件兼容。  
+该底座在RACK 5A的背面， 在你安装时，请将模块缺角与板上的缺角图案对齐。  
 
-**Radxa recommends using Radxa eMMC Module**
+**瑞莎推荐使用官方eMMC模块**
 ![ROCK5A eMMC](/img/rock5a/rock5a_emmc.webp)
 
-**ROCK5A products are sold with SPI Flash Module.**
+**ROCK 5A预装SPI Flash模块进行销售**
 ![ROCK5A SPI Flash](/img/rock5a/rock5a_flash.webp)
 
 
-## USB Power
-Finally, plug in the power and start it up. The power interface of RACK 5A is type-c.  
+## 供电
+最后，插上电源启动主板。RACK 5A的电源接口为Type-C接口。 
 
-**If the Power LED is off, please check whether the device is connected properly and whether the charger is damaged.**  
-**If the device still cannot work after checking the power, please contact us.**
+**如果电源指示灯熄灭，请检查设备是否连接正确，充电器是否损坏。**  
+**如果在检查电源后设备仍然不能工作，请联系我们。**
 ![alt rock5a](/img/rock5a/rock5a_power.webp)
 
 

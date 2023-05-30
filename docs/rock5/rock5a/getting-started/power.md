@@ -1,51 +1,51 @@
----
-sidebar_label: 'Power off'
+﻿---
+sidebar_label: '电源控制'
 sidebar_position: 50
 ---
 
-# Power on / off your ROCK 5A
+# ROCK 5A电源控制
 
-## Software Restart
+## 软件重启
 
-** Take the debian system as an example here**
+** 以Debian系统为例 **
 
-### Shutdown and restart of the graphical interface
+### 在图形界面关机或重启
 
-1. Click on the icon in the lower left corner and select the **Leave** option. 
-2. You will be able to see the System function options.
-3. You can select the function you need **(Sleep, Reboot, Shutdown)**
+1. 点击左下角的图标，选择**离开**选项。 
+2. 你将能够看到系统功能选项。
+3. 你可以选择你需要的功能**（睡眠、重启、关机）**。
 
 ![ROCK5A GUI 01](/img/rock5a/rock5a-GUI-leave.webp)
 
-### Shutdown and restart of the terminal interface
+### 通过终端控制
 
-Open the terminal command in the desktop(or Ctrl+Alt+T)
+在桌面上打开终端命令（或使用Ctrl+Alt+T快捷键）。
 
-**Restart**  
-Enter the following command and press Enter.
-It will reboot the system if the password is correct. 
-If wrong, please re-enter the correct password.
+**重启**  
+输入以下命令并按回车键，随后输入密码。
+如果密码正确，它将重新启动系统。
+如果错误，请重新输入正确的密码。
 ```
 sudo reboot
 ```
 
-**Shutdown**  
-Enter the following command and press Enter.
-It will shutdown the system if the password is correct. 
-If wrong, please re-enter the correct password.
+**关机**  
+输入以下命令并按回车键，随后输入密码。
+如果密码正确，它将关闭系统。
+如果错误，请重新输入正确的密码。
 ```
 sudo shutdown now
 ```
 
-## Power Key Start  
+## 电源键
 
-As shown in the figure, the place where the arrow is pointing to is the power key.
+如图所示，箭头所指的地方就是电源键。
 
-- When the device is off, press the power key and the device will turn on. The power green led will be always on when working, and the status blue led will flash.
+- 当设备处于关闭状态时，按下电源键，设备将打开。工作时，电源绿灯会一直亮着，而状态蓝灯会闪烁。
 
 ![ROCK5A Power](/img/rock5a/rock5a-power.webp)
 
-- When the device is on, press the power key and the screen will pop up the user state selection. You can choose sleep, restart, shutdown or lag out. When you turn off the device, power green led and status blue led will be off.
+- 当设备开启时，按下电源键，屏幕会弹出用户状态选择。你可以选择睡眠、重启、关机或滞留。当你关闭设备时，电源绿灯和状态蓝灯将被关闭。
 
 ![ROCK5A Power](/img/rock5a/rock5a-power-status.webp)
 

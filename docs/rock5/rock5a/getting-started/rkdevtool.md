@@ -1,68 +1,68 @@
----
-sidebar_label: 'install OS from USB port by RKDevTool'
+﻿---
+sidebar_label: '通过RKDevTool工具线刷系统'
 sidebar_position: 36
 ---
 
-# Introduction
+# 简介
 
-ROCK 5 supports Maskrom mode, which is a special operation mode for CPU to wait for USB OTG port command. 
-The PC tools we use to communicate with ROCK 5 in Maskrom mode are the rkdeveloptool and RKDevTool. 
-We use the rkdeveloptool in Linux/macOS and the RKDevTool under Windows.
+ROCK 5支持Maskrom模式，这是CPU通过USB OTG端口接收命令的一种特殊操作模式。
+我们用来与ROCK 5在Maskrom模式下进行通信的PC工具是rkdeveloptool和RKDevTool。
+我们在Linux/MacOS下使用rkdeveloptool，在Windows下使用RKDevTool。
 
-# Preparation
+# 准备工作
 
 - ROCK 5A
-- USB-A to USB-A cable
-- eMMC Module
-- Power Supply and power cable
-- OS images
+- USB-A转USB-A线缆
+- eMMC模块
+- 电源适配器以及电源线
+- 系统镜像
 
-# Steps
+# 步骤
 
-- **Install Tool and Drivers on Windows:**  
+- **在Windows下安装工具以及RK驱动：**  
 [RKDevTool V2.96](https://dl.radxa.com/tools/windows/RKDevTool_Release_v2.96-20221121.rar)  
 [DriverAssitant V5.0](https://dl.radxa.com/tools/windows/DriverAssitant_v5.0.zip)  
 
-- Boot the board to Maskrom mode:  
-The steps to boot ROCK 5A to Maskrom mode:  
-1. Power off the board.  
-2. Take the eMMC module and other storage off.  
-3. Plug the USB-A to USB-A cable to the **upper** [USB 3.0 port](../getting-started/overview)(No.8) of ROCK 5A, the other side to PC USB 3.0 port.  
-4. Power on the board.  
+- 把板子启动到Maskrom模式：  
+ROCK 5A进入maskrom模式的步骤：  
+1. 拔掉板子的电源。  
+2. 将eMMC或其他存储介质取下。  
+3. 把USB-A转USB-A线一端插入ROCK 5A**上方的** [USB 3.0端口](../getting-started/overview)(8号标注)， 另一端接入电脑USB 3.0端口。  
+4. 插电启动板子：  
 ![ROCK 5A power on](/img/rock5a/rock5a_power.webp)  
-5. Attaching the eMMC module
+5. 装上eMMC模块或其他安装介质。
 
-Another way is to connect the two pins of [the maskrom](../getting-started/overview)(No.23) before power on, it's not necessary that take the  eMMC module and other storage off.  
+另一种方法是在开机前把两个[maskrom针脚](../getting-started/overview)(23号标注)短接，这种方式不需要把eMMC模块和其他存储器拿下来。 
 
-- Open the RKdevtool:  
-This is the UI without maskrom device:  
+-打开RKdevtool:  
+这是没检测到Maskrom设备的界面：  
 ![no device](/img/rock5a/no-device.webp)  
 
-This is the UI with maskrom device:  
+这是检测到Maskrom设备的界面：  
 ![on maskrom](/img/rock5a/on-maskrom.webp)  
 
-- Choose the Loader and Image files:  
-Left click the rightmost cell to choose the Loader and Image files:  
+- 选择引导文件和系统镜像：  
+鼠标左键点击最右边空格以选择文件：  
 ![Choose files](/img/rock5a/choose-files.webp)  
 
-The spi loader file of ROCK 5A is here: **[RK3588 loader](https://dl.radxa.com/rock5/sw/images/loader/rock-5b/rk3588_spl_loader_v1.08.111.bin)**  
-The image can be found on [Official Image](../downloads/official-images).  
-**Note: The image needs to be decompressed after be downloaded.**
+ROCK 5A的spi加载文件可以在此下载： **[RK3588 loader](https://dl.radxa.com/rock5/sw/images/loader/rock-5b/rk3588_spl_loader_v1.08.111.bin)**  
+系统镜像可在[官方系统镜像页面](../downloads/official-images)下载。  
+**提示： RKDevTool使用的镜像是在下载后解压产生的镜像文件。**
 
-- Choose Device and flash(run):  
-Attention:  
-1. choose eMMC when using eMMC module  
-2. choose the desired device  
-3. tick the item  
+- 选择设备并烧写(run键):  
+注意:  
+1. 选择正在使用的存储介质  
+2. 选择所需的设备  
+3. 勾选此项  
 ![Attention Point](/img/rock5a/attention-point.webp)
 
-- Wait for the flash to complete:  
-Progress is shown on the right, it would tip you after completion:  
+- 等待刷写完成：  
+刷写进度显示在右边，完成后它会提示你：  
 ![Flash completion](/img/rock5a/completion.webp)
 
-# Supplementary
+# 补充说明
 
-There are many more uses for RKDevTool, this is guide is just one of them, 
-for more, welcome to join our communication platforms or ask Google for help.
+RKDevTool的用途还有很多，本指南只是其中之一， 
+如需获取更多信息，欢迎加入我们的交流平台或向谷歌寻求帮助。
 
 

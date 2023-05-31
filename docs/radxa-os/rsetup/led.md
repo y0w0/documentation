@@ -1,11 +1,11 @@
 ﻿---
-sidebar_label: 'LED Setup'
+sidebar_label: 'LED灯设置'
 sidebar_position: 10
 ---
 
-# LED Setup
+# LED设置
 
-Some products will have user-controllable LEDs on-board. They can be managed via [`rsetup`](rsetup-tool#gpio-leds):  
+一些产品会有用户可控制的板载LED。它们可以通过[`rsetup`](rsetup-tool#gpio-leds)管理：  
 ```
 ┌──────────────────────────────────┤ RSETUP ├──────────────────────────────────┐
 | Below are the available LEDs and their triggers.                             |
@@ -32,15 +32,15 @@ Some products will have user-controllable LEDs on-board. They can be managed via
 |                                                                              |
 └──────────────────────────────────────────────────────────────────────────────┘
 ```
-The content inside '[ ]' at the end is the current LED trigger, which can be roughly understood as the LED status.
+结尾处'[]'里面的内容是当前的LED触发器，可以大致理解为LED状态。
 
-On Radxa products, the power LED usually has `default-on` trigger, while the status LED usually has `heartbeat` trigger.
+在瑞莎产品的默认设置中，电源LED通常有 `default-on` 触发器，而状态LED通常有 `heartbeat` 触发器。
 
-## Change LED light status
+## 改变LED灯出触发状态
 
-The following steps help us to change light status:
-1. Use the `up` or `down` key to move the highlighted selection to which LED you want to edit the statu;  
-2. Use the `Space` bar to confirm your choose, a `*` would appeare on the `[ ]` at the start.  
+通过以下步骤来改变灯光状态：
+1. 使用 `up` 或 `down` 键，将高亮显示的选择条移动到你要编辑的LED状态；  
+2. 使用 `Space` 键确认您的选择，随后，在开头的`[]`会出现`*`。 
 ```
 ┌──────────────────────────────────┤ RSETUP ├──────────────────────────────────┐
 | Below are the available LEDs and their triggers.                             |
@@ -67,7 +67,7 @@ The following steps help us to change light status:
 |                                                                              |
 └──────────────────────────────────────────────────────────────────────────────┘
 ```
-3. Press `Enter` to go to the trigger selection menu:
+3. 按 `Enter` 键，进入触发器选择菜单：
 ```
 ┌──────────────────────────────────┤ RSETUP ├──────────────────────────────────┐
 │ Please select the new trigger:                                               │
@@ -94,6 +94,6 @@ The following steps help us to change light status:
 │                                                                              │
 └──────────────────────────────────────────────────────────────────────────────┘
 ```
-4. Use the `up` and `down` arrow keys to select which you like and press `Space` to confirm, a `*` would appeare on the `( )` like step 2.  
-5. Press `Enter` to save your choose and aplly it.  
-6. Your LED status would change after step 5 at once.  
+4. 像第二步一样，使用 `up` 或 `down` 方向键选择你喜欢的，并按 `Space`  确认，`*`会出现在`()` 中。 
+5. 按 `Space` 键保存你的选择并应用它。 
+6. 第5步之后，你的LED状态将立即改变。 

@@ -1,26 +1,26 @@
----
-sidebar_label: 'Device Tree Configuration'
+﻿---
+sidebar_label: '设备树设置'
 sidebar_position: 10
 ---
 
-# Device Tree Configuration
+# 设备树设置
 
-## Introduction
+## 简介
 
-Device Tree Overlays make it possible to support many hardware configurations with a single kernel and without the need to explicitly load or blacklist kernel modules.
+设备树Overlays使得用一个内核支持多个硬件配置成为可能，而且不需要明确地加载或屏蔽内核模块。
 
-You can use `rsetup` to manage overlays.  
+你可以通过 `rsetup`打开rsetup工具来管理设备树。  
 
-## How to enable an overlay
+## 如何启用一个overlay
 
-### usage
+### 使用方法
 
-run `rsetup` command as below:
+使用 `rsetup` 命令来打开rsetup工具：
 ```
 rsetup
 ```
-After typing the password, you can see the [rsetup tool interface](rsetup-tool).  
-Select `Overlays`:
+在要求输入密码后， 你可以看到[rsetup工具界面](rsetup-tool)。  
+选择 `Overlays`:
 ```
 Configure Device Tree Overlay
         Manage overlays
@@ -29,7 +29,7 @@ Configure Device Tree Overlay
         Reset overlays
         <Ok>             <Cancel>
 ```
-Then, select `Manage overlays`:
+然后， 选择 `Manage overlays`:
 ```
 Configure Device Tree Overlay  
         Manage overlays  
@@ -41,8 +41,8 @@ Configure Device Tree Overlay
       <Ok>            <Cancel>
 ```
 
-Next, the compatible device tree would shown, it may be different on different product.  
-For example, those are for ROCK 5A:  
+接下来，已兼容的设备树会显示出来，它可能在不同的产品上有所不同。 
+例如，这些是ROCK 5A的：  
 ```
 Please select overlays: 
         [ ] Enable 1-Wire on GPIO4_B1
@@ -85,9 +85,9 @@ Please select overlays:
         [ ] Set OTG port to Peripheral mode
         <Ok>                   <Cancel>
 ```
-**Note: Supported options are subject to change.**  
-Select the overlays you want to load with the space bar,
+**注意：支持的选项可能会改变。**  
+用空格键来选择你要加载的Overlay，  
 ```
 [*] Enable Radxa Camera 4K
 ```
-Overlay with a `*` indicates that it is enabled. It would work after reboot.
+Overlay有`*`标记表示它已启用， 重启后即可正常工作。

@@ -1,9 +1,9 @@
----
-sidebar_label: 'Install OS to M.2 NVMe SSD'
+﻿---
+sidebar_label: '安装系统到M.2接口NVME SSD'
 sidebar_position: 35
 ---
 
-# Install OS to an M.2 NVMe SSD
+# 安装系统到M.2接口NVME SSD
 
 
 

@@ -1,59 +1,59 @@
----
-sidebar_label: 'OS Installation'
+﻿---
+sidebar_label: '系统安装'
 sidebar_position: 30
 ---
 
-# Choosing installation media 
+# 选择安装介质 
 
-## How to choose
+## 安装介质介绍
 
 ### eMMC 
 
-eMMC is a built-in storage chip typically used in mobile devices and embedded systems. It integrates flash memory and a controller and has a relatively small capacity, usually ranging from 4GB to 128GB. eMMC has slower read/write speeds compared to SSD and is suitable for storing small applications, media, files and other data. The eMMC chip is often directly soldered onto the device motherboard, unlike SD cards or Micro SD cards, which can be inserted and replaced.  
-Radxa offers **removable** eMMC modules.
+eMMC是一种常用于移动设备和嵌入式的小型内置存储芯片， 它集成了闪存和控制器，通常容量在4GB到128GB之间，相对较小。 与SSD相比，eMMC的读写速度较慢，适合于存储小型应用程序、媒体、文件和其他数据。eMMC芯片通常直接焊接在设备主板上，不像SD卡或Micro SD卡那样可以拔插和更换。  
+瑞莎提供**可移动**eMMC模块。
 
 ![eMMC Module](/img/accessories/emmc_related_01.webp)
 ![eMMC and SSD Comparison](/img/accessories/emmc_ssd_comparison.webp)
 
-### NVMe SSD
+### NVMe固态硬盘
 
-SSD is a solid-state drive that uses flash memory chips as its storage medium. Compared to traditional mechanical hard drives, it has faster read/write speeds, higher durability, and does not fail due to mechanical wear. SSDs typically range in capacity from 128GB to 2TB and can be used in personal computers, servers, workstations, and other fields.
+SSD是一种使用闪存芯片作为存储介质的固态硬盘。与传统的机械硬盘相比，它的读写速度更快，耐用性更高，且不会因机械磨损而产生故障。固态硬盘的容量通常在128GB到2TB之间，可用于个人电脑、服务器、工作站和其他领域。
 
 ![NVME SSD](/img/accessories/nvme-ssd-01.webp)
 
-### Micro SD Card
+### Micro SD卡
 
-Micro SD is a small flash memory storage card typically used to expand the storage space of devices such as smartphones, tablets, and digital cameras. Micro SD cards come in a range of capacities from a few hundred megabytes to several tens of gigabytes, with relatively slow read/write speeds. However, they are compact, portable, and can easily transfer data between different devices. 
+微型SD是一种小型闪存存储卡，通常用于智能手机、平板电脑和数码相机等设备扩容。微型SD卡的容量通常在512GB以下，读写速度相对较慢。不过它们结构紧凑，便于携带，可以便携地在不同设备之间传输数据。
 
 ![Micro SD Card](/img/accessories/micro-sd-01.webp)
 
-## Differences among the three
-In addition to the basic features mentioned above, these three types of storage devices have other important differences, such as:
+## 三种介质的区别
 
-### Different interfaces and protocols
+除了上述基本特征外，这三种类型的存储设备还有其他重要的区别，如：  
 
-eMMC and Micro SD Card use the eMMC and SD interfaces respectively, while SSDs typically use interfaces such as SATA, PCIe. The transmission protocols used by each interface also differ, which affects the speed and performance of the storage device.
+### 不同的接口和协议
+eMMC和Micro SD卡分别使用eMMC和SD接口，而SSD通常使用SATA、M.2等接口。每个接口使用的传输协议也不同，其速度和性能也有不同。
 
-### Different Read/Write Speeds and Response Speeds
+### 不同的读写速度和响应速度
 
-eMMC typically has slower read/write speeds, usually between 100-400MB/s, due to its limited built-in controller and interface bandwidth. Because of the slower read/write speeds of eMMC, its response speed is correspondingly slower, requiring some loading time.
+eMMC的内置控制器和接口带宽有限，所以读写速度较慢，通常在100-400MB/s之间。由于eMMC的读写速度较慢，其反应速度也相应较慢，需要一些加载时间。
 
-SSD typically has faster read/write speeds, usually between several hundred MB/s to several GB/s, due to its larger built-in controller and interface bandwidth. Because of the faster read/write speeds of SSD, its response speed is also very fast, enabling quick startup, loading, and other operations.
+固态硬盘通常具有更快的读写速度，通常在几百MB/s到几GB/s之间，这是因为其内置的控制器和接口带宽较大。由于固态硬盘的读写速度较快，其响应速度也非常快，能够快速启动、加载和其他操作。
 
-The read/write speed of Micro SD is the slowest, usually between 20~100MB/s. Due to the small size of Micro SD, its controller and interface bandwidth are limited, which also leads to its slower read and write speed and response time.
+Micro SD的读写速度是最慢的，通常在20~100MB/s之间。由于Micro SD的体积小，其控制器和接口带宽有限，这也导致其读写速度和响应时间较慢。
 
-### Different lifespan and reliability
+### 不同的寿命和可靠性
 
-Due to the different storage technologies used, these three types of storage devices also have different lifespans and reliabilities. eMMC has a relatively short lifespan, while SSDs have a longer lifespan. The reliability of Micro SD is also limited, making it unsuitable for long-term storage of important data.
+由于使用的存储技术不同，这三类存储设备也有不同的寿命和可靠性。eMMC的寿命相对较短，而SSD的寿命较长。Micro SD的可靠性也很有限，因此不适合长期存储重要数据。
 
-### Different prices and cost-effectiveness
+### 不同的价格和成本效益
 
-These three types of storage devices also have different prices and cost-effectiveness. eMMC is relatively cheap, but its performance and capacity are limited. SSDs are usually more expensive than eMMC and Micro SD, but have higher performance and larger capacity. Micro SD is relatively low-priced, but is not suitable for storing large amounts of data for long periods of time, and its read and write speeds are relatively slow, making it unsuitable for high-speed data transfer and frequent read and write operations.
+这三种类型的存储设备也有不同的价格和成本效益。eMMC相对便宜，但其性能和容量有限。固态硬盘通常比eMMC和Micro SD更贵，但性能更高，容量更大。Micro SD的价格相对较低，但不适合长期存储大量数据，其读写速度相对较慢，不适合高速数据传输和频繁读写操作。
 
-### Different applicable scenarios
+### 不同的适用场景
 
-eMMC is typically used in mobile devices and embedded systems, such as smartphones, tablets, and industrial control equipment. SSDs are usually used in devices that require high-performance and large-capacity storage, such as personal computers, servers, and workstations. Micro SD is suitable for devices that require lightweight and portable storage expansion, such as digital cameras, portable music players, and smartphones.
+eMMC通常用于移动设备和嵌入式系统，如智能手机、平板电脑和工业控制设备。SSD通常用于需要高性能和大容量存储的设备，如个人电脑、服务器和工作站。micro SD卡适用于需要轻便和便携存储扩展的设备，如数码相机、便携式音乐播放器和智能手机。
 
-In summary, eMMC, SSD, and Micro SD have their own applicable scenarios and advantages and disadvantages, and the choice should be based on specific needs and application scenarios.
+综上所述，eMMC、SSD和Micro SD有各自的适用场景和优缺点，应根据具体需求和应用场景进行选择。
 
 

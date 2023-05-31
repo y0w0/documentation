@@ -1,12 +1,12 @@
 ---
-sidebar_label: 'Hardware Revisions'
+sidebar_label: '硬件修订'
 sidebar_position: 20
 ---
 
-# ROCK 5A Hardware Revisions
+# ROCK 5A 硬件修订
 
-| Revision | History                                                      |
+| 修订版本 | 历史改动                                                      |
 | -------- | ------------------------------------------------------------ |
-| X1.0     | First version of the ROCK 5A, for Radxa Team internal bringing up and development. |
-| X1.1     | First developer edition, shipping to some community developers |
-| V1.1     | First massive production version, based on X1.1 version with the following changes:<br></br>• Add a board ID(SARADC_IN5) for ROCK 5A<br></br>• R1505 from NC to 100K<br></br>• R1507 from 100K to 20K<br></br>• Remove the test points around USB and Ethernet<br></br>• Silkscreen changes to V1.1 |
+| X1.0     | ROCK 5A初始版本，仅供瑞莎内部研发 |
+| X1.1     | 首个开发者版本，提供给社区开发者 |
+| V1.1     | 首个量产版本，在X1.1基础上有以下改动：<br></br>• 为ROCK 5A增加了一个板卡ID(SARADC_IN5)<br></br>• R1505从NC改为100K<br></br>• R1507从100K改为20K<br></br>• 移除USB和以太网的测试点<br></br>• 丝印改为V1.1 |

@@ -1,78 +1,78 @@
----
-sidebar_label: 'Before start'
+﻿---
+sidebar_label: '开始前准备'
 sidebar_position: 20
 ---
 
-# Preparation
+# 简介
 
-- This Preparation guide is designed for Radxa ROCK 5 Model A(Rock 5A) enthusiast. The purpose is to learn about ROCK 5A as well as how to prepare and set up for basic use. When you get a board, you need to know what model it is and which hardware version it is. The information is printed in the top side of the board. We will introduce the board information as much as possible.
+- 本指南是为瑞莎ROCK 5 Model A(ROCK 5A)的爱好者准备的。 旨在帮助了解ROCK 5A以及基本的使用和需要的准备工作。 当你拿到一块板子的时候，你需要知道它的型号以及硬件版本，这些信息都可以在板子上的丝印找到。 我们会尽可能详细地向你介绍板子的信息。  
 
-## Necessary
+## 必要准备
 
 - Radxa ROCK 5 Model A(Rock 5A)
 
-- microSD, larger than 8GB
+- micro SD卡， 至少16GB
 
-- Power Supply: The ROCK 5A supports various power supply technologies including smart power adapter as well as fixed voltage:
+- 电源适配器：ROCK 5A支持各种电源，包括智能协商电源以及固定电压： 
 
-USB Type-C PD Version 2.0 with 9V/2A, 12V/2A, 15V/2A and 20V/2A.
-Qualcomm Quick Charge 2.0 QC 3.0/2.0 adapter, 9V/2A, 12V/2A
-Power adapter with fixed voltage in 5.2V to 20V range on the USB Type-C port    
-5V Power applied to the GPIO PIN 2 & 4
+USB Type-C PD协议 2.0 ： 9V/2A, 12V/2A, 15V/2A 和 20V/2A  
+骁龙QC2.0 QC 3.0/2.0 适配器， 9V/2A, 12V/2A  
+USB Type-C接口5.2V至20V固定电压USB Type-C port  
+GPIO 2 & 4 pin脚5V输出  
 
-**The official recommendation is to use [Radxa Power PD30W](../../../accessories/pd_30w)**
+**推荐使用官方30W适配器 [瑞莎PD30W适配器](../../../accessories/pd_30w)。**
 
-- USB Keyboard and Mouse
+- USB鼠标键盘
 
-With 2x USB-A 2.0 HOST connectors, ROCK 5A can be equipped with a full sized keyboard and mouse.
+板载两个USB-A 2.0接口， ROCK 5A支持全尺寸键盘及鼠标。
 
-- Monitor and Micro HDMI Cable
+- 显示器和Micro HDMI线缆
 
-ROCK 5A is equipped with a Micro HDMI connector. HDMI capable monitor is recommended.  
-HDMI EDID display data is used to determine the best display resolution. On monitors and TVs that support 1080p (or 4K/8K) this resolution will be selected.  
-If 1080p is not supported the next available resolution reported by EDID will be used. This selected mode will work with MOST but not all monitors/TVs.
+ROCK 5A支持一个Micro HDMI输出接口，推荐使用有HDMI接口的显示器。  
+HDMI使用EDID显示数据来确定最佳显示分辨率。 在支持1080p（或4K/8K）的显示器和电视上，将选择这一最大分辨率。 
+如果不支持1080p，将使用EDID报告的下一个可用分辨率。这种选择的模式适用于大多数但不是所有的显示器/电视。
 
-- MicroSD Card Reader 
+- Micro SD卡读卡器
 
-For flashing the image to the microSD Card
+用于将镜像刷写到microSD卡
 
-## Optional
+## 可选项
 
-- eMMC module, larger than 8GB
+- 至少16GB的eMMC模块
 
-- eMMC reader
+- eMMC读卡器
 
-**The official recommendation is to use [Radxa eMMC reader](../../../accessories/emmc_reader)**
+**官方推荐使用[瑞莎eMMC读卡器](../../../accessories/emmc_reader)**
 
-- Ethernet cable
+- 网络线缆
 
-ROCK 5A supports internet access via Ethernet.  
+ROCK 5A支持通过以太网连接互联网。    
 An Ethernet cable is used to connect your ROCK 5A to a local network and the Internet.  
 
-- USB type A to type C cable
+- USB-A转USB-C线
 
-This is needed for fastboot/adb commands and the maskrom mode for advanced flashing.
+此项用于线刷或使用安卓ADB。  
 
-- USB to TTL serial cable
+- USB转TTL串口线
 
-This is needed for serial console.
+使用串口调试的时候需要用到。  
 
-- Camera Module
+- 相机模块
     
-ROCK 5A supports camera function.  
+ROCK 5A支持相机功能。   
 
-**The official recommendation is to use [Radxa Camera 4K](../../../accessories/camera_4k)**
+**官方推荐使用[瑞莎4K相机](../../../accessories/camera_4k)**
 
-- LCD Module
+- LCD显示屏
 
-ROCK 5A supports LCD display function.  
+ROCK 5A支持LCD显示功能。  
 
-**The official recommendation is to use [Radxa Display 8 HD](../../../accessories/lcd-8-hd) or [Radxa Display 10 HD](../../../accessories/lcd-10-hd)**
+**官方推荐使用[瑞莎8寸HD显示屏](../../../accessories/lcd-8-hd)或者[瑞莎10寸HD显示屏](../../../accessories/lcd-10-hd)。**
 
-- Audio cable
+- 音频线
 
-Audio can be played through speaker or headphones using a standard 3.5mm jack.
+支持通过3.5mm音频接口耳机或喇叭输出声音。  
 
-- WiFi/BT Cards
+- WiFi/蓝牙 模块
 
-**The official recommendation is to use [Radxa Wireless Module A8](../../../accessories/wireless-a8)**
+**官方推荐使用[瑞莎A8无线模块](../../../accessories/wireless-a8)。**

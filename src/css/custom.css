@@ -139,3 +139,7 @@ a:hover {
   line-height: 22px;
   color: #999999;
 }
+.navbar__inner {
+  width: 1300px !important;
+  margin: 0 auto;
+}

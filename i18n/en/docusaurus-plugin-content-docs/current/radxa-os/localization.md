@@ -43,7 +43,7 @@ Execute the following commands to update and install the system environment soft
 
 
     sudo apt install fcitx  
-1.  Type "Y" and the package will be installed.  
+  Type "Y" and the package will be installed.  
 
 2. Execute the Chinese input method command you need to install, then enter user password.  
 

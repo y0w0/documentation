@@ -1,95 +1,98 @@
 ---
-sidebar_label: 'Localization'
+sidebar_label: '本土化设置'
 sidebar_position: 40
 ---
 
-# Change Language
+# 更换语言
 
-## Change sysytem language
+## 更改系统语言
 
-**Note:** The default setting of the system is English, if you need other languages, please follow the instructions below.  
+**注意：**系统默认设置为英文，如需其他语言，请按照以下说明操作。   
 
-In the system settings, click regional settings to add language.
+在系统设置中，点击区域设置添加语言。
 
 ![rock5a_system_language_1](/img/rock5a/rock5a_system_language_1.webp)
 
-Select language you want and click Add.
+选择您想要的语言并单击添加。
 
 ![rock5a_system_language_2](/img/rock5a/rock5a_system_language_2.webp)
 
-In the new language column, click the up icon to promote to default, andd click Apply. Restart your computer that the system language will be setting new language.
+在新语言列中，单击向上图标提升为默认语言，然后单击应用。 重新启动计算机，系统语言将设置为新语言。
 
 ![rock5a_system_language_3](/img/rock5a/rock5a_system_language_3.webp)
 
 
-## Change language input method
-Debian system only has English input method by default, if you need input method in other languages, you need to install it separately. Here we give an example of how to install Pinyin.
+## 更改语言输入法
+Debian系统默认只有英文输入法，如果需要其他语言的输入法，需要单独安装。 这里我们举例说明如何安装拼音。
 
-### Environment configuration
-If the Debian environment is not the Chinese environment and needs to switch to the Chinese environment, you can use the following command to switch, then enter user password 
+### 环境配置
+如果使用的Debian环境不是中文环境，需要切换到中文环境，可以使用如下命令切换，然后输入用户密码
 
     sudo dpkg-reconfigure locales  
-Press the space or enter to select OK to prepare for the next step of installation.  
+
+按空格或回车选择确定，准备下一步安装。
 
 ![rock5a_language_input_1](/img/rock5a/rock5a_language_input_1.webp)  
 ![rock5a_language_input_2](/img/rock5a/rock5a_language_input_2.webp)  
  
-Execute the following commands to update and install the system environment software:   
+执行以下命令更新并安装系统环境软件：    
 
     sudo apt update 
 
-### Install fctix Chinese input method
-1. Open the command terminal and enter the following command:  
+### 安装fcitx中文输入法
+1. 打开命令终端并输入以下命令：  
 
 
     sudo apt install fcitx  
-1.  Type "Y" and the package will be installed.  
+ 输入“Y”，将安装包。 
 
-2. Execute the Chinese input method command you need to install, then enter user password.  
+2. 执行你需要安装的中文输入法命令，然后输入用户密码。
 
     sudo apt install fcitx-googlepinyin   
-Type "Y" to complete the installation.  
+输入“Y”完成安装。  
 
-After the installation is successful, please restart the computer, and the keyboard icon will be displayed on the taskbar of the computer.
+安装成功后，请重启电脑，电脑任务栏会显示键盘图标。
 
-Right-click the keyboard picture and then click configure  
+右键单击键盘图片，然后单击配置
 
 ![rock5a_language_input_3](/img/rock5a/rock5a_language_input_3.webp)
 
-Click '+' add new language iput method.  
+点击“+”添加新的语言输入法。 
 
 ![rock5a_language_input_4](/img/rock5a/rock5a_language_input_4.webp)  
 
-Click the box to cancel "only show current language"  
+点击方框取消 "only show current language"  
 
 ![rock5a_language_input_5](/img/rock5a/rock5a_language_input_5.webp)
 
-Enter *Google pinyin*  in the search box and click ok to complete adding a new language input method.
+在搜索框中输入*Google pinyin*，点击确定，完成添加新的语言输入法。
 
 ![rock5a_language_input_6](/img/rock5a/rock5a_language_input_6.webp)
 
-Click ^ to adjust language priority as shown.  
+单击 ^ 调整语言优先级，如图所示。  
 
 ![rock5a_language_input_7](/img/rock5a/rock5a_language_input_7.webp)
 
-Now you can start working with Pinyin. If you want to switch the language, you only click the keyboard icon to switch the language input method.  
+现在您可以开始使用拼音了。如果要切换语言，只需点击键盘图标即可切换语言输入法。  
 
 ![rock5a_language_input_8](/img/rock5a/rock5a_language_input_8.webp)
 
 
-# Keyboard Layout
+# 键盘布局
 
-Open the input devices in the system interface.  
+在系统界面打开`Input Devices`。  
+
 ![rock5a_keyboard_1](/img/rock5a/rock5a_keyboard_1.webp)
 
-Click Layouts and then click Add to choose the keyboard layout you want.
+单击`Layouts`，然后单击`Add`以选择所需的键盘布局。
 
 ![rock5a_keyboard_2](/img/rock5a/rock5a_keyboard_2.webp)
 
-Select  *Limit selection by language*  or layout to set the keyboard layout you want, you can click preview to view.  
+选择`Limit selection by language` 或 `layout` 来设置你想要的键盘布局，你可以点击`Preview`查看。
+
 ![rock5a_keyboard_3](/img/rock5a/rock5a_keyboard_3.webp)
 
-Move up your newly added layout and click Apply.
+你可以点击`Move up`提升优先级然后点击`Apply`.
 
 ![rock5a_keyboard_4](/img/rock5a/rock5a_keyboard_4.webp)
 

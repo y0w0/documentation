@@ -5,11 +5,10 @@ sidebar_position: 30
 
 # Auto Login
 
-## Set Auto Login
 
 You can configure your system to automatically log in without entering the password.
 
-As shown in the figure, click the system setting interface and select 'Startup and Shutdown'.  
+As shown in the figure, click the system setting interface and select `Startup and Shutdown`.  
 
 ![ROCK5A_Auto_Login](/img/rock5a/rock5a_auto_login_1.webp)
 

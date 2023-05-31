@@ -44,16 +44,15 @@ ROCK 5A提供了一个3.5mm耳机接口，你可以将耳机或喇叭连接到RO
 SD卡插槽在ROCK 5A的背面。安装SD卡时，请注意SD卡的针脚要紧贴PCB板的表面。确保方向正确，参考如图所示： 
 ![ROCK5A Micro SD Card](/img/rock5a/rock5_sd.webp)
 
-## eMMC模块或SPI刷写模块
+## eMMC 模块 & SPI Flash 模块
 
-ROCK 5A提供一个高速eMMC插座，可用于安装操作系统和数据存储。该插座与现寸的引脚和外形尺寸硬件兼容。  
-该底座在RACK 5A的背面， 在你安装时，请将模块缺角与板上的缺角图案对齐。  
+ROCK 5A 为 eMMC / SPI Flash 提供高速 B2B 连接口，可用于操作系统和数据存储。当你收到 ROCK 5A 时，ROCK 5A是安装了 SPI Flash，你需要把 SPI Flash 取下来之后才可以安装 eMMC。eMMC和SPI Flash都是采用的是B2B连接器，与ROCK 5A的B2B连接接口对准安装就可以。 安装时，请将模块的缺角对准PCB板上的图案区域，如图所示：
 
-**瑞莎推荐使用官方eMMC模块**
+![ROCK5A Use eMMC](/img/rock5a/rock5a-use-emmc.webp)
+
+**Radxa 推荐使用 Radxa eMMC Module**
+
 ![ROCK5A eMMC](/img/rock5a/rock5a_emmc.webp)
-
-**ROCK 5A预装SPI Flash模块进行销售**
-![ROCK5A SPI Flash](/img/rock5a/rock5a_flash.webp)
 
 
 ## 供电

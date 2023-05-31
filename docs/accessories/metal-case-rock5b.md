@@ -5,25 +5,25 @@ sidebar_position: 30
 
 # Radxa Metal Case for ROCK 5B
 
-Radxa has designed a specially customized metal case for the ROCK 5 Model B single board computer. The case is sturdy and provides protection for the board while also allowing easy access to all the ROCK 5B's ports. It also has cooling function which provides passive cooling to the board, ensuring that the ROCK 5B remains cool even under the most demanding conditions. This nifty case is the perfect solution for keeping your ROCK 5B running smoothly and efficiently.  
+Radxa为ROCK 5 Model B单板电脑设计了特别定制的金属外壳，是让您的 ROCK 5B 平稳高效运行的完美解决方案。该外壳坚固耐用，可为电路板提供保护，同时还可以轻松访问 ROCK 5B 的所有端口。它还具有冷却功能，可为电路板提供被动冷却，确保 ROCK 5B 即使在最苛刻的条件下也能保持在正常温度工作。
 
-For installation steps, please refer to [Using Metal Case for ROCK 5B](http://localhost:3000/rock5/rock5b/accessories-guides/Metal-Case).
+关于如何安装，请参考 [Using Metal Case for ROCK 5B](http://localhost:3000/rock5/rock5b/accessories-guides/Metal-Case).
 
 ![Radxa Metal Case for ROCK 5B](/img/accessories/metal-case-1.webp)
 
-# Specification
+# 规格
 
-- Dimension: 120 x 82 x 40 unit mm.
-- 1x Aluminum cooling top cover
-- 1x Front plastic plate
-- 1x Rear plastic plate
-- 1x Bottom cover
-- 4x KM2x8 screws for installing bottom cover
+- 尺寸: 120 x 82 x 40 unit mm.
+- 1x 铝制冷却顶盖
+- 1x 前塑料板
+- 1x 后塑料板
+- 1x 底盖
+- 4x KM2x8 螺丝用于安装底盖
 
-# Physical picture
+# 实物图
 
 ![Radxa Metal Case for ROCK 5B](/img/accessories/metal-case-2.webp)
 
-# Mechanical Specification
+# 机械规格
 
 ![Radxa Metal Case for ROCK 5B](/img/accessories/metal-case-3.webp)

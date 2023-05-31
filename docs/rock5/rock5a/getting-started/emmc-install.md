@@ -37,3 +37,7 @@ sidebar_position: 33
     
     ![ROCK5A eMMC via Etcher 04](/img/rock5a/rock5a-etcher-4.webp)
 
+## ROCK 5A使用eMMC教程  
+当你收到ROCK 5A时，ROCK 5A是安装了SPI Flash，你需要把SPI Flash取下来之后才可以安装eMMC。eMMC采用的是B2B连接器，与ROCK 5A的B2B连接接口对准安装就可以。如图所示：
+
+![ROCK5A Using eMMC](/img/rock5a/rock5a-use-emmc.webp)

@@ -10,6 +10,8 @@ How to write OS with emmc module, please refer to [Install OS to an eMMC Module]
 
 # How to use eMMC module on ROCK 5A
 After you write the OS with eMMC module, you can install the emmc module on the B2B connector of the ROCK 5A.
+If you are using ROCK 5A, you need to remove the SPI Flash before installing eMMC module.
+![ROCK5A Using eMMC](/img/rock5a/rock5a-use-emmc.webp)
 
 As shown in the picture, align the emmc module with the B2B connector, and then press down gently to complete the installation.
 

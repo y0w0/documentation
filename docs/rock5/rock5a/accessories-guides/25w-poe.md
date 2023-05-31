@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Using Radxa 25W PoE on ROCK 5A'
+sidebar_label: 'ROCK 5A使用Radxa 25W PoE教程'
 sidebar_position: 20
 ---
 

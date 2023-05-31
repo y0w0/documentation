@@ -5,14 +5,14 @@ sidebar_position: 5
 
 # Radxa M.2 E key to SATA Breakout Board
 
-M.2 E key to SATA Breakout Board is a solution for expanding the storage capacity of embedded systems.  
+M.2 E key to SATA Breakout Board 是扩展嵌入式系统存储容量的解决方案。 
 
-M2.E is an interface used to connect embedded devices, typically used to connect storage cards, WiFi modules, Bluetooth modules, and other devices. The SATA interface is an interface used to connect hard drives, typically used to connect solid-state drives, mechanical hard drives, and other devices. With this expansion board, users can connect SATA interface devices to the M2.E interface, thereby expanding the system's storage capacity and performance.  
+M2.E是用于连接嵌入式设备的接口，通常用于连接存储卡、WiFi模块、蓝牙模块等设备。 SATA接口是用于连接硬盘的接口，通常用于连接固态硬盘、机械硬盘等设备。 通过此扩展板，用户可以将SATA接口设备连接到M2.E接口，从而扩展系统的存储容量和性能。
 
 ![M.2 E key to SATA Breakout Board](/img/accessories/m2e-to-sata-1.webp)
 
-This expansion board is very easy to use, just plug it into the M2.E interface and then connect the SATA device to the expansion board. 
+这个扩展板使用起来非常方便，直接插在M2.E接口上，然后将SATA设备连接到扩展板上即可。 
 
-## Feature
-- Description: Convert M2.E port to SATA port   
-- Dimension: 22mm x 30mm x 7mm  
+## 特征
+- 描述: 将 M2.E 端口转 SATA 端口 
+- 尺寸: 22mm x 30mm x 7mm  

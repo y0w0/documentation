@@ -1,11 +1,11 @@
 ---
-sidebar_label: '在ROCK 5A上使用Radxa Camera 4K'
+sidebar_label: 'ROCK 5A上使用Radxa Camera 4K教程'
 sidebar_position: 20
 ---
 
 # 如何在 ROCK 5A 上安装Radxa Camera 4K
 
-## 如何使用FPC连接相机和ROCK 5A
+## 安装在5A教程
 
 如图所示，FPC 的黑色一面是绝缘的，另一面是用来连接电路的引脚。
 
@@ -27,7 +27,6 @@ radxa@rock-5a:~$ rsetup
 ```
 
 在rsetup工具界面，输入密码并选择 `Overlays` .  
-选择 `Overlays`:
 
 ```bash
 Configure Device Tree Overlay
@@ -96,7 +95,7 @@ Please select overlays:
         <Ok>                   <Cancel>
 ```
 
-使用空格键选择你想加载的overlays，
+使用空格键选择你想加载的设备，
 
 ```bash
 [*] Enable Radxa Camera 4K

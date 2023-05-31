@@ -73,4 +73,3 @@ Finally, plug in the power and start it up. The power interface of RACK 5A is ty
 
 
 
-

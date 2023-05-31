@@ -37,3 +37,8 @@ sidebar_position: 33
     
     ![ROCK5A eMMC via Etcher 04](/img/rock5a/rock5a-etcher-4.webp)
 
+## Using on ROCK 5A
+
+When you receive ROCK 5A, ROCK 5A is installed with SPI Flash, you need to remove the SPI Flash before you install eMMC. The eMMC uses a B2B connector, and it can be installed by aligning with the B2B connection interface of ROCK 5A. As the picture show:
+
+![ROCK5A Micro SD Card](/img/rock5a/rock5a-use-emmc.webp)  

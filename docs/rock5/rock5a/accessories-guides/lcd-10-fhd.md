@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Using Radxa Display 10 FHD on ROCK 5A'
+sidebar_label: 'ROCK 5A使用Radxa Display 10 FHD教程'
 sidebar_position: 20
 ---
 

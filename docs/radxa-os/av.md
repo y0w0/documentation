@@ -1,38 +1,38 @@
 ---
-sidebar_label: 'Audio and Video'
+sidebar_label: '音频和视频'
 sidebar_position: 70
 ---
 
-# Audio and Video
+# 音频和视频
 
-## Audio
+## 音频
 
-- When you use headphones to listen to music, please plug your headphones into the 3.5mm headphone jack. Open the sound icon in the lower right corner of the desktop and switch to the headphone driver.  
+- 当您使用耳机听音乐时，请将耳机插入 3.5 毫米耳机插孔。 打开桌面右下角的声音图标，切换到耳机驱动。 
 
-- Additionally, through the HDMI interface, users can directly transmit audio and video signals to the connected display or TV without the need for additional audio cables. The HDMI interface also supports high-quality digital audio transmission, providing similar audio quality to the digital audio interface. Similarly, to switch to HDMI output, you only need to select HDMI/Display port in the audio output mode.
+- 此外，通过HDMI接口，用户可以直接将音频和视频信号传输到连接的显示器或电视上，而无需额外的音频线。 HDMI接口还支持高质量的数字音频传输，提供与数字音频接口相似的音质。 同样，要切换到HDMI输出，只需要在音频输出模式中选择HDMI/Display port即可。
 
 ![ROCK5A_Audio](/img/rock5a/rock5a_audio.webp)
 
 
-## Video
+## 视频
 
-- Dragon Player is the default media player included in the Debian system, If Dragon Player is not installed in the system, you can execute the following command to install it.  
+- Dragon Player是Debian系统默认自带的媒体播放器，如果系统中没有安装Dragon Player，可以执行以下命令进行安装。 
 
 
 
     sudo apt-get update  
     sudo apt-get install dragonplayer  
 
-- Enter your password if prompted, and then wait for the installation to complete.  
-Once Dragon Player is installed, you can use the following command to open a video:  
+- 如果出现提示，请输入您的密码，然后等待安装完成。    
+安装 Dragon Player 后，您可以使用以下命令打开视频：   
+
     
     dragon /path/to/video/file
-- Replace "/path/to/video/file" with the actual path and filename of the video you want to play. For example, if your video is located in the "Videos" folder in your home directory and is called "myvideo.mp4", the command would look like this:  
+- 将“/path/to/video/file”替换为您要播放的视频的实际路径和文件名。 例如，如果您的视频位于主目录的“Videos”文件夹中并且名为“myvideo.mp4”，则命令如下所示：  
 
 
     dragon ~/Videos/myvideo.mp4
 
-- Of course, you can also directly double-click the video file icon to play it.  
+- 当然，您也可以直接双击视频文件图标进行播放。
 
-As for the video formats supported by Dragon Player, it can decode any format that is supported by the FFmpeg library. This includes popular video formats such as MP4, AVI, MKV, WMV, FLV, MOV, and more.
-
+关于Dragon Player支持的视频格式，它可以解码FFmpeg库支持的任何格式。 这包括流行的视频格式，如 MP4、AVI、MKV、WMV、FLV、MOV 等。

@@ -16,6 +16,8 @@ Enter the following command and click the Enter key, enter the password, and wai
 
         sudo apt install -y libreoffice  
 
-When the installation is successful, you can click the start icon at the bottom right of the desktop, and enter libreoffice in the search bar to find the software.  
+When the installation is successful, you can click the start icon at the bottom right of the desktop, and enter libreoffice in the search bar to find the software.   
+
+Of course, you also use command by `which libreoffice` to find the path of libreoffice. 
 
 ![Rock5a_office_libreoffice](/img/rock5a/rock5a_office_libreoffice.webp)

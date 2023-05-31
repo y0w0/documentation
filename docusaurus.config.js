@@ -92,8 +92,25 @@ const config = {
           },
           {
             position: 'right',
+            label: 'Products',
+            to: 'http://www.radxa.com/product',
+            target: '_self',
+          },
+          {
+            position: 'right',
             label: 'News',
             to: 'http://www.radxa.com/news',
+            target: '_self',
+          },
+          {
+            position: 'right',
+            label: 'Support',
+            to: 'https://forum.radxa.com/',
+          },
+          {
+            position: 'right',
+            label: 'Community',
+            to: 'http://www.radxa.com/association',
             target: '_self',
           },
           {
@@ -104,20 +121,8 @@ const config = {
           },
           {
             position: 'right',
-            label: 'Products',
-            to: 'http://www.radxa.com/product',
-            target: '_self',
-          },
-          {
-            position: 'right',
-            label: 'Support',
-            to: 'http://www.radxa.com/docSearch ',
-            target: '_self',
-          },
-          {
-            position: 'right',
-            label: 'Community',
-            to: 'http://www.radxa.com/association',
+            label: 'Services',
+            to: 'http://www.radxa.com/services',
             target: '_self',
           },
           {
@@ -135,31 +140,33 @@ const config = {
               {
                 label: 'Home',
                 to: 'http://www.radxa.com/',
+                target: '_self',
               },
               {
                 label: 'News',
                 to: 'http://www.radxa.com/news',
+                target: '_self',
               },
               {
                 label: 'About',
                 to: 'http://www.radxa.com/about',
+                target: '_self',
               },
               {
                 label: 'Products',
                 to: 'http://www.radxa.com/product',
-              },
-              {
-                label: 'Support',
-                to: 'http://www.radxa.com/sustain',
+                target: '_self',
               },
               {
                 label: 'Community',
                 to: 'http://www.radxa.com/association',
+                target: '_self',
               },
-              // {
-              //   label: 'Join Radxa',
-              //   to: '/ability',
-              // },
+              {
+                label: 'Services',
+                to: 'http://www.radxa.com/services',
+                target: '_self',
+              },
             ],
           },
           {

@@ -1,17 +1,17 @@
 ﻿---
-sidebar_label: 'Introduction'
+sidebar_label: 'rsetup工具介绍'
 sidebar_position: 0
 ---
 
-# Introduce rsetup
+# 简介
 
-`rsetup` is the Radxa system setup utility devloped by radxa team. To enter the configrution utility, type the following on the terminal:  
+`rsetup` 是瑞莎团队开发的瑞莎系统设置工具。要进入配置工具，在终端键入以下内容：  
 
 ```
 rsetup  
 ```
 
-After typing your password, you will see the screen with options like this:  
+输入正确密码后，可进入rsetup主页面：  
 
 ```
 ┌──────────────────────────────────┤ RSETUP ├──────────────────────────────────┐
@@ -40,26 +40,26 @@ After typing your password, you will see the screen with options like this:
 └──────────────────────────────────────────────────────────────────────────────┘
 ```
 
-**Note: The menu shown may differ slightly.**  
+**注意：不同的产品显示的菜单可能略有不同。**  
 
-Use `up` or `down` key to move the highlighted selection between available options.
+使用 `up` (方向上)或 `down` (方向下)键来选择对应的设置项，选中的项会高亮。
 
-Use `right` or `left` key will jump out of the options menu and take you to `<Ok>` and `<Cancel>` buttons.
+使用 `right` (方向右)或 `left` (方向左)键将从选项菜单移到 `<Ok>` 和 `<Cancel>` 选项。
 
-Alternatively, you can use the `Tab` key to switch between these.
+或者，你可以使用 `Tab` 键在这些之间切换。
 
-Use `Enter` key to go to the corresponding option.
+使用 `Enter` 键转到相应的选项。
 
-Use `Esc` key to go back to previous menu.
+使用`Esc`键回到前一个菜单。
 
-## System Maintaince
+## System Maintaince选项
 
-You can update **System** and **Bootloader** on this option.  
-*Warning: Upgrading the bootloader may pose a risk of failure to boot, do not upgrade unless necessary.*  
+你可以在这个选项上更新**System**和**Bootloader**。  
+***警告： 升级Bootloader可能带来无法启动的风险，除非必要，否则不要升级。*** 
 
-## Hardware
+## Hardware选项
 
-Some peripherals can be modified on this menu, the following is the introduction of them.  
+在这个菜单上可以修改一些外围设备，下面是对它们的介绍。 
 
 ```
 ┌──────────────────────────────────┤ RSETUP ├──────────────────────────────────┐
@@ -88,41 +88,41 @@ Some peripherals can be modified on this menu, the following is the introduction
 └──────────────────────────────────────────────────────────────────────────────┘
 ```
 
-### Video capture devices
+### Video capture devices选项
 
-If you have connect a video device, this option can help you to capture an image for testing.  
+如果你有连接一个视频设备，这个选项可以帮助你测试该设备。 
 
-### GPIO LEDs
+### GPIO LEDs选项
 
-On this option, you can change the status of power LED and user LED on the board (Sometimes only one).  
-For the details, please refer to the [LED Setup](led).  
+在这个选项上，你可以改变板子上的电源LED和用户LED的状态（有时只有一个）。 
+详细情况请参考[LED设置](led)。 
 
-### Thermal governor
+### Thermal governor选项
 
-This module is used to adjust the fan and other temperature options.  
-Generally, we select `power_allcator` when using DC fan or fanless, select `step_wise` when using PWM fan.   
-**Note: If you connect the fan directly to the GPIO on 5V and GND pins, it would not be controlled and allways work.**
+该模块用于调整风扇和其他温度选项。 
+一般来说，当使用直流风扇或不使用风扇时，选择`power_allcator`，当使用PWM风扇时，选择`step_wise`。  
+**注意：如果你将风扇直接连接到GPIO的5V和GND引脚上，它将不受控制且一直工作。**
 
-### Configure DSI display mirroring
+### Configure DSI display mirroring选项
 
-If DSI display has some problems when using HDMI display and DSI display at the same time, enable this option will helpful.  
+如果在同时使用HDMI显示器和DSI显示器时，DSI显示器有一些问题，启用这个选项会有所帮助。 
 
-## Overlays
+## Overlays选项
 
-This option is for Configure Device Tree Overlay, please check [Device Tree Configuration](devicetree) for more informations. 
+该选项用于配置设备树Overlays，请查看[设备树配置](devicetree)获取更多信息。
 
-## Connectivity
+## Connectivity选项
 
-This option is normally similar to [Network Setting](../network). 
+该选项与[网络设置](../network)类似。
 
-## User Settings
+## User Settings选项
 
-The `Password` of the current login account and the `Hostname` of the device can be changed on this option.  
+可以在这个选项上更改当前登录账户的 `Password` 和设备的 `Hostname`。 
 
-## Localization
+## Localization选项
 
-On this option, you can change `Timezone` `Locale` `Keybaed layout` `Wi-Fi Country`.  
+在这个选项中, 你可以改变 `Timezone` `Locale` `Keybaed layout` `Wi-Fi Country`.  
 
-## About
+## About选项
 
-Here is the information of `rsetup`.
+这里是 `rsetup `的相关信息。

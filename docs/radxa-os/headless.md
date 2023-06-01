@@ -1,55 +1,55 @@
----
-sidebar_label: 'Headless Setup'
+﻿---
+sidebar_label: '无外设模式'
 sidebar_position: 10
 ---
 
-# Headless Setup
+# 无外设模式简介
 
-This guide is intended to guide you in the use without the keyboard or the monitor.
+本指南旨在指导您在没有键盘或显示器的情况下使用，也被称为无外设模式。
 
-The SSH service is automatically enabled when no monitor is connected during the first boot. Despite this, you still need to link to LAN so that you can get the ***IP address*** of SBC.
+在第一次启动时，SSH服务会在没有连接显示器的情况下自动启用。尽管这样，你还需要将其连接到局域网，这样你才可以得到SBC的***IP地址***。
 
-## Ethernet
+## 以太网
 
-You can refer to this guide: [network guide](network).  
-Connect the SBC to **the same network** as your computer via wired connection.
+网络设置可以参考这个指南： [网络指南](network)。 
+通过有线连接将SBC连接到与你的计算机**相同的网络**。
 
-## Wireless
+## 无线网
 
 The [wireless guide](network) may be helpful.
 
-*Note: Some solutions require a WiFi module to be installed in order to connect to the wireless network. For more details, please check product parameters on [Product Introduction](https://radxa.com/product).*
+*注意：有些产品需要安装WiFi模块来连接到无线网络。更多细节，请在[产品介绍](https://radxa.com/product)上查看产品参数*。
 
-After flashing the image to a micro SD card, keep it connected with your Linux or Windows machines, the config folder will be available on file system. There are two files	**before.txt** and **config.txt** in it.  
+将系统镜像烧写到micro SD卡后不要从你的Linux或Windows机器拔出， 可以在文件系统中找到配置文件夹。其中有两个文件**before.txt*和**config.txt**。 
 
-**before.txt**: Radxa First Boot Configuration, it will be copied into the correct location in the Linux root file system, the machine will use those settings to start up wireless networking.  
+**before.txt**： Radxa首次启动配置，它将被复制到Linux根文件系统的正确位置，机器将使用这些设置来启动无线网络。 
 
-**config.txt**: rsetup config file, it will be applied on every boot.
+**config.txt**：rsetup配置文件，它将在每次启动时应用。
 
-To enable automatic Wi-Fi connection, add the following line in **before.txt**:  
+要启用自动Wi-Fi连接，在**before.txt**中添加以下一行：  
 
 ```
 connect_wi-fi YOUR_WIFI_SSID YOUR_WIFI_PASSWORD
 ```
 
-## Get IP Address
+##	获取IP地址
 
-It will be simple when you can connect the SBC to your personal computer by serial port tool:  
-Please refer to the [Serial Console Guide](https://wiki.radxa.com/Rock5/dev/serial-console).  
+相对来说， 使用串口工具连接SBC和你的电脑后会更简单：  
+请参考[串口通信指南](https://wiki.radxa.com/Rock5/dev/serial-console)。 
 
-- Access to the terminal via the serial software like `putty` or `minicom`.
-- Turn on the product and wait for login prompt.
-- Login with the default account.
-- Run `ip a` to check the IP address.
+- 通过串口通讯软件如`putty`或`minicom`访问终端。  
+- 将机器开机并等待登录提示。 
+- 用默认账户登录。
+- 运行`ip a`来查询IP地址。
 
-You can also get the IP from your router's DHCP lease page. Refer to your router manufacturer's documentation.
+你也可以从你的路由器IP管理界面来查询IP。请参考你的路由器制造商的文档。
 
-## SSH Connection
+## SSH连接
 
-There is the [SSH guide](remote-login).
+请查阅[SSH指南](remote-login)。
 
-After installing the ssh service, connect remotely directly on terminal via username and ip address like following code.  
+安装ssh服务后，通过用户名和ip地址直接在终端上进行远程连接，如以下代码： 
 `ssh <username>@[IP address]` 
 
-For example, `ssh radxa@192.168.42.100`.
+例如： `ssh radxa@192.168.42.100`.
 ![ssh connect](/img/configuration/ssh_connect.webp)

@@ -1,72 +1,72 @@
----
-sidebar_label: 'USB Networking Setup'
+﻿---
+sidebar_label: 'USB网络设置'
 sidebar_position: 10
 ---
 
-# USB Networking
+# USB共享网络简介
 
-Most of radxa products have reserved a USB port as an OTG port, it also a adb debug port when runuing Android. You can consult the port definitions of the corresponding [products](https://radxa.com/product).  
-You can set up a shared network between two products by connecting their OTG ports. Now officially supported for latest linux and android images.  
+大多数radxa产品都预留了一个USB端口作为OTG端口，在运行Android时也作为adb调试端口。你可以在此查阅相应[产品](https://radxa.com/product)的端口定义。 
+你可以通过OTG端口连接两个产品来建立一个共享网络。现在官方支持最新的linux和android图像。 
 
-## Preparations
+## 准备工作
 
-**Cable**: Before you start, you will need one USB-A to USB-A cable to connect two SBCs.  
+**线缆**： 首先，你将需要一条USB-A转USB-A的线来连接两个SBC。  
 
-**Software**: If your SBC has not the latest software, connect you SBC to internet and type the following command:  
+**软件**： 如果你的SBC没有最新的软件，请将你的SBC连接到互联网，并输入以下命令以更新到最新：  
 ```
 sudo apt update && sudo apt full-upgrade
 ```
 
-**Service**: After updating software, you need to start the `radxa-usbnet` service:
+**服务**： 更新软件后，你需要启动`radxa-usbnet`服务：
 ```
 sudo systemctl enable --now radxa-usbnet
 ```
-**Status**: Typing the command to confirm if the service is running:
+**状态**: 输入以下命令来确认服务是否正常运行：
 ```
 sudo systemctl status radxa-usbnet.service
 ```
-The service active status is usually `active(exited)` when running.  
+服务运行时的活动状态信息为 `active(exited)`。 
 
-## OTG Settings
+## OTG设置
 
-At first, connect the two SBC OTG ports by USB-A to USB-A cable.  
-Device identity of this shared network depends on what [overlay](rsetup/devicetree) you enable,the host machine shares the network to device mahine.  
-The host machine enable this overlay:  
+首先，用USB-A转USB-A数据线连接两个SBC的OTG端口。 
+共享网络里的设备性质由你所启用的[overlay](rsetup/devicetree)决定，主机的设备名称为host。 
+主机启用此项overlay：  
 ```
 		[*] Set OTG port to Host mode 
 ```
-The device machine enable this overlay:
+从机启用此项overlay：
 ```
 		[*] Set OTG port to Peripheral mode 
 ```
-Reboot after enable options.  
+启用设置后需要重启。  
 
-### To the Host machine
+### 主机设置
 
-For sharing the network to device machine, host machine need to connect to the external network, both wired and wireless networks are available.  
-Next, we need to set up a shared adapter for the device machine connection, which can be set on the KDE Desktop and Terminal.  
-This guide you set it on terminal:
+为了给设备机共享网络，主机需要连接到外部网络，有线和无线网络都可以。 
+接下来，我们需要给设备机的连接设置一个共享适配器，在KDE桌面和终端上都可以设置。 
+此处以在终端设置为例：
 
-**Set shared adapter:**  
+**设置共享适配器：**  
 
-Before operating, comfirm if there is a new networkcard device: 
+操作前，请确认是否已经有新的网卡设备： 
 ```
 radxa@rock-5a:~$ ip a
 ```
-The name of it may be different:
+它的名称在不同的设备上不同：
 ```
 3: enxca5bfb533dd4: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP group default qlen 1000
     link/ether ca:5b:fb:53:3d:d4 brd ff:ff:ff:ff:ff:ff
     inet6 fe80::b989:8daf:feb5:f020/64 scope link noprefixroute
        valid_lft forever preferred_lft forever
 ```
-If there is not a new network card, you may need to set overlay once again.  
+如果没有新的网卡，你可能需要再次设置overlay或重启。 
 
-Network Manager Tool is the recommended tool to manage the network, typing the command to open the interface:
+网络管理器工具(Network Manager Tool)是推荐的管网络理工具，输入命令即可打开界面：
 ```
 radxa@rock-5a:~$ sudo nmtui
 ```
-After identification, the setting interface appears:
+输入密码后，出现设置界面：
 ```
                               NetworkManager TUI 
                                                    
@@ -80,25 +80,25 @@ After identification, the setting interface appears:
                                                    
                                               <OK> 
 ```
-Select `Edit a connection -- <Add>` to add a `Ethernet` adapter: 
+选择 `Edit a connection -- <Add>` 里的 `Ethernet` 项来设置一个适配器： 
 ![add adapter](/img/configuration/add_adapter.webp)  
-Of the many options, we only need to fill in two of them:
+在众多选项中，只需要填写其中的以下两项：
 ```
         Device____  # Enter the third network card name you get by 'ip a', like: enxca5bfb533dd4
         IPv4 CONFIGURATION <Shared> # Change <Automatic> to <Shared> 
 ```
-Save the configuration and return to setting interface to `Activate a connectin`, select the option you just add.  
-It would be following if you apply it right:  
+保存配置并返回到设置界面 `Activate a connectin`，选择你刚刚添加的选项。 
+配置好后，则设置会更新为与以下相同：  
 ```
                 USB Ethernet                       
                     * Ethernet connection 1
 ```
-**Confirm adapter setting:**  
-After you settings, check if there is a IP address of third network card:
+**确认适配器设置：**  
+设置之后，检查是否出现第三张网卡的信息：
 ```
 radxa@rock-5a:~$ ip a
 ```
-The expected output result is like following:
+预期的输出结果如下：
 ```
 3: enxca5bfb533dd4: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP group default qlen 1000
     link/ether ca:5b:fb:53:3d:d4 brd ff:ff:ff:ff:ff:ff
@@ -109,47 +109,47 @@ The expected output result is like following:
 
 ```
 
-If it's similar with your result, time to set up device machine.
+如果它与你的结果相似，接下来就可以设置从设备了。
 
-### To Device machine
+### 从设备设置
 
-**Enable usb network connection:**
-Relative to Host machine, it woulb be easy for device machine settings.  
-At first, enable the `Set OTG port to Peripheral mode` overlay and start the `radxa-usbnet` service, reboot.  
-Typing `ip a` to confirm if a new device named `usb0` like the following added: 
+**启用usb网络连接：**
+相对于主机来说，从设备较容易设置。 
+首先， 启用 `Set OTG port to Peripheral mode` overlay并且开启 `radxa-usbnet` 服务， 之后重启。  
+输入 `ip a` 以确认名为 `usb0` 的设备是否被添加到网卡列表: 
 ```
 3: usb0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc pfifo_fast state DOWN group default qlen 1000
     link/ether 76:c7:9d:9e:d5:da brd ff:ff:ff:ff:ff:ff
 ```
-If not, check previous steps: reopen the overlay (Don't forget to reboot.) and restart the usbnet service.  
+如果没有，请检查前面的步骤：重新打开Overlay（别忘了重启），并重新启动usbnet服务。 
 
-**Set up usbnet adapter:**
-Next, set up the adapter as set up the Host device:  
-Open the Network Manager Tool: 
+**设置usbnet适配器：**
+接下来，像设置主设备一样设置适配器：  
+打开网络管理器工具： 
 ```
 radxa@rock-5a:~$ sudo nmtui
 ```
 
-Select `Edit a connection -- <Add>` to add a `Ethernet` adapter: 
+选择 `Edit a connection -- <Add>` 来添加一个 `Ethernet` 适配器： 
 
-Only the Device option should be modify, type 'usb0':
+只需要修改设备选项，输入'usb0'：
 ```
 Device usb0
 ```
-Other options remain default. Save the configuration.  
+其他选项保持默认，保存配置。 
 
-**Connect to Host device:**
+**连接到主机设备：**
 
-Return to setting interface to `Activate a connectin`, select the option you just add.
+回到 `Activate a connectin`的设置界面，选择你刚刚添加的选项。
 ```
                 Ethernet (usb0)                       
                     Ethernet connection 1
 ```
-It would take a few seconds to connect to Host device.  
+连接到主机设备时需要耗费一段时间。 
 
-**Check the connection:**
+**检查连接情况：**
 
-Check if usb0 get the IP address like following:
+检查usb0是否被分配了IP地址，如下所示：
 ```
 radxa@rock-5a:~$ ip a
 
@@ -168,4 +168,4 @@ radxa@rock-5a:~$ ip a
     inet6 fe80::1031:1ee2:bcee:4855/64 scope link noprefixroute
        valid_lft forever preferred_lft forever
 ```
-If the Host machine connect to ethernet, Device machine can also connect now.  
+如果主机连接到以太网，从机现在也可以连接到以太网。 

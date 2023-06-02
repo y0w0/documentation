@@ -1,35 +1,35 @@
----
-sidebar_label: 'Display Setup'
+ï»¿---
+sidebar_label: 'æ˜¾ç¤ºè®¾ç½®'
 sidebar_position: 10
 ---
 
-# ÏÔÊ¾½éÉÜ
+# æ˜¾ç¤ºä»‹ç»
 
-ÔÚÑ¡ÔñÏÔÊ¾Æ÷Ê±£¬ÄãĞèÒª×¢Òâ²»Í¬µÄ²úÆ·Ö§³Ö²»Í¬µÄ×î¸ßÏÔÊ¾·Ö±æÂÊ£¬Çë²é¿´ÄãµÄ[²úÆ·](../../productlist)µÄÖ§³ÖĞÅÏ¢ÒÔÁË½âÏêÇé¡£
-È»¶ø£¬Èç¹ûÄãÏë½¨Á¢Ò»¸ö[ÎŞÍâÉèÆ½Ì¨](headless)£¬¾Í²»ĞèÒª¹ØĞÄÕâ¸ö¡£
+åœ¨é€‰æ‹©æ˜¾ç¤ºå™¨æ—¶ï¼Œä½ éœ€è¦æ³¨æ„ä¸åŒçš„äº§å“æ”¯æŒä¸åŒçš„æœ€é«˜æ˜¾ç¤ºåˆ†è¾¨ç‡ï¼Œè¯·æŸ¥çœ‹ä½ çš„[äº§å“](../../productlist)çš„æ”¯æŒä¿¡æ¯ä»¥äº†è§£è¯¦æƒ…ã€‚
+ç„¶è€Œï¼Œå¦‚æœä½ æƒ³å»ºç«‹ä¸€ä¸ª[æ— å¤–è®¾å¹³å°](headless)ï¼Œå°±ä¸éœ€è¦å…³å¿ƒè¿™ä¸ªã€‚
 
-## ÏÔÊ¾ÉèÖÃ
+## æ˜¾ç¤ºè®¾ç½®
 
-Õâ¸öÉèÖÃÖ»ÓĞÔÚÄãÔÚÏÔÊ¾Æ÷ÉÏ²Ù×÷Ê±¿ÉÓÃ£¬»òÕßÄã¿ÉÒÔÉèÖÃÒ»¸ö[ÎŞÍâÉèÉè±¸](headless)¡£Äã¿ÉÒÔÍ¨¹ıÒÔÏÂ·½Ê½½øĞĞÏÔÊ¾ÉèÖÃ¡£ 
+è¿™ä¸ªè®¾ç½®åªæœ‰åœ¨ä½ åœ¨æ˜¾ç¤ºå™¨ä¸Šæ“ä½œæ—¶å¯ç”¨ï¼Œæˆ–è€…ä½ å¯ä»¥è®¾ç½®ä¸€ä¸ª[æ— å¤–è®¾è®¾å¤‡](headless)ã€‚ä½ å¯ä»¥é€šè¿‡ä»¥ä¸‹æ–¹å¼è¿›è¡Œæ˜¾ç¤ºè®¾ç½®ã€‚ 
 
-### ÏµÍ³ÉèÖÃ-ÏÔÊ¾ÉèÖÃ
+### ç³»ç»Ÿè®¾ç½®-æ˜¾ç¤ºè®¾ç½®
 
-ÔÚKDE×ÀÃæÉÏ£¬×ó¼üµã»÷×óÏÂ½ÇµÄ `Appliction Launcher`£¬¾Í¿ÉÒÔ¿´µ½ `System Settings` ¡£ 
+åœ¨KDEæ¡Œé¢ä¸Šï¼Œå·¦é”®ç‚¹å‡»å·¦ä¸‹è§’çš„ `Appliction Launcher`ï¼Œå°±å¯ä»¥çœ‹åˆ° `System Settings` ã€‚ 
 ![System settings](/img/configuration/start_sys_setting.webp)  
-Ñ¡Ôñ `System Settings`£¬ÔÚ `Hardware`Ñ¡ÏîÖĞÕÒµ½ `Display and Monitor`£º  
+é€‰æ‹© `System Settings`ï¼Œåœ¨ `Hardware`é€‰é¡¹ä¸­æ‰¾åˆ° `Display and Monitor`ï¼š  
 ![System Settings](/img/configuration/system_setting.webp)  
-Äã¿ÉÒÔÔÚÆäÖĞĞŞ¸ÄÒÔÏÂÉèÖÃ£º  
+ä½ å¯ä»¥åœ¨å…¶ä¸­ä¿®æ”¹ä»¥ä¸‹è®¾ç½®ï¼š  
 ![Display Settings](/img/configuration/display_setting.webp) 
-**×¢Òâ£ºÈç¹ûÄãÊ¹ÓÃµÄÊÇ¶à¸öÏÔÊ¾Æ÷£¬Ò²ÊÇÍ¬ÑùµÄ²½Öè¡£**
+**æ³¨æ„ï¼šå¦‚æœä½ ä½¿ç”¨çš„æ˜¯å¤šä¸ªæ˜¾ç¤ºå™¨ï¼Œä¹Ÿæ˜¯åŒæ ·çš„æ­¥éª¤ã€‚**
 
-### ÃüÁîĞĞÉèÖÃ
+### å‘½ä»¤è¡Œè®¾ç½®
 
-ÎÒÃÇ»¹Ìá¹©ÁË`xrandr`ÓÃÓÚÏÔÊ¾ÉèÖÃ¡£ 
-Í¨¹ıÒÔÏÂÃüÁî£¬Äã¿ÉÒÔ¼ì²éµ±Ç°µÄÏÔÊ¾×´Ì¬£º  
+æˆ‘ä»¬è¿˜æä¾›äº†`xrandr`ç”¨äºæ˜¾ç¤ºè®¾ç½®ã€‚ 
+é€šè¿‡ä»¥ä¸‹å‘½ä»¤ï¼Œä½ å¯ä»¥æ£€æŸ¥å½“å‰çš„æ˜¾ç¤ºçŠ¶æ€ï¼š  
 ```
 xrandr
 ```
-¾ÙÀı£º
+ä¸¾ä¾‹ï¼š
 ```
 radxa@rock-5a:~$ xrandr
 Screen 0: minimum 320 x 200, current 1920 x 1080, maximum 16384 x 16384
@@ -50,12 +50,12 @@ HDMI-1 connected primary 1920x1080+0+0 (normal left inverted right x axis y axis
    720x400       70.08
 DP-1 disconnected (normal left inverted right x axis y axis)
 ```
-Äã¿ÉÒÔ¼ì²éÁ¬½ÓÁËÄÄĞ©ÏÔÊ¾Æ÷£¬ÒÔ¼°¶ÔÓ¦µÄ·Ö±æÂÊ¡£ 
+ä½ å¯ä»¥æ£€æŸ¥è¿æ¥äº†å“ªäº›æ˜¾ç¤ºå™¨ï¼Œä»¥åŠå¯¹åº”çš„åˆ†è¾¨ç‡ã€‚ 
 
-#### ÏÔÊ¾Ğı×ª
+#### æ˜¾ç¤ºæ—‹è½¬
 
-Äã¿ÉÒÔÍ¨¹ıĞŞ¸Ä[Display Settings](display#system-settings-display-settings)-OrientationÀ´Ğı×ªÄãµÄÆÁÄ»ÏÔÊ¾¡£ 
-»òÕßÄãÒ²¿ÉÒÔÍ¨¹ıÃüÁîÊµÏÖ£º
+ä½ å¯ä»¥é€šè¿‡ä¿®æ”¹[Display Settings](display#system-settings-display-settings)-Orientationæ¥æ—‹è½¬ä½ çš„å±å¹•æ˜¾ç¤ºã€‚ 
+æˆ–è€…ä½ ä¹Ÿå¯ä»¥é€šè¿‡å‘½ä»¤å®ç°ï¼š
 ```
 Single Screen:
    xrandr -o left     # Rotate 90 degrees to the left
@@ -67,13 +67,13 @@ Single Screen:
    xrandr -rate       # Set refresh rate
 ```
 
-#### Ê¹ÓÃMIPIÆÁÄ»
+#### ä½¿ç”¨MIPIå±å¹•
 
-RadxaµÄÒ»Ğ©²úÆ·Ö§³ÖÍ¨¹ı´ø×´ÏßÀÂÁ¬½ÓµÄMIPIÏÔÊ¾Æ÷¡£µ«ÊÇËüÃÇÔÚÄ¬ÈÏÇé¿öÏÂÊÇ±»½ûÓÃµÄ¡£
+Radxaçš„ä¸€äº›äº§å“æ”¯æŒé€šè¿‡å¸¦çŠ¶çº¿ç¼†è¿æ¥çš„MIPIæ˜¾ç¤ºå™¨ã€‚ä½†æ˜¯å®ƒä»¬åœ¨é»˜è®¤æƒ…å†µä¸‹æ˜¯è¢«ç¦ç”¨çš„ã€‚
 
-Äã¿ÉÒÔ´Ó[overlay ²Ëµ¥](rsetup/devicetree#how-to-enable-an-overlay)»ñµÃÖ§³ÖµÄmipiÆÁÄ»ĞÍºÅ¡£
+ä½ å¯ä»¥ä»[overlay èœå•](rsetup/devicetree#how-to-enable-an-overlay)è·å¾—æ”¯æŒçš„mipiå±å¹•å‹å·ã€‚
 
-ÔÚÊ¹ÓÃmipiÆÁÄ»Ö®Ç°£¬ÄãĞèÒªÆôÓÃÏàÓ¦µÄoverlay²¢ÖØÆô¡£ 
+åœ¨ä½¿ç”¨mipiå±å¹•ä¹‹å‰ï¼Œä½ éœ€è¦å¯ç”¨ç›¸åº”çš„overlayå¹¶é‡å¯ã€‚ 
 
 ```
         ...
@@ -81,11 +81,11 @@ RadxaµÄÒ»Ğ©²úÆ·Ö§³ÖÍ¨¹ı´ø×´ÏßÀÂÁ¬½ÓµÄMIPIÏÔÊ¾Æ÷¡£µ«ÊÇËüÃÇÔÚÄ¬ÈÏÇé¿öÏÂÊÇ±»½ûÓÃµÄ¡
         [ ] Enable Radxa Display 8HD
         ...
 ```
-**×¢Òâ£º²»Í¬µÄ²úÆ·¿ÉÄÜÖ§³Ö²»Í¬µÄÆÁÄ»¡£**  
+**æ³¨æ„ï¼šä¸åŒçš„äº§å“å¯èƒ½æ”¯æŒä¸åŒçš„å±å¹•ã€‚**  
 
-#### ¶àÆÁÉèÖÃ
+#### å¤šå±è®¾ç½®
 
-³ıÉèÖÃ Ö®Íâ£¬ÒÔÏÂÃüÁîÒ²ÄÜ¹»ĞŞ¸ÄÏÔÊ¾ÉèÖÃ£º
+é™¤è®¾ç½® ä¹‹å¤–ï¼Œä»¥ä¸‹å‘½ä»¤ä¹Ÿèƒ½å¤Ÿä¿®æ”¹æ˜¾ç¤ºè®¾ç½®ï¼š
 
 ```
 Dual Screen:
@@ -96,4 +96,4 @@ Dual Screen:
    xrandr --output HDMI-1 --same-as DP-1 --auto # Simultaneous display of the same content
    xrandr --output HDMI-1 --right-of DP-1 --auto # DP-1 is the main display, the HDMI-1 is an extension and to the right of DP-1
 ```
-¸ü¶àĞÅÏ¢Çë²é¿´[X.Org Server RandR](https://en.wikipedia.org/wiki/X.Org_Server#Other_DDX_components)¡£
+æ›´å¤šä¿¡æ¯è¯·æŸ¥çœ‹[X.Org Server RandR](https://en.wikipedia.org/wiki/X.Org_Server#Other_DDX_components)ã€‚

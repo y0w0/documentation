@@ -1,0 +1,9 @@
+{
+  "label": "应用开发",
+  "position": 40,
+  "link": {
+    "type": "generated-index",
+	"slug": "/rock3/app-dev",
+    "description": "应用开发"
+  }
+}

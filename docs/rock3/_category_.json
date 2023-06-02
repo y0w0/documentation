@@ -1,0 +1,9 @@
+{
+  "label": "ROCK 3 系列",
+  "position": 20,
+  "link": {
+    "type": "generated-index",
+    "slug": "/rock3",
+    "description": "ROCK 3系列是基于RK356x系列SoC的方案。"
+  }
+}

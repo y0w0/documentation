@@ -1,6 +1,6 @@
 ﻿---
 sidebar_label: '官方系统镜像'
-sidebar_position: 20
+sidebar_position: 5
 ---
 
 # ROCK 3 系列官方镜像

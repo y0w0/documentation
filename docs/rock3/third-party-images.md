@@ -1,6 +1,6 @@
 ﻿---
 sidebar_label: '第三方镜像'
-sidebar_position: 20
+sidebar_position: 30
 ---
 
 # ROCK 3系列第三方镜像

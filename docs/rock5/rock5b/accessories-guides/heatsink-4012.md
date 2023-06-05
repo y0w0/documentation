@@ -7,7 +7,12 @@ sidebar_position: 40
 
 ## 安装
 
-Heatsink 4012是专门为ROCK 5B量身定制的散热风扇，如图所示，先将散热硅胶贴在ROCK 5B，然后把散热硅胶涂在芯片上，如图将卡扣对准ROCK 5B的露铜区按压下去，连接电源线就完成了。
+Heatsink 4012是专门为ROCK 5B量身定制的散热风扇，安装教程如图所示：
+- 将散热硅胶贴在散热器上；
+- 把散热硅胶涂在芯片上；
+- 将卡扣对准ROCK 5B的露铜区按压下去；
+- 连接电源线就完成了。
+
 
 ## 配置
 
@@ -45,4 +50,4 @@ echo 3 | sudo tee /sys/class/thermal/cooling_device1/cur_state
 echo 0 | sudo tee /sys/class/thermal/cooling_device1/cur_state
 ```
 
-**注意：如果你安装的是安卓系统，CPU温度在50摄氏度以下散热风扇是不工作的。只要当CPU温度达到50℃以上，散热器才工作。**
+**注意：如果你安装的是安卓系统，CPU温度在50摄氏度以下散热风扇是不工作的。只有当CPU温度达到50℃以上，散热器才工作。**

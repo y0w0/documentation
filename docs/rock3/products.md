@@ -10,7 +10,7 @@ ROCK 3系列是瑞莎于Rockchip RK3566/RK3568研发的一系列SBC（单板计�
 ## 产品简介
 |ROCK 3A|ROCK 3B|ROCK 3C|
 |-|-|-|
-|![ROCK 3A](/img/rock3/600px-Start-3a.webp)|![ROCK 3B](/img/rock3/600px-Start-3b.webp)|[![ROCK 3C](/img/rock3/600px-Start-3c.webp)](rock3c)|
+|![ROCK 3A](/img/rock3/600px-Start-3a.webp)|![ROCK 3B](/img/rock3/600px-Start-3b.webp)|[![ROCK 3C](/img/rock3/600px-Start-3c.webp)](/rock3/rock3c)|
 |适用于多场景的卡片电脑|低功耗工控机|适用于多场景的卡片电脑|
 
 |CM3 IO Board|CM3S IO Board|CM3I IO Board|

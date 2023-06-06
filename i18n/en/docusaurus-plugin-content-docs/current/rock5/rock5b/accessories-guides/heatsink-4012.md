@@ -13,6 +13,14 @@ Heatsink 4012 is a cooling fan specially tailored for ROCK 5B. The installation 
 
 ## Configuration
 
+The operating system has three modes by default：  
+- **power_allocator**: The system defaults to fanless mode or DC fan mode. Make sure that the machine can still work stably without a cooling fan;
+- **user_space**: Manually control cooling fan mode. Users can control the speed of the cooling fan through the command terminal according to your needs;
+- **step_wise**: automatic temperature adjustment mode. When the temperature of the CPU is below 60°C, the cooling fan is in a dormant state; And when the temperature of the CPU reaches above 60°C, the cooling fan starts to work.
+**Note: When ROCK 5A is in shutdown or sleep state, the cooling fan does not work.**
+
+You can use the command terminal by "`retsup->Hardware`->`Thermal governor`", then use the `space bar` to select the mode, the specific operation is as follows:
+
 Press "Ctrl + Alt + T" simultaneously to open a terminal, run `rsetup` command as below:
 
 ```
@@ -34,7 +42,7 @@ Please select an option below:
         <Ok>            <Cancel>  
 ```
 
-Then, select `Thermal governor` to enable `user_space`.
+Then, select `Thermal governor`.
 ```
 Manage on-board hardware: 
         Video capture devices
@@ -43,7 +51,33 @@ Manage on-board hardware:
         Configure DSI display mirroring
         <Ok>            <Cancel>       
 ```
-After starting `user_space`, press `Esc` to exit the device settings.
+
+Select mode with `spacebar`
+
+```  bash
+┌─────────────────────────────────────────┤ RSETUP ├───────────────────────────────────────────────┐
+│ Please select the thermal governor.                                                              │
+│ Recommendation: fanless or DC fan => power_allocator | PWM fan => step_wise                      │
+│                                                                                                  │
+│    (*) power_allocator                                                                           │
+│    ( ) user_space                                                                                │
+│    ( ) step_wise                                                                                 │
+│    ( ) fair_share                                                                                │
+│                                                                                                  │
+│                                                                                                  │
+│                                                                                                  │
+│                                                                                                  │
+│                                                                                                  │
+│                                                                                                  │
+│                                                                                                  │
+│                                                                                                  │
+│                                                                                                  │
+│                                                                                                  │
+│                                 <ok>                        <Cancel>                             │           
+└──────────────────────────────────────────────────────────────────────────────────────────────────│   
+```
+
+If you choose `user_space` mode, you need to manually control the cooling fan.
 
 Find the node of the fan device `pwm-fan`:
 

@@ -17,13 +17,21 @@ sidebar_position: 20
 
 ## 配置
 
+ROCK 5A系统默认是有三种模式    
+- **power_allocator**：系统默认是无风扇模式或DC风扇模式。确保机器在没有散热风扇的前提下依旧能稳定工作；  
+- **user_space**：手动控制散热风扇模式。用户可以根据自己的需要，通过命令终端控制散热风扇的转速；  
+- **step_wise**：自动温度调节模式。CPU在60℃以下散热风扇处于休眠状态，当CPU达到60℃以上散热风扇开始工作。  
+**注意：当ROCK 5A处于关机和睡眠状态的时候，散热风扇将不工作。**  
+
+你可以通过命令终端"`retsup`->`Hardware`->`Thermal governor`"，用`空格键`选用模式，具体操作如下：
+
 同时按“Ctrl + Alt + T”打开终端，运行“rsetup”命令如下：
 
 ```bash
 radxa@rock-5a:~$ rsetup
 ```
 
-输入密码并选择`Hardware` 进入硬件控制端界面:
+输入密码并选择`Hardware` 进入硬件控制端界面:  
 
 ```bash
 Please select an option below:
@@ -37,7 +45,7 @@ Please select an option below:
         <Ok>            <Cancel>  
 ```
 
-按然后进入 `Thermal governor` 去使能 `user_space`.
+按然后进入 `Thermal governor`
 ```bash
 Manage on-board hardware: 
         Video capture devices
@@ -46,9 +54,34 @@ Manage on-board hardware:
         Configure DSI display mirroring
         <Ok>            <Cancel>       
 ```
-启动 `user_space`完成之后请按`Esc`退出设备设置。
+用`空格键`选用模式
+  
+```  
+┌─────────────────────────────────────────┤ RSETUP ├───────────────────────────────────────────────┐
+│ Please select the thermal governor.                                                              │
+│ Recommendation: fanless or DC fan => power_allocator | PWM fan => step_wise                      │
+│                                                                                                  │
+│    (*) power_allocator                                                                           │
+│    ( ) user_space                                                                                │
+│    ( ) step_wise                                                                                 │
+│    ( ) fair_share                                                                                │
+│                                                                                                  │
+│                                                                                                  │
+│                                                                                                  │
+│                                                                                                  │
+│                                                                                                  │
+│                                                                                                  │
+│                                                                                                  │
+│                                                                                                  │
+│                                                                                                  │
+│                                                                                                  │
+│                                 <ok>                        <Cancel>                             │           
+└──────────────────────────────────────────────────────────────────────────────────────────────────│   
+```
 
-找到风扇设备节点 `pwm-fan`:
+如果你选用的是`user_space`模式，你需要手动去控制散热风扇。
+
+首先，你要找到风扇设备节点 `pwm-fan`:
 
 ```bash
 cat /sys/class/thermal/cooling_device*/type

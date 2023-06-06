@@ -13,10 +13,73 @@ Heatsink 4012是专门为ROCK 5B量身定制的散热风扇，安装教程如图
 - 将卡扣对准ROCK 5B的露铜区按压下去；
 - 连接电源线就完成了。
 
-
 ## 配置
 
-找到风扇设备节点 `pwm-fan`:
+ROCK 5A系统默认是有三种模式    
+- **power_allocator**：系统默认是无风扇模式或DC风扇模式。确保机器在没有散热风扇的前提下依旧能稳定工作；  
+- **user_space**：手动控制散热风扇模式。用户可以根据自己的需要，通过命令终端控制散热风扇的转速；  
+- **step_wise**：自动温度调节模式。CPU在60℃以下散热风扇处于休眠状态，当CPU达到60℃以上散热风扇开始工作。  
+**注意：当ROCK 5A处于关机和睡眠状态的时候，散热风扇将不工作。**  
+
+你可以通过命令终端"`retsup`->`Hardware`->`Thermal governor`"，用`空格键`选用模式，具体操作如下：
+
+同时按“Ctrl + Alt + T”打开终端，运行“rsetup”命令如下：
+
+```bash
+radxa@rock-5a:~$ rsetup
+```
+
+输入密码并选择`Hardware` 进入硬件控制端界面:  
+
+```bash
+Please select an option below:
+        System Maintaince
+        Hardware 
+        Overlays
+        Connectivity
+        User Settings
+        Localization
+        About
+        <Ok>            <Cancel>  
+```
+
+按然后进入 `Thermal governor`
+```bash
+Manage on-board hardware: 
+        Video capture devices
+        GPIO LEDs       
+        Thermal governor
+        Configure DSI display mirroring
+        <Ok>            <Cancel>       
+```
+用`空格键`选用模式
+  
+```  bash
+┌─────────────────────────────────────────┤ RSETUP ├───────────────────────────────────────────────┐
+│ Please select the thermal governor.                                                              │
+│ Recommendation: fanless or DC fan => power_allocator | PWM fan => step_wise                      │
+│                                                                                                  │
+│    (*) power_allocator                                                                           │
+│    ( ) user_space                                                                                │
+│    ( ) step_wise                                                                                 │
+│    ( ) fair_share                                                                                │
+│                                                                                                  │
+│                                                                                                  │
+│                                                                                                  │
+│                                                                                                  │
+│                                                                                                  │
+│                                                                                                  │
+│                                                                                                  │
+│                                                                                                  │
+│                                                                                                  │
+│                                                                                                  │
+│                                 <ok>                        <Cancel>                             │           
+└──────────────────────────────────────────────────────────────────────────────────────────────────│   
+```
+
+如果你选用的是`user_space`模式，你需要手动去控制散热风扇。
+
+首先，你要找到风扇设备节点 `pwm-fan`:
 
 ```bash
 cat /sys/class/thermal/cooling_device*/type
@@ -34,7 +97,7 @@ pwm-fan
 ```
 radxa@rock-5a:~$ sudo cp /sys/class/thermal/cooling_device1/max_state /sys/class/thermal/cooling_device1/cur_state
 ```
-您可以通过以下指令查看散热风扇支持多少速度挡位：
+您可以通过以下指令查看散热风扇支持多少转速：
 ```
 radxa@rock-5a:~$ cat /sys/class/thermal/cooling_device1/max_state
 4
@@ -49,5 +112,3 @@ echo 3 | sudo tee /sys/class/thermal/cooling_device1/cur_state
 ```
 echo 0 | sudo tee /sys/class/thermal/cooling_device1/cur_state
 ```
-
-**注意：如果你安装的是安卓系统，CPU温度在50摄氏度以下散热风扇是不工作的。只有当CPU温度达到50℃以上，散热器才工作。**

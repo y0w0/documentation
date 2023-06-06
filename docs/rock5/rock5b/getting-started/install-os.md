@@ -22,7 +22,7 @@ SSD是一种使用闪存芯片作为存储介质的固态硬盘。与传统的�
   </TabItem>
 
   <TabItem value="Micro SD" label="Micro SD" default>
-微型SD是一种小型闪存存储卡，通常用于智能手机、平板电脑和数码相机等设备扩容。微型SD卡的容量通常在512GB以下，读写速度相对较慢。不过它们结构紧凑，便于携带，可以便携地在不同设备之间传输数据。
+Micro SD是一种小型闪存存储卡，通常用于智能手机、平板电脑和数码相机等设备扩容。微型SD卡的容量通常在512GB以下，读写速度相对较慢。不过它们结构紧凑，便于携带，可以便携地在不同设备之间传输数据。
 
 ![Micro SD Card](/img/accessories/micro-sd-01.webp)
   </TabItem> 

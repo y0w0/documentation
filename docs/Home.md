@@ -8,14 +8,33 @@ hide_title: true
 sidebar_custom_props: {
 	product_docs: [
 		{
-			product_name: 'ROCK 3C',
+			# 产品代号
 			product_code: 'rs112',
+			# 产品名
+			product_name: 'ROCK 3C',
+			# 产品系列
 			Product_Line: 'ROCK 3 Series',
+			# 产品对应的所有文档
 			docs: [
 				{
-					title: 'Coming soon',
-					info: 'Under construction now, why not send a PR',
-					url: '/welcome',
+					title: '新手入门指南',
+					info: '从这里开始你的 ROCK 3C 之旅',
+					url: '/rock3/rock3c/getting-started',
+				},
+				{
+					title: '配件使用指南',
+					info: '使用 ROCK 3C 配件',
+					url: '/rock3/rock3c/using-accessories',
+				},
+				{
+					title: '编译源码指南',
+					info: '编译源码',
+					url: '/rock3/lowlevel-dev',
+				},
+				{
+					title: '相关认证信息',
+					info: 'ROCK 3C 认证文件',
+					url: '/compliance/rock3/rock3c',
 				},
 			],
 		},
@@ -78,18 +97,6 @@ sidebar_custom_props: {
 					title: '相关认证信息',
 					info: 'ROCK 5A 认证文件',
 					url: '/compliance/rock5/rock5b',
-				},
-			],
-		},
-		{
-			product_name: 'Radxa CM3',
-			product_code: 'rm116',
-			Product_Line: 'Compute Module',
-			docs: [
-				{
-					title: 'Coming soon',
-					info: 'Under construction now, why not send a PR',
-					url: '/welcome',
 				},
 			],
 		},

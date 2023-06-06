@@ -1,9 +1,0 @@
-{
-  "label": "Alternative OS",
-  "position": 90,
-  "link": {
-    "type": "generated-index",
-	"slug": "/rock4/alt-os",
-    "description": "Many other OSes already supports ROCK 4 family"
-  }
-}

@@ -1,0 +1,10 @@
+{
+    "label": "ROCK 3 Series",
+    "position": 20,
+    "link": {
+      "type": "generated-index",
+      "slug": "/rock3",
+      "description": "The ROCK 3 series are high-performance SBCs based on the RK3566, RK3568 and RK3568J SoCs."
+    }
+  }
+  

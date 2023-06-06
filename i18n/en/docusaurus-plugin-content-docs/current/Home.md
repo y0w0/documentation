@@ -7,6 +7,38 @@ hide_title: true
 # 主要在sidebar_custom_props对象中自定义信息
 sidebar_custom_props: {
 	product_docs: [
+	
+	{
+			# 产品代号
+			product_code: 'rs112',
+			# 产品名
+			product_name: 'ROCK 3C',
+			# 产品系列
+			Product_Line: 'ROCK 3 Series',
+			# 产品对应的所有文档
+			docs: [
+				{
+					title: 'Getting started',
+					info: 'Getting started with your ROCK 3C',
+					url: '/rock3/rock3c/getting-started',
+				},
+				{
+					title: 'Accessories',
+					info: 'Using accessories on ROCK 3C',
+					url: '/rock3/rock3c/using-accessories',
+				},
+				{
+					title: 'Build Guide',
+					info: 'Build from source code',
+					url: '/rock3/lowlevel-dev',
+				},
+				{
+					title: 'Compliance',
+					info: 'Compliance documents for ROCK 3C',
+					url: '/compliance/rock3/rock3c',
+				},
+			],
+		},
 		{
 			# 产品代号
 			product_code: 'rs120',
@@ -66,18 +98,6 @@ sidebar_custom_props: {
 					title: 'Compliance',
 					info: 'Compliance documents for ROCK 5A',
 					url: '/compliance/rock5/rock5b',
-				},
-			],
-		},
-		{
-			product_name: 'ROCK 3C',
-			product_code: 'rs112',
-			Product_Line: 'ROCK 3 Series',
-			docs: [
-				{
-					title: 'Coming soon',
-					info: 'Under construction now, why not send a PR',
-					url: '/welcome',
 				},
 			],
 		},

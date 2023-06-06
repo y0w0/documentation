@@ -27,29 +27,29 @@ ROCK 5B有两个HDMI输出端口（**Type A**），均支持CEC和HDMI 2.1，分
 RACK 5B的电源接口为Type-C接口。Radxa建议使用 [Radxa Power 30W](https://docs.radxa.com/accessories/pd_30w)，确保设备能正常运行。    
 
 - **耳机接口**
-ROCK 5B提供了一个3.5mm耳机接口，你可以将耳机或喇叭连接到ROCK 5B的耳机口。
+ROCK 5B提供了一个3.5mm耳机接口，你可以将耳机或喇叭连接到ROCK 5B的耳机口。  
 
 - **M.2接口**  
 ROCK 5B 提供两个 M.2 连接器： 
   - 主板正面有一个带2230安装孔的M.2 E Key连接器，提供PCIe 2.1单通道、USB、SATA、SDIO、PCM和UART信号，支持工业标准M.2 WiFi 6模块。  
 如果你想通过无线模块上网，Radxa推荐你使用[Radxa Wireless A8](https://docs.radxa.com/accessories/wireless-a8)。Radxa Wireless A8的接口规格是 M.2 2230 E 口，安装在ROCK 5B的M.2 E口然后设置 wifi 网络就可以上网，具体操作请查考[网络设置](https://docs.radxa.com/radxa-os/network)。  
+
+![rock5b_01](/img/rock5b/rock5b-use-wireless.webp)
+
   - 在板的背面有一个带有四通道 PCIe 3.0 接口的 M.2 M Key 连接器。 板上有一个标准的 M.2 2280 安装孔，可以部署 M.2 2280 NVMe SSD。  
 **<font color='red'>注意：该M.2接口不支持 M.2 SATA SSD。</font>**    
 
+![rock5b_01](/img/rock5b/rock5b-use-ssd.webp)
 
 - **TF卡**  
+SD 卡槽位于 ROCK 5A 的背面。 安装SD卡时注意SD卡的管脚要靠近PCB板表面。 确保方向没有颠倒，如图所示以供参考。   
 ![rock5b_01](/img/rock5b/rock5b-interface-2.webp)   
 
-SD 卡槽位于 ROCK 5A 的背面。 安装SD卡时注意SD卡的管脚要靠近PCB板表面。 确保方向没有颠倒，如图所示以供参考。  
-
-
 - **eMMC 模块**  
+ROCK 5B为 eMMC 提供高速 B2B 连接口，可用于操作系统和数据存储。安装时，请将模块的缺角对准PCB板上的图案区域，如图所示：    
 ![rock5b_01](/img/rock5b/rock5b-interface-3.webp)
 
-ROCK 5B为 eMMC 提供高速 B2B 连接口，可用于操作系统和数据存储。安装时，请将模块的缺角对准PCB板上的图案区域，如图所示：  
 
-  
-  
 
 
 

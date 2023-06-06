@@ -6,10 +6,18 @@ sidebar_position: 20
 # Using Radxa Heatsink 4012 for ROCK 5B
 
 Heatsink 4012 is a cooling fan specially tailored for ROCK 5B. The installation tutorial is shown in the figure:
-- Paste the cooling silicone on the radiator;
-- Apply thermal silica gel on the chip;
+- Paste the cooling silicone on the radiator;  
+   
+![Heatsink 4012](/img/rock5b/heatsink4012-use-1.webp)
+
+- Apply thermal silica gel on the chip;  
+ 
+![Heatsink 4012](/img/rock5b/heatsink4012-use-2.webp)  
+
 - Align the buckle with the exposed copper area of ROCK 5B and press down;
-- Connect the power cord.
+- Connect the power cord.  
+
+![Heatsink 4012](/img/rock5b/heatsink4012-use-3.webp)  
 
 ## Configuration
 

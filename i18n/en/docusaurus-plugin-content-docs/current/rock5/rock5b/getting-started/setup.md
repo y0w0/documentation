@@ -35,17 +35,23 @@ The power interface specification of RACK 5B is Type-C interface. Radxa recommen
 ROCK 5B offers two M.2 connectors:
   - On the front site of the board there is a M.2 E Key connector with 2230 mounting hole providing PCIe 2.1 one‑lane, USB, SATA, SDIO, PCM and UART signal, supporting industrial standard M.2 WiFi 6 modules.   
 If you want to surf the Internet through the wireless module, Radxa recommends you to use [Radxa Wireless A8](https://docs.radxa.com/accessories/wireless-a8). The interface specification of Radxa Wireless A8 is M.2 2230 E key. Install it on the M.2 E port of ROCK 5B and then set up the wifi network to access the Internet. For details, please refer to [Network Settings](https://docs.radxa.com/radxa-os/network).
+
+![rock5b_01](/img/rock5b/rock5b-use-wireless.webp)
   
-  - On the back site of the board there is a M.2 M Key connector with four‑lane PCIe 3.0 interface. A standard M.2 2280 mounting hole is on the board to enable the deployment of a M.2 2280 NVMe SSD.   
+  - On the back site of the board there is a M.2 M Key connector with four‑lane PCIe 3.0 interface. A standard M.2 2280 mounting hole is on the board to enable the deployment of a M.2 2280 NVMe SSD.  
+
 **<font color='red'>Please note that M.2 SATA SSDs are not supported.</font>**   
 
+![rock5b_01](/img/rock5b/rock5b-use-ssd.webp)
+
 - TF Card  
-![ROCK5B_TF](/img/rock5b/rock5b-interface-2.webp)
-The SD card slot is on the back of the ROCK 5A. When installing the SD card, please note that the pins of the SD card are close to the surface of the PCB board. Ensure that the direction is not reversed, as shown in the picture for reference.    
+The SD card slot is on the back of the ROCK 5A. When installing the SD card, please note that the pins of the SD card are close to the surface of the PCB board. Ensure that the direction is not reversed, as shown in the picture for reference.
+![ROCK5B_TF](/img/rock5b/rock5b-interface-2.webp)  
 
 - eMMC Module  
-![ROCK5B_EMMC](/img/rock5b/rock5b-interface-3.webp) 
-ROCK 5BA provides a high-speed B2B connection to eMMC, which can be used for operating system and data storage. When installing, please align the missing corner of the module with the pattern area on the PCB.   
+ROCK 5BA provides a high-speed B2B connection to eMMC, which can be used for operating system and data storage. When installing, please align the missing corner of the module with the pattern area on the PCB. 
+![ROCK5B_EMMC](/img/rock5b/rock5b-interface-3.webp)    
+  
 
   
 

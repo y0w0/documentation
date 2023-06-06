@@ -8,14 +8,25 @@ sidebar_position: 40
 ## 安装
 
 Heatsink 4012是专门为ROCK 5B量身定制的散热风扇，安装教程如图所示：
-- 将散热硅胶贴在散热器上；
+
+- 将散热硅胶贴在散热器上；  
+
+![Heatsink 4012](/img/rock5b/heatsink4012-use-1.webp)  
+
 - 把散热硅胶涂在芯片上；
-- 将卡扣对准ROCK 5B的露铜区按压下去；
-- 连接电源线就完成了。
+   
+![Heatsink 4012](/img/rock5b/heatsink4012-use-2.webp) 
+
+- 将卡扣对准ROCK 5B的露铜区按压下去；  
+- 连接电源线就完成了。  
+
+![Heatsink 4012](/img/rock5b/heatsink4012-use-3.webp) 
+
+
 
 ## 配置
 
-ROCK 5A系统默认是有三种模式    
+系统默认是有三种模式    
 - **power_allocator**：系统默认是无风扇模式或DC风扇模式。确保机器在没有散热风扇的前提下依旧能稳定工作；  
 - **user_space**：手动控制散热风扇模式。用户可以根据自己的需要，通过命令终端控制散热风扇的转速；  
 - **step_wise**：自动温度调节模式。CPU在60℃以下散热风扇处于休眠状态，当CPU达到60℃以上散热风扇开始工作。  

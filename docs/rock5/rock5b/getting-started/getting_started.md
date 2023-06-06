@@ -201,11 +201,11 @@ root@rock-5b:/home/rock#
 
 #### 串口访问
 
-- [串口访问](../basic/serial_console)
+- [串口访问](../../../general-tutorial/serial)
 
 #### SSH访问
 
-- [SSH访问](../basic/ssh_access)
+- [SSH访问](./ssh_access)
 
 ### 文件传输
 
@@ -258,7 +258,7 @@ ROCK 5B 具有电源 LED 和用户 LED。
 
 ### GPIO 功能描述
 
-ROCK 5B 有 1 个 40 针扩展接头。 每个管脚以颜色区分，更多信息请点击 [ROCK5B GPIO](../basic/rock5b_gpio).
+ROCK 5B 有 1 个 40 针扩展接头。 每个管脚以颜色区分，更多信息请点击 [ROCK5B GPIO](./rock5b_gpio).
 
 GPIO 的开发。 ROCK 5B 支持 libmraa GPIO 库，点击[这里](https://wiki.radxa.com/Rock5/dev/libmraa)获取更多信息。
 

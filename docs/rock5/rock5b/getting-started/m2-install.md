@@ -80,4 +80,4 @@ sudo sudo xzcat 'your compressed image path' | dd of='your NVME SSD device path'
 ## 从NVMe SSD启动
 
 将映像写入 NVMe SSD 后，要从 NVMe SSD 启动，您需要将bootloader写入 SPI Flash。
-请看[安装bootloader到SPI Flash](../advanced/bloader_spi_flash)
+请看[安装bootloader到SPI Flash](../../lowlevel-development/bootloader_spi_flash)

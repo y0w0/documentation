@@ -26,8 +26,9 @@ ul {
 }
 
 .spaceBox {
-  margin: 0 auto;
-  width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .selectBox {

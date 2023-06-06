@@ -47,9 +47,6 @@ export default () => {
                     placement='bottomRight'
                     bordered='false'
                     defaultValue={provinceData[0]}
-                    style={{
-                      minWidth: 168,
-                    }}
                     onChange={handleProvinceChange}
                     options={provinceData.map((province) => ({
                       label: province,
@@ -58,9 +55,6 @@ export default () => {
                   />
                   <Select
                     bordered='false'
-                    style={{
-                      minWidth: 168,
-                    }}
                     value={secondCity}
                     onChange={onSecondCityChange}
                     options={cities.map((city) => ({

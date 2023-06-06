@@ -5,7 +5,7 @@ sidebar_position: 1
 
 # UART串口通信
 
-瑞莎将GPIO座子上的8(TX)、10(RX)脚默认设为UART串口通信脚，它们可以作为初级的调试工具。
+瑞莎将GPIO座子上的第8(TX)、第10(RX)pin脚默认设为UART串口通信接口，以提供串口调试作为初级的调试工具。
 
 ## USB转TTL串口线连接
 
@@ -41,7 +41,7 @@ import TabItem from '@theme/TabItem';
 
 设置完成后点击打开(open)，给主板通电即可看到串口输出。
 </TabItem>
-<TabItem value="Linux端" label="Linux端" default>
+<TabItem value="Linux端" label="Linux端">
 
 ## Linux端
 
@@ -97,7 +97,7 @@ Linux端通常使用支持宽范围波特率的Minicom。
 现在运行minicom radxa来使用上面的配置并连接到当前连接板子的串行控制台。
 </TabItem>
 
-<TabItem value="Mac端" label="Mac端" default>
+<TabItem value="Mac端" label="Mac端" >
 
 ## Mac端
 

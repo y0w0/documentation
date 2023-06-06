@@ -8,6 +8,30 @@ hide_title: true
 sidebar_custom_props: {
 	product_docs: [
 		{
+			product_name: 'ROCK 3C',
+			product_code: 'rs112',
+			Product_Line: 'ROCK 3 Series',
+			docs: [
+				{
+					title: 'Coming soon',
+					info: 'Under construction now, why not send a PR',
+					url: '/welcome',
+				},
+			],
+		},
+		{
+			product_name: 'ROCK 4C Plus',
+			product_code: 'rs114cp',
+			Product_Line: 'ROCK 4 Series',
+			docs: [
+				{
+					title: 'Coming soon',
+					info: 'Under construction now, why not send a PR',
+					url: '/welcome',
+				},
+			],
+		},
+		{
 			# 产品代号
 			product_code: 'rs120',
 			# 产品名
@@ -17,24 +41,9 @@ sidebar_custom_props: {
 			# 产品对应的所有文档
 			docs: [
 				{
-					title: '入门指南',
-					info: '从这里开始你的ROCK 5A之旅',
-					url: '/rock5/rock5a/getting-started',
-				},
-				{
-					title: '配件使用',
-					info: '使用ROCK 5A配件',
-					url: '/rock5/rock5a/using-accessories',
-				},
-				{
-					title: '编译教程',
-					info: '编译源码',
-					url: '/rock5/lowlevel-dev',
-				},
-				{
-					title: '认证',
-					info: 'ROCK 5A认证文件',
-					url: '/compliance/rock5/rock5a',
+					title: 'Coming soon',
+					info: 'Under construction now, why not send a PR',
+					url: '/welcome',
 				},
 			],
 		},
@@ -48,31 +57,16 @@ sidebar_custom_props: {
 			# 产品对应的所有文档
 			docs: [
 				{
-					title: '入门指南',
-					info: '从这里开始你的ROCK 5B之旅',
-					url: '/rock5/rock5b/getting-started',
-				},
-				{
-					title: '配件使用',
-					info: '使用ROCK 5B配件',
-					url: '/rock5/rock5b/using-accessories',
-				},
-				{
-					title: '编译教程',
-					info: '编译源码',
-					url: '/rock5/lowlevel-dev',
-				},
-				{
-					title: '认证',
-					info: 'ROCK 5B认证文件',
-					url: '/compliance/rock5/rock5b',
+					title: 'Coming soon',
+					info: 'Under construction now, why not send a PR',
+					url: '/welcome',
 				},
 			],
 		},
 		{
-			product_name: 'ROCK 3C',
-			product_code: 'rs112',
-			Product_Line: 'ROCK 3 Series',
+			product_name: 'Radxa CM3',
+			product_code: 'rm116',
+			Product_Line: 'Compute Module',
 			docs: [
 				{
 					title: 'Coming soon',
@@ -89,6 +83,17 @@ sidebar_custom_props: {
 				{
 					title: '用户手册',
 					url: '/radxa-os',
+				},
+			],
+		},
+		{
+			product_name: 'Rsetup',
+			product_code: 'rsetup',
+			Product_Line: 'Radxa Software',
+			docs: [
+				{
+					title: 'Rsetup',
+					url: '/welcome',
 				},
 			],
 		}

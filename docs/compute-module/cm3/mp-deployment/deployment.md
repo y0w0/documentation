@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Mass Production'
+sidebar_label: 'deployment'
 sidebar_position: 10
 ---
 

@@ -20,18 +20,6 @@ sidebar_custom_props: {
 			],
 		},
 		{
-			product_name: 'ROCK 4C Plus',
-			product_code: 'rs114cp',
-			Product_Line: 'ROCK 4 Series',
-			docs: [
-				{
-					title: 'Coming soon',
-					info: 'Under construction now, why not send a PR',
-					url: '/welcome',
-				},
-			],
-		},
-		{
 			# 产品代号
 			product_code: 'rs120',
 			# 产品名
@@ -41,9 +29,24 @@ sidebar_custom_props: {
 			# 产品对应的所有文档
 			docs: [
 				{
-					title: 'Coming soon',
-					info: 'Under construction now, why not send a PR',
-					url: '/welcome',
+					title: '新手入门指南',
+					info: '从这里开始你的 ROCK 5A 之旅',
+					url: '/rock5/rock5a/getting-started',
+				},
+				{
+					title: '配件使用指南',
+					info: '使用 ROCK 5A 配件',
+					url: '/rock5/rock5a/using-accessories',
+				},
+				{
+					title: '编译源码指南',
+					info: '编译源码',
+					url: '/rock5/lowlevel-dev',
+				},
+				{
+					title: '相关认证信息',
+					info: 'ROCK 5A 认证文件',
+					url: '/compliance/rock5/rock5a',
 				},
 			],
 		},
@@ -57,9 +60,24 @@ sidebar_custom_props: {
 			# 产品对应的所有文档
 			docs: [
 				{
-					title: 'Coming soon',
-					info: 'Under construction now, why not send a PR',
-					url: '/welcome',
+					title: '新手入门指南',
+					info: '从这里开始你的 ROCK 5B 之旅',
+					url: '/rock5/rock5b/getting-started',
+				},
+				{
+					title: '配件使用指南',
+					info: '使用 ROCK 5B 配件',
+					url: '/rock5/rock5b/using-accessories',
+				},
+				{
+					title: '编译源码指南',
+					info: '编译源码',
+					url: '/rock5/lowlevel-dev',
+				},
+				{
+					title: '相关认证信息',
+					info: 'ROCK 5A 认证文件',
+					url: '/compliance/rock5/rock5b',
 				},
 			],
 		},
@@ -86,17 +104,6 @@ sidebar_custom_props: {
 				},
 			],
 		},
-		{
-			product_name: 'Rsetup',
-			product_code: 'rsetup',
-			Product_Line: 'Radxa Software',
-			docs: [
-				{
-					title: 'Rsetup',
-					url: '/welcome',
-				},
-			],
-		}
 	]
 }
 ---

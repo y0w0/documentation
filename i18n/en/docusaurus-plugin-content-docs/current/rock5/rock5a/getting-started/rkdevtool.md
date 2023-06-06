@@ -46,7 +46,7 @@ Left click the rightmost cell to choose the Loader and Image files:
 ![Choose files](/img/rock5a/choose-files.webp)  
 
 The spi loader file of ROCK 5A is here: **[RK3588 loader](https://dl.radxa.com/rock5/sw/images/loader/rock-5b/rk3588_spl_loader_v1.08.111.bin)**  
-The image can be found on [Official Image](../downloads/official-images).  
+The image can be found on [Official Image](../../official-images).  
 **Note: The image needs to be decompressed after be downloaded.**
 
 - Choose Device and flash(run):  

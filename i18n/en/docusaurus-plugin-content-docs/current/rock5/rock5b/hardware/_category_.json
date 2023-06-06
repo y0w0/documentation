@@ -1,0 +1,9 @@
+{
+  "label": "硬件资料",
+  "position": 50,
+  "link": {
+    "type": "generated-index",
+	  "slug": "/rock5/rock5b/hardware",
+    "description": "硬件资料查询下载。"
+  }
+}

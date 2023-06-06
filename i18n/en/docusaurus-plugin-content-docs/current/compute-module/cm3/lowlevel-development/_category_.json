@@ -1,9 +1,9 @@
 {
   "label": "Lowlevel Development",
-  "position": 50,
+  "position": 40,
   "link": {
     "type": "generated-index",
-	  "slug": "/rock5/lowlevel-dev",
+    "slug": "/compute-module/cm3/lowlevel-dev",
     "description": "Lowlevel Development"
   }
 }

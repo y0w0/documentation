@@ -1,5 +1,5 @@
 ﻿---
-sidebar_label: '第三方镜像'
+sidebar_label: '相关信息及下载'
 sidebar_position: 30
 ---
 

@@ -9,6 +9,37 @@ sidebar_custom_props: {
 	product_docs: [
 		{
 			# 产品代号
+			product_code: 'rs112',
+			# 产品名
+			product_name: 'ROCK 3C',
+			# 产品系列
+			Product_Line: 'ROCK 3 Series',
+			# 产品对应的所有文档
+			docs: [
+				{
+					title: '新手入门指南',
+					info: '从这里开始你的 ROCK 3C 之旅',
+					url: '/rock3/rock3c/getting-started',
+				},
+				{
+					title: '配件使用指南',
+					info: '使用 ROCK 3C 配件',
+					url: '/rock3/rock3c/using-accessories',
+				},
+				{
+					title: '编译源码指南',
+					info: '编译源码',
+					url: '/rock3/lowlevel-dev',
+				},
+				{
+					title: '相关认证信息',
+					info: 'ROCK 3C 认证文件',
+					url: '/compliance/rock3/rock3c',
+				},
+			],
+		},
+		{
+			# 产品代号
 			product_code: 'rs120',
 			# 产品名
 			product_name: 'ROCK 5A',
@@ -17,23 +48,23 @@ sidebar_custom_props: {
 			# 产品对应的所有文档
 			docs: [
 				{
-					title: '入门指南',
-					info: '从这里开始你的ROCK 5A之旅',
+					title: '新手入门指南',
+					info: '从这里开始你的 ROCK 5A 之旅',
 					url: '/rock5/rock5a/getting-started',
 				},
 				{
-					title: '配件使用',
-					info: '使用ROCK 5A配件',
+					title: '配件使用指南',
+					info: '使用 ROCK 5A 配件',
 					url: '/rock5/rock5a/using-accessories',
 				},
 				{
-					title: '编译教程',
+					title: '编译源码指南',
 					info: '编译源码',
 					url: '/rock5/lowlevel-dev',
 				},
 				{
-					title: '认证',
-					info: 'ROCK 5A认证文件',
+					title: '相关认证信息',
+					info: 'ROCK 5A 认证文件',
 					url: '/compliance/rock5/rock5a',
 				},
 			],
@@ -48,36 +79,24 @@ sidebar_custom_props: {
 			# 产品对应的所有文档
 			docs: [
 				{
-					title: '入门指南',
-					info: '从这里开始你的ROCK 5B之旅',
+					title: '新手入门指南',
+					info: '从这里开始你的 ROCK 5B 之旅',
 					url: '/rock5/rock5b/getting-started',
 				},
 				{
-					title: '配件使用',
-					info: '使用ROCK 5B配件',
+					title: '配件使用指南',
+					info: '使用 ROCK 5B 配件',
 					url: '/rock5/rock5b/using-accessories',
 				},
 				{
-					title: '编译教程',
+					title: '编译源码指南',
 					info: '编译源码',
 					url: '/rock5/lowlevel-dev',
 				},
 				{
-					title: '认证',
-					info: 'ROCK 5B认证文件',
+					title: '相关认证信息',
+					info: 'ROCK 5A 认证文件',
 					url: '/compliance/rock5/rock5b',
-				},
-			],
-		},
-		{
-			product_name: 'ROCK 3C',
-			product_code: 'rs112',
-			Product_Line: 'ROCK 3 Series',
-			docs: [
-				{
-					title: 'Coming soon',
-					info: 'Under construction now, why not send a PR',
-					url: '/welcome',
 				},
 			],
 		},
@@ -91,7 +110,7 @@ sidebar_custom_props: {
 					url: '/radxa-os',
 				},
 			],
-		}
+		},
 	]
 }
 ---

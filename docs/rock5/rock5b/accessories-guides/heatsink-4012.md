@@ -1,23 +1,32 @@
 ---
-sidebar_label: 'ROCK 5A使用Radxa Heatsink 2513教程'
-sidebar_position: 20
+sidebar_label: 'Heatsink 4012 使用教程'
+sidebar_position: 40
 ---
 
-# ROCK 5A使用Radxa Heatsink 2513教程
+# Heatsink 4012 使用教程
 
-## 安装教程
+## 安装
 
-将散热硅胶粘在散热风扇上，然后对准芯片粘上去。
+Heatsink 4012是专门为ROCK 5B量身定制的散热风扇，安装教程如图所示：
 
-![Use Heatsink on ROCK 5A](/img/rock5a/heatsink-1.webp)
+- 将散热硅胶贴在散热器上；  
 
-将散热风扇的电源线接在ROCK 5A的风扇电源供电口上，如图所示：
+![Heatsink 4012](/img/rock5b/heatsink4012-use-1.webp)  
 
-![Use Heatsink on ROCK 5A](/img/rock5a/heatsink-2.webp)
+- 把散热硅胶涂在芯片上；
+   
+![Heatsink 4012](/img/rock5b/heatsink4012-use-2.webp) 
+
+- 将卡扣对准ROCK 5B的露铜区按压下去；  
+- 连接电源线就完成了。  
+
+![Heatsink 4012](/img/rock5b/heatsink4012-use-3.webp) 
+
+
 
 ## 配置
 
-ROCK 5A系统默认是有三种模式    
+系统默认是有三种模式    
 - **power_allocator**：系统默认是无风扇模式或DC风扇模式。确保机器在没有散热风扇的前提下依旧能稳定工作；  
 - **user_space**：手动控制散热风扇模式。用户可以根据自己的需要，通过命令终端控制散热风扇的转速；  
 - **step_wise**：自动温度调节模式。CPU在60℃以下散热风扇处于休眠状态，当CPU达到60℃以上散热风扇开始工作。  
@@ -56,7 +65,7 @@ Manage on-board hardware:
 ```
 用`空格键`选用模式
   
-```  
+```  bash
 ┌─────────────────────────────────────────┤ RSETUP ├───────────────────────────────────────────────┐
 │ Please select the thermal governor.                                                              │
 │ Recommendation: fanless or DC fan => power_allocator | PWM fan => step_wise                      │

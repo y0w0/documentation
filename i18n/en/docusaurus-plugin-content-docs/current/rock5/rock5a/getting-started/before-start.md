@@ -38,11 +38,15 @@ For flashing the image to the microSD Card
 
 ## Optional
 
-- eMMC module, larger than 8GB
+- [eMMC module](https://docs.radxa.com/accessories/emmc_module), larger than 8GB
 
-- eMMC reader
+- eMMC reader **(<font color='red'> Note: The eMMC reader is not suitable for SPI Flash</font> )** 
 
 **The official recommendation is to use [Radxa eMMC reader](../../../accessories/emmc_reader)**
+
+When you receive ROCK 5A, its B2B connector is installed with SPI Flash. If you want to use eMMC, you need to remove the SPI Flash before you can use eMMC.
+
+![ROCK5A Using eMMC](/img/rock5a/rock5a-use-emmc.webp)
 
 - Ethernet cable
 

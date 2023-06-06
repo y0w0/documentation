@@ -9,7 +9,7 @@ sidebar_position: 31
 
 1. 准备一个Micro SD卡
 2. 准备一个SD卡读卡器
-3. [下载](../downloads/official-images)官方Ubuntu/Debian系统镜像
+3. [下载](../../official-images)官方Ubuntu/Debian系统镜像
 4. 把SD卡插入SD读卡器, 然后把SD读卡器插入计算机的USB接口  
 ![ROCK5A Install](/img/accessories/sd_install_1.webp)
 

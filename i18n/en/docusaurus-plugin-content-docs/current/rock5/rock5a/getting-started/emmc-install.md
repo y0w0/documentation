@@ -7,9 +7,9 @@ sidebar_position: 33
 
 ## Prepare 
 
-- Prepare an eMMC module and a [Radxa eMMC Reader](../../../accessories/emmc_reader).  
+- Prepare an eMMC module and a [Radxa eMMC Reader](../../../accessories/emmc_module).  
 ![Radxa eMMC](/img/accessories/emmc_related_01.webp)
-- Download the official Ubuntu/Debian system image from [Downloads](../downloads/official-images.md).
+- Download the official Ubuntu/Debian system image from [Downloads](../../official-images).
 - Download the flash tool Etcher from [Downloads](https://www.balena.io/etcher#download-etcher).  
 ![ROCK5A via Etcher](/img/rock5a/rock5a-etcher.webp)
 

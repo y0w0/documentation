@@ -1,9 +1,9 @@
 {
   "label": "ROCK 5B",
-  "position": 10,
+  "position": 20,
   "link": {
     "type": "generated-index",
-	"slug": "/rock5/rock5b/showcase",
-    "description": "A credit card size computer with 8K + 4K dual display"
+    "slug": "/rock5/rock5b",
+    "description": "Radxa ROCK 5B is a compactly designed 8K high-performance Single Board Computer (SBC)."
   }
 }

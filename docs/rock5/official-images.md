@@ -48,4 +48,4 @@ linaro linaro
 
 ## 第三方镜像
 
-请查阅 [第三方镜像](third-party-images)。
+请查阅 [第三方镜像](./alternative-os/5b-3rd-images.md)。

@@ -42,7 +42,7 @@ deb http://apt.radxa.com/bullseye-testing/ bullseye main
 ```bash
 sudo apt-get update
 ```
-更多细节请查看[Radxa APT](../../rock5b/basic/apt)
+更多细节请查看[Radxa APT](../../../general-tutorial/apt)
 
 4. 更新必要的包
 下面是升级rockchip-overlay和kernel软件包的例子。

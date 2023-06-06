@@ -38,7 +38,7 @@ import TabItem from '@theme/TabItem';
 
 1. 从SD card和eMMC启动Linux系统
 
-   详细教程请看入门使用教程中的[烧录方式选择](../getting-started/getting_started#烧录方式选择)
+   详细教程请看入门使用教程中的[烧录方式选择](../rock5b/getting-started/getting_started)
 
 2. 在ROCK 5B上下载必要的文件
 
@@ -126,7 +126,7 @@ import TabItem from '@theme/TabItem';
 7. 重启生效
 
 现在，您已经完成了刷新支持NVMe引导的引导加载程序。
-- 如果您没有Flash NVMe，请查看[安装镜像到NVME](../getting-started/m2-install)以进行烧录。
+- 如果您没有Flash NVMe，请查看[安装镜像到NVME](../rock5b/getting-started/m2-install)以进行烧录。
 - 如果你Falsh NVMe，请关闭ROCK 5的电源，取出µSD卡或eMMC模块并重新通电。现在应该从NVMe启动
 
 

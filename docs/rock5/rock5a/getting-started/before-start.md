@@ -38,11 +38,15 @@ HDMI使用EDID显示数据来确定最佳显示分辨率。 在支持1080p（或
 
 ## 可选项
 
-- 至少16GB的eMMC模块
+- 支持 8GB 存储容量以上的[eMMC模块](https://docs.radxa.com/accessories/emmc_module)
 
-- eMMC读卡器
+- eMMC读卡器 **( <font color='red'>注意：该读卡器不适用于SPI Flash</font> )** 
 
 **官方推荐使用[瑞莎eMMC读卡器](../../../accessories/emmc_reader)**
+
+ROCK 5A默认B2B连接器上是安装了SPI Flash。如果你要用eMMC，你需要先将SPI Flash取下来之后你才可以使用eMMC。
+
+![ROCK5A Using eMMC](/img/rock5a/rock5a-use-emmc.webp)
 
 - 网络线缆
 

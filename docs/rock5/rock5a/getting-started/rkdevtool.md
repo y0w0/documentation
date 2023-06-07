@@ -46,7 +46,7 @@ ROCK 5A进入maskrom模式的步骤：
 ![Choose files](/img/rock5a/choose-files.webp)  
 
 ROCK 5A的spi加载文件可以在此下载： **[RK3588 loader](https://dl.radxa.com/rock5/sw/images/loader/rock-5b/rk3588_spl_loader_v1.08.111.bin)**  
-系统镜像可在[官方系统镜像页面](../downloads/official-images)下载。  
+系统镜像可在[官方系统镜像页面](../../official-images)下载。  
 **提示： RKDevTool使用的镜像是在下载后解压产生的镜像文件。**
 
 - 选择设备并烧写(run键):  

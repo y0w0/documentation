@@ -9,7 +9,7 @@ sidebar_position: 31
 
 1. Prepare a Micro SD card
 2. Prepare an SD card reader
-3. Download the official Ubuntu/Debian system image from [Downloads](../downloads/official-images).
+3. Download the official Ubuntu/Debian system image from [Downloads](../../official-images).
 4. Insert the SD card into the card reader, then insert the card reader into the USB port of the computer.  
 ![ROCK5A Install](/img/accessories/sd_install_1.webp)
 

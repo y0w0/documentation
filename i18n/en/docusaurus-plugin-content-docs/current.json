@@ -2,6 +2,9 @@
   "sidebar.tutorialSidebar.category.ROCK 3 家族": {
     "message": "ROCK 3 Family"
   },
+  "sidebar.tutorialSidebar.category.通用教程": {
+    "message": "General Tutorial"
+  },
   "sidebar.tutorialSidebar.category.ROCK 3 家族.link.generated-index.description": {
     "message": "ROCK 3 family compliance."
   },

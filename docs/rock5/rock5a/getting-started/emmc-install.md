@@ -9,7 +9,7 @@ sidebar_position: 33
 
 - 准备一个eMMC模块和一个[Radxa eMMC读卡器](../../../accessories/emmc_reader)。
 ![Radxa eMMC](/img/accessories/emmc_related_01.webp)
-- [下载](../downloads/official-images)官方的Ubuntu/Debian系统镜像。
+- [下载](../../official-images)官方的Ubuntu/Debian系统镜像。
 - [下载](https://www.balena.io/etcher#download-etcher)刷写工具`Etcher`。
 ![ROCK5A via Etcher](/img/rock5a/rock5a-etcher.webp)
 

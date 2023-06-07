@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Link from '@docusaurus/Link';
 import { Select, Space, ConfigProvider } from 'antd';
-import SearchBar from '@theme/SearchBar';
 import Layout from '@theme/Layout';
 import styles from './index.module.css'
 import { getDocs } from "../utils/getDocs";
@@ -66,7 +65,6 @@ export default () => {
               </div>
               <div style={{ float: 'right' }}>
               </div>
-              <SearchBar />
             </div>
           </div>
           <div className={styles.list}>

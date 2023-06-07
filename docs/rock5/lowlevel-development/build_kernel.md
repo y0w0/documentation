@@ -11,7 +11,7 @@ sidebar_position: 60
 
 ```bash
 sudo apt-get update
-sudo apt-get install -y git  device-tree-compiler libncurses5 libncurses5-dev build-essential libssl-dev mtools bc python dosfstools bison flex rsync u-boot-tools make
+sudo apt-get install -y git  device-tree-compiler libncurses5 libncurses5-dev build-essential libssl-dev mtools bc python dosfstools bison flex rsync u-boot-tools make mtools
 ```
 
 ## 获取源代码

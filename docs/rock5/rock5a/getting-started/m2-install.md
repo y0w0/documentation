@@ -20,7 +20,7 @@ Etcher就是我们用来写镜像的工具。从[下载](https://www.balena.io/e
 
 查看[Etcher 网站](https://www.balena.io/etcher)以获取有关Etcher的更多信息。
 
-从ROCK 5A[下载](../downloads)页面选择您要安装的映像。
+从ROCK 5A[下载](../../official-images)页面选择您要安装的映像。
 
 ### 3. 将映像写入M.2 NVME SSD
 
@@ -44,7 +44,7 @@ Etcher就是我们用来写镜像的工具。从[下载](https://www.balena.io/e
 
 ## 在ROCK 5A上写入NVMe SSD
 
-### 1. 按照[在eMMC模块上安装操作系统](../getting-started/emmc-install.md)或[在Micro SD Card上安装操作系统](../getting-started/sdcard-install.md)烧录镜像到eMMC模块或Micro SD card
+### 1. 按照[在eMMC模块上安装操作系统](../getting-started/emmc-install)或[在Micro SD Card上安装操作系统](../getting-started/sdcard-install)烧录镜像到eMMC模块或Micro SD card
 
 ### 2. 将NVMe SSD装入ROCK 5A，插入带有镜像的eMMC模块和Micro SD card。上电启动。
 
@@ -76,4 +76,4 @@ sudo sudo xzcat 'your compressed image path' | dd of='your NVME SSD device path'
 ## 从NVMe SSD启动
 
 将映像写入 NVMe SSD 后，要从 NVMe SSD 启动，您需要将bootloader写入 SPI Flash。
-请看[安装bootloader到SPI Flash](../getting-started/spi-install.md)
+请看[安装bootloader到SPI Flash](../getting-started/spi-install)

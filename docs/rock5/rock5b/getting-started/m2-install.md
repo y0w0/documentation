@@ -20,7 +20,7 @@ Etcher就是我们用来写镜像的工具。从[下载](https://www.balena.io/e
 
 查看[Etcher 网站](https://www.balena.io/etcher)以获取有关 Etcher 的更多信息。
 
-从ROCK 5B[下载](../downloads)页面选择您要安装的映像。
+从ROCK 5B[下载](../../official-images)页面选择您要安装的映像。
 这里我们使用以下镜像进行刷写。
 ```bash
 rock-5b-debian-bullseye-xfce4-arm64-20220906-0626-gpt.img.xz

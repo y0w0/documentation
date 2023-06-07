@@ -157,7 +157,7 @@ import TabItem from '@theme/TabItem';
    - [正式版本](https://dl.radxa.com/rock5/sw/images/loader/rock-5b/release/rock-5b-spi-image-g49da44e116d.img)，u-boot 串口控制台关闭
    - [Debug版本](https://dl.radxa.com/rock5/sw/images/loader/rock-5b/debug/rock-5b-spi-image-g3caf61a44c2-debug.img)，u-boot 串口控制台启动
    - [Armbian版本](https://github.com/huazi-yg/rock5b/releases/download/rock5b/rkspi_loader.img)，需要安装 armbian Image 到 M.2 NVME SSD 时使用
-   - [ROCK 5A 版本](https://github.com/huazi-yg/rock5b/releases/download/rock5b/rkspi_loader.img)，用于ROCK 5A。
+   - [ROCK 5A 版本](https://dl.radxa.com/rock5/sw/images/loader/rock-5a/rock-5a-spi-image-g4b32117-20230605.img)，用于ROCK 5A。
 
 3.1 ROCK 5B 进入 Maskrom 模式
 

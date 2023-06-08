@@ -18,7 +18,7 @@ MIPI DSI，MIPI CSI，支持麦克风的3.5毫米音频插孔，USB端口，GbE 
 |型号|ROCK 3 MODUL 3|
 |-|:-|
 |SoC<br/><br/>CPU<br/>GPU<br/>NPU|**RK3566**<br/><br/>四核A55核心，频率1.6GHz<br/>Mail G52<br/>0.8 TOPS NPU|
-|运行内存|1/2/4/8GB LPDDR4 2112MT/s|
+|运行内存|1/2/4GB LPDDR4 2112MT/s|
 |存储介质|eMMC<br/>micro SD卡：最高支持128GB<br/>M.2 2230 SSD：最高支持1TB NVME固态|
 |显示输出|HDMI 2.0最高支持1920x1080@60<br/>2 lanes MIPI显示<br/>*注意：HDMI与MIPI不能同时显示*|
 |音频|支持麦克风的3.5毫米音频接口<br/>支持最高24位/96KHz声音解码|

@@ -1,10 +1,13 @@
 ---
 sidebar_label: '常见问题'
-sidebar_position: 4
+sidebar_position: 3
 ---
 
-# ROCK 5B 常见问题
+# ROCK 5系列常见问题
 
+## ROCK 5A 常见问题
+
+## ROCK 5B 常见问题
 
 ### Rock 5B 将支持 WiFi 6E。 新的 rock 5b 主板是否带有 (6E) wifi 芯片。 还是要单独购买？
 

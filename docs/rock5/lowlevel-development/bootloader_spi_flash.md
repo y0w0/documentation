@@ -8,7 +8,7 @@ sidebar_position: 20
 
 
 
-SPI Nor Flash 存储 bootloader 文件,像 idbloader.img 和 u-boot.itb。
+SPI Nor Flash 存储 bootloader 文件，像 idbloader.img 和 u-boot.itb。
 而 PCIe NVME SSD 存储所有 system img。
 
 ## 介绍

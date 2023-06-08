@@ -65,8 +65,8 @@ I/O size (minimum/optimal): 512 bytes / 512 bytes
 
 5. 使用 ROCK 5A 烧录镜像到 NVMe SSD 中
 ```bash
-sudo sudo xzcat 'your compressed image path' | dd of='your NVME SSD device path' bs=1M status=progress            
-#such as: sudo xzcat rock-5a-debian-bullseye-xfce4-arm64-20220906-0626-gpt.img.xz  | dd of=/dev/nvme0n1 bs=1M status=progress
+xzcat 'your compressed image path' | sudo dd of='your NVME SSD device path' bs=1M status=progress            
+#such as: xzcat rock-5a-debian-bullseye-xfce4-arm64-20220906-0626-gpt.img.xz | sudo dd of=/dev/nvme0n1 bs=1M status=progress
 ```
 
 ## 擦除 M.2 NVMe SSD

@@ -13,7 +13,7 @@ SPI Nor Flash 存储 bootloader 文件，像 idbloader.img 和 u-boot.itb。
 
 ## 介绍
 
-ROCK 5B 上有一个 SPI Flash（SPI 闪存）,在 ROCK 5A 上则为与 eMMC 模块复用 B2B 插槽的 SPI Flash 模块，它包含用于备份引导的bootloader，并支持引导其他介质（比如 NVMe、SATA、USB 3），SoC 本身的 maskrom 模式不直接支持这些介质。
+ROCK 5B 上有一个 SPI Flash（SPI 闪存）,在 ROCK 5A 上则为与 eMMC 模块复用 B2B 插槽的 SPI Flash 模块，它包含用于备份引导的bootloader，并支持引导其他介质（比如 NVMe、SATA、USB 3），并支持引导其他 SoC 本身不支持启动的介质。
 
 以下介绍两个烧录 SPI 的方式
 1. 初级方法：通过 ROCK 5B 自身烧录 SPI

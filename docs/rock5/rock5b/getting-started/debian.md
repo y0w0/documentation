@@ -270,7 +270,7 @@ ROCK 5B的系统使用配置文件/boot/config.txt。
 
 dtbo文件位于 /boot/dtbs/$(uname -r)/rockchip/overlay/
 
-- [GPIO](./rock5b_gpio)
+- [GPIO](./rock5b-gpio)
 - UART
 - I2C
 I2C0_M1

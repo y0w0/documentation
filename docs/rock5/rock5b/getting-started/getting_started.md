@@ -205,7 +205,7 @@ root@rock-5b:/home/rock#
 
 #### SSH访问
 
-- [SSH访问](./ssh_access)
+- [SSH访问](../../../general-tutorial/ssh-access)
 
 ### 文件传输
 
@@ -258,7 +258,7 @@ ROCK 5B 具有电源 LED 和用户 LED。
 
 ### GPIO 功能描述
 
-ROCK 5B 有 1 个 40 针扩展接头。 每个管脚以颜色区分，更多信息请点击 [ROCK5B GPIO](./rock5b_gpio).
+ROCK 5B 有 1 个 40 针扩展接头。 每个管脚以颜色区分，更多信息请查看对应主板的**GPIO**介绍页.
 
 GPIO 的开发。 ROCK 5B 支持 libmraa GPIO 库，点击[这里](https://wiki.radxa.com/Rock5/dev/libmraa)获取更多信息。
 
@@ -272,4 +272,3 @@ sudo shutdown -h now
 ```bash
 sudo reboot
 ```
-更多信息请点击[电源控制](power)

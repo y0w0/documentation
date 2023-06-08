@@ -52,4 +52,4 @@ connect_wi-fi YOUR_WIFI_SSID YOUR_WIFI_PASSWORD
 `ssh <username>@[IP address]` 
 
 例如： `ssh radxa@192.168.42.100`.
-![ssh connect](/img/configuration/ssh_connect.webp)
+![ssh connect](/img/configuration/ssh-connect.webp)

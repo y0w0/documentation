@@ -1,9 +1,9 @@
 ﻿---
-sidebar_label: '安装系统到M.2接口NVME SSD'
+sidebar_label: '安装镜像到M.2 NVME SSD'
 sidebar_position: 35
 ---
 
-# 安装系统到M.2接口NVME SSD
+# 安装镜像到M.2 NVME SSD
 
 
 

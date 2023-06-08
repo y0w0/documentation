@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'ROCK5B GPIO'
+sidebar_label: 'ROCK 5B GPIO'
 sidebar_position: 50
 ---
 
@@ -16,7 +16,7 @@ sidebar_position: 50
 ## GPIO接口
 
 ROCK 5B 提供了一个 40pin 针脚的 GPIO 座子，与市场上大多数的SBC配件兼容。
-  
+
 **_提示:_ 实际兼容情况以使用为准。**
 
 - ROCK5B有一个40针扩展接头。每个引脚都用颜色区分。

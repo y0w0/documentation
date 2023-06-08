@@ -1,6 +1,6 @@
 ﻿---
-sidebar_label: '系统安装'
-sidebar_position: 30
+sidebar_label: '操作系统安装介质'
+sidebar_position: 16
 ---
 
 # 选择安装介质 

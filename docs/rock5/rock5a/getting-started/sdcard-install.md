@@ -1,6 +1,6 @@
 ---
-sidebar_label: '在Micro SD Card上安装操作系统'
-sidebar_position: 31
+sidebar_label: '安装镜像到 Micro SD Card'
+sidebar_position: 32
 ---
 
 # 在SDCard上安装操作系统

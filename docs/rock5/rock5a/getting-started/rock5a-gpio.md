@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'ROCK5B GPIO'
+sidebar_label: 'ROCK 5A GPIO'
 sidebar_position: 50
 ---
 
@@ -15,10 +15,8 @@ sidebar_position: 50
 ## GPIO接口
 
 ROCK 5A提供了一个40pin针脚的GPIO座子，与市场上大多数的SBC配件兼容。
-  
-**_提示:_ 实际兼容情况以使用为准。**
 
-## GPIO其他功能
+**_提示:_ 实际兼容情况以使用为准。**
 
 | Function6 | Function5 |  Function4 |  Function3 | Function2 | Function1 | Pin# | Pin# |  Function1  | Function2 |  Function3 |  Function4 | Function5 | Function6 | Function7 |
 |-----------|-----------|:----------:|:----------:|:---------:|:---------:|:----:|:----:|:-----------:|:---------:|:----------:|:----------:|-----------|-----------|-----------|

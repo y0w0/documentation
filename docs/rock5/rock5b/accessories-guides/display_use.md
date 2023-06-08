@@ -1,10 +1,10 @@
 ---
-sidebar_label: '8/10寸显示屏使用教程'
+sidebar_label: 'Radxa Display 8 HD使用教程'
 sidebar_position: 3
 ---
 
 
-# 8/10寸显示屏使用教程
+# Radxa Display 8 HD使用教程
 
 ![显示屏安装-01](/zh/img/rock5b/display-8hd-01.png)
 ![显示屏安装-02](/zh/img/rock5b/display-8hd-02.png)

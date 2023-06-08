@@ -1,6 +1,6 @@
 ﻿---
-sidebar_label: '设置'
-sidebar_position: 40
+sidebar_label: '接口使用设置'
+sidebar_position: 17
 ---
 
 # 总体设置

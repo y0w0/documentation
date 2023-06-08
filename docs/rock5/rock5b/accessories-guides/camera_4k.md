@@ -1,10 +1,10 @@
 ---
-sidebar_label: 'Camera 4K 使用教程'
+sidebar_label: 'Radxa Camera 4K 使用教程'
 sidebar_position: 4
 ---
 
 
-# Camera 4K使用教程
+# Radxa Camera 4K 使用教程
 
 ![Camera-4K安装-01](/zh/img/rock5b/camera-01.png)
 ![Camera-4K安装-02](/zh/img/rock5b/camera-02.png)

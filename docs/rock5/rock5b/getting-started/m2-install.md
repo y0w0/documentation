@@ -48,11 +48,11 @@ rock-5b-debian-bullseye-xfce4-arm64-20220906-0626-gpt.img.xz
 
 ## 在ROCK 5B上写入NVMe SSD
 
-1. 按照[烧录方式](getting_started#flash)和[入门教程](getting_started)烧录镜像到eMMC 模块和 Micro SD card
+1. 按照[烧录方式](./before-start)和[入门教程](./before-start)烧录镜像到eMMC 模块和 Micro SD card
 
 2. 将NVMe SSD装入ROCK 5B， 插入带有镜像的eMMC模块和Micro SD card。上电启动。
 
-3. 将下载ROCK 5B镜像到 ROCK5B中。可以通过SCP命令等工具。查看[入门教程](getting_started)
+3. 将下载ROCK 5B镜像到 ROCK5B中。可以通过SCP命令等工具。查看[入门教程](./before-start)
 
 4. 检查NVMe SSD是否存在
 ```bash

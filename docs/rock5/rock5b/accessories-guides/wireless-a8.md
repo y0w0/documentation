@@ -1,10 +1,10 @@
 ---
-sidebar_label: 'WIFI & BT 使用教程'
+sidebar_label: 'Radxa Wireless Module A8 使用教程'
 sidebar_position: 2
 ---
 
 
-# WIFI & BT 使用教程
+# Radxa Wireless Module A8 使用教程
 
 - ROCK 5B 不配备板载 WiFi/BT模块，需要外接模块。测试并支持的[WIFI/BT卡](./support_accessories)
 - 该处示范的M.2无线模块为: Radxa Wireless Module A8

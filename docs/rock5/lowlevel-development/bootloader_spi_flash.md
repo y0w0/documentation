@@ -38,7 +38,7 @@ import TabItem from '@theme/TabItem';
 
 1. 从SD card和eMMC启动Linux系统
 
-   详细教程请看入门使用教程中的[烧录方式选择](../rock5b/getting-started/getting_started)
+   详细教程请看入门使用教程中的[烧录方式选择](../rock5b/getting-started/before-start)
 
 2. 在ROCK 5B上下载必要的文件
 

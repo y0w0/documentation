@@ -1,10 +1,17 @@
 ---
 sidebar_label: '常见问题'
-sidebar_position: 100
+sidebar_position: 3
 ---
 
-# ROCK 5B 常见问题
+# ROCK 5系列常见问题
 
+## ROCK 5A 常见问题
+
+### ROCK 5A 出货标配是否带SPI Flash Module？
+
+* ROCK 5A出售时附带Radxa SPI Flash模块。该接口与Radxa eMMC模块共用。当使用eMMC模块时，无法使用Radxa SPI Flash模块。
+
+## ROCK 5B 常见问题
 
 ### Rock 5B 将支持 WiFi 6E。 新的 rock 5b 主板是否带有 (6E) wifi 芯片。 还是要单独购买？
 

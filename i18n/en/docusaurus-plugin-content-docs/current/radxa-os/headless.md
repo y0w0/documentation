@@ -52,4 +52,4 @@ After installing the ssh service, connect remotely directly on terminal via user
 `ssh <username>@[IP address]` 
 
 For example, `ssh radxa@192.168.42.100`.
-![ssh connect](/img/configuration/ssh_connect.webp)
+![ssh connect](/img/configuration/ssh-connect.webp)

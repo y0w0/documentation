@@ -1,9 +1,9 @@
 {
-  "label": "硬件资料",
+  "label": "硬件信息",
   "position": 50,
   "link": {
     "type": "generated-index",
-	"slug": "/rock5/rock5a/hardware",
+    "slug": "/rock5/rock5a/hardware",
     "description": "硬件资料查询下载。"
   }
 }

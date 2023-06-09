@@ -264,5 +264,13 @@
   "theme.tags.tagsPageTitle": {
     "message": "Tags",
     "description": "The title of the tag list page"
+  },
+  "theme.tags.HomePageTitle": {
+    "message": "Radxa Documentation Center",
+    "description": "Home Page Title"
+  },
+  "theme.tags.HomePageIntroduction": {
+    "message": "Choose a product",
+    "description": "Home page introduction"
   }
 }

@@ -1,23 +1,23 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import Link from '@docusaurus/Link';
 import { Select, Space, ConfigProvider } from 'antd';
 import Layout from '@theme/Layout';
 import styles from './index.module.css'
 import { getDocs } from "../utils/getDocs";
-
 import { getProduct_Line, getProduct_Name, getProduct_doc } from "../utils/getPriducts";
-
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import Translate from '@docusaurus/Translate';
 
 
 export default () => {
+  const { i18n } = useDocusaurusContext();
   const homeDoc = getDocs().Home.sidebar_custom_props.product_docs
   const provinceData = getProduct_Line(homeDoc)
   const cityData = getProduct_Name(homeDoc)
-
   const [cities, setCities] = useState(cityData[provinceData[0]]);
   const [secondCity, setSecondCity] = useState(cityData[provinceData[0]][0])
-
   const element = getProduct_doc(homeDoc, secondCity)
+
 
   const handleProvinceChange = (value) => {
     setCities(cityData[value]);
@@ -38,8 +38,8 @@ export default () => {
         }} >
           <div className={styles.selectBox}>
             <div className={styles.centerBox}>
-              <h1 className={styles.seleH}>Radxa Documentation Center</h1>
-              <p className={styles.seleP}>Choose a product</p>
+              <h1 className={styles.seleH}><Translate id='HomePageTitle'></Translate></h1>
+              <p className={styles.seleP}><Translate id='HomePageIntroduction'></Translate></p>
               <div className={styles.spaceBox}>
                 <Space wrap>
                   <Select
@@ -78,10 +78,10 @@ export default () => {
                     <li key={idx} className={styles.doc}>
                       <Link to={item.url}>
                         <div className={styles.goTo}>
-                          <h1 className={styles.goH1}>{item.title}</h1>
+                          <h1 className={styles.goH1}>{i18n.currentLocale === 'zh' ? item.title_zh : item.title_en}</h1>
                           <div className={styles.goToIcon}></div>
                         </div>
-                        <p>{item.info}</p>
+                        <p>{i18n.currentLocale === 'zh' ? item.info_zh : item.info_en}</p>
                       </Link>
                     </li>
                   )

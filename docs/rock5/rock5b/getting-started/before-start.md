@@ -1,6 +1,6 @@
 ---
-sidebar_label: '入门介绍'
-sidebar_position: 20
+sidebar_label: '开始前准备'
+sidebar_position: 15
 ---
 
 # ROCK 5B 入门
@@ -154,7 +154,7 @@ import TabItem from '@theme/TabItem';
 
 ### 首次烧录
 
-- [烧录方式选择](getting_started#烧录方式选择).
+- [烧录方式选择](./before-start).
 
 ### 启动板子
 
@@ -244,7 +244,7 @@ ping -c 5 www.bing.com
 
 ###  WIFI&BT 连接
 
-- [WIFI_BT 支持和使用教程](../accessories-guides/wifi_bt_access).
+- [WIFI_BT 支持和使用教程](../accessories-guides/wireless-a8).
 
 ### LED 状态
 

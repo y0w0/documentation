@@ -1,6 +1,6 @@
 ---
-sidebar_label: '在eMMC模块上安装操作系统'
-sidebar_position: 33
+sidebar_label: '安装镜像到 eMMC 模块'
+sidebar_position: 31
 ---
 
 # 在eMMC模块上安装操作系统

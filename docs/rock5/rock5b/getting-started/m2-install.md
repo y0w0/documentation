@@ -48,6 +48,7 @@ rock-5b-debian-bullseye-xfce4-arm64-20220906-0626-gpt.img.xz
 
 ## 在 ROCK 5B 上写入 NVMe SSD
 
+
 ### 1. 按照[烧录方式](getting_started#flash)和[入门教程](getting_started)烧录镜像到 eMMC 模块和 Micro SD card
 
 ### 2. 将 NVMe SSD 装入 ROCK 5B， 插入带有镜像的 eMMC 模块和 Micro SD card。上电启动。

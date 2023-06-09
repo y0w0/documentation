@@ -41,7 +41,7 @@ sidebar_position: 10
 
 #### 通过命令行查看
 
-通过`Ctrl + Alt + T`打开终端，在终端中输入以下命令查看I{地址：  
+通过`Ctrl + Alt + T`打开终端，在终端中输入以下命令查看IP地址：  
 
 ```bash
     ip a
@@ -83,7 +83,7 @@ sidebar_position: 10
 - 打开主机终端，通过`ping`命令查询是否在同一网段：  
 
 ```bash
-    ping ROCK 5A的IP地址
+    ping ROCK 5A 的IP地址
 ```
 
 在连通的情况下`ping`结果应该是正常的。
@@ -91,10 +91,11 @@ sidebar_position: 10
 - SSH登录ROCK 5A
 
 ```bash
-ssh rock@ROCK 5A的IP地址
+ssh name@ROCK 5A 的IP地址
+例如: ssh radxa@192.168.0.1
 ```
 
-- 若支持**本地域名(Local Domain)**,则可以使用一下命令，而不用扫描ROCK 5A的IP地址。
+- 若支持**本地域名(Local Domain)**,则可以使用以下命令，而不用扫描ROCK 5A的IP地址。
 
 ```bash
 ping rock-5a.local

@@ -103,7 +103,7 @@ GPIO4_D5 = 32*4 + 8*3 + 5 = 157
 (A=0, B=1, C=2, D=3)
 ```
 
-![GPIO_numbew](/zh/img/accessories/Gpio_number.png)
+![GPIO_numbew](/img/configuration/gpio-number.webp)
 
 - 设置GPIO4_D5输出
 ```bash

@@ -149,6 +149,43 @@
   "sidebar.tutorialSidebar.category.硬件资料.link.generated-index.description": {
     "message": "Retrieve hardware information here."
   },
+  "sidebar.tutorialSidebar.category.rsetup工具": {
+    "message": "Rsetup tools"
+  },
+  "sidebar.tutorialSidebar.category.rsetup工具.link.generated-index.description": {
+    "message": "Rsetup system setup tool"
+  },
+  "sidebar.tutorialSidebar.category.Compute Module 系列": {
+    "message": "Compute Module Series"
+  },
+  "sidebar.tutorialSidebar.category.Compute Module 系列.link.generated-index.description": {
+    "message": "Compute Module is a family of small form factor and compact layout computing modules based on Rockchip SOCs."
+  },
+  "sidebar.tutorialSidebar.category.第三方操作系统": {
+    "message": "Third Party Operating Systems"
+  },
+  "sidebar.tutorialSidebar.category.第三方操作系统.link.generated-index.description": {
+    "message": "Radxa CM3 supports third-party operating systems."
+  },
+  "sidebar.tutorialSidebar.category.系统配置": {
+    "message": "System Configuration"
+  },
+  "sidebar.tutorialSidebar.category.系统配置.link.generated-index.description": {
+    "message": "Radxa CM3 System Configuration"
+  },
+    "sidebar.tutorialSidebar.category.底层开发教程": {
+    "message": "Low-level Development Tutorial"
+  },
+  "sidebar.tutorialSidebar.category.底层开发教程.link.generated-index.description": {
+    "message": "Low-level Development Tutorial"
+  },
+  "sidebar.tutorialSidebar.category.应用开发教程": {
+    "message": "Application Development Tutorial"
+  },
+
+
+
+
   "version.label": {
     "message": "Next",
     "description": "The label for version current"

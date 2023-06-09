@@ -11,9 +11,11 @@ sidebar_custom_props: {
 			# 产品代号
 			product_code: 'rs112',
 			# 产品名
-			product_name: 'ROCK 3C',
+			product_name_zh: 'ROCK 3C',
+			product_name_en: 'ROCK 3C',
 			# 产品系列
-			Product_Line: 'ROCK 3 Series',
+			Product_Line_zh: 'ROCK 3 系列',
+			Product_Line_en: 'ROCK 3 Series',
 			# 产品对应的所有文档
 			docs: [
 				{
@@ -44,9 +46,11 @@ sidebar_custom_props: {
 			# 产品代号
 			product_code: 'rs120',
 			# 产品名
-			product_name: 'ROCK 5A',
+			product_name_zh: 'ROCK 5A',
+			product_name_en: 'ROCK 5A',
 			# 产品系列
-			Product_Line: 'ROCK 5 Series',
+			Product_Line_zh: 'ROCK 5 系列',
+			Product_Line_en: 'ROCK 5 Series',
 			# 产品对应的所有文档
 			docs: [
 				{
@@ -75,9 +79,11 @@ sidebar_custom_props: {
 			# 产品代号
 			product_code: 'rs119',
 			# 产品名
-			product_name: 'ROCK 5B',
+			product_name_zh: 'ROCK 5B',
+			product_name-en: 'ROCK 5B',
 			# 产品系列
-			Product_Line: 'ROCK 5 Series',
+			Product_Line_zh: 'ROCK 5 系列',
+			Product_Line_en: 'ROCK 5 Series',
 			# 产品对应的所有文档
 			docs: [
 				{
@@ -104,9 +110,11 @@ sidebar_custom_props: {
 			],
 		},
 		{
-			product_name: 'Radxa OS',
+			product_name_zh: '瑞莎官方系统',
+			product_name_en: 'Radxa OS',
 			product_code: 'radxa-os',
-			Product_Line: 'Radxa Software',
+			Product_Line_zh: 'Radxa 软件',
+			Product_Line_en: 'Radxa Software',
 			docs: [
 				{
 					title_zh: '用户手册',

@@ -265,11 +265,11 @@
     "message": "Tags",
     "description": "The title of the tag list page"
   },
-  "theme.tags.HomePageTitle": {
+  "home.page.HomePageTitle": {
     "message": "Radxa Documentation Center",
     "description": "Home Page Title"
   },
-  "theme.tags.HomePageIntroduction": {
+  "home.page.HomePageIntroduction": {
     "message": "Choose a product",
     "description": "Home page introduction"
   }

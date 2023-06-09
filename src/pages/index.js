@@ -38,8 +38,8 @@ export default () => {
         }} >
           <div className={styles.selectBox}>
             <div className={styles.centerBox}>
-              <h1 className={styles.seleH}><Translate id='HomePageTitle'></Translate></h1>
-              <p className={styles.seleP}><Translate id='HomePageIntroduction'></Translate></p>
+              <h1 className={styles.seleH}><Translate id='home.page.HomePageTitle'></Translate></h1>
+              <p className={styles.seleP}><Translate id='home.page.HomePageIntroduction'></Translate></p>
               <div className={styles.spaceBox}>
                 <Space wrap>
                   <Select

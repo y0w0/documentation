@@ -182,10 +182,6 @@
   "sidebar.tutorialSidebar.category.应用开发教程": {
     "message": "Application Development Tutorial"
   },
-
-
-
-
   "version.label": {
     "message": "Next",
     "description": "The label for version current"

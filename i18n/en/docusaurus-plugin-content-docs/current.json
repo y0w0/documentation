@@ -182,6 +182,12 @@
   "sidebar.tutorialSidebar.category.应用开发教程": {
     "message": "Application Development Tutorial"
   },
+  "sidebar.tutorialSidebar.category.瑞莎官方操作系统": {
+    "message": "Radxa Official OS"
+  },
+  "sidebar.tutorialSidebar.category.瑞莎官方操作系统.link.generated-index.description": {
+    "message": "Use of Radxa OS"
+  },
   "version.label": {
     "message": "Next",
     "description": "The label for version current"

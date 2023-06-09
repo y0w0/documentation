@@ -1,60 +1,61 @@
 ---
-sidebar_label: '安装镜像到M.2 NVME SSD'
+sidebar_label: '安装镜像到 M.2 NVME SSD'
 sidebar_position: 33
 ---
 
-# 安装镜像到M.2 NVME SSD
+# 安装镜像到 M.2 NVME SSD
 
-## 带 NVME 转 USB3.0 读卡器 或 带 NVME 插槽的 PC主机
+## 使用 NVME 转 USB 3.0 读卡器或带 NVME 插槽的 PC 主机刷写镜像
 
-1. 准备
+### 1. 准备
 
-- ROCK 5B板
+- ROCK 5B
 - 良好的电源适配器
 - M.2 NVME SSD
-- **NVME 转 USB3.0 读卡器 或 带 NVME 插槽的 PC主机**
+- **NVME 转 USB3.0 读卡器或带 NVME 插槽的 PC 主机**
 
-2. 下载必要的工具和镜像
+### 2. 下载必要的工具和镜像
 
-Etcher就是我们用来写镜像的工具。 从 ROCK 5 [下载](https://wiki.radxa.com/Rock5/downloads)页面为您的 PC 下载合适的 Etcher 并安装它。
+Etcher 就是我们用来写镜像的工具。从[下载](https://www.balena.io/etcher#download-etcher)页面为您的 PC 下载合适的 Etcher 并安装它。
 
 查看 [Etcher 网站](https://www.balena.io/etcher)以获取有关 Etcher 的更多信息。
 
-从 ROCK 5B [下载](https://wiki.radxa.com/Rock5/downloads)页面选择您要安装的映像。
-这里我们使用下图进行书写。
+从 ROCK 5B [下载](../../official-images)页面选择您要安装的映像。
+这里我们使用以下镜像进行刷写。
 ```bash
 rock-5b-debian-bullseye-xfce4-arm64-20220906-0626-gpt.img.xz
 ```
 
-3. 将映像写入 M.2 NVME SSD
+### 3. 将映像写入 M.2 NVME SSD
 
-将 M.2 NVME SSD 插入 M.2 NVME SSD 转 USB3.0 读卡器，连接主机。
+将 M.2 NVME SSD 插入 M.2 NVME SSD 转 USB 3.0 读卡器，连接主机。
 
-运行应用程序。 例如在 Ubuntu 20.04 上双击 balenaEtcher-1.5.116-x64.AppImage：
+运行应用程序。例如在 Ubuntu 20.04 上双击 balenaEtcher-1.5.116-x64.AppImage：
 
-在etcher窗口中，我们单击“Flash from File”按钮。
+在 etcher 窗口中，我们单击`Flash from file`按钮。
 ![rock-5b-etcher-01](/zh/img/rock5b/rock-5b-etcher-01.png)
 
-在etcher窗口中，我们单击“Select Target”按钮。
+在 etcher 窗口中，我们单击`Select target`按钮。
 ![rock-5b-etcher-02](/zh/img/rock5b/rock-5b-etcher-02.png)
 
-在etcher窗口中，我们单击“Flash”按钮。
+在 etcher 窗口中，我们单击`Flash!`按钮。
 ![rock-5b-etcher-03](/zh/img/rock5b/rock-5b-etcher-03.png)
 
-在etcher窗口中，会显示Flash Complete
-![rock-5b-etcher-04](/zh/img/rock5b/rock-5b-etcher-04.png)
+在etcher窗口中，会显示`Flash Complete
+!`![rock-5b-etcher-04](/zh/img/rock5b/rock-5b-etcher-04.png)
 
-完毕！ 现在您已成功在 M.2 NVME SSD 上安装操作系统映像。
+完毕！现在您已成功在 M.2 NVME SSD 上安装操作系统映像。
 
-## 在ROCK 5B上写入NVMe SSD
+## 在 ROCK 5B 上写入 NVMe SSD
 
-1. 按照[烧录方式](./before-start)和[入门教程](./before-start)烧录镜像到eMMC 模块和 Micro SD card
 
-2. 将NVMe SSD装入ROCK 5B， 插入带有镜像的eMMC模块和Micro SD card。上电启动。
+### 1. 按照[烧录方式](before-start#flash)和[入门教程](before-start)烧录镜像到 eMMC 模块和 Micro SD card
 
-3. 将下载ROCK 5B镜像到 ROCK5B中。可以通过SCP命令等工具。查看[入门教程](./before-start)
+### 2. 将 NVMe SSD 装入 ROCK 5B， 插入带有镜像的 eMMC 模块和 Micro SD card。上电启动。
 
-4. 检查NVMe SSD是否存在
+### 3. 可以通过 SCP、wget 等工具,下载 ROCK 5B 镜像到 ROCK5B 中。
+
+### 4. 检查 NVMe SSD 是否存在
 ```bash
 sudo fdisk -l
 ```
@@ -67,17 +68,17 @@ Sector size (logical/physical): 512 bytes / 512 bytes
 I/O size (minimum/optimal): 512 bytes / 512 bytes 
 ```
 
-5. 在ROCK 5B烧录到NVMe SSD中
+### 5. 使用 ROCK 5B 烧录镜像到 NVMe SSD 中
 ```bash
-sudo sudo xzcat 'your compressed image path' | dd of='your NVME SSD device path' bs=1M status=progress            
-#such as: sudo xzcat rock-5b-debian-bullseye-xfce4-arm64-20220906-0626-gpt.img.xz  | dd of=/dev/nvme0n1 bs=1M status=progress
+xzcat 'your compressed image path' | sudo dd of='your NVME SSD device path' bs=1M status=progress            
+#such as: xzcat rock-5b-debian-bullseye-xfce4-arm64-20220906-0626-gpt.img.xz  | sudo dd of=/dev/nvme0n1 bs=1M status=progress
 ```
 
 ## 擦除 M.2 NVMe SSD
 
-之前M.2 NVMe SSD是用Android（或Linux）image写的，现在改成Linux（或Android）。 建议您先擦除 M.2 NVMe SSD。 然后写入目标image。
+如果之前 M.2 NVMe SSD 烧录了 Android（或Linux）image，现在改成 Linux（或 Android）。建议您先擦除 M.2 NVMe SSD。然后写入目标 image。
 
-## 从NVMe SSD启动
+## 从 NVMe SSD 启动
 
-将映像写入 NVMe SSD 后，要从 NVMe SSD 启动，您需要将bootloader写入 SPI Flash。
-请看[安装bootloader到SPI Flash](../../lowlevel-development/bootloader_spi_flash)
+将映像写入 NVMe SSD 后，要从 NVMe SSD 启动，您需要将 bootloader 写入 SPI Flash。
+请看[安装 bootloader 到 SPI Flash](../../lowlevel-development/bootloader_spi_flash)

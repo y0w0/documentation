@@ -205,6 +205,15 @@ a:hover {
   .ant-select {
     width: 20rem;
   }
+
+  .navbar {
+    height: 5.5rem;
+
+  }
+
+  .navbar__inner {
+    height: 5rem;
+  }
 }
 
 

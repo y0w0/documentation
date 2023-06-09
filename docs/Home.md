@@ -17,23 +17,25 @@ sidebar_custom_props: {
 			# 产品对应的所有文档
 			docs: [
 				{
-					title: '新手入门指南',
-					info: '从这里开始你的 ROCK 3C 之旅',
+					title_zh: '新手入门指南',
+					info_zh: '从这里开始你的 ROCK 3C 之旅',
+					title_en: '新手入门指南',
+					info_en: '从这里开始你的 ROCK 5B 之旅',			
 					url: '/rock3/rock3c/getting-started',
 				},
 				{
-					title: '配件使用指南',
-					info: '使用 ROCK 3C 配件',
+					title_zh: '配件使用指南',
+					info_zh: '使用 ROCK 3C 配件',
 					url: '/rock3/rock3c/using-accessories',
 				},
 				{
-					title: '编译源码指南',
-					info: '编译源码',
+					title_zh: '编译源码指南',
+					info_zh: '编译源码',
 					url: '/rock3/lowlevel-dev',
 				},
 				{
-					title: '相关认证信息',
-					info: 'ROCK 3C 认证文件',
+					title_zh: '相关认证信息',
+					info_zh: 'ROCK 3C 认证文件',
 					url: '/compliance/rock3/rock3c',
 				},
 			],
@@ -48,23 +50,23 @@ sidebar_custom_props: {
 			# 产品对应的所有文档
 			docs: [
 				{
-					title: '新手入门指南',
-					info: '从这里开始你的 ROCK 5A 之旅',
+					title_zh: '新手入门指南',
+					info_zh: '从这里开始你的 ROCK 5A 之旅',
 					url: '/rock5/rock5a/getting-started',
 				},
 				{
-					title: '配件使用指南',
-					info: '使用 ROCK 5A 配件',
+					title_zh: '配件使用指南',
+					info_zh: '使用 ROCK 5A 配件',
 					url: '/rock5/rock5a/using-accessories',
 				},
 				{
-					title: '编译源码指南',
-					info: '编译源码',
+					title_zh: '编译源码指南',
+					info_zh: '编译源码',
 					url: '/rock5/lowlevel-dev',
 				},
 				{
-					title: '相关认证信息',
-					info: 'ROCK 5A 认证文件',
+					title_zh: '相关认证信息',
+					info_zh: 'ROCK 5A 认证文件',
 					url: '/compliance/rock5/rock5a',
 				},
 			],
@@ -79,23 +81,24 @@ sidebar_custom_props: {
 			# 产品对应的所有文档
 			docs: [
 				{
-					title: '新手入门指南',
-					info: '从这里开始你的 ROCK 5B 之旅',
+					title_zh: '新手入门指南',
+					info_zh: '从这里开始你的 ROCK 5B 之旅',
+					
 					url: '/rock5/rock5b/getting-started',
 				},
 				{
-					title: '配件使用指南',
-					info: '使用 ROCK 5B 配件',
+					title_zh: '配件使用指南',
+					info_zh: '使用 ROCK 5B 配件',
 					url: '/rock5/rock5b/using-accessories',
 				},
 				{
-					title: '编译源码指南',
-					info: '编译源码',
+					title_zh: '编译源码指南',
+					info_zh: '编译源码',
 					url: '/rock5/lowlevel-dev',
 				},
 				{
-					title: '相关认证信息',
-					info: 'ROCK 5A 认证文件',
+					title_zh: '相关认证信息',
+					info_zh: 'ROCK 5A 认证文件',
 					url: '/compliance/rock5/rock5b',
 				},
 			],
@@ -106,7 +109,7 @@ sidebar_custom_props: {
 			Product_Line: 'Radxa Software',
 			docs: [
 				{
-					title: '用户手册',
+					title_zh: '用户手册',
 					url: '/radxa-os',
 				},
 			],

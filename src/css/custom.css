@@ -206,3 +206,33 @@ a:hover {
     width: 20rem;
   }
 }
+
+
+.gpio_style>table {
+  overflow: visible;
+}
+
+.green {
+  background-color: green;
+  color: #fff;
+}
+
+.black {
+  color: #fff;
+  background-color: black;
+}
+
+.blue {
+  color: #fff;
+  background-color: blue;
+}
+
+.yellow {
+  color: #000;
+  background-color: yellow;
+}
+
+.red {
+  color: #000;
+  background-color: red;
+}

@@ -25,6 +25,10 @@ ul {
   padding: 0;
 }
 
+.list {
+  min-height: 800px;
+}
+
 .spaceBox {
   display: flex;
   justify-content: center;
@@ -526,4 +530,9 @@ ul {
   .card>.longli {
     width: 31.25rem;
   }
+
+  .list {
+    min-height: 50rem;
+  }
+
 }

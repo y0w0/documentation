@@ -47,6 +47,10 @@
     "message": "社区",
     "description": "The label of footer link with label=Community linking to http://www.radxa.com/association"
   },
+  "link.item.label.Services": {
+    "message": "服务",
+    "description": "The label of footer link with label=Community linking to http://www.radxa.com/services"
+  },
   "link.item.label.About Radxa": {
     "message": "关于瑞莎",
     "description": "The label of footer link with label=About Radxa linking to http://www.radxa.com/about"

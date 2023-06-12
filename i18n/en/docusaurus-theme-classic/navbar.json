@@ -22,5 +22,9 @@
   "item.label.Community": {
     "message": "Community",
     "description": "Navbar item with label Community"
+  },
+  "item.label.Services": {
+    "message": "Services",
+    "description": "Navbar item with label Services"
   }
 }

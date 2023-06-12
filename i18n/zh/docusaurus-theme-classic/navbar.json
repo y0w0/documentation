@@ -26,5 +26,9 @@
   "item.label.Community": {
     "message": "社区",
     "description": "Navbar item with label Community"
+  },
+  "item.label.Services": {
+    "message": "服务",
+    "description": "Navbar item with label Services"
   }
 }

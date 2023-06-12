@@ -12,11 +12,11 @@ import Translate from '@docusaurus/Translate';
 export default () => {
   const { i18n } = useDocusaurusContext();
   const homeDoc = getDocs().Home.sidebar_custom_props.product_docs
-  const provinceData = getProduct_Line(homeDoc)
-  const cityData = getProduct_Name(homeDoc)
+  const provinceData = getProduct_Line(homeDoc, i18n.currentLocale)
+  const cityData = getProduct_Name(homeDoc, i18n.currentLocale)
   const [cities, setCities] = useState(cityData[provinceData[0]]);
   const [secondCity, setSecondCity] = useState(cityData[provinceData[0]][0])
-  const element = getProduct_doc(homeDoc, secondCity)
+  const element = getProduct_doc(homeDoc, secondCity, i18n.currentLocale)
 
 
   const handleProvinceChange = (value) => {
@@ -38,8 +38,8 @@ export default () => {
         }} >
           <div className={styles.selectBox}>
             <div className={styles.centerBox}>
-              <h1 className={styles.seleH}><Translate id='HomePageTitle'></Translate></h1>
-              <p className={styles.seleP}><Translate id='HomePageIntroduction'></Translate></p>
+              <h1 className={styles.seleH}><Translate id='home.page.HomePageTitle'></Translate></h1>
+              <p className={styles.seleP}><Translate id='home.page.HomePageIntroduction'></Translate></p>
               <div className={styles.spaceBox}>
                 <Space wrap>
                   <Select

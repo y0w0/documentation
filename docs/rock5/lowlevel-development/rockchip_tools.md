@@ -9,7 +9,7 @@ ROCK 5B支持maskrom模式，这是一种CPU 等待 USB OTG口命令的特殊运
 
 我们使用工具RKDevTool，这能让处于maskrom模式的ROCK 5B与 Linux/macOS PC通信。
 
-Linux/macOS PC上的rkdeveloptool和Windows PC上的RKDevTool。
+# Linux/macOS PC上的rkdeveloptool和Windows PC上的RKDevTool。
 
 ## Windows 上的 RKDevTool
 
@@ -30,7 +30,7 @@ RKDevTool_v2.96 包含 ROCK 5B eMMC/SPI flash配置文件。推荐使用。
 
 - 然后双击 RKDriverAssistant 目录中的 DriverInstall.exe 以启动该程序。 如果您已经为任何其他 Rockchip 设备安装了 Rockchip USB 驱动程序，请确保先单击“卸载驱动程序”。推荐先uninstall Driver，然后再Install Driver。
 
-- 然后点击“Install Driver”安装驱动程序。 并重启电脑。
+- 然后点击“Install Driver”安装驱动程序并重启电脑。
 
 ## Linux 上的 rkdeveloptool（X86 或 ARM）
 

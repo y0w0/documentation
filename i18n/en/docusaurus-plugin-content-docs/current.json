@@ -188,6 +188,18 @@
   "sidebar.tutorialSidebar.category.瑞莎官方操作系统.link.generated-index.description": {
     "message": "Use of Radxa OS"
   },
+  "sidebar.tutorialSidebar.category.计算机模块系列": {
+    "message": "Computer Module Series"
+  },
+  "sidebar.tutorialSidebar.category.计算机模块系列.link.generated-index.description": {
+    "message": ""
+  },
+  "sidebar.tutorialSidebar.category.硬件接口电路": {
+    "message": "Hardware Circuit Interface"
+  },
+  "sidebar.tutorialSidebar.category.硬件接口电路.link.generated-index.description": {
+    "message": "Hardware Circuit Interface"
+  },
   "version.label": {
     "message": "Next",
     "description": "The label for version current"

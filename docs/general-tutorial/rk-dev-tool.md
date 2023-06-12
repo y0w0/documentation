@@ -13,7 +13,7 @@ rkdeveloptool 和 RKDevTool 是我们在 Maskrom 模式下用来与 ROCK 主板�
 
 只需在 Windows 下安装开发工具以及 RK 驱动： 
 
-RK 开发工具： [RKDevTool V2.96](https://dl.radxa.com/tools/windows/RKDevTool_Release_v2.96-20221121.rar)  
+RK 开发工具： [RKDevTool V2.96](https://dl.radxa.com/tools/windows/RKDevTool_Release_v2.96_zh.zip) (压缩包中包含中文使用文档)  
 RK 官方驱动程序： [DriverAssitant V5.0](https://dl.radxa.com/tools/windows/DriverAssitant_v5.0.zip)  
 
 使用 RK 驱动助手工具来安装驱动。 

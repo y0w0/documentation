@@ -46,6 +46,13 @@ sidebar_custom_props: {
 					info_en: 'ROCK 3C Certification Document',	
 					url: '/compliance/rock3/rock3c',
 				},
+				{
+					title_zh: '镜像下载',
+					info_zh: '支持多种镜像下载',
+					title_en: 'Image Downloads',
+					info_en: 'Support Multiple Image Downloads',	
+					url: '/compliance/rock3/getting-started',
+				},
 			],
 		},
 		{
@@ -87,6 +94,13 @@ sidebar_custom_props: {
 					info_en: 'ROCK 5A Certification Document',	
 					url: '/compliance/rock5/rock5a',
 				},
+				{
+					title_zh: '镜像下载',
+					info_zh: '支持多种镜像',
+					title_en: 'Image Downloads',
+					info_en: 'Support Multiple Image Downloads',	
+					url: '/compliance/rock3/rock3c',
+				},
 			],
 		},
 		{
@@ -94,7 +108,7 @@ sidebar_custom_props: {
 			product_code: 'rs119',
 			# 产品名
 			product_name_zh: 'ROCK 5B',
-			product_name-en: 'ROCK 5B',
+			product_name_en: 'ROCK 5B',
 			# 产品系列
 			Product_Line_zh: 'ROCK 5 系列',
 			Product_Line_en: 'ROCK 5 Series',
@@ -127,6 +141,13 @@ sidebar_custom_props: {
 					title_en: 'Certification Information',
 					info_en: 'ROCK 5B Certification Document',
 					url: '/compliance/rock5/rock5b',
+				},
+				{
+					title_zh: '镜像下载',
+					info_zh: '支持多种镜像',
+					title_en: 'Image Downloads',
+					info_en: 'Support Multiple Image Downloads',	
+					url: '/rock5/rock5b/official-images',
 				},
 			],
 		},

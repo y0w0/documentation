@@ -9,6 +9,8 @@ sidebar_position: 20
 
 As shown in the figure, first install the two antennas.
 
+**Note: Please refer to the picture for the installation positions of the square antenna and the rectangular antenna: the square antenna is installed on the rightmost interface of the wireless module A8, and the rectangular antenna is installed on the other interface.**
+
 ![Wireless Module A8](/img/accessories/wireless-a8-1.webp)
 
 Connect the wireless module A8 to the M2.E port of ROCK 5A.

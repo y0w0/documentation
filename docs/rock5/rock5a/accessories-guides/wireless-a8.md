@@ -8,6 +8,8 @@ sidebar_position: 20
 ## 安装教程
 
 - 如图所示，先安装两根天线。
+  
+**注意：正方形天线和长方形天线的安装位置请参考图片：正方形天线安装在无线模块A8的最右边接口，长方形则安装在另一个接口。**
 
 ![Wireless Module A8](/img/accessories/wireless-a8-1.webp)
 

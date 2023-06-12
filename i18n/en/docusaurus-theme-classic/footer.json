@@ -47,6 +47,10 @@
     "message": "Github",
     "description": "The label of footer link with label=Github linking to https://github.com/radxa"
   },
+  "link.item.label.Services": {
+    "message": "Github",
+    "description": "The label of footer link with label=社区 linking to http://www.radxa.com/services"
+  },
   "link.item.label.联系我们": {
     "message": "Contact Us",
     "description": "The label of footer link with label=联系我们 linking to http://www.radxa.com/about?contact_us"

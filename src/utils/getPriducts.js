@@ -1,12 +1,10 @@
 function getProduct_Line(obj, lang) {
     let arr = []
     obj.map(item => {
-        if (arr.indexOf(item.Product_Line) == -1) {
-            if (lang === 'zh') {
-                arr.push(item.Product_Line_zh)
-            } else if (lang === 'en') {
-                arr.push(item.Product_Line_en)
-            }
+        if (arr.indexOf(item.Product_Line_zh) == -1 && lang === 'zh') {
+            arr.push(item.Product_Line_zh)
+        } else if (arr.indexOf(item.Product_Line_en) == -1 && lang === 'en') {
+            arr.push(item.Product_Line_en)
         }
     })
     return arr

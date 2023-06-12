@@ -94,7 +94,7 @@ sidebar_custom_props: {
 			product_code: 'rs119',
 			# 产品名
 			product_name_zh: 'ROCK 5B',
-			product_name-en: 'ROCK 5B',
+			product_name_en: 'ROCK 5B',
 			# 产品系列
 			Product_Line_zh: 'ROCK 5 系列',
 			Product_Line_en: 'ROCK 5 Series',

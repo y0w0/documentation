@@ -3,7 +3,7 @@ sidebar_label: 'Official OS'
 sidebar_position: 2
 ---
 
-# ROCK 5 series
+# ROCK 5 Series OS
 
 ### Introduction
 

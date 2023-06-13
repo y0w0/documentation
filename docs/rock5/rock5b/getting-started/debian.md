@@ -241,7 +241,7 @@ deb http://apt.radxa.com/bullseye-testing/ bullseye main
 ```bash
 sudo apt-get update
 ```
-更多细节请查看[Radxa APT](../../../general-tutorial/apt.md)
+更多细节请查看[Radxa APT](/general-tutorial/apt.md)
 
 
 3. /boot/config.txt

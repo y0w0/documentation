@@ -29,7 +29,7 @@ Radxa推荐使用**Radxa无线模块A8**。
 ![ROCK5A M.2 E key](/img/rock5a/rock5a_m2.webp)
 
 ## Micro HDMI
-ROCK 5A提供2个Micro HDMI端口， 
+ROCK 5A提供 2 个 Micro HDMI端口， 
 需要micro HDMI转HDMI线缆。
 ![Micro HDMI cable](/img/accessories/micro-hdmi-cable-01.webp)
 - 要使用8K60Hz显示输出，请选择耳机接口附近的支持8K60的HDMI接口；

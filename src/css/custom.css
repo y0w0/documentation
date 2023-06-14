@@ -245,3 +245,21 @@ a:hover {
   color: #000;
   background-color: red;
 }
+
+.rock_cm3_io_board_img img{
+  display: block;
+  transform: scale(.7);
+  margin: 0px auto;
+}
+
+.rock_cm3_io_board_img_1 img{
+  display: block;
+  transform: scale(.9);
+  margin: 0px auto;
+}
+
+.rock_cm3_io_board_img_2 img{
+  display: block;
+  transform: scale(.9);
+  margin: 0px auto;
+}

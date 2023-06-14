@@ -1,9 +1,9 @@
 ---
-sidebar_label: 'M.2 E key to SATA Tutorial'
+sidebar_label: 'Radxa M.2 E Key to SATA Board Tutorial'
 sidebar_position: 5
 ---
 
-# M.2 E key to SATA Tutorial
+# Radxa M.2 E Key to SATA Board Tutorial
 
 ROCK 5B has an M.2 E-Key, supports PCIe 2.1 1-lanes, SATA, SDIO, UART.
 

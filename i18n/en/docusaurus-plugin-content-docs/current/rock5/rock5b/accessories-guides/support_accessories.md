@@ -1,9 +1,9 @@
 ---
-sidebar_label: 'Module Support List'
+sidebar_label: 'Support List'
 sidebar_position: 1
 ---
 
-# ROCK5B Support Module List
+# ROCK5B Support List
 
 ## WIFI Module
 

@@ -1,5 +1,5 @@
 ﻿---
-sidebar_label: 'I2S 硬件接口'
+sidebar_label: 'MMC/SD Card'
 sidebar_position: 10
 ---
 

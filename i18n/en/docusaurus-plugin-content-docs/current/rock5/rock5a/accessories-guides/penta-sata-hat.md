@@ -28,7 +28,7 @@ sidebar_position: 20
 ![ROCK5A Install Penta SATA HAT](/img/rock5a/rock5a-penta-sata-hat-04.webp)
 
 3. Please install the M2.5x18+6 copper post and M2.5x5 copper post included with the product on the ROCK5A as shown in the picture.
-![ROCK5A Install M.2 Extension Board](/img/rock5a/rock5a-m2-extension-board-04.jpg)
+![ROCK5A Install M.2 Extension Board](/img/rock5a/rock5a-m2-extension-board-04.webp)
 
 4. Please Connect one end of the IPEX cable to the M.2 E key to M Key board and the other end to the Radxa Penta SATA HAT and Install the M.2 E key to M key board to the M.2 E key connector of ROCK5A. As shown in the picture.
 ![ROCK5A Install Penta SATA HAT](/img/rock5a/rock5a-penta-sata-hat-03.webp)

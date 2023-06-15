@@ -1,23 +1,23 @@
 ---
-sidebar_label: 'ROCK 5A GPIO定义'
+sidebar_label: 'ROCK 5A GPIO Definition'
 sidebar_position: 50
 ---
 
-# ROCK 5A GPIO
+# ROCK 5A GPIO Definition
 
-## GPIO 电压
+## GPIO Voltage
 
-| GPIO       | 电压 | 最高  |
+| GPIO       | Voltage | Max Voltage  |
 | ---------- | ---- | ----- |
-| 所有的GPIO | 3.3V | 3.63V |
+| All GPIOs | 3.3V | 3.63V |
 | SARADC_IN5 | 3.3V | 3.3V  |
 
-## GPIO接口
+## GPIO Interface
 
-ROCK 5A提供了一个40pin针脚的GPIO座子，兼容于市面上大部分传感器的应用。
+ROCK 5A provides a 40pin GPIO socket, which is compatible with most sensor applications on the market.
 
 <div className='gpio_style'>
-**_提示:_ 实际兼容情况以使用为准。**
+**_Tips:_ The actual compatibility is subject to usage. **
 
 | Function6 | Function5 | Function4 | Function3 | Function2 | Function1 |               Pin#               |              Pin#               |  Function1  | Function2 | Function3 | Function4 | Function5 | Function6 | Function7 |
 | --------- | --------- | :-------: | :-------: | :-------: | :-------: | :------------------------------: | :-----------------------------: | :---------: | :-------: | :-------: | :-------: | --------- | --------- | --------- |
@@ -44,7 +44,7 @@ ROCK 5A提供了一个40pin针脚的GPIO座子，兼容于市面上大部分传�
 
 </div>
 
-- Rockchip RK3588的GPIO有5个库，GPIO0到GPIO4，每个库有32个引脚，命名如下。
+- The GPIO of Rockchip RK3588 has 5 banks, GPIO0 to GPIO4, each bank has 32 pins, named as follows.
 ```
 GPIO0_A0 ~ A7 
 GPIO0_B0 ~ B7
@@ -71,7 +71,7 @@ GPIO4_A0 ~ A7
 GPIO4_D0 ~ D7
 ```
 
-- 对于Rockchip 5.10 kernel，GPIO number 的计算方式如下，以GPIO4_D5 为例：
+- For Rockchip 5.10 kernel, the GPIO number is calculated as follows, taking GPIO4_D5 as an example:
 
 ```
 GPIO4_D5 = 32*4 + 8*3 + 5 = 157
@@ -80,7 +80,7 @@ GPIO4_D5 = 32*4 + 8*3 + 5 = 157
 
 ![GPIO_numbew](/img/configuration/gpio-number.webp)
 
-- 设置GPIO4_D5输出
+- Set GPIO4_D5 output
 ```bash
 # cd /sys/class/gpio
 # echo 157 > export

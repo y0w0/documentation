@@ -7,10 +7,7 @@ sidebar_position: 10
 
 Radxa ROCK 5 Model A (简称 ROCK 5A)是一款外形紧凑、具有各种领先的功能特性且扩展性极佳的单板机 (SBC)。
 ROCK 5A 对于创客、物联网玩家、业余爱好者、游戏玩家以及个人电脑用户等需要一个指定的高性能高可靠性的平台的人来说是一个理想的选择。 
-Radxa 为 ROCK 5A 搭载了以下容量的 LPDDR4X 内存选项：  
-4GB  
-8GB  
-16GB  
+Radxa 为 ROCK 5A 搭载了以下容量的 LPDDR4X 内存选项：4GB / 8GB / 16GB  
 
 ![ROCK5A Interface](/img/rock5a/rock5a_interfaces.webp)
 

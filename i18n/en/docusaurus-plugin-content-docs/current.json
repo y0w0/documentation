@@ -200,6 +200,24 @@
   "sidebar.tutorialSidebar.category.硬件接口电路.link.generated-index.description": {
     "message": "Hardware Circuit Interface"
   },
+  "sidebar.tutorialSidebar.category.瑞莎 CM3": {
+    "message": "Radxa CM3"
+  },
+  "sidebar.tutorialSidebar.category.瑞莎 CM3.link.generated-index.description": {
+    "message": ""
+  },
+  "sidebar.tutorialSidebar.category.瑞莎 CM3 接口板": {
+    "message": "Radxa CM3 IO Board"
+  },
+  "sidebar.tutorialSidebar.category.瑞莎 CM3 接口板.link.generated-index.description": {
+    "message": ""
+  },
+  "sidebar.tutorialSidebar.category.量产与批量部署": {
+    "message": "Mass Production and Mass Deployment"
+  },
+  "sidebar.tutorialSidebar.category.量产与批量部署.link.generated-index.description": {
+    "message": "Radxa CM3 Mass Production and Mass Deployment"
+  },
   "version.label": {
     "message": "Next",
     "description": "The label for version current"

@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'ROCK 5B GPIO'
+sidebar_label: 'ROCK 5B GPIO定义'
 sidebar_position: 50
 ---
 
@@ -15,7 +15,7 @@ sidebar_position: 50
 
 ## GPIO接口
 
-ROCK 5B 提供了一个 40pin 针脚的 GPIO 座子，与市场上大多数的SBC配件兼容。
+ROCK 5B提供了一个40pin针脚的GPIO座子，兼容于市面上大部分传感器的应用。
 
 **_提示:_ 实际兼容情况以使用为准。**
 

@@ -26,5 +26,9 @@
   "item.label.Services": {
     "message": "Services",
     "description": "Navbar item with label Services"
+  },
+  "item.label.Welcome": {
+    "message": "Services",
+    "description": "Navbar item with label Welcome"
   }
 }

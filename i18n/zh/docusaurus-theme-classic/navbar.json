@@ -30,5 +30,9 @@
   "item.label.Services": {
     "message": "服务",
     "description": "Navbar item with label Services"
+  },
+  "item.label.Welcome": {
+    "message": "欢迎",
+    "description": "Navbar item with label Welcome"
   }
 }

@@ -1,6 +1,6 @@
 ---
 sidebar_label: '镜像备份'
-sidebar_position: 4
+sidebar_position: 20
 ---
 
 # 镜像导出

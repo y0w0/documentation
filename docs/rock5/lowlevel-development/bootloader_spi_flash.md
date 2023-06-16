@@ -126,7 +126,7 @@ import TabItem from '@theme/TabItem';
 7. 重启生效
 
 现在，您已经完成了烧录支持 NVMe 引导的引导加载程序。
-- 如果您没有在 NVMe SSD 烧录系统，请查看[安装镜像到 NVME](../rock5b/getting-started/m2-install) 以进行烧录。
+- 如果您没有在 NVMe SSD 烧录系统，请查看[安装镜像到 NVME](/general-tutorial/os-installation) 以进行烧录。
 - 如果您已经在 NVMe SSD 烧录了系统，请关闭 ROCK 5B 的电源，取出 µSD 卡或 eMMC 模块并重新通电。现在应该从 NVMe 启动
 
 

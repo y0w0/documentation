@@ -34,7 +34,7 @@ sidebar_position: 20
 
 3、请将产品附带的M2.5x18+6铜柱和M2.5x5铜柱安装在ROCK5A上，如图所示。
 
-![ROCK5A Install M.2 Extension Board](/img/rock5a/rock5a-m2-extension-board-04.jpg)
+![ROCK5A Install M.2 Extension Board](/img/rock5a/rock5a-m2-extension-board-04.webp)
 
 4、请将 IPEX 线的一端连接到 M.2 E key to M Key board，另一端连接到 Radxa Penta SATA HAT 并将 M.2 E key to M key board 安装到 M.2 E key ROCK5A的连接器。 如图所示。
 

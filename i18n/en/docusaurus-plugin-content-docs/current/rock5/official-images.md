@@ -28,7 +28,7 @@ The following systems have been officially tested and verified by Radxa:
 
 ROCK 5A: [Build 16](https://github.com/radxa-build/rock-5a/releases/download/b16/rock-5a_debian_bullseye_kde_b16.img.xz)  
 
-For more images please check ： [radxa-build](https://github.com/radxa-build/)。  
+For more images please check ： [radxa-build](https://github.com/radxa-build/rock-5a/releases/tag/b16)。  
 
 Kernel version: [5.10.110-6](https://github.com/radxa-pkg/linux-rockchip/releases/tag/5.10.110-6)  
 
@@ -63,11 +63,11 @@ Additional information:
 
 The following systems have been officially tested and verified by Radxa:   ： 
 
-ROCK 5B: [Build 33](https://github.com/radxa-build/rock-5b/releases/download/b33/rock-5b_debian_bullseye_kde_b33.img.xz)
+ROCK 5B: [Build 36](https://github.com/radxa-build/rock-5b/releases/download/b36/rock-5b_debian_bullseye_kde_b36.img.xz)
 
-For more images please check ： [radxa-build](https://github.com/radxa-build/)。  
+For more images please check ： [radxa-build](https://github.com/radxa-build/rock-5b/releases/tag/b36)。  
 
-Kernel version: [5.10.110-8](https://github.com/radxa-pkg/linux-rockchip/releases/tag/5.10.110-8)
+Kernel version: [5.10.110-11](https://github.com/radxa-pkg/linux-rockchip/releases/tag/5.10.110-11)
 
 ### Release Notice
 

@@ -27,7 +27,7 @@ import TabItem from '@theme/TabItem';
 
 ROCK 5A: [Build 16](https://github.com/radxa-build/rock-5a/releases/download/b16/rock-5a_debian_bullseye_kde_b16.img.xz)  
 
-更多镜像请查看： [radxa-build](https://github.com/radxa-build/)。  
+更多镜像请查看： [radxa-build](https://github.com/radxa-build/rock-5a/releases/tag/b16)。  
 
 内核版本: [5.10.110-6](https://github.com/radxa-pkg/linux-rockchip/releases/tag/5.10.110-6)  
 
@@ -62,11 +62,11 @@ ROCK 5A 目前已适配安卓 12，你可以从以下链接中下载镜像：
 
 以下系统已由瑞莎官方测试验证： 
 
-ROCK 5B: [Build 33](https://github.com/radxa-build/rock-5b/releases/download/b33/rock-5b_debian_bullseye_kde_b33.img.xz)
+ROCK 5B: [Build 36](https://github.com/radxa-build/rock-5b/releases/download/b36/rock-5b_debian_bullseye_kde_b36.img.xz)
 
-更多镜像请查看： [radxa-build](https://github.com/radxa-build/)。  
+更多镜像请查看： [radxa-build](https://github.com/radxa-build/rock-5b/releases/tag/b36)。  
 
-内核版本: [5.10.110-8](https://github.com/radxa-pkg/linux-rockchip/releases/tag/5.10.110-8)
+内核版本: [5.10.110-11](https://github.com/radxa-pkg/linux-rockchip/releases/tag/5.10.110-11)
 
 ### 发布信息
 

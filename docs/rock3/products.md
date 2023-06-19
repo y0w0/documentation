@@ -17,7 +17,7 @@ ROCK 3系列是瑞莎于Rockchip RK3566/RK3568研发的一系列SBC（单板计�
 |:-:|:-:|:-:|
 |![ROCK CM3](/img/rock3/600px-Start-io.webp)|![ROCK CM3S](/img/rock3/800px-Start-cm3sio.webp)|![ROCK CM3I](/img/rock3/CM3-Industrial-IO-Board.webp)|
 
-|<font size='5'>E23</font> <br/> AIoT网络应用板|<font size='5'>E25</font> <br/> 拥有小而齐的接口袖珍网络板|
-|:-:|:-:|
-|![ROCK E23](/img/rock3/600px-Start-e23.webp)|![ROCK E25](/img/rock3/600px-Start-e25.webp)|
+|<font size='5'>E25</font> <br/> 拥有小而齐的接口袖珍网络板|
+|:-:|
+|![ROCK E25](/img/rock3/600px-Start-e25.webp)|
 

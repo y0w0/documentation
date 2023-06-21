@@ -17,6 +17,7 @@ sidebar_position: 50
 ROCK 5A提供了一个40pin针脚的GPIO座子，兼容于市面上大部分传感器的应用。
 
 <div className='gpio_style'>
+
 **_提示:_ 实际兼容情况以使用为准。**
 
 | Function6 | Function5 | Function4 | Function3 | Function2 | Function1 |               Pin#               |              Pin#               |  Function1  | Function2 | Function3 | Function4 | Function5 | Function6 | Function7 |

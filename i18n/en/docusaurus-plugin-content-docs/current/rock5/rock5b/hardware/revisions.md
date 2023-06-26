@@ -8,7 +8,7 @@ sidebar_position: 20
 - V1.46
 
 The package of the 31P holder has been changed: 
-Pins 1-31 widened to 0.3m and two locating pins widened to 0.7mm
+Pins 1-31 widened to 0.3mm and two locating pins widened to 0.7mm
 
 - V1.45  
 
@@ -16,7 +16,7 @@ Silkscreen update
 
 - V1.44
 
-IIC will be shorted to ground when EKEY is connected, remove the following material: 
+I2C4 will be shorted to ground when EKEY is connected, remove the following material: 
 R90580 R90581  
 L2203 L2205 L2300 L2301 L2303 changed to 3225 package RHP322512T-R24M
 

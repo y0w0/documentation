@@ -23,7 +23,7 @@ L2203 L2205  L2300 L2301 L2303 改成 3225 封装的 RHP322512T-R24M
 - V1.42  
 
 [v1.42 3D 图 stp](https://dl.radxa.com/rock5/5b/docs/hw/ROCK5B_v1.42_3D.step.zip) - 下载 ROCK 5B v1.42 3D 文件  
-[v1.42 示意图 pdf](https://dl.radxa.com/rock5/5b/docs/hw/radxa_rock_5b_v1423_sch.pdf) - 下载 ROCK 5B V1.42 的示意图  
+[v1.42 原理图 pdf](https://dl.radxa.com/rock5/5b/docs/hw/radxa_rock_5b_v1423_sch.pdf) - 下载 ROCK 5B V1.42 的原理图  
 [v1.42 SMD pdf](https://dl.radxa.com/rock5/5b/docs/hw/radxa_rock_5b_v1423_smd.pdf) - 下载 ROCK 5B V1.42 的元器件位置参考表  
 
 - V1.41(预生产版)  

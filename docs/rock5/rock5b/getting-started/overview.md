@@ -5,7 +5,7 @@ sidebar_position: 1
 
 # ROCK 5B 介绍
 
-Radxa ROCK 5B 是一款基于 RK3588 芯片组的优雅单板计算机 (SBC)。其100 x 75mm的紧凑尺寸几乎涵盖了 RK3588 的所有功能，提供卓越的灵活性和可扩展性。ROCK 5B为极客、单板机爱好者、物联网爱好者和高校师生等用户提供了将想法变为现实的坚实基础。它在边缘计算、人工智能、云计算、智能监控和其他领域有着广泛的应用。
+Radxa ROCK 5B 是一款基于 RK3588 芯片组的优雅单板计算机 (SBC)。其 100 x 75 mm 的紧凑尺寸几乎涵盖了 RK3588 的所有功能，提供卓越的灵活性和可扩展性。ROCK 5B 为极客、单板机爱好者、物联网爱好者和高校师生等用户提供了将想法变为现实的坚实基础。它在边缘计算、人工智能、云计算、智能监控和其他领域有着广泛的应用。
 
 ROCK 5B 可作为：
 
@@ -17,7 +17,7 @@ ROCK 5B 可作为：
 
 其他更多使用场景，等你来发掘
 
-ROCK 5B提供多内存选择： 4GB, 8GB 和 16GB LPDDR4x。
+ROCK 5B 提供多内存选择： 4GB, 8GB 和 16GB LPDDR4x。
 
 ![rock5b_01](/zh/img/rock5b/rock-5b-01.png)
 
@@ -68,11 +68,12 @@ ROCK 5B提供多内存选择： 4GB, 8GB 和 16GB LPDDR4x。
 	* 1 x ADC
 	* 6 x GPIO
 	* 2 x 5V DC电源输入
-	* 2 x 3.3V 电源引脚
+	* 2 x 3.3V 电源引脚  
+**提示：更多 GPIO 信息，请查阅[ROCK 5B GPIO](../hardware/rock5b-gpio)。**
 
 ## 软件
 
-- ARMv8 指令集
+- ARM v8 指令集
 - 支持 Debian 和 Ubuntu 系统
 - 支持 Android 12
 - RKNN NPU 软件
@@ -80,6 +81,6 @@ ROCK 5B提供多内存选择： 4GB, 8GB 和 16GB LPDDR4x。
 
 # 机械规格
 
-![rock5b_02](/zh/img/rock5b/rock-5b-02.png)
+![rock5b top size](/img/rock5b/rock-5b-size-top.webp)
 
-![rock5b_03](/zh/img/rock5b/rock-5b-03.png)
+![rock5b bottom size](/img/rock5b/rock-5b-size-bottom.webp)

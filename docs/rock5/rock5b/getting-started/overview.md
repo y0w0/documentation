@@ -19,7 +19,7 @@ ROCK 5B 可作为：
 
 ROCK 5B 提供多内存选择： 4GB, 8GB 和 16GB LPDDR4x。
 
-![rock5b_01](/zh/img/rock5b/rock-5b-01.png)
+[![ROCK 5B](/img/rock5b/rock-5b-overview.webp)](../hardware/hardware-details)  
 
 *** 注意：实际电路板布局或芯片位置随着时间推移可能会发生变化，但主要连接器类型和位置将保持不变。 ***
 

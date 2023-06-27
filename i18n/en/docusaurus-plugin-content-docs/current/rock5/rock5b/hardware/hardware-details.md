@@ -142,7 +142,7 @@ The TF card interface pin specification shows below:
 
 Please check [ROCK 5B GPIO pinout](rock5b-gpio).
 
-## SPI Nor Flash (19)
+## SPI NOR Flash (19)
 
 ## RTC Battery (20)
 
@@ -159,11 +159,11 @@ You can distinguish '+3.3V' and '-' from the silk screen on the board.
 
 ROCK 5B supports loader mode, which is a special operation mode for CPU to wait for USB OTG port command.
 
-Recovery button is used for upgrade image on SPI Nor Flash or eMMC on board.
+Recovery button is used for upgrade image on SPI NOR Flash or eMMC on board.
 
 Below is the steps of booting device into loader mode.
 
- - Make sure that u-boot images are pre-installed on SPI Nor Flash or eMMC
+ - Make sure that u-boot images are pre-installed on SPI NOR Flash or eMMC
  - Press and hold the recovery button
  - Plug the USB Male A to Male C cable to ROCK 5B Type-C port, the other side to PC
  - Wait for about 5 seconds
@@ -209,4 +209,4 @@ Definition table (From top to bottom in the picture):
 
 ROCK 5B supports Maskrom mode, which is a special operation mode for CPU to wait for USB OTG port command.
 
-Maskrom button is needed when writing the images to SPI Nor Flash or eMMC on board.
+Maskrom button is needed when writing the images to SPI NOR Flash or eMMC on board.

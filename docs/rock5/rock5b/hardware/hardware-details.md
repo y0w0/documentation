@@ -142,7 +142,7 @@ TF 卡的接口针脚规格如下所示：
 
 请查阅 [ROCK 5B GPIO 定义](rock5b-gpio)。
 
-## SPI Nor Flash (19)
+## SPI NOR Flash (19)
 
 ## RTC 电池 (20)
 
@@ -159,11 +159,11 @@ RTC 连接器是按照标准的连接器类型设计的。
 
 ROCK 5B 支持 loader 模式，这是 CPU 等待 USB OTG 端口命令的一种特殊操作模式。
 
-Recovery 按钮用于升级板上 SPI Nor Flash 或 eMMC 的图像。
+Recovery 按钮用于升级板上 SPI NOR Flash 或 eMMC 的图像。
 
 下面是将设备启动到 loader 模式的步骤。
 
- - 确保 U-Boot 镜像已经预先安装在 SPI Nor Flash 或 eMMC 上。
+ - 确保 U-Boot 镜像已经预先安装在 SPI NOR Flash 或 eMMC 上。
  - 按下并按住 Recovery 按钮
  - 将 USB-A 转 C 线插入 ROCK 5B 的 Type-C 端口，另一端插入电脑。
  - 等待大约 5 秒钟
@@ -209,4 +209,4 @@ Open RKDevTool and you would see the device is in Found One MASKROM Device.
 
 ROCK 5B 支持 Maskrom 模式，这是 CPU 等待 USB OTG 端口命令的一种特殊操作模式。
 
-当需要把镜像写到 SPI Nor Flash 或 eMMC 板上时，需要使用 Maskrom 按钮进入 Maskrom 模式。
+当需要把镜像写到 SPI NOR Flash 或 eMMC 板上时，需要使用 Maskrom 按钮进入 Maskrom 模式。

@@ -1,38 +1,38 @@
----
-sidebar_label: 'Hardware Information Details'
+﻿---
+sidebar_label: 'ROCK 5B 硬件接口定义'
 sidebar_position: 1
 ---
 
-# Ӳ������
+# 硬件概览
 
-���ǽ��ڱ����ṩ ROCK 5B ����ϸӲ����Ϣ�� 
+我们将在本文提供 ROCK 5B 的详细硬件信息。 
 ![ROCK 5B Overview](/img/rock5b/rock-5b-overview.webp)
 
-## ������ (1)
+## 处理器 (1)
 
-ROCK 5B �� SoC �� Rockchip RK3588�� 
-�� CPU ��һ���ĺ� ARM Cortex-A76 MPCore ���������ĺ� ARM Cortex-A55 MPCore �������� 
-���߶��Ǹ����ܡ��͹��ĺͻ����Ӧ�ô�������
-���ص� ARM Mali-G610 MP4 3D GPU ʹ RK3588 ��ȫ���� OpenGLES 1.1��2.0 ��3.2 ��OpenCL 2.2 �� Vulkan 1.2��
-���� MMU ������ 2D Ӳ�����潫�����ʾ���ܲ��ṩ�ǳ������Ĳ�����
-���õ� NPU ֧�� INT4 / INT8 / NT16 / FP16 ������㣬���������ߴ� 6 TOPs��
-���⣬������ǿ��ļ����ԣ����� TensorFlow / MXNet / PyTorch / Caffe ��һϵ�п�ܵ�����ģ��Ҳ��������ʵ�֡�
+ROCK 5B 的 SoC 是 Rockchip RK3588。 
+主 CPU 是一个四核 ARM Cortex-A76 MPCore 处理器和四核 ARM Cortex-A55 MPCore 处理器、 
+两者都是高性能、低功耗和缓存的应用处理器。
+搭载的 ARM Mali-G610 MP4 3D GPU 使 RK3588 完全兼容 OpenGLES 1.1、2.0 、3.2 ，OpenCL 2.2 和 Vulkan 1.2。
+带有 MMU 的特殊 2D 硬件引擎将最大化显示性能并提供非常流畅的操作。
+内置的 NPU 支持 INT4 / INT8 / NT16 / FP16 混合运算，计算能力高达 6 TOPs。
+此外，由于其强大的兼容性，基于 TensorFlow / MXNet / PyTorch / Caffe 等一系列框架的网络模型也可以轻松实现。
 
-## �ڴ� (2)
+## 内存 (2)
 
-ROCK 5B ���ڴ��� LPDDR 4x�������� 32 bits LPDDR 4x оƬ��� 64 bits��Ƶ�ʸߴ� 4224 Mhz��ROCK 5B �ṩ 4GB��8GB �� 16GB ���ڴ�ѡ�
+ROCK 5B 的内存是 LPDDR 4x，由两个 32 bits LPDDR 4x 芯片组成 64 bits，频率高达 4224 Mhz。ROCK 5B 提供 4GB、8GB 和 16GB 的内存选项。
 
-## USB-C ��Դ (3)
+## USB-C 电源 (3)
 
-Radxa ROCK 5 Model B �����Ϊ�͹��ĵ� ARM ̨ʽ������������֧�����µ�Դ���룺  
+Radxa ROCK 5 Model B 被设计为低功耗的 ARM 台式单板计算机。它支持以下电源输入：  
 
-- USB PD2.0 ��Դ��������֧�� 12V / 15V / 20V���������Ϊ 2A ����ߡ�
-- ���й̶� 9V �� 20V ֱ����ѹ�� USB-C ��ͷ�ĵ�Դ������
-- ���� GPIO PIN 2 �� 4 �� 5V PoE ��Դ
+- USB PD2.0 电源适配器，支持 12V / 15V / 20V，输出电流为 2A 或更高。
+- 具有固定 9V 至 20V 直流电压和 USB-C 插头的电源适配器
+- 来自 GPIO PIN 2 和 4 的 5V PoE 电源
 
-## HDMI ��� (4 / 5)
+## HDMI 输出 (4 / 5)
 
-## HDMI ���� (6)
+## HDMI 输入 (6)
 
 ## USB2.0 (7)
 
@@ -44,7 +44,7 @@ Radxa ROCK 5 Model B �����Ϊ�͹��ĵ� ARM ̨ʽ������������֧�����µ�Դ���룺
 
 ## M.2 E-KEY (11)
 
-M.2 E key �����źŶ������  
+M.2 E key 引脚信号定义表：  
 
 <div className='gpio_style'>
 
@@ -77,9 +77,9 @@ M.2 E key �����źŶ������
 
 ## eMMC (13)
 
-���ز����ӿ��ص�  
-�����ܵ� eMMC ģ���� ROCK 5B ϵͳ�洢�����ѡ��eMMC ģ���� 8GB / 16GB / 32GB / 64GB / 128GB �ɹ�ѡ�� 
-eMMC ���������Ź�����£�  
+板载插座接口特点  
+高性能的 eMMC 模块是 ROCK 5B 系统存储的最佳选择。eMMC 模块有 8GB / 16GB / 32GB / 64GB / 128GB 可供选择。 
+eMMC 插座的引脚规格如下：  
 
 <div className='gpio_style'>
 
@@ -104,17 +104,17 @@ eMMC ���������Ź�����£�
 |GND		|17|18|GND		 |
 </div>
 
-## TF ���� (14)
+## TF 卡槽 (14)
 
-TF ��������Ϊϵͳ�洢���ⲿ�洢ʹ�á�
+TF 卡可以作为系统存储或外部存储使用。
 
-����������ϵͳ�洢ʱ�������ѡ��洢�ռ���� 8GB �ġ�
+当它被用作系统存储时，你最好选择存储空间大于 8GB 的。
 
-������Ϊ�ⲿ�洢ʱ�������ѡ��洢�ռ����Ϊ 128GB �ġ�
+当它作为外部存储时，你可以选择存储空间最大为 128GB 的。
 
-�� TF ������ TF ����ʱ��ϵͳ���Զ�ʶ���豸��
+当 TF 卡插入 TF 卡槽时，系统会自动识别设备。
 
-TF ���Ľӿ���Ź��������ʾ��  
+TF 卡的接口针脚规格如下所示：  
 
 |Pin#|Name|
 |:-:|:-|
@@ -132,42 +132,42 @@ TF ���Ľӿ���Ź��������ʾ��
 |12|GND			|
 |13|GND			|
 
-## ���� (15)
+## 耳机 (15)
 
 ## MIPI CSI (16)
 
 ## MIPI DSI (17)
 
-## 40-pin ���� (18)
+## 40-pin 座子 (18)
 
-����� [ROCK 5B GPIO ����](rock5b-gpio)��
+请查阅 [ROCK 5B GPIO 定义](rock5b-gpio)。
 
 ## SPI Nor Flash (19)
 
-## RTC ��� (20)
+## RTC 电池 (20)
 
-RTC �������ǰ��ձ�׼��������������Ƶġ�
+RTC 连接器是按照标准的连接器类型设计的。
 
-����ԴӰ����ϵ�˿ӡ�зֱ�� '+3.3V' �� '-'��
+你可以从板子上的丝印中分辨出 '+3.3V' 和 '-'。
 
 |Pin#|Name|
 |:-:|:-|
 |1|GND	|
 |2|+3.3V|
 
-## Recovery ��ť (21)
+## Recovery 按钮 (21)
 
-ROCK 5B ֧�� loader ģʽ������ CPU �ȴ� USB OTG �˿������һ���������ģʽ��
+ROCK 5B 支持 loader 模式，这是 CPU 等待 USB OTG 端口命令的一种特殊操作模式。
 
-Recovery ��ť������������ SPI Nor Flash �� eMMC ��ͼ��
+Recovery 按钮用于升级板上 SPI Nor Flash 或 eMMC 的图像。
 
-�����ǽ��豸������ loader ģʽ�Ĳ��衣
+下面是将设备启动到 loader 模式的步骤。
 
- - ȷ�� U-Boot �����Ѿ�Ԥ�Ȱ�װ�� SPI Nor Flash �� eMMC �ϡ�
- - ���²���ס Recovery ��ť
- - �� USB-A ת C �߲��� ROCK 5B �� Type-C �˿ڣ���һ�˲�����ԡ�
- - �ȴ���Լ 5 ����
- - ȷ�� ROCK 5B ���� loader ģʽ��
+ - 确保 U-Boot 镜像已经预先安装在 SPI Nor Flash 或 eMMC 上。
+ - 按下并按住 Recovery 按钮
+ - 将 USB-A 转 C 线插入 ROCK 5B 的 Type-C 端口，另一端插入电脑。
+ - 等待大约 5 秒钟
+ - 确认 ROCK 5B 处于 loader 模式。
 
 ```bash
 #For macOS host: 
@@ -176,37 +176,37 @@ Output:Bus 000 Device 004: ID 2207:350b Fuzhou Rockchip Electronics Co., Ltd. Co
 
 #For Linux host: 
 	lsusb result
-Output��Bus 001 Device 030: ID 2207:350b Fuzhou Rockchip Electronics Company
+Output：Bus 001 Device 030: ID 2207:350b Fuzhou Rockchip Electronics Company
 
 #For Windows host: 
 Open RKDevTool and you would see the device is in Found One MASKROM Device.
 ```
 
-## ��Դ�� (22)
+## 电源键 (22)
 
-��Դ��ť���ڴ򿪻�ر��豸�� 
-�̰���Դ��ť�Ϳ��Դ�/�ر��豸�ĵ�Դ�������������˵��ͨ��������/�ص�Դ�� 
-��Դ��ť���ṩӲ����/���豸�Ĺ��ܡ�
-��ϵͳ����ʱ�������ͨ�����ַ����ر��豸��
-��ס��Դ��ť���� 6 ���ӡ�Ȼ���ͷŵ�Դ��ť��
-֮�󣬶̰���Դ��ť�Ϳ��Դ��豸�ĵ�Դ��
+电源按钮用于打开或关闭设备。 
+短按电源按钮就可以打开/关闭设备的电源。这就是我们所说的通过软件开/关电源。 
+电源按钮还提供硬件开/关设备的功能。
+当系统崩溃时，你可以通过这种方法关闭设备。
+按住电源按钮至少 6 秒钟。然后释放电源按钮。
+之后，短按电源按钮就可以打开设备的电源。
 
 ## RGB LED (23)
 
-����� [LED ָ��](/radxa-os/rsetup/led).
+请查阅 [LED 指导](/radxa-os/rsetup/led).
 
 ## Fan (24)
 
-����Բ��� [rsetup: thermal-governor](/radxa-os/rsetup/rsetup-tool#thermal-governor) �����з������á� 
-�������ͼƬ�д��ϵ��£���
+你可以查阅 [rsetup: thermal-governor](/radxa-os/rsetup/rsetup-tool#thermal-governor) 来进行风扇设置。 
+定义表（图片中从上到下）：
 
 |Pin#|Name|
 |:-:|:-|
 |1|+5.0V|
 |2|GND	|
 
-## Maskrom ���� (25)
+## Maskrom 按键 (25)
 
-ROCK 5B ֧�� Maskrom ģʽ������ CPU �ȴ� USB OTG �˿������һ���������ģʽ��
+ROCK 5B 支持 Maskrom 模式，这是 CPU 等待 USB OTG 端口命令的一种特殊操作模式。
 
-����Ҫ�Ѿ���д�� SPI Nor Flash �� eMMC ����ʱ����Ҫʹ�� Maskrom ��ť���� Maskrom ģʽ��
+当需要把镜像写到 SPI Nor Flash 或 eMMC 板上时，需要使用 Maskrom 按钮进入 Maskrom 模式。

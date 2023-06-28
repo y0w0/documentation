@@ -41,7 +41,7 @@ ROCK 5B 提供多内存选择： 4GB, 8GB 和 16GB LPDDR4x。
 ## 接口特点
 
 - 1x 全功能 USB C 端口（支持 USB PD 电源、DP 显示高达 4Kp60、USB 3.0）
-- 1x micro SD 卡插槽
+- 1x microSD 卡插槽
 - 2x 标准 HDMI 输出端口，一个支持高达 8Kp60，一个支持高达 4Kp60
 - 1x micro HDMI 输入端口，支持高达 4Kp60 显示输入
 - 2x USB 2 端口

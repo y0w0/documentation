@@ -67,7 +67,7 @@ Open RKDevTool and you would see the device is in Found One MASKROM Device.
 ### Interface Features
 
 - 1x full function USB C port (supports USB PD power, DP Display up to 4Kp60, USB 3.0)
-- 1x SD Card
+- 1x microSD Card
 - 2x standard HDMI output ports, one supporting displays up to 8Kp60 resolution, one supporting up to 4Kp60
 - 1x micro HDMI input port, supporting up to 4Kp60 display input
 - 2x USB2 HOST ports

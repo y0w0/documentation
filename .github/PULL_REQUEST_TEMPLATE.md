@@ -14,7 +14,13 @@ Do not delete them!
 To review this PR locally, please run the following commands:
 
 ```bash
-git fetch origin pull/PR_NUMBER/head:PR_BRANCH
-git switch PR_BRANCH
+PR= # the current PR number
+git fetch origin pull/${PR}/head:${PR}
+git switch --detach ${PR}
 yarn start
+yarn start --locale en
+# If you want to start 2 locales side-by-side, use the following command on Linux:
+# https://github.com/facebook/docusaurus/issues/7377#issuecomment-1167192715
+yarn start & DOCUSAURUS_GENERATED_FILES_DIR_NAME=.docusaurus/en yarn start --locale en --port 3001
+kill %1
 ```

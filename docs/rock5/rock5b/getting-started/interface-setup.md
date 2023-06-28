@@ -5,7 +5,7 @@ sidebar_position: 17
 
 # 接口设置
 
-如果你是新手，当你拿到 ROCK 5B 的时候，请先熟悉下 ROCK 5B 的[外设接口](../hardware/hardware-details)，以便于你更好的玩转 ROCK 5B。  
+如果你是首次使用 ROCK 5B，请先熟悉下 ROCK 5B 的[外设接口](../hardware/hardware-details)，以便于你更好的理解后续的内容。
 
 ## 接口连接指南
 
@@ -13,7 +13,7 @@ sidebar_position: 17
 
 - **USB接口**  
 
-ROCK 5B 提供两个 USB 2.0 和两个 USB 3.0 端口。你可以选择鼠标或键盘作为输入设备。安装方法如图所示：你只需将鼠标的 USB 接口与 ROCK 5B 的 USB 接口对准，然后插入即可。  
+ROCK 5B 提供两个 USB 2.0 和两个 USB 3.0 端口。
 
 - **以太网口**  
 
@@ -21,9 +21,12 @@ ROCK 5B 提供两个 USB 2.0 和两个 USB 3.0 端口。你可以选择鼠标或
 
 - **HDMI**  
 
-ROCK 5B 有两个 HDMI 输出端口（**Type A**），均支持 CEC 和 HDMI 2.1，分辨率最高支持分别为 8Kp60 和 4Kp60。  
-另外，ROCK 5B 拥有 1 个 HDMI 输入接口（**Type D**），支持 HDMI 2.1 输入，分辨率为 4Kp60。  
-**注意: 在使用之前，请确认 HDMI 线接口规格是 Type A 还是 Type C。**  
+ROCK 5B 有两个 HDMI 输出端口，均支持 CEC 和 HDMI 2.1，分辨率最高支持分别为 8Kp60 和 4Kp60，并且其 Type-C 接口也可支持视频输出。  
+另外，ROCK 5B 拥有 1 个 HDMI 输入接口，支持 HDMI 2.1 输入，分辨率为 4Kp60。  
+
+:::caution
+注意: 在使用之前，请确认 HDMI 线的接口规格。
+:::
 
 - **电源**  
 

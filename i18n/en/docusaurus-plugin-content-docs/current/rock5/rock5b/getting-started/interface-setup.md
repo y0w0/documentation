@@ -5,16 +5,14 @@ sidebar_position: 17
 
 # Interface Usage
 
-If you are new to the ROCK 5B, when you get it, please familiarise yourself with the [peripheral interface](../hardware/hardware-details)  of the ROCK 5B to help you get the most out of the ROCK 5B.  
-
+If you are using the ROCK 5B for the first time, please familiarise yourself with the [peripheral interface](../hardware/hardware-details) of the ROCK 5B so that you can better understand what is to follow.
 ## Interface Connection Guide
 
 ![rock5b_01](/img/rock5b/rock5b-interface-1.webp)
 
 - **USB Interface**  
 
-The ROCK 5B offers two USB 2.0 and two USB 3.0 ports. You can choose both a mouse or a keyboard as the input device. 
-Installation is as shown: you simply align the mouse's USB port with the ROCK 5B's USB port and plug it in.  
+The ROCK 5B offers two USB 2.0 and two USB 3.0 ports.  
 
 - **Ethernet Port**  
 
@@ -23,9 +21,12 @@ plug the cable into the RJ45 port on the ROCK 5B and the system desktop will pop
 
 - **HDMI**  
 
-The ROCK 5B has two HDMI output ports (**Type A**), both supporting CEC and HDMI 2.1, with resolution support up to 8Kp60 and 4Kp60 respectively.  
-In addition, the ROCK 5B has one HDMI input port (**Type D**), which supports HDMI 2.1 input with a resolution of 4Kp60.  
-**Note: Before using, please check whether the HDMI cable connector is Type A or Type C.**  
+The ROCK 5B has two HDMI output ports, both supporting CEC and HDMI 2.1, with resolution support up to 8Kp60 and 4Kp60 respectively, and its Type-C connector can also support video output.  
+In addition, the ROCK 5B has one HDMI input port, which supports HDMI 2.1 input with a resolution of 4Kp60.  
+
+:::caution
+Note: Before using, please check the HDMI cable connector type. 
+:::
 
 - **Power**  
 

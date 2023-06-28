@@ -176,7 +176,7 @@ Output:Bus 000 Device 004: ID 2207:350b Fuzhou Rockchip Electronics Co., Ltd. Co
 
 #For Linux host: 
 	lsusb result
-Output£ºBus 001 Device 030: ID 2207:350b Fuzhou Rockchip Electronics Company
+Output:Bus 001 Device 030: ID 2207:350b Fuzhou Rockchip Electronics Company
 
 #For Windows host: 
 Open RKDevTool and you would see the device is in Found One MASKROM Device.

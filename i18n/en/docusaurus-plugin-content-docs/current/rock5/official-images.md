@@ -39,24 +39,24 @@ Kernel version: [5.10.110-6](https://github.com/radxa-pkg/linux-rockchip/release
 
 ### Release Notice
 
-The first official release announcement for ROCK 5A can be found at the following link:
+The first official release announcement for ROCK 5A can be found at the following link:  
 [System Release Notice for ROCK 5A](https://forum.radxa.com/t/230428-system-release-notice-for-rock-5a/16275)
 
 ### Other alternative systems
 
 #### Android
 
-The ROCK 5A is currently adapted to Android 12 and you can download the image from the following link:
-[ROCK 5A Android 12](https://github.com/radxa/manifests/releases/tag/Android12_rk12)
-Additional information:
-[Radxa Android Manifests](https://github.com/radxa/manifests)
-[Android 12 Installation Guide](https://wiki.radxa.com/Rock5/guide/android12)
+The ROCK 5A is currently adapted to Android 12 and you can download the image from the following link:  
+[ROCK 5A Android 12](https://github.com/radxa/manifests/releases/tag/Android12_rk12)  
+Additional information:  
+[Radxa Android Manifests](https://github.com/radxa/manifests)  
+[Android 12 Installation Guide](https://wiki.radxa.com/Rock5/guide/android12)  
 
 #### Ubuntu Server
 
-[Ubuntu Server Download](https://github.com/radxa-build/rock-5a/releases)
-[Ubuntu Installation Guide](https://wiki.radxa.com/Rock5/linux/ubuntu)
-[Github Change log](https://github.com/radxa/debos-radxa/releases/latest)
+[Ubuntu Server Download](https://github.com/radxa-build/rock-5a/releases)  
+[Ubuntu Installation Guide](https://wiki.radxa.com/Rock5/linux/ubuntu)  
+[Github Change log](https://github.com/radxa/debos-radxa/releases/latest)  
 
 
 </TabItem>
@@ -76,23 +76,23 @@ Kernel version: [5.10.110-11](https://github.com/radxa-pkg/linux-rockchip/releas
 
 ### Release Notice
 
-The official release notice for ROCK 5B can be found at the following link:
+The official release notice for ROCK 5B can be found at the following link:  
 [System Release Notice for ROCK 5B](https://forum.radxa.com/t/230526-system-release-notice-for-rock-5b/16809)
 
 ### Other alternative systems
 
 #### Android
 
-[ROCK 5B Android 12](https://github.com/radxa/manifests/releases/tag/Rock-android12-20230315)
-Additional information:
-[Radxa Android Manifests](https://github.com/radxa/manifests)
-[Android 12 Installation Guide](https://wiki.radxa.com/Rock5/guide/android12)
+[ROCK 5B Android 12](https://github.com/radxa/manifests/releases/tag/Rock-android12-20230315)  
+Additional information:  
+[Radxa Android Manifests](https://github.com/radxa/manifests)  
+[Android 12 Installation Guide](https://wiki.radxa.com/Rock5/guide/android12)  
 
 #### Ubuntu Server
 
-[Ubuntu Server Download](https://github.com/radxa-build/rock-5b/releases)
-[Ubuntu Installation Guide](https://wiki.radxa.com/Rock5/linux/ubuntu)
-[Github Change log](https://github.com/radxa/debos-radxa/releases/latest)
+[Ubuntu Server Download](https://github.com/radxa-build/rock-5b/releases)  
+[Ubuntu Installation Guide](https://wiki.radxa.com/Rock5/linux/ubuntu)  
+[Github Change log](https://github.com/radxa/debos-radxa/releases/latest)  
 
 </TabItem>
 </Tabs>

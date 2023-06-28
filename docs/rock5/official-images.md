@@ -46,17 +46,17 @@ ROCK 5A 的首次官方发布通告请在以下链接查看(仅英文版)：
 
 #### 安卓
 
-ROCK 5A 目前已适配安卓 12，你可以从以下链接中下载镜像：
-[ROCK 5A 安卓 12](https://github.com/radxa/manifests/releases/tag/Android12_rk12)
-补充信息：
-[瑞莎安卓 Manifests](https://github.com/radxa/manifests)
-[安卓 12 安装指导](https://wiki.radxa.com/Rock5/guide/android12)
+ROCK 5A 目前已适配安卓 12，你可以从以下链接中下载镜像：  
+[ROCK 5A 安卓 12](https://github.com/radxa/manifests/releases/tag/Android12_rk12)  
+补充信息：  
+[瑞莎安卓 Manifests](https://github.com/radxa/manifests)  
+[安卓 12 安装指导](https://wiki.radxa.com/Rock5/guide/android12)  
 
 #### Ubuntu 服务端
 
-[Ubuntu 服务端镜像下载页面](https://github.com/radxa-build/rock-5a/releases)
-[Ubuntu 安装教程](https://wiki.radxa.com/Rock5/linux/ubuntu)
-[Github 更改日志](https://github.com/radxa/debos-radxa/releases/latest)
+[Ubuntu 服务端镜像下载页面](https://github.com/radxa-build/rock-5a/releases)  
+[Ubuntu 安装教程](https://wiki.radxa.com/Rock5/linux/ubuntu)  
+[Github 更改日志](https://github.com/radxa/debos-radxa/releases/latest)  
 
 
 </TabItem>
@@ -76,23 +76,23 @@ ROCK 5B: [Build 36](https://github.com/radxa-build/rock-5b/releases/download/b36
 
 ### 发布信息
 
-ROCK 5B 的官方发布通告请在以下链接查看(仅英文版)：
+ROCK 5B 的官方发布通告请在以下链接查看(仅英文版)：  
 [System Release Notice for ROCK 5B](https://forum.radxa.com/t/230526-system-release-notice-for-rock-5b/16809)
 
 ### 其他备选系统
 
 #### 安卓
 
-[ROCK 5B 安卓 12](https://github.com/radxa/manifests/releases/tag/Rock-android12-20230315)
-补充信息：
-[瑞莎安卓 Manifests](https://github.com/radxa/manifests)
-[安卓 12 安装指导](https://wiki.radxa.com/Rock5/guide/android12)
+[ROCK 5B 安卓 12](https://github.com/radxa/manifests/releases/tag/Rock-android12-20230315)  
+补充信息：  
+[瑞莎安卓 Manifests](https://github.com/radxa/manifests)  
+[安卓 12 安装指导](https://wiki.radxa.com/Rock5/guide/android12)  
 
 #### Ubuntu 服务器
 
-[Ubuntu 服务器镜像下载页面](https://github.com/radxa-build/rock-5b/releases)
-[Ubuntu 安装教程](https://wiki.radxa.com/Rock5/linux/ubuntu)
-[Github 更改日志](https://github.com/radxa/debos-radxa/releases/latest)
+[Ubuntu 服务器镜像下载页面](https://github.com/radxa-build/rock-5b/releases)  
+[Ubuntu 安装教程](https://wiki.radxa.com/Rock5/linux/ubuntu)  
+[Github 更改日志](https://github.com/radxa/debos-radxa/releases/latest)  
 
 </TabItem>
 </Tabs>

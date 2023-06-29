@@ -15,7 +15,7 @@ Radxa 为 ROCK 5A 搭载了以下容量的 LPDDR4X 内存选项：4GB / 8GB / 16
 
 # 尺寸规格
 
-![ROCK5A Dimension Top](/img/rock5a/rock5a-dimension-top.webp)
+![ROCK5A Dimension Top](/img/rock5a/rock5a-dimension-top.webp)  
 ![ROCK5A Dimension Bottom](/img/rock5a/rock5a-dimension-bottom.webp)
 
 ## 需求电源
@@ -24,12 +24,17 @@ ROCK 5A 支持包括固定电压和智能协议电压的各种电源技术：
 
 - USB Type-C™ PD 2.0协议： 9V/2A, 12V/2A, 15V/2A, 20V/2A.
 - 骁龙® QC™ 2.0 QC 3.0/2.0 协议： 9V/2A, 12V/2A
-- USB Type-C接口的 5.2V 至 20V 电压
-- GPIO 2 & 4 针脚支持5V电压输出
+- USB Type-C 接口的 5.2V 至 20V 电压
+- GPIO 2 & 4 针脚支持 5V 电压输出
 
-在使用 SSD 的情况下推荐至少能输出 30 W 的适配器，不使用SSD时推荐适配器至少输出 24 W 。
+在使用 SSD 的情况下推荐至少能输出 30 W 的适配器，不使用 SSD 时推荐适配器至少输出 24 W 。
+
+## Maskrom 模式
+
+
 
 ## ROCK 5A 使用eMMC教程  
+
 当你收到 ROCK 5A 时，ROCK 5A 安装了 SPI Flash，你需要把 SPI Flash 取下来之后才可以安装 eMMC。eMMC 采用的是 B2B 连接器，与 ROCK 5A 的 B2B 连接接口对准安装就可以。如图所示：
 
 ![ROCK5A Using eMMC](/img/rock5a/rock5a-use-emmc.webp)

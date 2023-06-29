@@ -27,7 +27,7 @@ import TabItem from '@theme/TabItem';
 
 #### Flash OS image to Micro SD card via Etcher
 
-1. [Download](https://www.balena.io/etcher#download-etcher) flash tool `Etcher`.  
+1. [Download](https://etcher.balena.io/) flash tool `Etcher`.  
    ![ROCK5A via Etcher 01](/img/rock5a/rock5a-etcher.webp)
 
 2. Open the Etcher and flash the prepared OS image to the Micro SD card. In the Etcher window, 
@@ -69,7 +69,7 @@ import TabItem from '@theme/TabItem';
 ***Note: This tutorial is only applicable to write removable eMMC modules, onboard eMMCs need to be flashed using [rkdevtool](rkdevtool).***
 ![Radxa eMMC](/img/accessories/emmc_related_01.webp)
 - Download the [corresponding product](../productlist) for the official Ubuntu / Debian system image.
-- [Download](https://www.balena.io/etcher#download-etcher) flash tool `Etcher`.  
+- [Download](https://etcher.balena.io/) flash tool `Etcher`.  
 ![ROCK5A via Etcher](/img/rock5a/rock5a-etcher.webp)
 
 ### Flash image

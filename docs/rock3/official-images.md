@@ -30,7 +30,7 @@ linaro linaro
 
 |描述|Linux工具|MacOS工具|Windows工具|
 |-|-|-|-|
-|Etcher - 用户友好型烧写工具|[Linux 64bit](https://github.com/balena-io/etcher/releases/download/v1.4.9/balena-etcher-electron-1.4.9-linux-x64.zip) \| [Linux 32bit](https://github.com/balena-io/etcher/releases/download/v1.4.9/balena-etcher-electron-1.4.9-linux-ia32.zip)|[balenaEtcher-1.4.9.dmg](https://github.com/balena-io/etcher/releases/download/v1.4.9/balenaEtcher-1.4.9.dmg)|[balenaEtcher-Setup-1.4.9-x86.exe](https://github.com/balena-io/etcher/releases/download/v1.4.9/balenaEtcher-Setup-1.4.9-x86.exe)|
+|Etcher- 用户友好型烧写工具|[Linux](https://etcher.balena.io/)|[balenaEtcher](https://etcher.balena.io/)|[balenaEtcher](https://etcher.balena.io/)|
 
 ## 官方镜像
 

@@ -26,7 +26,7 @@ import TabItem from '@theme/TabItem';
 
 #### 通过 Etcher 刷入操作系统镜像到 Micro SD 卡
 
-1. [下载](https://www.balena.io/etcher#download-etcher)刷写工具 `Etcher`。  
+1. [下载](https://etcher.balena.io/)刷写工具 `Etcher`。  
    ![ROCK5A via Etcher 01](/img/rock5a/rock5a-etcher.webp)
 
 2. 打开 Etcher，将准备的操作系统镜像刷写到 Micro SD 卡。在 Etcher 窗口中，单击 `Flash from file` 选择刚下载的操作系统镜像。  
@@ -69,7 +69,7 @@ import TabItem from '@theme/TabItem';
 ***注意：此教程仅适用于刷写可移动 eMMC 模块，板载 eMMC 需使用[线刷](rkdevtool)的方式。***
 ![Radxa eMMC](/img/accessories/emmc_related_01.webp)
 - 下载[对应产品](../productlist)的官方 Ubuntu / Debian 系统镜像。
-- [下载](https://www.balena.io/etcher#download-etcher)刷写工具 `Etcher` 。
+- [下载](https://etcher.balena.io/)刷写工具 `Etcher` 。
 ![ROCK5A via Etcher](/img/rock5a/rock5a-etcher.webp)
 
 ### 刷写镜像
@@ -112,9 +112,9 @@ import TabItem from '@theme/TabItem';
 
 ### 下载必要的工具和镜像
 
-Etcher 就是我们用来写镜像的工具。从[下载](https://www.balena.io/etcher#download-etcher)页面为您的 PC 下载合适的 Etcher 并安装它。
+Etcher 就是我们用来写镜像的工具。从[下载](https://etcher.balena.io/)页面为您的 PC 下载合适的 Etcher 并安装它。
 
-查看 [Etcher 网站](https://www.balena.io/etcher)以获取有关 Etcher 的更多信息。
+查看 [Etcher 网站](https://etcher.balena.io/)以获取有关 Etcher 的更多信息。
 
 下载您对应产品的镜像。
 

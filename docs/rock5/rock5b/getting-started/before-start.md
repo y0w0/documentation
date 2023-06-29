@@ -71,7 +71,7 @@ import TabItem from '@theme/TabItem';
 	<TabItem value="Etcher" label="Etcher 方式" default>
 - 该方法适用于 Windows、MacOS、Linux x64 操作系统
 
-1. 从 [balena 官网](https://www.balena.io/etcher/) 下载 balenaEtcher ，选择指定主机系统下载。该处Linux的程序格式是AppImage，某些用户可能需要通过chmod命令修改成***可执行***运行即可。
+1. 从 [balena 官网](https://etcher.balena.io/) 下载 balenaEtcher ，选择指定主机系统下载。该处Linux的程序格式是AppImage，某些用户可能需要通过chmod命令修改成***可执行***运行即可。
 
 2. 将要烧录的MicroSD Card插入MicroSD Card读卡器，或者eMMC 按照正确方式插入 eMMC 读卡器。 eMMC的正确插入方式请看:
 

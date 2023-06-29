@@ -28,9 +28,7 @@ linaro linaro
 
 ## 烧写工具
 
-|描述|Linux工具|MacOS工具|Windows工具|
-|-|-|-|-|
-|Etcher- 用户友好型烧写工具|[Linux](https://etcher.balena.io/)|[balenaEtcher](https://etcher.balena.io/)|[balenaEtcher](https://etcher.balena.io/)|
+[Etcher](https://etcher.balena.io/)- 用户友好型烧写工具。
 
 ## 官方镜像
 

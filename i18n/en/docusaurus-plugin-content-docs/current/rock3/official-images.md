@@ -10,9 +10,7 @@ Official ROCK 3 series system images can also be downloaded from:
 
 ## Tools
 
-|Description|Linux|MacOS|Windows|
-|-|-|-|-|
-|Etcher- A user friendly Image Writer|[Linux](https://etcher.balena.io/)|[balenaEtcher](https://etcher.balena.io/)|[balenaEtcher](https://etcher.balena.io/)|
+[Etcher](https://etcher.balena.io/)- A user friendly Image Writer.
 
 ## Official Images
 

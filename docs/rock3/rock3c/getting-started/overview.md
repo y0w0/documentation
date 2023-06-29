@@ -23,9 +23,9 @@ MIPI DSI，MIPI CSI，支持麦克风的 3.5 毫米音频插孔，USB 端口，�
 |显示输出|HDMI：最大分辨率 1920x1080@60<br/>*或*<br/>2-lane MIPI 显示|
 |音频|支持麦克风的 3.5 毫米音频接口<br/>支持最高 24 位 / 96 KHz  声音解码|
 |相机|支持 2-lane MIPI 相机，最高支持 8 百万像素的相机|
-|无线连接|板载 WiFi 蓝牙芯片支持 802.11ac WiFi 5/蓝牙 5.0|
+|无线连接|板载无线芯片，支持 Wi-Fi 5 (802.11ac) 及蓝牙 5.0|
 |USB|USB 3.0 接口 x1<br/>USB 2.0 接口 x2<br/>USB 2.0 OTG 接口 x1|
 |以太网|支持千兆以太网。可通过额外购买的 HAT 支持以太网供电（PoE）|
-|IO 接口|40 pin 扩展<br/>5 x UART<br/>1 x SPI 总线<br/>2 x I2C 总线<br/>6 x PWM<br/>1 x ADC<br/>6 x GPIO<br/>2 x 5V DC 输出<br/>2 x 3.3V DC 输出|
+|IO 接口|[40 pin GPIO](../hardware/rock3c-gpio)|
 |电源|支持 Type-C 5V 输入，在使用 SSD 时建议使用 5V/5A 电源输入，未使用 SSD 时建议使用5V3A电源输入|
 |主板尺寸|85mm x 56 mm|

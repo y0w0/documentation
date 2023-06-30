@@ -6,7 +6,7 @@ sidebar_position: 3
 # ROCK 3C 简介
 
 ROCK 3C 是一款基于 RK3566 SoC 开发的SBC。 
-搭载了四核 Cortex-A55 ARM 处理器，板载 32 位 3200Mb/s LPDDR4，支持 HDMI，
+搭载了四核 Cortex-A55 ARM 处理器，板载 32 位 3200Mb/s LPDDR4，支持 1920x1080@60 HDMI，
 MIPI DSI，MIPI CSI，支持麦克风的 3.5 毫米音频插孔，USB 端口，千兆以太网，PCIe 2.0，40 针 IO 扩展头。
 
 ![3C top view](/img/rock3/Rock3C-top-800px.webp)![3C bottom view](/img/rock3/Rock3C-bottom-800px.webp)  

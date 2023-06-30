@@ -5,7 +5,7 @@ sidebar_position: 3
 
 # ROCK 3C Overview
 
-ROCK 3C features a quad core Cortex-A55 ARM processor, 32bit 3200Mb/s LPDDR4, up to 4K@60 HDMI, MIPI DSI, MIPI CSI, 3.5mm jack with mic, USB Port, GbE LAN, PCIe 2.0, 40-pin color expansion header.
+ROCK 3C features a quad core Cortex-A55 ARM processor, 32bit 3200Mb/s LPDDR4, up to 1920x1080@60 HDMI, MIPI DSI, MIPI CSI, 3.5mm jack with mic, USB Port, GbE LAN, PCIe 2.0, 40-pin color expansion header.
 
 ## Close Look
 

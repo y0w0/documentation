@@ -58,5 +58,3 @@ sudo dpkg -i linuxqq_3.1.2-13107_arm64.deb
 ```bash
 qq
 ```
-
-

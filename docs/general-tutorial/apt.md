@@ -33,11 +33,11 @@ echo "deb http://apt.radxa.com/$DISTRO/ ${DISTRO%-*} main" | sudo tee -a /etc/ap
 
 ### 对于中国用户
 
-将http://apt.radxa.com 或者 apt.radxa.com 替换为 https://radxa-apt.aghost.cn使用。
+将 http://apt.radxa.com 替换为 https://radxa-apt.aghost.cn 或者 http://apt.chenjaly.cn 使用。
 
-radxa-apt.aghost.cn为个人对apt.radxa.com做的镜像站，仅有5mbps带宽，并且不对可用性以及更新及时性做任何保证，仅保证提供的包的内容与官方一致。
+radxa-apt.aghost.cn 与 http://apt.chenjaly.cn 为个人对 apt.radxa.com 做的镜像站，仅有5mbps带宽，并且不对可用性以及更新及时性做任何保证，仅保证提供的包的内容与官方一致。
 
-By aghost< ggg17226@gmail.com >
+By aghost< ggg17226@gmail.com > and chenjaly< 2540735020@qq.com >
 
 公匙
 

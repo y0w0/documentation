@@ -19,9 +19,9 @@ sidebar_position: 80
     sudo apt install libc++1 libc++abi1 libatomic1 libgconf-2-4 libnotify4 libnspr4 libnss3 libxss1 libxtst6 xdg-utils
 ```
 
-3. 从Discord网站下载最新的Linux版本（64位）。   
+3. 从 Discord 网站下载最新的 Linux 版本（64位）。   
 
-4. 打开一个终端，切换到下载的Discord安装包所在的目录：  
+4. 打开一个终端，切换到下载的 Discord 安装包所在的目录：  
 
 ```bash
     cd Downloads
@@ -39,14 +39,14 @@ sidebar_position: 80
     cd discord-*
 ```
 
-7. 运行Discord应用程序：  
+7. 运行 Discord 应用程序：  
 
 ```bash
     ./Discord
 ```
-如果你在运行Discord时遇到任何问题，你可以尝试重新启动系统并再次运行，或者检查你的依赖文件是否正确安装。
+如果你在运行 Discord 时遇到任何问题，你可以尝试重新启动系统并再次运行，或者检查你的依赖文件是否正确安装。
 ## Tencent QQ
-1. 下载安装包(下载链接可能会过期可前往[QQ官网](https://im.qq.com/linuxqq/index.shtml)下载)
+1. 下载安装包(下载链接可能会过期可前往[ QQ 官网](https://im.qq.com/linuxqq/index.shtml)下载)
 ```bash
 wget https://dldir1.qq.com/qqfile/qq/QQNT/ad5b5393/linuxqq_3.1.2-13107_arm64.deb
 ```

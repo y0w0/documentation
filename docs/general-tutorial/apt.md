@@ -7,22 +7,22 @@ sidebar_position: 20
 
 Radxa APT 是 Radxa 维护的 Debian 软件包库，提供 Radxa 维护的 ROCK 产品相关的软件包和 Rockchip 提供的二进制软件包。
 
-目前 Radxa APT 支持 Debian Stretch、Debian Buster 和 Ubuntu Bionic，每个发行版都有测试版和稳定版软件库，请选择以下其中一个。
+目前 Radxa APT 支持 Debian Bookworm、Debian Bullseye、Debian Buster、Ubuntu Jammy 和 Ubuntu Focal，每个发行版都有测试版和稳定版软件库，请选择以下其中一个。
 ```bash
-export DISTRO=bionic-stable
-export DISTRO=bionic-testing      # update more frequently but maybe unstable
+export DISTRO=bookworm
+export DISTRO=bookworm-test      # update more frequently but maybe unstable
 
-export DISTRO=focal-stable
-export DISTRO=focal-testing      # update more frequently but maybe unstable
+export DISTRO=bullseye
+export DISTRO=bullseye-test      # update more frequently but maybe unstable
 
-export DISTRO=stretch-stable
-export DISTRO=stretch-testing      # update more frequently but maybe unstable
+export DISTRO=buster
+export DISTRO=buster-test      # update more frequently but maybe unstable
 
-export DISTRO=buster-stable
-export DISTRO=buster-testing      # update more frequently but maybe unstable
+export DISTRO=jammy
+export DISTRO=jammy-test      # update more frequently but maybe unstable
 
-export DISTRO=bullseye-stable
-export DISTRO=bullseye-testing      # update more frequently but maybe unstable
+export DISTRO=focal
+export DISTRO=focal-test      # update more frequently but maybe unstable
 ```
 
 添加 Radxa APT

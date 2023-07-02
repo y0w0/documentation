@@ -28,21 +28,23 @@ export DISTRO=focal-test      # update more frequently but maybe unstable
 添加 Radxa APT
 
 ```bash
-echo "deb http://apt.radxa.com/$DISTRO/ ${DISTRO%-*} main" | sudo tee -a /etc/apt/sources.list.d/apt-radxa-com.list
+echo "deb [signed-by=/usr/share/keyrings/radxa-archive-keyring.gpg] https://radxa-repo.github.io/$DISTRO/ $DISTRO main" | sudo tee -a /etc/apt/sources.list.d/radxa.list
+echo "deb [signed-by=/usr/share/keyrings/radxa-archive-keyring.gpg] https://radxa-repo.github.io/$DISTRO/ rockchip-$DISTRO main" | sudo tee -a /etc/apt/sources.list.d/radxa-rockchip.list
 ```
 
 ### 对于中国用户
 
-将 http://apt.radxa.com 替换为 https://radxa-apt.aghost.cn 或者 http://apt.chenjaly.cn 使用。
+将 https://radxa-repo.github.io 替换为 https://radxa-apt.aghost.cn 或者 http://apt.chenjaly.cn 使用。
 
-radxa-apt.aghost.cn 与 http://apt.chenjaly.cn 为个人对 apt.radxa.com 做的镜像站，仅有 5mbps 带宽，并且不对可用性以及更新及时性做任何保证，仅保证提供的包的内容与官方一致。
+radxa-apt.aghost.cn 与 apt.chenjaly.cn 为个人对 apt.radxa.com 做的镜像站，仅有 5mbps 带宽，并且不对可用性以及更新及时性做任何保证，仅保证提供的包的内容与官方一致。
 
 By aghost< ggg17226@gmail.com > and chenjaly< 2540735020@qq.com >
 
 公匙
 
 ```bash
-wget -O - apt.radxa.com/$DISTRO/public.key | sudo apt-key add -
+wget https://radxa-repo.github.io/$DISTRO/pubkey.gpg
+sudo gpg -o /usr/share/keyrings/radxa-archive-keyring.gpg --dearmor ./pubkey.gpg
 ```
 
 更新

@@ -7,22 +7,22 @@ sidebar_position: 20
 
 Radxa APT is a Debian package repository maintained by Radxa,providing packages related to ROCK products maintained by Radxa and binary packages provided by Rockchip.
 
-Currently Radxa APT supports Debian Stretch,Debian Buster and Ubuntu Bionic,each distribution has beta and stable repositories,please choose one of the following.
+Currently Radxa APT supports Debian Bookworm,Debian Bullseye,Debian Buster,Ubuntu Jammy and Ubuntu Focal,each distribution has beta and stable repositories,please choose one of the following.
 ```bash
-export DISTRO=bionic-stable
-export DISTRO=bionic-testing      # update more frequently but maybe unstable
+export DISTRO=bookworm
+export DISTRO=bookworm-test      # update more frequently but maybe unstable
 
-export DISTRO=focal-stable
-export DISTRO=focal-testing      # update more frequently but maybe unstable
+export DISTRO=bullseye
+export DISTRO=bullseye-test      # update more frequently but maybe unstable
 
-export DISTRO=stretch-stable
-export DISTRO=stretch-testing      # update more frequently but maybe unstable
+export DISTRO=buster
+export DISTRO=buster-test      # update more frequently but maybe unstable
 
-export DISTRO=buster-stable
-export DISTRO=buster-testing      # update more frequently but maybe unstable
+export DISTRO=jammy
+export DISTRO=jammy-test      # update more frequently but maybe unstable
 
-export DISTRO=bullseye-stable
-export DISTRO=bullseye-testing      # update more frequently but maybe unstable
+export DISTRO=focal
+export DISTRO=focal-test      # update more frequently but maybe unstable
 ```
 
 Add Radxa APT

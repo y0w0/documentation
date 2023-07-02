@@ -28,21 +28,23 @@ export DISTRO=focal-test      # update more frequently but maybe unstable
 Add Radxa APT
 
 ```bash
-echo "deb http://apt.radxa.com/$DISTRO/ ${DISTRO%-*} main" | sudo tee -a /etc/apt/sources.list.d/apt-radxa-com.list
+echo "deb [signed-by=/usr/share/keyrings/radxa-archive-keyring.gpg] https://radxa-repo.github.io/$DISTRO/ $DISTRO main" | sudo tee -a /etc/apt/sources.list.d/radxa.list
+echo "deb [signed-by=/usr/share/keyrings/radxa-archive-keyring.gpg] https://radxa-repo.github.io/$DISTRO/ rockchip-$DISTRO main" | sudo tee -a /etc/apt/sources.list.d/radxa-rockchip.list
 ```
 
 ### For Chinese users
 
-Replace http://apt.radxa.com with https://radxa-apt.aghost.cn or http://apt.chenjaly.cn .
+Replace https://radxa-repo.github.io with https://radxa-apt.aghost.cn or http://apt.chenjaly.cn .
 
-radxa-apt.aghost.cn and http://apt.chenjaly.cn is a personal mirror site for apt.radxa.com,with only 5mbps bandwidth,and does not make any guarantees for availability and update timeliness,only guarantees that the content of the provided package is consistent with the official one.
+radxa-apt.aghost.cn and apt.chenjaly.cn is a personal mirror site for radxa-repo.github.io,with only 5mbps bandwidth,and does not make any guarantees for availability and update timeliness,only guarantees that the content of the provided package is consistent with the official one.
 
 By aghost< ggg17226@gmail.com > and chenjaly< 2540735020@qq.com >
 
 Public key
 
 ```bash
-wget -O - apt.radxa.com/$DISTRO/public.key | sudo apt-key add -
+wget https://radxa-repo.github.io/$DISTRO/pubkey.gpg
+sudo gpg -o /usr/share/keyrings/radxa-archive-keyring.gpg --dearmor ./pubkey.gpg
 ```
 
 Update

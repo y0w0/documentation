@@ -11,38 +11,40 @@ import TabItem from '@theme/TabItem';
 Radxa APT is a Debian package repository maintained by Radxa,providing packages related to ROCK products maintained by Radxa and binary packages provided by Rockchip.
 
 Currently Radxa APT supports Debian Bookworm,Debian Bullseye,Debian Buster,Ubuntu Jammy and Ubuntu Focal,each distribution has beta and stable repositories,please choose one of the following.
+```mdx-code-block
 <Tabs>
   <TabItem value="bookworm" label="bookworm" default>
-    ```bash
+```
     export DISTRO=bookworm
     export DISTRO=bookworm-test      # update more frequently but maybe unstable
-    ```
+```mdx-code-block
   </TabItem>
   <TabItem value="bullseye" label="bullseye">
-    ```bash
+```
     export DISTRO=bullseye
     export DISTRO=bullseye-test      # update more frequently but maybe unstable
-    ```
+```mdx-code-block
   </TabItem>
   <TabItem value="buster" label="buster">
-    ```bash
+```
     export DISTRO=buster
     export DISTRO=buster-test      # update more frequently but maybe unstable
-    ```
+```mdx-code-block
   </TabItem>
   <TabItem value="jammy" label="jammy">
-    ```bash
+```
     export DISTRO=jammy
     export DISTRO=jammy-test      # update more frequently but maybe unstable
-    ```
+```mdx-code-block
   </TabItem>
   <TabItem value="focal" label="focal">
-    ```bash
+```
     export DISTRO=focal
     export DISTRO=focal-test      # update more frequently but maybe unstable
-    ```
+```mdx-code-block
   </TabItem>
 </Tabs>
+```
 Add Radxa APT
 
 ```bash

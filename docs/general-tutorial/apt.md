@@ -2,8 +2,10 @@
 sidebar_label: '软件源'
 sidebar_position: 20
 ---
+
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+
 # Radxa APT
 
 Radxa APT 是 Radxa 维护的 Debian 软件包库，提供 Radxa 维护的 ROCK 产品相关的软件包和 Rockchip 提供的二进制软件包。

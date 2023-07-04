@@ -5,7 +5,9 @@ sidebar_position: 3
 
 # ROCK 3C Overview
 
-ROCK 3C features a quad core Cortex-A55 ARM processor, 32bit 3200Mb/s LPDDR4, up to 1920x1080@60 HDMI, MIPI DSI, MIPI CSI, 3.5mm jack with mic, USB Port, GbE LAN, PCIe 2.0, 40-pin color expansion header.
+The ROCK 3C is an SBC based on the RK3566 SoC. 
+Equipped with a Quad-Core Cortex-A55 ARM processor, 32-bit 3200Mb/s LPDDR4 on board, 1920x1080@60 HDMI support,
+MIPI DSI, MIPI CSI, 3.5mm audio jack with microphone support, USB port, Gigabit Ethernet, PCIe 2.0, 40-pin IO expansion header.
 
 ## Close Look
 

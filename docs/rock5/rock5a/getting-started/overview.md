@@ -31,7 +31,14 @@ ROCK 5A 支持包括固定电压和智能协议电压的各种电源技术：
 
 ## Maskrom 模式
 
+ROCK 5A 的 OTG 接口位于处于上方的 USB 3.0 接口，可通过 USB-A 转 USB-A 线连接主机和进入 Maskrom 的主板进行通信。  
 
+以下是 ROCK 5A 进入 Maskrom 模式的步骤：  
+1. 拔出电源线断电  
+2. 短接 Maskrom 引脚，其位于 HDMI 和耳机口中间，标号 23  
+![ROCK 5A Maskrom](/img/rock5a/rock5a-maskrom-connected.webp)  
+3. 插入电源线上电，如果电源绿灯常亮则成功进入 Maskrom 模式
+4. 通过 USB-A 转 USB-A 线连接主板的 OTG 口和主机的 USB 3.0 口即可实现通信
 
 ## ROCK 5A 使用eMMC教程  
 

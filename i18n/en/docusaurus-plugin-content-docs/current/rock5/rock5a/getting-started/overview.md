@@ -48,6 +48,16 @@ eMMC uses a B2B connector, just align it with the B2B connection connector of th
 
 ! [ROCK5A Using eMMC](/img/rock5a/rock5a-use-emmc.webp)
 
+## Maskrom mode
+
+The OTG connector of the ROCK 5A is located on the upper USB 3.0 connector and can be used to communicate with the host computer and the board in Maskrom via a USB-A to USB-A cable.  
+
+To enter Maskrom mode on the ROCK 5A, proceed as follows:  
+1. unplug the power cable and power off  
+2. Connect the Maskrom pin, which is located between the HDMI and headphone ports, marked 23  
+![ROCK 5A Maskrom](/img/rock5a/rock5a-maskrom-connected.webp)  
+3. Plug in the power cable and power up the board, if the green light is on, you have successfully entered Maskrom mode
+4. Connect the OTG port of the board and the USB 3.0 port of the host PC via the USB-A to USB-A cable for communication
 
 ## Operating Conditions
 

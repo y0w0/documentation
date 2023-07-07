@@ -5,8 +5,14 @@
   "sidebar.tutorialSidebar.category.通用教程": {
     "message": "General Tutorial"
   },
+  "sidebar.tutorialSidebar.category.通用教程.link.generated-index.description": {
+    "message": "Radxa products general tutorial."
+  },
   "sidebar.tutorialSidebar.category.ROCK 3 家族.link.generated-index.description": {
     "message": "ROCK 3 family compliance."
+  },
+  "sidebar.tutorialSidebar.category.ROCK 3 系列.link.generated-index.description": {
+    "message": "The ROCK 3 series are high-performance SBCs based on the RK3566, RK3568 and RK3568J SoCs."
   },
   "sidebar.tutorialSidebar.category.ROCK 3 系列": {
     "message": "ROCK 3 Family",
@@ -146,6 +152,9 @@
   "sidebar.tutorialSidebar.category.硬件信息": {
     "message": "Hardware"
   },
+  "sidebar.tutorialSidebar.category.硬件信息.link.generated-index.description": {
+    "message": "Hardware information search and download."
+  },
   "sidebar.tutorialSidebar.category.硬件资料.link.generated-index.description": {
     "message": "Retrieve hardware information here."
   },
@@ -173,7 +182,7 @@
   "sidebar.tutorialSidebar.category.系统配置.link.generated-index.description": {
     "message": "Radxa CM3 System Configuration"
   },
-    "sidebar.tutorialSidebar.category.底层开发教程": {
+  "sidebar.tutorialSidebar.category.底层开发教程": {
     "message": "Low-level Development Tutorial"
   },
   "sidebar.tutorialSidebar.category.底层开发教程.link.generated-index.description": {

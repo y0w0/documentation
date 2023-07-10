@@ -6,8 +6,8 @@ sidebar_position: 3
 
 # Radxa Display 8 HD使用教程
 
-![显示屏安装-01](/zh/img/rock5b/display-8hd-01.png)
-![显示屏安装-02](/zh/img/rock5b/display-8hd-02.png)
+![显示屏安装-01](/img/rock5b/rock5b-display-8hd-FPC.webp)  
+![显示屏安装-02](/img/rock5b/rock5b-display-8hd-connected.webp)  
 - 准备好Radxa Display 8HD 或者Radxa Display 10HD，通过FPC线接上ROCK5B。
 - 启动后，添加一行到文件/boot/config.txt末尾
 ```

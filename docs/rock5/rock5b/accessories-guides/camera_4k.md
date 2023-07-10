@@ -6,9 +6,9 @@ sidebar_position: 4
 
 # Radxa Camera 4K 使用教程
 
-![Camera-4K安装-01](/zh/img/rock5b/camera-01.png)
-![Camera-4K安装-02](/zh/img/rock5b/camera-02.png)
-![Camera-4K安装-03](/zh/img/rock5b/camera-03.png)
+![Camera-4K安装-01](/img/rock5b/rock5b-with-4k-camera-FPC.webp)  
+![Camera-4K安装-02](/img/rock5b/rock5b-4k-camera-connected.webp)  
+![Camera-4K安装-03](/img/rock5b/rock5b-4k-camera.webp)  
 - 准备好Radxa Camera 4K，通过FPC线接上ROCK5B。
 - 启动后，添加一行到文件/boot/config.txt末尾
 ```

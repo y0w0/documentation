@@ -5,9 +5,9 @@ sidebar_position: 4
 
 # Using Camera 4K on ROCK 5B
 
-![Camera-4K安装-01](/zh/img/rock5b/camera-01.png)
-![Camera-4K安装-02](/zh/img/rock5b/camera-02.png)
-![Camera-4K安装-03](/zh/img/rock5b/camera-03.png)
+![4K Camera Installation](/img/rock5b/rock5b-with-4k-camera-FPC.webp)  
+![4K Camera Installation](/img/rock5b/rock5b-4k-camera-connected.webp)  
+![4K Camera Installation](/img/rock5b/rock5b-4k-camera.webp)  
 - Prepare Radxa Camera 4K and connect to ROCK5B through FPC cable.
 - After startup, add the following command to the end of the file /boot/config.txt
 ```

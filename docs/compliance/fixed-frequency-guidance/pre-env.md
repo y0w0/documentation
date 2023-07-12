@@ -1,18 +1,21 @@
----
-sidebar_label: 'Fixed-frequency Guidance'
+﻿---
+sidebar_label: '定频指导'
 sidebar_position: 13
 ---
 
-When we do certification, if the product has an on-board wifibt module, we need to prepare the board with fixed frequency.
+# 简介  
 
-We have done some module certifications, such as AP6212 AP6256 CM256 ...
+当我们在做CE或者FCC认证的时候，如果产品有板载 WiFi/BT 模块，我们就需要固定频率。
 
-The following is an example of how to prepare a fixed frequency environment with ap6256.
+我们已经做过了一些模块的认证，如 AP6212 AP6256 CM256 等。
 
-# 1.Tools
-The [wl](https://dl.radxa.com/fix_freq_docs/wl) tool for wifi, the hcitool for bt.
+下面以 AP6256 为例说明如何准备固定频率环境。
 
-Prepare the wl tool, push it to the system by adb or scp, grant executable privileges, and put it under /usr/local/sbin.
+## 1.工具
+
+[ wl 工具](https://dl.radxa.com/fix_freq_docs/wl)是用于 WiFi 测试使用，需要下载并复制到系统里，使用系统自带的 hcitool 工具来测试 bt。
+
+准备好 wl 工具，通过 adb push 或 scp 将其推送到系统的 `/usr/local/sbin` 路径下并授予可执行权限。
 
 ```
 $ adb push wl /home/
@@ -22,8 +25,10 @@ $ chmod +x wl
 $ sudo cp /home/wl /usr/local/sbin
 ```
 
-# 2.Specific firmware 
-Download this firmware: [fw_bcm43456c5_ag_mfg.bin](https://dl.radxa.com/fix_freq_docs/ap6256/fw_bcm43456c5_ag_mfg.bin)
+## 2.特定固件 
+
+下载该固件：[fw_bcm43456c5_ag_mfg.bin](https://dl.radxa.com/fix_freq_docs/ap6256/fw_bcm43456c5_ag_mfg.bin)
+
 ```
 # Disable the brcmfmac driver by default
 echo "blacklist brcmfmac" >> /etc/modprobe.d/blacklist.conf
@@ -34,31 +39,37 @@ $ cd /lib/firmware/brcm
 $ cp fw_bcm43456c5_ag.bin fw_bcm43456c5_ag.bin.bkp
 $ cp fw_bcm43456c5_ag_mfg.bin fw_bcm43456c5_ag.bin
 $ reboot
-$ sudo wl ver                       #The word WLTEST appears in the version information, which means the wifi firmware is successfully replaced.
-$ sudo hcitool cmd 0x03 0x003       # No errors are reported, which means that bt is also OK.
+$ sudo wl ver                       # 出现 WLTEST 字样，说明 firmware 替换成功。
+$ sudo hcitool cmd 0x03 0x003       # 没有报错，说明 bt 环境正常
 ```
 
-# 3.Fixed frequency command
-Refer to the following documentation for testing.
+## 3.定频指令
+
+请参考以下文档进行测试。
 
 [Wi-Fi RF Test Commands for Linux-v05.pdf](https://dl.radxa.com/fix_freq_docs/Wi-Fi+RF+Test+Commands+for+Linux_BCM4339-v05.pdf)
 
 [BT+RF+Test+Commands+for+Linux-v07.pdf](https://dl.radxa.com/fix_freq_docs/BT+RF+Test+Commands+for+Linux-v07.pdf)
 
-# 4.Others
-Other modules are similar, just replace specific firmware.
+## 4.其他
+
+其他型号的模组准备过程和上述类似，需要替换成相对应的 firmware。
 
 AP6212: cp [fw_bcm43438a1_mfg.bin](https://dl.radxa.com/fix_freq_docs/ap6212/fw_bcm43438a1_mfg.bin) fw_bcm43438a1.bin
 
 CM256: cp [cyw43455-mfgtest-7.45.100.18.bin](https://dl.radxa.com/fix_freq_docs/cm256/cyw43455-mfgtest-7.45.100.18.bin) fw_cyw43455.bin
 
-# 5.Note
-When you test wifi, you need to turn off bt:
+## 5.注意事项
+
+测试WIFI时，需要关闭BT：
+
 ```
 ifconfig wlan0 up
 hciconfig hci0 down
 ```
-When you test bt, you need to turn off wifi:
+
+测试BT时，需要关闭WIFI：
+
 ```
 hciconfig hci0 up
 ifconfig wlan0 down

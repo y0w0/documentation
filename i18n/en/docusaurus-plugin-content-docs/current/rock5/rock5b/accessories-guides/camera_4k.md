@@ -5,43 +5,40 @@ sidebar_position: 4
 
 # Using Camera 4K on ROCK 5B
 
-![Camera-4K安装-01](/zh/img/rock5b/camera-01.png)
-![Camera-4K安装-02](/zh/img/rock5b/camera-02.png)
-![Camera-4K安装-03](/zh/img/rock5b/camera-03.png)
+![4K Camera Installation](/img/rock5b/rock5b-with-4k-camera-FPC.webp)  
+![4K Camera Installation](/img/rock5b/rock5b-4k-camera-connected.webp)  
+![4K Camera Installation](/img/rock5b/rock5b-4k-camera.webp)  
 - Prepare Radxa Camera 4K and connect to ROCK5B through FPC cable.
-- After startup, add the following command to the end of the file /boot/config.txt
-```
-dtoverlay=rock-5ab-camera-imx415
-```
-- Execute commands with root privileges, and then restart the device.
-```
-$ sudo su
-# update_extlinux.sh
-# reboot
+
+- Open the Kconsole terminal via the Application Launcher in the lower left corner and run the `rsetup` command:
+
+```bash
+radxa@rock-5b:~$ rsetup
 ```
 
-- After restarting the device, you will check /dev/video0 to /dev/video19.
-- Detection camera topology
-```
-media-ctl -p
-```
-- Enable rkaiq camera preview
+- Enable Overlay of the Radxa camera 4K via [Enable Device Tree Guidance](/radxa-os/rsetup/devicetree).
 
-- To execute the script, root privileges are required
-```
-$ sudo su
-# test_camera_rkaiq.sh
+:::caution [Caution]
+1. Please enable the `[] Enable Radxa Camera 4K` item Overlay.  
+2. Quit and reboot after `[*] Enable Radxa Camera 4K` is successfully displayed for the configuration to take effect.  
+:::
+
+## Test Radxa Camera 4K
+
+You can open the camera preview using the terminal command.
+
+```bash
+gst-launch-1.0 v4l2src device=/dev/video11 io-mode=4 ! videoconvert ! video/x-raw,format=NV12,width=1920,height=1080 ! xvimagesink;   
 ```
 
-- test_camera_rkaiq script code
+Take a picture using the following command.
+
+```bash
+gst-launch-1.0 v4l2src device=/dev/video11 io-mode=4 ! videoconvert ! video/x-raw,format=NV12,width=1920,height=1080 ! jpegenc ! multifilesink location=file.name.jpg;  
 ```
-# cat /usr/local/bin/test_camera_rkaiq.sh
-#!/bin/bash
 
-#export GST_DEBUG=*:5
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib/aarch64-linux-gnu/gstreamer-1.0
-echo "Start RKAIQ Camera Preview!"
+Use the following command to take a video.
 
-# Example: Radxa Camera 4K on ROCK 5B
-gst-launch-1.0 v4l2src device=/dev/video11 ! video/x-raw,format=NV12,width=3840,height=2160, framerate=30/1 ! xvimagesink
+```bash
+gst-launch-1.0 v4l2src num-buffers=512 device=/dev/video11 io-mode=4 ! videoconvert ! video/x-raw, format=NV12, width=1920, height=1080, framerate=30/1 ! tee name=t ! queue ! mpph264enc ! queue ! h264parse ! mpegtsmux ! filesink location=/home/radxa/file.name.mp4
 ```

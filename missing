@@ -1,0 +1,8 @@
+/en/docusaurus-plugin-content-docs/current/compute-module/cm3/alternative-os has no armbian.md
+/en/docusaurus-plugin-content-docs/current/compute-module/cm3/lowlevel-development has no bootloader.md, build-root.md, kernel.md, uboot.md
+/en/docusaurus-plugin-content-docs/current/compute-module/cm3/mp-deployment has no deployment.md
+/en/docusaurus-plugin-content-docs/current/rock3/application-development has no GPIO.md
+/docs/rock5/rock5a has no downloads/3rd-images.md from en
+/docs/rock5/rock5a/getting-started has no install-os.md from en
+/docs/rock5/rock5b/accessories-guides has no wifi_bt_access.md from en
+/docs/rock5/rock5b/getting-started has no sdcard-install.md, m2-install.md emmc-install.md from en

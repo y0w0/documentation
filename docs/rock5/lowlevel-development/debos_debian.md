@@ -11,7 +11,7 @@ sidebar_position: 70
 
 ### 获取源代码
 
-- 您需要 Git 获取多个 git 存储库来构建映像。
+- 您需要 Git 获取多个 git 存储库来构建镜像。
 ```bash
 sudo apt-get update
 sudo apt-get install git
@@ -132,7 +132,7 @@ cd ..
 ./build/mk-kernel.sh rk3588-rock-5b    #For ROCK 5B
 ```
 
-- 您将获得内核映像和 dtb 文件
+- 您将获得内核镜像和 dtb 文件
 ```bash
 ls out/kernel/
 Image  rk3588-rock-5b.dtb

@@ -15,8 +15,8 @@ To review this PR locally, please run the following commands:
 
 ```bash
 PR= # the current PR number
-git fetch origin pull/${PR}/head:${PR}
-git switch --detach ${PR}
+git fetch origin pull/${PR}/head
+git switch --detach FETCH_HEAD
 yarn start
 yarn start --locale en
 # If you want to start 2 locales side-by-side, use the following command on Linux:

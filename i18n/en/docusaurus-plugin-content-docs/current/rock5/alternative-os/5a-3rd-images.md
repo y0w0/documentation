@@ -1,28 +1,28 @@
 ﻿---
-sidebar_label: 'ROCK 5A Alternative OS'
+sidebar_label: 'ROCK 5A Third-party Image'
 sidebar_position: 30
 ---
 
-# Third Party Images
+# ROCK 5A Third-party Image
 
-In addition to the official image, many third party images support ROCK 5 series. 
-However, due to the relatively short release time of ROCK 5A, not many images are currently available. 
-More will be supported gradually in the future.  
-You can get those images on [ROCK 5 Download page](https://wiki.radxa.com/Rock5/downloads).  
+In addition to the official images, ROCK 5A also supports many third-party images.
 
-***Warning: Many of the third party images had not be tested by official team, 
-so they may have some issues, you can get some help from [Radxa Forum](https://forum.radxa.com/).***
+You can view and download them at [ROCK 5 series download page](https://wiki.radxa.com/Rock5/downloads).
 
-## Community Built Images
+:::caution
+Most of the third-party images have not been extensively tested, so some problems may occur during use.
 
-Except for the common image, the developers of [Radxa Community](https://forum.radxa.com/) adapte many operating systems for the ROCK 5 series. 
-They usually post adaptation tutorials on [Radxa Forum](https://forum.radxa.com/).  
-Organised information is available on [ROCK 5 Images Download](https://wiki.radxa.com/Rock5/downloads), 
-it may not be up to date with the latest [forum news](https://forum.radxa.com/).  
+You can report your issues at [Radxa Forum](https://forum.radxa.com/).
+:::
 
-You can also get those images on [ROCK 5 Download page](https://wiki.radxa.com/Rock5/downloads).  
+## Community compiled images
+
+In addition to the regular images, the developers from [Radxa Forum](https://forum.radxa.com/) have ported some unique images for the ROCK 5 series.
+
+The [ROCK 5 download screen](https://wiki.radxa.com/Rock5/downloads) already has information on the compiled images.
 
 ## Installation
 
-Usually, third party and official images are burned in the same way, 
-the installation instructions will also be provided on the [download page](https://wiki.radxa.com/Rock5/downloads). 
+Usually, third-party images are installed in the same way as official images. If there is a difference, it is specifically noted on the [Image download page](https://wiki.radxa.com/Rock5/downloads).
+
+The image download page usually gives a link to the installation instructions.

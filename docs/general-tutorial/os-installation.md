@@ -118,7 +118,7 @@ Etcher 就是我们用来写镜像的工具。从[下载](https://etcher.balena.
 
 下载您对应产品的镜像。
 
-###  将映像写入 M.2 NVME SSD
+###  将镜像写入 M.2 NVME SSD
 
 将 M.2 NVME SSD 插入 M.2 NVME SSD 转 USB 3.0 读卡器，连接主机。
 
@@ -136,7 +136,7 @@ Etcher 就是我们用来写镜像的工具。从[下载](https://etcher.balena.
 在 etcher 窗口中，会显示 `Flash Complete!`  
 ![rock-5b-etcher-04](/img/rock5a/rock5a-etcher-4.webp)
 
-完毕！现在您已成功在 M.2 NVME SSD 上安装操作系统映像。
+完毕！现在您已成功在 M.2 NVME SSD 上安装操作系统镜像。
 
 ## 在支持  NVMe SSD 的 SBC 上写入镜像
 

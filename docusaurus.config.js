@@ -11,7 +11,7 @@ const config = {
   url: 'https://docs.radxa.com',
   baseUrl: '/',
   trailingSlash: false,
-  onBrokenLinks: 'ignore',
+  onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
 

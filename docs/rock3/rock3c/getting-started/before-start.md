@@ -1,62 +1,62 @@
----
-sidebar_label: '��ʼǰ׼��'
+﻿---
+sidebar_label: '开始前准备'
 sidebar_position: 5
 ---
 
-# ׼������
+# 准备工作
 
-��ָ����Ϊ ROCK 3C ����ʹ���߱�д�����԰������˽� ROCK 3C ������׼�������á�
-�����õ�һ�� ROCK 3C ����ʱ����������Ҫ֪��ӡ�ڵ�·��������ͺź�Ӳ���汾��
-���ǽ������ܶ�ؽ��ܰ��ӵ���Ϣ��
+本指南是为 ROCK 3C 初级使用者编写，可以帮助您了解 ROCK 3C 基本的准备和设置。
+当您拿到一块 ROCK 3C 主板时，您首先需要知道印在电路板上面的型号和硬件版本。
+我们将尽可能多地介绍板子的信息。
 
-## ��Ҫ��
+## 必要项
 
-- ROCK 3C ����
+- ROCK 3C 主板
 
-- ���´洢����֮һ��  
-micro SD ������������8GB  
-[eMMC ģ��](/accessories/emmc_module)����������8GB  
+- 以下存储介质之一：  
+micro SD 卡，容量大于8GB  
+[eMMC 模块](/accessories/emmc_module)，容量大于8GB  
 
-- ��Դ��  
-ROCK 3C ���� Type-C �ӿڹ��磬��֧�� 5V ���롣��ʹ�ù�̬Ӳ��ʱ���������ʹ�� 5V/3A ��Դ��������ʹ�ù�̬Ӳ��ʱ������ʹ�� 5V/5A ��Դ�������� 
-**�ٷ��Ƽ�ʹ��[ Radxa Power PD30W](/accessories/pd_30w)��**
+- 电源：  
+ROCK 3C 采用 Type-C 接口供电，仅支持 5V 输入。不使用固态硬盘时，建议最低使用 5V/3A 电源适配器；使用固态硬盘时，建议使用 5V/5A 电源适配器。 
+**官方推荐使用[ Radxa Power PD30W](/accessories/pd_30w)。**
 
-- USB ����  
-ROCK 3C �� 4 �� USB-A �ӿڣ���˿��䱸ȫ�ߴ���̺���ꡣ
+- USB 键鼠  
+ROCK 3C 有 4 个 USB-A 接口，因此可配备全尺寸键盘和鼠标。
 
-- ��ʾ���� HDMI ��  
-ROCK 3C �䱸��ȫ�ߴ� HDMI �ӿڡ�����ʹ�þ��� HDMI ���ܵ���ʾ���� 
-HDMI EDID ��ʾ��������ȷ�������ʾ�ֱ��ʡ���֧�� 1080p���� 4K������ʾ���͵��ӻ��ϣ���ѡ��÷ֱ��ʡ������֧�� 1080p����ʹ�� EDID �������һ�����÷ֱ��ʡ���ѡ��ģʽ�����ڴ������ʾ��/���ӻ���������������ʾ��/���ӻ���
+- 显示器和 HDMI 线  
+ROCK 3C 配备了全尺寸 HDMI 接口。建议使用具有 HDMI 功能的显示器。 
+HDMI EDID 显示数据用于确定最佳显示分辨率。在支持 1080p（或 4K）的显示器和电视机上，将选择该分辨率。如果不支持 1080p，则将使用 EDID 报告的下一个可用分辨率。该选定模式适用于大多数显示器/电视机，但并非所有显示器/电视机。
 
-- Micro SD ��������  
-������ˢд�� micro SD ���ϡ�
+- Micro SD 卡读卡器  
+将镜像刷写到 micro SD 卡上。
 
-## ��ѡ��
+## 可选项
 
-- USB-A ת USB-A �ߣ�  
-���� fastboot/adb ����� maskrom ģʽͨ�š�
+- USB-A 转 USB-A 线：  
+用于 fastboot/adb 命令和 maskrom 模式通信。
 
-- USB ת TTL ������:  
-����[���ڵ���](/general-tutorial/serial)��
+- USB 转 TTL 串口线:  
+用于[串口调试](/general-tutorial/serial)。
 
-- ��̫����  
-ROCK 3C֧��ͨ��WIFI����̫�������� 
-��̫���������ڽ�ROCK 3���ӵ���������ͻ�������
+- 以太网线  
+ROCK 3C支持通过WIFI或以太网上网。 
+以太网电缆用于将ROCK 3连接到本地网络和互联网。
 
-- ����ͷ  
-ROCK 3C ֧������ͷ���ܡ�
+- 摄像头  
+ROCK 3C 支持摄像头功能。
 
-- LCD ��  
-ROCK 3C ֧��˫ͨ�� MIPI DSI ��ʾ���ܡ� 
-**�ٷ�����ʹ��[ Radxa Display 8 HD ](/accessories/lcd-8-hd)��[ Radxa Display 10 HD ](/accessories/lcd-10-hd)**��
+- LCD 屏  
+ROCK 3C 支持双通道 MIPI DSI 显示功能。 
+**官方建议使用[ Radxa Display 8 HD ](/accessories/lcd-8-hd)或[ Radxa Display 10 HD ](/accessories/lcd-10-hd)**。
 
-- ��Ƶ��  
-��ͨ�����������׼ 3.5 ���ײ�׵Ķ���������Ƶ��
+- 音频线  
+可通过扬声器或标准 3.5 毫米插孔的耳机播放音频。
 
-## ϵͳ��װ
+## 系统安装
 
-���ȣ�ѡ����Ҫʹ�õ�[�ٷ�����](/rock3/official-images)�����ء� 
+首先，选择您要使用的[官方镜像](/rock3/official-images)并下载。 
 
-Ȼ�󣬲ο�[����ϵͳ��װָ��](/general-tutorial/os-installation)������ˢд���洢�����С�
+然后，参考[操作系统安装指南](/general-tutorial/os-installation)将镜像刷写到存储介质中。
 
-��󣬽�ϵͳ�洢���ʣ�micro SD ���� eMMC ģ����������ϵĲ�ڣ���ͨ�� type-C ��Դ�������������� ROCK 3C��
+最后，将系统存储介质：micro SD 卡或 eMMC 模块插入主板上的插口，并通过 type-C 电源适配器供电启动 ROCK 3C。

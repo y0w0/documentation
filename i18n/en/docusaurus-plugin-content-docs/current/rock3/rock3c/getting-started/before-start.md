@@ -14,21 +14,23 @@ We will introduce the board information as much as possible.
 - ROCK 3C main board
 
 - One of the Storage media below:  
-micro SD, larger than 8GB  
-[eMMC module](/accessories/emmc_module), larger than 8GB
+microSD card, at least 8GB  
+[eMMC module](/accessories/emmc_module), at least 8GB
 
 - Power Supply:  
 The ROCK 3 is powered by Type-C port and support 5V input only. The suggested power adapter is 5V/3A when using without SSD, 5V/5A when using with SSD.  
-**The official recommendation is to use [Radxa Power PD30W](/accessories/pd_30w).**
+:::tip
+The official recommendation is to use [Radxa Power PD30W](/accessories/pd_30w).
+:::
 
 - USB Keyboard and Mouse  
 With four USB-A connectors, ROCK 3C can be equipped with a full sized keyboard and mouse. 
 
 - Monitor and HDMI Cable  
 ROCK 3C is equipped with a full sized HDMI connector. HDMI capable monitor is recommended.  
-HDMI EDID display data is used to determine the best display resolution. On monitors and TVs that support 1080p (or 4K) this resolution will be selected. If 1080p is not supported the next available resolution reported by EDID will be used. This selected mode will work with MOST but not all monitors/TVs. 
+And it supports up to 1080P resolution. 
 
-- Micro SD Card Reader  
+- microSD Card Reader  
 For flashing the image to the micro SD Card
 
 ## Optional
@@ -48,7 +50,9 @@ ROCK 3C supports camera function.
 
 - LCD Module  
 ROCK 3C supports 2-lanes MIPI DSI display function.  
-**The official recommendation is to use [Radxa Display 8 HD](/accessories/lcd-8-hd) or [Radxa Display 10 HD](/accessories/lcd-10-hd)**
+:::tip
+The official recommendation is to use [Radxa Display 8 HD](/accessories/lcd-8-hd) or [Radxa Display 10 HD](/accessories/lcd-10-hd)
+:::
 
 - Audio cable  
 Audio can be played through speaker or headphones using a standard 3.5mm jack.
@@ -59,4 +63,4 @@ First, choose the [official image](/rock3/official-images) that you want to flas
 
 Then, flash the image to the storage media by refering the [OS Installation guide](/general-tutorial/os-installation).
 
-Finally, insert the system storage media, uSD Card or eMMC Module into the socket on the board and power on ROCK 3C by adapter with type C port.
+Finally, insert the system storage media, microSD Card or eMMC Module into the socket on the board and power on ROCK 3C by adapter with Type-C port.

@@ -32,7 +32,7 @@ ROCK 4 官方操作系统镜像可从以下方式下载：
 
 |![Debian](/img/Debian-logo.webp)|![Ubuntu](/img/Ubuntu-logo.webp)|![Android](/img/Android-Logo.webp)|![Android TV](/img/Android-tv-logo.webp)|
 |-|-|-|-|
-|[Debian Desktop](https://github.com/radxa-build/rock-pi-4a-plus/releases))|[Ubuntu](https://github.com/radxa-build/rock-pi-4a-plus/releases)|[Android 7 (DSI 480P)](https://rock.sh/rockpi-android7-dsi-download)<br/>[Android 7 (HDMI 4K)](https://rock.sh/rockpi-android7-download)<br/>[Android 9 (HDMI 4K)](https://rock.sh/rockpi-android9-gpt-download)<br/>[Android 10 (HDMI 4K)](https://rock.sh/rockpi4b-android10-gpt-download)<br/>[Android 11 (HDMI 4K)](https://github.com/radxa/manifests/releases/tag/Rock-android11-20211115_1851)|[Android 7 TV(Deprecated)](https://rock.sh/rockpi-android7-tv-download)<br/>[Android 9 TV](https://rock.sh/rockpi-android9-tv-gpt-download)|
+|[Debian Desktop](https://github.com/radxa-build/rock-pi-4a-plus/releases)|[Ubuntu](https://github.com/radxa-build/rock-pi-4a-plus/releases)|[Android 7 (DSI 480P)](https://rock.sh/rockpi-android7-dsi-download)<br/>[Android 7 (HDMI 4K)](https://rock.sh/rockpi-android7-download)<br/>[Android 9 (HDMI 4K)](https://rock.sh/rockpi-android9-gpt-download)<br/>[Android 10 (HDMI 4K)](https://rock.sh/rockpi4b-android10-gpt-download)<br/>[Android 11 (HDMI 4K)](https://github.com/radxa/manifests/releases/tag/Rock-android11-20211115_1851)|[Android 7 TV(Deprecated)](https://rock.sh/rockpi-android7-tv-download)<br/>[Android 9 TV](https://rock.sh/rockpi-android9-tv-gpt-download)|
 
   </TabItem>
   <TabItem value="ROCK 4B+" label="ROCK 4B+">
@@ -46,7 +46,7 @@ ROCK 4 官方操作系统镜像可从以下方式下载：
 
 |![Debian](/img/Debian-logo.webp)|![Ubuntu](/img/Ubuntu-logo.webp)|![Android](/img/Android-Logo.webp)|![Android TV](/img/Android-tv-logo.webp)|
 |-|-|-|-|
-|[Debian 11 Desktop(Linux 5.10)](https://github.com/radxa-build/rock-pi-4a/releases)|[Ubuntu](https://github.com/radxa-build/rock-pi-4a/releases|[Android 7 (DSI 480P)](https://rock.sh/rockpi-android7-dsi-download)<br/>[Android 7 (HDMI 4K)](https://rock.sh/rockpi-android7-download)<br/>[Android 9 (HDMI 4K)](https://rock.sh/rockpi-android9-gpt-download)<br/>[Android 10 (HDMI 4K)](https://rock.sh/rockpi4b-android10-gpt-download)<br/>[Android 11 (HDMI 4K)](https://github.com/radxa/manifests/releases/tag/Rock-android11-20211115_1851)|[Android 7 TV(Deprecated)](https://rock.sh/rockpi-android7-tv-download)<br/>[Android 9 TV](https://rock.sh/rockpi-android9-tv-gpt-download)|
+|[Debian 11 Desktop(Linux 5.10)](https://github.com/radxa-build/rock-pi-4a/releases)|[Ubuntu](https://github.com/radxa-build/rock-pi-4a/releases)|[Android 7 (DSI 480P)](https://rock.sh/rockpi-android7-dsi-download)<br/>[Android 7 (HDMI 4K)](https://rock.sh/rockpi-android7-download)<br/>[Android 9 (HDMI 4K)](https://rock.sh/rockpi-android9-gpt-download)<br/>[Android 10 (HDMI 4K)](https://rock.sh/rockpi4b-android10-gpt-download)<br/>[Android 11 (HDMI 4K)](https://github.com/radxa/manifests/releases/tag/Rock-android11-20211115_1851)|[Android 7 TV(Deprecated)](https://rock.sh/rockpi-android7-tv-download)<br/>[Android 9 TV](https://rock.sh/rockpi-android9-tv-gpt-download)|
 
   </TabItem>
   <TabItem value="ROCK 4B" label="ROCK 4B">

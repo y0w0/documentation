@@ -1,9 +1,9 @@
----
-sidebar_label: 'ROCK 4SE GPIO ╢и╥х'
+я╗┐---
+sidebar_label: 'ROCK 4SE GPIO хоЪф╣Й'
 sidebar_position: 50
 ---
 
 
-# ROCK 4SE GPIO ╢и╥х
+# ROCK 4SE GPIO хоЪф╣Й
 
 Comming soon.

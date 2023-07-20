@@ -7,7 +7,6 @@ sidebar_position: 8
 
 ROCK 4 官方操作系统镜像可从以下方式下载：  
 
-- **[瑞莎百度云盘](http://rock.sh/rockpi-baidupan)**
 - **[ROCK 4 镜像发布网址](https://github.com/radxa/debos-radxa/releases/latest)** - 最新系统镜像。
 
 关于用户名和密码：  

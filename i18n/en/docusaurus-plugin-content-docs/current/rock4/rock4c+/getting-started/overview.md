@@ -13,6 +13,10 @@ two micro-HDMI, MIPI DSI, MIPI CSI, 3.5mm headphone jack, USB Port, GbE LAN, 40-
 
 ![4C+ close view](/img/rock4/rock4c+-closelook.webp)  
 
+:::note
+The board appearance may vary slightly depending on the hardware version.
+:::
+
 ## Features
 
 |Model|ROCK 4C Plus|
@@ -23,9 +27,10 @@ two micro-HDMI, MIPI DSI, MIPI CSI, 3.5mm headphone jack, USB Port, GbE LAN, 40-
 |Display|One Micro HDMI 2K up to 1440P@60<br/>One Micro HDMI 4K 2.0 up to 4k@60<br/>MIPI DSI 4 lanes via FPC connector<br/>Only two of HDMI 2k, HDMI 4K and MIPI DSI can work at the same time.|
 |Audio|	3.5mm jack HD codec that supports up to 24-bit/96KHz audio.|
 |Camera|MIPI CSI 2 lanes via FPC connector, support up to 800 MP camera (0.3mm pitch connector).|
-|Wireless|	802.11 ac wifi, BT 5.0,	with external antenna|
+|Wireless|802.11 ac wifi, BT 5.0, with external antenna|
 |USB|USB 3.0 OTG X1, upper one, software configurable to be host or OTG,<br/>USB 3.0 HOST X1, dedicated USB 3.0 channel, lower one<br/>USB 2.0 HOST X2|
 |Ethernet|GbE LAN with Power over Ethernet (PoE) support additional HAT is required for powering from PoE|
 |IO|[40 pin GPIO](../hardware/rock4c+-gpio)|
+|Other|RTC|
 |Power|USB type C 5V/3A.|
 |Size|85mm x 54mm|

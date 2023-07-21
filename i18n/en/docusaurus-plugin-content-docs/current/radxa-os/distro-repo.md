@@ -55,4 +55,5 @@ Every file listed in step 1 must be updated this way, otherwise the system is in
    If you also wish to update the system to the latest test version, you will also need to execute the following command:
    ```bash
    sudo apt full-upgrade --allow-downgrades
+   sudo apt full-upgrade --allow-downgrades # Run the 2nd time to upgrade version pinned packages
    ```

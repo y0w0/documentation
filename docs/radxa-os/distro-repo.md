@@ -55,4 +55,5 @@ RadxaOS 目前提供两种独立的软件源以满足开发需求。所有的软
    如果你同时希望将系统更新到最新测试版本的话，你还需要执行以下命令：
    ```bash
    sudo apt full-upgrade --allow-downgrades
+   sudo apt full-upgrade --allow-downgrades # 执行第二遍从而更新被版本锁定的软件包
    ```

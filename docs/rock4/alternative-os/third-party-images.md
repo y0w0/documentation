@@ -9,17 +9,17 @@ sidebar_position: 20
 
 ## 简介和下载链接
 
-|OS|下载链接|简介|
+|社区构建镜像|下载链接|简介|
 |:-:|----------------|-------|
 |[![Armbian](/img/third-party-images-pic/Armbian.webp)](https://www.armbian.com/rock-pi-4/)|[Armbian for ROCK 4 series](https://www.armbian.com/rock-pi-4/)|Community supported Armbian build<br/>[Getting started](https://docs.armbian.com/User-Guide_Getting-Started/) \|[Build from sources?](https://github.com/armbian/build)<br/>Bullseye minimal / Focal desktop|
-|[![Manjaro](/img/third-party-images-pic/Manjaro-Logo.webp)](https://manjaro.org)|[Manjaro (支持 4C 和 4B)](https://github.com/manjaro-arm?q=rock&type=all&language=&sort=)|Manjaro Product.[Install Wiki](https://www.manjaro.org/)<br/>Manjaro.|
+|[![Manjaro](/img/third-party-images-pic/Manjaro-Logo.webp)](https://manjaro.org)|[Manjaro for ROCK 4B](https://github.com/manjaro-arm/rockpi4b-images/releases)<br/>[Manjaro for ROCK 4C](https://github.com/manjaro-arm/rockpi4c-images/releases)|Manjaro Product.[Install Wiki](https://www.manjaro.org/)<br/>Manjaro.|
 |[![Recalbox](/img/third-party-images-pic/Recalbox-logo.webp)](https://github.com/mrfixit2001/recalbox-rockchip)|[Recalbox (Pre-Release of Recalbox v6 DragonBlaze)](https://github.com/mrfixit2001/recalbox-rockchip/releases/download/200607/recalbox-rockpi4-mrfixit-200607.img.xz)|Recalbox Product.<br/>[Install Wiki.](https://www.recalbox.com/diyrecalbox/)<br/>Recalbox Beta. [Release notes.](https://github.com/mrfixit2001/recalbox-rockchip/releases)|
 |[![Libreelec](/img/third-party-images-pic/Libreelec-logo.webp)](https://libreelec.tv/downloads/rockchip/)|[LibreELEC (Leia 9.2.1)](http://releases.libreelec.tv/LibreELEC-RK3399.arm-9.2.1-rock-pi-4.img.gz)|LibreELEC Product. [Install Wiki.](https://libreelec.wiki/)|
 |[![Dietpi](/img/third-party-images-pic/dietpi-logo.webp)](https://dietpi.com)|[DietPi](https://dietpi.com/downloads/images/DietPi_ROCKPi4-ARMv8-Bullseye.7z)|DietPi Product. [Getting started](https://dietpi.com/docs/) \| [Install Wiki](https://dietpi.com/docs/install/) \| [DietPi Release notes](https://dietpi.com/docs/releases/)<br/>The actual DietPi is based on Debian Bullseye|
 |[![Slarm64](/img/third-party-images-pic/Slarm64-logo.webp)](http://dl.slarm64.org)|[Slarm64 Core (unofficial slackware)](https://dl.slarm64.org/slackware/images/rock_pi_4/slarm64-current-aarch64-core-rock_pi_4-6.1.12-build-20230219.img.zst)<br/>[Slarm64 Server (unofficial slackware)](https://dl.slarm64.org/slackware/images/rock_pi_4/slarm64-current-aarch64-server-rock_pi_4-6.1.12-build-20230219.img.zst)<br/>[Slarm64 Enlightenment (unofficial slackware)](https://dl.slarm64.org/slackware/images/rock_pi_4/slarm64-current-aarch64-enlightenment-rock_pi_4-5.14.6-build-20210919.img.zst)<br/>[Slarm64 XFCE (unofficial slackware)](https://dl.slarm64.org/slackware/images/rock_pi_4/slarm64-current-aarch64-xfce-rock_pi_4-6.1.12-build-20230219.img.zst)|Build 2023-02-19.<br/>[README.TXT](http://dl.slarm64.org/slackware/images/rock_pi_4/README.TXT)<br/>[Forum discussion](https://forum.radxa.com/t/slarm64-aarch64-unofficial-slackware/419/4)|
 |[![Emteria](/img/third-party-images-pic/Emteria-logo.webp)](https://about.emteria.com/knowledgebase/how-to-flash-the-rockpi-4b)|[emteria.OS](https://emteria.com/blog/rockpi-4b)(based on Android)|[Installation Wiki](https://about.emteria.com/knowledgebase/how-to-flash-the-rockpi-4b/).|
 
-|个人构建镜像|下载|简介或其他说明|
+|个人构建镜像|下载链接|简介|
 |-|-|-|
 |[![Freebsd](/img/third-party-images-pic/Freebsd-Logo.webp)](https://www.freebsd.org/platforms/arm.html)|[FreeBSD 13.0-RELEASE](https://personalbsd.org/?page_id=2)|[Forum Discussion Thread](https://forum.radxa.com/t/freebsd-13-current-on-rock-pi4/2071/4)|
 |[![OPNsense](/img/third-party-images-pic/OPNsense-Logo.webp)](https://opnsense.org/)|[OPNsense 21.1](https://personalbsd.org/?page_id=2)|[Forum Discussion Thread](https://forum.radxa.com/t/opnsense-for-rock-pi-e-rock-pi-4/4104)|

@@ -26,26 +26,49 @@ RadxaOS 目前提供两种独立的软件源以满足开发需求。所有的软
 
 然而，在某些情况下（如测试系统升级），开发者有切换到测试源的需求。以下为操作方法：
 
-1. 定位配置文件  
+1. 编辑软件源地址  
    瑞莎软件源配置文件存放在 `/etc/apt/sources.list.d/` 内，文件名均包含 `radxa` 前缀。  
-   你可以使用以下命令查找配置文件：
+   使用你常用的编辑器打开上述所列的**所有文件**。以 nano 为例：
    ```bash
-   ls /etc/apt/sources.list.d/radxa*.list
+   sudo nano /etc/apt/sources.list.d/radxa*.list
    ```
-
-2. 编辑软件源地址  
-   使用你常用的编辑器打开上述所列的**所有文件**，你会看到类似如下的文件内容：
-   ```bash
+   你会看到类似如下的文件内容：
+   ```
    deb [signed-by=/usr/share/keyrings/radxa-archive-keyring.gpg] https://radxa-repo.github.io/bookworm bookworm main
    ```
    你需要将其中每一行的第二、第三项加入 `-test` 后缀：
-   ```bash
+   ```
    deb [signed-by=/usr/share/keyrings/radxa-archive-keyring.gpg] https://radxa-repo.github.io/bookworm-test bookworm-test main
    ```
 
 :::caution
-必须将第一步中列出的所有文件进行更改，否则系统会处于非正常状态！
+必须将第一步中打开的所有文件进行更改，否则系统会处于非正常状态！
 :::
+
+2. 更新软件源优先级
+   瑞莎软件源首选项文件存放在 `/etc/apt/preferences.d/` 内，文件名均包含 `radxa-` 前缀。  
+
+:::caution
+软件源和软件包的首选项文件均存放在这一路径下。  
+由于有的软件包也包含 `radxa-` 前缀，修改前需要仔细核对文件内容。
+:::
+
+   使用你常用的编辑器编辑以下文件。以 nano 为例：
+   ```bash
+   sudo nano /etc/apt/preferences.d/radxa-*
+   ```
+   你会看到类似如下的文件内容：
+   ```
+   Package: *
+   Pin: release a=rockchip-bookworm
+   Pin-Priority: 1001
+   ```
+   你需要将 `Pin` 里面所描述的 Codename 加入 `-test` 后缀：
+   ```
+   Package: *
+   Pin: release a=rockchip-bookworm-test
+   Pin-Priority: 1001
+   ```
 
 3. 更新系统  
    配置完软件源后需要重新更新本地软件缓存：
@@ -56,4 +79,5 @@ RadxaOS 目前提供两种独立的软件源以满足开发需求。所有的软
    ```bash
    sudo apt full-upgrade --allow-downgrades
    sudo apt full-upgrade --allow-downgrades # 执行第二遍从而更新被版本锁定的软件包
+   sudo apt autoremove # 可选，移除不再使用的软件包
    ```

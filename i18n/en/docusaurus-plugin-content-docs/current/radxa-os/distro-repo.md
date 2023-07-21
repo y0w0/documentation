@@ -26,15 +26,13 @@ Generally speaking, the software in the test repositories has not been tested in
 
 However, in some cases (e.g. test system upgrades), developers may need to switch to the test repository. Here's how to do it:
 
-1. Locate configuration files  
+1. Edit the repository  
    The Radxa repository configuration files are stored in `/etc/apt/sources.list.d/`, and the filenames are prefixed with `radxa`.  
-   You can find the configuration files using the following command:
+   Open **all the files listed above** using your preferred editor. For example, with nano:
    ```bash
-   ls /etc/apt/sources.list.d/radxa*.list
+   sudo nano /etc/apt/sources.list.d/radxa*.list
    ```
-
-2. Edit the repository  
-   Open **all the files listed above** using your preferred editor, and you will see file contents similar to the following:
+   You will see file contents similar to the following:
    ```bash
    deb [signed-by=/usr/share/keyrings/radxa-archive-keyring.gpg] https://radxa-repo.github.io/bookworm bookworm main
    ```
@@ -47,6 +45,31 @@ However, in some cases (e.g. test system upgrades), developers may need to switc
 Every file listed in step 1 must be updated this way, otherwise the system is in an abnormal state!
 :::
 
+2. Update repository priority
+   The Radxa repository preference files are stored in `/etc/apt/preferences.d/` 内, and the filenames are prefixed with `radxa`.  
+
+:::caution
+Both repository preference and package preference are stored under the same path.  
+Since there are packages with `radxa` prefix, please check the content of the file carefully befoe editing.
+:::
+
+   Open **all the files listed above** using your preferred editor. For example, with nano:
+   ```bash
+   sudo nano /etc/apt/preferences.d/radxa-*
+   ```
+   You will see file contents similar to the following:
+   ```
+   Package: *
+   Pin: release a=rockchip-bookworm
+   Pin-Priority: 1001
+   ```
+   You need to add the `-test` suffix to the codename mentioned in the `Pin` line:
+   ```
+   Package: *
+   Pin: release a=rockchip-bookworm-test
+   Pin-Priority: 1001
+   ```
+
 3. Update the system  
    After configuring the repositories you need to update the local software cache again:
    ```bash
@@ -56,4 +79,5 @@ Every file listed in step 1 must be updated this way, otherwise the system is in
    ```bash
    sudo apt full-upgrade --allow-downgrades
    sudo apt full-upgrade --allow-downgrades # Run the 2nd time to upgrade version pinned packages
+   sudo apt autoremove # Optionally, remove no longer needed packages
    ```

@@ -41,7 +41,7 @@ sudo wl ver                 # The word WLTEST appears, indicating that the firmw
 sudo hcitool cmd 0x03 0x003 # No error, means Bluetooth is working.
 ```
 
-</TabItem
+</TabItem>
 
 <TabItem value="ap6212" label="AP6212">
 
@@ -53,7 +53,7 @@ sudo wl ver                 # The word WLTEST appears, indicating that the firmw
 sudo hcitool cmd 0x03 0x003 # No error, means Bluetooth is working.
 ```
 
-</TabItem
+</TabItem>
 
 <TabItem value="cm256" label="AW-CM256SM">
 
@@ -65,7 +65,7 @@ sudo wl ver                 # The word WLTEST appears, indicating that the firmw
 sudo hcitool cmd 0x03 0x003 # No error, means Bluetooth is working.
 ```
 
-</TabItem>
+</TabItem>>
 </Tabs>
 
 ## Continue to complete the test

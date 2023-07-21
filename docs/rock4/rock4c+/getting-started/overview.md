@@ -23,9 +23,9 @@ ROCK 4C+ 是一款基于 RK3399-T SoC 的 SBC。
 |运行内存|LPDDR4 内存，可选 1GB/2GB/4GB|
 |存储|eMMC<br/>microSD 卡：最高支持 256 GB|
 |显示|一个最高支持 1440P@60 的 Micro HDMI 接口<br/>一个最高支持 4K@60 的 Micro HDMI 接口<br/>通过 FPC 连接的 4-lane MIPI DSI<br/>HDMI 2K、HDMI 4K 和 MIPI DSI 中只有两种可以同时工作|
-|音频|3.5 毫米插孔，高清编解码器最高支持 24 位/96KHz 音频。|
-|相机|通过 FPC 连接的双通道 MIPI CSI，支持高达 800 万像素摄像头（0.3mm 间距连接器）。|
-|无线连接|802.11 ac wifi，蓝牙 5.0，带外置天线。|
+|音频|3.5 毫米插孔，高清编解码器最高支持 24 位/96KHz 音频|
+|相机|通过 FPC 连接的双通道 MIPI CSI，支持高达 800 万像素摄像头（0.3mm 间距连接器）|
+|无线连接|Wi-Fi 5，蓝牙 5.0，带外置天线|
 |USB|USB 3.0 OTG X1，位于上方的 USB 3.0 插口，可通过软件配置为 Host 或 Peripheral<br/>USB 3.0 X1<br/>USB 2.0 X2|
 |以太网|千兆以太网<br/>可通过额外选购的 HAT 支持以太网供电（PoE）|
 |其他|RTC|

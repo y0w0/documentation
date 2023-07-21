@@ -8,7 +8,7 @@ sidebar_position: 3
 ROCK 4 SE 是一款超小型单板计算机 (SBC)，具有优秀的性能和丰富的扩展端口。
 ROCK 4 SE 为专业人士、工业 OEM、物联网发烧友、业余爱好者、PC DIY 发烧友和制造商提供了一个可靠且功能极强的平台，用于构建和运行各种应用。
 
-[ROCK 4SE](/img/rock4/rock4se-closelook.webp)
+![ROCK 4SE](/img/rock4/rock4se-closelook.webp)
 
 :::note
 主板外观可能因为硬件版本不同而有细微的差别。

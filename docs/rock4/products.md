@@ -17,7 +17,7 @@ ROCK 4 系列于 2018 年首次推出 ROCK 4A 和 ROCK 4B，后续还增加了�
 
 | ROCK 4C+ - 2022 | 简介 | 详情 |
 |---|---|---|
-|![ROCK 4C Plus](/img/rock4/4c+.webp)]|ROCK 4C+ 采用 RK3399-T（1.5GHz 双核 Cortex-A72 + 1Ghz 四核 Cortex-A53 ARM 处理器）、64 位 LPDDR4、两个 micro-HDMI、MIPI DSI、MIPI CSI、3.5mm 耳机插孔、USB 端口、GbE LAN、40 pin GPIO 扩展和 RTC。 | [ROCK 4C+ 详情。](/rock4/rock4c+) |
+|![ROCK 4C Plus](/img/rock4/4c+.webp)|ROCK 4C+ 采用 RK3399-T（1.5GHz 双核 Cortex-A72 + 1Ghz 四核 Cortex-A53 ARM 处理器）、64 位 LPDDR4、两个 micro-HDMI、MIPI DSI、MIPI CSI、3.5mm 耳机插孔、USB 端口、GbE LAN、40 pin GPIO 扩展和 RTC。 | [ROCK 4C+ 详情。](/rock4/rock4c+) |
 
 | ROCK 4A/B + - 2021 | 简介 | 详情 |
 |---|---|---|

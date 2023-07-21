@@ -12,7 +12,7 @@ reliable and extremely capable platform for building and tinkering their ideas i
 
 ## Close Look
 
-[ROCK 4SE](/img/rock4/rock4se-closelook.webp)
+![ROCK 4SE](/img/rock4/rock4se-closelook.webp)
 
 ## Features
 

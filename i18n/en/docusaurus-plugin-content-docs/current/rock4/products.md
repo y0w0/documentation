@@ -22,7 +22,7 @@ B, more models are added during the time:
 
 |ROCK 4C Plus - 2022|Description|Particulars|
 |---|---|---|
-|![ROCK 4C Plus](/img/rock4/4c+.webp)]|ROCK 4C Plus is powered by the RK3399-T with 1.5GHz dual core Cortex-A72 + 1Ghz quad core Cortex-A53 ARM processor, 64bit LPDDR4, two micro-HDMI, MIPI DSI, MIPI CSI, 3.5mm headphone jack, USB Port, GbE LAN, 40-pin color expansion header, RTC. |particulars link|
+|![ROCK 4C Plus](/img/rock4/4c+.webp)|ROCK 4C Plus is powered by the RK3399-T with 1.5GHz dual core Cortex-A72 + 1Ghz quad core Cortex-A53 ARM processor, 64bit LPDDR4, two micro-HDMI, MIPI DSI, MIPI CSI, 3.5mm headphone jack, USB Port, GbE LAN, 40-pin color expansion header, RTC. |particulars link|
 
 |ROCK 4A/B Plus - 2021|Description|Particulars|
 |---|---|---|

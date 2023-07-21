@@ -14,7 +14,7 @@ CE / FCC certification requires that the device's wireless signal operates at a 
 
 Please execute the following commands on the device to be certified:
 
-```bash.
+```bash
 # Disable the default brcmfmac driver.
 echo "blacklist brcmfmac" >> /etc/modprobe.d/blacklist.conf
 # Download the wl utility
@@ -87,7 +87,7 @@ sudo rfkill unblock wlan
 
 Wi-Fi needs to be turned off when testing Bluetooth:
 
-``bash
+```bash
 sudo rfkill block wlan
 sudo rfkill unblock bluetooth
-``
+```

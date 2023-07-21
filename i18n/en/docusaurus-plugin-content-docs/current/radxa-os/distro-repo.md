@@ -34,15 +34,18 @@ However, in some cases (e.g. test system upgrades), developers may need to switc
    ```
 
 2. Edit the repository  
-   Open all the files listed above using your preferred editor, and you will see file contents similar to the following:
+   Open **all the files listed above** using your preferred editor, and you will see file contents similar to the following:
    ```bash
-   $ cat /etc/apt/sources.list.d/radxa.list
    deb [signed-by=/usr/share/keyrings/radxa-archive-keyring.gpg] https://radxa-repo.github.io/bookworm bookworm main
    ```
    You need to add the `-test` suffix to the second and third items of each of these lines:
    ```bash
    deb [signed-by=/usr/share/keyrings/radxa-archive-keyring.gpg] https://radxa-repo.github.io/bookworm-test bookworm-test main
    ```
+
+:::caution
+Every file listed in step 1 must be updated this way, otherwise the system is in an abnormal state!
+:::
 
 3. Update the system  
    After configuring the repositories you need to update the local software cache again:

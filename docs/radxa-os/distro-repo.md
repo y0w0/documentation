@@ -34,15 +34,18 @@ RadxaOS 目前提供两种独立的软件源以满足开发需求。所有的软
    ```
 
 2. 编辑软件源地址  
-   使用你常用的编辑器打开上述所列的所有文件，你会看到类似如下的文件内容：
+   使用你常用的编辑器打开上述所列的**所有文件**，你会看到类似如下的文件内容：
    ```bash
-   $ cat /etc/apt/sources.list.d/radxa.list
    deb [signed-by=/usr/share/keyrings/radxa-archive-keyring.gpg] https://radxa-repo.github.io/bookworm bookworm main
    ```
    你需要将其中每一行的第二、第三项加入 `-test` 后缀：
    ```bash
    deb [signed-by=/usr/share/keyrings/radxa-archive-keyring.gpg] https://radxa-repo.github.io/bookworm-test bookworm-test main
    ```
+
+:::caution
+必须将第一步中列出的所有文件进行更改，否则系统会处于非正常状态！
+:::
 
 3. 更新系统  
    配置完软件源后需要重新更新本地软件缓存：

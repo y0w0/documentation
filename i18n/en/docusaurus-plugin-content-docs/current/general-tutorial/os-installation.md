@@ -7,6 +7,32 @@ sidebar_position: 17
 
 This tutorial applies to the official images of all Radxa products as well as some third party images. There are currently three available system installation options: Micro SD card, eMMC and SSD.
 
+For usernames and passwords:  
+The below also applies to Ubuntu Server.
+
+The default user of Radxa official images are: rock and radxa, the user and password are the following:  
+
+```
+user password
+rock    rock
+radxa    radxa
+```
+
+There are two users default in Lubuntu:root and rock. the user and password as bellow:
+
+```
+user password
+rock    rock
+root    root
+```
+
+If the image is built by yourself, the default user is linaro:
+
+```
+user password
+linaro linaro
+```
+
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';

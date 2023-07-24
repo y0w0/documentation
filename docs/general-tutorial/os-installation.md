@@ -7,6 +7,33 @@ sidebar_position: 17
 
 本教程适用于瑞莎所有产品的官方镜像以及部分第三方镜像的烧录安装，目前可用的系统安装途径共有 Micro SD 卡、eMMC、SSD 三种。
 
+关于用户名和密码：  
+以下内容同样适用于 Ubuntu 服务端。  
+
+官方镜像的默认用户通常为：rock 和 radxa，用户名和密码如下：  
+
+```
+user password
+rock    rock
+radxa    radxa
+```
+
+Lubuntu 默认有两个用户：root 和 rock，用户名和密码如下：
+
+```
+user password
+rock    rock
+root    root
+```
+
+如果镜像是自己创建的，默认用户为 linaro：
+
+```
+user password
+linaro linaro
+```
+
+
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 

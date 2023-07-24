@@ -108,7 +108,7 @@ When inserting the eMMC module into the Radxa eMMC reader, align port A1 with po
 
 
   </TabItem>
-  <TabItem value="NVMe_SSD"" label="NVMe SSD"">
+  <TabItem value="NVMe_SSD" label="NVMe SSD">
 
 ## Flash image using an NVMe to USB 3.0 reader or a PC host with an NVMe slot
 

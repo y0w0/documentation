@@ -61,6 +61,7 @@ import TabItem from '@theme/TabItem';
 4. 完成上述操作后，单击 `Write` 按钮开始刷写镜像，然后等待写入镜像完成。  
 ![ROCK5A via Win32DiskImager 04](/img/rock5a/rock5a-win32-3.webp)
 
+
    </TabItem>
    <TabItem value="eMMC" label="eMMC">
 

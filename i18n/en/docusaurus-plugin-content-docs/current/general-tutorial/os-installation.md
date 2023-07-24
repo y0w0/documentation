@@ -33,7 +33,6 @@ user password
 linaro linaro
 ```
 
-
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
@@ -92,7 +91,11 @@ import TabItem from '@theme/TabItem';
 ### Preparations
 
 - Prepare an eMMC module and a [Radxa eMMC reader](../accessories/emmc_reader).  
-***Note: This tutorial is only applicable to write removable eMMC modules, onboard eMMCs need to be flashed using [rkdevtool](rkdevtool).***
+
+:::caution Notice
+This tutorial is only applicable to write removable eMMC modules, onboard eMMCs need to be flashed using [rkdevtool](rkdevtool).
+:::
+
 ![Radxa eMMC](/img/accessories/emmc_related_01.webp)
 - Download the [corresponding product](../productlist) for the official Ubuntu / Debian system image.
 - [Download](https://etcher.balena.io/) flash tool `Etcher`.  
@@ -100,11 +103,14 @@ import TabItem from '@theme/TabItem';
 
 ### Flash image
 
-1. Insert the eMMC module into the Radxa eMMC USB card reader and then plug the Radxa eMMC USB card reader into the USB port of your computer.  
-    **Note: When inserting the eMMC module into the Radxa eMMC reader, align port A1 with port A2, then insert port B1 into port B2**
-    
-    ![ROCK5A eMMC Install 01](/img/accessories/emmc-install1.webp)
-    ![ROCK5A eMMC Install 02](/img/accessories/emmc-install2.webp)
+1. Insert the eMMC module into the Radxa eMMC USB card reader and then plug the Radxa eMMC USB card reader into the USB port of your computer. 
+
+:::caution Notice
+When inserting the eMMC module into the Radxa eMMC reader, align port A1 with port A2, then insert port B1 into port B2.
+:::
+
+![ROCK5A eMMC Install 01](/img/accessories/emmc-install1.webp)
+![ROCK5A eMMC Install 02](/img/accessories/emmc-install2.webp)
 
 - Open the Etcher and flash the prepared OS image to the eMMC module. In the Etcher window, click `Flash from file` to select the OS image you have just downloaded.
     
@@ -123,9 +129,8 @@ import TabItem from '@theme/TabItem';
     ![ROCK5A eMMC via Etcher 04](/img/rock5a/rock5a-etcher-4.webp)
 
 
- </TabItem>
-
- <TabItem value="NVME-SSD" label="NVME SSD">
+  </TabItem>
+  <TabItem value="NVME-SSD" label="NVME SSD">
 
 ## Flash image using an NVME to USB 3.0 reader or a PC host with an NVME slot
 
@@ -206,7 +211,5 @@ it is recommended that you erase the M.2 NVMe SSD before re-burning and then wri
 After writing the image to the NVMe SSD, to boot from the NVMe SSD you need to write the bootloader to the SPI Flash. 
 For more informations, please check [Installing the bootloader to SPI Flash](rkdevtool) for details
 
-
   </TabItem>
-
 </Tabs>

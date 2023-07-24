@@ -3,6 +3,9 @@ sidebar_label: '系统安装教程'
 sidebar_position: 17
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # 操作系统安装教程
 
 本教程适用于瑞莎所有产品的官方镜像以及部分第三方镜像的烧录安装，目前可用的系统安装途径共有 Micro SD 卡、eMMC、SSD 三种。
@@ -33,12 +36,8 @@ user password
 linaro linaro
 ```
 
-
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-
 <Tabs>
-  <TabItem value="micro-SD" label="micro SD" default>
+  <TabItem value="micro SD" label="micro SD" default>
 
 ## 安装镜像到 Micro SD Card
 
@@ -82,30 +81,37 @@ import TabItem from '@theme/TabItem';
    ![ROCK5A via Win32DiskImager 03](/img/rock5a/rock5a-win32-2.webp)   
 
 4. 完成上述操作后，单击 `Write` 按钮开始刷写镜像，然后等待写入镜像完成。  
-   ![ROCK5A via Win32DiskImager 04](/img/rock5a/rock5a-win32-3.webp) 
+![ROCK5A via Win32DiskImager 04](/img/rock5a/rock5a-win32-3.webp)   
 
 
-  </TabItem>
-  <TabItem value="eMMC" label="eMMC">
+   </TabItem>
+   <TabItem value="eMMC" label="eMMC">
 
 ## 安装镜像到 eMMC 模块
 
 ### 准备
 
 - 准备一个 eMMC 模块和一个[Radxa eMMC读卡器](../accessories/emmc_reader)。  
-***注意：此教程仅适用于刷写可移动 eMMC 模块，板载 eMMC 需使用[线刷](rkdevtool)的方式。***
-![Radxa eMMC](/img/accessories/emmc_related_01.webp)
+
+:::caution 注意
+此教程仅适用于刷写可移动 eMMC 模块，板载 eMMC 需使用[线刷](rkdevtool)的方式。
+:::
+
+![Radxa eMMC](/img/accessories/emmc_related_01.webp)  
 - 下载[对应产品](../productlist)的官方 Ubuntu / Debian 系统镜像。
 - [下载](https://etcher.balena.io/)刷写工具 `Etcher` 。
 ![ROCK5A via Etcher](/img/rock5a/rock5a-etcher.webp)
 
 ### 刷写镜像
 
-1. 将 eMMC 模块插入 Radxa eMMC USB 读卡器，然后将 Radxa eMMC USB 读卡器插入计算机的 USB 接口。  
-    **注意：将 eMMC 模块插入 Radxa eMMC 读卡器时，请将 A1 端口与 A2 端口对齐，然后将 B1 端口插入 B2 端口**  
-    
-    ![ROCK5A eMMC Install 01](/img/accessories/emmc-install1.webp)
-    ![ROCK5A eMMC Install 02](/img/accessories/emmc-install2.webp)
+1. 将 eMMC 模块插入 Radxa eMMC USB 读卡器，然后将 Radxa eMMC USB 读卡器插入计算机的 USB 接口。 
+
+:::caution 注意
+将 eMMC 模块插入 Radxa eMMC 读卡器时，请将 A1 端口与 A2 端口对齐，然后将 B1 端口插入 B2 端口。
+:::
+
+   ![ROCK5A eMMC Install 01](/img/accessories/emmc-install1.webp)
+   ![ROCK5A eMMC Install 02](/img/accessories/emmc-install2.webp)
 
 - 打开 Etcher，将准备的操作系统镜像刷写到 eMMC 模块。在 Etcher 窗口中，单击 `Flash from file` 选择刚下载的操作系统镜像。  
     
@@ -121,12 +127,10 @@ import TabItem from '@theme/TabItem';
 
 - 在 Etcher 窗口中，当刷写成功时将会显示 `Flash Complete!`
     
-    ![ROCK5A eMMC via Etcher 04](/img/rock5a/rock5a-etcher-4.webp)
+![ROCK5A eMMC via Etcher 04](/img/rock5a/rock5a-etcher-4.webp)
 
-
- </TabItem>
-
- <TabItem value="NVME-SSD" label="NVME SSD">
+  </TabItem>
+  <TabItem value="NVME-SSD" label="NVME SSD">
 
 ## 使用 NVME 转 USB 3.0 读卡器或带 NVME 插槽的PC 主机刷写镜像
 
@@ -205,7 +209,5 @@ xzcat 'your compressed image path' | sudo dd of='your NVME SSD device path' bs=1
 
 将镜像写入 NVMe SSD 后，要从 NVMe SSD 启动，您需要将 bootloader 写入 SPI Flash。详情请查看[安装 bootloader 到 SPI Flash](rkdevtool)
 
-
   </TabItem>
-
 </Tabs>

@@ -15,7 +15,7 @@ import TabItem from '@theme/TabItem';
 :::
 
 <Tabs>
-  <TabItem value="micro SD" label="micro SD" default>
+  <TabItem value="microSD" label="microSD" default>
 
 ## 安装镜像到 Micro SD Card
 

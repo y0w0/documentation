@@ -8,36 +8,14 @@ import TabItem from '@theme/TabItem';
 
 # 操作系统安装教程
 
-本教程适用于瑞莎所有产品的官方镜像以及部分第三方镜像的烧录安装，目前可用的系统安装途径共有 Micro SD 卡、eMMC、SSD 三种。
+本教程适用于瑞莎官方镜像。目前支持的系统安装位置有 microSD 卡、eMMC、及固态硬盘。
 
-关于用户名和密码：  
-以下内容同样适用于 Ubuntu 服务端。  
-
-官方镜像的默认用户通常为：rock 和 radxa，用户名和密码如下：  
-
-```
-user password
-rock    rock
-radxa    radxa
-```
-
-Lubuntu 默认有两个用户：root 和 rock，用户名和密码如下：
-
-```
-user password
-rock    rock
-root    root
-```
-
-如果镜像是自己创建的，默认用户为 linaro：
-
-```
-user password
-linaro linaro
-```
+:::tip
+官方镜像的默认账号/密码为**radxa**/**radxa**。
+:::
 
 <Tabs>
-  <TabItem value="micro SD" label="micro SD" default>
+  <TabItem value="microSD" label="microSD" default>
 
 ## 安装镜像到 Micro SD Card
 
@@ -81,8 +59,7 @@ linaro linaro
    ![ROCK5A via Win32DiskImager 03](/img/rock5a/rock5a-win32-2.webp)   
 
 4. 完成上述操作后，单击 `Write` 按钮开始刷写镜像，然后等待写入镜像完成。  
-![ROCK5A via Win32DiskImager 04](/img/rock5a/rock5a-win32-3.webp)   
-
+![ROCK5A via Win32DiskImager 04](/img/rock5a/rock5a-win32-3.webp)
 
    </TabItem>
    <TabItem value="eMMC" label="eMMC">
@@ -98,7 +75,7 @@ linaro linaro
 :::
 
 ![Radxa eMMC](/img/accessories/emmc_related_01.webp)  
-- 下载[对应产品](../productlist)的官方 Ubuntu / Debian 系统镜像。
+- 下载[对应产品](../productlist)的官方系统镜像。
 - [下载](https://etcher.balena.io/)刷写工具 `Etcher` 。
 ![ROCK5A via Etcher](/img/rock5a/rock5a-etcher.webp)
 
@@ -130,7 +107,7 @@ linaro linaro
 ![ROCK5A eMMC via Etcher 04](/img/rock5a/rock5a-etcher-4.webp)
 
   </TabItem>
-  <TabItem value="NVME-SSD" label="NVME SSD">
+  <TabItem value="NVMe_SSD" label="固态硬盘">
 
 ## 使用 NVME 转 USB 3.0 读卡器或带 NVME 插槽的PC 主机刷写镜像
 

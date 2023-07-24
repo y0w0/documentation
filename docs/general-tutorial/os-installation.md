@@ -15,7 +15,7 @@ import TabItem from '@theme/TabItem';
 :::
 
 <Tabs>
-  <TabItem value="microSD" default>
+  <TabItem value="microSD" label="microSD">
 
 ## 安装镜像到 Micro SD Card
 
@@ -63,7 +63,7 @@ import TabItem from '@theme/TabItem';
 
 
    </TabItem>
-   <TabItem value="eMMC" >
+   <TabItem value="eMMC" label="eMMC">
 
 ## 安装镜像到 eMMC 模块
 
@@ -108,7 +108,7 @@ import TabItem from '@theme/TabItem';
 ![ROCK5A eMMC via Etcher 04](/img/rock5a/rock5a-etcher-4.webp)
 
   </TabItem>
-  <TabItem value="NVMe_SSD">
+  <TabItem value="NVMe_SSD" label="固态硬盘">
 
 ## 使用 NVMe 转 USB 3.0 读卡器或带 NVMe 插槽的PC 主机刷写镜像
 

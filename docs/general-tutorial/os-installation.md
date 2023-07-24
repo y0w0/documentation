@@ -17,23 +17,23 @@ import TabItem from '@theme/TabItem';
 <Tabs>
   <TabItem value="microSD" label="microSD">
 
-## 安装镜像到 Micro SD Card
+## 安装镜像到 microSD Card
 
 ### 准备
 
-1. 准备一个 Micro SD 卡
+1. 准备一个 microSD 卡
 2. 准备一个 SD 卡读卡器
 3. 下载[对应产品](../productlist)的官方 Ubuntu / Debian 系统镜像
 4. 把 SD 卡插入 SD 读卡器, 然后把 SD 读卡器插入计算机的 USB 接口  
 
-### 刷入操作系统镜像到 Micro SD 卡
+### 刷入操作系统镜像到 microSD 卡
 
-#### 通过 Etcher 刷入操作系统镜像到 Micro SD 卡
+#### 通过 Etcher 刷入操作系统镜像到 microSD 卡
 
 1. [下载](https://etcher.balena.io/)刷写工具 `Etcher`。  
    ![ROCK5A via Etcher 01](/img/rock5a/rock5a-etcher.webp)
 
-2. 打开 Etcher，将准备的操作系统镜像刷写到 Micro SD 卡。在 Etcher 窗口中，单击 `Flash from file` 选择刚下载的操作系统镜像。  
+2. 打开 Etcher，将准备的操作系统镜像刷写到 microSD 卡。在 Etcher 窗口中，单击 `Flash from file` 选择刚下载的操作系统镜像。  
    ![ROCK5A via Etcher 02](/img/rock5a/rock5a-etcher-1.webp)
 
 3. 在 Etcher 窗口中，点击 `Select target`。  
@@ -47,7 +47,7 @@ import TabItem from '@theme/TabItem';
   
 **如果刷写操作系统镜像错误, 请手动再试一次。**
 
-#### 通过 Win32DiskImager 刷入操作系统镜像到 Micro SD 卡
+#### 通过 Win32DiskImager 刷入操作系统镜像到 microSD 卡
 
 1. [下载](https://win32diskimager.org/)刷写工具 `Win32DiskImager`  
    ![ROCK5A via Win32DiskImager 01](/img/rock5a/rock5a-win32.webp)
@@ -152,7 +152,7 @@ Etcher 就是我们用来写镜像的工具。从[下载](https://etcher.balena.
 （以 ROCK 5A 搭配 M key 转 E key配件为例 ）
 1. 首先烧录 ROCK 5A 镜像到 eMMC 模块或 microSD card
 
-2. 将 NVMe SSD 装入 ROCK 5A，插入带有镜像的 eMMC 模块和 Micro SD card 。上电启动。
+2. 将 NVMe SSD 装入 ROCK 5A，插入带有镜像的 eMMC 模块和 microSD card 。上电启动。
 
 3. 联网进入系统并通过 SCP、wget 等工具，将目标镜像复制或下载到 ROCK 5A 中。
 

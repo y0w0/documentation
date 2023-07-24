@@ -33,7 +33,7 @@ import TabItem from '@theme/TabItem';
 1. [Download](https://etcher.balena.io/) flash tool `Etcher`.  
    ![ROCK5A via Etcher 01](/img/rock5a/rock5a-etcher.webp)
 
-2. Open the Etcher and flash the prepared OS image to the Micro SD card. In the Etcher window, 
+2. Open the Etcher and flash the prepared OS image to the microSD card. In the Etcher window, 
 1. click `Flash from file` to select the OS image you have just downloaded.  
    ![ROCK5A via Etcher 02](/img/rock5a/rock5a-etcher-1.webp)
 
@@ -150,9 +150,9 @@ Done! You have now successfully installed the OS image on your M.2 NVMe SSD.
 
 (example of ROCK 5A with M key to E key accessory)  
 
-1. First flash the ROCK 5A image to an eMMC module or Micro SD card
+1. First flash the ROCK 5A image to an eMMC module or microSD card
 
-2. Load the NVMe SSD into the ROCK 5A, insert the eMMC module with mirroring and the Micro SD card. Power on and boot up.
+2. Load the NVMe SSD into the ROCK 5A, insert the eMMC module with mirroring and the microSD card. Power on and boot up.
 
 3. Network into the system and copy or download the target image to ROCK 5A using tools such as SCP, wget, etc.
 

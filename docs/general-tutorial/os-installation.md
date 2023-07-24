@@ -1,5 +1,5 @@
 ---
-sidebar_label: '系统安装教程'
+sidebar_label: '操作系统安装教程'
 sidebar_position: 17
 ---
 
@@ -15,7 +15,7 @@ import TabItem from '@theme/TabItem';
 :::
 
 <Tabs>
-  <TabItem value="microSD" label="microSD" default>
+  <TabItem value="micro SD" label="micro SD" default>
 
 ## 安装镜像到 Micro SD Card
 

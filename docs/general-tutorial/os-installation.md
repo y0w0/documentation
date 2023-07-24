@@ -15,7 +15,7 @@ import TabItem from '@theme/TabItem';
 :::
 
 <Tabs>
-  <TabItem value="microSD" label="microSD" default>
+  <TabItem value="microSD" default>
 
 ## 安装镜像到 Micro SD Card
 
@@ -63,7 +63,7 @@ import TabItem from '@theme/TabItem';
 
 
    </TabItem>
-   <TabItem value="eMMC" label="eMMC">
+   <TabItem value="eMMC" >
 
 ## 安装镜像到 eMMC 模块
 
@@ -108,16 +108,16 @@ import TabItem from '@theme/TabItem';
 ![ROCK5A eMMC via Etcher 04](/img/rock5a/rock5a-etcher-4.webp)
 
   </TabItem>
-  <TabItem value="NVMe_SSD" label="固态硬盘">
+  <TabItem value="NVMe_SSD">
 
-## 使用 NVME 转 USB 3.0 读卡器或带 NVME 插槽的PC 主机刷写镜像
+## 使用 NVMe 转 USB 3.0 读卡器或带 NVMe 插槽的PC 主机刷写镜像
 
 ###  准备
 
-- 支持 NVME SSD 的 SBC，此处以 ROCK 5A 为例
+- 支持 NVMe SSD 的 SBC，此处以 ROCK 5A 为例
 - 良好的电源适配器
-- M.2 NVME SSD
-- **NVME 转 USB 3.0 读卡器或带 NVME 插槽的 PC 主机**
+- M.2 NVMe SSD
+- **NVMe 转 USB 3.0 读卡器或带 NVMe 插槽的 PC 主机**
 
 ### 下载必要的工具和镜像
 
@@ -127,9 +127,9 @@ Etcher 就是我们用来写镜像的工具。从[下载](https://etcher.balena.
 
 下载您对应产品的镜像。
 
-###  将镜像写入 M.2 NVME SSD
+###  将镜像写入 M.2 NVMe SSD
 
-将 M.2 NVME SSD 插入 M.2 NVME SSD 转 USB 3.0 读卡器，连接主机。
+将 M.2 NVMe SSD 插入 M.2 NVMe SSD 转 USB 3.0 读卡器，连接主机。
 
 运行应用程序。例如在 Ubuntu 20.04 上双击 balenaEtcher-1.5.116-x64.AppImage：
 
@@ -145,12 +145,12 @@ Etcher 就是我们用来写镜像的工具。从[下载](https://etcher.balena.
 在 etcher 窗口中，会显示 `Flash Complete!`  
 ![rock-5b-etcher-04](/img/rock5a/rock5a-etcher-4.webp)
 
-完毕！现在您已成功在 M.2 NVME SSD 上安装操作系统镜像。
+完毕！现在您已成功在 M.2 NVMe SSD 上安装操作系统镜像。
 
 ## 在支持  NVMe SSD 的 SBC 上写入镜像
 
 （以 ROCK 5A 搭配 M key 转 E key配件为例 ）
-1. 首先烧录 ROCK 5A 镜像到 eMMC 模块或 Micro SD card
+1. 首先烧录 ROCK 5A 镜像到 eMMC 模块或 microSD card
 
 2. 将 NVMe SSD 装入 ROCK 5A，插入带有镜像的 eMMC 模块和 Micro SD card 。上电启动。
 

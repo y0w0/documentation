@@ -251,6 +251,11 @@ a:hover {
   background-color: red;
 }
 
+.orange {
+    color: #000;
+    background-color: orange;
+}
+
 .rock_cm3_io_board_img img {
   display: block;
   transform: scale(.7);

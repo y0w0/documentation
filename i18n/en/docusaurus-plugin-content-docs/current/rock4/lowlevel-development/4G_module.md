@@ -215,7 +215,7 @@ sidebar_position: 10
 
 - The complete dial-up process is shown as follows:
 
-![pppd process one](/static/img/4G-module/1.png)![pppd process two](/static/img/4G-module/2.png)
+![pppd process one](/static/img/4G-module/pppd_process1.webp)![pppd process two](/static/img/4G-module/pppd_process2.webp)
 
 12. After dialing, press Enter and enter the ifconfig command to view the NIC information:
 ```bash
@@ -224,7 +224,7 @@ sidebar_position: 10
 
 - If the ppp0 network adapter information is displayed, the dialing is successful:
 
-![ppp0](/static/img/4G-module/3.png)
+![view ppp0 NIC](/static/img/4G-module/View-the-ppp0-NIC.webp)
 
 13. Run the following command to add ppp0 network port ip to the default route:
 ```bash
@@ -233,7 +233,7 @@ sidebar_position: 10
 
 14. Run the route command. If the following information is displayed, the configuration succeeds
 
-![route](/static/img/4G-module/4.png)
+![view route](/static/img/4G-module/view-route.webp)
 
 15. Before executing the ping command, perform the following steps:
 ```bash
@@ -249,4 +249,4 @@ sidebar_position: 10
 
 16. Run the ping command. If the domain name can be pinged through, the dial-up Internet access is successful.
 
-![ping](/static/img/4G-module/5.png)
+![ping](/static/img/4G-module/ping-success.webp)

@@ -214,7 +214,7 @@ sidebar_position: 10
 
 - 完整拨号过程如图所示。
 
-![pppd process one](/static/img/4G-module/1.png)![pppd process two](/static/img/4G-module/2.png)
+![拨号过程一](/static/img/4G-module/pppd_process1.webp)![拨号过程二](/static/img/4G-module/pppd_process2)
 
 12. 拨号结束后按下回车键，输入 ifconfig 命令来查看网卡信息。
 ```bash
@@ -223,7 +223,7 @@ sidebar_position: 10
 
 - 如图显示 ppp0 网卡信息就代表拨号成功。
 
-![ppp0](/static/img/4G-module/3.png)
+![ppp0网卡](/static/img/4G-module/View-the-ppp0-NIC.webp)
 
 13. 执行下面的命令将 ppp0 网卡 ip 添加到默认路由。
 ```bash
@@ -232,7 +232,7 @@ sidebar_position: 10
 
 14. 执行 route 命令，显示下图信息则说明设置成功。
 
-![route](/static/img/4G-module/4.png)
+![查看路由](/static/img/4G-module/view-route.webp)
 
 15. 在执行 ping 命令之前，执行下面的命令。
 ```bash
@@ -248,4 +248,4 @@ sidebar_position: 10
 
 16. 执行 ping 命令，如果出现如下图显示的情况代表可以上网。
 
-![ping](/static/img/4G-module/5.png)
+![成功上网](/static/img/4G-module/ping-success.webp)

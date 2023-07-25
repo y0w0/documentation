@@ -17,8 +17,6 @@ import TabItem from '@theme/TabItem';
 <Tabs>
   <TabItem value="microSD" label="microSD">
 
-## 安装镜像到 microSD Card
-
 ### 准备
 
 1. 准备一个 microSD 卡
@@ -65,8 +63,6 @@ import TabItem from '@theme/TabItem';
    </TabItem>
    <TabItem value="eMMC" label="eMMC">
 
-## 安装镜像到 eMMC 模块
-
 ### 准备
 
 - 准备一个 eMMC 模块和一个[Radxa eMMC读卡器](../accessories/emmc_reader)。  
@@ -110,7 +106,6 @@ import TabItem from '@theme/TabItem';
   </TabItem>
   <TabItem value="NVMe_SSD" label="固态硬盘">
 
-## 使用 NVMe 转 USB 3.0 读卡器或带 NVMe 插槽的PC 主机刷写镜像
 
 ###  准备
 

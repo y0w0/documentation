@@ -5,9 +5,9 @@ sidebar_position: 10
 
 # ROCK 4B+ 4G module dial-up Internet access process
 
-- Development board: ROCK 4B+
+- Development board: ROCK 4B+**
 
-- 4G Module: EC25-AU
+- 4G Module: EC25-AU**
 
 - Software image version: rock-pi-4b-plus_debian_bullseye_kde_b21.img
 
@@ -17,42 +17,42 @@ sidebar_position: 10
 
 ## Preparation before dialing
 
-1. Download the package, get an SD card, and burn it to the SD card with the balenaEtcher burning tool.
+**1. Download the package, get an SD card, and burn it to the SD card with the balenaEtcher burning tool.**
 
 - Official address for downloading the software package: 
 [rock-pi-4b-plus_debian_bullseye_kde_b21](https://github.com/radxa-build/rock-pi-4b-plus/releases/tag/20230601-0112)
 
-2. Insert the burned SD card into the SD card slot on the ROCK 4B+ development board.
+**2. Insert the burned SD card into the SD card slot on the ROCK 4B+ development board.**
 
-3. Establish the connection between the board and the PC through the USB to TTL serial port line, and use the serial port debugging tool (such as MobaXterm) on the PC side to display the system information.
+**3. Establish the connection between the board and the PC through the USB to TTL serial port line, and use the serial port debugging tool (such as MobaXterm) on the PC side to display the system information.**
 
 - The serial port baud rate is set to 1500000
 
-4. After the operating system is loaded, you need to log in. The user name and password are “rock” , and the information is as follows
+**4. After the operating system is loaded, you need to log in. The user name and password are “rock” , and the information is as follows**
 ```bash
   rock-pi-4b-plus login: rock
   Password:
 ```
 
-5. After successful login, use "sudo apt-get update" to update the package
+**5. After successful login, use "sudo apt-get update" to update the package**
 ```bash
   sudo apt-get update
 ```
 
-6. After the update is complete, execute the following commands successively to install the related software of our dial-up debugging
+**6. After the update is complete, execute the following commands successively to install the related software of our dial-up debugging**
 ```bash
   sudo apt-get install net-tools
   sudo apt-get install ppp
   sudo apt-get install busybox
 ```
 
-7. In this way, the preparation work before we use the 4G module to dial up the Internet is done, and then the dial-up process begins.
+**7. In this way, the preparation work before we use the 4G module to dial up the Internet is done, and then the dial-up process begins.**
 
-## Dial-up process
+## The system uses ppp for dial-up Internet access
 
-1. Connect to our 4G module via USB port.
+**1. Connect to our 4G module via USB port.**
 
-2. Detect whether the 4G module is recognized by the system:
+**2. Detect whether the 4G module is recognized by the system:**
 ```bash
   rock@rock-pi-4b-plus:~$ lsusb
   Bus 008 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
@@ -66,19 +66,19 @@ sidebar_position: 10
   Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
 ```
 
-3. Check whether the USB module is loaded into the system:
+**3. Check whether the USB module is loaded into the system:**
 ```bash
   rock@rock-pi-4b-plus:~$ lsmod | grep usb
   usb_wwan               20480  1 option
   usbserial              36864  2 usb_wwan,option
 ```
 
-4. List USB devices:
+**4. List USB devices:**
 ```bash
   rock@rock-pi-4b-plus:~$ ls /dev/ttyUSB*
   /dev/ttyUSB0  /dev/ttyUSB1  /dev/ttyUSB2  /dev/ttyUSB3
 ```
-5. Preparation test with AT instruction:
+**5. Preparation test with AT instruction:**
 
 - Open the microcom window:
 ```bash
@@ -115,14 +115,14 @@ sidebar_position: 10
 
 -  If no error is displayed, press Ctrl + x to exit microcom.
 
-6. Next enter the "sudo su" command to switch to the root user with the password : rock
+**6. Next enter the "sudo su" command to switch to the root user with the password : rock**
 
-7. After the switchover is successful, run the following command to enter the peers directory. We need to add three dialup scripts to the peers directory:
+**7. After the switchover is successful, run the following command to enter the peers directory. We need to add three dialup scripts to the peers directory:**
 ```bash
   cd /etc/ppp/peers/
 ```
 
-8. To write the first script file, execute the command: "vim rasppp" and add the following information to the rasppp script file:
+**8. To write the first script file, execute the command: "vim rasppp" and add the following information to the rasppp script file:**
 ```bash
   # The password is hidden during connection debugging
   hide-password
@@ -178,7 +178,7 @@ sidebar_position: 10
   usepeerdns
 ```
 
-9. Write a second script file and execute the command: "vim rasppp-chat-connect" to add the following information to the rasppp-chat-connect script file:
+**9. Write a second script file and execute the command: "vim rasppp-chat-connect" to add the following information to the rasppp-chat-connect script file:**
 ```bash
   TIMEOUT 15  
   ABORT   "BUSY"
@@ -196,7 +196,7 @@ sidebar_position: 10
   CONNECT \d\c
 ```
 
-10. Write the third script file and execute the command vim rasppp-chat-disconnect, adding the following information to the   rasppp-chat-disconnect script file:
+**10. Write the third script file and execute the command vim rasppp-chat-disconnect, adding the following information to the   rasppp-chat-disconnect script file:**
 ```bash
   ABORT "ERROR"
   ABORT "NO DIALTONE"
@@ -208,7 +208,7 @@ sidebar_position: 10
   SAY "\nGood bye !\n"
 ```
 
-11. After the above three script files are written successfully, you can start dialing, and the command is as follows:
+**11. After the above three script files are written successfully, you can start dialing, and the command is as follows:**
 ```bash
   pppd call rasppp &    #Background dialing
 ```
@@ -217,7 +217,7 @@ sidebar_position: 10
 
 ![pppd process one](/static/img/4G-module/pppd_process1.webp)![pppd process two](/static/img/4G-module/pppd_process2.webp)
 
-12. After dialing, press Enter and enter the ifconfig command to view the NIC information:
+**12. After dialing, press Enter and enter the ifconfig command to view the NIC information:**
 ```bash
   ifconfig
 ```
@@ -226,16 +226,16 @@ sidebar_position: 10
 
 ![view ppp0 NIC](/static/img/4G-module/View-the-ppp0-NIC.webp)
 
-13. Run the following command to add ppp0 network port ip to the default route:
+**13. Run the following command to add ppp0 network port ip to the default route:**
 ```bash
   route add default gw 10.224.236.90
 ```
 
-14. Run the route command. If the following information is displayed, the configuration succeeds
+**14. Run the route command. If the following information is displayed, the configuration succeeds**
 
 ![view route](/static/img/4G-module/view-route.webp)
 
-15. Before executing the ping command, perform the following steps:
+**15. Before executing the ping command, perform the following steps:**
 ```bash
   vim /etc/resolv.conf
 ```
@@ -247,6 +247,6 @@ sidebar_position: 10
 
 - Seve exit
 
-16. Run the ping command. If the domain name can be pinged through, the dial-up Internet access is successful.
+**16. Run the ping command. If the domain name can be pinged through, the dial-up Internet access is successful.**
 
 ![ping](/static/img/4G-module/ping-success.webp)

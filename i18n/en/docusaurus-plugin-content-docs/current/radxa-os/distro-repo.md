@@ -45,7 +45,7 @@ However, in some cases (e.g. test system upgrades), developers may need to switc
 Every file listed in step 1 must be updated this way, otherwise the system is in an abnormal state!
 :::
 
-2. Update repository priority
+2. Update repository priority  
    The Radxa repository preference files are stored in `/etc/apt/preferences.d/` 内, and the filenames are prefixed with `radxa`.  
 
 :::caution

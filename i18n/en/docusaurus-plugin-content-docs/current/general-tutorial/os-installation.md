@@ -15,9 +15,7 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 <Tabs>
-  <TabItem value="microSD" label="microSD" default>
-
-## Install image to microSD Card
+  <TabItem value="microSD" label="microSD">
 
 ### Preparations
 
@@ -64,8 +62,6 @@ import TabItem from '@theme/TabItem';
   </TabItem>
   <TabItem value="eMMC" label="eMMC">
 
-## Install the image to the eMMC module
-
 ### Preparations
 
 - Prepare an eMMC module and a [Radxa eMMC reader](../accessories/emmc_reader).  
@@ -109,8 +105,6 @@ When inserting the eMMC module into the Radxa eMMC reader, align port A1 with po
 
   </TabItem>
   <TabItem value="NVMe_SSD" label="NVMe SSD">
-
-## Flash image using an NVMe to USB 3.0 reader or a PC host with an NVMe slot
 
 ###  Preparation
 

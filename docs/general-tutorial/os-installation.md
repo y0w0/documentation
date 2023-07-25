@@ -106,7 +106,6 @@ import TabItem from '@theme/TabItem';
   </TabItem>
   <TabItem value="NVMe_SSD" label="固态硬盘">
 
-
 ###  准备
 
 - 支持 NVMe SSD 的 SBC，此处以 ROCK 5A 为例

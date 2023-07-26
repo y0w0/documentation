@@ -165,41 +165,41 @@ EOF | sudo tee /etc/ppp/peers/rasppp-chat-disconnect
 sudo pppd call rasppp &    #后台进行拨号
 ```
 
-- 完整拨号过程如图所示。
+完整拨号过程如图所示。
 
 ![拨号过程一](/img/4G-module/pppd_process1.webp)![拨号过程二](/img/4G-module/pppd_process2.webp)
 
-**12. 拨号结束后按下回车键，输入 ifconfig 命令来查看网卡信息。**
+拨号结束后按下回车键，输入 `ifconfig` 命令来查看网卡信息。
 ```bash
 ifconfig
 ```
 
-- 如图显示 ppp0 网卡信息就代表拨号成功。
+如图显示 `ppp0` 网卡信息就代表拨号成功。
 
 ![ppp0网卡](/img/4G-module/View-the-ppp0-NIC.webp)
 
-**13. 执行下面的命令将 ppp0 网卡 ip 添加到默认路由。**
+添加 `ppp0` 为默认路由。
 ```bash
 route add default gw 10.224.236.90
 ```
 
-**14. 执行 route 命令，显示下图信息则说明设置成功。**
+执行 `route` 命令，显示下图信息则说明设置成功。
 
 ![查看路由](/img/4G-module/view-route.webp)
 
-**15. 在执行 ping 命令之前，执行下面的命令。**
+执行下面的命令，添加 `DNS` 服务
 ```bash
 vim /etc/resolv.conf
 ```
 
-- 在 /etc/resolv.conf 文件中加入以下内容。
+在 /etc/resolv.conf 文件中加入以下内容。
 ```bash
 nameserver 8.8.8.8
 ```
 
-- 保存退出
+保存退出。
 
-**16. 执行 ping 命令，如果出现如下图显示的情况代表可以上网。**
+执行 ping 命令，如果出现如下图显示的情况代表可以上网。
 
 ![成功上网](/img/4G-module/ping-success.webp)
 

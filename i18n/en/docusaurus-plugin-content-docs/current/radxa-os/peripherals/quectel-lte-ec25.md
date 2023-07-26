@@ -178,7 +178,7 @@ From the output of the program we can get the following information:
 
 We can now configure the network based on the above information:
 
-``bash
+```bash
 sudo ip route add default via 10.224.236.90 # configure the gateway
 echo "nameserver 120.80.80.80" | sudo tee -a /etc/resolv.conf # configure primary DNS
 echo "nameserver 221.5.88.88" | sudo tee -a /etc/resolv.conf # Configure secondary DNS

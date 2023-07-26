@@ -24,8 +24,8 @@ ROCK 4 系列有一个 40 引脚的扩展针座。每个引脚用颜色区分。
 
 <div className='gpio_style'>
 
-:::note 提示
-实际兼容性取决于使用情况。
+:::caution
+并非所有硬件功能都可以同时开启。同一时间，一个引脚只能被分配一个硬件功能。
 :::
 
 |GPIO number|Function2|Function1|GPIO|Pin#|Pin#|GPIO|Function1|Function2|GPIO number|

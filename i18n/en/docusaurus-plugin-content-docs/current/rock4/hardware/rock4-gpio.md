@@ -25,8 +25,8 @@ The following pin-out is applicable for all products of ROCK 4 series.
 
 <div className='gpio_style'>
 
-:::note Tips
-The actual compatibility is subject to usage. 
+:::caution
+Not all functions can be turned on at the same time. Only one function can be assigned to a pin at a time.
 :::
 
 |GPIO number|Function2|Function1|GPIO|Pin#|Pin#|GPIO|Function1|Function2|GPIO number|

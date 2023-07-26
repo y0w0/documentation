@@ -167,44 +167,28 @@ sudo pppd call rasppp &    #Background dialing
 
 - The complete dial-up process is shown as follows:
 
-![pppd process one](/img/4G-module/pppd_process1.webp)![pppd process two](/img/4G-module/pppd_process2.webp)
+![pppd process one](/img/4G-module/pppd_process1.webp)
+![pppd process two](/img/4G-module/pppd_process2.webp)
 
-After dialing, press Enter and enter the `ifconfig` command to view the NIC information:
-```bash
-  ifconfig
+From the output of the program we can get the following information:
+
+1. local IP address: `10.224.236.90`
+2. primary DNS server: `120.80.80.80`
+3. secondary DNS servers: `221.5.88.88`
+
+We can now configure the network based on the above information:
+
+``bash
+sudo ip route add default via 10.224.236.90 # configure the gateway
+echo "nameserver 120.80.80.80" | sudo tee -a /etc/resolv.conf # configure primary DNS
+echo "nameserver 221.5.88.88" | sudo tee -a /etc/resolv.conf # Configure secondary DNS
 ```
 
-If the `ppp0` network adapter information is displayed, the dialing is successful:
-
-![view ppp0 NIC](/img/4G-module/View-the-ppp0-NIC.webp)
-
-Add `ppp0` as the default route:
-```bash
-  route add default gw 10.224.236.90
-```
-
-Run the `route` command. If the following information is displayed, the configuration succeeds.
-
-![view route](/img/4G-module/view-route.webp)
-
-Run the following command to add the `DNS` service:
-```bash
-  vim /etc/resolv.conf
-```
-
-Add the following to the /etc/resolv.conf file:
-```bash
-  nameserver 8.8.8.8
-```
-
-Seve exit
-
-Run the ping command. If the domain name can be pinged through, the dial-up Internet access is successful.
+You can now use the `ping` command to check if you are connected to the Internet:
 
 ![ping](/img/4G-module/ping-success.webp)
 
-
-## Problem Solution
+## Common issues
 
 1. USB serial port devices are not listed on my system.
 

@@ -167,42 +167,27 @@ sudo pppd call rasppp &    #后台进行拨号
 
 完整拨号过程如图所示。
 
-![拨号过程一](/img/4G-module/pppd_process1.webp)![拨号过程二](/img/4G-module/pppd_process2.webp)
+![拨号过程一](/img/4G-module/pppd_process1.webp)
+![拨号过程二](/img/4G-module/pppd_process2.webp)
 
-拨号结束后按下回车键，输入 `ifconfig` 命令来查看网卡信息。
+
+从程序的输出中我们可以获得以下信息：
+
+1. 本机 IP 地址： `10.224.236.90`
+2. 主要 DNS 服务器： `120.80.80.80`
+3. 次要 DNS 服务器： `221.5.88.88`
+
+我们现在可以根据以上信息来配置网络：
+
 ```bash
-ifconfig
+sudo ip route add default via 10.224.236.90 # 配置网关
+echo "nameserver 120.80.80.80" | sudo tee -a /etc/resolv.conf # 配置主要 DNS
+echo "nameserver 221.5.88.88" | sudo tee -a /etc/resolv.conf # 配置次要 DNS
 ```
 
-如图显示 `ppp0` 网卡信息就代表拨号成功。
-
-![ppp0网卡](/img/4G-module/View-the-ppp0-NIC.webp)
-
-添加 `ppp0` 为默认路由。
-```bash
-route add default gw 10.224.236.90
-```
-
-执行 `route` 命令，显示下图信息则说明设置成功。
-
-![查看路由](/img/4G-module/view-route.webp)
-
-执行下面的命令，添加 `DNS` 服务
-```bash
-vim /etc/resolv.conf
-```
-
-在 /etc/resolv.conf 文件中加入以下内容。
-```bash
-nameserver 8.8.8.8
-```
-
-保存退出。
-
-执行 ping 命令，如果出现如下图显示的情况代表可以上网。
+你现在可以使用 `ping` 命令检查是否连接到互联网：
 
 ![成功上网](/img/4G-module/ping-success.webp)
-
 
 ## 疑难解答
 

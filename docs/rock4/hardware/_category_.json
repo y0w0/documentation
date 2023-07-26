@@ -3,7 +3,7 @@
   "position": 50,
   "link": {
     "type": "generated-index",
-	"slug": "/rock4/hardware",
+	  "slug": "/rock4/hardware",
     "description": "ROCK 4 系列的硬件相关资料信息。"
   }
 }

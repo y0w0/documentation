@@ -6,8 +6,6 @@ sidebar_position: 50
 
 # ROCK 4 Series GPIO Definition
 
-Unlike other series, ROCK series 4 uses a unified GPIO definition.
-
 ## GPIO Voltage
 
 RK3399 and OP1 have three IO voltages, 1.8V/3.0V/3.3V. Below is the default voltage:

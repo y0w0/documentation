@@ -5,8 +5,6 @@ sidebar_position: 50
 
 # ROCK 4 系列 GPIO 定义
 
-与其他系列不同，ROCK 4 系列使用统一的 GPIO 定义。
-
 ## GPIO 电压
 
 RK3399 和 OP1 有三种 IO 电压：1.8V/3.0V/3.3V。以下是默认电压：

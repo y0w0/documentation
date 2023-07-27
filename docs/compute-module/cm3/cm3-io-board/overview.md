@@ -10,7 +10,7 @@ ROCK CM3 核心板使用 3x 100P 0.4mm 间距 B2B 连接器，提供强大的功
 
 <div class='rock-cm3-io-board-img'>
 
-![ROCK CM3](/img/CM3/radxa-cm3-top-bottom.webp)
+![ROCK CM3](/img/cm3/radxa-cm3-top-bottom.webp)
 
 </div>
 
@@ -22,7 +22,7 @@ ROCK CM3 提供各种 LPDDR4 RAM 和 eMMC 配置：
 
 <div class='rock-cm3-install-io-board'>
 
-![ROCK CM3](/img/CM3/cm3-install-io-board.webp)
+![ROCK CM3](/img/cm3/cm3-install-io-board.webp)
 
 </div>
 

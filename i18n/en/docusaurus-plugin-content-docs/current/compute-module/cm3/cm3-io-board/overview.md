@@ -11,7 +11,7 @@ The ROCK CM3 core board uses 3x 100P 0.4mm pitch B2B connector to provide powerf
 
 <div class='rock-cm3-io-board-img'>
 
-![ROCK CM3](/img/CM3/radxa-cm3-top-bottom.webp)
+![ROCK CM3](/img/cm3/radxa-cm3-top-bottom.webp)
 
 </div>
 
@@ -24,7 +24,7 @@ At the same time, we provide [ROCK CM3 IO Board](/accessories/cm3-io-board) comp
 
 <div class='rock-cm3-install-io-board'>
 
-![ROCK CM3](/img/CM3/cm3-install-io-board.webp)
+![ROCK CM3](/img/cm3/cm3-install-io-board.webp)
 
 </div>
 

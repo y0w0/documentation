@@ -7,7 +7,6 @@ sidebar_position: 10
 
 The RK3566 integrates an eDP (Embedded DisplayPort) v1.3 controller, which supports data rates of 1.62Gbps/lane and 2.7Gbps/lane. It can operate in 1‑lane, 2‑lane, and 4‑lane modes, with a maximum output resolution of 2560x1600@60Hz. The eDP interface also includes an AUX channel with a maximum rate of 1Mbps.
 
-
 For the coupled differential signals in the eDP interface, it is recommended to place 100nF coupling capacitors near the transmitter side. It is suggested to use 0201 package size capacitors to reduce ESR (Equivalent Series Resistance) and ESL (Equivalent Series Inductance).
 
 eDP interface features꞉
@@ -17,7 +16,7 @@ eDP interface features꞉
   - Supports resolutions up to 2560x1600@60Hz
   - Supports RGB format with up to 10 bits
 
-The impedance and description of the eDP interface signals are as follows꞉  
+## The impedance and description of the eDP interface signals  
 
 |Singal |   Impedace   |    Description   |
 |------|--------------|--------------|
@@ -25,9 +24,9 @@ The impedance and description of the eDP interface signals are as follows꞉
 |eDP_TX_AUXP/N|  100ohm±10%  |     eDP TX auxiliary channel, coupled with 100nF capacitor   |
 |eDP_HPDIN|  N/A   |   No eDP TX insertion detection  |
 
-![eDP](\img\cm3\edp_design.webp)
+![eDP](/img/cm3/edp-design.webp)
 
-eDP Layout Requirements
+## eDP Layout Requirements
   
 |  Parameter                       |        Requirement  |
 |----------------------------------|---------------------|
@@ -39,8 +38,7 @@ eDP Layout Requirements
 |Minimum spacing between eDP and other signals  |  ≥4 times the width of eDP trace   |
 |Maximum allowed via Recommend  | ≤ 4 vias  |
 
-
-The trace length of the eDP signals on the compute module.
+## The trace length of the eDP signals on the compute module
 
 |Signal   |     Length     |
 |---------|---------------|

@@ -11,9 +11,9 @@ Radxa CM3 IO Board is a cost-effective, high-performance, interface-rich applica
 
 Dimensions: 160mm × 90mm
 
-<div class='rock_cm3_io_board_img'>
+<div class='rock-cm3-io-board-img'>
 
-![CM3_IO_Board](\img\accessories\cm3-io-board\ROCK_CM3_1.webp)
+![CM3_IO_Board](/img/accessories/cm3-io-board/cm3-io-board.webp)
 
 </div>
 
@@ -48,15 +48,15 @@ Dimensions: 160mm × 90mm
 # Mechanical Specification
 
 
-<div class='rock_cm3_io_board_img_1'>
+<div class='rock-cm3-io-board-img'>
 
-![CM3_IO_Board](\img\accessories\cm3-io-board\ROCK_CM3_4.webp)
+![CM3_IO_Board](/img/accessories/cm3-io-board/cm3-io-top-specification.webp)
 
 </div>
 
-<div class='rock_cm3_io_board_img_2'>
+<div class='rock-cm3-io-board-img'>
 
-![CM3_IO_Board](\img\accessories\cm3-io-board\ROCK_CM3_5.webp)
+![CM3_IO_Board](/img/accessories/cm3-io-board/cm3-io-bottom-specification.webp)
 
 </div>
 

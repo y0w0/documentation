@@ -7,7 +7,7 @@ sidebar_position: 10
 
 HDMI (High‑Definition Multimedia Interface) is a unified method of transferring video and audio data over a TMDS (Transition Minimized Differential Signaling) compatible physical link to an audio/visual display device. The HDMI interface is electrically compatible with the DVI (Digital Visual Interface) standard.
 
-Features꞉
+## Features
 
 - HPD (Hot Plug Detect) input analog comparator
 - Input reference clock range of 13.5–600MHz
@@ -27,9 +27,9 @@ Features꞉
 
 On the RADXA CM3 compute module, the HDMITX_SCL/SDA and HDMITX_CEC signals have already been processed through level translation. The HDMI_TX_HPDIN signal has a 100k ohm pull‑down resistor and is series‑connected to the RK3566 through a 1k ohm resistor. When designing a baseboard, users don’t need to worry about the level translation issue. Please refer to the following design꞉  
 
-![Ethernet](\img\cm3\hdmi_design.webp)
+![Ethernet](/img/cm3/hdmi-design.webp)
 
-HDMI 2.0 Layout Requirements
+## HDMI 2.0 Layout Requirements
 
 |Parameter    |  Requirement  |
 |-------------|---------------|
@@ -41,7 +41,7 @@ HDMI 2.0 Layout Requirements
 |Minimum spacing between HDMI and other Signals  | ≥5 times the width of HDMI trace (At least 4 times the width of HDMI trace)  |
 |Maximum allowed via | Recommend ≤ 2 vias  |
 
-The trace length of the HDMI signal on the compute module.  
+## The trace length of the HDMI signal on the compute module.  
 
 |Signal | Length |
 |-------|--------|

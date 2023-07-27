@@ -16,7 +16,7 @@ eDP接口功能꞉
    - 支持分辨率高达 2560x1600@60Hz
    - 支持高达 10 位的 RGB 格式
 
-eDP接口信号的阻抗和说明如下꞉
+## eDP接口信号的阻抗和说明
 
 | 信号 |   阻抗   |    描述   |
 |------|--------------|--------------|
@@ -24,9 +24,9 @@ eDP接口信号的阻抗和说明如下꞉
 |eDP_TX_AUXP/N|  100ohm±10%  |     eDP TX辅助通道，外接100nF电容   |
 |eDP_HPDIN|  N/A   |   无 eDP TX 插入检测  |
 
-![eDP](\img\cm3\edp_design.webp)
+![eDP](/img/cm3/edp-design.webp)
 
-eDP布局要求
+## eDP布局要求
 
 |  范围                       |      要求   |
 |----------------------------------|---------------------|
@@ -38,7 +38,7 @@ eDP布局要求
 |Minimum spacing between eDP and other signals  |  ≥4 times the width of eDP trace   |
 |Maximum allowed via Recommend  | ≤ 4 vias  |
 
-计算模块上 eDP 信号的走线长度。
+## 计算模块上 eDP 信号的走线长度
 
 |Signal   |     Length     |
 |---------|---------------|

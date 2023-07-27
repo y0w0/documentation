@@ -5,7 +5,7 @@ sidebar_position: 10
 
 # SATA
 
-SATA（Serial Advanced Technology Attachment）是 RK3566 支持的串行通讯硬盘接口。 它遵循 SATA V3.0 协议并提供以下功能꞉
+SATA（Serial Advanced Technology Attachment）是 RK3566 支持的串行通讯硬盘接口。 它支持 SATA 3 协议并提供以下功能꞉
 
 - 与 Gen1 / Gen2 / Gen3 标准的兼容性。
 - 支持单数据通道最大信号传输速率6GT/s。

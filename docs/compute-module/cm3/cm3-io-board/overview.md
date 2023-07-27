@@ -50,25 +50,25 @@ ROCK CM3 提供各种 LPDDR4 RAM 和 eMMC 配置：
 - 蓝牙 5.0 
 - 8 个 I2C
 - 4 个 SPI
-- 8 个串口
-- 9 个脉宽调制
-- 50 个通用输入输出
-- 2 个模数转换器
+- 8 个串口（UART）
+- 9 个脉宽调制（PWM）
+- 50 个通用输入输出（GPIO）
+- 2 个模数转换器（ADC）
 - 1 个千兆以太网 PHY
-- 1 x PDM 支持麦克风阵列
+- 1 个 PDM 支持麦克风阵列
 - 1 个 I2S
 - 2 个 SATA
-- 1 x PCIe 2.0、1 通道主机 (5Gbps)
+- 1 个 PCIe 2.0 x1
 - 1 个 USB 2.0
 - 1 个 USB 2.0 OTG
 - 1 个 USB 3.0 (5Gbps)
-- 1 个标清输入输出 3.0
-- 1 x HDMI 高达 4K x 2k@60Hz
-- 1 x eDP 四通道（每通道 2.7 Gbps）
-- 2 x MIPI DSI @ 1.6Gbps 每通道
-- 2 x 2 通道或 1 x 4 通道 MIPI CSI 相机端口
-- 1 x LVDS 组合四通道，带 MIPI DSIO 的多路复用器
-- 3 x 100 针 0.4 毫米间距 B2B 连接器
+- 1 个 SDIO 3.0
+- 1 个 HDMI，最高支持 4K60p
+- 1 个 4 lane eDP（每通道 2.7 Gbps）
+- 2 个 MIPI DSI @ 1.6Gbps 每通道
+- 2 个 2 lane 或 1 个 4 lane MIPI CSI 相机端口
+- 1 个 LVDS 组合四通道，带 MIPI DSIO 的多路复用器
+- 3 个 100 针 0.4 毫米间距 B2B 连接器
 
 ### 软件
 

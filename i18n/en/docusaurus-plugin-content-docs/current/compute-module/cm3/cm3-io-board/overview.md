@@ -9,9 +9,9 @@ The Radxa ROCK 3 Compute Module (CM3) is a System on Module (SoM) based on a the
 (WiFi 5 and BT 5.0) in a small form factor of just 55mm x 40mm. 
 The ROCK CM3 core board uses 3x 100P 0.4mm pitch B2B connector to provide powerful functional support, and can be combined with the customer's backplane to build complete product functions, thereby speeding up the research and development process.
 
-<div class='rock_cm3_img'>
+<div class='rock-cm3-io-board-img'>
 
-![ROCK CM3](/img/CM3/radxa_cm3_top_bottom.webp)
+![ROCK CM3](/img/CM3/radxa-cm3-top-bottom.webp)
 
 </div>
 
@@ -22,7 +22,7 @@ The ROCK CM3 is available in various LPDDR4 RAM and eMMC size configurations:
 At the same time, we provide [ROCK CM3 IO Board](/accessories/cm3-io-board) compatible with ROCK CM3, you can use it to develop the products you want. For example, HMI, robot, video intercom, smart home, etc.
 
 
-<div class='rock_cm3_install_io_board'>
+<div class='rock-cm3-install-io-board'>
 
 ![ROCK CM3](/img/CM3/cm3-install-io-board.webp)
 
@@ -74,8 +74,9 @@ aliser / deserialiser)lanes, dual USB 2.0 host and one USB 2.0 OTG
 - 3 x 100 pins 0.4mm pitch B2B connector
 
 ### Software
-- Debian/Ubuntu Linux support
-- Android 11/12 support
+
+- Debian Linux support  
+- Android 11/12 support  
 
 
 

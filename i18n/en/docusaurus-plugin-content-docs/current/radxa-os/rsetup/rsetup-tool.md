@@ -3,21 +3,21 @@ sidebar_label: 'Introduction'
 sidebar_position: 0
 ---
 
-# Introduce rsetup
+# Introduction
 
-`rsetup` is the Radxa system setup utility devloped by radxa team. To enter the configrution utility, type the following on the terminal:  
+`rsetup` is a system configurator developed by Risa.
 
-```
-rsetup  
-```
+To start `rsetup`, execute the `rsetup` command directly in a terminal, or find the `rsetup` application from the system menu:
 
-After typing your password, you will see the screen with options like this:  
+:::caution
+`rsetup` requires administrator privileges to run. Please make sure you have `sudo` privilege.
+:::
 
 ```
 ┌──────────────────────────────────┤ RSETUP ├──────────────────────────────────┐
 │ Please select an option below:                                               │
 │                                                                              │
-│                             System Maintaince                                │
+│                             System Maintenance                               │
 │                             Hardware                                         │
 │                             Overlays                                         │
 │                             Connectivity                                     │
@@ -25,37 +25,95 @@ After typing your password, you will see the screen with options like this:
 │                             Localization                                     │
 │                             About                                            │
 │                                                                              │
+│                     <Ok>                         <Cancel>                    │
 │                                                                              │
+└──────────────────────────────────────────────────────────────────────────────┘
+```
+
+:::caution
+The options listed above are for reference only. Please refer to the actual program output.
+:::
+
+## Interface Operation
+
+Use the `Up` and `Down` keys to select between the menu options. The currently selected item is highlighted.
+
+Use the `Tab` key to select between the menu area and the command area.
+
+Use the `Left` and `Right` keys to toggle between the `<Ok>` and `<Cancel>` commands. Use the `Enter` key to execute the selected command.  
+Pressing the `Enter` key, when the command area is not selected, will immediately execute the `<Ok>` command.
+
+Use the `Space` key to select items. Items are prefixed with `[ ]` (indicating multiple selections) or `( )` (indicating single selection) to show the current selection status.
+
+:::caution
+Using the `Enter` key does not select any item. It executes the `<Ok>` command directly.
+:::.
+
+Use the `Esc` key to return to the previous menu.
+
+## System Maintenance
+
+This menu contains the following options:
+
+```bash
+┌──────────────────────────────────┤ RSETUP ├──────────────────────────────────┐
+│ System Maintenance                                                           │
 │                                                                              │
-│                                                                              │
-│                                                                              │
-│                                                                              │
-│                                                                              │
-│                                                                              │
-│                                                                              │
-│                                                                              │
+│                         System Update                                        │
+│                         Update Bootloader                                    │
+│                         Update SPI Bootloader                                │
+│                         Update eMMC Boot partition                           │
 │                                                                              │
 │                     <Ok>                         <Cancel>                    │
 │                                                                              │
 └──────────────────────────────────────────────────────────────────────────────┘
 ```
 
-**Note: The menu shown may differ slightly.**  
+### System Update
 
-Use `up` or `down` key to move the highlighted selection between available options.
+This option will update the packages installed on your system to the latest release.
 
-Use `right` or `left` key will jump out of the options menu and take you to `<Ok>` and `<Cancel>` buttons.
+Since RadxaOS provides some packages that conflict with the upstream Debian, it is recommended to update your system in this way to ensure system consistency.
 
-Alternatively, you can use the `Tab` key to switch between these.
+### Update Bootloader
 
-Use `Enter` key to go to the corresponding option.
+:::caution
+Updating the bootloader carries the risk that the system may not boot. Please perform this operation only if the data has been backed up.
+:::
 
-Use `Esc` key to go back to previous menu.
+This option updates the bootloader on the disk where the root file system is located.
 
-## System Maintaince
+:::warning
+This option only applies to scenarios where the boot device and the system device are the same.  
+This option can be used if you are booting directly after installing the system (i.e., without setting up customized boot options).
+:::
 
-You can update **System** and **Bootloader** on this option.  
-*Warning: Upgrading the bootloader may pose a risk of failure to boot, do not upgrade unless necessary.*  
+### Update SPI Bootloader
+
+:::caution
+Updating the bootloader carries the risk that the system may not boot. Please perform this operation only if the data has been backed up.
+:::.
+
+This option updates the bootloader on the SPI Flash.
+
+:::tip
+This option is for scenarios where you need to boot from an NVMe SSD or USB mass storage device.  
+Not all products support SPI booting.
+:::.
+
+### Update eMMC Boot partition
+
+:::caution
+Updating the bootloader carries the risk that the system may not boot. Please perform this operation only if the data has been backed up.
+:::.
+
+This option updates the bootloader on the eMMC Boot partition.
+
+:::tip
+This option is for scenarios where you need to boot from an NVMe SSD or USB mass storage device.  
+Not all products support booting from an eMMC Boot partition.  
+Rockchip SoC-based products do not support eMMC Boot partition booting.
+:::
 
 ## Hardware
 

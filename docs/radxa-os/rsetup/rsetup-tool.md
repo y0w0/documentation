@@ -1,23 +1,23 @@
 ﻿---
-sidebar_label: 'rsetup工具介绍'
+sidebar_label: '功能介绍'
 sidebar_position: 0
 ---
 
 # 简介
 
-`rsetup` 是瑞莎团队开发的瑞莎系统设置工具。要进入配置工具，在终端键入以下内容：  
+`rsetup` 是瑞莎开发的系统设置工具。
 
-```
-rsetup  
-```
+要启动 `rsetup`，请直接在终端中执行 `rsetup` 命令，或从系统菜单中找到 `rsetup` 应用：
 
-输入正确密码后，可进入rsetup主页面：  
+:::caution
+`rsetup` 运行时需要管理员权限，请确保你拥有 `sudo` 权限。
+:::
 
-```
+```bash
 ┌──────────────────────────────────┤ RSETUP ├──────────────────────────────────┐
 │ Please select an option below:                                               │
 │                                                                              │
-│                             System Maintaince                                │
+│                             System Maintenance                               │
 │                             Hardware                                         │
 │                             Overlays                                         │
 │                             Connectivity                                     │
@@ -25,37 +25,95 @@ rsetup
 │                             Localization                                     │
 │                             About                                            │
 │                                                                              │
+│                     <Ok>                         <Cancel>                    │
 │                                                                              │
+└──────────────────────────────────────────────────────────────────────────────┘
+```
+
+:::caution
+上述列出的选项仅供参考，请以实际程序输出为准。
+:::
+
+## 界面操作
+
+使用 `Up` 和 `Down` 键来切换选项。当前选中的项目会高亮显示。
+
+使用 `Tab` 键来切换菜单区域和命令区域。
+
+使用 `Left` 和 `Right` 键来切换 `<Ok>` 和 `<Cancel>` 命令。使用 `Enter` 键来执行选中的命令。  
+当命令没有被选中时按下 `Enter` 键，会立即执行 `<Ok>` 命令。
+
+使用 `Space` 键选择选项。选项会包含 `[ ]` （多项选择） 或 `( )` （单项选择）前缀来显示当前的选择状态。
+
+:::caution
+使用 `Enter` 键不会选择选项。它会直接执行 `<Ok>` 命令。
+:::
+
+使用 `Esc` 键回到前一个菜单。
+
+## System Maintenance
+
+本菜单包含以下选项：
+
+```bash
+┌──────────────────────────────────┤ RSETUP ├──────────────────────────────────┐
+│ System Maintenance                                                           │
 │                                                                              │
-│                                                                              │
-│                                                                              │
-│                                                                              │
-│                                                                              │
-│                                                                              │
-│                                                                              │
-│                                                                              │
+│                         System Update                                        │
+│                         Update Bootloader                                    │
+│                         Update SPI Bootloader                                │
+│                         Update eMMC Boot partition                           │
 │                                                                              │
 │                     <Ok>                         <Cancel>                    │
 │                                                                              │
 └──────────────────────────────────────────────────────────────────────────────┘
 ```
 
-**注意：不同的产品显示的菜单可能略有不同。**  
+### System Update
 
-使用 `up` (方向上)或 `down` (方向下)键来选择对应的设置项，选中的项会高亮。
+本选项会更新你的系统中安装的软件包到最新状态。
 
-使用 `right` (方向右)或 `left` (方向左)键将从选项菜单移到 `<Ok>` 和 `<Cancel>` 选项。
+由于 RadxaOS 提供了一些和上游 Debian 有所冲突的软件包，为了保证系统一致性，建议通过此方式进行系统更新。
 
-或者，你可以使用 `Tab` 键在这些之间切换。
+### Update Bootloader
 
-使用 `Enter` 键转到相应的选项。
+:::caution
+更新启动器有系统无法启动的风险。请在数据已备份的前提下进行本操作。
+:::
 
-使用`Esc`键回到前一个菜单。
+本选项会更新根文件系统所在磁盘上的启动器。
 
-## System Maintaince选项
+:::warning
+本选项仅适用于启动设备和系统设备是同一设备的场景。  
+如果你是在安装完系统后直接启动的话（也即，没有使用定制化的启动选项），则可以使用本选项。
+:::
 
-你可以在这个选项上更新**System**和**Bootloader**。  
-***警告： 升级Bootloader可能带来无法启动的风险，除非必要，否则不要升级。*** 
+### Update SPI Bootloader
+
+:::caution
+更新启动器有系统无法启动的风险。请在数据已备份的前提下进行本操作。
+:::
+
+本选项会更新 SPI Flash 上的启动器。
+
+:::tip
+本选项适用于需要从 NVMe 固态硬盘或 USB 大容量存储设备进行启动的场景。  
+并非所有产品均支持 SPI 启动。
+:::
+
+### Update eMMC Boot Bootloader
+
+:::caution
+更新启动器有系统无法启动的风险。请在数据已备份的前提下进行本操作。
+:::
+
+本选项会更新 eMMC Boot 分区上的启动器。
+
+:::tip
+本选项适用于需要从 NVMe 固态硬盘或 USB 大容量存储设备进行启动的场景。  
+并非所有产品均支持 eMMC Boot 分区启动。  
+基于 Rockchip SoC 的产品不支持 eMMC Boot 分区启动。
+:::
 
 ## Hardware选项
 

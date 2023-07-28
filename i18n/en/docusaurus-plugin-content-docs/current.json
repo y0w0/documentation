@@ -1,11 +1,11 @@
 {
-  "sidebar.tutorialSidebar.category.ROCK 3 家族": {
-    "message": "ROCK 3 Family"
+  "sidebar.tutorialSidebar.category.ROCK 3 认证": {
+    "message": "ROCK 3 Compliance"
   },
   "sidebar.tutorialSidebar.category.通用教程": {
     "message": "General Tutorial"
   },
-  "sidebar.tutorialSidebar.category.ROCK 3 家族.link.generated-index.description": {
+  "sidebar.tutorialSidebar.category.ROCK 3 认证.link.generated-index.description": {
     "message": "ROCK 3 family compliance."
   },
   "sidebar.tutorialSidebar.category.ROCK 3 系列.link.generated-index.description": {
@@ -15,12 +15,12 @@
     "message": "ROCK 3 Family",
     "description": "The label for category ROCK 3 Family in sidebar tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.category.ROCK 4 家族": {
-    "message": "ROCK 4 Family",
+  "sidebar.tutorialSidebar.category.ROCK 4 认证": {
+    "message": "ROCK 4 Compliance",
     "description": "The label for category ROCK 4 Family in sidebar tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.category.ROCK 4 家族.link.generated-index.description": {
-    "message": "ROCK 4 family compliance."
+  "sidebar.tutorialSidebar.category.ROCK 4 认证.link.generated-index.description": {
+    "message": "ROCK 4 family Compliance."
   },
   "sidebar.tutorialSidebar.category.ROCK 4 系列": {
     "message": "ROCK 4 Family",
@@ -29,11 +29,11 @@
   "sidebar.tutorialSidebar.category.ROCK 4 系列.link.generated-index.description": {
     "message": "ROCK 4 Series is a high-performance SBC based on RK3399, RK3399-T and OP1 SoC."
   },
-  "sidebar.tutorialSidebar.category.ROCK 5 家族": {
-    "message": "ROCK 5 Family"
+  "sidebar.tutorialSidebar.category.ROCK 5 认证": {
+    "message": "ROCK 5 Compliance"
   },
-  "sidebar.tutorialSidebar.category.ROCK 5 家族.link.generated-index.description": {
-    "message": "ROCK 5 family compliance."
+  "sidebar.tutorialSidebar.category.ROCK 5 认证.link.generated-index.description": {
+    "message": "ROCK 5 family Compliance."
   },
   "sidebar.tutorialSidebar.category.ROCK 5 系列": {
     "message": "ROCK 5 Family"

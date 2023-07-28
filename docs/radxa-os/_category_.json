@@ -1,9 +1,9 @@
 {
-  "label": "瑞莎官方操作系统",
+  "label": "瑞莎操作系统",
   "position": 20,
   "link": {
     "type": "generated-index",
-	  "slug": "/radxa-os",
-    "description": "Radxa OS的使用"
+    "slug": "/radxa-os",
+    "description": "RadxaOS 使用手册"
   }
 }

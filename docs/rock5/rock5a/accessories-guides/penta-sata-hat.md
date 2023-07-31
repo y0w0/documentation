@@ -70,3 +70,63 @@ radxa@rock-5a:~$
 
 2、当系统识别到Penta SATA HAT时，你可以查看到SATA devices(sda/sdb/sdc/sdd)。
 
+## 软件支持
+
+我们提供了一个安装脚本来帮助您安装我们提供的软件，它能让 Penta 顶板显示信息和控制风扇。
+
+```
+curl -sL https://rock.sh/get-rockpi-penta | sudo -E bash -
+```
+
+只需复制上面的命令并将其粘贴到终端并按回车键即可。
+
+### 软件配置
+
+编辑 /etc/rockpi-penta.conf, 并使用下面的命令使它生效。
+
+```
+sudo systemctl restart rockpi-penta.service
+```
+
+### 默认配置
+
+下面是 /etc/rockpi-penta.conf 的默认配置，你可以根据注释进行修改。
+
+```
+[fan]
+# When the temperature is above lv0 (35'C), the fan at 25% power,
+# and lv1 at 50% power, lv2 at 75% power, and lv3 at 100% power.
+# When the temperature is below lv0, the fan is turned off.
+# You can change these values if necessary.
+lv0 = 35
+lv1 = 40
+lv2 = 45
+lv3 = 50
+ 
+[key]
+# You can customize the function of the key, currently available functions are
+# slider: oled display next page
+# switch: fan turn on/off switch
+# reboot, poweroff
+# If you have any good suggestions for key functions, 
+# please add an issue on https://rock.sh/rockpi-sata
+click = slider
+twice = switch
+press = none
+ 
+[time]
+# twice: maximum time between double clicking (seconds)
+# press: long press time (seconds)
+twice = 0.7
+press = 1.8
+ 
+[slider]
+# Whether the oled auto display next page and the time interval (seconds)
+auto = true
+time = 10
+ 
+[oled]
+# Whether rotate the text of oled 180 degrees, whether use Fahrenheit
+rotate = false
+f-temp = false
+```

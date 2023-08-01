@@ -28,6 +28,5 @@ ROCK 3A 配备了四核 Cortex-A55 ARM 处理器和 LPDDR4 运行内存，
 |USB|一个 USB 3.0 OTG, 位于上方的 USB 3.0 端口，通过硬件开关来切换硬件功能<br/>一个 USB 3.0 HOST<br/>两个 USB 2.0 HOST|
 |以太网|支持以太网供电 (PoE) 的千兆以太网<br/>PoE 供电需要额外选购的 HAT|
 |IO|40 pin GPIO 扩展座|
-|其他|RTC<br/>选装 RTC 电池座子|
 |电源|USB PD, 支持 USB Type-C PD 2.0, 9V/2A, 12V/2A, 15V/2A, 20V/2A<br/>Qualcomm® Quick ChargeTM: 支持 QC 3.0/2.0 充电协议, 9V/2A, 12V/1.5A|
 |尺寸|85mm x 56mm|

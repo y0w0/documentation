@@ -28,6 +28,5 @@ PCIe 3.0, PCIe 2.0, 40-pin color expansion header, RTC. Also, ROCK 3A supports U
 |USB|USB 3.0 OTG X1, hardware switch for host/device switch, upper one<br/>USB 3.0 HOST X1<br/>USB 2.0 HOST X2|
 |Ethernet|GbE LAN with Power over Ethernet (PoE) support<br/>additional HAT is required for powering from PoE|
 |IO|40-pin expansion header|
-|Others|RTC<br/>RTC battery connector for time backup(optional)|
 |Power|USB PD, support USB Type-C PD 2.0, 9V/2A, 12V/2A, 15V/2A, 20V/2A<br/>Qualcomm® Quick ChargeTM: Supports QC 3.0/2.0 adapter, 9V/2A, 12V/1.5A|
 |Size|85mm x 56mm|

@@ -8,9 +8,7 @@ import TabItem from '@theme/TabItem';
 
 # ROCK 3A GPIO 定义
 
-## GPIO 电压
-
-RK3568 有两种 IO 电压：1.8V/3.3V。对于 ROCK 3A，40 引脚 HEADER 上 GPIO 引脚的高电平电压为 3.3V。
+## 电压范围
 
 | Type      | Voltage       | Tolerance |
 | ---------- | ------------- | --------- |

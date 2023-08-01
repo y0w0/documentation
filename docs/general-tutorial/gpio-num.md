@@ -54,7 +54,7 @@ gpiochip0 - 85 lines:
         ......
 ```
 
-你也可以通过 gpiofind 命令进行查询：
+你也可以通过 `gpiofind` 命令进行查询：
 
 ```bash
 radxa@radxa-zero2:~$ sudo gpiofind PIN_27

@@ -10,8 +10,6 @@ import TabItem from '@theme/TabItem';
 
 ## GPIO Voltage
 
-RK3568 have two IO voltages, 1.8V/3.3V. For ROCK 3A, the high level voltage of GPIO pin on 40-PIN HEADER is 3.3V.
-
 | Type       | Voltage       | Tolerance |
 | ---------- | ------------- | --------- |
 | GPIO	     | 3.3V          | 3.63V     |

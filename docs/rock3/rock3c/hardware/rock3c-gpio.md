@@ -50,49 +50,6 @@ ROCK 3C 提供了一个40 pin 针脚的 GPIO 座子，与市场上大多数的 S
 [**wiringX GPIO 映射**](https://github.com/nascs/wiringX/blob/rock3/docs/source/platforms/radxa/rock3c.rst)
 
 
-- Rockchip RK3566 的 GPIO 有5个库，GPIO0 到 GPIO4，每个库有32个引脚，命名如下。
+## GPIO 编号
 
-```
-GPIO0_A0 ~ A7 
-GPIO0_B0 ~ B7
-GPIO0_C0 ~ C7
-GPIO0_D0 ~ D7
-   
-GPIO1_A0 ~ A7
-....
-GPIO1_D0 ~ D7
-```
-```
-GPIO2_A0 ~ A7
-....
-GPIO2_D0 ~ D7
-```
-```
-GPIO3_A0 ~ A7
-....
-GPIO3_D0 ~ D7
-```
-```
-GPIO4_A0 ~ A7
-....
-GPIO4_D0 ~ D7
-```
-
-- 对于Rockchip 4.19 kernel，GPIO number 的计算方式如下，以 GPIO4_D5 为例：
-
-```
-GPIO4_D5 = 32*4 + 8*3 + 5 = 157
-(A=0, B=1, C=2, D=3)
-```
-
-![GPIO_numbew](/img/configuration/gpio-number.webp)
-
-- 设置 GPIO4_D5 输出
-```bash
-# cd /sys/class/gpio
-# echo 157 > export
-# cd gpio157
-# echo out > direction
-# echo 1 > value     # output high
-# echo 0 > value     # output low
-```
+如果你需要计算 GPIO 编号，请参阅 [GPIO 编号计算指导](/general-tutorial/rk-gpio-num)。

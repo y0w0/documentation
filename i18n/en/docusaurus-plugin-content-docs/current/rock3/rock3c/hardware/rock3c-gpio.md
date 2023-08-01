@@ -49,50 +49,6 @@ Hardware version V1.1/V1.2 ：
 
 [**wiringX GPIO mapping**](https://github.com/nascs/wiringX/blob/rock3/docs/source/platforms/radxa/rock3c.rst)
 
+## GPIO Number
 
-- Rockchip RK3566 GPIO has 5 banks, GPIO0 to GPIO4, each bank has 32pins, naming as below:
-
-```
-GPIO0_A0 ~ A7 
-GPIO0_B0 ~ B7
-GPIO0_C0 ~ C7
-GPIO0_D0 ~ D7
-   
-GPIO1_A0 ~ A7
-....
-GPIO1_D0 ~ D7
-```
-```
-GPIO2_A0 ~ A7
-....
-GPIO2_D0 ~ D7
-```
-```
-GPIO3_A0 ~ A7
-....
-GPIO3_D0 ~ D7
-```
-```
-GPIO4_A0 ~ A7
-....
-GPIO4_D0 ~ D7
-```
-
-- For Rockchip 4.19 kernel, the GPIO number can be calculated as below, take GPIO4_D5 as an example:
-
-```
-GPIO4_D5 = 32*4 + 8*3 + 5 = 157
-(A=0, B=1, C=2, D=3)
-```
-
-![GPIO_numbew](/img/configuration/gpio-number.webp)
-
-- To set GPIO4_D5 output
-```bash
-# cd /sys/class/gpio
-# echo 157 > export
-# cd gpio157
-# echo out > direction
-# echo 1 > value     # output high
-# echo 0 > value     # output low
-```
+If you want to calculate the GPIO number,please check [GPIO Number Calculation Guide](/general-tutorial/rk-gpio-num).

@@ -62,3 +62,64 @@ radxa@rock-5a:~$
 ```
 
 2. As you can see, the system has recognized the SATA devices(sda/sdb/sdc/sdd).
+
+## Software support
+
+We provide an installation script to help you install the software we provide, which makes the Penta Top Board to display information and control the Fan.
+
+```
+curl -sL https://rock.sh/get-rockpi-penta | sudo -E bash -
+```
+
+Just copy the command above and paste it into the terminal and press enter.
+
+### Software configuration
+
+Just edit /etc/rockpi-penta.conf, take it effect by below command.
+
+```
+sudo systemctl restart rockpi-penta.service
+```
+
+### Default configuration
+
+Below is the default /etc/rockpi-penta.conf, which you can modify according to the comments.
+
+```
+[fan]
+# When the temperature is above lv0 (35'C), the fan at 25% power,
+# and lv1 at 50% power, lv2 at 75% power, and lv3 at 100% power.
+# When the temperature is below lv0, the fan is turned off.
+# You can change these values if necessary.
+lv0 = 35
+lv1 = 40
+lv2 = 45
+lv3 = 50
+ 
+[key]
+# You can customize the function of the key, currently available functions are
+# slider: oled display next page
+# switch: fan turn on/off switch
+# reboot, poweroff
+# If you have any good suggestions for key functions, 
+# please add an issue on https://rock.sh/rockpi-sata
+click = slider
+twice = switch
+press = none
+ 
+[time]
+# twice: maximum time between double clicking (seconds)
+# press: long press time (seconds)
+twice = 0.7
+press = 1.8
+ 
+[slider]
+# Whether the oled auto display next page and the time interval (seconds)
+auto = true
+time = 10
+ 
+[oled]
+# Whether rotate the text of oled 180 degrees, whether use Fahrenheit
+rotate = false
+f-temp = false
+```

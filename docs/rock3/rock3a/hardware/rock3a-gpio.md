@@ -1,28 +1,28 @@
----
-sidebar_label: 'ROCK 3A GPIO ¶¨Òå'
+ï»¿---
+sidebar_label: 'ROCK 3A GPIO å®šä¹‰'
 sidebar_position: 50
 ---
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# ROCK 3A GPIO ¶¨Òå
+# ROCK 3A GPIO å®šä¹‰
 
-## GPIO µçÑ¹
+## GPIO ç”µåŽ‹
 
-RK3568 ÓÐÁ½ÖÖ IO µçÑ¹£º1.8V/3.3V¡£¶ÔÓÚ ROCK 3A£¬40 Òý½Å HEADER ÉÏ GPIO Òý½ÅµÄ¸ßµçÆ½µçÑ¹Îª 3.3V¡£
+RK3568 æœ‰ä¸¤ç§ IO ç”µåŽ‹ï¼š1.8V/3.3Vã€‚å¯¹äºŽ ROCK 3Aï¼Œ40 å¼•è„š HEADER ä¸Š GPIO å¼•è„šçš„é«˜ç”µå¹³ç”µåŽ‹ä¸º 3.3Vã€‚
 
 | GPIO       | Voltage       | Tolerance |
 | ---------- | ------------- | --------- |
 | GPIO3_C0   | 3.3V          | 3.63V     |
 | ADC_IN5    | 1.8V          | 1.98V     |  
 
-## GPIO ½Ó¿Ú
+## GPIO æŽ¥å£
 
-ROCK 3A Ìá¹©Ò»¸ö 40 pin GPIO À©Õ¹×ù£¬¼æÈÝÊÐ³¡ÉÏ´ó¶àÊý´«¸ÐÆ÷Ó¦ÓÃ¡£
+ROCK 3A æä¾›ä¸€ä¸ª 40 pin GPIO æ‰©å±•åº§ï¼Œå…¼å®¹å¸‚åœºä¸Šå¤§å¤šæ•°ä¼ æ„Ÿå™¨åº”ç”¨ã€‚
 
 :::caution
-ÌáÊ¾£ºÊµ¼Ê¼æÈÝÐÔÒÔÊµ¼ÊÊ¹ÓÃÇé¿öÎª×¼¡£
+æç¤ºï¼šå®žé™…å…¼å®¹æ€§ä»¥å®žé™…ä½¿ç”¨æƒ…å†µä¸ºå‡†ã€‚
 :::
 
 <Tabs>
@@ -55,9 +55,9 @@ ROCK 3A Ìá¹©Ò»¸ö 40 pin GPIO À©Õ¹×ù£¬¼æÈÝÊÐ³¡ÉÏ´ó¶àÊý´«¸ÐÆ÷Ó¦ÓÃ¡£
 
 </div>
 
-### ¹ØÓÚ V1.3/V1.31 Ó²¼þ°æ±¾µÄ 40-pin À©Õ¹×ùµÄ²¹³ä 
+### å…³äºŽ V1.3/V1.31 ç¡¬ä»¶ç‰ˆæœ¬çš„ 40-pin æ‰©å±•åº§çš„è¡¥å…… 
 
- - ±êÓÐ³ÈÉ«µÄÒý½ÅÓÃÓÚ debug console¡£
+ - æ ‡æœ‰æ©™è‰²çš„å¼•è„šç”¨äºŽ debug consoleã€‚
  - PWM: x7, PWM1 / PWM2 / PWM9 / PWM12 / PWM13 / PWM14 / PWM15
  - SPI: x1, SPI3
  - I2C: x3, I2C1 / I2C2 / I2C3
@@ -65,9 +65,9 @@ ROCK 3A Ìá¹©Ò»¸ö 40 pin GPIO À©Õ¹×ù£¬¼æÈÝÊÐ³¡ÉÏ´ó¶àÊý´«¸ÐÆ÷Ó¦ÓÃ¡£
  - ADC: x1, SARADC_VIN5
  - CAN: x2, CAN0 / CAN1
  - USB 2.0: x1, USB_DP(PIN#27) + USB_DM(PIN#28)
-	- µ±ÎÒÃÇÑ¡Ôñ¸Ã USB ¹¦ÄÜÊ±£¬ÐèÒª°´ÒÔÏÂ·½Ê½ÐÞ¸ÄÓ²¼þ£º
-	- -> ÒÆ³ý R90526 R90527
-	- -> Ìí¼Ó R90536 R90537
+	- å½“æˆ‘ä»¬é€‰æ‹©è¯¥ USB åŠŸèƒ½æ—¶ï¼Œéœ€è¦æŒ‰ä»¥ä¸‹æ–¹å¼ä¿®æ”¹ç¡¬ä»¶ï¼š
+	- -> ç§»é™¤ R90526 R90527
+	- -> æ·»åŠ  R90536 R90537
 
 </TabItem>
 <TabItem value="3A V1.2" label="Hardware V1.2">
@@ -99,9 +99,9 @@ ROCK 3A Ìá¹©Ò»¸ö 40 pin GPIO À©Õ¹×ù£¬¼æÈÝÊÐ³¡ÉÏ´ó¶àÊý´«¸ÐÆ÷Ó¦ÓÃ¡£
 
 </div>
 
-### ¹ØÓÚ V1.2 Ó²¼þ°æ±¾µÄ 40-pin À©Õ¹×ùµÄ²¹³ä
+### å…³äºŽ V1.2 ç¡¬ä»¶ç‰ˆæœ¬çš„ 40-pin æ‰©å±•åº§çš„è¡¥å……
 
- - ±êÓÐ³ÈÉ«µÄÒý½ÅÓÃÓÚ debug console¡£
+ - æ ‡æœ‰æ©™è‰²çš„å¼•è„šç”¨äºŽ debug consoleã€‚
  - PWM: x7, PWM1 / PWM2 / PWM9 / PWM12 / PWM13 / PWM14 / PWM15
  - SPI: x1, SPI3
  - I2C: x2, I2C2 / I2C3
@@ -109,13 +109,13 @@ ROCK 3A Ìá¹©Ò»¸ö 40 pin GPIO À©Õ¹×ù£¬¼æÈÝÊÐ³¡ÉÏ´ó¶àÊý´«¸ÐÆ÷Ó¦ÓÃ¡£
  - ADC: x1, ADC_IN5
  - CAN: x1, CAN1
  - USB 2.0: x1, USB_DP(PIN#27) + USB_DM(PIN#28)
-	- µ±ÎÒÃÇÑ¡Ôñ¸Ã USB ¹¦ÄÜÊ±£¬ÐèÒª°´ÒÔÏÂ·½Ê½ÐÞ¸ÄÓ²¼þ£º
-	- -> ÒÆ³ý R90526 R90527
-	- -> Ìí¼Ó R90536 R90537
+	- å½“æˆ‘ä»¬é€‰æ‹©è¯¥ USB åŠŸèƒ½æ—¶ï¼Œéœ€è¦æŒ‰ä»¥ä¸‹æ–¹å¼ä¿®æ”¹ç¡¬ä»¶ï¼š
+	- -> ç§»é™¤ R90526 R90527
+	- -> æ·»åŠ  R90536 R90537
 
 </TabItem>
 </Tabs>
 
-## GPIO ±àºÅ
+## GPIO ç¼–å·
 
-Èç¹ûÄãÐèÒª¼ÆËã GPIO ±àºÅ£¬Çë²ÎÔÄ [GPIO ±àºÅ¼ÆËãÖ¸µ¼](/general-tutorial/rk-gpio-num)¡£
+å¦‚æžœä½ éœ€è¦è®¡ç®— GPIO ç¼–å·ï¼Œè¯·å‚é˜… [GPIO ç¼–å·è®¡ç®—æŒ‡å¯¼](/general-tutorial/rk-gpio-num)ã€‚

@@ -52,4 +52,4 @@ ROCK 3C 提供了一个40 pin 针脚的 GPIO 座子，与市场上大多数的 S
 
 ## GPIO 编号
 
-如果你获取计算 GPIO 编号，请参阅 [GPIO 编号介绍](/general-tutorial/gpio-num)。
+如果你需要获取 GPIO 编号，请参阅 [GPIO 编号介绍](/general-tutorial/gpio-num)。

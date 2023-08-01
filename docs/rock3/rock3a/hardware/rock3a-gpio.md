@@ -118,4 +118,4 @@ ROCK 3A 提供一个 40 pin GPIO 扩展座，兼容市场上大多数传感器�
 
 ## GPIO 编号
 
-如果你需要计算 GPIO 编号，请参阅 [GPIO 编号计算指导](/general-tutorial/gpio-num)。
+如果你需要获取 GPIO 编号，请参阅 [GPIO 编号介绍](/general-tutorial/gpio-num)。

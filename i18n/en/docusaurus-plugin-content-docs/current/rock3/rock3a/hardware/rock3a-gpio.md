@@ -53,6 +53,20 @@ ROCK 3A provides a 40pin GPIO socket, which is compatible with most sensor appli
 
 </div>
 
+### More details about 40-pin Header In V1.3+ 
+
+ - Pins marked with color orange are designed for debug console.
+ - PWM: x7, PWM1 / PWM2 / PWM9 / PWM12 / PWM13 / PWM14 / PWM15
+ - SPI: x1, SPI3
+ - I2C: x3, I2C1 / I2C2 / I2C3
+ - UART: x6, UART0 / UART3 / UART5 / UART7 / UART8 / UART9
+ - ADC: x1, SARADC_VIN5
+ - CAN: x2, CAN0 / CAN1
+ - USB 2.0: x1, USB_DP(PIN#27) + USB_DM(PIN#28)
+	- When we select this USB function, you need to modify the hardware like this:
+	- -> Remove R90526 R90527
+	- -> Add R90536 R90537
+
 </TabItem>
 <TabItem value="v1_2" label="v1.2">
 
@@ -82,6 +96,21 @@ ROCK 3A provides a 40pin GPIO socket, which is compatible with most sensor appli
 |   	    |			 |			  |            | 	GND		 |<div className='black'>39</div>  | <div className='green'>40</div> | GPIO3_A5	   |		   |			|					|   101     |
 
 </div>
+
+### More details about 40-pin Header In V1.2
+
+ - Pins marked with color orange are designed for debug console.
+ - PWM: x7, PWM1 / PWM2 / PWM9 / PWM12 / PWM13 / PWM14 / PWM15
+ - SPI: x1, SPI3
+ - I2C: x2, I2C2 / I2C3
+ - UART: x6, UART0 / UART3 / UART5 / UART7 / UART8 / UART9
+ - ADC: x1, ADC_IN5
+ - CAN: x1, CAN1
+ - USB 2.0: x1, USB_DP(PIN#27) + USB_DM(PIN#28)
+	- When we select this USB function, you need to modify the hardware like this:
+	- -> Remove R90526 R90527
+	- -> Add R90536 R90537
+
 </TabItem>
 </Tabs>
 

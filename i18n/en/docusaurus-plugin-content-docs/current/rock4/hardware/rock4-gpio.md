@@ -69,4 +69,4 @@ Not all functions can be turned on at the same time. Only one function can be as
 
 ## GPIO Number
 
-If you want to calculate the GPIO number,please check [GPIO Number Calculation Guide](/general-tutorial/rk-gpio-num).
+If you want to get the GPIO number,please check [GPIO Number Introduction](/general-tutorial/gpio-num).

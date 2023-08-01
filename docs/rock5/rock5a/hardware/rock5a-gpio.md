@@ -47,4 +47,4 @@ ROCK 5A提供了一个40pin针脚的GPIO座子，兼容于市面上大部分传�
 
 ## GPIO 编号
 
-如果你需要计算 GPIO 编号，请参阅 [GPIO 编号计算指导](/general-tutorial/rk-gpio-num)。
+如果你获取计算 GPIO 编号，请参阅 [GPIO 编号介绍](/general-tutorial/gpio-num)。

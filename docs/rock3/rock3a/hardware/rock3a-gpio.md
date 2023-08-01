@@ -12,10 +12,10 @@ import TabItem from '@theme/TabItem';
 
 RK3568 有两种 IO 电压：1.8V/3.3V。对于 ROCK 3A，40 引脚 HEADER 上 GPIO 引脚的高电平电压为 3.3V。
 
-| GPIO       | Voltage       | Tolerance |
+| Type      | Voltage       | Tolerance |
 | ---------- | ------------- | --------- |
-| GPIO3_C0   | 3.3V          | 3.63V     |
-| ADC_IN5    | 1.8V          | 1.98V     |  
+| GPIO	     | 3.3V          | 3.63V     |
+| ADC	     | 1.8V          | 1.98V     |  
 
 ## GPIO 接口
 
@@ -26,7 +26,7 @@ ROCK 3A 提供一个 40 pin GPIO 扩展座，兼容市场上大多数传感器�
 :::
 
 <Tabs>
-<TabItem value="3A V1.3" label="Hardware V1.3&V1.31">  
+<TabItem value="v1_3" label="v1.3+">  
 
 <div className='gpio_style'>
 
@@ -55,7 +55,7 @@ ROCK 3A 提供一个 40 pin GPIO 扩展座，兼容市场上大多数传感器�
 
 </div>
 
-### 关于 V1.3/V1.31 硬件版本的 40-pin 扩展座的补充 
+### 关于 V1.3+ 硬件版本的 40-pin 扩展座的补充 
 
  - 标有橙色的引脚用于 debug console。
  - PWM: x7, PWM1 / PWM2 / PWM9 / PWM12 / PWM13 / PWM14 / PWM15
@@ -70,7 +70,7 @@ ROCK 3A 提供一个 40 pin GPIO 扩展座，兼容市场上大多数传感器�
 	- -> 添加 R90536 R90537
 
 </TabItem>
-<TabItem value="3A V1.2" label="Hardware V1.2">
+<TabItem value="v1_2" label="v1.2">
 
 <div className='gpio_style'>
 
@@ -118,4 +118,4 @@ ROCK 3A 提供一个 40 pin GPIO 扩展座，兼容市场上大多数传感器�
 
 ## GPIO 编号
 
-如果你需要计算 GPIO 编号，请参阅 [GPIO 编号计算指导](/general-tutorial/rk-gpio-num)。
+如果你需要计算 GPIO 编号，请参阅 [GPIO 编号计算指导](/general-tutorial/gpio-num)。

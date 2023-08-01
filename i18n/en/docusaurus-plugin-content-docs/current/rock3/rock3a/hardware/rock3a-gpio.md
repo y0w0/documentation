@@ -12,10 +12,10 @@ import TabItem from '@theme/TabItem';
 
 RK3568 have two IO voltages, 1.8V/3.3V. For ROCK 3A, the high level voltage of GPIO pin on 40-PIN HEADER is 3.3V.
 
-| GPIO       | Voltage       | Tolerance |
+| Type       | Voltage       | Tolerance |
 | ---------- | ------------- | --------- |
-| GPIO3_C0   | 3.3V          | 3.63V     |
-| ADC_IN5    | 1.8V          | 1.98V     |  
+| GPIO	     | 3.3V          | 3.63V     |
+| ADC	     | 1.8V          | 1.98V     |  
 
 ## GPIO Interface
 
@@ -24,7 +24,7 @@ ROCK 3A provides a 40pin GPIO socket, which is compatible with most sensor appli
 **_Tips:_ The actual compatibility is subject to usage.**
 
 <Tabs>
-<TabItem value="3A V1.3" label="Hardware V1.3 V1.31">  
+<TabItem value="v1_3" label="v1.3+">  
 
 <div className='gpio_style'>
 
@@ -54,7 +54,7 @@ ROCK 3A provides a 40pin GPIO socket, which is compatible with most sensor appli
 </div>
 
 </TabItem>
-<TabItem value="3A V1.2" label="Hardware V1.2">
+<TabItem value="v1_2" label="v1.2">
 
 <div className='gpio_style'>
 
@@ -87,4 +87,4 @@ ROCK 3A provides a 40pin GPIO socket, which is compatible with most sensor appli
 
 ## GPIO Number
 
-If you want to calculate the GPIO number,please check [GPIO Number Calculation Guide](/general-tutorial/rk-gpio-num).
+If you want to get the GPIO number,please check [GPIO Number Introduction](/general-tutorial/gpio-num).

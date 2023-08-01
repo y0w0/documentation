@@ -51,4 +51,4 @@ Hardware version V1.1/V1.2 ：
 
 ## GPIO Number
 
-If you want to calculate the GPIO number,please check [GPIO Number Calculation Guide](/general-tutorial/rk-gpio-num).
+If you want to get the GPIO number,please check [GPIO Number Introduction](/general-tutorial/gpio-num).

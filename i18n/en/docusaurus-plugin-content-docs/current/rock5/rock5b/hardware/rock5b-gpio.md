@@ -50,4 +50,4 @@ ROCK 5B provides a 40pin GPIO socket, which is compatible with most sensor appli
 
 ## GPIO Number
 
-If you want to calculate the GPIO number,please check [GPIO Number Calculation Guide](/general-tutorial/rk-gpio-num).
+If you want to get the GPIO number,please check [GPIO Number Introduction](/general-tutorial/gpio-num).

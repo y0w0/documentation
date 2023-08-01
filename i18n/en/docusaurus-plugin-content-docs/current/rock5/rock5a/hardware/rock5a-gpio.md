@@ -44,48 +44,6 @@ ROCK 5A provides a 40pin GPIO socket, which is compatible with most sensor appli
 
 </div>
 
-- The GPIO of Rockchip RK3588 has 5 banks, GPIO0 to GPIO4, each bank has 32 pins, named as follows.
-```
-GPIO0_A0 ~ A7 
-GPIO0_B0 ~ B7
-GPIO0_C0 ~ C7
-GPIO0_D0 ~ D7
-   
-GPIO1_A0 ~ A7
-....
-GPIO1_D0 ~ D7
-```
-```
-GPIO2_A0 ~ A7
-....
-GPIO2_D0 ~ D7
-```
-```
-GPIO3_A0 ~ A7
-....
-GPIO3_D0 ~ D7
-```
-```
-GPIO4_A0 ~ A7
-....
-GPIO4_D0 ~ D7
-```
+## GPIO Number
 
-- For Rockchip 5.10 kernel, the GPIO number is calculated as follows, taking GPIO4_D5 as an example:
-
-```
-GPIO4_D5 = 32*4 + 8*3 + 5 = 157
-(A=0, B=1, C=2, D=3)
-```
-
-![GPIO_numbew](/img/configuration/gpio-number.webp)
-
-- Set GPIO4_D5 output
-```bash
-# cd /sys/class/gpio
-# echo 157 > export
-# cd gpio157
-# echo out > direction
-# echo 1 > value     # output high
-# echo 0 > value     # output low
-```
+If you want to calculate the GPIO number,please check [GPIO Number Calculation Guide](/general-tutorial/rk-gpio-num).

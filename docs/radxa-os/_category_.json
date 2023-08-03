@@ -3,7 +3,7 @@
   "position": 20,
   "link": {
     "type": "generated-index",
-	"slug": "/radxa-os",
+	  "slug": "/radxa-os",
     "description": "Radxa OS的使用"
   }
 }

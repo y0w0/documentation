@@ -6,18 +6,19 @@ sidebar_position: 3
 
 # Radxa Display 8 HD使用教程
 
-![显示屏安装-01](/zh/img/rock5b/display-8hd-01.png)
-![显示屏安装-02](/zh/img/rock5b/display-8hd-02.png)
-- 准备好Radxa Display 8HD 或者Radxa Display 10HD，通过FPC线接上ROCK5B。
-- 启动后，添加一行到文件/boot/config.txt末尾
+![显示屏安装-01](/img/rock5b/rock5b-display-8hd-FPC.webp)  
+![显示屏安装-02](/img/rock5b/rock5b-display-8hd-connected.webp)  
+- 准备好 Radxa Display 8HD 或者 Radxa Display 10HD，通过 FPC 线接上 ROCK 5B。  
+
+- 通过左下角 Application Launcher 打开 Kconsole 终端, 运行 `rsetup` 命令：
+
+```bash
+radxa@rock-5b:~$ rsetup
 ```
-dtoverlay=rock-5b-radxa-display-8hd
-# 或者
-dtoverlay=rock-5b-radxa-display-10hd
-```
-- root权限执行命令，然后重启设备即可。
-```
-$ sudo su
-# update_extlinux.sh
-# reboot
-```
+
+- 通过[启用设备树指导](/radxa-os/rsetup/devicetree)来启用瑞莎 8 寸触摸屏的 Overlay。
+
+:::caution [注意]
+1. 请启用 `[] Enable Radxa Display 8 HD` 项 Overlay。  
+2. 在启用成功显示 `[*] Enable Radxa Display 8 HD` 后退出重启才能使配置生效。  
+:::

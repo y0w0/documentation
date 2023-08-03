@@ -6,43 +6,40 @@ sidebar_position: 4
 
 # Radxa Camera 4K 使用教程
 
-![Camera-4K安装-01](/zh/img/rock5b/camera-01.png)
-![Camera-4K安装-02](/zh/img/rock5b/camera-02.png)
-![Camera-4K安装-03](/zh/img/rock5b/camera-03.png)
-- 准备好Radxa Camera 4K，通过FPC线接上ROCK5B。
-- 启动后，添加一行到文件/boot/config.txt末尾
-```
-dtoverlay=rock-5ab-camera-imx415
-```
-- root权限执行命令，然后重启设备即可。
-```
-$ sudo su
-# update_extlinux.sh
-# reboot
+![Camera-4K 安装-01](/img/rock5b/rock5b-with-4k-camera-FPC.webp)  
+![Camera-4K 安装-02](/img/rock5b/rock5b-4k-camera-connected.webp)  
+![Camera-4K 安装-03](/img/rock5b/rock5b-4k-camera.webp)  
+- 准备好 Radxa Camera 4K，通过 FPC 线接上 ROCK 5B。  
+
+- 通过左下角 Application Launcher 打开 Kconsole 终端, 运行 `rsetup` 命令：
+
+```bash
+radxa@rock-5b:~$ rsetup
 ```
 
-- 重启设备后，你将看到/dev/video0到/dev/video19。
-- 检测摄像头拓扑图
-```
-media-ctl -p
-```
-- 开启rkaiq摄像头预览
+- 通过[启用设备树指导](/radxa-os/rsetup/devicetree)来启用瑞莎 4K 摄像头的 Overlay。
 
-- 执行脚本，需要root权限
-```
-$ sudo su
-# test_camera_rkaiq.sh
+:::caution [注意]
+1. 请启用 `[] Enable Radxa Camera 4K` 项 Overlay。  
+2. 在启用成功显示 `[*] Enable Radxa Camera 4K` 后退出重启才能使配置生效。  
+:::
+
+## 测试 Radxa Camera 4K
+
+你也可以使用终端命令打开相机预览:
+
+```bash
+gst-launch-1.0 v4l2src device=/dev/video11 io-mode=4 ! videoconvert ! video/x-raw,format=NV12,width=1920,height=1080 ! xvimagesink;   
 ```
 
-- test_camera_rkaiq脚本代码
+使用以下命令拍照:
+
+```bash
+gst-launch-1.0 v4l2src device=/dev/video11 io-mode=4 ! videoconvert ! video/x-raw,format=NV12,width=1920,height=1080 ! jpegenc ! multifilesink location=file.name.jpg;  
 ```
-# cat /usr/local/bin/test_camera_rkaiq.sh
-#!/bin/bash
 
-#export GST_DEBUG=*:5
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib/aarch64-linux-gnu/gstreamer-1.0
-echo "Start RKAIQ Camera Preview!"
+使用以下命令拍摄视频:
 
-# Example: Radxa Camera 4K on ROCK 5B
-gst-launch-1.0 v4l2src device=/dev/video11 ! video/x-raw,format=NV12,width=3840,height=2160, framerate=30/1 ! xvimagesink
+```bash
+gst-launch-1.0 v4l2src num-buffers=512 device=/dev/video11 io-mode=4 ! videoconvert ! video/x-raw, format=NV12, width=1920, height=1080, framerate=30/1 ! tee name=t ! queue ! mpph264enc ! queue ! h264parse ! mpegtsmux ! filesink location=/home/radxa/file.name.mp4
 ```

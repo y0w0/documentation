@@ -3,98 +3,122 @@ sidebar_label: 'Remote Login'
 sidebar_position: 60
 ---
 
-# Remote Login
+
+# Remote login
 
 ## SSH
 
-Here is a tutorial on how to remotely login to ROCK 5A using SSH from a Windows computer.  
+This is a tutorial on how to log in to ROCK 5A remotely using SSH from a Windows computer.  
 
-To connect to a Debian system via the SSH protocol, you need to ensure that an SSH server has been installed on the Debian system. You can follow the steps below:  
+To connect to a Debian system via the SSH protocol, you need to make sure that an SSH server is installed on the Debian system. You can do this by following these steps:   
 
-1. Make sure the SSH server has been installed on the Debian system. Run the following command in a terminal:  
+1. Make sure that an SSH server is installed on the Debian system. Run the following command in a terminal: 
 
     sudo service ssh status
-If the SSH server is not installed, you can install it with the following command:
+If the SSH server is not installed, you can use the following command to install it:
 
     sudo apt-get update
     sudo apt-get install ssh
 
-2. Open the terminal program and enter the following command:  
+2. Open the terminal program and enter the following command: 
 
     ssh [username]@[hostname]
     or  
     ssh [username]@[IP address]  
-For example:  
+Example: 
 
     ssh radxa@192.168.1.100
 
-3. You need to enter the user's password to successfully connect to the Debian system.
-This is a basic SSH connection process. You can use other SSH options for more advanced connections.  
+3. You need to enter the user password to successfully connect to the Debian system.
+This is a basic SSH connection process. You can use other SSH options for more advanced connections.
 
 
-## Remote Desktop
+## Remote Desktop - KDE Desktop
 
-Here is a tutorial on how to remotely access the system using VNC from a Windows computer.  
+This is a tutorial on how to access your system remotely from a Windows computer using VNC.  
 
-### Install VNC Server
+### Installing VNC Server
 
-1. Open a terminal application and enter the following command to update the package list:   
-
-```
+1. Open the Terminal application and enter the following command to update the package list:
+```bash
 sudo apt-get update
 ```
+2. Enter the following command to install TigerVNC Server:
 
-2. Enter the following command to install TightVNC Server:  
-
-```
-sudo apt-get install tightvncserver
-```
-
-3. Run `tightvncserver`.
-
-This will prompt you to set a password for VNC connection.  
-4. To stop TightVNC Server, you can use the following command:   
-
-```
-tightvncserver -kill :1
+```bash
+sudo apt-get install tigervnc-standale-server
 ```
 
-Note: if you did not use the ":1" parameter when running TightVNC Server for the first time, adjust it accordingly.  
-
-
-### Configure VNC Server
-
-1. Once TightVNC Server is started, it will create a VNC session that contains the IP address and port number (usually 5901) of the VNC Server.  
-
-2. In the terminal application, enter the following command to edit the VNC Server's configuration file:  
-
+3. Install the dbus-x11 dependencies to ensure proper connection to your VNC server: 
+```bash
+sudo apt-get install dbus-x11
 ```
-nano ~/.vnc/xstartup
-```
+4. After installation complete the initial configuration of the VNC server, use the vncserver command to set the security password and create the initial configuration file: 
 
-3. Add the following line to the end of the file to enable the LXDE desktop environment:  
-
+```bash
+vncserver
 ```
-lxsession -s LXDE &
-```
+:::note
+ Would you like to enter a view-only password (y/n)? n Prompt for view-only password, it is recommended to select no and enter n, so that the remote can operate, not just watch, please according to their actual situation
+:::
 
-4. Enter the following command to restart VNC Server:  
+### Configure the VNC server
 
-```
-tightvncserver -kill :1
-tightvncserver  
+Once TigerVNC starts, it will create a VNC session with the IP address and port number of the VNC server (usually 5901), because to change the way the VNC server is configured, first stop the VNC server instance running on port 5901 with the following command:
+
+```bash
+vncserver -kill :1
 ```
 
-5. Test the connection on VNC Viewer: On your Windows PC, open VNC Viewer, enter the IP address and port number of your product, then authenticate with the VNC Server's username and password.    
+2. Run the vncserver command to generate an xstartup in the ~/.vnc directory, if not, please create it manually and give it executable privileges:
 
-### Install VNC Viewer on Windows PC
+```bash
+touch ~/.vnc/xstartup
+chmod +x ~/.vnc/xstartup
+```
+
+Edit the xstartup configuration file as follows:
+
+```bash
+radxa@rock-5b:~$ cat ~/.vnc/xstartup
+#! /bin/sh
+unset SESSION_MANAGER
+unset DBUS_SESSION_BUS_ADDRESS
+unset XDG_RUNTIME_DIR
+/etc/X11/xinit/xinitrc
+[ -x /etc/vnc/xstartup ] && exec /etc/vnc/xstartup
+[ -r $HOME/.Xresources ] && xrdb $HOME/.Xresources
+xsetroot -solid grey
+#vncconfig -iconic &
+startkde &
+```
+
+3. After the configuration is edited, restart the VNC server:
+
+```shell
+vncserver -localhost no
+```
+
+4. View the VNC server:
+
+```shell
+vncserver -list
+
+TigerVNC server sessions.
+X DISPLAY # RFB PORT # PROCESS ID SERVER
+:1 5901 2160 Xtigervnc
+:2 5902 2872 Xtigervnc
+```
+
+5. Test the connection on the VNC viewer: On your Windows PC, open the VNC viewer, enter the IP address and port number of your product, and then authenticate using the user name and password of the VNC server.    
+
+### Installing the VNC viewer on your Windows PC
 
 1. Go to the VNC Viewer download page on your web browser, e.g. https://www.realvnc.com/en/connect/download/viewer/  
-2. Download and install VNC Viewer.  
+2. Download and install the VNC viewer. 
 
-### Connect to the product
+### Connection setup
 
-1. On VNC Viewer, enter the IP address and port number of the product.  
-2. Authenticate with the VNC Server's username and password.  
-3. Once successfully connected, you can remotely control the product.  
-
+1. On the VNC viewer, enter the IP address and port number of the product. 
+2. Use the user name and password of the VNC server to authenticate. 
+3. After successful connection, you can control remotely. 

@@ -28,8 +28,8 @@ ROCK 5B提供了一个40pin针脚的GPIO座子，兼容于市面上大部分传�
 |              |             |              |              |             |                |             |            | +3.3V     |<div className='yellow'>1</div>  |  <div className='red'>2</div>  | +5.0V      |            |            |               |             |              |              |           |              |
 | 139          |             |              | I2S1_SDO2_M0 | I2C7_SDA_M3 |  UART8_CTSN_M0 | PWM15_IR_M1 | CAN1_TX_M1 | GPIO4_B3  | <div className='green'>3</div>  |  <div className='red'>4</div>  | +5.0V      |            |            |               |             |              |              |           |              |
 | 138          |             |              | I2S1_SDO1_M0 | I2C7_SCL_M3 | UART8_RTSN_M0  | PWM14_M1    | CAN1_RX_M1 | GPIO4_B2  | <div className='green'>5</div>  | <div className='black'>6</div> | GND        |            |            |               |             |              |              |           |              |
-| 115          |             | SPI1_CS1_M1  |              | I2C8_SDA_M4 | UART7_CTSN_M1  | PWM15_IR_M0 |            | GPIO3_C3  | <div className='green'>7</div>  | <div className='green'>8</div> | GPIO0_B5   |            |            | UART2_TX_M0   | I2C1_SCL_M0 | I2S1_MCLK_M1 |              |           | 13           |
-|              |             |              |              |             |                |             |            | GND       | <div className='black'>9</div>  | <div className='green'>10</div>| GPIO0_B6   |            |            | UART2_RX_M0   | I2C1_SDA_M0 | I2S1_SCLK_M1 |              |           | 14           |
+| 115          |             | SPI1_CS1_M1  |              | I2C8_SDA_M4 | UART7_CTSN_M1  | PWM15_IR_M0 |            | GPIO3_C3  | <div className='green'>7</div>  | <div className='green'>8</div> | GPIO0_B5   |            |            |<div className='orange'>UART2_TX_M0</div>| I2C1_SCL_M0 | I2S1_MCLK_M1 |              |           | 13           |
+|              |             |              |              |             |                |             |            | GND       | <div className='black'>9</div>  | <div className='green'>10</div>| GPIO0_B6   |            |            |<div className='orange'>UART2_RX_M0</div>| I2C1_SDA_M0 | I2S1_SCLK_M1 |              |           | 14           |
 | 113          |             | SPI1_CLK_M1  |              |             | UART7_RX_M1    |             |            | GPIO3_C1  |<div className='green'>11</div>  | <div className='green'>12</div>| GPIO3_B5   | CAN1_RX_M0 | PWM12_M0   | UART3_TX_M1   |             | I2S2_SCLK_M1 |              |           | 109          |
 | 111          |             | SPI1_MOSI_M1 |              | I2C3_SCL_M1 |                |             |            | GPIO3_B7  |<div className='green'>13</div>  | <div className='black'>14</div>| GND        |            |            |               |             |              |              |           |              |
 | 112          |             | SPI1_MISO_M1 |              | I2C3_SDA_M1 | UART7_TX_M1    |             |            | GPIO3_C0  |<div className='green'>15</div>  | <div className='green'>16</div>| GPIO3_A4   |            |            |               |             |              |              |           | 100          |
@@ -48,49 +48,6 @@ ROCK 5B提供了一个40pin针脚的GPIO座子，兼容于市面上大部分传�
 
 </div>
 
-- Rockchip RK3588的GPIO有5个库，GPIO0到GPIO4，每个库有32个引脚，命名如下。
+## GPIO 编号
 
-```
-GPIO0_A0 ~ A7 
-GPIO0_B0 ~ B7
-GPIO0_C0 ~ C7
-GPIO0_D0 ~ D7
-   
-GPIO1_A0 ~ A7
-....
-GPIO1_D0 ~ D7
-```
-```
-GPIO2_A0 ~ A7
-....
-GPIO2_D0 ~ D7
-```
-```
-GPIO3_A0 ~ A7
-....
-GPIO3_D0 ~ D7
-```
-```
-GPIO4_A0 ~ A7
-....
-GPIO4_D0 ~ D7
-```
-
-- 对于Rockchip 5.10 kernel，GPIO number 的计算方式如下，以GPIO4_D5 为例：
-
-```
-GPIO4_D5 = 32*4 + 8*3 + 5 = 157
-(A=0, B=1, C=2, D=3)
-```
-
-![GPIO_numbew](/img/configuration/gpio-number.webp)
-
-- 设置GPIO4_D5输出
-```bash
-# cd /sys/class/gpio
-# echo 157 > export
-# cd gpio157
-# echo out > direction
-# echo 1 > value     # output high
-# echo 0 > value     # output low
-```
+如果你需要获取 GPIO 编号，请参阅 [GPIO 编号介绍](/general-tutorial/gpio-num)。

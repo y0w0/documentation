@@ -5,12 +5,14 @@ sidebar_position: 20
 
 # RTSP远程推流
 
-## 准备
-### 安装好官方 Debian 系统的 ROCK 5B
-### Micro HDMI 线缆或普通 HDMI 线缆+Micro HDMI to HDMI 转换器
-### HDMI 输入设备
+## 需求
 
-## 使用 HDMI 线缆连接 HDMI 输入设备与 ROCK 5B 的 HDMI-IN接口(位于电源灯与 GPIO 之间)
+1. 兼容摄像头
+2. 如使用 ROCK 5B，也可使用HDMI RX作为视频源
+
+:::caution
+使用 HDMI RX 时，目前 gst-mppenc 暂不支持 NV24(YCbCr444) 与 RBG 输入，需要 HDMI 输入端切换颜色格式为 NV12(YCbCr420) 或 NV16(YCbCr422)。
+:::
 
 ## 安装依赖
 ```shell

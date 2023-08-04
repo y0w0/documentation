@@ -3,9 +3,7 @@ sidebar_label: 'RTSP Remote Pushstream'
 sidebar_position: 20
 ---
 
-# Introduction
-
-You can refer to this guide for remote push streaming via HDMI-in supported boards for live streaming and other scenarios.
+# RTSP Remote Pushstream Guide
 
 ## Preparation
 
@@ -56,7 +54,7 @@ cd examples/
 The following is an example of how to watch RSTP video push stream by running [VLC](https://www.videolan.org/vlc/) under Windows.
 
 1. Download and install VLC
-![VLC-Main](/img/general-tutorial/hdmi-in/VLC-Main-en.webp)
+![VLC-Main](/img/general-tutorial/rtsp/VLC-Main-en.webp)
 
 2. Click "Media - Open Network Streaming" to enter the RSTP push stream address.
 
@@ -64,7 +62,7 @@ The following is an example of how to watch RSTP video push stream by running [V
 Starting gst-rtsp-server displays the RSTP link for the current device, but you still need to manually replace `127.0.0.1` with a communicable IP address.
 :::
 
-![VLC-Open-RTSP](/img/general-tutorial/hdmi-in/VLC-Open-RTSP-en.webp)
+![VLC-Open-RTSP](/img/general-tutorial/rtsp/VLC-Open-RTSP-en.webp)
 
 3. Click `Play` to view the RTSP remote streaming content.
-![VLC-View-RTSP](/img/general-tutorial/hdmi-in/VLC-View-RTSP-en.webp)
+![VLC-View-RTSP](/img/general-tutorial/rtsp/VLC-View-RTSP-en.webp)

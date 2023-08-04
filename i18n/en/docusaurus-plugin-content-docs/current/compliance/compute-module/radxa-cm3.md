@@ -83,6 +83,4 @@ sidebar_position: 1
 
 ## NBTC
 - Compliance Link: [Test Verification of Conformity](https://dl.radxa.com/cm3/compliance/TH_NBTC.pdf)
-
-
-
+  

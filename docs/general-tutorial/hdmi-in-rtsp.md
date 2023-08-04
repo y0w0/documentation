@@ -66,6 +66,3 @@ cd examples/
 
 3. 点击播放后即可查看 RTSP 远程推流内容
 ![VLC-View-RTSP](/img/general-tutorial/VLC-View-RTSP.png)
-
-# 注意事项
-### 因目前 gst-mppenc 暂不支持 NV24(YCbCr444) 与 RBG 输入(好消息是已经看到更新 NV24 的支持了)，所以需要 HDMI 输入端切换颜色格式为 NV12(YCbCr420) 或 NV16(YCbCr422)

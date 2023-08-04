@@ -1,9 +1,9 @@
 ---
-sidebar_label: 'HDMI-IN RTSP远程推流'
+sidebar_label: 'RTSP远程推流'
 sidebar_position: 20
 ---
 
-# HDMI-IN RTSP远程推流
+# RTSP远程推流
 
 ## 准备
 ### 安装好官方 Debian 系统的 ROCK 5B

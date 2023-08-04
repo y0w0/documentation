@@ -84,5 +84,3 @@ sidebar_position: 1
 ## NBTC
 - 证书链接: [符合性测试验证](https://dl.radxa.com/cm3/compliance/TH_NBTC.pdf)
 
-
-

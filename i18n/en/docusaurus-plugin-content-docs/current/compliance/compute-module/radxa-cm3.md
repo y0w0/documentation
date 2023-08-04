@@ -9,17 +9,17 @@ sidebar_position: 1
 
 - **Report number:** BCTC2111781408C
 
-- **Compliance Link: **[Test Verification of Conformity](https://dl.radxa.com/cm3/compliance/RED/BCTC2111781408C%c2%a0RM116-D8E32W%c2%a0%c2%a0%c2%a0RED.pdf)
+- **Compliance Link: **[Test Verification of Conformity](https://dl.radxa.com/cm3/compliance/RED/BCTC2111781408C_RM116_D8E32W_RED.pdf)
 
 - **Test Standard**
   
-  - **IEC 62368-1:2014 (Second Edition), EN 62368-1:2014+A11:2017:** [Test Report](https://dl.radxa.com/cm3/compliance/RED/BCTC2111658558S%c2%a0Radxa%c2%a0CM3_RM116-D8E32W_CE%c2%a0LVD.pdf)
-  - **EN IEC 62311:2020:** [Test Report](https://dl.radxa.com/cm3/compliance/RED/BCTC2111781408-1E%c2%a0RM116-D8E32W%c2%a0%e2%80%8262311.pdf)
-  - **ETSI EN 301 489-1 V2.2.3 (2019-11), ETSI EN 301 489-17 V3.2.4 (2020-09):** [Test Report](https://dl.radxa.com/cm3/compliance/RED/BCTC2111781408-2E%c2%a0RM116-D8E32W%c2%a0EN301489.pdf)
-  - **ETSI EN 300 328 V2.2.2 (2019-07): BLE** [Test Report](https://dl.radxa.com/cm3/compliance/RED/BCTC2111781408-3E%c2%a0RM116-D8E32W%c2%a0%c2%a0%c2%a0EDR%c2%a0300328.pdf)
-  - **ETSI EN 300 328 V2.2.2 (2019-07): 2.4G WIFI** [Test Report](https://dl.radxa.com/cm3/compliance/RED/BCTC2111781408-3E%c2%a0RM116-D8E32W%c2%a0%c2%a0%c2%a0EDR%c2%a0300328.pdf)
-  - **ETSI EN 300 328 V2.2.2 (2019-07): 5G WIFI** [Test Report](https://dl.radxa.com/cm3/compliance/RED/BCTC2111781408-3E%c2%a0RM116-D8E32W%c2%a0%c2%a0%c2%a0EDR%c2%a0300328.pdf)
-  - **ETSI EN 301 893 V2.1.1 (2017-05):** [Test Report](https://dl.radxa.com/cm3/compliance/RED/BCTC2111781408-6E%c2%a0RM116-D8E32W%c2%a0%c2%a0%c2%a0%c2%a0%c2%a0%c2%a0%c2%a0%c2%a05.1G%c2%a0WIFI.pdf)
+  - **IEC 62368-1:2014 (Second Edition), EN 62368-1:2014+A11:2017:** [Test Report](https://dl.radxa.com/cm3/compliance/RED/BCTC2111658558S_Radxa_CM3_RM116_D8E32W_CE_LVD.pdf)
+  - **EN IEC 62311:2020:** [Test Report](https://dl.radxa.com/cm3/compliance/RED/BCTC2111781408_1E_RM116.pdf)
+  - **ETSI EN 300 328 V2.2.2 (2019-07): ** [Test Report](https://dl.radxa.com/cm3/compliance/RED/BCTC2111781408_3E_RM116_D8E32W.pdf)
+  - **ETSI EN 301 489-1 V2.2.3 (2019-11), ETSI EN 301 489-17 V3.2.4 (2020-09):** [Test Report](https://dl.radxa.com/cm3/compliance/RED/BCTC2111781408_2E_RM116.pdf)
+  - **ETSI EN 300 328 V2.2.2 (2019-07): BLE** [Test Report](https://dl.radxa.com/cm3/compliance/RED/BCTC2111781408_4E_RM116_D8E32W_BLE.pdf)
+  - **ETSI EN 300 328 V2.2.2 (2019-07): 2.4G WIFI** [Test Report](https://dl.radxa.com/cm3/compliance/RED/BCTC2111781408_5E_RM116_D8E32W_2.4_WiFi.pdf)
+  - **ETSI EN 301 893 V2.1.1 (2017-05): 5G WIFI** [Test Report](https://dl.radxa.com/cm3/compliance/RED/BCTC2111781408_6E_RM116_D8E32W_5.1G_WIFI.pdf)
 
 ## FCC ID
 
@@ -37,7 +37,7 @@ sidebar_position: 1
 ## RCM
 
 - **Report number:** 73009403356
-- **Compliance Link: **[Test Verification of Conformity](https://dl.radxa.com/cm3/compliance/AU_RCM/Supplier's%c2%a0declaration%c2%a0of%c2%a0conformity%c2%a0Radxa%c2%a0CM3.pdf)
+- **Compliance Link: **[Test Verification of Conformity](https://dl.radxa.com/cm3/compliance/AU_RCM/supplier_declaration_of_conformity_radxa_cm3.pdf)
 
 ## IC ID (ISED)
 
@@ -64,7 +64,7 @@ sidebar_position: 1
 ## IDMA
 - **Report number:** N5007-22
 
-- **Compliance Link: **[Test Verification of Conformity](https://dl.radxa.com/cm3/compliance/SG_IMDA/IMDA%c2%a0ESER%c2%a0Acknowledgement%c2%a0of%c2%a0Registration%c2%a0for%c2%a0Radxa%c2%a0CM3%c2%a0dated%c2%a018th%c2%a0Oct%c2%a02022.pdf)
+- **Compliance Link: **[Test Verification of Conformity](https://dl.radxa.com/cm3/compliance/SG_IMDA/N5007_22_IDMA_CM3.pdf)
 
 ## OFCA 
 - **Report number:** HKO022200148

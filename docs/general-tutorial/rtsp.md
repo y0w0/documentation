@@ -51,7 +51,7 @@ cd examples/
 
 ## 客户端配置
 
-以下以 Windows 下运行 RTSP [VLC](https://www.videolan.org/vlc/) 为例，介绍如何收看 RSTP 视频推流。
+以下以 Windows 下运行 [VLC](https://www.videolan.org/vlc/) 为例，介绍如何收看 RSTP 视频推流。
 
 1. 下载并安装 VLC
 ![VLC-Main](/img/general-tutorial/VLC-Main.png)

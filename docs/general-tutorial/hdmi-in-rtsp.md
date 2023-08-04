@@ -49,13 +49,22 @@ cd examples/
 ./test-launch --gst-debug-level=3 "( v4l2src device=/dev/video0 ! queue ! mpph265enc bps=51200000 rc-mode=vbr !  rtph265pay name=pay0 pt=97 )"
 ```
 
-## 运行 RTSP 客户端，查看画面
-### 1. 前往 [VLC 官网下载 VLC](https://www.videolan.org/vlc/)
-### 2. 安装并打开 VLC
+## 客户端配置
+
+以下以 Windows 下运行 RTSP [VLC](https://www.videolan.org/vlc/) 为例，介绍如何收看 RSTP 视频推流。
+
+1. 下载并安装 VLC
 ![VLC-Main](/img/general-tutorial/VLC-Main.png)
-### 3. 按下快捷键 Ctrl+N 打开网络串流界面，然后输入 Rock 5B 的 IP 地址与 RTSP 端口号与子地址(在运行推流命令后会显示,注意把 127.0.0.1 替换为能与 RTSP 客户端通讯的局域网 IP)
+
+2. 点击 媒体 - Open Network Stream 来输入 RSTP 推流地址
+
+:::tip
+启动 gst-rtsp-server 后会显示当前设备的 RSTP 链接，但仍需手动将 `127.0.0.1` 替换为可通讯的 IP 地址。
+:::
+
 ![VLC-Open-RTSP](/img/general-tutorial/VLC-Open-RTSP.png)
-### 4. 点击播放后即可查看 RTSP 远程推流内容
+
+3. 点击播放后即可查看 RTSP 远程推流内容
 ![VLC-View-RTSP](/img/general-tutorial/VLC-View-RTSP.png)
 
 # 注意事项

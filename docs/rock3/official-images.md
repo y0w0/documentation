@@ -1,36 +1,9 @@
----
+﻿---
 sidebar_label: '官方系统镜像'
 sidebar_position: 2
 ---
 
 # ROCK 3 系列官方镜像
-
-ROCK 3 系列的官方镜像也可通过以下途径下载： 
-
-- **[Radxa 百度云盘](http://rock.sh/rockpi-baidupan)**
-- **[ROCK 3 软件发布](https://github.com/radxa/debos-radxa/releases/latest)** - 最新发布的系统镜像。
-
-用户名及密码：  
-以下适用于Ubuntu服务端。
-Lubuntu有两个默认用户：`root` 和 `rock`。用户名及密码如下：
-```
-user password
-rock    rock
-root    root
-```
-
-如果是自己编译的镜像，默认用户是 `linaro`：
-
-```
-user password
-linaro linaro
-```
-
-## 烧写工具
-
-[Etcher](https://etcher.balena.io/)- 用户友好型烧写工具。
-
-## 官方镜像
 
 ||![Debian](/img/Debian-logo.webp)|![Ubuntu](/img/Ubuntu-logo.webp)|![Android](/img/Android-Logo.webp)|
 |:-:|-|-|-|
@@ -43,7 +16,3 @@ linaro linaro
 |CM3 Industrial |敬请期待。|敬请期待。|敬请期待。|
 |E23|[点击跳转至下载页](https://github.com/radxa-build/radxa-e23/releases/latest)|[点击跳转至下载页](https://github.com/radxa-build/radxa-e23/releases/latest)|-|
 |E25|[点击立即下载](https://github.com/radxa/debos-radxa/releases/download/20221028-0344/radxa-e25-debian-bullseye-xfce4-arm64-20221028-0509-gpt.img.xz)|[点击立即下载](https://github.com/radxa/debos-radxa/releases/download/20221028-0344/radxa-e25-ubuntu-focal-server-arm64-20221028-0448-gpt.img.xz)|-|
-
-## 第三方镜像
-
-请查阅 [第三方镜像](./alternative-os/third-party-images)。

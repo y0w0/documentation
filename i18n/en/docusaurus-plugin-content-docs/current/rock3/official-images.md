@@ -1,18 +1,9 @@
----
+﻿---
 sidebar_label: 'Official Images'
 sidebar_position: 2
 ---
 
 # ROCK 3 Series Official Images
-
-Official ROCK 3 series system images can also be downloaded from:  
-[ROCK 3 Image Release](https://github.com/radxa/debos-radxa/releases/latest) - The latest system images.  
-
-## Tools
-
-[Etcher](https://etcher.balena.io/)- A user friendly Image Writer.
-
-## Official Images
 
 ||![Debian](/img/Debian-logo.webp)|![Ubuntu](/img/Ubuntu-logo.webp)|![Android](/img/Android-Logo.webp)|
 |:-:|-|-|-|
@@ -25,8 +16,3 @@ Official ROCK 3 series system images can also be downloaded from:
 |CM3 Industrial |Stay tuned for more.|Stay tuned for more.|Stay tuned for more.|
 |E23|[Click to skip to download page](https://github.com/radxa-build/radxa-e23/releases/latest)|[Click to skip to download page](https://github.com/radxa-build/radxa-e23/releases/latest)|-|
 |E25|[Click to download now](https://github.com/radxa/debos-radxa/releases/download/20221028-0344/radxa-e25-debian-bullseye-xfce4-arm64-20221028-0509-gpt.img.xz)|[Click to download now](https://github.com/radxa/debos-radxa/releases/download/20221028-0344/radxa-e25-ubuntu-focal-server-arm64-20221028-0448-gpt.img.xz)|-|
-
-##  Third Party Images
-
-Please refer to [third-party-images](./alternative-os/third-party-images).
-

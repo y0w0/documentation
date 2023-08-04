@@ -1,9 +1,9 @@
 {
-  "label": "rsetup tools",
+  "label": "rsetup",
   "position": 0,
   "link": {
     "type": "generated-index",
 	  "slug": "/radxa-os/rsetup",
-    "description": "rsetup system configuration tool"
+    "description": "RadxaOS System Configurator"
   }
 }

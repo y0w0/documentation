@@ -79,12 +79,12 @@ ROCK 4SE supports LCD display function.
 The official recommendation is to use [Radxa Display 8 HD](/accessories/lcd-8-hd) or [Radxa Display 10 HD](/accessories/lcd-10-hd).
 :::
 
-- Audio cable
+- Audio device
 
 Audio can be played through speaker or headphones using a standard 3.5mm jack.
 
 ## OS Installation
 
 First, please download the official images of ROCK 4SE on the [ROCK 4 Official Images Download](/rock4/official-images).  
-Then, you can install the OS by refering the [OS Installation Guide](/general-guide/os-installtion).  
+Then, you can install the OS by refering the [OS Installation Guide](/general-tutorial/os-installtion).  
 Finally, insert the system storage media, microSD Card or eMMC Module into the socket on the board and power on ROCK 4SE by adapter with Type-C port.

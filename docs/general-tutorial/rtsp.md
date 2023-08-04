@@ -56,7 +56,7 @@ cd examples/
 1. 下载并安装 VLC
 ![VLC-Main](/img/general-tutorial/VLC-Main.png)
 
-2. 点击 媒体 - Open Network Stream 来输入 RSTP 推流地址
+2. 点击 媒体 - 打开网络串流 来输入 RSTP 推流地址
 
 :::tip
 启动 gst-rtsp-server 后会显示当前设备的 RSTP 链接，但仍需手动将 `127.0.0.1` 替换为可通讯的 IP 地址。

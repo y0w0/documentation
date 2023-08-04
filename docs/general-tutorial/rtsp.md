@@ -1,9 +1,11 @@
 ---
-sidebar_label: 'RTSP远程推流'
+sidebar_label: 'RTSP 远程推流'
 sidebar_position: 20
 ---
 
-# RTSP远程推流
+# 简介
+
+你可以参考本指南来使用支持 HDMI-in 的主板进行远程推流用于直播、网课等场景。
 
 ## 需求
 
@@ -54,7 +56,7 @@ cd examples/
 以下以 Windows 下运行 [VLC](https://www.videolan.org/vlc/) 为例，介绍如何收看 RSTP 视频推流。
 
 1. 下载并安装 VLC
-![VLC-Main](/img/general-tutorial/VLC-Main.png)
+![VLC-Main](/img/general-tutorial/hdmi-in/VLC-Main.webp)
 
 2. 点击 媒体 - 打开网络串流 来输入 RSTP 推流地址
 
@@ -62,7 +64,7 @@ cd examples/
 启动 gst-rtsp-server 后会显示当前设备的 RSTP 链接，但仍需手动将 `127.0.0.1` 替换为可通讯的 IP 地址。
 :::
 
-![VLC-Open-RTSP](/img/general-tutorial/VLC-Open-RTSP.png)
+![VLC-Open-RTSP](/img/general-tutorial/hdmi-in/VLC-Open-RTSP.webp)
 
 3. 点击播放后即可查看 RTSP 远程推流内容
-![VLC-View-RTSP](/img/general-tutorial/VLC-View-RTSP.png)
+![VLC-View-RTSP](/img/general-tutorial/hdmi-in/VLC-View-RTSP.webp)

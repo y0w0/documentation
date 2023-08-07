@@ -3,7 +3,7 @@ sidebar_label: 'ROCK 3C'
 sidebar_position: 3
 ---
 
-# Radxa CM3C Compliance Certification
+# Radxa ROCK 3C Compliance Certification
 
 ## CE RED 
 - Report Number: BCTC2304709645C

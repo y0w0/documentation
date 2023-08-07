@@ -1,9 +1,9 @@
 ---
-sidebar_label: 'RTSP Remote Pushstream'
+sidebar_label: 'RTSP Remote Streaming'
 sidebar_position: 20
 ---
 
-# RTSP Remote Pushstream Guide
+# RTSP Remote Streaming Guide
 
 ## Preparation
 
@@ -51,7 +51,7 @@ cd examples/
 
 ## Client Configuration
 
-The following is an example of how to watch RSTP video push stream by running [VLC](https://www.videolan.org/vlc/) under Windows.
+The following is an example of how to watch RTSP video push stream by running [VLC](https://www.videolan.org/vlc/) under Windows.
 
 1. Download and install VLC
 ![VLC-Main](/img/general-tutorial/rtsp/VLC-Main-en.webp)

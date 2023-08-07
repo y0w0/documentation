@@ -45,7 +45,7 @@ sidebar_position: 3
 
 - 证书链接: [符合性测试验证](https://dl.radxa.com/rock3/compliance/3c/AU%20RCM/Supplier_declaration_of_conformity.pdf)
 
-## IDMA
+## IMDA
 - 报告编号: N0599-23
 
 - 证书链接: [符合性测试验证](https://dl.radxa.com/rock3/compliance/3c/SG/SG_IMDA.pdf)

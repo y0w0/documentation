@@ -1,9 +1,9 @@
 ---
-sidebar_label: 'RTSP远程推流'
+sidebar_label: 'RTSP 远程推流'
 sidebar_position: 20
 ---
 
-# RTSP远程推流
+# RTSP 远程推流教程
 
 ## 需求
 
@@ -51,18 +51,18 @@ cd examples/
 
 ## 客户端配置
 
-以下以 Windows 下运行 [VLC](https://www.videolan.org/vlc/) 为例，介绍如何收看 RSTP 视频推流。
+以下以 Windows 下运行 [VLC](https://www.videolan.org/vlc/) 为例，介绍如何收看 RTSP 视频推流。
 
 1. 下载并安装 VLC
-![VLC-Main](/img/general-tutorial/VLC-Main.png)
+![VLC-Main](/img/general-tutorial/rtsp/VLC-Main.webp)
 
-2. 点击 媒体 - 打开网络串流 来输入 RSTP 推流地址
+2. 点击 媒体 - 打开网络串流 来输入 RTSP 推流地址
 
 :::tip
-启动 gst-rtsp-server 后会显示当前设备的 RSTP 链接，但仍需手动将 `127.0.0.1` 替换为可通讯的 IP 地址。
+启动 gst-rtsp-server 后会显示当前设备的 RTSP 链接，但仍需手动将 `127.0.0.1` 替换为可通讯的 IP 地址。
 :::
 
-![VLC-Open-RTSP](/img/general-tutorial/VLC-Open-RTSP.png)
+![VLC-Open-RTSP](/img/general-tutorial/rtsp/VLC-Open-RTSP.webp)
 
 3. 点击播放后即可查看 RTSP 远程推流内容
-![VLC-View-RTSP](/img/general-tutorial/VLC-View-RTSP.png)
+![VLC-View-RTSP](/img/general-tutorial/rtsp/VLC-View-RTSP.webp)

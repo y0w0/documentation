@@ -56,7 +56,7 @@ The following is an example of how to watch RTSP video stream by running [VLC](h
 1. Download and install VLC
 ![VLC-Main](/img/general-tutorial/rtsp/VLC-Main-en.webp)
 
-2. Click "Media - Open Network Streaming" to enter the RSTP stream address.
+2. Click "Media - Open Network Streaming" to enter the RTSP stream address.
 
 :::tip
 Starting gst-rtsp-server displays the RTSP link for the current device, but you still need to manually replace `127.0.0.1` with a communicable IP address.

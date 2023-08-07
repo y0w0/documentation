@@ -51,15 +51,15 @@ cd examples/
 
 ## Client Configuration
 
-The following is an example of how to watch RTSP video push stream by running [VLC](https://www.videolan.org/vlc/) under Windows.
+The following is an example of how to watch RTSP video stream by running [VLC](https://www.videolan.org/vlc/) under Windows.
 
 1. Download and install VLC
 ![VLC-Main](/img/general-tutorial/rtsp/VLC-Main-en.webp)
 
-2. Click "Media - Open Network Streaming" to enter the RSTP push stream address.
+2. Click "Media - Open Network Streaming" to enter the RSTP stream address.
 
 :::tip
-Starting gst-rtsp-server displays the RSTP link for the current device, but you still need to manually replace `127.0.0.1` with a communicable IP address.
+Starting gst-rtsp-server displays the RTSP link for the current device, but you still need to manually replace `127.0.0.1` with a communicable IP address.
 :::
 
 ![VLC-Open-RTSP](/img/general-tutorial/rtsp/VLC-Open-RTSP-en.webp)

@@ -3,7 +3,7 @@ sidebar_label: 'ROCK 3C'
 sidebar_position: 3
 ---
 
-# Radxa CM3C 合规认证
+# Radxa ROCK 3C 认证信息
 
 ## CE RED 
 - 报告编号: BCTC2304709645C

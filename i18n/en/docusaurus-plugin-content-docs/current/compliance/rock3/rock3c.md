@@ -45,7 +45,7 @@ sidebar_position: 3
 
 - Compliance Link: [Test Verification of Conformity](https://dl.radxa.com/rock3/compliance/3c/AU%20RCM/Supplier_declaration_of_conformity.pdf)
 
-## IDMA
+## IMDA
 - Report Number: N0599-23
 
 - Compliance Link: [Test Verification of Conformity](https://dl.radxa.com/rock3/compliance/3c/SG/SG_IMDA.pdf)

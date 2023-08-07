@@ -61,7 +61,7 @@ sidebar_position: 1
   - Article 2 paragraph 1 of item 19: 2.4G  [Test Report](https://dl.radxa.com/cm3/compliance/JP_TELEC/BCTC2211041097-3E%20%20RM116-D8E32W%20TELEC%202.4G%20N20%20(X).pdf)
   - ARIB STD-T71 Ver.6.1, Article2 Paragraph 1, item 19-3: 5.1G  [Test Report](https://dl.radxa.com/cm3/compliance/JP_TELEC/BCTC2211041097-4E%20%20RM116-D8E32W%20TELEC%205.1G.pdf)
 
-## IDMA
+## IMDA
 - Report number: N5007-22
 
 - Compliance Link: [Test Verification of Conformity](https://dl.radxa.com/cm3/compliance/SG_IMDA/N5007_22_IDMA_CM3.pdf)

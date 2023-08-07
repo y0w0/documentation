@@ -3,7 +3,7 @@ sidebar_label: 'Radxa CM3S'
 sidebar_position: 1
 ---
 
-# Radxa CM3S 合规认证
+# Radxa CM3S 认证信息
 
 ## CE RED
 - 报告编号: BCTC2211148430C

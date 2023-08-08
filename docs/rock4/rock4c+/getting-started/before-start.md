@@ -12,7 +12,7 @@ sidebar_position: 20
 
 - 瑞莎 ROCK 4C+ 主板
 
-- microSD 卡， 至少 16 GB
+- microSD 卡，至少 16 GB
 
 - 电源适配器：ROCK 4C+ 仅支持 5V/3A 供电
 
@@ -38,7 +38,7 @@ HDMI 2k、HDMI 4K 和 MIPI DSI 中只有两种可以同时工作。
 
 ## 可选项
 
-- eMMC 模块， 至少 16 GB
+- eMMC 模块，至少 16 GB
 
 :::tip
 官方提供可选 [eMMC 模块](/accessories/emmc_module)。

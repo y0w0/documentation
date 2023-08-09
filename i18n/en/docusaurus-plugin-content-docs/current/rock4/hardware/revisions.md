@@ -13,23 +13,12 @@ You can check the differences between different hardware versions of ROCK 4 seri
 <Tabs>
 <TabItem value="ROCK_4SE" label="ROCK 4SE">
 
-:::note
-The original name of ROCK 4SE was ROCK Pi B.
-:::
-
 - **V1.53:**  
 Renamed to ROCK 4SE.  
 PD protocol chip changed to 12V ouput and 24K.  
 Removed R1608.  
 Removed OTG circuit.  
 Updated some silk printing to latest version.
-
-- **V1.52:**  
-Added a BOM_ID circuit.
-
-- **V1.51:**  
-Added two resistors and capacitors for CPU and GPU power circuits.  
-Added two points for EFUSE, one for EFUSE, and the other for 1.8V.
 
 </TabItem>
 <TabItem value="ROCK_4C_Plus" label="ROCK 4C+">
@@ -42,10 +31,6 @@ Remove M.2 connector.
 
 </TabItem>
 <TabItem value="ROCK_4AB_Plus" label="ROCK 4A/B+">
-
-There are two points needed to be clarified:  
-&nbsp;&nbsp;&nbsp;&nbsp;The Version Number of ROCK 4A+ and 4B+ are based on addtiion to ROCK 4A and 4B.  
-&nbsp;&nbsp;&nbsp;&nbsp;ROCK 4A+ and 4B+ now share the same PCB(ROCK Pi 4 Plus) since V1.6, no wifi/bt module pasted on 4A+, RJ45 has no PoE capability on 4A+.  
 
 - **V1.73:**  
 Optimize the headphone jack footprint for manufacturing.  
@@ -64,8 +49,6 @@ Three buttons are soldered by default: *1: Maskrom 2: Reset 3: Recovery*
 
 </TabItem>
 <TabItem value="ROCK_4AB" label="ROCK 4A/B">
-
-ROCK 4A and 4B now share the same PCB(ROCK Pi 4), no wifi/bt module pasted on 4A, RJ45 has no PoE capability on 4A.  
 
 - **V1.5:**  
 Ethernet phy changed from RTL8211E to RLT8211F(no software change required).  
@@ -87,8 +70,6 @@ On board wifi antenna.
 
 </TabItem>
 <TabItem value="ROCK_4C" label="ROCK 4C">
-
-Discontinued, technical support only, other ROCK 4 series products are available for purchase.
 
 - **V1.2:**  
 Change to a more tight micro HDMI connector.

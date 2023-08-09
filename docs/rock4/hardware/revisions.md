@@ -12,24 +12,13 @@ import TabItem from '@theme/TabItem';
 
 <Tabs>
 <TabItem value="ROCK_4SE" label="ROCK 4SE">
-
-:::note
-ROCK 4SE 以前的的名称是 ROCK Pi B。
-:::
-
+  
 - **V1.53:**  
 更名为 ROCK 4SE。 
 PD 协议芯片改为 12V 输出和 24K。 
 删除 R1608。 
 删除了 OTG 电路。 
 更新了丝印至最新版本。
-
-- **V1.52:**  
-增加了 BOM_ID 电路。
-
-- **V1.51:**  
-为 CPU 和 GPU 电源电路添加了两个电阻和电容。 
-为 EFUSE 添加了两个点，一个用于 EFUSE，另一个用于 1.8V。
 
 </TabItem>
 <TabItem value="ROCK_4C_Plus" label="ROCK 4C+">

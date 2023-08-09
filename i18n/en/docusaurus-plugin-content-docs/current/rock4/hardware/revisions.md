@@ -14,11 +14,7 @@ You can check the differences between different hardware versions of ROCK 4 seri
 <TabItem value="ROCK_4SE" label="ROCK 4SE">
 
 - **V1.53:**  
-Renamed to ROCK 4SE.  
-PD protocol chip changed to 12V ouput and 24K.  
-Removed R1608.  
-Removed OTG circuit.  
-Updated some silk printing to latest version.
+The first mass-produced version.
 
 </TabItem>
 <TabItem value="ROCK_4C_Plus" label="ROCK 4C+">

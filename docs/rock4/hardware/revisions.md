@@ -14,11 +14,7 @@ import TabItem from '@theme/TabItem';
 <TabItem value="ROCK_4SE" label="ROCK 4SE">
   
 - **V1.53:**  
-更名为 ROCK 4SE。 
-PD 协议芯片改为 12V 输出和 24K。 
-删除 R1608。 
-删除了 OTG 电路。 
-更新了丝印至最新版本。
+首个生产版本，暂无硬件更新。
 
 </TabItem>
 <TabItem value="ROCK_4C_Plus" label="ROCK 4C+">

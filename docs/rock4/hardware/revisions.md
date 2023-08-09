@@ -43,10 +43,6 @@ PD 协议芯片改为 12V 输出和 24K。
 </TabItem>
 <TabItem value="ROCK_4AB_Plus" label="ROCK 4A/B+">
 
-有两点需要澄清：  
-&nbsp;&nbsp;&nbsp;&nbsp;ROCK 4A+ 和 4B+ 的版本号是在 ROCK 4A 和 4B 的基础上增加的。  
-&nbsp;&nbsp;&nbsp;&nbsp;从 V1.6 开始，ROCK 4A+ 和 4B+ 共用同一块 PCB 设计（ROCK Pi 4 Plus），4A+ 上没有贴 wifi/bt 模块且 RJ45 没有 PoE 功能。 
-
 - **V1.73:**  
 优化耳机插孔的生产尺寸以便于生产。 
 ***<font color='red'>2022-08-05 之后生产的电路板将不贴 SPI。这包括未来的修订版。</font>***
@@ -64,8 +60,6 @@ eMMC 座子改为板载芯片。
 
 </TabItem>
 <TabItem value="ROCK_4AB" label="ROCK 4A/B">
-
-ROCK 4A 和 4B 共用同一块 PCB 设计（ROCK Pi 4），4A 上没有预贴 WiFi/BT 模块且其 RJ45 没有 PoE 功能。 
 
 - **V1.5:**  
 以太网 phy 芯片从 RTL8211E 更改为 RLT8211F（无需更改软件）。  
@@ -87,8 +81,6 @@ LPDDR4 1/2/4GB内存。
 
 </TabItem>
 <TabItem value="ROCK_4C" label="ROCK 4C">
-
-已停产，仅提供技术支持，其他 ROCK 4 系列产品可供选购。
 
 - **V1.2:**  
 改用更紧凑的 micro HDMI 接口。

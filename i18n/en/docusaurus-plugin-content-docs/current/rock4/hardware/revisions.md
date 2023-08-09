@@ -23,11 +23,11 @@ Updated some silk printing to latest version.
 </TabItem>
 <TabItem value="ROCK_4C_Plus" label="ROCK 4C+">
 
-- **V1.2:**  
-Initial version.
-
 - **V1.4:**  
 Remove M.2 connector.
+
+- **V1.2:**  
+Initial version.
 
 </TabItem>
 <TabItem value="ROCK_4AB_Plus" label="ROCK 4A/B+">

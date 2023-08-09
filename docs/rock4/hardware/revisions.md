@@ -23,11 +23,11 @@ PD 协议芯片改为 12V 输出和 24K。
 </TabItem>
 <TabItem value="ROCK_4C_Plus" label="ROCK 4C+">
 
-- **V1.2:**  
-初始版本。
-
 - **V1.4:**  
 移除 M.2 连接座。
+
+- **V1.2:**  
+初始版本。
 
 </TabItem>
 <TabItem value="ROCK_4AB_Plus" label="ROCK 4A/B+">

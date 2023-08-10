@@ -37,11 +37,7 @@ Ethernet phy changed from RTL8211E to RLT8211F(no software change required).
 QC/PD protocol trigger chip changed to CH224D.
 
 - **V1.6:**  
-Add USB C input voltage measure from SoC ADC.  
-Add EEPROM (BL24C16A) for mac address and serial no.  
-eMMC socket changed to on board chips.  
-Three buttons are soldered by default: *1: Maskrom 2: Reset 3: Recovery*  
-![ROCK 4C+ Button](/img/rock4/rock4b+-button.webp)
+The first mass-produced version.
 
 </TabItem>
 <TabItem value="ROCK_4AB" label="ROCK 4A/B">
@@ -53,7 +49,7 @@ QC/PD protocol trigger chip changed to CH224D.
 
 - **V1.4:**  
 Changes the USB 3.0 OTG label to simple L/H for Host/Device.  
-Add external wifi antenna option, not soldered by default.  
+Add external Wi-Fi antenna option, not soldered by default.  
 Change the headphone footprint to through hole leg one.  
 Change user status LED from red to blue(blinking red led is confusing for some user).  
 A 4MB(32Mbit) SPI flash is pasted by default, for future SPI booting support.
@@ -62,7 +58,7 @@ A 4MB(32Mbit) SPI flash is pasted by default, for future SPI booting support.
 Use Type-C for power, adds QC&PD trigger IC.  
 LPDDR4 for 1/2/4GB RAM.  
 Use odroid compatible eMMC socket as storage.  
-On board wifi antenna.
+On board Wi-Fi antenna.
 
 </TabItem>
 <TabItem value="ROCK_4C" label="ROCK 4C">

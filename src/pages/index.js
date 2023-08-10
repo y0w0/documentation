@@ -4,29 +4,27 @@ import { Select, Space, ConfigProvider } from 'antd';
 import Layout from '@theme/Layout';
 import styles from './index.module.css'
 import { getDocs } from "../utils/getDocs";
-import { getProduct_Line, getProduct_Name, getProduct_doc } from "../utils/getPriducts";
+import { getProduct_Line, getProduct_Name, getProduct_doc } from "../utils/getProducts";
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Translate from '@docusaurus/Translate';
-
 
 export default () => {
   const { i18n } = useDocusaurusContext();
   const homeDoc = getDocs().Home.sidebar_custom_props.product_docs
-  const provinceData = getProduct_Line(homeDoc, i18n.currentLocale)
-  const cityData = getProduct_Name(homeDoc, i18n.currentLocale)
-  const [cities, setCities] = useState(cityData[provinceData[0]]);
-  const [secondCity, setSecondCity] = useState(cityData[provinceData[0]][0])
-  const element = getProduct_doc(homeDoc, secondCity, i18n.currentLocale)
+  const productLine = getProduct_Line(homeDoc, i18n.currentLocale)
+  const productName = getProduct_Name(homeDoc, i18n.currentLocale)
+  const [products, setProducts] = useState(productName[productLine[0]]);
+  const [selectedProduct, setSelectedProduct] = useState(productName[productLine[0]][0])
+  const element = getProduct_doc(homeDoc, selectedProduct, i18n.currentLocale)
 
-
-  const handleProvinceChange = (value) => {
-    setCities(cityData[value]);
-    setSecondCity(cityData[value][0]);
-  };
-  const onSecondCityChange = (value) => {
-    setSecondCity(value);
+  const onProductLineChange = (value) => {
+    setProducts(productName[value]);
+    setSelectedProduct(productName[value][0]);
   };
 
+  const onProductChange = (value) => {
+    setSelectedProduct(value);
+  };
 
   return (
     <Layout>
@@ -45,20 +43,20 @@ export default () => {
                   <Select
                     placement='bottomRight'
                     bordered='false'
-                    defaultValue={provinceData[0]}
-                    onChange={handleProvinceChange}
-                    options={provinceData.map((province) => ({
-                      label: province,
-                      value: province,
+                    defaultValue={productLine[0]}
+                    onChange={onProductLineChange}
+                    options={productLine.map((productLine) => ({
+                      label: productLine,
+                      value: productLine,
                     }))}
                   />
                   <Select
                     bordered='false'
-                    value={secondCity}
-                    onChange={onSecondCityChange}
-                    options={cities.map((city) => ({
-                      label: city,
-                      value: city,
+                    value={selectedProduct}
+                    onChange={onProductChange}
+                    options={products.map((product) => ({
+                      label: product,
+                      value: product,
                     }))}
                   />
                 </Space>
@@ -69,7 +67,7 @@ export default () => {
           </div>
           <div className={styles.list}>
             <h1>
-              {secondCity === "ROCK 5B" ? 'ROCK 5 Model B' : secondCity === "ROCK 5A" ? 'ROCK 5 Model A' : secondCity === "ROCK 3C" ? 'ROCK 3 Model C' : null}
+              {selectedProduct}
             </h1>
             <ul className={styles.card} >
               {

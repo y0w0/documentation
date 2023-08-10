@@ -10,7 +10,6 @@ function getProduct_Line(obj, lang) {
     return arr
 }
 
-
 function getProduct_Name(obj, lang) {
     let o = {}
 
@@ -40,6 +39,7 @@ function getProduct_Name(obj, lang) {
     })
     return o
 }
+
 function getProduct_doc(obj, str, lang) {
     let arr = []
     obj.map((item, idx) => {

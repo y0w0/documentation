@@ -58,7 +58,130 @@ sidebar_custom_props: {
 					info_zh: '支持第三方系统下载',
 					title_en: 'Third Party OS',
 					info_en: 'Support Third Party OS Downloads',
-					url: '/rock3/alt-os',
+					url: '/rock3/alternative-os/third-party-images',
+				},
+			],
+		},
+		{
+			# 产品代号
+			product_code: 'rs117',
+			# 产品名
+			product_name_zh: 'ROCK 3A',
+			product_name_en: 'ROCK 3A',
+			# 产品系列
+			Product_Line_zh: 'ROCK 3 系列',
+			Product_Line_en: 'ROCK 3 Series',
+			# 产品对应的所有文档
+			docs: [
+				{
+					title_zh: '新手入门指南',
+					info_zh: '从这里开始你的 ROCK 3A 之旅',
+					title_en: 'Getting Started Guide',
+					info_en: 'Start Your ROCK 3A Journey Here',			
+					url: '/rock3/rock3a/getting-started',
+				},
+				{
+					title_zh: '编译源码指南',
+					info_zh: '编译源码',
+					title_en: 'Compile Source Guide',
+					info_en: 'Compile the Source Code',	
+					url: '/rock3/lowlevel-dev',
+				},
+				{
+					title_zh: '相关认证信息',
+					info_zh: 'ROCK 3A 认证文件',
+					title_en: 'Certification Information',
+					info_en: 'ROCK 3A Certification Document',	
+					url: '/compliance/rock3/rock3a',
+				},
+				{
+					title_zh: '官方系统镜像',
+					info_zh: '支持多种镜像下载',
+					title_en: 'Image Downloads',
+					info_en: 'Support Multiple Image Downloads',	
+					url: '/rock3/official-images',
+				},
+				{
+					title_zh: '第三方操作系统',
+					info_zh: '支持第三方系统下载',
+					title_en: 'Third Party OS',
+					info_en: 'Support Third Party OS Downloads',
+					url: '/rock3/alternative-os/third-party-images',
+				},
+			],
+		},
+		{
+			# 产品代号
+			product_code: 'rs114se',
+			# 产品名
+			product_name_zh: 'ROCK 4SE',
+			product_name_en: 'ROCK 4SE',
+			# 产品系列
+			Product_Line_zh: 'ROCK 4 系列',
+			Product_Line_en: 'ROCK 4 Series',
+			# 产品对应的所有文档
+			docs: [
+				{
+					title_zh: '新手入门指南',
+					info_zh: '从这里开始你的 ROCK 4SE 之旅',
+					title_en: 'Getting Started Guide',
+					info_en: 'Start Your ROCK 4SE Journey Here',			
+					url: '/rock4/rock4se/getting-started',
+				},
+				{
+					title_zh: '官方系统镜像',
+					info_zh: '支持多种镜像下载',
+					title_en: 'Image Downloads',
+					info_en: 'Support Multiple Image Downloads',	
+					url: '/rock4/official-images',
+				},
+				{
+					title_zh: '第三方操作系统',
+					info_zh: '支持第三方系统下载',
+					title_en: 'Third Party OS',
+					info_en: 'Support Third Party OS Downloads',
+					url: '/rock4/alternative-os/third-party-images',
+				},
+			],
+		},
+				{
+			# 产品代号
+			product_code: 'rs114cp',
+			# 产品名
+			product_name_zh: 'ROCK 4C+',
+			product_name_en: 'ROCK 4C Plus',
+			# 产品系列
+			Product_Line_zh: 'ROCK 4 系列',
+			Product_Line_en: 'ROCK 4 Series',
+			# 产品对应的所有文档
+			docs: [
+				{
+					title_zh: '新手入门指南',
+					info_zh: '从这里开始你的 ROCK 4C+ 之旅',
+					title_en: 'Getting Started Guide',
+					info_en: 'Start Your ROCK 4C Plus Journey Here',			
+					url: '/rock4/rock4cp/getting-started',
+				},
+				{
+					title_zh: '官方系统镜像',
+					info_zh: '支持多种镜像下载',
+					title_en: 'Image Downloads',
+					info_en: 'Support Multiple Image Downloads',	
+					url: '/rock4/official-images',
+				},
+				{
+					title_zh: '第三方操作系统',
+					info_zh: '支持第三方系统下载',
+					title_en: 'Third Party OS',
+					info_en: 'Support Third Party OS Downloads',
+					url: '/rock4/alternative-os/third-party-images',
+				},
+				{
+					title_zh: '相关认证信息',
+					info_zh: 'ROCK 4C+ 认证文件',
+					title_en: 'Certification Information',
+					info_en: 'ROCK 4C Plus Certification Document',	
+					url: '/compliance/rock4/rock4cp',
 				},
 			],
 		},

@@ -346,8 +346,8 @@ sidebar_custom_props: {
 		},
 
 		{
-			product_name_zh: '瑞莎官方系统',
-			product_name_en: 'Radxa OS',
+			product_name_zh: 'RadxaOS',
+			product_name_en: 'RadxaOS',
 			product_code: 'radxa-os',
 			Product_Line_zh: 'Radxa 软件',
 			Product_Line_en: 'Radxa Software',

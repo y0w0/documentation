@@ -224,6 +224,12 @@
   "sidebar.tutorialSidebar.category.瑞莎 CM3 接口板.link.generated-index.description": {
     "message": ""
   },
+  "sidebar.tutorialSidebar.category.计算机模块认证": {
+    "message": "Computer Module Certification"
+  },
+  "sidebar.tutorialSidebar.category.计算机模块认证.link.generated-index.description": {
+    "message": "Computer Module Series Certification Information"
+  },
   "sidebar.tutorialSidebar.category.量产与批量部署": {
     "message": "Mass Production and Mass Deployment"
   },

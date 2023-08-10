@@ -17,7 +17,7 @@ export default () => {
   const [cities, setCities] = useState(cityData[provinceData[0]]);
   const [secondCity, setSecondCity] = useState(cityData[provinceData[0]][0])
   const element = getProduct_doc(homeDoc, secondCity, i18n.currentLocale)
-
+  const productFullName = { "ROCK 5B": "ROCK 5 Model B", "ROCK 5A": "ROCK 5 Model A", "ROCK 3A":"ROCK 3 Model A", "ROCK 3C":"ROCK 3 Model C", "ROCK 4SE":"Radxa ROCK 4SE", "ROCK 4C+":"Radxa ROCK 4C+", "ROCK 4C Plus":"Radxa ROCK 4C+" }
 
   const handleProvinceChange = (value) => {
     setCities(cityData[value]);
@@ -69,8 +69,7 @@ export default () => {
           </div>
           <div className={styles.list}>
             <h1>
-                          {secondCity === "ROCK 5B" ? 'ROCK 5 Model B' : secondCity === "ROCK 5A" ? 'ROCK 5 Model A' : secondCity === "ROCK 3C" ? 'ROCK 3 Model C' : secondCity === "ROCK 3A" ? 'ROCK 3 Model A' :
-                              secondCity === "ROCK 4SE" ? 'ROCK 4SE' : secondCity === "ROCK 4C+" ? 'ROCK 4C+' : secondCity === "ROCK 4C Plus" ? 'ROCK 4C Plus' : null}
+             {productFullName[secondCity]}
             </h1>
             <ul className={styles.card} >
               {

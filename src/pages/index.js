@@ -4,7 +4,7 @@ import { Select, Space, ConfigProvider } from 'antd';
 import Layout from '@theme/Layout';
 import styles from './index.module.css'
 import { getDocs } from "../utils/getDocs";
-import { getProduct_Line, getProduct_Name, getProduct_doc } from "../utils/getPriducts";
+import { getProduct_Line, getProduct_Name, getProduct_doc } from "../utils/getProducts";
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Translate from '@docusaurus/Translate';
 

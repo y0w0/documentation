@@ -8,7 +8,6 @@ import { getProduct_Line, getProduct_Name, getProduct_doc } from "../utils/getPr
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Translate from '@docusaurus/Translate';
 
-
 export default () => {
   const { i18n } = useDocusaurusContext();
   const homeDoc = getDocs().Home.sidebar_custom_props.product_docs
@@ -23,10 +22,10 @@ export default () => {
     setProducts(productName[value]);
     setSelectedProduct(productName[value][0]);
   };
+
   const onProductChange = (value) => {
     setSelectedProduct(value);
   };
-
 
   return (
     <Layout>

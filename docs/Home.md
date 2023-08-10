@@ -149,7 +149,7 @@ sidebar_custom_props: {
 			product_code: 'rs114cp',
 			# 产品名
 			product_name_zh: 'ROCK 4C+',
-			product_name_en: 'ROCK 4C Plus',
+			product_name_en: 'ROCK 4C+',
 			# 产品系列
 			Product_Line_zh: 'ROCK 4 系列',
 			Product_Line_en: 'ROCK 4 Series',
@@ -159,7 +159,7 @@ sidebar_custom_props: {
 					title_zh: '新手入门指南',
 					info_zh: '从这里开始你的 ROCK 4C+ 之旅',
 					title_en: 'Getting Started Guide',
-					info_en: 'Start Your ROCK 4C Plus Journey Here',			
+					info_en: 'Start Your ROCK 4C+ Journey Here',			
 					url: '/rock4/rock4cp/getting-started',
 				},
 				{
@@ -180,7 +180,7 @@ sidebar_custom_props: {
 					title_zh: '相关认证信息',
 					info_zh: 'ROCK 4C+ 认证文件',
 					title_en: 'Certification Information',
-					info_en: 'ROCK 4C Plus Certification Document',	
+					info_en: 'ROCK 4C+ Certification Document',	
 					url: '/compliance/rock4/rock4cp',
 				},
 			],
@@ -200,7 +200,7 @@ sidebar_custom_props: {
 					title_zh: '新手入门指南',
 					info_zh: '从这里开始你的 ROCK 5A 之旅',
 					title_en: 'Getting Started Guide',
-					info_en: 'ROCK 5A Certification Document',	
+					info_en: 'Start Your ROCK 5A Journey Here',	
 					url: '/rock5/rock5a/getting-started',
 				},
 				{
@@ -255,7 +255,7 @@ sidebar_custom_props: {
 					title_zh: '新手入门指南',
 					info_zh: '从这里开始你的 ROCK 5B 之旅',
 					title_en: 'Getting Started Guide',
-					info_en: 'ROCK 5B Certification Document',					
+					info_en: 'Start Your ROCK 5B Journey Here',					
 					url: '/rock5/rock5b/getting-started',
 				},
 				{
@@ -311,14 +311,14 @@ sidebar_custom_props: {
 					title_zh: '新手入门指南',
 					info_zh: '从这里开始你的 CM3 之旅',
 					title_en: 'Getting Started Guide',
-					info_en: 'ROCK CM3 Certification Document',					
+					info_en: 'Start Your CM3 Journey Here',					
 					url: '/compute-module/cm3',
 				},
 				{
 					title_zh: '配件使用指南',
-					info_zh: '使用 ROCK CM3 配件',
+					info_zh: '使用 CM3 配件',
 					title_en: 'Accessories Guide',
-					info_en: 'Using ROCK CM3 Accessories',	
+					info_en: 'Using CM3 Accessories',	
 					url: '/compute-module/cm3/cm3-io-board',
 				},
 				{
@@ -330,9 +330,9 @@ sidebar_custom_props: {
 				},
 				{
 					title_zh: '相关认证信息',
-					info_zh: 'ROCK CM3 认证文件',
+					info_zh: 'CM3 认证文件',
 					title_en: 'Certification Information',
-					info_en: 'ROCK CM3 Certification Document',
+					info_en: 'CM3 Certification Document',
 					url: '/compliance/computer-module/cm3',
 				},
 				{

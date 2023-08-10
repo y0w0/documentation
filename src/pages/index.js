@@ -16,7 +16,6 @@ export default () => {
   const [products, setProducts] = useState(productName[productLine[0]]);
   const [selectedProduct, setSelectedProduct] = useState(productName[productLine[0]][0])
   const element = getProduct_doc(homeDoc, selectedProduct, i18n.currentLocale)
-  const productFullName = { "ROCK 5B": "ROCK 5 Model B", "ROCK 5A": "ROCK 5 Model A", "ROCK 3A":"ROCK 3 Model A", "ROCK 3C":"ROCK 3 Model C", "ROCK 4SE":"Radxa ROCK 4SE", "ROCK 4C+":"Radxa ROCK 4C+", "ROCK 4C Plus":"Radxa ROCK 4C+" }
 
   const onProductLineChange = (value) => {
     setProducts(productName[value]);
@@ -68,7 +67,7 @@ export default () => {
           </div>
           <div className={styles.list}>
             <h1>
-             {productFullName[selectedProduct]}
+              {selectedProduct}
             </h1>
             <ul className={styles.card} >
               {

@@ -252,8 +252,8 @@ a:hover {
 }
 
 .orange {
-    color: #000;
-    background-color: orange;
+  color: #000;
+  background-color: orange;
 }
 
 .rock-cm3-io-board-img img {
@@ -265,4 +265,9 @@ a:hover {
 .rock-cm3-install-io-board img {
   display: block;
   margin: -0px auto;
+}
+
+.rock5b-power img {
+  display: block;
+  margin: 0 auto;
 }

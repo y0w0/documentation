@@ -13,9 +13,7 @@ sidebar_position: 18
 
 当 ROCK 5B 启动之后，再次按下电源键将弹出电源管理对话框：
 
-<div className='rock5b-power'>
-  <img src="/img/rock5a/rock5a-power-status.webp" alt="ROCK 5B Power" />
-</div>
+![ROCK 5B Power](/img/rock5a/rock5a-power-status.webp)
 
 ## 使用软件控制
 

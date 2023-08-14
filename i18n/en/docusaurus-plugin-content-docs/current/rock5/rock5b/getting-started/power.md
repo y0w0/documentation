@@ -13,9 +13,7 @@ When the ROCK 5B is connected to the power supply, the green power LED will stay
 
 After the ROCK 5B is booted into the desktop, press the power button again, and the power management dialog will pop up:
 
-<div className='rock5b-power'>
-   <img src="/img/rock5a/rock5a-power-status.webp" alt="ROCK 5B Power" />
-</div>
+![ROCK 5B Power](/img/rock5a/rock5a-power-status.webp)
 
 ## Control with software
 

@@ -7,7 +7,7 @@ sidebar_position: 18
 
 ## 使用硬件电源键
 
-当 ROCK 5B 接上电源之后，电源绿灯将会一直常亮。按下电源键即可启动。
+当 ROCK 5B 接上电源之后，在关机状态下电源绿灯将会一直常亮。此时按下电源键即可启动。
   
 ![ROCK 5B Power](/img/rock5b/rock5b-power.webp)
 

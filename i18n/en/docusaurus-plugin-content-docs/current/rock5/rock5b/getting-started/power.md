@@ -1,40 +1,34 @@
 ---
-sidebar_label: 'Powen on/off'
+sidebar_label: 'Power Management'
 sidebar_position: 18
 ---
 
-# Powen on/off
+# Power Management
 
-## Introduction to using the power button
+## Control with hardware power key
 
-- When the ROCK 5B is connected to the power supply, the power green light (RGB LED) will always be on, press the power button (Power Button) to start the boot.
+When the ROCK 5B is connected to the power supply, the green power LED will stay on. Press the power button to start the system.
   
 ![ROCK 5B Power](/img/rock5b/rock5b-power.webp)
 
-- After the ROCK 5B is started, press the Power Button again, and the user status interface will pop up, and the user can choose to sleep, restart, shut down or log out.
+After the ROCK 5B is booted into the desktop, press the power button again, and the power management dialog will pop up:
 
 <div className='rock5b-power'>
-  <img src="/img/rock5a/rock5a-power-status.webp" alt="ROCK 5B Power" />
+   <img src="/img/rock5a/rock5a-power-status.webp" alt="ROCK 5B Power" />
 </div>
 
-## Software Control
+## Control with software
 
-### Graphical Interface Power on or off/Restart
-1. Click on the icon in the lower left corner of the desktop and select the **Leave** option. 
-2. Users can choose to sleep, restart, shutdown or logout.
+### Control via GUI
+
+Open the Application Launcher. Select `Leave` option to show the power management dialog:
 
 ![ROCK5A GUI 01](/img/rock5a/rock5a-GUI-leave.webp)
 
-### Terminal Command Shutdown/Restart 
+### Control via command
 
-Open the Terminal command on the desktop (or use the Ctrl+Alt+T shortcut).
+You can run the following commands in a terminal to control the power state:
 
-**Reboot**: Enter the following command and press Enter, followed by the password.
-```
-sudo reboot
-```
-
-**Shutdown**: Enter the following command and press Enter, followed by the password.
-```
-sudo shutdown now
-```
+- Reboot: `systemctl reboot`
+- Shutdown: `systemctl poweroff`
+- Suspend: `systemctl suspend`

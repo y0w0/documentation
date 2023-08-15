@@ -8,11 +8,7 @@ sidebar_position: 10
 Radxa ROCK 3 计算模块 (CM3) 是基于 Rockchip RK3566 片上系统 (SoC) 的系统模块 (SoM)。 CM3 集成了中央处理器 (CPU)、电源管理单元 (PMU)、DRAM 内存、闪存和无线连接（WiFi 5 和 BT 5.0），外形小巧，仅为 55 毫米 x 40 毫米。 
 ROCK CM3 核心板使用 3x 100P 0.4mm 间距 B2B 连接器，提供强大的功能支持，可与客户的底板结合，构建完整的产品功能，从而加快研发进程。
 
-<div class='rock-cm3-io-board-img'>
-
 ![ROCK CM3](/img/cm3/radxa-cm3-top-bottom.webp)
-
-</div>
 
 ROCK CM3 提供各种 LPDDR4 RAM 和 eMMC 配置：  
 - RAM: 1 / 2 / 4 / 8 GB  
@@ -20,11 +16,7 @@ ROCK CM3 提供各种 LPDDR4 RAM 和 eMMC 配置：
 
 同时，我们提供[瑞莎 CM3 接口板](/accessories/cm3-io-board)与 ROCK CM3 相兼容，你可以使用它开发出你想要的产品。例如，HMI，机器人，可视对讲机，智能家居等。
 
-<div class='rock-cm3-install-io-board'>
-
 ![ROCK CM3](/img/cm3/cm3-install-io-board.webp)
-
-</div>
 
 ## 特点
 

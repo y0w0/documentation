@@ -28,7 +28,6 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
-
 li {
   list-style: none;
 }
@@ -47,7 +46,6 @@ a:hover {
   width: 0;
   height: 0;
 }
-
 
 .navbar__logo {
   height: 30px;
@@ -83,8 +81,6 @@ a:hover {
   color: #606770;
 }
 
-
-
 .menu__link--active {
   color: #6aa700 !important;
   font-weight: 700 !important;
@@ -111,7 +107,6 @@ a:hover {
 
   border-left: 1.5px solid #000;
 }
-
 
 .theme-doc-sidebar-item-category-level-2 {
   border-left: 1.5px solid #666;
@@ -216,7 +211,6 @@ a:hover {
   }
 }
 
-
 .gpio_style>table {
   overflow: visible;
 }
@@ -256,13 +250,7 @@ a:hover {
     background-color: orange;
 }
 
-.rock-cm3-io-board-img img {
+img {
   display: block;
-  transform: scale(.9);
   margin: 0px auto;
-}
-
-.rock-cm3-install-io-board img {
-  display: block;
-  margin: -0px auto;
 }

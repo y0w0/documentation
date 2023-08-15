@@ -11,11 +11,7 @@ sidebar_position: 5
 
 尺寸: 160mm × 90mm
 
-<div class='rock-cm3-io-board-img'>
-
 ![CM3_IO_Board](/img/accessories/cm3-io-board/cm3-io-board.webp)
-
-</div>
 
 # 外设概述
 
@@ -47,16 +43,6 @@ sidebar_position: 5
 
 # 机械规格
 
-
-<div class='rock-cm3-io-board-img'>
-
 ![CM3_IO_Board](/img/accessories/cm3-io-board/cm3-io-top-specification.webp)
 
-</div>
-
-<div class='rock-cm3-io-board-img'>
-
 ![CM3_IO_Board](/img/accessories/cm3-io-board/cm3-io-bottom-specification.webp)
-
-</div>
-

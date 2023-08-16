@@ -33,4 +33,3 @@ ROCK 4A 与 ROCK 4B 的区别是 ROCK 4A 搭载板载无线模块（Wifi&BT）�
 | GPIO 扩展 |                                   [40 pin GPIO](/rock4/hardware/rock4-gpio)                                   |
 |   电源    |                                             支持 USB Type-C 5V/3A                                             |
 |   尺寸    |                                                  85mm x 54mm                                                  |
-

@@ -1,0 +1,9 @@
+{
+  "label": "ROCK 4A/4B",
+  "position": 10,
+  "link": {
+    "type": "generated-index",
+    "slug": "/rock4/rock4a",
+    "description": "A High expansion and high compatibility SBC based on RK3399."
+  }
+}

@@ -33,4 +33,3 @@ The difference between ROCK 4A and ROCK 4B is that ROCK 4A is equipped with onbo
 |   GPIO   |                                                        [40 pin GPIO](/rock4/hardware/rock4-gpio)                                                         |
 |  Power   |      USB PD 2.0 Support USB Type C PD 2.0, 9V/2A, 12V/2A, 15V/2A, 20V/2A<br/>Qualcomm® Quick Charge™ 2.0 Support QC3.0/2.0 adapter, 9V/2A, 12V/1.5A      |
 |   Size   |                                                                       85mm x 54mm                                                                        |
-

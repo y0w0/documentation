@@ -7,7 +7,7 @@ sidebar_position: 3
 
 ROCK 4A/4B 是基于 RK3399 SoC 的 SBC，搭载双核 1.8GHz Cortex-A72 和四核 1.4GHz Cortex-A53 处理器，支持 4K 显示，提供卓越的性能和丰富的扩展接口。ROCK 4A/AB 为专业人士、工业 OEM、物联网爱好者、业余爱好者、PC DIY 爱好者和制造商提供了一个可靠且功能强大的平台，用于将他们的想法构建和修改为现实。
 
-![4C+ close view](/img/rock4/4a/rock4a.webp)  
+![4A close view](/img/rock4/4a/rock4a.webp)  
 
 :::note
 主板外观可能因为硬件版本不同而有细微的差别。

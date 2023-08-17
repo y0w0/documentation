@@ -47,7 +47,7 @@ L版本额外提供了 40 针引脚，可以在使用 HAT 的同时连接其他�
 
 <TabItem value="hardware" label="Hareware Information">
 <Tabs>
-<TabItem value="f3_pin_out" label="F3/F3L Pin Out">
+<TabItem value="f3" label="F3/F3L Pinout">
 
 用于 Raspberry Pi 3B+/4/Jetson Nano ROCK 3A 3C 和 4C+ 的 PoE HAT。
 
@@ -80,7 +80,7 @@ L版本额外提供了 40 针引脚，可以在使用 HAT 的同时连接其他�
 
 </TabItem>
 
-<TabItem value="f4_pin_out" label="F4/F4L Pin Out">
+<TabItem value="f4" label="F4/F4L Pinout">
 
 用于 ROCK 4 系列的 PoE HAT。 
 

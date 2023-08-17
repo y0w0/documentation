@@ -67,7 +67,7 @@ import TabItem from '@theme/TabItem';
 - Prepare an eMMC module and a [Radxa eMMC reader](../accessories/emmc_reader).  
 
 :::caution Notice
-This tutorial is only applicable to write removable eMMC modules, onboard eMMCs need to be flashed using [rkdevtool](rkdevtool).
+This tutorial is only applicable to write removable eMMC modules, onboard eMMCs need to be flashed using [rkdevtool](rksdk/rkdevtool).
 :::
 
 ![Radxa eMMC](/img/accessories/emmc_related_01.webp)
@@ -181,7 +181,7 @@ it is recommended that you erase the M.2 NVMe SSD before re-burning and then wri
 ### 从 NVMe SSD启动
 
 After writing the image to the NVMe SSD, to boot from the NVMe SSD you need to write the bootloader to the SPI Flash. 
-For more informations, please check [Installing the bootloader to SPI Flash](rkdevtool) for details
+For more informations, please check [Installing the bootloader to SPI Flash](rksdk/rkdevtool) for details
 
   </TabItem>
 </Tabs>

@@ -6,48 +6,51 @@ sidebar_position: 33
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# Radxa 23W PoE
+# Radxa 23W PoE HAT
 
-Radxa 23W PoE HAT is a HAT accessory designed for Raspberry Pi, Radxa ROCK 3 and 4 series, and Jetson Nano. 
-The 23W PoE HAT allows you to power your Raspberry Pi, ROCK 3 and 4 series or Jetson Nano using Power over Ethernet–enabled networks; 
-for this product to be used, the network it is connected to needs to have power-sourcing equipment installed.
+Radxa 23W PoE HAT 是专为树莓派、Radxa ROCK 3 和 4 系列以及 Jetson Nano 设计的 HAT 配件。 
+通过 23W PoE HAT，您可以使用支持以太网供电的网络为树莓派、ROCK 3 和 4 系列或 Jetson Nano 供电； 
+要使用该产品，所连接的网络需要安装电源设备。
 
 <Tabs>
-<TabItem value="Introduction" label="Introduction">
+<TabItem value="Introduction" label="简介">
 
-## Close Look
+## 实物图
 
 ![Radxa 23W PoE HAT](/img/accessories/poe-hat/23w-poe.webp)
 
-## Supported Products
+## 产品支持
 
-|Model|Supported Products|
+|型号|支持的产品|
 |:-:|-|
 |F3|Raspberry Pi 3B+, Raspberry Pi 4, ROCK Pi X, ROCK 3A, ROCK 3C, ROCK 4C+, Jetson Nano|
-|F3L|F3 with 40PIN GPIO pass-through exported|
+|F3L|支持产品与 F3 相同， 导出 40 PIN GPIO 功能|
 |F4|ROCK Pi 4A / 4B / 4A+ / 4B+ / 4SE|
-|F4L|F4 with 40PIN GPIO pass-through exported|
+|F4L|支持产品与 F4 相同， 导出 40 PIN GPIO 功能|
 
-The difference between F3 and F4 are:  
-F3 and F4 use different GPIO for fan control. F4 uses ADC for temperature detection, while F3 uses DS18B20.  
-F3 and F4 use different PoE pins. As the picture following:  
+F3 和 F4 的区别在于：  
+F3 和 F4 使用不同的 GPIO 控制风扇。F4 使用 ADC 进行温度检测，而 F3 使用 DS18B20。 
+F3 和 F4 使用不同的 PoE 引脚。如下图所示：  
 ![Difference between F3 and F4](/img/accessories/poe-hat/23w-poe-f3f4.webp)
 
-The difference between Fx and FxL:  
-FxL has the 40 pins GPIO pin-out, you can also use the 40 pins GPIO, but you can't while using Fx. As the picture following:  
+Fx 和 FxL 的区别：  
+FxL 有 40 引脚 GPIO 引脚输出，您也可以使用 40 引脚 GPIO，但使用 Fx 时则不行。如下图所示：  
 ![Fx and FxL](/img/accessories/poe-hat/23w-poe-l.webp)
 
-## Features
+## 特性
 
-- 802.3at up to 23W(5V/4.6A)
-- PWM control FAN up to 12000RPM
-- Temperature sensor DS18B20
-- Optional 40PIN GPIO pass-through exported
-- Compatible with Radxa ROCK, Raspberry Pi 3B+ and Raspberry Pi 4
-- Clean design by hiding the fan and the big transformer inside
-- EEPROM for HAT identity and driver probe
+- 802.3at 功率高达 23W（5V/4.6A）
+- PWM 控制风扇，最高可达 12000RPM
+- 温度传感器 DS18B20
+- 可选支持 40 PIN GPIO 接口的型号
+- 与 Radxa ROCK、Raspberry Pi 3B+ 和 Raspberry Pi 4 兼容
+- 设计简洁，将风扇和大变压器隐藏在内部
+- 用于识别 HAT 和驱动器探针的 EEPROM
 
 </TabItem>
+
+<!--
+
 <TabItem value="tutorial" label="Tutorial">
 
 ## Necessary Accessories
@@ -130,19 +133,76 @@ If you are using a debian based system, you can install it through dpkg. If you 
 That's all the installation script (https://rock.sh/get-rockpi-poe) do.
 
 </TabItem>
+
+-->
+
 <TabItem value="hardware" label="Hareware Information">
 
 ## F3/F3L Pin Out
 
-PoE HAT for Raspberry Pi 3B+/4/Jetson Nano ROCK 3A 3C and 4C+.
+用于 Raspberry Pi 3B+/4/Jetson Nano ROCK 3A 3C 和 4C+ 的 PoE HAT。
+
+<div className='gpio_style'>
+
+|Description|Function|Pin#|Pin#|Function|Description|
+|-|-|-|-|-|-|
+|||1 |2 |||
+|||3 |4 |||
+|||5 |6 |||
+|get data from DS18B20|BCM4|7 |8 |||
+|||9 |10|||
+|||11|12|||
+|||13|14|||
+|enable/disable fan motor driver chip|BCM22|15|16|||
+|||17|18|||
+|||19|20|||
+|||21|22|||
+|||23|24|||
+|||25|26|ADC_IN0|Get ADC value to get the temperature value|
+|connect to EEPROM SDA pin|I2C0_SDA|27|28|I2C0_SCL|connect to EEPROM SCL pin|
+|||29|30|||
+|||31|32|||
+|control fan speed|PWM1|33|34|||
+|||35|36|||
+|||37|38|||
+|||39|40|||
+
+</div>
 
 ## F4/F4L Pin Out
 
-PoE HAT for ROCK 4 series.
+用于 ROCK 4 系列的 PoE HAT。 
 
-## 2D file
+<div className='gpio_style'>
 
-You can download the 2D file(.dwg format) on [Radxa 23W PoE HAT 2D file](https://dl.radxa.com/accessories/poe-hat/rockpi_poe_hat_V1.2_20190521.dwg)
+|Description|Function|Pin#|Pin#|Function|Description|
+|-|-|-|-|-|-|
+|||1 |2 |||
+|||3 |4 |||
+|||5 |6 |||
+||GPIO2_B3|7 |8 |||
+|||9 |10|||
+|||11|12|||
+|control fan speed|PWM1|13|14|||
+||GPIO4_C5|15|16|GPIO4_D2|enable/disable fan motor driver|
+|||17|18|||
+|||19|20|||
+|||21|22|||
+|||23|24|||
+|||25|26|ADC_IN0|Get ADC value to get the temperature value|
+|connect to EEPROM SDA pin|I2C2_SDA|27|28|I2C2_SCL|connect to EEPROM SCL pin|
+|||29|30|||
+|||31|32|||
+|||33|34|||
+|||35|36|||
+|||37|38|||
+|||39|40|||
+
+</div>
+
+## 2D 文件
+
+您可以在 [Radxa 23W PoE HAT 2D 文件](https://dl.radxa.com/accessories/poe-hat/rockpi_poe_hat_V1.2_20190521.dwg) 上下载 2D 文件（.dwg 格式）。
 
 </TabItem>
 </Tabs>

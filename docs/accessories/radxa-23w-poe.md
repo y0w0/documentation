@@ -12,7 +12,7 @@ import TabItem from '@theme/TabItem';
 
 Radxa 23W PoE HAT 是专为树莓派、Radxa ROCK 3 和 4 系列以及 Jetson Nano 设计的 HAT 配件。  
 通过 23W PoE HAT，您可以使用支持以太网供电的网络为树莓派、ROCK 3 和 4 系列或 Jetson Nano 供电； 
-要使用该产品，所连接的网络需要安装电源设备。
+如要使用本产品，需要额外的 PoE 供电设备。
 
 <Tabs>
 <TabItem value="specs" label="硬件介绍">
@@ -21,29 +21,27 @@ Radxa 23W PoE HAT 是专为树莓派、Radxa ROCK 3 和 4 系列以及 Jetson Na
 
 |型号|支持的产品|
 |:-:|-|
-|F3|Raspberry Pi 3B+，Raspberry Pi 4，ROCK X，ROCK 3A，ROCK 3C，ROCK 4C+，Jetson Nano|
-|F3L|支持产品与 F3 相同， 导出 40 PIN GPIO 功能|
-|F4|ROCK 4A，ROCK 4B，ROCK 4A+，ROCK 4B+，ROCK 4SE|
-|F4L|支持产品与 F4 相同， 导出 40 PIN GPIO 功能|
+|F3/F3L|Raspberry Pi 3B+，Raspberry Pi 4，ROCK X，ROCK 3A，ROCK 3C，ROCK 4C+，Jetson Nano|
+|F4/F4L|ROCK 4A，ROCK 4B，ROCK 4A+，ROCK 4B+，ROCK 4SE|
 
 F3 和 F4 的区别在于：  
-F3 和 F4 使用不同的 GPIO 控制风扇。F4 使用 ADC 进行温度检测，而 F3 使用 DS18B20。 
-F3 和 F4 使用不同的 PoE 引脚。如下图所示：  
+- F3 和 F4 使用不同的 GPIO 引脚控制风扇。
+- F3 使用 DS18B20 进行温度检测，F4 使用 SoC ADC 进行温度检测 。
+- F3 和 F4 的 PoE 接口物理位置不同：
 ![Difference between F3 and F4](/img/accessories/poe-hat/23w-poe-f3f4.webp)
 
-Fx 和 FxL 的区别：  
-FxL 有 40 引脚 GPIO 引脚输出，您也可以使用 40 引脚 GPIO，但使用 Fx 时则不行。如下图所示：  
+L版本额外提供了 40 针引脚，可以在使用 HAT 的同时连接其他外设：  
 ![Fx and FxL](/img/accessories/poe-hat/23w-poe-l.webp)
 
 ## 特性
 
-- 802.3at 功率高达 23W（5V/4.6A）
-- PWM 控制风扇，最高可达 12000RPM
+- 支持 802.3at 协议，最高电源输出可达 23W（5V/4.6A）
+- PWM 风扇
 - 温度传感器 DS18B20
 - 可选支持 40 PIN GPIO 接口的型号
 - 与 Radxa ROCK、Raspberry Pi 3B+ 和 Raspberry Pi 4 兼容
 - 设计简洁，将风扇和大变压器隐藏在内部
-- 用于识别 HAT 和驱动器探针的 EEPROM
+- 用于识别 HAT 的 EEPROM
 
 </TabItem>
 

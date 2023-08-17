@@ -5,6 +5,9 @@
   "sidebar.tutorialSidebar.category.通用教程": {
     "message": "General Tutorial"
   },
+  "sidebar.tutorialSidebar.category.Rockchip SDK 工具": {
+    "message": "Rockchip SDK Utilities"
+  },
   "sidebar.tutorialSidebar.category.第三方外设配置": {
     "message": "Third Party Peripheral Configuration"
   },

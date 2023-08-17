@@ -68,7 +68,7 @@ import TabItem from '@theme/TabItem';
 - 准备一个 eMMC 模块和一个[Radxa eMMC读卡器](../accessories/emmc_reader)。  
 
 :::caution 注意
-此教程仅适用于刷写可移动 eMMC 模块，板载 eMMC 需使用[线刷](rkdevtool)的方式。
+此教程仅适用于刷写可移动 eMMC 模块，板载 eMMC 需使用[线刷](rksdk/rkdevtool)的方式。
 :::
 
 ![Radxa eMMC](/img/accessories/emmc_related_01.webp)  
@@ -179,7 +179,7 @@ xzcat 'your compressed image path' | sudo dd of='your NVME SSD device path' bs=1
 
 ### 从 NVMe SSD启动
 
-将镜像写入 NVMe SSD 后，要从 NVMe SSD 启动，您需要将 bootloader 写入 SPI Flash。详情请查看[安装 bootloader 到 SPI Flash](rkdevtool)
+将镜像写入 NVMe SSD 后，要从 NVMe SSD 启动，您需要将 bootloader 写入 SPI Flash。详情请查看[安装 bootloader 到 SPI Flash](rksdk/rkdevtool)
 
   </TabItem>
 </Tabs>

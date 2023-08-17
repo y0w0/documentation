@@ -38,6 +38,7 @@ upgrade_tool 在命令行模式下的使用类似于 [rkdeveloptool](rkdevelopto
 ```
 
 ### 写入文件
+
 :::caution
 写入文件时，upgrade_tool 不会自动对压缩文件进行解压缩。
 

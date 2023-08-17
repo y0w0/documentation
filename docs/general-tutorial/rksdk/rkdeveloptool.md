@@ -31,6 +31,7 @@ rkdeveloptool 可以被认为是[开源版本](https://opensource.rock-chips.com
 <TabItem value="Debian">
 
 从命令行中执行以下命令进行安装：
+
 ```bash
 sudo apt-get update
 sudo apt-get install -y libudev-dev libusb-1.0-0-dev dh-autoreconf pkg-config libusb-1.0 build-essential g++ git wget
@@ -48,6 +49,7 @@ sudo cp rkdeveloptool /usr/local/sbin/
 <TabItem value="macOS">
 
 请首先安装 [Homebrew](https://brew.sh/)，然后从命令行中执行以下命令进行安装：
+
 ```bash
 brew install automake autoconf libusb pkg-config git wget
 git clone https://github.com/rockchip-linux/rkdeveloptool
@@ -74,6 +76,7 @@ rkdeveloptool ld
 ```
 
 ### 写入文件
+
 :::caution
 写入文件时，rkdeveloptool 不会自动对压缩文件进行解压缩。
 

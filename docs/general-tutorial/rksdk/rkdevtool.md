@@ -33,15 +33,18 @@ RKDevTool 是 Rockchip 为 Windows 平台下进行 USB 烧录所开发的软件�
 
 ## 向设备中写入文件
 
-### 运行 RKDevTool  
+### 运行 RKDevTool
+
 ![RKDevTool zh](/img/configuration/rkdevtool-zh.webp)
 
 ### 连接产品并进入 Maskrom 模式
+
 :::info
 请参照产品相关说明进行操作。不同产品进入 Maskrom 模式的方式会略有不同。
 :::
 
  如操作正常，RKDevTool 会提示 `发现一个MASKROM设备`：
+
 ![RKDevTool zh maskrom](/img/configuration/rkdevtool-zh-maskrom.webp)
 
 :::caution
@@ -51,6 +54,7 @@ RKDevTool 是 Rockchip 为 Windows 平台下进行 USB 烧录所开发的软件�
 :::
 
 ### 配置 RKDevTool 写入参数
+
 :::caution
 写入文件时，RKDevTool 不会自动对压缩文件进行解压缩。
 
@@ -58,6 +62,7 @@ RKDevTool 是 Rockchip 为 Windows 平台下进行 USB 烧录所开发的软件�
 :::
 
 点击空白单元格选择待使用的 [Loader](Loader) 和 Image 文件：
+
 ![RKDevTool zh choose](/img/configuration/rkdevtool-zh-choose.webp) 
 
 在 `存储` 选项中选择目标介质：
@@ -76,7 +81,9 @@ RKDevTool 是 Rockchip 为 Windows 平台下进行 USB 烧录所开发的软件�
 </Tabs>
 
 选择 `强制按地址写` 后点击 `执行`：
+
 ![RKDevTool zh flashing](/img/configuration/rkdevtool-zh-flashing.webp) 
 
 等待写入完成，随后设备将自动重启：
+
 ![RKDevTool zh complete](/img/configuration/rkdevtool-zh-complete.webp) 

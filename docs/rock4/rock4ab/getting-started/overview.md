@@ -19,7 +19,7 @@ ROCK 4B 相比于 ROCK 4A 额外搭载了板载无线模块，同时支持 PoE �
 
 |   产品    |                                                  ROCK 4A/4B                                                   |
 | :-------: | :-----------------------------------------------------------------------------------------------------------: |
-|    CPU    |              Rockchip RK3399, 64 位六核处理器<br/>双核 1.8GHz Cortex-72 加四核 1.4GHz Cortex-A53              |
+|    CPU    |              Rockchip RK3399，64 位六核处理器<br/>双核 1.8GHz Cortex-72<br/>四核 1.4GHz Cortex-A53              |
 |    GPU    |        Mali T860MP4 GPU，支持 OpenGL ES 1.1/2.0/3.0/3.1/3.2，Vulkan 1.0，OpenCL 1.1 1.2，DirectX 11等         |
 | 运行内存  |                                           LPDDR4 内存，可选 2GB/4GB                                           |
 |   存储    |                eMMC<br/>microSD 卡：最高支持 256 GB<br/>M.2 SSD (M.2 最高支持 2T M2 NVME SSD)                 |

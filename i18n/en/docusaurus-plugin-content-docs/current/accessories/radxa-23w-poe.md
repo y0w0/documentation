@@ -47,8 +47,8 @@ FxL has the 40 pins GPIO pin-out, you can also use the 40 pins GPIO, but you can
 
 </TabItem>
 <TabItem value="hardware" label="Hareware Information">
-
-## F3/F3L Pin Out
+<Tabs>
+<TabItem value="f3_pin_out" label="F3/F3L Pin Out">
 
 PoE HAT for Raspberry Pi 3B+/4/Jetson Nano ROCK 3A 3C and 4C+.
 
@@ -79,7 +79,9 @@ PoE HAT for Raspberry Pi 3B+/4/Jetson Nano ROCK 3A 3C and 4C+.
 
 </div>
 
-## F4/F4L Pin Out
+</TabItem>
+
+<TabItem value="f4_pin_out" label="F4/F4L Pin Out">
 
 PoE HAT for ROCK 4 series.
 
@@ -109,6 +111,9 @@ PoE HAT for ROCK 4 series.
 |||39|40|||
 
 </div>
+
+</TabItem>
+</Tabs>
 
 ## 2D file
 

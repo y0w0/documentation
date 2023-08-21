@@ -197,11 +197,11 @@
   "sidebar.tutorialSidebar.category.应用开发教程": {
     "message": "Application Development Tutorial"
   },
-  "sidebar.tutorialSidebar.category.瑞莎官方操作系统": {
-    "message": "Radxa Official OS"
+  "sidebar.tutorialSidebar.category.瑞莎操作系统": {
+    "message": "RadxaOS"
   },
-  "sidebar.tutorialSidebar.category.瑞莎官方操作系统.link.generated-index.description": {
-    "message": "Use of Radxa OS"
+  "sidebar.tutorialSidebar.category.瑞莎操作系统.link.generated-index.description": {
+    "message": "Usage of RadxaOS"
   },
   "sidebar.tutorialSidebar.category.计算机模块系列": {
     "message": "Computer Module Series"

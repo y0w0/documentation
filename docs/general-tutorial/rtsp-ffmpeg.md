@@ -1,17 +1,17 @@
 ---
-sidebar_label: 'RTSP 远程推流(基于FFmpeg)'
+sidebar_label: 'RTSP 远程推流(基于 FFmpeg)'
 sidebar_position: 20
 ---
 
-# RTSP 远程推流教程(基于FFmpeg)
+# RTSP 远程推流教程(基于 FFmpeg)
 
 ## 需求
 
 1. 兼容摄像头
-2. 如使用 ROCK 5B，也可使用HDMI RX作为视频源
+2. 如使用 ROCK 5B，也可使用 HDMI RX 作为视频源
 
 :::caution
-使用 HDMI RX 时，低于720p分辨率的输入源可能会导致编码失败
+使用 HDMI RX 时，低于 720P 分辨率的输入源可能会导致编码失败
 :::
 
 ## 服务端配置
@@ -47,7 +47,7 @@ make -j8
 sudo make install
 ```
 
-### 运行 mediamtx与FFmpeg
+### 运行 mediamtx 与 FFmpeg
 
 :::info
 此处我们假定 `/dev/video0` 是你想要使用的视频源。如果你的摄像头被分配到了其他的名称下，请替换以下命令行中对应的文件名。

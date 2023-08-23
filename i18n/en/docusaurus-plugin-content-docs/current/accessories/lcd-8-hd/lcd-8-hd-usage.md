@@ -10,7 +10,7 @@ import TabItem from '@theme/TabItem';
 
 ## Introduction
 
-[Radxa Display 8 HD](lcd-8-hd-product) now supports the following radxa products, and will be gradually adapted to more boards:  
+[Radxa Display 8 HD](lcd-8-hd-product) now supports the following radxa products:
 
 |Applicable to boards|FPC cable types|Photos|
 |-|-|-|-|
@@ -30,19 +30,19 @@ The 15-pin to 40-pin FPC cable has an additional 7-pin holder that needs to be c
 
 - ROCK 4C+/5A/5B board
 
-:::note Notice
+:::note
 The ROCK 5A is used here as a demonstration, and other boards operate in a similar way.
 :::
 
 - Radxa Display 8 HD
-- 39 pin 转 40 pin FPC cable
+- 39 pin to 40 pin FPC cable
 - Power supply
 
-:::tip Tip
-The official Radxa 30W adapter is recommended: [**Radxa PD 30W Adapter**](/accessories/pd_30w).
+:::tip
+Recommended  [Radxa PD 30W Adapter](/accessories/pd_30w).
 :::
 
-- Storage media with the latest official software of the corresponding board, please refer to [OS Installation Tutorial](/general-tutorial/os-installation) for the flashing tutorial.
+- Storage media with the latest official software of the corresponding product, please refer to [OS Installation Tutorial](/general-tutorial/os-installation) for the flashing tutorial.
 - USB to TTL serial cable or HDMI monitor and cable.
  
 ### Procedures
@@ -68,19 +68,19 @@ The official Radxa 30W adapter is recommended: [**Radxa PD 30W Adapter**](/acces
 
 - ROCK 3A/3C/4SE board
 
-:::note Notice
+:::note
 The ROCK 3C is used here as a demonstration, and other boards operate in a similar manner.
 :::
 
 - Radxa Display 8 HD
-- 15 pin 转 40 pin FPC cable
+- 15 pin to 40 pin FPC cable
 - Power supply
 
-:::tip Tip
-The official Radxa 30W adapter is recommended: [**Radxa PD 30W Adapter**](/accessories/pd_30w).
+:::tip
+Recommended  [Radxa PD 30W Adapter](/accessories/pd_30w).
 :::
 
-- Storage media with the latest official software of the corresponding board, please refer to [OS Installation Tutorial](/general-tutorial/os-installation) for the flashing tutorial.
+- Storage media with the latest official software of the corresponding product, please refer to [OS Installation Tutorial](/general-tutorial/os-installation) for the flashing tutorial.
 - USB to TTL serial cable or HDMI monitor and cable.
  
 ### Procedures

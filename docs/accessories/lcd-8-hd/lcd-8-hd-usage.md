@@ -10,14 +10,14 @@ import TabItem from '@theme/TabItem';
 
 ## 概述
 
-[Radxa Display 8 HD](lcd-8-hd-product) 显示面板现已支持以下瑞莎产品，后续会逐步适配更多主板：  
+[Radxa Display 8 HD](lcd-8-hd-product) 显示面板现已支持以下瑞莎产品：  
 
-|适配主板|使用 FPC 线材种类|实物图|
+|适配产品|使用 FPC 线材种类|实物图|
 |-|-|-|-|
 |4C+/5A/5B|39 pin 转 40 pin FPC 连接线|![AC012](/img/accessories/lcd-8-hd/ac013.webp)|
 |3A/3C/4SE|15 pin 转 40 pin FPC 连接线|![AC013](/img/accessories/lcd-8-hd/ac012.webp)|
 
-其中，15 pin 转 40 pin 的 FPC 排线有一个需要额外连接的 7 pin 座子，其定义如下：
+其中，15 pin 转 40 pin 的 FPC 排线有需要额外连接的 7 pin 排针，其定义如下：
 
 ![AC012 Pin Definition](/img/accessories/lcd-8-hd/ac012-pin-definition.webp)
 
@@ -30,19 +30,19 @@ import TabItem from '@theme/TabItem';
 
 - ROCK 4C+/5A/5B 主板
 
-:::note 提示
-此处以 ROCK 5A 为演示对象，其他主板操作方式类似。
+:::note
+此处以 ROCK 5A 为演示对象，其他产品操作方式类似。
 :::
 
 - Radxa Display 8 HD 显示面板
 - 39 pin 转 40 pin FPC 连接线
-- 主板适配的电源适配器
+- 产品适配的电源适配器
 
-:::tip 提示
-推荐使用瑞莎官方 30W 适配器：[**瑞莎 PD 30W 适配器**](/accessories/pd_30w)。
+:::tip
+推荐使用[瑞莎 PD 30W 适配器](/accessories/pd_30w)。
 :::
 
-- 已烧录对应主板官方最新固件的存储介质，烧录教程请参阅[操作系统安装教程](/general-tutorial/os-installation)
+- 已烧录对应产品官方最新固件的存储介质，烧录教程请参阅[操作系统安装教程](/general-tutorial/os-installation)
 - USB 串口线或 HDMI 显示器及线缆
  
 ### 操作步骤
@@ -68,19 +68,19 @@ import TabItem from '@theme/TabItem';
 
 - ROCK 3A/3C/4SE 主板
 
-:::note 提示
-此处以 ROCK 3C 为演示对象，其他主板操作方式类似。
+:::note
+此处以 ROCK 3C 为演示对象，其他产品操作方式类似。
 :::
 
 - Radxa Display 8 HD 显示面板
 - 15 pin 转 40 pin FPC 连接线
-- 主板适配的电源适配器
+- 产品适配的电源适配器
 
-:::tip 提示
-推荐使用瑞莎官方 30W 适配器：[**瑞莎 PD 30W 适配器**](/accessories/pd_30w)。
+:::tip
+推荐使用[瑞莎 PD 30W 适配器](/accessories/pd_30w)。
 :::
 
-- 已烧录对应主板官方最新固件的存储介质，烧录教程请参阅[操作系统安装教程](/general-tutorial/os-installation)
+- 已烧录对应产品官方最新固件的存储介质，烧录教程请参阅[操作系统安装教程](/general-tutorial/os-installation)
 - USB 串口线或 HDMI 显示器及线缆
  
 ### 操作步骤
@@ -103,7 +103,7 @@ Step 3：将卡扣向下按紧，固定排线
 <TabItem value="3c" label="ROCK 3C">
 <div className='gpio_style'>
 
-|FPC 线 pin 脚||主板 GPIO pin 脚|
+|FPC 线 pin 脚||产品 GPIO pin 脚|
 |:-:|:-:|:-:|
 |VCC_5V |<-->|<div className='red'>+5.0V</div>	 |
 |GND	|<-->|<div className='black'>GND</div>	 |
@@ -122,7 +122,7 @@ Step 3：将卡扣向下按紧，固定排线
 <TabItem value="3a" label="ROCK 3A">
 <div className='gpio_style'>
 
-|FPC 线 pin 脚||主板 GPIO pin 脚|
+|FPC 线 pin 脚||产品 GPIO pin 脚|
 |:-:|:-:|:-:|
 |VCC_5V |<-->|<div className='red'>+5.0V</div>	 |
 |GND	|<-->|<div className='black'>GND</div>	 |
@@ -141,7 +141,7 @@ Step 3：将卡扣向下按紧，固定排线
 <TabItem value="4se" label="ROCK 4SE">
 <div className='gpio_style'>
 
-|FPC 线 pin 脚||主板 GPIO pin 脚|
+|FPC 线 pin 脚||产品 GPIO pin 脚|
 |:-:|:-:|:-:|
 |VCC_5V |<-->|<div className='red'>+5.0V</div>	 |
 |GND	|<-->|<div className='black'>GND</div>	 |

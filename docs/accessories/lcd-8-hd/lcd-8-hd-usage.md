@@ -28,7 +28,7 @@ import TabItem from '@theme/TabItem';
 
 ### 准备
 
-- ROCK 4C+/5A/5B 主板
+- ROCK 4C+/5A/5B SBC
 
 :::note
 此处以 ROCK 5A 为演示对象，其他产品操作方式类似。
@@ -47,26 +47,26 @@ import TabItem from '@theme/TabItem';
  
 ### 操作步骤
 
-1. 将系统盘存储介质安装到主板上
+1. 将系统盘存储介质安装到 SBC 上
 
-2. 通过 FPC 线连接主板和显示面板  
+2. 通过 FPC 线连接产品和显示面板  
  其中，40 pin 端子接到显示面板上：向上拉起 FPC 接头黑色模块，将 FPC 排线插入卡槽，然后按下黑色模块固定 FPC 排线  
  ![Radxa Display 8 HD](/img/accessories/8hd-connect-fpc.webp)  
- 39 pin 端子接到主板 DSI 座子上：向上拉起 FPC 接头黑色模块，将 FPC 排线插入卡槽，然后向后按下黑色模块固定 FPC 排线  
+ 39 pin 端子接到产品 DSI 座子上：向上拉起 FPC 接头黑色模块，将 FPC 排线插入卡槽，然后向后按下黑色模块固定 FPC 排线  
  ![ROCK 5A-Radxa Display 8 HD](/img/accessories/rock5a-connect-fpc.webp)
 
 3. 连接显示器或 USB 串口调试，通电进入系统
 
 4. 通过终端打开 `Radxa Display 8 HD` 的 overlay 选项，具体操作请参阅[设备树设置](/radxa-os/rsetup/devicetree)。
 
-5. 重启主板启用 overlay，显示屏输出画面
+5. 重启 SBC 以启用 overlay，显示屏输出画面
 
 </TabItem>
 <TabItem value="15pin" label="3A/3C/4SE">
 
 ### 准备
 
-- ROCK 3A/3C/4SE 主板
+- ROCK 3A/3C/4SE SBC
 
 :::note
 此处以 ROCK 3C 为演示对象，其他产品操作方式类似。
@@ -85,19 +85,19 @@ import TabItem from '@theme/TabItem';
  
 ### 操作步骤
 
-1. 将系统盘存储介质安装到主板上
+1. 将系统盘存储介质安装到 SBC 上
 
-2. 通过 FPC 线连接主板和显示面板  
+2. 通过 FPC 线连接产品和显示面板  
  其中，40 pin 端子接到显示面板上：向上拉起 FPC 接头黑色模块，将 FPC 排线插入卡槽，然后按下黑色模块固定 FPC 排线  
  ![Radxa Display 8 HD](/img/accessories/8hd-connect-fpc.webp)  
 
- 15 pin 端子接到主板 DSI 座子上：  
+ 15 pin 端子接到产品 DSI 座子上：  
 Step 1：将座子白色卡扣向上拉起  
 Step 2：排线金手指背对白色卡扣插入座子  
 Step 3：将卡扣向下按紧，固定排线  
  ![FPC 15 Pin Connecting](/img/accessories/lcd-8-hd/fpc-15-pin-connecting.webp)
 
-3. 排线接线 pin 脚通过杜邦线接到主板 GPIO 座子上，接法如下：
+3. 排线接线 pin 脚通过杜邦线接到产品 GPIO 座子上，接法如下：
 
 <Tabs>
 <TabItem value="3c" label="ROCK 3C">
@@ -163,7 +163,7 @@ Step 3：将卡扣向下按紧，固定排线
 
 5. 通过终端打开 `Radxa Display 8 HD` 的 overlay 选项，具体操作请参阅[设备树设置](/radxa-os/rsetup/devicetree)。
 
-6. 重启主板启用 overlay，显示屏将会输出画面
+6. 重启 SBC 以启用 overlay，显示屏将会输出画面
 
 </TabItem>
 </Tabs>

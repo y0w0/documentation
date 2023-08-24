@@ -4,6 +4,6 @@
     "link": {
         "type": "generated-index",
         "slug": "/zero",
-        "description": "ZERO 系列是基于 RK3566、Amlogic A311D、Amlogic A311D SoC的高性能SBC。"
+        "description": "ZERO 系列是针对尺寸优化的通用SBC。"
     }
 }

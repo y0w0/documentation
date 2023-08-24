@@ -27,4 +27,3 @@ Radxa Zero 3W 是一款高性能单板计算机 (SBC)，外形紧凑，旨在提
 |   其他   | 40个GPIO扩展座                                                                            |
 |   电源   | USB 2.0 OTG Type-C 电源端口上具有 5V/1A 电源适配器<br/>                                   |
 |   尺寸   | 65mm x 30mm                                                                               |
-

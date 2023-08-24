@@ -1,0 +1,9 @@
+{
+    "label": "ZERO Series",
+    "position": 55,
+    "link": {
+        "type": "generated-index",
+        "slug": "/zero",
+        "description": "ZERO series are high-performance SBCs based on RK3566, Amlogic A311D and Amlogic A311D."
+    }
+}

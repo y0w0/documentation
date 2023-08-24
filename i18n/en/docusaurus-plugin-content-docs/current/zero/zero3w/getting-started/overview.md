@@ -25,4 +25,3 @@ The Radxa Zero 3W is a high‑performance Single Board Computer (SBC) engineered
 |        Others         | 40x GPIO expansion interfaces                                                                                    |
 |         Power         | Power adapter with 5V/1A on the USB 2.0 OTG Type‑C power port                                                    |
 |       Dimension       | 65mm x 30mm                                                                                                      |
-

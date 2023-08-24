@@ -23,7 +23,7 @@ Radxa ZERO 3W 专为包括制造商、物联网开发人员、业余爱好者和
 |   内存   | 1/2 GB LPDDR4                                                                             |
 |   存储   | 可选板载 eMMC 模块：0/8/16 GB<br/>microSD 存储卡                                          |
 |   显示   | 提供 Micro HDMI接口：支持 1080P@60fps 显示                                                |
-| 无线通讯 | 802.11 b/g/n (WiFi 4) Wireless LAN<br/>BT 5.0 with BLE  <br/>可由软件配置板载或外置天线   |
+| 无线通讯 | Wi-Fi 4 (802.11 b/g/n)<br/>BT 5.0 with BLE<br/>可由软件配置板载或外置天线   |
 |   USB    | 一个 USB 2.0 Type-C OTG 端口用于供电和数据传输<br/>一个 USB 3.0 Type-C HOST 端口                      |
 |  摄像头  | 配备 1x4 通道 MIPI CSI（移动行业处理器接口）                                              |
 |   其他   | 40个GPIO扩展座                                                                            |

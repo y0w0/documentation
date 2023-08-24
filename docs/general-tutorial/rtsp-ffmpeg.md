@@ -20,31 +20,29 @@ sidebar_position: 20
 
 ```bash
 sudo apt update
-sudo apt install librockchip-mpp-dev librockchip-vpu0 librga-dev libyuv-dev libdrm-dev pkg-config libx264-dev build-essential git
+sudo apt install librockchip-mpp-dev librockchip-vpu0 librga-dev libyuv-dev libdrm-dev pkg-config libx264-dev build-essential git cmake
 ```
 
-### 获取最新 MPP 源码并编译
+### 编译并安装最新 MPP
 ```bash
 git clone https://github.com/rockchip-linux/mpp
-cd mpp
-cmake -DRKPLATFORM=ON -DHAVE_DRM=ON && make
+pushd mpp
+cmake -DRKPLATFORM=ON -DHAVE_DRM=ON && make -j$(nproc)
 sudo make install
 sudo cp ./mpp/librockchip_mpp.so* /lib/aarch64-linux-gnu
 sudo cp ./mpp/legacy/librockchip_vpu.so* /lib/aarch64-linux-gnu
+popd
 ```
 
-### 获取 FFmpeg 源码
-
-```bash
-git clone https://github.com/hbiyik/FFmpeg.git
-```
 ### 编译并安装 FFmpeg
 
 ```bash
-cd FFmpeg/
+git clone https://github.com/hbiyik/FFmpeg.git
+pushd FFmpeg/
 ./configure --enable-rkmpp --enable-version3 --enable-libdrm --enable-libx264 --enable-gpl
-make -j8
+make -j$(nproc)
 sudo make install
+popd
 ```
 
 ### 运行 mediamtx 与 FFmpeg
@@ -70,7 +68,7 @@ sudo ffmpeg -re -f v4l2 -i /dev/video0 -c:v hevc -rc_mode 0 -level 30 -f rtsp rt
 2. 点击 媒体 - 打开网络串流 来输入 RTSP 推流地址
 
 :::tip
-需将 FFmpeg 命令最后的RTSP链接中的 `0.0.0.0` 替换为可通讯的 IP 地址。
+需使用可通讯的 IP 地址。
 :::
 
 ![VLC-Open-RTSP](/img/general-tutorial/rtsp/VLC-Open-RTSP.webp)

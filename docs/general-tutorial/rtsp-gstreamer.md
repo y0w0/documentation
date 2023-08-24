@@ -11,7 +11,7 @@ sidebar_position: 20
 2. 如使用 ROCK 5B，也可使用 HDMI RX 作为视频源
 
 :::caution
-使用 HDMI RX 时，目前 gst-mppenc 暂不支持 NV24(YCbCr444) 与 BGR 输入，需要 HDMI 输入端切换颜色格式为 NV12(YCbCr420) 或 NV16(YCbCr422)，或者使用 [FFMpeg](./rtsp-ffmpeg) 进行推流。
+使用 HDMI RX 时，目前 gst-mppenc 暂不支持 NV24(YCbCr444) 与 RGB 输入，需要 HDMI 输入端切换颜色格式为 NV12(YCbCr420) 或 NV16(YCbCr422)，或者使用 [FFMpeg](./rtsp-ffmpeg) 进行推流。
 :::
 
 ## 服务端配置

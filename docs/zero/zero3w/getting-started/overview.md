@@ -18,7 +18,7 @@ Radxa ZERO 3W 专为包括制造商、物联网开发人员、业余爱好者和
 |   模块   | ZERO 3W                                                                                   |
 | :------: | :---------------------------------------------------------------------------------------- |
 |   SoC    | Rockchip RK3566                                                     |
-|   CPU    | 四核 Cortex-A55, 频率高达 1.6Ghz                                                          |
+|   CPU    | 四核 Cortex-A55, 频率最高达 1.6Ghz                                                          |
 |   GPU    | Arm Mali™‑G52‑2EE, 支持Arm Mali™‑G52‑2EE, OpenGL® ES1.1/2.0/3.2, Vulkan® 1.1, OpenCL™ 2.0 |
 |   内存   | 1/2 GB LPDDR4                                                                             |
 |   存储   | 可选板载 eMMC 模块：0/8/16 GB<br/>microSD 存储卡                                          |

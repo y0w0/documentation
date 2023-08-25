@@ -14,9 +14,9 @@ sidebar_position: 15
 |Samsung          |970 evo plus |1TB|3.3V/1.9A|RadxaOS|Identifiable|||
 |Samsung          |pm983a|1TB|3.3V/3.9A||Unidentifiable|||
 |Kingston         |OM8PDP3256B-A01|256GB|3.3V/1A|RadxaOS|Identifiable|||
-|Kingston         |A2000 (SA2000M8/1000G)|1TB|3.3V/3A|Ubuntu 20.04 Radxa/Armbian|Identifiable|Read:980MB/s<br/>Write:888MB/s||
-|Intel            |optane M10 |32GB|3.3V/1.2A|Ubuntu 20.04 Radxa|Identifiable|||
-|Intel            |Optane M10 |16GB|3.3V/1.2A|Ubuntu server Radxa|Identifiable|||
+|Kingston         |A2000 (SA2000M8/1000G)|1TB|3.3V/3A|RadxaOS/Armbian|Identifiable|Read:980MB/s<br/>Write:888MB/s||
+|Intel            |optane M10 |32GB|3.3V/1.2A|RadxaOS|Identifiable|||
+|Intel            |Optane M10 |16GB|3.3V/1.2A|RadxaOS|Identifiable|||
 |Intel            |optane h10 |16GB+256GB|3.3V/2.5A|RadxaOS|Identifiable|Read:910MB/s<br/>Write:170MB/s|Just 16G Recognized bases on default configuration, After PCIE Separated, The whole Capacity can be Recognized|
 |Galaxy           |黑将Pro 250G|250GB|3.3V/1.8A|RadxaOS|Identifiable|Read:2.1GB/s<br/>Write:680MB/s||
 |Western Digital  |sn730|512GB|3.3v/2.8A|RadxaOS|Identifiable|Read:1.4GB/s<br/>Write:670MB/s||

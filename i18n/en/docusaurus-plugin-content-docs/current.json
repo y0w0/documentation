@@ -44,6 +44,9 @@
   "sidebar.tutorialSidebar.category.ROCK 5 系列": {
     "message": "ROCK 5 Family"
   },
+  "sidebar.tutorialSidebar.category.ZERO 系列": {
+    "message": "ZERO Family"
+  },
   "sidebar.tutorialSidebar.category.ROCK 5 系列.link.generated-index.description": {
     "message": "ROCK 5 is the latest series of SBC and SoM powered by Rockchip RK3588/RK3588S with 8K display and 6T NPU."
   },
@@ -52,6 +55,12 @@
   },
   "sidebar.tutorialSidebar.category.ROCK 5B.link.generated-index.description": {
     "message": "ROCK 5B is a powerful SBC with quad display support in Pico-ITX form factor."
+  },
+  "sidebar.tutorialSidebar.category.ZERO 系列.link.generated-index.description": {
+    "message": "ZERO series are high-performance SBCs based on RK3566, Amlogic A311D and Amlogic A311D."
+  },
+  "sidebar.tutorialSidebar.category.ZERO 3W.link.generated-index.description": {
+    "message": "ZERO 3W is a low-cost, high-performance single-board computer (SBC)."
   },
   "sidebar.tutorialSidebar.category.备选操作系统": {
     "message": "Alternative OS"

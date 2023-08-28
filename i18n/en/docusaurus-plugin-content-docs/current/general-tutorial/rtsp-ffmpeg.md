@@ -1,9 +1,9 @@
 ---
-sidebar_label: 'RTSP Remote Streaming Guide(based on FFmpeg)'
+sidebar_label: 'RTSP Remote Streaming Guide (based on FFmpeg)'
 sidebar_position: 20
 ---
 
-# RTSP Remote Streaming Guide(based on FFmpeg)
+# RTSP Remote Streaming Guide (based on FFmpeg)
 
 ## Preparation
 
@@ -11,7 +11,7 @@ sidebar_position: 20
 2. If using the ROCK 5B, you can also use the HDMI RX as a video source
 
 :::caution
-Input sources with lower than 720P resolution may cause encoding failure when using HDMI RX
+Input sources with lower than 720P resolution may cause encoding failure when using HDMI RX.
 :::
 
 ## Server Configuration
@@ -48,7 +48,7 @@ popd
 ### Running mediamtx and FFmpeg
 
 :::info
-Here we assume that `/dev/video0` is the video source you want to use. If your camera is assigned a different name, replace the corresponding filename in the following command line.
+Here we assume that `/dev/video0` is the video source you want to use. If your camera is assigned to a different name, replace the corresponding device name in the following command line.
 :::
 
 ```bash

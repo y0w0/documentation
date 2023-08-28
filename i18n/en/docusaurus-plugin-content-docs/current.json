@@ -59,6 +59,9 @@
   "sidebar.tutorialSidebar.category.ZERO 系列.link.generated-index.description": {
     "message": "ZERO series are high-performance SBCs based on RK3566, Amlogic A311D and Amlogic A311D."
   },
+  "sidebar.tutorialSidebar.category.ZERO 2.link.generated-index.description": {
+    "message": "ZERO 2 is a high-performance single-board computer based on the Amlogic A311D SOC."
+  },
   "sidebar.tutorialSidebar.category.ZERO 3W.link.generated-index.description": {
     "message": "ZERO 3W is a low-cost, high-performance single-board computer (SBC)."
   },

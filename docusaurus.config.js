@@ -44,15 +44,11 @@ const config = {
         docs: {
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/radxa-docs/documentation/edit/main/',
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/radxa-docs/documentation/edit/main/',
         },
@@ -72,30 +68,16 @@ const config = {
         },
       },
       algolia: {
-        // The application ID provided by Algolia
         appId: 'KB2V2SQ6N9',
-
-        // Public API key: it is safe to commit it
         apiKey: '9fdd9855b5bfb8447d4079ca17e40bdc',
-        // Your index name
         indexName: 'radxa',
-
-        // Optional: see doc section below
         contextualSearch: true,
-
-        // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
         externalUrlRegex: 'external\\.com|domain\\.com',
-
-        // Optional: Replace parts of the item URLs from Algolia. Useful when using the same search index for multiple deployments using a different baseUrl. You can use regexp or string in the `from` param. For example: localhost:3000 vs myCompany.com/docs
         replaceSearchResultPathname: {
-          from: '/docs/', // or as RegExp: /\/docs\//
+          from: '/docs/',
           to: '/',
         },
-
-        // Optional: Algolia search parameters
         searchParameters: {},
-
-        // Optional: path for search page that enabled by default (`false` to disable it)
         searchPagePath: false,
 
       },
@@ -137,11 +119,6 @@ const config = {
           },
           {
             position: 'right',
-            label: 'Support',
-            to: 'https://forum.radxa.com/',
-          },
-          {
-            position: 'right',
             label: 'Community',
             to: 'http://www.radxa.com/association',
             target: '_self',
@@ -157,6 +134,21 @@ const config = {
             label: 'Services',
             to: 'http://www.radxa.com/services',
             target: '_self',
+          },
+          {
+            type: 'dropdown',
+            label: 'Support',
+            position: 'right',
+            items: [
+              {
+                label: 'Forum',
+                href: 'https://forum.radxa.com/',
+              },
+              {
+                label: 'Github',
+                href: 'https://github.com/radxa',
+              },
+            ],
           },
           {
             type: 'localeDropdown',

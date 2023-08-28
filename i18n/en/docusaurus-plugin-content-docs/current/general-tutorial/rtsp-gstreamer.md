@@ -41,7 +41,7 @@ ninja
 ### Run gst-rtsp-server
 
 :::info
-Here we assume that `/dev/video0` is the video source you want to use. If your camera is assigned a different name, replace the corresponding filename in the following command line.
+Here we assume that `/dev/video0` is the video source you want to use. If your camera is assigned to a different name, replace the corresponding device name in the following command line.
 :::
 
 ```bash

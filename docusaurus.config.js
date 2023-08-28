@@ -145,10 +145,6 @@ const config = {
                 href: 'https://forum.radxa.com/',
               },
               {
-                label: 'WiKi',
-                href: 'https://wiki.radxa.com/',
-              },
-              {
                 label: 'Github',
                 href: 'https://github.com/radxa',
               },

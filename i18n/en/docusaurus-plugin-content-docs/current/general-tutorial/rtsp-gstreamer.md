@@ -11,7 +11,7 @@ sidebar_position: 20
 2. If using the ROCK 5B, you can also use the HDMI RX as a video source
 
 :::caution
-When using HDMI RX, gst-mppenc does not support NV24(YCbCr444) and RBG inputs currently, you need to switch the colour format of HDMI input to NV12(YCbCr420) or NV16(YCbCr422), or use [FFMpeg](./rtsp-ffmpeg) for streaming.
+When using HDMI RX, gst-mppenc does not support NV24(YCbCr444) and RBG inputs currently, you need to switch the colour format of HDMI input to NV12(YCbCr420) or NV16(YCbCr422), or use [FFmpeg](./rtsp-ffmpeg) for streaming.
 :::
 
 ## Server Configuration

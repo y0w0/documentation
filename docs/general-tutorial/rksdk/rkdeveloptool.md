@@ -37,8 +37,9 @@ sudo apt-get update
 sudo apt-get install -y libudev-dev libusb-1.0-0-dev dh-autoreconf pkg-config libusb-1.0 build-essential g++ git wget
 git clone https://github.com/rockchip-linux/rkdeveloptool
 cd rkdeveloptool
+wget https://patch-diff.githubusercontent.com/raw/rockchip-linux/rkdeveloptool/pull/73.patch
 wget https://patch-diff.githubusercontent.com/raw/rockchip-linux/rkdeveloptool/pull/85.patch
-git am 85.patch
+git am *.patch
 autoreconf -i
 ./configure
 make -j $(nproc)
@@ -54,8 +55,9 @@ sudo cp rkdeveloptool /usr/local/sbin/
 brew install automake autoconf libusb pkg-config git wget
 git clone https://github.com/rockchip-linux/rkdeveloptool
 cd rkdeveloptool
+wget https://patch-diff.githubusercontent.com/raw/rockchip-linux/rkdeveloptool/pull/73.patch
 wget https://patch-diff.githubusercontent.com/raw/rockchip-linux/rkdeveloptool/pull/85.patch
-git am 85.patch
+git am *.patch
 autoreconf -i
 ./configure
 make -j $(nproc)

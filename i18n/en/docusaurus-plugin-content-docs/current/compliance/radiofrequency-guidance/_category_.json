@@ -1,8 +1,8 @@
 {
   "label": "Radiofrequency Compliance Guidance",
-  "position": 80,
   "link": {
-    "type": "generated-index",
-    "slug": "/compliance/radiofrequency-guidance"
-  }
+    "slug": "/compliance/radiofrequency-guidance",
+    "type": "generated-index"
+  },
+  "position": 80
 }

@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Radxa Power PD 30W'
+sidebar_label: "Radxa Power PD 30W"
 sidebar_position: 3
 ---
 
@@ -9,30 +9,28 @@ The Radxa Power PD 30W is an adapter designed specifically for Radxa's SBC produ
 
 ![](/img/accessories/power-pd-30w-2.webp)
 
-
 # Features
 
-- INPUT: AC100-240V 50/60Hz 1A  
-- OUTPUT: 5V/5A 9V/2A 12/2A 30W  
-- Protection Function    
-    — Over Voltage Protection    
-    — Short Circuit Protection    
-    — Over Current Protection  
-- Environment Requirement   
+- INPUT: AC100-240V 50/60Hz 1A
+- OUTPUT: 5V/5A 9V/2A 12/2A 30W
+- Protection Function  
+   — Over Voltage Protection  
+   — Short Circuit Protection  
+   — Over Current Protection
+- Environment Requirement
   1. Temperature:  
-    — Operation Ambient: 0℃ - +40℃    
-    — Non-operating Ambient: -25℃ - +55℃  
+     — Operation Ambient: 0℃ - +40℃  
+     — Non-operating Ambient: -25℃ - +55℃
   2. Humidity:  
-    — Operating: 25% - 90% relative humidity (Non- condensing)  
-    — Non-operating: 10% - 90% relative humidity (Non- condensing)  
+     — Operating: 25% - 90% relative humidity (Non- condensing)  
+     — Non-operating: 10% - 90% relative humidity (Non- condensing)
   3. Altitude:  
-    — Operating: 2000 meters  
-    — Non-operating: 2000meters  
+     — Operating: 2000 meters  
+     — Non-operating: 2000meters
 
 # Mechanical Appendix
 
 ![](/img/accessories/power-pd-30w-mechanical.webp)
-
 
 # Availability
 

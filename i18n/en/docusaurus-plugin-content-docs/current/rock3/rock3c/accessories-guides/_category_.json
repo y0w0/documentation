@@ -1,9 +1,9 @@
 {
   "label": "Accessories Usage Tutorial",
-  "position": 20,
   "link": {
-    "type": "generated-index",
+    "description": "Using Accessories with ROCK 3C",
     "slug": "/rock3/rock3c/using-accessories",
-    "description": "Using Accessories with ROCK 3C"
-  }
+    "type": "generated-index"
+  },
+  "position": 20
 }

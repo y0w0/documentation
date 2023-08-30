@@ -1,8 +1,8 @@
 {
   "label": "ROCK 4 系列",
-  "position": 40,
   "link": {
-    "type": "generated-index",
-    "slug": "/rock4"
-  }
+    "slug": "/rock4",
+    "type": "generated-index"
+  },
+  "position": 40
 }

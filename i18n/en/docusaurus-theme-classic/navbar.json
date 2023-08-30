@@ -1,34 +1,34 @@
 {
-  "item.label.Home": {
-    "message": "Home",
-    "description": "Navbar item with label Home"
-  },
-  "item.label.News": {
-    "message": "News",
-    "description": "Navbar item with label News"
-  },
   "item.label.About": {
-    "message": "About",
-    "description": "Navbar item with label About"
-  },
-  "item.label.Products": {
-    "message": "Products",
-    "description": "Navbar item with label Products"
-  },
-  "item.label.Support": {
-    "message": "Support",
-    "description": "Navbar item with label Support"
+    "description": "Navbar item with label About",
+    "message": "About"
   },
   "item.label.Community": {
-    "message": "Community",
-    "description": "Navbar item with label Community"
+    "description": "Navbar item with label Community",
+    "message": "Community"
+  },
+  "item.label.Home": {
+    "description": "Navbar item with label Home",
+    "message": "Home"
+  },
+  "item.label.News": {
+    "description": "Navbar item with label News",
+    "message": "News"
+  },
+  "item.label.Products": {
+    "description": "Navbar item with label Products",
+    "message": "Products"
   },
   "item.label.Services": {
-    "message": "Services",
-    "description": "Navbar item with label Services"
+    "description": "Navbar item with label Services",
+    "message": "Services"
+  },
+  "item.label.Support": {
+    "description": "Navbar item with label Support",
+    "message": "Support"
   },
   "item.label.Welcome": {
-    "message": "Welcome",
-    "description": "Navbar item with label Welcome"
+    "description": "Navbar item with label Welcome",
+    "message": "Welcome"
   }
 }

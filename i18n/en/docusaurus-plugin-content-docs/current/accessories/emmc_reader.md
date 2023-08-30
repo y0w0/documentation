@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Radxa eMMC reader'
+sidebar_label: "Radxa eMMC reader"
 sidebar_position: 3
 ---
 
@@ -20,4 +20,5 @@ Radxa eMMC USB3 reader is a real emmc card reader with USB3.0 performance. Based
 - Support GPT partition table and firmware
 
 ## Dimension
+
 - Size: 55 x 20 x 5 mm

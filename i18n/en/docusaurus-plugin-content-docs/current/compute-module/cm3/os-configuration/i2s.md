@@ -1,5 +1,5 @@
-﻿---
-sidebar_label: 'I2S'
+---
+sidebar_label: "I2S"
 sidebar_position: 10
 ---
 

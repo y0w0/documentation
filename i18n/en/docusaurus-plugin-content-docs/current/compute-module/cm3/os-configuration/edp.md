@@ -1,5 +1,5 @@
-﻿---
-sidebar_label: 'eDP'
+---
+sidebar_label: "eDP"
 sidebar_position: 10
 ---
 

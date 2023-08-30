@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Headless Setup'
+sidebar_label: "Headless Setup"
 sidebar_position: 10
 ---
 
@@ -7,7 +7,7 @@ sidebar_position: 10
 
 This guide is intended to guide you in the use without the keyboard or the monitor.
 
-The SSH service is automatically enabled when no monitor is connected during the first boot. Despite this, you still need to link to LAN so that you can get the ***IP address*** of SBC.
+The SSH service is automatically enabled when no monitor is connected during the first boot. Despite this, you still need to link to LAN so that you can get the **_IP address_** of SBC.
 
 ## Ethernet
 
@@ -18,15 +18,15 @@ Connect the SBC to **the same network** as your computer via wired connection.
 
 The [wireless guide](network) may be helpful.
 
-*Note: Some solutions require a WiFi module to be installed in order to connect to the wireless network. For more details, please check product parameters on [Product Introduction](https://radxa.com/product).*
+_Note: Some solutions require a WiFi module to be installed in order to connect to the wireless network. For more details, please check product parameters on [Product Introduction](https://radxa.com/product)._
 
-After flashing the image to a micro SD card, keep it connected with your Linux or Windows machines, the config folder will be available on file system. There are two files	**before.txt** and **config.txt** in it.  
+After flashing the image to a micro SD card, keep it connected with your Linux or Windows machines, the config folder will be available on file system. There are two files **before.txt** and **config.txt** in it.
 
-**before.txt**: Radxa First Boot Configuration, it will be copied into the correct location in the Linux root file system, the machine will use those settings to start up wireless networking.  
+**before.txt**: Radxa First Boot Configuration, it will be copied into the correct location in the Linux root file system, the machine will use those settings to start up wireless networking.
 
 **config.txt**: rsetup config file, it will be applied on every boot.
 
-To enable automatic Wi-Fi connection, add the following line in **before.txt**:  
+To enable automatic Wi-Fi connection, add the following line in **before.txt**:
 
 ```
 connect_wi-fi YOUR_WIFI_SSID YOUR_WIFI_PASSWORD
@@ -35,7 +35,7 @@ connect_wi-fi YOUR_WIFI_SSID YOUR_WIFI_PASSWORD
 ## Get IP Address
 
 It will be simple when you can connect the SBC to your personal computer by serial port tool:  
-Please refer to the [Serial Console Guide](https://wiki.radxa.com/Rock5/dev/serial-console).  
+Please refer to the [Serial Console Guide](https://wiki.radxa.com/Rock5/dev/serial-console).
 
 - Access to the terminal via the serial software like `putty` or `minicom`.
 - Turn on the product and wait for login prompt.
@@ -49,7 +49,7 @@ You can also get the IP from your router's DHCP lease page. Refer to your router
 There is the [SSH guide](remote-login).
 
 After installing the ssh service, connect remotely directly on terminal via username and ip address like following code.  
-`ssh <username>@[IP address]` 
+`ssh <username>@[IP address]`
 
 For example, `ssh radxa@192.168.42.100`.
 ![ssh connect](/img/configuration/ssh-connect.webp)

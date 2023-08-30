@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'rkdeveloptool'
+sidebar_label: "rkdeveloptool"
 sidebar_position: 2
 ---
 

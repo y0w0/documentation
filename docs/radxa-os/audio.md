@@ -1,5 +1,5 @@
-﻿---
-sidebar_label: '音频设置'
+---
+sidebar_label: "音频设置"
 sidebar_position: 10
 ---
 
@@ -14,10 +14,10 @@ sidebar_position: 10
 除了图形界面，我们还可以从终端设置音频。
 
 ### 桌面设置
+
 左键单击桌面任务栏上的音量图标会调出音频输出选择器，你可以在内部音频输出之间进行选择，同时你也可以选择任何外部音频设备，例如 USB 声卡和蓝牙音频设备。
 
 ![audio manager](/img/configuration/audio_manager.webp)
-
 
 ### 命令行配置
 
@@ -26,7 +26,9 @@ sidebar_position: 10
 ```
 radxa@rock-5a:~$ alsamixer
 ```
+
 使用`up`和`down`箭头键调节音量。
+
 ```
 ┌────────────────────────────── AlsaMixer v1.2.4 ──────────────────────────────┐
 │ Card: PulseAudio                                     F1:  Help               │
@@ -50,14 +52,17 @@ radxa@rock-5a:~$ alsamixer
 │                                     │OO│                                     │
 │                                     └──┘                                     │
 │                                    50<>50                                    │
-│                                  < Master >     
+│                                  < Master >
 ```
 
 切换其他音频输出设备，首先要知道连接了哪些设备，下面提供了一个搜索方法：
+
 ```
 radxa@rock-5a:~$ pacmd list-sinks | grep -e 'index:' -e 'name:'
 ```
-您将看到连接的音频设备的索引和名称，如下所示：  
+
+您将看到连接的音频设备的索引和名称，如下所示：
+
 ```
     index: 0
         name: <alsa_output.platform-dp0-sound.HDMI__hw_rockchiphdmi1__sink>
@@ -66,8 +71,10 @@ radxa@rock-5a:~$ pacmd list-sinks | grep -e 'index:' -e 'name:'
   * index: 7
         name: <bluez_sink.C0_09_0B_48_26_53.a2dp_sink>
 ```
-带有“*”的索引表示它是最高优先级的设备。   
-以下命令将帮助您更改默认输出设备：  
+
+带有“\*”的索引表示它是最高优先级的设备。  
+以下命令将帮助您更改默认输出设备：
+
 ```
 radxa@rock-5a:~$ pacmd set-default-sink alsa_output.platform-es8316-sound.HiFi__hw_rockchipes8316__sink  # 'alsa_output.platform-es8316-sound.HiFi__hw_rockchipes8316__sink' is the name of the device you want to set.
 ```

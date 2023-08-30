@@ -1,5 +1,5 @@
-﻿---
-sidebar_label: 'UART Serial Console'
+---
+sidebar_label: "UART Serial Console"
 sidebar_position: 5
 ---
 
@@ -9,11 +9,11 @@ Radxa exports a dedicated uart(UART2) for serial console on GPIO PIN 6/8/10, whi
 
 ## USB to TTL serial cable
 
-The definition of each pin of USB to TTL cable is showing like this:  
+The definition of each pin of USB to TTL cable is showing like this:
 
-![USB to TTL](/img/accessories/600px-Usb2ttl-cable-definition.webp)  
+![USB to TTL](/img/accessories/600px-Usb2ttl-cable-definition.webp)
 
-**Connect the USB to TTL serial cable as below. Don't connect the red wire(VCC pin).**  
+**Connect the USB to TTL serial cable as below. Don't connect the red wire(VCC pin).**
 
 <table class="wikitable">
 
@@ -38,7 +38,7 @@ The definition of each pin of USB to TTL cable is showing like this:
 <td> Black wire
 </td></tr></tbody></table>
 
-![USB to TTL connected](/img/accessories/1000px-Serial-connection.webp)  
+![USB to TTL connected](/img/accessories/1000px-Serial-connection.webp)
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
@@ -48,19 +48,19 @@ import TabItem from '@theme/TabItem';
 
 ## Windows
 
-Plug in the USB to TTL cable to you windows PC. Viewing the device manager you can find the COM number.  
+Plug in the USB to TTL cable to you windows PC. Viewing the device manager you can find the COM number.
 
 Using serial tool like Putty,SecureCRTPortable and MobaXterm, as Putty for example, other tools have similar oeration。
 
 Launch the application Putty on your windows PC. And do the setting as follows:  
 For category Session, set serial line as COM11, speed as 1500000, connection type as Serial.
-Write radxa in the Saved Sessions column and press Save. 
+Write radxa in the Saved Sessions column and press Save.
 
-![Putty](/img/configuration/Putty-setting-session.webp)  
+![Putty](/img/configuration/Putty-setting-session.webp)
 
-For category Connection---Serial, do the setting:  
+For category Connection---Serial, do the setting:
 
-![Putty](/img/configuration/Putty-setting-serial.webp)  
+![Putty](/img/configuration/Putty-setting-serial.webp)
 
 Once finish the setting, press Open button to start.
 </TabItem>
@@ -69,7 +69,7 @@ Once finish the setting, press Open button to start.
 ## Linux
 
 Minicom is the serial tool that supports wide range baud rate.  
-Install minicom:  
+Install minicom:
 
 ```bash
    sudo apt-get update
@@ -93,7 +93,7 @@ Plug in the USB to TTL cable, kernel `dmesg | tail` should show the following de
 
 ### Setup Minicom
 
-First add current user to plugdev group to use minicom without sudo or root.  
+First add current user to plugdev group to use minicom without sudo or root.
 
 ```bash
   sudo usermod -a -G plugdev $USER
@@ -105,9 +105,10 @@ Edit your **~/.bashrc** and add the following line with some default parameter
    alias minicom='minicom -w -t xterm -l -R UTF-8'
 ```
 
-Login to a new terminal to take effect. 
+Login to a new terminal to take effect.
 
 Create and edit file ~/.minirc.radxa, add the following content:
+
 ```bash
    pu port             /dev/ttyUSB0
    pu baudrate         1500000
@@ -124,19 +125,19 @@ Now run minicom radxa to use the config above and connects to the ROCK board ser
 
 ## Mac
 
-1. Download and install the[PL2303 Mac OS X Driver](http://www.prolific.com.tw/UserFiles/files/PL2303HXD_G_Mac%20Driver_v2_1_0_20210311.zip)  
-2. Install[CoolTerm](https://freeware.the-meiers.org/previous/CoolTermMacUniversal147.zip)  
-3. Click the Option menu and set the following  
->
-	Port: select usbserial-xxx
-	Baud rate: choose custom and input 1500000
-	No flow control nor DTR/RTS
+1.  Download and install the[PL2303 Mac OS X Driver](http://www.prolific.com.tw/UserFiles/files/PL2303HXD_G_Mac%20Driver_v2_1_0_20210311.zip)
+2.  Install[CoolTerm](https://freeware.the-meiers.org/previous/CoolTermMacUniversal147.zip)
+3.  Click the Option menu and set the following
+    >
+        Port: select usbserial-xxx
+        Baud rate: choose custom and input 1500000
+        No flow control nor DTR/RTS
 
-![mac serial](/img/configuration/Coolterm-serialport-setting.webp)  
+![mac serial](/img/configuration/Coolterm-serialport-setting.webp)
 
 Click save icon to save the configuration as radxa and click connect icon.  
 Boot your ROCK boards and you will see the serial console ouput:  
-![mac serial output](/img/configuration/Coolterm-output.webp)  
+![mac serial output](/img/configuration/Coolterm-output.webp)
 
 </TabItem>
 

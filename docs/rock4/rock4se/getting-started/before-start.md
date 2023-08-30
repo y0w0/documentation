@@ -1,5 +1,5 @@
-﻿---
-sidebar_label: '开始前准备'
+---
+sidebar_label: "开始前准备"
 sidebar_position: 20
 ---
 
@@ -16,7 +16,7 @@ sidebar_position: 20
 
 - 电源适配器：ROCK 4SE 支持各种充电协议，包括 QC、PD 和固定电压：
 
-- USB PD, 支持 PD 2.0协议， 9V/2A, 12V/2A  
+- USB PD, 支持 PD 2.0协议， 9V/2A, 12V/2A
 - 骁龙® QC 快充: 支持 QC 3.0/2.0 协议, 9V/2A, 12V/1.5A
 
 :::tip
@@ -29,9 +29,9 @@ ROCK 4SE 支持多个 USB 接口，可配备全尺寸键盘和鼠标。
 
 - 显示器以及 HDMI 线
 
-ROCK 4SE 配备 HDMI 接口，最高支持 4K@60。建议使用支持 HDMI 功能的显示器。 
+ROCK 4SE 配备 HDMI 接口，最高支持 4K@60。建议使用支持 HDMI 功能的显示器。
 
-- microSD 卡读卡器 
+- microSD 卡读卡器
 
 用于将镜像刷写到 microSD 卡。
 
@@ -51,8 +51,8 @@ ROCK 4SE 配备 HDMI 接口，最高支持 4K@60。建议使用支持 HDMI 功�
 
 - 以太网线
 
-ROCK 4SE 支持千兆以太网。 
-可以用以太网线将 ROCK 4SE 连接到本地网络和互联网。 
+ROCK 4SE 支持千兆以太网。
+可以用以太网线将 ROCK 4SE 连接到本地网络和互联网。
 
 - USB Type A 转 Type C 线缆
 
@@ -63,8 +63,8 @@ ROCK 4SE 支持千兆以太网。
 该线缆用于 [串口调试](/general-tutorial/serial).
 
 - 摄像头
-    
-ROCK 4SE 支持摄像头功能。  
+
+ROCK 4SE 支持摄像头功能。
 
 :::tip
 官方推荐使用 [Radxa Camera 4K](/accessories/camera_4k).

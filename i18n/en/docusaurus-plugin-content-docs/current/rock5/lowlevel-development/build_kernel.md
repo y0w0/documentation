@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Build Kernel on ROCK 5B'
+sidebar_label: "Build Kernel on ROCK 5B"
 sidebar_position: 60
 ---
 

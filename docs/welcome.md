@@ -1,5 +1,5 @@
 ---
-sidebar_label: '关于本文档'
+sidebar_label: "关于本文档"
 sidebar_position: 1
 ---
 
@@ -13,14 +13,14 @@ sidebar_position: 1
 
 # 加入社区
 
-* 官方论坛: [Radxa Wiki](http://forum.radxa.com) - 主要技术支持渠道，中英文都支持，中文发帖需要发到中文板块。
-* Discord社群: [Radxa Discord](https://rock.sh/go) - 英文实时讨论群
-* QQ群: 591048098 - 中文讨论 QQ 群
-* 微信群: ![Radxa ROCK5B](/zh/img/wechat_group/ROCK5B.png) 中文讨论微信群
+- 官方论坛: [Radxa Wiki](http://forum.radxa.com) - 主要技术支持渠道，中英文都支持，中文发帖需要发到中文板块。
+- Discord社群: [Radxa Discord](https://rock.sh/go) - 英文实时讨论群
+- QQ群: 591048098 - 中文讨论 QQ 群
+- 微信群: ![Radxa ROCK5B](/zh/img/wechat_group/ROCK5B.png) 中文讨论微信群
 
 注意:
 
-我们不推荐在封闭的软件如(微信群 / QQ群等不能被搜索引擎抓取内容的APP)讨论技术问题或者寻求帮助，技术讨论尽量在开放的场所如官方论坛或者 Github  issue 进行。微信 / QQ群的主要用途是社交和快速找到志趣相投的小伙伴。
+我们不推荐在封闭的软件如(微信群 / QQ群等不能被搜索引擎抓取内容的APP)讨论技术问题或者寻求帮助，技术讨论尽量在开放的场所如官方论坛或者 Github issue 进行。微信 / QQ群的主要用途是社交和快速找到志趣相投的小伙伴。
 
 # 贡献力量
 

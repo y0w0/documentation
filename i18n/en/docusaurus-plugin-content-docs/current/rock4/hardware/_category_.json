@@ -1,9 +1,9 @@
 {
   "label": "Hardware Information",
-  "position": 50,
   "link": {
-    "type": "generated-index",
+    "description": "The hardware information of ROCK 4 series.",
     "slug": "/rock4/hardware",
-    "description": "The hardware information of ROCK 4 series."
-  }
+    "type": "generated-index"
+  },
+  "position": 50
 }

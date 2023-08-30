@@ -1,5 +1,5 @@
 ---
-sidebar_label: '电源管理'
+sidebar_label: "电源管理"
 sidebar_position: 18
 ---
 

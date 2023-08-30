@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'RKDevTool'
+sidebar_label: "RKDevTool"
 sidebar_position: 2
 ---
 
@@ -19,6 +19,7 @@ RKDevTool is a USB flashing software developed by Rockchip for Windows platforms
 ## Installation of RKDevTool
 
 Please download and extract the following files to install RKDevTool:
+
 - [RKDevTool v2.96](https://dl.radxa.com/tools/windows/RKDevTool_Release_v2.96_zh.zip) (Includes Chinese documentation)
 - [DriverAssitant v5.0](https://dl.radxa.com/tools/windows/DriverAssitant_v5.0.zip)
 
@@ -43,7 +44,7 @@ If you have previously installed another version of driver, please click `Uninst
 Please refer to the instructions of the product for operation. The way to enter Maskrom mode varies slightly from product to product.
 :::
 
- If the operation is normal, RKDevTool will prompt `Found One MASKROM Device`:
+If the operation is normal, RKDevTool will prompt `Found One MASKROM Device`:
 
 ![RKDevTool maskrom](/img/configuration/rkdevtool-maskrom.webp)
 
@@ -63,7 +64,7 @@ First extract the used files and specify the extracted files in the RKDevTool.
 
 Click a blank cell to select the [Loader](Loader) and Image file to be used:
 
-![RKDevTool choose](/img/configuration/rkdevtool-choose.webp) 
+![RKDevTool choose](/img/configuration/rkdevtool-choose.webp)
 
 Select the target media in the `Storage` option:
 
@@ -82,8 +83,8 @@ Select the target media in the `Storage` option:
 
 Select `Write by Address` and click `run`:
 
-![RKDevTool flashing](/img/configuration/rkdevtool-flashing.webp) 
+![RKDevTool flashing](/img/configuration/rkdevtool-flashing.webp)
 
 Wait for the write to complete, after which the device will reboot automatically:
 
-![RKDevTool complete](/img/configuration/rkdevtool-complete.webp) 
+![RKDevTool complete](/img/configuration/rkdevtool-complete.webp)

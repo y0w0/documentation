@@ -1,15 +1,15 @@
 ---
-sidebar_label: 'SSH Usage Tutorial'
+sidebar_label: "SSH Usage Tutorial"
 sidebar_position: 10
 ---
 
 # SSH Usage Tutorial
 
-Radxa pre-integrates SSH in the official linux image to facilitate remote access to the terminal. This guide uses ROCK 5A as an example, and the operations of other SBCs are similar.  
+Radxa pre-integrates SSH in the official linux image to facilitate remote access to the terminal. This guide uses ROCK 5A as an example, and the operations of other SBCs are similar.
 
 ## Necessary Preparation
 
-- ROCK 5A 
+- ROCK 5A
 - RJ45 Network Cable
 - PC
 - Router / Switch
@@ -18,37 +18,37 @@ Connect ROCK 5A to a router / switch on the same network segment as the host thr
 
 ### View SSH Service Status
 
-After the ROCK 5A is started, you can check the status of the SSH service through the following command:  
+After the ROCK 5A is started, you can check the status of the SSH service through the following command:
 
 ```bash
 	sudo service ssh status
 ```
 
-If the SSH service is abnormal or uninstalled, you can restart or reinstall it with the following commands:   
-Restart the service:   
+If the SSH service is abnormal or uninstalled, you can restart or reinstall it with the following commands:  
+Restart the service:
 
 ```bash
     service sshd restart
 ```
 
-Re-install：  
+Re-install：
 
 ```bash
     sudo apt-get update
     sudo apt-get install ssh
 ```
+
 ### View IP Adress
 
-#### View via Command 
+#### View via Command
 
-Open the terminal via `Ctrl + Alt + T`, enter the following command in the terminal to view the IP address  
- 
+Open the terminal via `Ctrl + Alt + T`, enter the following command in the terminal to view the IP address
+
 ```bash
     ip a
 ```
-  
-The IP address in the same network segment as the host is the IP address required for SSH connection, as shown in the following output `192.168.42.100` is the IP address we need:
 
+The IP address in the same network segment as the host is the IP address required for SSH connection, as shown in the following output `192.168.42.100` is the IP address we need:
 
 ```bash
 1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
@@ -66,7 +66,6 @@ The IP address in the same network segment as the host is the IP address require
 
 ```
 
-
 #### Use Angryip to find the IP address of the ROCK 5A
 
 This method can be used to view the ip address when the SBC cannot be directly operated to obtain the ip address without a screen of remotely.
@@ -81,7 +80,7 @@ This method can be used to view the ip address when the SBC cannot be directly o
 
 ## Connect
 
-- Open the host terminal, and use the `ping` command to check whether they are on the same network segment:    
+- Open the host terminal, and use the `ping` command to check whether they are on the same network segment:
 
 ```bash
     ping ROCK 5A's ip address

@@ -1,9 +1,9 @@
 {
   "label": "Hardware",
-  "position": 50,
   "link": {
-    "type": "generated-index",
-	"slug": "/rock4/rock4se/hardware",
-    "description": "Hardware Information about ROCK 4SE"
-  }
+    "description": "Hardware Information about ROCK 4SE",
+    "slug": "/rock4/rock4se/hardware",
+    "type": "generated-index"
+  },
+  "position": 50
 }

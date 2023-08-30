@@ -1,9 +1,9 @@
 {
   "label": "硬件接口电路",
-  "position": 25,
   "link": {
-    "type": "generated-index",
+    "description": "Radxa CM3 接口电路详情文档",
     "slug": "/compute-module/cm3/hardware",
-    "description": "Radxa CM3 接口电路详情文档"
-  }
+    "type": "generated-index"
+  },
+  "position": 25
 }

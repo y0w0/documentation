@@ -1,14 +1,16 @@
 ---
-sidebar_label: 'Using Radxa eMMC Module on ROCK 5A'
+sidebar_label: "Using Radxa eMMC Module on ROCK 5A"
 sidebar_position: 20
 ---
+
 # Using Radxa eMMC Module on ROCK 5A
 
-Radxa eMMC Module is an embedded storage module with high performance and reliability in a ultra small form factor. With dual B2B (Board to Board) connector, Radxa eMMC module can be unplug and replaced without soldering, making data storage maintenance easy.  
+Radxa eMMC Module is an embedded storage module with high performance and reliability in a ultra small form factor. With dual B2B (Board to Board) connector, Radxa eMMC module can be unplug and replaced without soldering, making data storage maintenance easy.
 
 How to write OS with emmc module, please refer to [Install OS to an eMMC Module](https://docs.radxa.com/rock5/rock5a/getting-started/emmc-install).
 
 # How to use eMMC module on ROCK 5A
+
 After you write the OS with eMMC module, you can install the emmc module on the B2B connector of the ROCK 5A.
 If you are using ROCK 5A, you need to remove the SPI Flash before installing eMMC module.
 ![ROCK5A Using eMMC](/img/rock5a/rock5a-use-emmc.webp)

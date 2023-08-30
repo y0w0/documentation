@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Power Management'
+sidebar_label: "Power Management"
 sidebar_position: 18
 ---
 
@@ -10,7 +10,7 @@ sidebar_position: 18
 After connecting the power supply, the power green indicator light of ROCK 3C will be always on.
 
 After pressing the power button to turn on the device, the status blue light will flash. When the ROCK 3C is powered off or in sleep mode, the blue status light will be off.
-  
+
 ![ROCK 3C Power](/img/rock3/3c/rock3c-power.webp)
 
 After the ROCK 3C is booted into the desktop, press the power button again, and the power management dialog will pop up:

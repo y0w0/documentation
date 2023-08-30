@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Radxa eMMC to uSD'
+sidebar_label: "Radxa eMMC to uSD"
 sidebar_position: 5
 ---
 
@@ -9,6 +9,7 @@ Radxa eMMC to uSD is a converts eMMC to uSD module. It is easily transferred and
 
 ![eMMC to uSD](/img/accessories/emmc-to-usd.webp)
 
-## Features 
-- Product Description: Convert eMMC to uSD   
+## Features
+
+- Product Description: Convert eMMC to uSD
 - Dimension: 40 x 21 x 1.5 mm

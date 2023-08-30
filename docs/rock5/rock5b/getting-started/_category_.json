@@ -1,9 +1,9 @@
 {
   "label": "新手入门",
-  "position": 5,
   "link": {
-    "type": "generated-index",
-	  "slug": "/rock5/rock5b/getting-started",
-    "description": "让 ROCK 5B 跑起来把！"
-  }
+    "description": "让 ROCK 5B 跑起来把！",
+    "slug": "/rock5/rock5b/getting-started",
+    "type": "generated-index"
+  },
+  "position": 5
 }

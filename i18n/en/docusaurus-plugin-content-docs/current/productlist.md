@@ -1,13 +1,14 @@
 ---
-sidebar_label: 'Products'
+sidebar_label: "Products"
 sidebar_position: 2
 ---
+
 # Radxa SBC Series
 
 ## ROCK 4 Family
 
-|     Model             |           Description             |
-|---------------------- |-----------------------------------|
+| Model                 | Description                       |
+| --------------------- | --------------------------------- |
 | ROCK 4SE (2022)       | RK3399-T with 4K HDMI             |
 | ROCK 4C+ (2022)       | RK3399-T with 4K + 2K HDMI        |
 | ROCK 4A / 4B (2018)   | RK3399 with 4K HDMI               |
@@ -16,7 +17,7 @@ sidebar_position: 2
 
 ## ROCK 5 family
 
-| Model | Description |
-| ----  | ----------- |
-| ROCK 5B | 8K SBC with Quad Display |
+| Model   | Description                               |
+| ------- | ----------------------------------------- |
+| ROCK 5B | 8K SBC with Quad Display                  |
 | ROCK 5A | Credit-Card Size SBC with 4K + 8K Display |

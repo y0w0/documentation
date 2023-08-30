@@ -1,9 +1,9 @@
 {
   "label": "Hardware Interface",
-  "position": 25,
   "link": {
-    "type": "generated-index",
+    "description": "Radxa CM3 Hardware Interface Details Documentation",
     "slug": "/compute-module/cm3/hardware",
-    "description": "Radxa CM3 Hardware Interface Details Documentation"
-  }
+    "type": "generated-index"
+  },
+  "position": 25
 }

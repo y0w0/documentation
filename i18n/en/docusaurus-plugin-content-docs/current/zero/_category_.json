@@ -1,9 +1,9 @@
 {
-    "label": "ZERO Series",
-    "position": 55,
-    "link": {
-        "type": "generated-index",
-        "slug": "/zero",
-        "description": "The ZERO series is a series of general-purpose SBCs designed for size optimization."
-    }
+  "label": "ZERO Series",
+  "link": {
+    "description": "The ZERO series is a series of general-purpose SBCs designed for size optimization.",
+    "slug": "/zero",
+    "type": "generated-index"
+  },
+  "position": 55
 }

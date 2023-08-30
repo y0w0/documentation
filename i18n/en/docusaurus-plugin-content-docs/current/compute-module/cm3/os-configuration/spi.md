@@ -1,5 +1,5 @@
-﻿---
-sidebar_label: 'SPI Flash'
+---
+sidebar_label: "SPI Flash"
 sidebar_position: 10
 ---
 

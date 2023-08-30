@@ -1,5 +1,5 @@
-﻿---
-sidebar_label: 'Power Supply'
+---
+sidebar_label: "Power Supply"
 sidebar_position: 10
 ---
 

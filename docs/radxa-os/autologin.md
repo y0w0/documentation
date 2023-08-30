@@ -1,15 +1,13 @@
 ---
-sidebar_label: '自动登录'
+sidebar_label: "自动登录"
 sidebar_position: 30
 ---
 
 # 自动登录
 
-
-
 您可以将系统配置为自动登录而无需输入密码。
 
-如图，点击系统设置界面，选择`Startup and Shutdown`.  
+如图，点击系统设置界面，选择`Startup and Shutdown`.
 
 ![ROCK5A_Auto_Login](/img/rock5a/rock5a_auto_login_1.webp)
 

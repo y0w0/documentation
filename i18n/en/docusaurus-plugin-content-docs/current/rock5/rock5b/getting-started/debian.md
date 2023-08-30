@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Debian'
+sidebar_label: "Debian"
 sidebar_position: 30
 ---
 

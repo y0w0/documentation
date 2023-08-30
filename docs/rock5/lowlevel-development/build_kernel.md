@@ -1,5 +1,5 @@
 ---
-sidebar_label: '在ROCK 5B 构建 Kernel'
+sidebar_label: "在ROCK 5B 构建 Kernel"
 sidebar_position: 60
 ---
 
@@ -24,6 +24,7 @@ git clone -b debian https://github.com/radxa/build.git
 ```
 
 - 你将获得如下内容
+
 ```bash
 ls rk3588-sdk
 # build  kernel  rkbin
@@ -124,7 +125,7 @@ label kernel-5.10.110-34-rockchip-gca15bbe36e6c
     append   root=UUID=a6820e76-421d-4275-bdae-0ad612df361b earlycon=uart8250,mmio32,0xfeb50000 console=ttyFIQ0 console=tty1 consoleblank=0 loglevel=7 panic=10 rootwait rw init=/sbin/init rootfstype=ext4 cgroup_enable=cpuset cgroup_memory=1 cgroup_enable=memory swapaccount=1 irqchip.gicv3_pseudo_nmi=0 switolb=1 coherent_pool=2M
 ```
 
--  重启设备之后，检查内核版本
+- 重启设备之后，检查内核版本
 
 ```bash
 uname -a
@@ -135,6 +136,7 @@ uname -a
 ## FAQs
 
 - 构建内核包时，出现“internal compiler error: Segmentation fault”错误，如下：
+
 ```bash
   CC [M]  drivers/net/wireless/rockchip_wlan/rtl8852bu/phl/test/verify/phl_test_verify.o
 during GIMPLE pass: local-fnsummary
@@ -152,6 +154,7 @@ make[9]: *** Waiting for unfinished jobs....
 ```
 
 - 我们可以忽略它。 请在repository build构建中添加以下补丁。 并通过命令再次构建内核
+
 ```bash
 ./build/pack-kernel.sh -d rockchip_linux_defconfig -r 99
 ```
@@ -163,11 +166,11 @@ index 5aa2e89ca..2ec116808 100755
 +++ b/pack-kernel.sh
 @@ -34,7 +34,7 @@ if [ "X$(uname -m)" == "Xaarch64" ]; then
  fi
- 
+
  echo -e "\e[31m Start to pack kernel. \e[0m"
 -cd ${KERNEL_DIR} && make distclean && make -f $ROCKCHIP_BSP_DIR/build/kernel-package.mk kernel-package
 +cd ${KERNEL_DIR} && make -f $ROCKCHIP_BSP_DIR/build/kernel-package.mk kernel-package
- 
+
  mv $ROCKCHIP_BSP_DIR/linux-*${RELEASE_NUMBER}-rockchip*.deb $PACKAGES_DIR
  mv $ROCKCHIP_BSP_DIR/linux-*${RELEASE_NUMBER}-rockchip*.changes $PACKAGES_DIR
 ```

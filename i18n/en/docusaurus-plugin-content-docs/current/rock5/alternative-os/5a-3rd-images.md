@@ -1,5 +1,5 @@
-﻿---
-sidebar_label: 'ROCK 5A Third-party Image'
+---
+sidebar_label: "ROCK 5A Third-party Image"
 sidebar_position: 30
 ---
 

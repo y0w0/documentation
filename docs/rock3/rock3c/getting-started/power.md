@@ -1,5 +1,5 @@
 ---
-sidebar_label: '电源管理'
+sidebar_label: "电源管理"
 sidebar_position: 18
 ---
 
@@ -7,7 +7,7 @@ sidebar_position: 18
 
 ## 使用硬件电源键
 
-连接电源后，ROCK 3C 的电源绿色指示灯将常亮。  
+连接电源后，ROCK 3C 的电源绿色指示灯将常亮。
 
 按下电源键启动开机，状态蓝灯会闪烁。当 ROCK 3C 关机或处于睡眠状态时，蓝色状态指示灯将熄灭。
 

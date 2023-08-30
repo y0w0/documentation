@@ -1,9 +1,9 @@
 {
   "label": "ROCK 4SE",
-  "position": 10,
   "link": {
-    "type": "generated-index",
+    "description": "A highly scalable SBC powered by RK3399-T.",
     "slug": "/rock4/rock4se",
-    "description": "A highly scalable SBC powered by RK3399-T."
-  }
+    "type": "generated-index"
+  },
+  "position": 10
 }

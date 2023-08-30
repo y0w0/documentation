@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'upgrade_tool'
+sidebar_label: "upgrade_tool"
 sidebar_position: 3
 ---
 
@@ -16,7 +16,7 @@ upgrade_tool is the software developed by Rockchip for USB flashing on Linux pla
 
 Please download and extract the following file to install upgrade_tool:
 
-- [upgrade_tool v2.1](https://dl.radxa.com/tools/linux/Linux_Upgrade_Tool_V2.1.zip) 
+- [upgrade_tool v2.1](https://dl.radxa.com/tools/linux/Linux_Upgrade_Tool_V2.1.zip)
 
 ## Usage for upgrade_tool
 
@@ -26,7 +26,7 @@ Please download and extract the following file to install upgrade_tool:
 upgrade_tool is used in command line mode similar to [rkdeveloptool](rkdeveloptool#uses-rkdeveloptool).
 
 :::caution
-In command line mode, upgrade_tool does not support the selection of a Maskrom device, nor can it select the storage media to be written to.  
+In command line mode, upgrade_tool does not support the selection of a Maskrom device, nor can it select the storage media to be written to.
 
 If you need to select a specific one from multiple devices, use [Interactive Mode](upgrade_tool?mode=Interactive).
 :::

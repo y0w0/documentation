@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Custom OS'
+sidebar_label: "Custom OS"
 sidebar_position: 20
 ---
 

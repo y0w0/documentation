@@ -1,9 +1,9 @@
-﻿---
-sidebar_label: '操作系统安装介质选择指导'
+---
+sidebar_label: "操作系统安装介质选择指导"
 sidebar_position: 16
 ---
 
-# 选择安装介质 
+# 选择安装介质
 
 ## 安装介质简介
 
@@ -13,7 +13,7 @@ import TabItem from '@theme/TabItem';
 <Tabs>
   <TabItem value="eMMC" label="eMMC">
 
-### eMMC 
+### eMMC
 
 eMMC 是一种常用于移动设备和嵌入式的小型内置存储芯片， 它集成了闪存和控制器，通常容量在 4 GB 到 128 GB 之间，相对较小。 与 SSD 相比，eMMC 的读写速度较慢，适合于存储小型应用程序、媒体、文件和其他数据。eMMC 芯片通常直接焊接在设备主板上，不像 SD 卡或 Micro SD 卡那样可以拔插和更换。  
 瑞莎提供**可移动** eMMC 模块。
@@ -23,7 +23,6 @@ eMMC 是一种常用于移动设备和嵌入式的小型内置存储芯片， �
   </TabItem>
 
   <TabItem value="NVMe" label="NVMe">
-
 
 ### NVMe 固态硬盘
 
@@ -41,9 +40,8 @@ Micro SD 是一种小型闪存存储卡，通常用于智能手机、平板电�
 
 ![Micro SD Card](/img/accessories/micro-sd-01.webp)
 
-  </TabItem> 
+  </TabItem>
 </Tabs>
-
 
 ## 三种介质的选择建议
 
@@ -58,5 +56,3 @@ Micro SD卡的优势在于低廉的价格以及优秀的跨平台文件交换性
 ### NVME SSD
 
 SSD 固态硬盘具有极佳的性能，但是在价格较高且功耗较大，建议作为对性能要求较高且供电稳定时的选择。
-
-

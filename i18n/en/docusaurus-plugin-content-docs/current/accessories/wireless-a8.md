@@ -1,11 +1,11 @@
 ---
-sidebar_label: 'Radxa Wireless Module A8'
+sidebar_label: "Radxa Wireless Module A8"
 sidebar_position: 6
 ---
 
 # Radxa Wireless Module A8
-Radxa Wireless Module A8 is a standard M.2 2230 Wireless Module based on Realtek RTL8852BE, a highly integrated single-chip that support 2-stream 802.11ax solutions with multi-user MIMO (Multiple-Input, Multiple-Output) with Wireless LAN (WLAN) PCI Express network interface controller with integrated Bluetooth 5 USB interface controller. It combines a WLAN MAC, a 2T2R capable WLAN baseband, and RF in a single chip.
 
+Radxa Wireless Module A8 is a standard M.2 2230 Wireless Module based on Realtek RTL8852BE, a highly integrated single-chip that support 2-stream 802.11ax solutions with multi-user MIMO (Multiple-Input, Multiple-Output) with Wireless LAN (WLAN) PCI Express network interface controller with integrated Bluetooth 5 USB interface controller. It combines a WLAN MAC, a 2T2R capable WLAN baseband, and RF in a single chip.
 
 # Features
 
@@ -28,20 +28,17 @@ Radxa Wireless Module A8 is a standard M.2 2230 Wireless Module based on Realtek
 
 # Specifications
 
-
-| Features            | Description                                                                                            |
-| ------------------- | ------------------------------------------------------------------------------------------------------ |
-| Name                | Radxa Wireless Module A8                                                                               |
-| Product Description | IEEE 802.11a/b/g/n/ac/ax Wireless LAN 2T2R and Bluetooth 5.2 Combo Module (M.2 2230)                   |
-| Chipset             | RTL8852BE                                                                                              |
-| Host Interface      | Wi-Fi: PCIe BT: USB                                                                                    |
-| Dimension           | 22mm x 30mm x 2.25mm                                                                                   |
-| Form Factor         | M.2 2230 E Key                                                                                         |
-| Antenna             | I-PEX MHF4 Connector Receptacle (20449) ANT1(Main): WiFi/Bluetooth  TX/RX ANT2(AUX): WiFi  TX/RX       |
-| Operating Temperature| 0 to +70°C                                                                                            |
-| Weight              | 3g                                                                                                     |
-
-
+| Features              | Description                                                                                      |
+| --------------------- | ------------------------------------------------------------------------------------------------ |
+| Name                  | Radxa Wireless Module A8                                                                         |
+| Product Description   | IEEE 802.11a/b/g/n/ac/ax Wireless LAN 2T2R and Bluetooth 5.2 Combo Module (M.2 2230)             |
+| Chipset               | RTL8852BE                                                                                        |
+| Host Interface        | Wi-Fi: PCIe BT: USB                                                                              |
+| Dimension             | 22mm x 30mm x 2.25mm                                                                             |
+| Form Factor           | M.2 2230 E Key                                                                                   |
+| Antenna               | I-PEX MHF4 Connector Receptacle (20449) ANT1(Main): WiFi/Bluetooth  TX/RX ANT2(AUX): WiFi  TX/RX |
+| Operating Temperature | 0 to +70°C                                                                                       |
+| Weight                | 3g                                                                                               |
 
 # Dimensions
 

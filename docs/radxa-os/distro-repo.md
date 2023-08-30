@@ -1,5 +1,5 @@
 ---
-sidebar_label: '软件源'
+sidebar_label: "软件源"
 ---
 
 # 软件源
@@ -10,15 +10,15 @@ RadxaOS 目前提供两种独立的软件源以满足开发需求。所有的软
 
 目前瑞莎维护的正式源有以下若干分支：
 
-* `bullseye`: https://radxa-repo.github.io/bullseye
-* `bookworm`: https://radxa-repo.github.io/bookworm
-* `jammy`: https://radxa-repo.github.io/jammy
+- `bullseye`: https://radxa-repo.github.io/bullseye
+- `bookworm`: https://radxa-repo.github.io/bookworm
+- `jammy`: https://radxa-repo.github.io/jammy
 
 目前瑞莎维护的测试源有以下若干分支：
 
-* `bullseye-test`: https://radxa-repo.github.io/bullseye-test
-* `bookworm-test`: https://radxa-repo.github.io/bookworm-test
-* `jammy-test`: https://radxa-repo.github.io/jammy-test
+- `bullseye-test`: https://radxa-repo.github.io/bullseye-test
+- `bookworm-test`: https://radxa-repo.github.io/bookworm-test
+- `jammy-test`: https://radxa-repo.github.io/jammy-test
 
 ## 更改软件源
 
@@ -46,29 +46,34 @@ RadxaOS 目前提供两种独立的软件源以满足开发需求。所有的软
 :::
 
 2. 更新软件源优先级  
-   瑞莎软件源首选项文件存放在 `/etc/apt/preferences.d/` 内，文件名均包含 `radxa-` 前缀。  
+   瑞莎软件源首选项文件存放在 `/etc/apt/preferences.d/` 内，文件名均包含 `radxa-` 前缀。
 
 :::caution
 软件源和软件包的首选项文件均存放在这一路径下。  
 由于有的软件包也包含 `radxa-` 前缀，修改前需要仔细核对文件内容。
 :::
 
-   使用你常用的编辑器编辑以下文件。以 nano 为例：
-   ```bash
-   sudo nano /etc/apt/preferences.d/radxa-*
-   ```
-   你会看到类似如下的文件内容：
-   ```
-   Package: *
-   Pin: release a=rockchip-bookworm
-   Pin-Priority: 1001
-   ```
-   你需要将 `Pin` 里面所描述的 Codename 加入 `-test` 后缀：
-   ```
-   Package: *
-   Pin: release a=rockchip-bookworm-test
-   Pin-Priority: 1001
-   ```
+使用你常用的编辑器编辑以下文件。以 nano 为例：
+
+```bash
+sudo nano /etc/apt/preferences.d/radxa-*
+```
+
+你会看到类似如下的文件内容：
+
+```
+Package: *
+Pin: release a=rockchip-bookworm
+Pin-Priority: 1001
+```
+
+你需要将 `Pin` 里面所描述的 Codename 加入 `-test` 后缀：
+
+```
+Package: *
+Pin: release a=rockchip-bookworm-test
+Pin-Priority: 1001
+```
 
 3. 更新系统  
    配置完软件源后需要重新更新本地软件缓存：

@@ -1,5 +1,5 @@
 ---
-sidebar_label: '串口设置教程'
+sidebar_label: "串口设置教程"
 sidebar_position: 5
 ---
 
@@ -39,11 +39,11 @@ sidebar_position: 5
 
 如下所示连接 USB 转 TTL 串口线：
 
-| Radxa SBC  | 连接   | 串口线 |
-|------------|-------|------------------|
-| **GND** (pin 6) | <---> | 黑色线       |
-| **TX** (pin 8)  | <---> | 白色线       |
-| **RX** (pin 10) | <---> | 绿色线       |
+| Radxa SBC       | 连接  | 串口线 |
+| --------------- | ----- | ------ |
+| **GND** (pin 6) | <---> | 黑色线 |
+| **TX** (pin 8)  | <---> | 白色线 |
+| **RX** (pin 10) | <---> | 绿色线 |
 
 ![USB to TTL connected](/img/accessories/1000px-Serial-connection.webp)
 
@@ -77,11 +77,11 @@ flow control: none
 
 ### minicom
 
-***支持 Linux***
+**_支持 Linux_**
 
 1. 将串口 USB 端插入主机 PC 后，请先找到串口设备：
 
-命令行执行```dmesg | tail```会输出以下信息：
+命令行执行`dmesg | tail`会输出以下信息：
 
 ```bash
 [10.654076] usb 1-6.4.3: new full-speed USB device number 103 using xhci_hcd
@@ -154,11 +154,12 @@ minicom rockchip
 
 ### Putty
 
-***支持 Windows***
+**_支持 Windows_**
 
 1. 将 USB 转 TTL 串口线的 USB 一端插入 Windows PC。 查看**设备管理器**，您可以找到 COM 编号。 这里是 COM3。
 
 2. 在 Windows PC 上启动应用程序 Putty，并按如下方式进行设置：
+
    - 在左边栏目中选择Session，将串行线路设置为 COM3，波特率设置 1500000，连接类型为 Serial。
    - 在 Saved Sessions 列中写入 rockchip ，然后按 Save。
 
@@ -172,7 +173,7 @@ minicom rockchip
 
 ### Tabby
 
-***支持 Windows、Linux、MacOS***
+**_支持 Windows、Linux、MacOS_**
 
 1. 打开 Tabby 后，点击图中红色方框：
 
@@ -192,7 +193,7 @@ minicom rockchip
 
 ### Picocom
 
-***支持 MacOS***
+**_支持 MacOS_**
 
 1. 安装 picocom
 

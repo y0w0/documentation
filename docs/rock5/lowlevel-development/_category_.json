@@ -1,9 +1,9 @@
 {
   "label": "底层开发教程",
-  "position": 60,
   "link": {
-    "type": "generated-index",
+    "description": "底层开发教程",
     "slug": "/rock5/lowlevel-dev",
-    "description": "底层开发教程"
-  }
+    "type": "generated-index"
+  },
+  "position": 60
 }

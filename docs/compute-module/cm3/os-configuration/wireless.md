@@ -1,5 +1,5 @@
-﻿---
-sidebar_label: 'Wi-Fi and BT'
+---
+sidebar_label: "Wi-Fi and BT"
 sidebar_position: 10
 ---
 

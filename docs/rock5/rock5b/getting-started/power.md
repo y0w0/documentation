@@ -1,5 +1,5 @@
 ---
-sidebar_label: '电源管理'
+sidebar_label: "电源管理"
 sidebar_position: 18
 ---
 
@@ -8,7 +8,7 @@ sidebar_position: 18
 ## 使用硬件电源键
 
 当 ROCK 5B 接上电源之后，在关机状态下电源绿灯将会一直常亮。此时按下电源键即可启动。
-  
+
 ![ROCK 5B Power](/img/rock5b/rock5b-power.webp)
 
 当 ROCK 5B 启动之后，再次按下电源键将弹出电源管理对话框：

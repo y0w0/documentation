@@ -1,9 +1,9 @@
 {
   "label": "Using Accessories",
-  "position": 12,
   "link": {
-    "type": "generated-index",
-	"slug": "/rock5/rock5a/using-accessories",
-    "description": "Using accessories with ROCK 5A"
-  }
+    "description": "Using accessories with ROCK 5A",
+    "slug": "/rock5/rock5a/using-accessories",
+    "type": "generated-index"
+  },
+  "position": 12
 }

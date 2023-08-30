@@ -1,35 +1,38 @@
 ---
-sidebar_label: 'Display Setup'
+sidebar_label: "Display Setup"
 sidebar_position: 10
 ---
 
 # Display Introduction
 
-When choosing a monitor, you need to be aware of that different products support different display resolutions, please check the information on your product for details. 
+When choosing a monitor, you need to be aware of that different products support different display resolutions, please check the information on your product for details.
 However, if you want to build a [headless platform](headless), it'll not be a problem for you.
 
 ## Display Setup
 
-This setting is just available when you operating on the monitor, or you can set up a [Headless Device](headless) as an alternative. You can change the display setting by following ways.  
+This setting is just available when you operating on the monitor, or you can set up a [Headless Device](headless) as an alternative. You can change the display setting by following ways.
 
 ### System Settings-Display Settings
 
-On KDE desktop, you would see the `System Settings` after left clicking on the  `Appliction Launcher` in the lower left corner.  
+On KDE desktop, you would see the `System Settings` after left clicking on the `Appliction Launcher` in the lower left corner.  
 ![System settings](/img/configuration/start_sys_setting.webp)  
 Select the `System Settings`, find `Display and Monitor` in the `Hardware` option:  
 ![System Settings](/img/configuration/system_setting.webp)  
 You can modify the following settings in it:  
-![Display Settings](/img/configuration/display_setting.webp) 
+![Display Settings](/img/configuration/display_setting.webp)
 **Note: If you are using multiple monitors, the same steps are effective.**
 
 ### Terminal Command Settings
 
 We also provide `xrandr` for display settings.  
-With the following command you can check the current display status:  
+With the following command you can check the current display status:
+
 ```
 xrandr
 ```
+
 There is an example:
+
 ```
 radxa@rock-5a:~$ xrandr
 Screen 0: minimum 320 x 200, current 1920 x 1080, maximum 16384 x 16384
@@ -50,11 +53,14 @@ HDMI-1 connected primary 1920x1080+0+0 (normal left inverted right x axis y axis
    720x400       70.08
 DP-1 disconnected (normal left inverted right x axis y axis)
 ```
-You can check which monitor is connected and the corresponding resolution.  
+
+You can check which monitor is connected and the corresponding resolution.
+
 #### Display Rotation
 
 You can rotate your screen display by modifying the [Display Settings](display#system-settings-display-settings)-Orientation.  
 Or you can also achieving by command:
+
 ```
 Single Screen:
    xrandr -o left     # Rotate 90 degrees to the left
@@ -72,15 +78,16 @@ Some of Radxa products support MIPI displays connected via ribbon cable. However
 
 You can get the supported mipi screen model from the [overlay menu](rsetup/devicetree#how-to-enable-an-overlay).
 
-Before using the mipi screen, you need to enable the corresponding overlay and reboot.  
+Before using the mipi screen, you need to enable the corresponding overlay and reboot.
 
 ```
         ...
-        [ ] Enable Radxa Display 10HD 
+        [ ] Enable Radxa Display 10HD
         [ ] Enable Radxa Display 8HD
         ...
 ```
-**Note: Different product may support different screen.**  
+
+**Note: Different product may support different screen.**
 
 #### Multiple Screen Settings
 
@@ -95,4 +102,5 @@ Dual Screen:
    xrandr --output HDMI-1 --same-as DP-1 --auto # Simultaneous display of the same content
    xrandr --output HDMI-1 --right-of DP-1 --auto # DP-1 is the main display, the HDMI-1 is an extension and to the right of DP-1
 ```
-For more informations , please check [X.Org Server RandR](https://en.wikipedia.org/wiki/X.Org_Server#Other_DDX_components). 
+
+For more informations , please check [X.Org Server RandR](https://en.wikipedia.org/wiki/X.Org_Server#Other_DDX_components).

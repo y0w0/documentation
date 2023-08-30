@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Multimedia Development'
+sidebar_label: "Multimedia Development"
 sidebar_position: 10
 ---
 

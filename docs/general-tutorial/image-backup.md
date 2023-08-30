@@ -1,5 +1,5 @@
 ---
-sidebar_label: '镜像备份'
+sidebar_label: "镜像备份"
 sidebar_position: 20
 ---
 
@@ -12,7 +12,7 @@ sidebar_position: 20
 
 rkdeveloptool 的安装请参阅 [rkdeveloptool 安装教程](rk-dev-tool#Linux/MacOS).
 
-rkdeveloptool 提供了一系列的操作命令，其中 rl 命令可进行镜像的导出，具体步骤如下:  
+rkdeveloptool 提供了一系列的操作命令，其中 rl 命令可进行镜像的导出，具体步骤如下:
 
 首先，下载 [loader](https://dl.radxa.com/rock5/sw/images/loader/rock-5b/rk3588_spl_loader_v1.08.111.bin)， 通过以下命令烧录：
 
@@ -32,14 +32,12 @@ ReadLBA: rl  <BeginSec> <SectorLen> <File>
 
 ## 通过脚本备份
 
-1.下载脚本 https://github.com/Ken-Vamrs/rockpi-toolkit/blob/master/radxa-rbuild-backup.sh  
+1.下载脚本 https://github.com/Ken-Vamrs/rockpi-toolkit/blob/master/radxa-rbuild-backup.sh
 
 2.在主板 Linux 中打开脚本所在文件夹
 
-3.运行 ./radxa-rbuild-backup.sh -o /tmp（tmp 为实际保存路径，可自由指定）  
+3.运行 ./radxa-rbuild-backup.sh -o /tmp（tmp 为实际保存路径，可自由指定）
 
-4.如果需要备份到外部 U 盘，需先将 U 盘挂载在 /mnt : sudo mount /dev/sda /mnt，再运行 ./radxa-rbuild-backup.sh -o /mnt 
+4.如果需要备份到外部 U 盘，需先将 U 盘挂载在 /mnt : sudo mount /dev/sda /mnt，再运行 ./radxa-rbuild-backup.sh -o /mnt
 
 <!-- ## RKDevtool -->
-
-

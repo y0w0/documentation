@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'RKDevTool'
+sidebar_label: "RKDevTool"
 sidebar_position: 2
 ---
 
@@ -19,6 +19,7 @@ RKDevTool 是 Rockchip 为 Windows 平台下进行 USB 烧录所开发的软件�
 ## 安装 RKDevTool
 
 请下载并解压以下文件以安装 RKDevTool：
+
 - [RKDevTool v2.96](https://dl.radxa.com/tools/windows/RKDevTool_Release_v2.96_zh.zip) (含中文使用文档)
 - [DriverAssitant v5.0](https://dl.radxa.com/tools/windows/DriverAssitant_v5.0.zip)
 
@@ -43,7 +44,7 @@ RKDevTool 是 Rockchip 为 Windows 平台下进行 USB 烧录所开发的软件�
 请参照产品相关说明进行操作。不同产品进入 Maskrom 模式的方式会略有不同。
 :::
 
- 如操作正常，RKDevTool 会提示 `发现一个MASKROM设备`：
+如操作正常，RKDevTool 会提示 `发现一个MASKROM设备`：
 
 ![RKDevTool zh maskrom](/img/configuration/rkdevtool-zh-maskrom.webp)
 
@@ -63,7 +64,7 @@ RKDevTool 是 Rockchip 为 Windows 平台下进行 USB 烧录所开发的软件�
 
 点击空白单元格选择待使用的 [Loader](Loader) 和 Image 文件：
 
-![RKDevTool zh choose](/img/configuration/rkdevtool-zh-choose.webp) 
+![RKDevTool zh choose](/img/configuration/rkdevtool-zh-choose.webp)
 
 在 `存储` 选项中选择目标介质：
 
@@ -82,8 +83,8 @@ RKDevTool 是 Rockchip 为 Windows 平台下进行 USB 烧录所开发的软件�
 
 选择 `强制按地址写` 后点击 `执行`：
 
-![RKDevTool zh flashing](/img/configuration/rkdevtool-zh-flashing.webp) 
+![RKDevTool zh flashing](/img/configuration/rkdevtool-zh-flashing.webp)
 
 等待写入完成，随后设备将自动重启：
 
-![RKDevTool zh complete](/img/configuration/rkdevtool-zh-complete.webp) 
+![RKDevTool zh complete](/img/configuration/rkdevtool-zh-complete.webp)

@@ -1,9 +1,9 @@
 {
-    "label": "ZERO 系列",
-    "position": 55,
-    "link": {
-        "type": "generated-index",
-        "slug": "/zero",
-        "description": "ZERO 系列是针对尺寸优化的通用SBC。"
-    }
+  "label": "ZERO 系列",
+  "link": {
+    "description": "ZERO 系列是针对尺寸优化的通用SBC。",
+    "slug": "/zero",
+    "type": "generated-index"
+  },
+  "position": 55
 }

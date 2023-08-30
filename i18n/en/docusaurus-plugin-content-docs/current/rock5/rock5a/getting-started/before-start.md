@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Before start'
+sidebar_label: "Before start"
 sidebar_position: 20
 ---
 
@@ -17,7 +17,7 @@ sidebar_position: 20
 
 USB Type-C PD Version 2.0 with 9V/2A, 12V/2A, 15V/2A and 20V/2A.
 Qualcomm Quick Charge 2.0 QC 3.0/2.0 adapter, 9V/2A, 12V/2A
-Power adapter with fixed voltage in 5.2V to 20V range on the USB Type-C port    
+Power adapter with fixed voltage in 5.2V to 20V range on the USB Type-C port  
 5V Power applied to the GPIO PIN 2 & 4
 
 **The official recommendation is to use [Radxa Power PD30W](../../../accessories/pd_30w)**
@@ -32,7 +32,7 @@ ROCK 5A is equipped with a Micro HDMI connector. HDMI capable monitor is recomme
 HDMI EDID display data is used to determine the best display resolution. On monitors and TVs that support 1080p (or 4K/8K) this resolution will be selected.  
 If 1080p is not supported the next available resolution reported by EDID will be used. This selected mode will work with MOST but not all monitors/TVs.
 
-- MicroSD Card Reader 
+- MicroSD Card Reader
 
 For flashing the image to the microSD Card
 
@@ -40,7 +40,7 @@ For flashing the image to the microSD Card
 
 - [eMMC module](https://docs.radxa.com/accessories/emmc_module), larger than 8GB
 
-- eMMC reader **(<font color='red'> Note: The eMMC reader is not suitable for SPI Flash</font> )** 
+- eMMC reader **(<font color='red'> Note: The eMMC reader is not suitable for SPI Flash</font> )**
 
 **The official recommendation is to use [Radxa eMMC reader](../../../accessories/emmc_reader)**
 
@@ -51,7 +51,7 @@ When you receive ROCK 5A, its B2B connector is installed with SPI Flash. If you 
 - Ethernet cable
 
 ROCK 5A supports internet access via Ethernet.  
-An Ethernet cable is used to connect your ROCK 5A to a local network and the Internet.  
+An Ethernet cable is used to connect your ROCK 5A to a local network and the Internet.
 
 - USB type A to type C cable
 
@@ -62,14 +62,14 @@ This is needed for fastboot/adb commands and the maskrom mode for advanced flash
 This is needed for serial console.
 
 - Camera Module
-    
-ROCK 5A supports camera function.  
+
+ROCK 5A supports camera function.
 
 **The official recommendation is to use [Radxa Camera 4K](../../../accessories/camera_4k)**
 
 - LCD Module
 
-ROCK 5A supports LCD display function.  
+ROCK 5A supports LCD display function.
 
 **The official recommendation is to use [Radxa Display 8 HD](../../../accessories/lcd-8-hd) or [Radxa Display 10 HD](../../../accessories/lcd-10-hd)**
 

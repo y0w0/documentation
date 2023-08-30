@@ -1,9 +1,9 @@
 {
   "label": "Hardware",
-  "position": 50,
   "link": {
-    "type": "generated-index",
-	"slug": "/rock5/rock5a/hardware",
-    "description": "Hardware Information about ROCK 5A"
-  }
+    "description": "Hardware Information about ROCK 5A",
+    "slug": "/rock5/rock5a/hardware",
+    "type": "generated-index"
+  },
+  "position": 50
 }

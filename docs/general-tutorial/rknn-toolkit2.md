@@ -16,11 +16,15 @@ cd rknn-toolkit2/
 pip install ./packages/rknn_toolkit2-1.5.2+b642f30c-cp310-cp310-linux_x86_64.whl
 ```
 
-## 运行yolov5例程
-### 此脚本是在 PC 模拟器上运行，若需要连板调试请参考
+## 运行 yolov5 例程
+<!-- :::info
+此脚本是在 PC 模拟器上运行，若需要连板调试请参考
+::: -->
 ```bash
 cd examples/onnx/yolov5
 python test.py
 ```
-### 转换模型和推理脚本 test.py 运行成功后，转换后的模型默认保存路径为 examples/onnx/yolov5/yolov5s_relu.rknn，推理的图片结果保存在 examples/onnx/yolov5/result.jpg
-[推理结果](/img/general-tutorial/rknn/result.jpg)
+:::info
+转换模型和推理脚本 test.py 运行成功后，转换后的模型默认保存路径为 examples/onnx/yolov5/yolov5s_relu.rknn，推理的图片结果保存在 examples/onnx/yolov5/result.jpg
+:::
+![推理结果](/img/general-tutorial/rknn/result.jpg)

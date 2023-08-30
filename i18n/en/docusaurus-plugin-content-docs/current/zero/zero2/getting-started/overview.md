@@ -11,7 +11,7 @@ The Radxa ZERO 2 is a compact single board computer designed for embedded use wi
 
 In order to maximize the performance of Radxa ZERO 2, it is specially equipped with a customized cooling module. The heat dissipation module is made of aluminum and designed with a multi-fin structure, which effectively increases the heat dissipation surface area. In addition, it is also equipped with a programmable cooling fan, which can dynamically adjust the speed according to the current load and temperature requirements of the device, so as to avoid unnecessary energy consumption and improve energy efficiency, thereby reducing power consumption and heat generation. This enables Radxa ZERO 2 to maintain stable performance under high load conditions and provide an excellent user experience.
 
-<div className='img_size'>
+<div className='img' style={{ transform: 'scale(.6)' }}>
 
 ![ZERO 2 Overview](/img/zero/zero2/zero2-heatsink.webp)
 

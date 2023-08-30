@@ -254,8 +254,3 @@ img {
   display: block;
   margin: 0px auto;
 }
-
-/* Modify image size */
-.img_size img {
-  transform: scale(.6);
-}

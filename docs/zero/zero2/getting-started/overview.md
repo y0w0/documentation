@@ -11,7 +11,7 @@ Radxa ZERO 2 是一款小尺寸单板计算机，专为嵌入其他外设共同�
 
 为了最大程度释放 Radxa ZERO 2 的性能，专门配备了定制的散热模组。散热模组采用铝质材质，并设计有多鳍片结构，从而有效增大了散热表面积。此外，还采用了可编程控制的散热风扇，该风扇能够根据设备当前的负载和温度需求动态调整转速，以避免不必要的能源消耗，提高能效，从而降低电力消耗和热量产生。这使得Radxa ZERO 2在高负载情况下能够保持稳定的性能表现，提供卓越的使用体验。
 
-<div className='img_size'>
+<div className='img' style={{ transform: 'scale(.6)' }}>
 
 ![ZERO 2 Overview](/img/zero/zero2/zero2-heatsink.webp)
 

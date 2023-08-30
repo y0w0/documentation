@@ -58,6 +58,7 @@ import TabItem from '@theme/TabItem';
 
 4. Once you have done so, click the `Write` button to start writing the image and wait for the write to complete.  
 
+<!-- end of the list -->
 
   </TabItem>
   <TabItem value="eMMC" label="eMMC">
@@ -102,6 +103,7 @@ When inserting the eMMC module into the Radxa eMMC reader, align port A1 with po
     
     ![ROCK5A eMMC via Etcher 04](/img/rock5a/rock5a-etcher-4.webp)
 
+<!-- end of the list -->
 
   </TabItem>
   <TabItem value="NVMe_SSD" label="NVMe SSD">

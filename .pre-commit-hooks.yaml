@@ -1,0 +1,5 @@
+- id: check-doc-style
+  name: check documentation style
+  description: Check documentation style against Radxa requirement.
+  entry: pre_commit_hooks/check_doc_style.sh
+  language: script

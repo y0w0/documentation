@@ -27,4 +27,4 @@ python test.py
 :::info
 After the conversion model and inference script test.py is run successfully, the converted model is saved in examples/onnx/yolov5/yolov5s_relu.rknn by default, and the result of the inference image is saved in examples/onnx/yolov5/result.jpg
 :::
-![inference result](/img/general-tutorial/rknn/result.jpg)
+![inference result](/img/general-tutorial/rknn/result.webp)

@@ -27,4 +27,4 @@ python test.py
 :::info
 转换模型和推理脚本 test.py 运行成功后，转换后的模型默认保存路径为 examples/onnx/yolov5/yolov5s_relu.rknn，推理的图片结果保存在 examples/onnx/yolov5/result.jpg
 :::
-![推理结果](/img/general-tutorial/rknn/result.jpg)
+![推理结果](/img/general-tutorial/rknn/result.webp)

@@ -1,62 +1,62 @@
 {
-  "link.title.Radxa": {
-    "message": "瑞莎",
-    "description": "The title of the footer links column with title=Radxa in the footer"
-  },
-  "link.item.label.Wiki": {
-    "message": "Wiki",
-    "description": "The label of footer link with label=Wiki linking to https://wiki.radxa.com/"
-  },
-  "link.item.label.Forum": {
-    "message": "论坛",
-    "description": "The label of footer link with label=Forum linking to https://forum.radxa.com/"
-  },
-  "link.item.label.Github": {
-    "message": "Github",
-    "description": "The label of footer link with label=Github linking to https://github.com/radxa"
-  },
-  "link.title.Support": {
-    "message": "支持",
-    "description": "The title of the footer links column with title=Support in the footer"
-  },
-  "link.title.About": {
-    "message": "关于",
-    "description": "The title of the footer links column with title=About in the footer"
-  },
-  "link.item.label.Home": {
-    "message": "主页",
-    "description": "The label of footer link with label=Home linking to http://www.radxa.com/"
-  },
-  "link.item.label.News": {
-    "message": "新闻",
-    "description": "The label of footer link with label=News linking to http://www.radxa.com/news"
-  },
   "link.item.label.About": {
-    "message": "关于",
-    "description": "The label of footer link with label=About linking to http://www.radxa.com/about"
-  },
-  "link.item.label.Products": {
-    "message": "产品",
-    "description": "The label of footer link with label=Products linking to http://www.radxa.com/product"
-  },
-  "link.item.label.Support": {
-    "message": "支持",
-    "description": "The label of footer link with label=Support linking to http://www.radxa.com/sustain"
-  },
-  "link.item.label.Community": {
-    "message": "社区",
-    "description": "The label of footer link with label=Community linking to http://www.radxa.com/association"
-  },
-  "link.item.label.Services": {
-    "message": "服务",
-    "description": "The label of footer link with label=Community linking to http://www.radxa.com/services"
+    "description": "The label of footer link with label=About linking to http://www.radxa.com/about",
+    "message": "关于"
   },
   "link.item.label.About Radxa": {
-    "message": "关于瑞莎",
-    "description": "The label of footer link with label=About Radxa linking to http://www.radxa.com/about"
+    "description": "The label of footer link with label=About Radxa linking to http://www.radxa.com/about",
+    "message": "关于瑞莎"
+  },
+  "link.item.label.Community": {
+    "description": "The label of footer link with label=Community linking to http://www.radxa.com/association",
+    "message": "社区"
   },
   "link.item.label.Contact Radxa": {
-    "message": "联系瑞莎",
-    "description": "The label of footer link with label=Contact Radxa linking to http://www.radxa.com/about?contact_us"
+    "description": "The label of footer link with label=Contact Radxa linking to http://www.radxa.com/about?contact_us",
+    "message": "联系瑞莎"
+  },
+  "link.item.label.Forum": {
+    "description": "The label of footer link with label=Forum linking to https://forum.radxa.com/",
+    "message": "论坛"
+  },
+  "link.item.label.Github": {
+    "description": "The label of footer link with label=Github linking to https://github.com/radxa",
+    "message": "Github"
+  },
+  "link.item.label.Home": {
+    "description": "The label of footer link with label=Home linking to http://www.radxa.com/",
+    "message": "主页"
+  },
+  "link.item.label.News": {
+    "description": "The label of footer link with label=News linking to http://www.radxa.com/news",
+    "message": "新闻"
+  },
+  "link.item.label.Products": {
+    "description": "The label of footer link with label=Products linking to http://www.radxa.com/product",
+    "message": "产品"
+  },
+  "link.item.label.Services": {
+    "description": "The label of footer link with label=Community linking to http://www.radxa.com/services",
+    "message": "服务"
+  },
+  "link.item.label.Support": {
+    "description": "The label of footer link with label=Support linking to http://www.radxa.com/sustain",
+    "message": "支持"
+  },
+  "link.item.label.Wiki": {
+    "description": "The label of footer link with label=Wiki linking to https://wiki.radxa.com/",
+    "message": "Wiki"
+  },
+  "link.title.About": {
+    "description": "The title of the footer links column with title=About in the footer",
+    "message": "关于"
+  },
+  "link.title.Radxa": {
+    "description": "The title of the footer links column with title=Radxa in the footer",
+    "message": "瑞莎"
+  },
+  "link.title.Support": {
+    "description": "The title of the footer links column with title=Support in the footer",
+    "message": "支持"
   }
 }

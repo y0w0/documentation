@@ -1,5 +1,5 @@
-﻿---
-sidebar_label: 'I2C'
+---
+sidebar_label: "I2C"
 sidebar_position: 10
 ---
 

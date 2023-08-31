@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Bootloader'
+sidebar_label: "Bootloader"
 sidebar_position: 20
 ---
 

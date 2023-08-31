@@ -1,39 +1,42 @@
 {
-  "sidebar.tutorialSidebar.category.ROCK 3 认证": {
-    "message": "ROCK 3 Compliance"
+  "sidebar.tutorialSidebar.category.Compute Module 系列": {
+    "message": "Compute Module Series"
   },
-  "sidebar.tutorialSidebar.category.通用教程": {
-    "message": "General Tutorial"
+  "sidebar.tutorialSidebar.category.Compute Module 系列.link.generated-index.description": {
+    "message": "Compute Module is a family of small form factor and compact layout computing modules based on Rockchip SOCs."
   },
-  "sidebar.tutorialSidebar.category.Rockchip SDK 工具": {
-    "message": "Rockchip SDK Utilities"
-  },
-  "sidebar.tutorialSidebar.category.第三方外设配置": {
-    "message": "Third Party Peripheral Configuration"
-  },
-  "sidebar.tutorialSidebar.category.ROCK 3 认证.link.generated-index.description": {
-    "message": "ROCK 3 family compliance."
+  "sidebar.tutorialSidebar.category.ROCK 3 系列": {
+    "description": "The label for category ROCK 3 Family in sidebar tutorialSidebar",
+    "message": "ROCK 3 Family"
   },
   "sidebar.tutorialSidebar.category.ROCK 3 系列.link.generated-index.description": {
     "message": "The ROCK 3 series are high-performance SBCs based on the RK3566, RK3568 and RK3568J SoCs."
   },
-  "sidebar.tutorialSidebar.category.ROCK 3 系列": {
-    "message": "ROCK 3 Family",
-    "description": "The label for category ROCK 3 Family in sidebar tutorialSidebar"
+  "sidebar.tutorialSidebar.category.ROCK 3 认证": {
+    "message": "ROCK 3 Compliance"
+  },
+  "sidebar.tutorialSidebar.category.ROCK 3 认证.link.generated-index.description": {
+    "message": "ROCK 3 family compliance."
+  },
+  "sidebar.tutorialSidebar.category.ROCK 4 系列": {
+    "description": "The label for category ROCK 4 Family in sidebar tutorialSidebar",
+    "message": "ROCK 4 Family"
+  },
+  "sidebar.tutorialSidebar.category.ROCK 4 系列.link.generated-index.description": {
+    "message": "ROCK 4 Series is a high-performance SBC based on RK3399, RK3399-T and OP1 SoC."
   },
   "sidebar.tutorialSidebar.category.ROCK 4 认证": {
-    "message": "ROCK 4 Compliance",
-    "description": "The label for category ROCK 4 Family in sidebar tutorialSidebar"
+    "description": "The label for category ROCK 4 Family in sidebar tutorialSidebar",
+    "message": "ROCK 4 Compliance"
   },
   "sidebar.tutorialSidebar.category.ROCK 4 认证.link.generated-index.description": {
     "message": "ROCK 4 family Compliance."
   },
-  "sidebar.tutorialSidebar.category.ROCK 4 系列": {
-    "message": "ROCK 4 Family",
-    "description": "The label for category ROCK 4 Family in sidebar tutorialSidebar"
+  "sidebar.tutorialSidebar.category.ROCK 5 系列": {
+    "message": "ROCK 5 Family"
   },
-  "sidebar.tutorialSidebar.category.ROCK 4 系列.link.generated-index.description": {
-    "message": "ROCK 4 Series is a high-performance SBC based on RK3399, RK3399-T and OP1 SoC."
+  "sidebar.tutorialSidebar.category.ROCK 5 系列.link.generated-index.description": {
+    "message": "ROCK 5 is the latest series of SBC and SoM powered by Rockchip RK3588/RK3588S with 8K display and 6T NPU."
   },
   "sidebar.tutorialSidebar.category.ROCK 5 认证": {
     "message": "ROCK 5 Compliance"
@@ -41,23 +44,14 @@
   "sidebar.tutorialSidebar.category.ROCK 5 认证.link.generated-index.description": {
     "message": "ROCK 5 family Compliance."
   },
-  "sidebar.tutorialSidebar.category.ROCK 5 系列": {
-    "message": "ROCK 5 Family"
-  },
-  "sidebar.tutorialSidebar.category.ZERO 系列": {
-    "message": "ZERO Family"
-  },
-  "sidebar.tutorialSidebar.category.ROCK 5 系列.link.generated-index.description": {
-    "message": "ROCK 5 is the latest series of SBC and SoM powered by Rockchip RK3588/RK3588S with 8K display and 6T NPU."
-  },
   "sidebar.tutorialSidebar.category.ROCK 5A.link.generated-index.description": {
     "message": "A credit card size computer with 8K + 4K dual display"
   },
   "sidebar.tutorialSidebar.category.ROCK 5B.link.generated-index.description": {
     "message": "ROCK 5B is a powerful SBC with quad display support in Pico-ITX form factor."
   },
-  "sidebar.tutorialSidebar.category.ZERO 系列.link.generated-index.description": {
-    "message": "ZERO series are high-performance SBCs based on RK3566, Amlogic A311D and Amlogic A311D."
+  "sidebar.tutorialSidebar.category.Rockchip SDK 工具": {
+    "message": "Rockchip SDK Utilities"
   },
   "sidebar.tutorialSidebar.category.ZERO 2.link.generated-index.description": {
     "message": "ZERO 2 is a high-performance single-board computer based on the Amlogic A311D SOC."
@@ -65,11 +59,23 @@
   "sidebar.tutorialSidebar.category.ZERO 3W.link.generated-index.description": {
     "message": "ZERO 3W is a low-cost, high-performance single-board computer (SBC)."
   },
-  "sidebar.tutorialSidebar.category.备选操作系统": {
-    "message": "Alternative OS"
+  "sidebar.tutorialSidebar.category.ZERO 系列": {
+    "message": "ZERO Family"
   },
-  "sidebar.tutorialSidebar.category.备选操作系统.link.generated-index.description": {
-    "message": "Introduction of other supported operating systems."
+  "sidebar.tutorialSidebar.category.ZERO 系列.link.generated-index.description": {
+    "message": "ZERO series are high-performance SBCs based on RK3566, Amlogic A311D and Amlogic A311D."
+  },
+  "sidebar.tutorialSidebar.category.rsetup工具": {
+    "message": "Rsetup tools"
+  },
+  "sidebar.tutorialSidebar.category.rsetup工具.link.generated-index.description": {
+    "message": "Rsetup system setup tool"
+  },
+  "sidebar.tutorialSidebar.category.下载": {
+    "message": "Download"
+  },
+  "sidebar.tutorialSidebar.category.下载.link.generated-index.description": {
+    "message": "Download what you need here."
   },
   "sidebar.tutorialSidebar.category.产品认证信息": {
     "message": "Compliance"
@@ -77,8 +83,17 @@
   "sidebar.tutorialSidebar.category.产品认证信息.link.generated-index.description": {
     "message": "Compliance for Radxa products"
   },
-  "sidebar.tutorialSidebar.category.定频认证指导": {
-    "message": "Radiofrequency Compliance Guidance"
+  "sidebar.tutorialSidebar.category.入门使用教程": {
+    "message": "Getting Started"
+  },
+  "sidebar.tutorialSidebar.category.入门使用教程.link.generated-index.description": {
+    "message": "Guide you start your ROCK 5B."
+  },
+  "sidebar.tutorialSidebar.category.其他资源": {
+    "message": "Other Resource"
+  },
+  "sidebar.tutorialSidebar.category.其他资源.link.generated-index.description": {
+    "message": "Search other resource here."
   },
   "sidebar.tutorialSidebar.category.初级开发教程": {
     "message": "Lowlevel Developement"
@@ -92,62 +107,14 @@
   "sidebar.tutorialSidebar.category.基础使用教程.link.generated-index.description": {
     "message": "Basic usage tutorial."
   },
-  "sidebar.tutorialSidebar.category.进阶使用教程": {
-    "message": "Advanced Tutorial"
+  "sidebar.tutorialSidebar.category.备选操作系统": {
+    "message": "Alternative OS"
   },
-  "sidebar.tutorialSidebar.category.进阶使用教程.link.generated-index.description": {
-    "message": "Advanced usage tutorial."
+  "sidebar.tutorialSidebar.category.备选操作系统.link.generated-index.description": {
+    "message": "Introduction of other supported operating systems."
   },
-  "sidebar.tutorialSidebar.category.开始使用": {
-    "message": "Getting Started"
-  },
-  "sidebar.tutorialSidebar.category.配件": {
-    "message": "Accessories"
-  },
-  "sidebar.tutorialSidebar.category.配件.link.generated-index.description": {
-    "message": "Radxa Accessories Guides."
-  },
-  "sidebar.tutorialSidebar.category.配件认证信息": {
-    "message": "Accessories"
-  },
-  "sidebar.tutorialSidebar.category.配件认证信息.link.generated-index.description": {
-    "message": "Accessories compliance."
-  },
-  "sidebar.tutorialSidebar.category.配件使用教程": {
-    "message": "Accessories Guides"
-  },
-  "sidebar.tutorialSidebar.category.配件使用教程.link.generated-index.description": {
-    "message": "Guides for using the accessories."
-  },
-  "sidebar.tutorialSidebar.category.其他资源": {
-    "message": "Other Resource"
-  },
-  "sidebar.tutorialSidebar.category.其他资源.link.generated-index.description": {
-    "message": "Search other resource here."
-  },
-  "sidebar.tutorialSidebar.category.入门使用教程": {
-    "message": "Getting Started"
-  },
-  "sidebar.tutorialSidebar.category.入门使用教程.link.generated-index.description": {
-    "message": "Guide you start your ROCK 5B."
-  },
-  "sidebar.tutorialSidebar.category.系统开发教程": {
-    "message": "System Development Guides"
-  },
-  "sidebar.tutorialSidebar.category.系统开发教程.link.generated-index.description": {
-    "message": "System development guides menu."
-  },
-  "sidebar.tutorialSidebar.category.下载": {
-    "message": "Download"
-  },
-  "sidebar.tutorialSidebar.category.下载.link.generated-index.description": {
-    "message": "Download what you need here."
-  },
-  "sidebar.tutorialSidebar.category.新手入门": {
-    "message": "Getting Started"
-  },
-  "sidebar.tutorialSidebar.category.新手入门.link.generated-index.description": {
-    "message": "Start your favorite SBC."
+  "sidebar.tutorialSidebar.category.定频认证指导": {
+    "message": "Radiofrequency Compliance Guidance"
   },
   "sidebar.tutorialSidebar.category.应用安装教程": {
     "message": "Application Installation Guides"
@@ -155,50 +122,20 @@
   "sidebar.tutorialSidebar.category.应用安装教程.link.generated-index.description": {
     "message": "Simple application installation guides."
   },
-  "sidebar.tutorialSidebar.category.应用案例介绍": {
-    "message": "Application Case Introduction"
-  },
-  "sidebar.tutorialSidebar.category.应用案例介绍.link.generated-index.description": {
-    "message": "Some different application case introduction."
-  },
   "sidebar.tutorialSidebar.category.应用开发": {
     "message": "Applations Developement"
   },
   "sidebar.tutorialSidebar.category.应用开发.link.generated-index.description": {
     "message": "Simple applications development guides."
   },
-  "sidebar.tutorialSidebar.category.硬件信息": {
-    "message": "Hardware"
+  "sidebar.tutorialSidebar.category.应用开发教程": {
+    "message": "Application Development Tutorial"
   },
-  "sidebar.tutorialSidebar.category.硬件信息.link.generated-index.description": {
-    "message": "Hardware information search and download."
+  "sidebar.tutorialSidebar.category.应用案例介绍": {
+    "message": "Application Case Introduction"
   },
-  "sidebar.tutorialSidebar.category.硬件资料.link.generated-index.description": {
-    "message": "Retrieve hardware information here."
-  },
-  "sidebar.tutorialSidebar.category.rsetup工具": {
-    "message": "Rsetup tools"
-  },
-  "sidebar.tutorialSidebar.category.rsetup工具.link.generated-index.description": {
-    "message": "Rsetup system setup tool"
-  },
-  "sidebar.tutorialSidebar.category.Compute Module 系列": {
-    "message": "Compute Module Series"
-  },
-  "sidebar.tutorialSidebar.category.Compute Module 系列.link.generated-index.description": {
-    "message": "Compute Module is a family of small form factor and compact layout computing modules based on Rockchip SOCs."
-  },
-  "sidebar.tutorialSidebar.category.第三方操作系统": {
-    "message": "Third Party Operating Systems"
-  },
-  "sidebar.tutorialSidebar.category.第三方操作系统.link.generated-index.description": {
-    "message": "Radxa CM3 supports third-party operating systems."
-  },
-  "sidebar.tutorialSidebar.category.系统配置": {
-    "message": "System Configuration"
-  },
-  "sidebar.tutorialSidebar.category.系统配置.link.generated-index.description": {
-    "message": "Radxa CM3 System Configuration"
+  "sidebar.tutorialSidebar.category.应用案例介绍.link.generated-index.description": {
+    "message": "Some different application case introduction."
   },
   "sidebar.tutorialSidebar.category.底层开发教程": {
     "message": "Low-level Development Tutorial"
@@ -206,8 +143,26 @@
   "sidebar.tutorialSidebar.category.底层开发教程.link.generated-index.description": {
     "message": "Low-level Development Tutorial"
   },
-  "sidebar.tutorialSidebar.category.应用开发教程": {
-    "message": "Application Development Tutorial"
+  "sidebar.tutorialSidebar.category.开始使用": {
+    "message": "Getting Started"
+  },
+  "sidebar.tutorialSidebar.category.新手入门": {
+    "message": "Getting Started"
+  },
+  "sidebar.tutorialSidebar.category.新手入门.link.generated-index.description": {
+    "message": "Start your favorite SBC."
+  },
+  "sidebar.tutorialSidebar.category.瑞莎 CM3": {
+    "message": "Radxa CM3"
+  },
+  "sidebar.tutorialSidebar.category.瑞莎 CM3 接口板": {
+    "message": "Radxa CM3 IO Board"
+  },
+  "sidebar.tutorialSidebar.category.瑞莎 CM3 接口板.link.generated-index.description": {
+    "message": ""
+  },
+  "sidebar.tutorialSidebar.category.瑞莎 CM3.link.generated-index.description": {
+    "message": ""
   },
   "sidebar.tutorialSidebar.category.瑞莎操作系统": {
     "message": "RadxaOS"
@@ -215,11 +170,11 @@
   "sidebar.tutorialSidebar.category.瑞莎操作系统.link.generated-index.description": {
     "message": "Usage of RadxaOS"
   },
-  "sidebar.tutorialSidebar.category.计算机模块系列": {
-    "message": "Computer Module Series"
+  "sidebar.tutorialSidebar.category.硬件信息": {
+    "message": "Hardware"
   },
-  "sidebar.tutorialSidebar.category.计算机模块系列.link.generated-index.description": {
-    "message": ""
+  "sidebar.tutorialSidebar.category.硬件信息.link.generated-index.description": {
+    "message": "Hardware information search and download."
   },
   "sidebar.tutorialSidebar.category.硬件接口电路": {
     "message": "Hardware Circuit Interface"
@@ -227,16 +182,34 @@
   "sidebar.tutorialSidebar.category.硬件接口电路.link.generated-index.description": {
     "message": "Hardware Circuit Interface"
   },
-  "sidebar.tutorialSidebar.category.瑞莎 CM3": {
-    "message": "Radxa CM3"
+  "sidebar.tutorialSidebar.category.硬件资料.link.generated-index.description": {
+    "message": "Retrieve hardware information here."
   },
-  "sidebar.tutorialSidebar.category.瑞莎 CM3.link.generated-index.description": {
-    "message": ""
+  "sidebar.tutorialSidebar.category.第三方外设配置": {
+    "message": "Third Party Peripheral Configuration"
   },
-  "sidebar.tutorialSidebar.category.瑞莎 CM3 接口板": {
-    "message": "Radxa CM3 IO Board"
+  "sidebar.tutorialSidebar.category.第三方操作系统": {
+    "message": "Third Party Operating Systems"
   },
-  "sidebar.tutorialSidebar.category.瑞莎 CM3 接口板.link.generated-index.description": {
+  "sidebar.tutorialSidebar.category.第三方操作系统.link.generated-index.description": {
+    "message": "Radxa CM3 supports third-party operating systems."
+  },
+  "sidebar.tutorialSidebar.category.系统开发教程": {
+    "message": "System Development Guides"
+  },
+  "sidebar.tutorialSidebar.category.系统开发教程.link.generated-index.description": {
+    "message": "System development guides menu."
+  },
+  "sidebar.tutorialSidebar.category.系统配置": {
+    "message": "System Configuration"
+  },
+  "sidebar.tutorialSidebar.category.系统配置.link.generated-index.description": {
+    "message": "Radxa CM3 System Configuration"
+  },
+  "sidebar.tutorialSidebar.category.计算机模块系列": {
+    "message": "Computer Module Series"
+  },
+  "sidebar.tutorialSidebar.category.计算机模块系列.link.generated-index.description": {
     "message": ""
   },
   "sidebar.tutorialSidebar.category.计算机模块认证": {
@@ -245,6 +218,33 @@
   "sidebar.tutorialSidebar.category.计算机模块认证.link.generated-index.description": {
     "message": "Computer Module Series Certification Information"
   },
+  "sidebar.tutorialSidebar.category.进阶使用教程": {
+    "message": "Advanced Tutorial"
+  },
+  "sidebar.tutorialSidebar.category.进阶使用教程.link.generated-index.description": {
+    "message": "Advanced usage tutorial."
+  },
+  "sidebar.tutorialSidebar.category.通用教程": {
+    "message": "General Tutorial"
+  },
+  "sidebar.tutorialSidebar.category.配件": {
+    "message": "Accessories"
+  },
+  "sidebar.tutorialSidebar.category.配件.link.generated-index.description": {
+    "message": "Radxa Accessories Guides."
+  },
+  "sidebar.tutorialSidebar.category.配件使用教程": {
+    "message": "Accessories Guides"
+  },
+  "sidebar.tutorialSidebar.category.配件使用教程.link.generated-index.description": {
+    "message": "Guides for using the accessories."
+  },
+  "sidebar.tutorialSidebar.category.配件认证信息": {
+    "message": "Accessories"
+  },
+  "sidebar.tutorialSidebar.category.配件认证信息.link.generated-index.description": {
+    "message": "Accessories compliance."
+  },
   "sidebar.tutorialSidebar.category.量产与批量部署": {
     "message": "Mass Production and Mass Deployment"
   },
@@ -252,7 +252,7 @@
     "message": "Radxa CM3 Mass Production and Mass Deployment"
   },
   "version.label": {
-    "message": "Next",
-    "description": "The label for version current"
+    "description": "The label for version current",
+    "message": "Next"
   }
 }

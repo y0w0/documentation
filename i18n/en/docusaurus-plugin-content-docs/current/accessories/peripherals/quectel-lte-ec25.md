@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'QUECTEL LTE EC25'
+sidebar_label: "QUECTEL LTE EC25"
 sidebar_position: 10
 ---
 
@@ -21,12 +21,14 @@ sudo apt install ppp picocom
 First, connect ROCK 4B+ via USB and move LTE EC25-AU away.
 
 You can check if the device is connected by the following command:
+
 ```bash
 rock@rock-pi-4b-plus:~$ lsusb | grep -i Quectel
-Bus 002 Device 002: ID 2c7c:0125 Quectel Wireless Solutions Co., Ltd. EC25 LTE modem  
+Bus 002 Device 002: ID 2c7c:0125 Quectel Wireless Solutions Co., Ltd. EC25 LTE modem
 ```
 
 The modem usually communicates with the host computer through a serial port. Check whether the system correctly enumerates the corresponding serial port devices:
+
 ```bash
 rock@rock-pi-4b-plus:~$ ls /dev/ttyUSB*
 /dev/ttyUSB0  /dev/ttyUSB1  /dev/ttyUSB2  /dev/ttyUSB3
@@ -35,33 +37,35 @@ rock@rock-pi-4b-plus:~$ ls /dev/ttyUSB*
 ## Test the modem with the `at` command
 
 First, open the serial port using `picocom` :
+
 ```bash
 sudo picocom -b 115200 /dev/ttyUSB3
 ```
 
 After the program starts, you can enter the following `at` command to check the status of the modem:
+
 ```bash
-  at+cpin?  
-  +CPIN: READY 
+  at+cpin?
+  +CPIN: READY
 
   OK  #Check whether the SIM card is in place
 
-  at+csq    
+  at+csq
   +CSQ: 14,99
 
   OK  #Detection signal. 99 means no signal
 
-  at+cops?  
+  at+cops?
   +COPS: 1,0,"CHN-UNICOM",7
 
   OK  #View Carrier
 
-  at+creg?  
+  at+creg?
   +CREG: 0,1
 
   OK  #Get the registration status of the phone (0,1: indicates normal registration)
 
-  at+qeng="servingcell"   
+  at+qeng="servingcell"
   +QENG: "servingcell","NOCONN","LTE","FDD",460,01,19A358C,366,100,1,5,5,774E,-108,-5,-83,9,13
 
   OK  #Signal strength and quality of the currently connected service cell
@@ -118,7 +122,7 @@ dump
 
 nodetach
 
-# Username password (The configuration varies with carriers) 
+# Username password (The configuration varies with carriers)
 user ctnet@mycdma.cn
 password vnet.mobi
 
@@ -132,7 +136,7 @@ usepeerdns
 EOF | sudo tee /etc/ppp/peers/rasppp
 
 cat << EOF
-TIMEOUT 15  
+TIMEOUT 15
 ABORT   "BUSY"
 ABORT   "ERROR"
 ABORT   "NO ANSWER"
@@ -152,7 +156,7 @@ cat << EOF
 ABORT "ERROR"
 ABORT "NO DIALTONE"
 SAY "\NSending break to the modem\n"
- 
+
 ""\k"
 
 ""+++ATH"
@@ -161,6 +165,7 @@ EOF | sudo tee /etc/ppp/peers/rasppp-chat-disconnect
 ```
 
 You can now try dialing using `ppp` :
+
 ```bash
 sudo pppd call rasppp &    #Background dialing
 ```

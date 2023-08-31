@@ -1,11 +1,12 @@
-﻿---
-sidebar_label: 'LED Setup'
+---
+sidebar_label: "LED Setup"
 sidebar_position: 10
 ---
 
 # LED Setup
 
-Some products will have user-controllable LEDs on-board. They can be managed via [`rsetup`](rsetup-tool#gpio-leds):  
+Some products will have user-controllable LEDs on-board. They can be managed via [`rsetup`](rsetup-tool#gpio-leds):
+
 ```
 ┌──────────────────────────────────┤ RSETUP ├──────────────────────────────────┐
 | Below are the available LEDs and their triggers.                             |
@@ -32,6 +33,7 @@ Some products will have user-controllable LEDs on-board. They can be managed via
 |                                                                              |
 └──────────────────────────────────────────────────────────────────────────────┘
 ```
+
 The content inside '[ ]' at the end is the current LED trigger, which can be roughly understood as the LED status.
 
 On Radxa products, the power LED usually has `default-on` trigger, while the status LED usually has `heartbeat` trigger.
@@ -39,8 +41,10 @@ On Radxa products, the power LED usually has `default-on` trigger, while the sta
 ## Change LED light status
 
 The following steps help us to change light status:
-1. Use the `up` or `down` key to move the highlighted selection to which LED you want to edit the statu;  
-2. Use the `Space` bar to confirm your choose, a `*` would appeare on the `[ ]` at the start.  
+
+1. Use the `up` or `down` key to move the highlighted selection to which LED you want to edit the statu;
+2. Use the `Space` bar to confirm your choose, a `*` would appeare on the `[ ]` at the start.
+
 ```
 ┌──────────────────────────────────┤ RSETUP ├──────────────────────────────────┐
 | Below are the available LEDs and their triggers.                             |
@@ -67,7 +71,9 @@ The following steps help us to change light status:
 |                                                                              |
 └──────────────────────────────────────────────────────────────────────────────┘
 ```
+
 3. Press `Enter` to go to the trigger selection menu:
+
 ```
 ┌──────────────────────────────────┤ RSETUP ├──────────────────────────────────┐
 │ Please select the new trigger:                                               │
@@ -94,6 +100,7 @@ The following steps help us to change light status:
 │                                                                              │
 └──────────────────────────────────────────────────────────────────────────────┘
 ```
-4. Use the `up` and `down` arrow keys to select which you like and press `Space` to confirm, a `*` would appeare on the `( )` like step 2.  
-5. Press `Enter` to save your choose and aplly it.  
-6. Your LED status would change after step 5 at once.  
+
+4. Use the `up` and `down` arrow keys to select which you like and press `Space` to confirm, a `*` would appeare on the `( )` like step 2.
+5. Press `Enter` to save your choose and aplly it.
+6. Your LED status would change after step 5 at once.

@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'ROCK 5A使用M.2 E Key extension board教程'
+sidebar_label: "ROCK 5A使用M.2 E Key extension board教程"
 sidebar_position: 20
 ---
 
@@ -49,19 +49,21 @@ sidebar_position: 20
 
 ## 查看挂载情况
 
-1、可以通过```lsblk```查看SSD卡是否被识别。
+1、可以通过`lsblk`查看SSD卡是否被识别。
+
 ```bash
 radxa@rock-5a:~$ lsblk
 NAME         MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
-mmcblk0      179:0    0  14.5G  0 disk 
+mmcblk0      179:0    0  14.5G  0 disk
 ├─mmcblk0p1  179:1    0    16M  0 part /config
 └─mmcblk0p2  179:2    0  14.4G  0 part /
-mmcblk0boot0 179:32   0     4M  1 disk 
-mmcblk0boot1 179:64   0     4M  1 disk 
+mmcblk0boot0 179:32   0     4M  1 disk
+mmcblk0boot1 179:64   0     4M  1 disk
 zram0        254:0    0   3.8G  0 disk [SWAP]
-nvme0n1      259:0    0 238.5G  0 disk 
-radxa@rock-5a:~$ 
+nvme0n1      259:0    0 238.5G  0 disk
+radxa@rock-5a:~$
 ```
+
 2、这时你可以看到，系统已经识别出SSD(**nvme0n1**)。
 
 ## 系统启动

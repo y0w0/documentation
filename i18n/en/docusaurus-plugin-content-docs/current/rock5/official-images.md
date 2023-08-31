@@ -1,5 +1,5 @@
-﻿---
-sidebar_label: 'Official Images'
+---
+sidebar_label: "Official Images"
 sidebar_position: 2
 ---
 
@@ -29,7 +29,7 @@ import TabItem from '@theme/TabItem';
 
 ### Download
 
-The following systems have been officially tested and verified by Radxa: 
+The following systems have been officially tested and verified by Radxa:
 
 ROCK 5A: [Build 17](https://github.com/radxa-build/rock-5a/releases/download/b17/rock-5a_debian_bullseye_kde_b17.img.xz)
 
@@ -50,14 +50,13 @@ The ROCK 5A is currently adapted to Android 12 and you can download the image fr
 [ROCK 5A Android 12](https://github.com/radxa/manifests/releases/tag/Android12_rk12)  
 Additional information:  
 [Radxa Android Manifests](https://github.com/radxa/manifests)  
-[Android 12 Installation Guide](https://wiki.radxa.com/Rock5/guide/android12)  
+[Android 12 Installation Guide](https://wiki.radxa.com/Rock5/guide/android12)
 
 #### Ubuntu Server
 
 [Ubuntu Server Download](https://github.com/radxa-build/rock-5a/releases)  
 [Ubuntu Installation Guide](https://wiki.radxa.com/Rock5/linux/ubuntu)  
-[Github Change log](https://github.com/radxa/debos-radxa/releases/latest)  
-
+[Github Change log](https://github.com/radxa/debos-radxa/releases/latest)
 
 </TabItem>
 <TabItem value="ROCK 5B" label="ROCK 5B">
@@ -86,14 +85,13 @@ The official release notice for ROCK 5B can be found at the following link:
 [ROCK 5B Android 12](https://github.com/radxa/manifests/releases/tag/Rock-android12-20230315)  
 Additional information:  
 [Radxa Android Manifests](https://github.com/radxa/manifests)  
-[Android 12 Installation Guide](https://wiki.radxa.com/Rock5/guide/android12)  
+[Android 12 Installation Guide](https://wiki.radxa.com/Rock5/guide/android12)
 
 #### Ubuntu Server
 
 [Ubuntu Server Download](https://github.com/radxa-build/rock-5b/releases)  
 [Ubuntu Installation Guide](https://wiki.radxa.com/Rock5/linux/ubuntu)  
-[Github Change log](https://github.com/radxa/debos-radxa/releases/latest)  
+[Github Change log](https://github.com/radxa/debos-radxa/releases/latest)
 
 </TabItem>
 </Tabs>
-

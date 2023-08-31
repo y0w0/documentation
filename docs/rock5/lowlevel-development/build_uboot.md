@@ -1,5 +1,5 @@
 ---
-sidebar_label: '在ROCK 5B 构建 U-Boot'
+sidebar_label: "在ROCK 5B 构建 U-Boot"
 sidebar_position: 50
 ---
 
@@ -46,6 +46,7 @@ cd ~/rk3588-sdk
 ```
 
 - 生成的images将被复制到 out/u-boot 文件夹
+
 ```bash
 ls out/u-boot/
 idbloader.img rk3588_spl_loader_v1.07.111.bin spi u-boot.itb
@@ -54,12 +55,14 @@ idbloader.img rk3588_spl_loader_v1.07.111.bin spi u-boot.itb
 ## 写入u-boot镜像
 
 - 先检查out/u-boot是否与如下一致
+
 ```bash
 ls out/u-boot/
 idbloader.img  rk3588_spl_loader_v1.07.111.bin  spi  u-boot.itb
 ```
 
 - 烧录到指定存储介质
+
 ```bash
 # emmc
 sudo dd if=./idbloader.img of=/dev/mmcblk1 bs=512 seek=64

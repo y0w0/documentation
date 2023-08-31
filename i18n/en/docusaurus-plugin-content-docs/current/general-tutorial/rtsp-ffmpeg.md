@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'RTSP Remote Streaming Guide (based on FFmpeg)'
+sidebar_label: "RTSP Remote Streaming Guide (based on FFmpeg)"
 sidebar_position: 20
 ---
 
@@ -24,6 +24,7 @@ sudo apt install librockchip-mpp-dev librockchip-vpu0 librga-dev libyuv-dev libd
 ```
 
 ### Compile and install the latest MPP
+
 ```bash
 git clone https://github.com/rockchip-linux/mpp
 pushd mpp
@@ -63,7 +64,7 @@ sudo ffmpeg -re -f v4l2 -i /dev/video0 -c:v hevc -rc_mode 0 -level 30 -f rtsp rt
 The following is an example of how to watch RTSP video stream by running [VLC](https://www.videolan.org/vlc/) under Windows.
 
 1. Download and install VLC
-![VLC-Main](/img/general-tutorial/rtsp/VLC-Main-en.webp)
+   ![VLC-Main](/img/general-tutorial/rtsp/VLC-Main-en.webp)
 
 1. Click "Media - Open Network Streaming" to enter the RTSP stream address.
 
@@ -74,4 +75,4 @@ A communicable IP address is necessary.
 ![VLC-Open-RTSP](/img/general-tutorial/rtsp/VLC-Open-RTSP-en.webp)
 
 3. Click `Play` to view the RTSP remote streaming content.
-![VLC-View-RTSP](/img/general-tutorial/rtsp/VLC-View-RTSP-en.webp)
+   ![VLC-View-RTSP](/img/general-tutorial/rtsp/VLC-View-RTSP-en.webp)

@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'RTSP 远程推流(基于 Gstreamer)'
+sidebar_label: "RTSP 远程推流(基于 Gstreamer)"
 sidebar_position: 20
 ---
 
@@ -29,6 +29,7 @@ sudo apt install libgstreamer-plugins-base1.0-dev libgstreamer-plugins-bad1.0-de
 wget https://gstreamer.freedesktop.org/src/gst-rtsp-server/gst-rtsp-server-1.18.6.tar.xz
 tar -xvf gst-rtsp-server-1.18.6.tar.xz
 ```
+
 ### 编译 gst-rtsp-server
 
 ```bash
@@ -54,7 +55,7 @@ cd examples/
 以下以 Windows 下运行 [VLC](https://www.videolan.org/vlc/) 为例，介绍如何收看 RTSP 视频推流。
 
 1. 下载并安装 VLC
-![VLC-Main](/img/general-tutorial/rtsp/VLC-Main.webp)
+   ![VLC-Main](/img/general-tutorial/rtsp/VLC-Main.webp)
 
 2. 点击 媒体 - 打开网络串流 来输入 RTSP 推流地址
 
@@ -65,4 +66,4 @@ cd examples/
 ![VLC-Open-RTSP](/img/general-tutorial/rtsp/VLC-Open-RTSP.webp)
 
 3. 点击播放后即可查看 RTSP 远程推流内容
-![VLC-View-RTSP](/img/general-tutorial/rtsp/VLC-View-RTSP.webp)
+   ![VLC-View-RTSP](/img/general-tutorial/rtsp/VLC-View-RTSP.webp)

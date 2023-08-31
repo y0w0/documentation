@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Radxa M.2 E Key to SATA Board Tutorial'
+sidebar_label: "Radxa M.2 E Key to SATA Board Tutorial"
 sidebar_position: 5
 ---
 
@@ -22,36 +22,39 @@ It can use breakout board to make M.2 E-key into SATA.
 
 SATA power cable, yellow is 12V, red is 5V, black is GND.
 
-1. If you use SSD. Need to use 5V power from 40pin. as the picture shows:  
-   
+1. If you use SSD. Need to use 5V power from 40pin. as the picture shows:
+
 ![M.2-SATA-03](/zh/img/rock5b/m2-sata-03.jpg)
 
 2. If you use a hard drive. Requires 12V and 5V power supplies. In the picture, the digital power supply is used to supply 12V, and the 5V power supply in 40pin is used.
-![M.2-SATA-04](/zh/img/rock5b/m2-sata-04.jpg)
+   ![M.2-SATA-04](/zh/img/rock5b/m2-sata-04.jpg)
 
 ## Software Configuration
 
 - Add the following command in /boot/config.txt
+
 ```
 dtoverlay=rock-5b-sata
 ```
 
 - Switch root to execute commands
+
 ```
 sudo su
 update_exlinux.sh
 reboot
 ```
 
-- After restarting the device, use ```lsblk``` to view your hard disk device.
+- After restarting the device, use `lsblk` to view your hard disk device.
+
 ```
-rock@rock-5b:~$ lsblk 
+rock@rock-5b:~$ lsblk
 NAME         MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
-sda            8:48   0 149.1G  0 disk 
-mmcblk1      179:0    0  14.6G  0 disk 
-├─mmcblk1p1  179:1    0   512M  0 part 
+sda            8:48   0 149.1G  0 disk
+mmcblk1      179:0    0  14.6G  0 disk
+├─mmcblk1p1  179:1    0   512M  0 part
 └─mmcblk1p2  179:2    0  14.1G  0 part /
-mmcblk1boot0 179:32   0     4M  1 disk 
+mmcblk1boot0 179:32   0     4M  1 disk
 mmcblk1boot1 179:64   0     4M  1 disk
 ```
 

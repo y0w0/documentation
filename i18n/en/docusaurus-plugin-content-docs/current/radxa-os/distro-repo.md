@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Distribution Repositories'
+sidebar_label: "Distribution Repositories"
 ---
 
 # Distribution Repositories
@@ -10,15 +10,15 @@ One is the official repository, which is used to generate official release image
 
 Currently, Radxa maintains the following branches of official repositories:
 
-* `bullseye`: https://radxa-repo.github.io/bullseye
-* `bookworm`: https://radxa-repo.github.io/bookworm
-* `jammy`: https://radxa-repo.github.io/jammy
+- `bullseye`: https://radxa-repo.github.io/bullseye
+- `bookworm`: https://radxa-repo.github.io/bookworm
+- `jammy`: https://radxa-repo.github.io/jammy
 
 Currently, Radxa maintains the following branches of test repositories:
 
-* `bullseye-test`: https://radxa-repo.github.io/bullseye-test
-* `bookworm-test`: https://radxa-repo.github.io/bookworm-test
-* `jammy-test`: https://radxa-repo.github.io/jammy-test
+- `bullseye-test`: https://radxa-repo.github.io/bullseye-test
+- `bookworm-test`: https://radxa-repo.github.io/bookworm-test
+- `jammy-test`: https://radxa-repo.github.io/jammy-test
 
 ## Changing the repository
 
@@ -46,29 +46,34 @@ Every file listed in step 1 must be updated this way, otherwise the system is in
 :::
 
 2. Update repository priority  
-   The Radxa repository preference files are stored in `/etc/apt/preferences.d/` 内, and the filenames are prefixed with `radxa`.  
+   The Radxa repository preference files are stored in `/etc/apt/preferences.d/` 内, and the filenames are prefixed with `radxa`.
 
 :::caution
 Both repository preference and package preference are stored under the same path.  
 Since there are packages with `radxa` prefix, please check the content of the file carefully befoe editing.
 :::
 
-   Open **all the files listed above** using your preferred editor. For example, with nano:
-   ```bash
-   sudo nano /etc/apt/preferences.d/radxa-*
-   ```
-   You will see file contents similar to the following:
-   ```
-   Package: *
-   Pin: release a=rockchip-bookworm
-   Pin-Priority: 1001
-   ```
-   You need to add the `-test` suffix to the codename mentioned in the `Pin` line:
-   ```
-   Package: *
-   Pin: release a=rockchip-bookworm-test
-   Pin-Priority: 1001
-   ```
+Open **all the files listed above** using your preferred editor. For example, with nano:
+
+```bash
+sudo nano /etc/apt/preferences.d/radxa-*
+```
+
+You will see file contents similar to the following:
+
+```
+Package: *
+Pin: release a=rockchip-bookworm
+Pin-Priority: 1001
+```
+
+You need to add the `-test` suffix to the codename mentioned in the `Pin` line:
+
+```
+Package: *
+Pin: release a=rockchip-bookworm-test
+Pin-Priority: 1001
+```
 
 3. Update the system  
    After configuring the repositories you need to update the local software cache again:

@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'HDMI IN 使用'
+sidebar_label: "HDMI IN 使用"
 sidebar_position: 30
 ---
 
@@ -15,6 +15,7 @@ ROCK 5B有一个HDMI-IN接口，支持标准的HDMI 2.0协议，可以支持高�
 HDMI-IN设备接入ROCK 5B后，将被注册为内核中的视频设备，生成的节点为/dev/video0，可以使用v4l2-ctl命令获取设备信息并捕获帧。
 
 - 检查设备信息
+
 ```bash
 $ v4l2-ctl -d /dev/video0 -D
 Driver Info:
@@ -34,6 +35,7 @@ Driver Info:
 ```
 
 - 确认分辨率和图像格式
+
 ```bash
 $ v4l2-ctl -d /dev/video0 --get-fmt-video
 Format Video Capture Multiplanar:
@@ -52,6 +54,7 @@ Format Video Capture Multiplanar:
 ```
 
 - 获取当前时间
+
 ```bash
 $ v4l2-ctl -d /dev/video0 --get-dv-timings
 DV timings:
@@ -68,13 +71,14 @@ DV timings:
        Vertical frontporch: 8
        Vertical sync: 10
        Vertical backporch: 72
-       Standards: 
+       Standards:
        Flags:
 ```
 
 - 通过设置分辨率和像素格式捕获图像文件
 
 将HDMI2设置为4k显示器并连接到hdmi-in。
+
 ```bash
 $ v4l2-ctl --verbose -d /dev/video0 --set-fmt-video=width=3840,height=2160,pixelformat='NV12' --stream-mmap=4 --stream-skip=3 --stream-count=5 --stream-to=/home/rock/hdmiin4k.yuv --stream-poll
 ```
@@ -84,6 +88,7 @@ $ v4l2-ctl --verbose -d /dev/video0 --set-fmt-video=width=3840,height=2160,pixel
 在Windows使用 7yuv 工具
 
 在Linux使用 ffplay 工具
+
 ```bash
 $ ffplay -f rawvideo -video_size 3840x2160 -pixel_format nv12 /home/rock/hdmiin4k.yuv
 ```
@@ -104,6 +109,7 @@ card 3: rockchiphdmiin [rockchip,hdmiin], device 0: fddf8000.i2s-dummy_codec hdm
 ```
 
 你可以看到，hdminrx（hdmiin）的声卡号是2，你可以运行下面的命令，在HDMI-IN有音频输入时，录制和播放音频。
+
 ```bash
 # get 5 seconds audio file
 $ arecord -Dhw:3,0 -d 5 -f cd -r 44100 -c 2 -t wav /tmp/hdmiin_audio.wav

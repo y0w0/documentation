@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Radxa CM3 IO Board'
+sidebar_label: "Radxa CM3 IO Board"
 sidebar_position: 5
 ---
 
@@ -24,7 +24,7 @@ Dimensions: 160mm × 90mm
 - 1 x Headphone Jack
 - 2 x SATA
 - 1 x PCI Express
-- 2 x MIPI 
+- 2 x MIPI
 - 1 x TP
 - 1 x RTC
 - 1 x EDP

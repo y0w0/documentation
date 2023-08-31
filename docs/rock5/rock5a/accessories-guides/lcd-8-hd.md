@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'ROCK 5A使用Radxa Display 8 HD教程'
+sidebar_label: "ROCK 5A使用Radxa Display 8 HD教程"
 sidebar_position: 20
 ---
 
@@ -18,13 +18,14 @@ Radxa Display 8 HD提供的fpc，fpc一边是用于接屏幕，另一边是用�
 ![Radxa Display 8 HD](/img/accessories/rock5a-connect-fpc.webp)
 
 ## 配置
+
 同时按“Ctrl + Alt + T”打开终端，运行“rsetup”命令如下：
 
 ```bash
 radxa@rock-5a:~$ rsetup
 ```
 
-输入密码并选择 `Overlays` 进入 rsetup 工具界面。  
+输入密码并选择 `Overlays` 进入 rsetup 工具界面。
 
 ```bash
 Configure Device Tree Overlay
@@ -38,21 +39,20 @@ Configure Device Tree Overlay
 然后, 选择 `Manage overlays`:
 
 ```bash
-Configure Device Tree Overlay  
-        Manage overlays  
-        View overlay info  
-        Install overlay from source  
-        Reset overlays  
-       
+Configure Device Tree Overlay
+        Manage overlays
+        View overlay info
+        Install overlay from source
+        Reset overlays
+
 
       <Ok>            <Cancel>
 ```
 
 接着，进入设备的管理界面，不同的产品可能会有所不同。
 
-
 ```bash
-Please select overlays: 
+Please select overlays:
         [ ] Enable 1-Wire on GPIO4_B1
         [ ] Enable FIQ Debugger on UART4-M2
         [ ] Enable FIQ Debugger on UART6-M1
@@ -68,13 +68,13 @@ Please select overlays:
         [ ] Enable PWM1-M2
         [ ] Enable PWM11-M1
         [ ] Enable PWM14-M1
-        [ ] Enable PWM14-M2 
+        [ ] Enable PWM14-M2
         [ ] Enable PWM15-M1
-        [ ] Enable PWM15-M3 
+        [ ] Enable PWM15-M3
         [ ] Enable PWM6-M0
         [ ] Enable PWM7-M0
         [ ] Enable Radxa Camera 4K
-        [ ] Enable Radxa Display 10HD 
+        [ ] Enable Radxa Display 10HD
         [ ] Enable Radxa Display 8HD
         [ ] Enable Raspberry Pi Camera V2
         [ ] Enable UART2-M0
@@ -105,4 +105,3 @@ Please select overlays:
 ```bash
 radxa@rock-5a:~$ sudo reboot
 ```
-

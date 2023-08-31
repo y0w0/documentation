@@ -1,9 +1,9 @@
 {
   "label": "ROCK 3C",
-  "position": 30,
   "link": {
-    "type": "generated-index",
+    "description": "The ROCK 3C is a low-cost, high-performance single board computer (SBC)",
     "slug": "/rock3/rock3c",
-    "description": "The ROCK 3C is a low-cost, high-performance single board computer (SBC)"
-  }
+    "type": "generated-index"
+  },
+  "position": 30
 }

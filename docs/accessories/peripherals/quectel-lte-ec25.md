@@ -1,5 +1,5 @@
 ---
-sidebar_label: '移远 LTE EC25'
+sidebar_label: "移远 LTE EC25"
 sidebar_position: 10
 ---
 
@@ -21,12 +21,14 @@ sudo apt install ppp picocom
 首先，请通过 USB 连结 ROCK 4B+ 以及移远 LTE EC25-AU。
 
 你可以通过以下命令检查设备是否已连接：
+
 ```bash
 rock@rock-pi-4b-plus:~$ lsusb | grep -i Quectel
-Bus 002 Device 002: ID 2c7c:0125 Quectel Wireless Solutions Co., Ltd. EC25 LTE modem  
+Bus 002 Device 002: ID 2c7c:0125 Quectel Wireless Solutions Co., Ltd. EC25 LTE modem
 ```
 
 调制解调器通常是通过串口和宿主机进行通信。请检查系统是否正确枚举出对应的串口设备：
+
 ```bash
 rock@rock-pi-4b-plus:~$ ls /dev/ttyUSB*
 /dev/ttyUSB0  /dev/ttyUSB1  /dev/ttyUSB2  /dev/ttyUSB3
@@ -35,33 +37,35 @@ rock@rock-pi-4b-plus:~$ ls /dev/ttyUSB*
 ## 使用 `at` 指令测试调制解调器
 
 首先，使用 `picocom` 打开串口：
+
 ```bash
 sudo picocom -b 115200 /dev/ttyUSB3
 ```
 
 程序启动后，可输入以下 `at` 指令检查调制解调器状态：
+
 ```bash
-at+cpin?  
-+CPIN: READY 
+at+cpin?
++CPIN: READY
 
 OK  #查看 SIM 卡是否就位
 
-at+csq    
+at+csq
 +CSQ: 14,99
 
 OK  #检测信号，99 代表无信号。
 
-at+cops?  
+at+cops?
 +COPS: 1,0,"CHN-UNICOM",7
 
 OK  #查看运营商
 
-at+creg?  
+at+creg?
 +CREG: 0,1
 
 OK  #获得手机的注册状态(0,1:表示注册正常)
 
-at+qeng="servingcell"   
+at+qeng="servingcell"
 +QENG: "servingcell","NOCONN","LTE","FDD",460,01,19A358C,366,100,1,5,5,774E,-108,-5,-83,9,13
 
 OK  #显示当前连接服务小区的信号强度和质量
@@ -132,7 +136,7 @@ usepeerdns
 EOF | sudo tee /etc/ppp/peers/rasppp
 
 cat << EOF
-TIMEOUT 15  
+TIMEOUT 15
 ABORT   "BUSY"
 ABORT   "ERROR"
 ABORT   "NO ANSWER"
@@ -161,6 +165,7 @@ EOF | sudo tee /etc/ppp/peers/rasppp-chat-disconnect
 ```
 
 你现在可以使用 `ppp` 尝试拨号：
+
 ```bash
 sudo pppd call rasppp &    #后台进行拨号
 ```
@@ -169,7 +174,6 @@ sudo pppd call rasppp &    #后台进行拨号
 
 ![拨号过程一](/img/4G-module/pppd_process1.webp)
 ![拨号过程二](/img/4G-module/pppd_process2.webp)
-
 
 从程序的输出中我们可以获得以下信息：
 

@@ -1,5 +1,5 @@
-﻿---
-sidebar_label: 'MMC/SD Card'
+---
+sidebar_label: "MMC/SD Card"
 sidebar_position: 10
 ---
 

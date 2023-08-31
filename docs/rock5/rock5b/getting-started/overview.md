@@ -1,5 +1,5 @@
 ---
-sidebar_label: '认识 ROCK 5B'
+sidebar_label: "认识 ROCK 5B"
 sidebar_position: 1
 ---
 
@@ -9,19 +9,19 @@ sidebar_position: 1
 
 ROCK 5B 可作为：
 
-* 个人桌面计算机
-* 个人私有服务器
-* 安卓影音播放器
-* 机器人控制器
-* 区块链节点
+- 个人桌面计算机
+- 个人私有服务器
+- 安卓影音播放器
+- 机器人控制器
+- 区块链节点
 
 其他更多使用场景，等你来发掘
 
 ROCK 5B 提供多内存选择： 4GB, 8GB 和 16GB LPDDR4x。
 
-[![ROCK 5B](/img/rock5b/rock-5b-overview.webp)](../hardware/hardware-details)  
+[![ROCK 5B](/img/rock5b/rock-5b-overview.webp)](../hardware/hardware-details)
 
-*** 注意：实际电路板布局或芯片位置随着时间推移可能会发生变化，但主要连接器类型和位置将保持不变。 ***
+**_ 注意：实际电路板布局或芯片位置随着时间推移可能会发生变化，但主要连接器类型和位置将保持不变。 _**
 
 # ROCK 5B 规格特性
 
@@ -34,9 +34,9 @@ ROCK 5B 提供多内存选择： 4GB, 8GB 和 16GB LPDDR4x。
 - 显示接口：通过两个 HDMI、一个DP（type C）、一个 MIPI DSI 最多接四台显示设备
 - 分辨率：高达 3x 4K@60FPS + 1x 1080P@60FPS 或者 1x 8K@60FPS + 1x 4K@60FPS + 1x 1080P@60FPS
 - 硬件编解码：
-	* H.265/VP9 (HEVC)/AVS2 硬件解码（高达 8Kp60）。
-	* H.264 硬件解码（最高 8Kp30）
-	* H.265/H.264 硬件编码（最高 8Kp30）
+  - H.265/VP9 (HEVC)/AVS2 硬件解码（高达 8Kp60）。
+  - H.264 硬件解码（最高 8Kp30）
+  - H.265/H.264 硬件编码（最高 8Kp30）
 
 ## 接口特点
 
@@ -59,17 +59,17 @@ ROCK 5B 提供多内存选择： 4GB, 8GB 和 16GB LPDDR4x。
 - 1x RGB 三色灯用于电源指示 / 系统状态 / 用户自定义功能
 - 2x 散热器安装孔
 - 40x 用户 GPIO 支持各种接口选项：
-	* 1 x UART
-	* 2 x SPI bus
-	* 2 x I2C bus
-	* 1 x PCM/I2S
-	* 1 x SPDIF
-	* 1 x PWM
-	* 1 x ADC
-	* 6 x GPIO
-	* 2 x 5V DC 电源输入
-	* 2 x 3.3V 电源引脚  
-**提示：更多 GPIO 信息，请查阅[ROCK 5B GPIO](../hardware/rock5b-gpio)。**
+  _ 1 x UART
+  _ 2 x SPI bus
+  _ 2 x I2C bus
+  _ 1 x PCM/I2S
+  _ 1 x SPDIF
+  _ 1 x PWM
+  _ 1 x ADC
+  _ 6 x GPIO
+  _ 2 x 5V DC 电源输入
+  _ 2 x 3.3V 电源引脚  
+  **提示：更多 GPIO 信息，请查阅[ROCK 5B GPIO](../hardware/rock5b-gpio)。**
 
 ## 软件
 

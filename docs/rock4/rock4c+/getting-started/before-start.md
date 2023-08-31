@@ -1,5 +1,5 @@
-﻿---
-sidebar_label: '开始前准备'
+---
+sidebar_label: "开始前准备"
 sidebar_position: 20
 ---
 
@@ -26,7 +26,7 @@ ROCK 4C+ 支持多个 USB 接口，可配备全尺寸键盘和鼠标。
 
 - 显示器 micro HDMI 线
 
-ROCK 4C Plus 配备了两个 micro HDMI 接口，一个最高支持 1440P@60，另一个最高支持 4K@60。建议使用支持 HDMI 的显示器。 
+ROCK 4C Plus 配备了两个 micro HDMI 接口，一个最高支持 1440P@60，另一个最高支持 4K@60。建议使用支持 HDMI 的显示器。
 
 :::caution
 HDMI 2k、HDMI 4K 和 MIPI DSI 中只有两种可以同时工作。
@@ -52,8 +52,8 @@ HDMI 2k、HDMI 4K 和 MIPI DSI 中只有两种可以同时工作。
 
 - 以太网线
 
-ROCK 4C+ 支持千兆以太网。 
-可以用以太网线将 ROCK 4C+ 连接到本地网络和互联网。 
+ROCK 4C+ 支持千兆以太网。
+可以用以太网线将 ROCK 4C+ 连接到本地网络和互联网。
 
 - USB Type A 转 Type C 线缆
 
@@ -64,8 +64,8 @@ ROCK 4C+ 支持千兆以太网。
 该线缆用于 [串口调试](/general-tutorial/serial).
 
 - 摄像头
-    
-ROCK 4C+ 支持摄像头功能。  
+
+ROCK 4C+ 支持摄像头功能。
 
 :::tip
 官方推荐使用 [Radxa Camera 4K](/accessories/camera_4k).

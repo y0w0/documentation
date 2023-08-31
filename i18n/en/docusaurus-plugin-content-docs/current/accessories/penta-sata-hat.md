@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Radxa Penta SATA HAT'
+sidebar_label: "Radxa Penta SATA HAT"
 sidebar_position: 30
 ---
 
@@ -10,6 +10,7 @@ Radxa ROCK Penta SATA HAT is an addon HAT designed for ROCK Series. It utilizes 
 ![Radxa Penta SATA HAT](/img/accessories/penta-sata-hat-1.webp)
 
 Currently supported Radxa ROCK Series products:
+
 - ROCK3C
 - ROCK4A/4B
 - ROCK4A+/4B+
@@ -17,6 +18,7 @@ Currently supported Radxa ROCK Series products:
 - ROCK5A
 
 ## Feature
+
 - Up to 5x HDD/SSD, support 2.5inch or 3.5inch SSD, up to 100T Storage
 - 4x SATA + 1x eSATA with power
 - Utilize PCIe buses on ROCK Series
@@ -37,10 +39,10 @@ Currently supported Radxa ROCK Series products:
 
 ![Radxa Penta SATA HAT](/img/accessories/penta-sata-hat-2.webp)
 
-**Note꞉ The following products require an adapter board to support Penta SATA HAT**  
+**Note꞉ The following products require an adapter board to support Penta SATA HAT**
 
 | Adapter board     | Applicable products           |
-| ----------------- | -------------------           |
+| ----------------- | ----------------------------- |
 | ROCKPI M2 to IPEX | ROCK 4A / 4B/ 4A+ / 4B+ / 4SE |
-| M.2 M Key to IPEX |       ROCK3C                  |
-| M.2 E Key to IPEX |       ROCK5A                  |
+| M.2 M Key to IPEX | ROCK3C                        |
+| M.2 E Key to IPEX | ROCK5A                        |

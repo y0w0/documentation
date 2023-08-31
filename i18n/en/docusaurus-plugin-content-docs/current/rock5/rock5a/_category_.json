@@ -1,9 +1,9 @@
 {
   "label": "ROCK 5A",
-  "position": 10,
   "link": {
-    "type": "generated-index",
-	"slug": "/rock5/rock5a",
-    "description": "A credit card size computer with 8K + 4K dual display"
-  }
+    "description": "A credit card size computer with 8K + 4K dual display",
+    "slug": "/rock5/rock5a",
+    "type": "generated-index"
+  },
+  "position": 10
 }

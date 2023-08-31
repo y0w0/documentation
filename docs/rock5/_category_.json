@@ -1,9 +1,9 @@
 {
   "label": "ROCK 5 系列",
-  "position": 50,
   "link": {
-    "type": "generated-index",
+    "description": "ROCK 5系列是基于Rockchip最新RK3588/RK3588S方案的SBC和SoM，支持8K显示并且拥有6T NPU。",
     "slug": "/rock5",
-    "description": "ROCK 5系列是基于Rockchip最新RK3588/RK3588S方案的SBC和SoM，支持8K显示并且拥有6T NPU。"
-  }
+    "type": "generated-index"
+  },
+  "position": 50
 }

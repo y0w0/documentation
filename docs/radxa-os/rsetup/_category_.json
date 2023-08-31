@@ -1,9 +1,9 @@
 {
   "label": "rsetup",
-  "position": 0,
   "link": {
-    "type": "generated-index",
-	  "slug": "/radxa-os/rsetup",
-    "description": "RadxaOS 系统设置工具"
-  }
+    "description": "RadxaOS 系统设置工具",
+    "slug": "/radxa-os/rsetup",
+    "type": "generated-index"
+  },
+  "position": 0
 }

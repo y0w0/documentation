@@ -1,5 +1,5 @@
-﻿---
-sidebar_label: 'Overview'
+---
+sidebar_label: "Overview"
 sidebar_position: 3
 ---
 
@@ -19,7 +19,7 @@ The difference between ROCK 4A and ROCK 4B is that ROCK 4A is equipped with onbo
 
 | Product  |                                                                        ROCK 4A/4B                                                                        |
 | :------: | :------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|   CPU    |                     Rockchip RK3399, 64-bit processor<br/>Dual-Core Arm® Cortex™-A72 @ 1.8GHz and Quad-Core Arm® Cortex‑A53 @ 1.4GHz                     |
+|   CPU    |                   Rockchip RK3399, 64-bit processor<br/>Dual-Core Arm® Cortex™-A72 @ 1.8GHz and Quad-Core Arm® Cortex‑A53 @ 1.4GHz                    |
 |   GPU    |                           Mali T860MP4 GPU，support OpenGL ES 1.1/2.0/3.0/3.1/3.2，Vulkan 1.0，OpenCL 1.1 1.2，DirectX 11 etc                            |
 |   RAM    |                                                                 LPDDR4, 2GB/4GB optioal                                                                  |
 | Storage  |                            eMMC<br/>microSD：supports up to 256 GB<br/>M.2 SSD (M.2 connector supports up to 2T M2 NVME SSD)                             |
@@ -31,5 +31,5 @@ The difference between ROCK 4A and ROCK 4B is that ROCK 4A is equipped with onbo
 | Ethernet |                             GbE LAN with Power over Ethernet (PoE) support additional HAT is required for powering from PoE                              |
 |  Others  |                                                                           RTC                                                                            |
 |   GPIO   |                                                        [40 pin GPIO](/rock4/hardware/rock4-gpio)                                                         |
-|  Power   |      USB PD 2.0 Support USB Type C PD 2.0, 9V/2A, 12V/2A, 15V/2A, 20V/2A<br/>Qualcomm® Quick Charge™ 2.0 Support QC3.0/2.0 adapter, 9V/2A, 12V/1.5A      |
+|  Power   |     USB PD 2.0 Support USB Type C PD 2.0, 9V/2A, 12V/2A, 15V/2A, 20V/2A<br/>Qualcomm® Quick Charge™ 2.0 Support QC3.0/2.0 adapter, 9V/2A, 12V/1.5A     |
 |   Size   |                                                                       85mm x 54mm                                                                        |

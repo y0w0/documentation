@@ -1,5 +1,5 @@
-﻿---
-sidebar_label: '硬件资料'
+---
+sidebar_label: "硬件资料"
 sidebar_position: 55
 ---
 

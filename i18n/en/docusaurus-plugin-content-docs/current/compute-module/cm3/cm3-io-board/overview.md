@@ -1,19 +1,20 @@
 ---
-sidebar_label: 'Overview'
+sidebar_label: "Overview"
 sidebar_position: 10
 ---
 
 # Overview
 
 The Radxa ROCK 3 Compute Module (CM3) is a System on Module (SoM) based on a the Rockchip RK3566 System on Chip (SoC). The CM3 integrates the Central Process Unit (CPU), Power Management Unit (PMU), DRAM memory, flash storage and wireless connectivity
-(WiFi 5 and BT 5.0) in a small form factor of just 55mm x 40mm. 
+(WiFi 5 and BT 5.0) in a small form factor of just 55mm x 40mm.
 The ROCK CM3 core board uses 3x 100P 0.4mm pitch B2B connector to provide powerful functional support, and can be combined with the customer's backplane to build complete product functions, thereby speeding up the research and development process.
 
 ![ROCK CM3](/img/cm3/radxa-cm3-top-bottom.webp)
 
-The ROCK CM3 is available in various LPDDR4 RAM and eMMC size configurations:  
-- RAM: 1 / 2 / 4 / 8 GB  
-- eMMC: NA / 8 / 16 / 32 GB  
+The ROCK CM3 is available in various LPDDR4 RAM and eMMC size configurations:
+
+- RAM: 1 / 2 / 4 / 8 GB
+- eMMC: NA / 8 / 16 / 32 GB
 
 At the same time, we provide [ROCK CM3 IO Board](/accessories/cm3-io-board) compatible with ROCK CM3, you can use it to develop the products you want. For example, HMI, robot, video intercom, smart home, etc.
 
@@ -25,6 +26,7 @@ At the same time, we provide [ROCK CM3 IO Board](/accessories/cm3-io-board) comp
 
 The CM3 is based on a Rockchip RK3566 SoC with 64‑bit Quad Core low power cores up to 2.0GHz.
 CPU: Quad‑core Arm® Cortex®‑A55 (ARMv8) 64‑bit @ 2.0GHz
+
 - GPU: Arm Mali™‑G52‑2EE, OpenGL® ES1.1/2.0/3.0/3.1/3.2, Vulkan® 1.1, OpenCL™ 2.1
 - NPU: 1 TOPs@INT8, support INT8, INT16, FP16, BFP16, support deep learning frameworks such as TensorFlow, Caffe, Tflite, Pytorch, Onnx, Android™ NN, etc
 - Memory: 32bit LPDDR4X up to 8GB
@@ -34,7 +36,7 @@ CPU: Quad‑core Arm® Cortex®‑A55 (ARMv8) 64‑bit @ 2.0GHz
 - Video input: 8M Pixel ISP and 1 x 4 lanes or 2 x 2 lanes MIPI CSI‑2 and DVP interface
 - Audio interface: I2S0/I2S1 with 8 channels, IS2/I2S3 with 2 channels, SPDIF0, PDM0 with 8 channels, TDM with 8 channels and Voice Activity Detection (VAD)
 - High Speed Interface: One USB 3.0 host, two SATA 3.0, one PCIe 2.1, two SerDes (seri‑
-aliser / deserialiser)lanes, dual USB 2.0 host and one USB 2.0 OTG
+  aliser / deserialiser)lanes, dual USB 2.0 host and one USB 2.0 OTG
 - Ethernet: 1000M ethernet phy(RTL8211F)
 - Security: Arm TrustZone® security extension, Secure Video Path, Secure JTAG to debug, Secure boot, OTP and Crypto (AES/TDES/SM4/SM3/SHA256/SHA512/RSA)
 
@@ -66,11 +68,5 @@ aliser / deserialiser)lanes, dual USB 2.0 host and one USB 2.0 OTG
 
 ### Software
 
-- Debian Linux support  
-- Android 11/12 support  
-
-
-
-
-
-
+- Debian Linux support
+- Android 11/12 support

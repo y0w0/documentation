@@ -1,9 +1,9 @@
 {
   "label": "Compute Module 系列",
-  "position": 60,
   "link": {
-    "type": "generated-index",
+    "description": "Compute Module is a compact series of computing modules implemented by Rockchip SoC, known for their small size and compact layout.",
     "slug": "/compute-module",
-    "description": "Compute Module is a compact series of computing modules implemented by Rockchip SoC, known for their small size and compact layout."
-  }
+    "type": "generated-index"
+  },
+  "position": 60
 }

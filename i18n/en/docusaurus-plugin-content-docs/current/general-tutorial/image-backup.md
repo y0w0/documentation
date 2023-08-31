@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Images Backup'
+sidebar_label: "Images Backup"
 sidebar_position: 20
 ---
 
@@ -12,7 +12,7 @@ This guide will instruct you on how to back up or export images from your device
 
 rkdeveloptool 的安装请参阅 [rkdeveloptool 安装教程](rk-dev-tool#Linux/MacOS).
 
-rkdeveloptool 提供了一系列的操作命令，其中 rl 命令可进行镜像的导出，具体步骤如下:  
+rkdeveloptool 提供了一系列的操作命令，其中 rl 命令可进行镜像的导出，具体步骤如下:
 
 首先，下载 [loader](https://dl.radxa.com/rock5/sw/images/loader/rock-5b/rk3588_spl_loader_v1.08.111.bin)， 通过以下命令烧录：
 
@@ -32,7 +32,7 @@ ReadLBA: rl  <BeginSec> <SectorLen> <File>
 
 ## Script
 
-1.Download the script https://github.com/Ken-Vamrs/rockpi-toolkit/blob/master/radxa-rbuild-backup.sh  
+1.Download the script https://github.com/Ken-Vamrs/rockpi-toolkit/blob/master/radxa-rbuild-backup.sh
 
 2.Open the folder where the script is located in Linux
 
@@ -44,18 +44,16 @@ ReadLBA: rl  <BeginSec> <SectorLen> <File>
 
 `/tmp` is the actual save path and can be freely specified
 
-4.If you need to back up to an external USB flash driver, you need to mount it on `/mnt` . 
+4.If you need to back up to an external USB flash driver, you need to mount it on `/mnt` .
 
 ```bash
 sudo mount /dev/sda /mnt
 ```
 
-and then run  
+and then run
+
 ```bash
 ./radxa-rbuild-backup.sh -o /mnt
 ```
 
-
 <!-- ## RKDevtool -->
-
-

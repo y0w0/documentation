@@ -1,16 +1,16 @@
 ---
-sidebar_label: 'WIFI和BT教程'
+sidebar_label: "WIFI和BT教程"
 sidebar_position: 2
 ---
 
 # WIFI & BT教程
 
-* ROCK 5B没有板载WiFi/BT模块，需要外接模块。测试并支持[WIFI/BT卡](./support_accessories)
-* 这里演示的M.2无线模块是： Radxa无线模块A8。
+- ROCK 5B没有板载WiFi/BT模块，需要外接模块。测试并支持[WIFI/BT卡](./support_accessories)
+- 这里演示的M.2无线模块是： Radxa无线模块A8。
 
 [Radxa无线模块A8](/zh/img/accessories/a8-module-01.png)
 
-* 安装如图所示：
+- 安装如图所示：
 
 [Radxa无线模块A8](/zh/img/accessories/a8-module-02.png)
 
@@ -42,10 +42,10 @@ nmcli dev wifi connect "wifi_name" password "wifi_password"
 
 ## 蓝牙使用
 
-* 使用Radxa无线A8模块时，必须添加以下黑名单才能使BT正常工作。
+- 使用Radxa无线A8模块时，必须添加以下黑名单才能使BT正常工作。
 
 ```
-root@rock-5b:~# cat /etc/modprobe.d/blacklist.conf 
+root@rock-5b:~# cat /etc/modprobe.d/blacklist.conf
 blacklist pgdrv
 blacklist btusb
 blacklist btrtl
@@ -55,7 +55,7 @@ blacklist btintel
 root@rock-5b:~# reboot
 ```
 
-* Radxa APT包括用于Broadcom无线模块的broadcom-wifibt-firmware软件包和用于Intel无线模块的intel-wifibt-firmware软件包。需要下载相应的软件包。
+- Radxa APT包括用于Broadcom无线模块的broadcom-wifibt-firmware软件包和用于Intel无线模块的intel-wifibt-firmware软件包。需要下载相应的软件包。
 
 ```
 root@rock-5b:~# apt-get update -y
@@ -80,7 +80,7 @@ root@rock-5b:~# systemctl start bluetooth
 root@rock-5b:~# hciconfig
 hci0:   Type: Primary Bus: UART
        BD Address: 10:2C:6B:49:D5:53 ACL MTU: 1021:8 SCO MTU: 64:1
-       UP RUNNING 
+       UP RUNNING
        RX bytes:850 acl:0 sco:0 events:58 errors:0
        TX bytes:2814 acl:0 sco:0 commands:58 errors:0
 ```
@@ -101,7 +101,7 @@ root@rock-5b:~# pulseaudio --start
 
 ```
 root@rock-5b:~# bluetoothctl
-[bluetooth]# default-agent 
+[bluetooth]# default-agent
 [bluetooth]# power on
 [bluetooth]# scan on
 [bluetooth]# trust 41:42:1A:8D:A9:65       #BT-280

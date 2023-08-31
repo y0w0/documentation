@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Device Tree Configuration'
+sidebar_label: "Device Tree Configuration"
 sidebar_position: 10
 ---
 
@@ -9,18 +9,21 @@ sidebar_position: 10
 
 Device Tree Overlays make it possible to support many hardware configurations with a single kernel and without the need to explicitly load or blacklist kernel modules.
 
-You can use `rsetup` to manage overlays.  
+You can use `rsetup` to manage overlays.
 
 ## How to enable an overlay
 
 ### usage
 
 run `rsetup` command as below:
+
 ```
 rsetup
 ```
+
 After typing the password, you can see the [rsetup tool interface](rsetup-tool).  
 Select `Overlays`:
+
 ```
 Configure Device Tree Overlay
         Manage overlays
@@ -29,22 +32,25 @@ Configure Device Tree Overlay
         Reset overlays
         <Ok>             <Cancel>
 ```
+
 Then, select `Manage overlays`:
+
 ```
-Configure Device Tree Overlay  
-        Manage overlays  
-        View overlay info  
-        Install overlay from source  
-        Reset overlays  
-       
+Configure Device Tree Overlay
+        Manage overlays
+        View overlay info
+        Install overlay from source
+        Reset overlays
+
 
       <Ok>            <Cancel>
 ```
 
 Next, the compatible device tree would shown, it may be different on different product.  
-For example, those are for ROCK 5A:  
+For example, those are for ROCK 5A:
+
 ```
-Please select overlays: 
+Please select overlays:
         [ ] Enable 1-Wire on GPIO4_B1
         [ ] Enable FIQ Debugger on UART4-M2
         [ ] Enable FIQ Debugger on UART6-M1
@@ -60,13 +66,13 @@ Please select overlays:
         [ ] Enable PWM1-M2
         [ ] Enable PWM11-M1
         [ ] Enable PWM14-M1
-        [ ] Enable PWM14-M2 
+        [ ] Enable PWM14-M2
         [ ] Enable PWM15-M1
-        [ ] Enable PWM15-M3 
+        [ ] Enable PWM15-M3
         [ ] Enable PWM6-M0
         [ ] Enable PWM7-M0
         [ ] Enable Radxa Camera 4K
-        [ ] Enable Radxa Display 10HD 
+        [ ] Enable Radxa Display 10HD
         [ ] Enable Radxa Display 8HD
         [ ] Enable Raspberry Pi Camera V2
         [ ] Enable UART2-M0
@@ -85,9 +91,12 @@ Please select overlays:
         [ ] Set OTG port to Peripheral mode
         <Ok>                   <Cancel>
 ```
+
 **Note: Supported options are subject to change.**  
 Select the overlays you want to load with the space bar,
+
 ```
 [*] Enable Radxa Camera 4K
 ```
+
 Overlay with a `*` indicates that it is enabled. It would work after reboot.

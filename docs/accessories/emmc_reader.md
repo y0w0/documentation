@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Radxa eMMC reader'
+sidebar_label: "Radxa eMMC reader"
 sidebar_position: 3
 ---
 
@@ -20,4 +20,5 @@ Radxa eMMC USB3读卡器是一款真正具有USB3.0性能的eMMC读卡器。基�
 - 支持 GPT 分区表和固件
 
 ## 尺寸
+
 - 大小: 55 x 20 x 5 mm

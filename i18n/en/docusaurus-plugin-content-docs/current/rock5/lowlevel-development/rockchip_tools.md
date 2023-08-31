@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'RockChip Tool Usage'
+sidebar_label: "RockChip Tool Usage"
 sidebar_position: 10
 ---
 
@@ -14,13 +14,12 @@ We use the tool RKDevTool, which allows the ROCK 5B in maskrom mode to communica
 ## RKDevTool on Windows
 
 1. Install RKDevTool  
-The tool is provided as a compressed package. Please download the zip package of the tool and unzip the file.  
-[RKDevTool_v2.81](https://dl.radxa.com/tools/windows/RKDevTool_Release_v2.81.zip)
-[RKDevTool_v2.92](https://dl.radxa.com/tools/windows/windows_RKDevTool_Release_v2.92.zip)
-[RKDevTool_v2.96](https://dl.radxa.com/tools/windows/RKDevTool_Release_v2.96-20221121.rar)
+   The tool is provided as a compressed package. Please download the zip package of the tool and unzip the file.  
+   [RKDevTool_v2.81](https://dl.radxa.com/tools/windows/RKDevTool_Release_v2.81.zip)
+   [RKDevTool_v2.92](https://dl.radxa.com/tools/windows/windows_RKDevTool_Release_v2.92.zip)
+   [RKDevTool_v2.96](https://dl.radxa.com/tools/windows/RKDevTool_Release_v2.96-20221121.rar)
 
 RKDevTool_v2.96 contains ROCK 5B eMMC/SPI flash configuration files. Recommended Use.
-
 
 Step 2: Install the driver
 
@@ -39,11 +38,13 @@ Step 2: Install the driver
 - To build rkdeveloptool on Debian-based Linux distributions, follow these instructions:
 
 1. Install Build Dependencies
+
 ```bash
   sudo apt-get install libudev-dev libusb-1.0-0-dev dh-autoreconf
 ```
 
 2. Clone the source code and build
+
 ```bash
   git clone https://github.com/radxa/rkdeveloptool.git
   cd rkdeveloptool
@@ -53,30 +54,35 @@ Step 2: Install the driver
 ```
 
 3. If you encounter the following compilation errors
+
 ```bash
  ./configure: line 4269: syntax error near unexpected token `LIBUSB1,libusb-1.0'
  ./configure: line 4269: `PKG_CHECK_MODULES(LIBUSB1,libusb-1.0)'
 ```
 
 4. You should install pkg-config libusb-1.0
+
 ```bash
   sudo apt-get install pkg-config libusb-1.0
 ```
 
 5. Then re-run
+
 ```bash
   autoreconf -i
   ./configure
   make
 ```
 
-6. You now have the rkdeveloptool executable in your current directory.  
+6. You now have the rkdeveloptool executable in your current directory.
+
 ```bash
   sudo cp rkdeveloptool /usr/local/bin/
   sudo ldconfig
 ```
 
 7. Make sure its version is 1.32. or higher
+
 ```bash
   rkdeveloptool -v
   rkdeveloptool ver 1.32
@@ -87,11 +93,13 @@ Step 2: Install the driver
 1. To build rkdeveloptool on macOS, you need homebrew (or a similar package manager) to install the required packages.
 
 2. Install build dependencies
+
 ```bash
   brew install automake autoconf libusb
 ```
 
 3. Clone the source code and build
+
 ```bash
   git clone https://github.com/radxa/rkdeveloptool.git
   cd rkdeveloptool
@@ -99,18 +107,22 @@ Step 2: Install the driver
   ./configure
   make
 ```
+
 4. If you encounter the following compilation errors
+
 ```bash
  ./configure: line 5384: syntax error near unexpected token `LIBUSB1,libusb-1.0'
  ./configure: line 5384: `PKG_CHECK_MODULES(LIBUSB1,libusb-1.0)'
 ```
 
 5. You should install pkg-config libusb-1.0
+
 ```bash
   brew install pkg-config
 ```
 
 6. Then re-run
+
 ```bash
   autoreconf -i
   ./configure
@@ -118,11 +130,13 @@ Step 2: Install the driver
 ```
 
 7. You now have the rkdeveloptool executable in your current directory
+
 ```bash
   sudo cp rkdeveloptool /opt/homebrew/bin/
 ```
 
 8. Make sure its version is 1.32 or higher
+
 ```bash
   rkdeveloptool -v
   rkdeveloptool ver 1.32

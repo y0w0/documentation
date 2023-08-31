@@ -1,5 +1,5 @@
-﻿---
-sidebar_label: 'Introduction'
+---
+sidebar_label: "Introduction"
 sidebar_position: 0
 ---
 
@@ -117,7 +117,7 @@ Rockchip SoC-based products do not support eMMC Boot partition booting.
 
 ## Hardware
 
-Some peripherals can be modified on this menu, the following is the introduction of them.  
+Some peripherals can be modified on this menu, the following is the introduction of them.
 
 ```
 ┌──────────────────────────────────┤ RSETUP ├──────────────────────────────────┐
@@ -148,38 +148,38 @@ Some peripherals can be modified on this menu, the following is the introduction
 
 ### Video capture devices
 
-If you have connect a video device, this option can help you to capture an image for testing.  
+If you have connect a video device, this option can help you to capture an image for testing.
 
 ### GPIO LEDs
 
 On this option, you can change the status of power LED and user LED on the board (Sometimes only one).  
-For the details, please refer to the [LED Setup](led).  
+For the details, please refer to the [LED Setup](led).
 
 ### Thermal governor
 
 This module is used to adjust the fan and other temperature options.  
-Generally, we select `power_allcator` when using DC fan or fanless, select `step_wise` when using PWM fan.   
+Generally, we select `power_allcator` when using DC fan or fanless, select `step_wise` when using PWM fan.  
 **Note: If you connect the fan directly to the GPIO on 5V and GND pins, it would not be controlled and allways work.**
 
 ### Configure DSI display mirroring
 
-If DSI display has some problems when using HDMI display and DSI display at the same time, enable this option will helpful.  
+If DSI display has some problems when using HDMI display and DSI display at the same time, enable this option will helpful.
 
 ## Overlays
 
-This option is for Configure Device Tree Overlay, please check [Device Tree Configuration](devicetree) for more informations. 
+This option is for Configure Device Tree Overlay, please check [Device Tree Configuration](devicetree) for more informations.
 
 ## Connectivity
 
-This option is normally similar to [Network Setting](../network). 
+This option is normally similar to [Network Setting](../network).
 
 ## User Settings
 
-The `Password` of the current login account and the `Hostname` of the device can be changed on this option.  
+The `Password` of the current login account and the `Hostname` of the device can be changed on this option.
 
 ## Localization
 
-On this option, you can change `Timezone` `Locale` `Keybaed layout` `Wi-Fi Country`.  
+On this option, you can change `Timezone` `Locale` `Keybaed layout` `Wi-Fi Country`.
 
 ## About
 

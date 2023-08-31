@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Kernel'
+sidebar_label: "Kernel"
 sidebar_position: 20
 ---
 

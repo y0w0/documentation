@@ -1,11 +1,9 @@
 ---
-sidebar_label: 'Flash BootLoader to SPI Flash'
+sidebar_label: "Flash BootLoader to SPI Flash"
 sidebar_position: 20
 ---
 
-
 # Flash BootLoader to SPI Nor Flash
-
 
 The SPI NOR flash stores bootloader files like `idbloader.img` and `u-boot.itb`.
 
@@ -28,10 +26,10 @@ import TabItem from '@theme/TabItem';
 <Tabs>
 <TabItem value="Simple method" label="Simple method" default>
 
-
 ## Simple method
 
 ### Preparation
+
     - ROCK 5B (Only ROCK 5B supported for now)
     - Power supply
     - Linux image for ROCK 5B, Android image is not supported yet
@@ -47,103 +45,123 @@ import TabItem from '@theme/TabItem';
 
 2. Download required files on the ROCK 5
 
-   You can download files by using `wget DOWNLOADLINK`. 
+   You can download files by using `wget DOWNLOADLINK`.
+
    - Download the spi clearing files
-    ```bash
-    wget https://dl.radxa.com/rock5/sw/images/others/zero.img.gz
-    ```
+
+   ```bash
+   wget https://dl.radxa.com/rock5/sw/images/others/zero.img.gz
+   ```
 
    - Downloadthe latest spi bootloader:
-   
+
      with u-boot serial console disabled(Recommend)
-    ```bash
-    wget https://dl.radxa.com/rock5/sw/images/loader/rock-5b/release/rock-5b-spi-image-gbf47e81-20230607.img
-    ```
 
+   ```bash
+   wget https://dl.radxa.com/rock5/sw/images/loader/rock-5b/release/rock-5b-spi-image-gbf47e81-20230607.img
+   ```
 
-     Use it when you need to install the armbian Image to M.2 NVME SSD
-    ```bash
-    wget https://github.com/huazi-yg/rock5b/releases/download/rock5b/rkspi_loader.img
-    ```
+   Use it when you need to install the armbian Image to M.2 NVME SSD
 
-     with u-boot serial console enabled(Use it when you need to troubleshoot booting issue)
-    ```bash
-    wget https://dl.radxa.com/rock5/sw/images/loader/rock-5b/debug/rock-5b-spi-image-gbf47e81-20230607-debug.img
-    ```
+   ```bash
+   wget https://github.com/huazi-yg/rock5b/releases/download/rock5b/rkspi_loader.img
+   ```
+
+   with u-boot serial console enabled(Use it when you need to troubleshoot booting issue)
+
+   ```bash
+   wget https://dl.radxa.com/rock5/sw/images/loader/rock-5b/debug/rock-5b-spi-image-gbf47e81-20230607-debug.img
+   ```
 
 3. Check the integrity of the downloaded files:
-    ```bash
-    md5sum zero.img.gz 
-    ```
+
+   ```bash
+   md5sum zero.img.gz
+   ```
 
    it should report back:
-    ```bash
-    ac581b250fda7a10d07ad11884a16834  zero.img.gz
-    ```
+
+   ```bash
+   ac581b250fda7a10d07ad11884a16834  zero.img.gz
+   ```
 
 4. extract/uncompress the previous downloaded spi clearing file (gzip should already be installed otherwise install it):
-    ```bash
-    gzip -d zero.img.gz
-    md5sum zero.img
-    ```
+
+   ```bash
+   gzip -d zero.img.gz
+   md5sum zero.img
+   ```
+
    it should report back:
-    ```bash
-    2c7ab85a893283e98c931e9511add182  zero.img
-    ```
+
+   ```bash
+   2c7ab85a893283e98c931e9511add182  zero.img
+   ```
 
 5. check your desired bootloader image:
-    ```bash
-    md5sum rock-5b-spi-image-g49da44e116d.img
-    ```
+
+   ```bash
+   md5sum rock-5b-spi-image-g49da44e116d.img
+   ```
 
    it should report back one of the following lines:
-    ```bash
-    46de85de37b8e670883e6f6a8bb95776  rock-5b-spi-image-g49da44e116d.img
-    958cbdb6cf9b2e0841fd76c26930db8f  rock-5b-spi-image-g3caf61a44c2-debug.img
-    1b83982a5979008b4407552152732156  rkspi_loader.img
-    ```
+
+   ```bash
+   46de85de37b8e670883e6f6a8bb95776  rock-5b-spi-image-g49da44e116d.img
+   958cbdb6cf9b2e0841fd76c26930db8f  rock-5b-spi-image-g3caf61a44c2-debug.img
+   1b83982a5979008b4407552152732156  rkspi_loader.img
+   ```
 
 6. Flash the SPI flash
+
    - Make sure the spi flash is available:
-    ```bash
-    ls /dev/mtdblock*
-    # report
-    /dev/mtdblock0
-    ```
+
+   ```bash
+   ls /dev/mtdblock*
+   # report
+   /dev/mtdblock0
+   ```
+
    - completely clear the spi flash: (be patient the flash can take 5mins)
-    ```bash
-    sudo dd if=zero.img of=/dev/mtdblock0
-    ```
+
+   ```bash
+   sudo dd if=zero.img of=/dev/mtdblock0
+   ```
+
    - check if the flash was successfully cleared
-    ```bash
-    sudo md5sum /dev/mtdblock0 zero.img
-    # report
-    2c7ab85a893283e98c931e9511add182  /dev/mtdblock0
-    2c7ab85a893283e98c931e9511add182  zero.img
-    ```
+
+   ```bash
+   sudo md5sum /dev/mtdblock0 zero.img
+   # report
+   2c7ab85a893283e98c931e9511add182  /dev/mtdblock0
+   2c7ab85a893283e98c931e9511add182  zero.img
+   ```
+
    - now write you desired bootloader to the spi flash (replace rkspi_loader.img with the name of your downloaded image again):
-    ```bash
-    sudo dd if=rkspi_loader.img of=/dev/mtdblock0
-    sync
-    # check if the flash was successfully
-    sudo md5sum /dev/mtdblock0 rkspi_loader.img
-    ```
+
+   ```bash
+   sudo dd if=rkspi_loader.img of=/dev/mtdblock0
+   sync
+   # check if the flash was successfully
+   sudo md5sum /dev/mtdblock0 rkspi_loader.img
+   ```
+
    the checksums should be the same again - **if not flash the bootloader again.**
 
 7. Reboot
 
 Now you are done flashing a bootloader supporting NVMe booting.
-- If you do not flashed the NVMe already check [this guide](https://wiki.radxa.com/Rock5/install/nvme) to flash it. (again there are two options available)
-- Otherwise power off the ROCK 5, remove the µSD card or eMMC module and power it back up.It should boot now from your NVMe. 
 
+- If you do not flashed the NVMe already check [this guide](https://wiki.radxa.com/Rock5/install/nvme) to flash it. (again there are two options available)
+- Otherwise power off the ROCK 5, remove the µSD card or eMMC module and power it back up.It should boot now from your NVMe.
 
 </TabItem>
 <TabItem value="Advanced (external) method" label="Advanced (external) method">
 
-
 ## Advanced (external) method
 
 ### Requirements
+
 - ROCK 5 SBC
 - proper power
 - Linux image for ROCK 5, Android image is not supported yet
@@ -153,21 +171,23 @@ Now you are done flashing a bootloader supporting NVMe booting.
 ### Procedure
 
 1. Install Tools & Drivers
+
 - Please check [this guide](https://wiki.radxa.com/Rock5/install/rockchip-flash-tools), Install rockchip flash tools under Windows/Linux/MacOS PC.
 - The PC tools we use to communicate with ROCK 5 in maskrom mode are the rkdeveloptool on Linux/macOS and RkDevtool on Windows PC.
 
 2. Get RK3588 loader and U-Boot images
+
 - Download [loader images](https://dl.radxa.com/rock5/sw/images/loader/rock-5b/rk3588_spl_loader_v1.08.111.bin)
 
 - Download the latest SPI image from:
-   - [Release Edition](https://dl.radxa.com/rock5/sw/images/loader/rock-5b/release/rock-5b-spi-image-gbf47e81-20230607.img), with u-boot serial console disabled
-   - [Debug Edition](https://dl.radxa.com/rock5/sw/images/loader/rock-5b/debug/rock-5b-spi-image-gbf47e81-20230607-debug.img), with u-boot serial console enabled
-   - [Armbian Edition](https://github.com/huazi-yg/rock5b/releases/download/rock5b/rkspi_loader.img). Use it when you need to install the armbian Image to M.2 NVME SSD
-   - [ROCK 5A SPI img](https://dl.radxa.com/rock5/sw/images/loader/rock-5a/rock-5a-spi-image-g4b32117-20230605.img). Only one version now.
+  - [Release Edition](https://dl.radxa.com/rock5/sw/images/loader/rock-5b/release/rock-5b-spi-image-gbf47e81-20230607.img), with u-boot serial console disabled
+  - [Debug Edition](https://dl.radxa.com/rock5/sw/images/loader/rock-5b/debug/rock-5b-spi-image-gbf47e81-20230607-debug.img), with u-boot serial console enabled
+  - [Armbian Edition](https://github.com/huazi-yg/rock5b/releases/download/rock5b/rkspi_loader.img). Use it when you need to install the armbian Image to M.2 NVME SSD
+  - [ROCK 5A SPI img](https://dl.radxa.com/rock5/sw/images/loader/rock-5a/rock-5a-spi-image-g4b32117-20230605.img). Only one version now.
 
 3. Boot the board to Maskrom mode
 
-For ROCK 5A, please check [this guide](../rock5a/getting-started/rkdevtool).  
+For ROCK 5A, please check [this guide](../rock5a/getting-started/rkdevtool).
 
 For ROCK 5B, operate as following:
 
@@ -186,27 +206,34 @@ For ROCK 5B, operate as following:
 
 - Option 1: Flash with Linux PC/Mac
   On linux or Mac, run the rkdeveloptool
+
 ```bash
 sudo rkdeveloptool ld
 DevNo=1 Vid=0x2207,Pid=0x350b,LocationID=106 Maskrom
 ```
+
 This will load the loader (flash helper, downloaded from 2) to run on ROCK 5B and init the ram and prepare the flashing environment etc.
+
 ```bash
-sudo rkdeveloptool db /path/to/rk3588_spl_loader_v1.08.111.bin  
+sudo rkdeveloptool db /path/to/rk3588_spl_loader_v1.08.111.bin
 Downloading bootloader succeeded.
 ```
+
 Next, write SPI image from PC/Mac to ROCK 5B SPI flash
 
 You can use the image download from Step 2.
+
 ```bash
 sudo  rkdeveloptool wl 0 rock-5b-spi-image-g49da44e116d.img
 Write LBA from file (100%)
 ```
 
 Reboot the device
+
 ```bash
 rkdeveloptool rd
 ```
+
 now, the device should boot on SPI Nor Flash. And the blue led is on.
 
 - Option 2: Flash with Windows PC
@@ -237,14 +264,18 @@ Finally, click the "Excute" button, and you will see the content in the red box 
 ## erase the SPI NOR flash
 
 Option 1: Operate on ROCK 5B
+
 - Boot your ROCK 5B with linux running on µSD card or eMMC module:
 - Make sure the SPI flash is available:
+
 ```bash
 ls /dev/mtdblock*
 # It should give following back
 /dev/mtdblock0
 ```
+
 - erase the SPI flash
+
 ```bash
 sudo dd if=/dev/zero of=/dev/mtdblock0
 sync
@@ -261,7 +292,5 @@ Before Erasing, please confirm that ROCK 5B is in maskrom mode
 
 ![RKDevTool-04](/zh/img/rock5b/rock-5b-spi-flash-04.png)
 
-
 </TabItem>
 </Tabs>
-

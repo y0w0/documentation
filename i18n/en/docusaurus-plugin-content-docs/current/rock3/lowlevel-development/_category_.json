@@ -1,9 +1,9 @@
 {
   "label": "Lowlevel Development",
-  "position": 60,
   "link": {
-    "type": "generated-index",
-	"slug": "/rock3/lowlevel-dev",
-    "description": "Lowlevel Development"
-  }
+    "description": "Lowlevel Development",
+    "slug": "/rock3/lowlevel-dev",
+    "type": "generated-index"
+  },
+  "position": 60
 }

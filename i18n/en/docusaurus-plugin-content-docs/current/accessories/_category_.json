@@ -1,9 +1,9 @@
 {
   "label": "Accessories",
-  "position": 70,
   "link": {
-    "type": "generated-index",
-	"slug": "/accessories",
-    "description": "Radxa Accessories Guide"
-  }
+    "description": "Radxa Accessories Guide",
+    "slug": "/accessories",
+    "type": "generated-index"
+  },
+  "position": 70
 }

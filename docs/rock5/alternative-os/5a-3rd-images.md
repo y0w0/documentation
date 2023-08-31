@@ -1,5 +1,5 @@
-﻿---
-sidebar_label: 'ROCK 5A 第三方镜像'
+---
+sidebar_label: "ROCK 5A 第三方镜像"
 sidebar_position: 30
 ---
 

@@ -1,9 +1,9 @@
 {
   "label": "Compliance",
-  "position": 80,
   "link": {
-    "type": "generated-index",
-	"slug": "/compliance",
-    "description": "Compliance for Radxa products"
-  }
+    "description": "Compliance for Radxa products",
+    "slug": "/compliance",
+    "type": "generated-index"
+  },
+  "position": 80
 }

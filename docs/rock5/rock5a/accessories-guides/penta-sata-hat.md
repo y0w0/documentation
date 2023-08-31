@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'ROCK 5A使用Penta SATA HAT教程'
+sidebar_label: "ROCK 5A使用Penta SATA HAT教程"
 sidebar_position: 20
 ---
 
@@ -10,7 +10,7 @@ sidebar_position: 20
 ![ROCK5A Install Penta SATA HAT](/img/rock5a/rock5a-penta-sata-hat-05.webp)
 
 - 下图是 RADXA Penta SATA HAT 和包含的零件。
-**链接详情请点击[Penta SATA HAT](../../../accessories/penta-sata-hat)**
+  **链接详情请点击[Penta SATA HAT](../../../accessories/penta-sata-hat)**
 
 ![ROCK5A Install M.2 Extension Board](/img/accessories/penta-sata-hat-01.webp)
 
@@ -46,26 +46,26 @@ sidebar_position: 20
 
 ## 查看Penta SATA HAT挂载是否成功
 
-1、通过```lsblk```查看SATA设备是否被识别。
+1、通过`lsblk`查看SATA设备是否被识别。
 
 ```
 radxa@rock-5a:~$ lsblk
 NAME         MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
-sda            8:0    0 465.8G  0 disk 
-└─sda1         8:1    0 465.8G  0 part 
-sdb            8:16   0 465.8G  0 disk 
-└─sdb1         8:17   0 465.8G  0 part 
-sdc            8:32   0 465.8G  0 disk 
-└─sdc1         8:33   0 465.8G  0 part 
-sdd            8:48   0 465.8G  0 disk 
-└─sdd1         8:49   0 465.8G  0 part 
-mmcblk0      179:0    0  14.5G  0 disk 
+sda            8:0    0 465.8G  0 disk
+└─sda1         8:1    0 465.8G  0 part
+sdb            8:16   0 465.8G  0 disk
+└─sdb1         8:17   0 465.8G  0 part
+sdc            8:32   0 465.8G  0 disk
+└─sdc1         8:33   0 465.8G  0 part
+sdd            8:48   0 465.8G  0 disk
+└─sdd1         8:49   0 465.8G  0 part
+mmcblk0      179:0    0  14.5G  0 disk
 ├─mmcblk0p1  179:1    0    16M  0 part /config
 └─mmcblk0p2  179:2    0  14.4G  0 part /
-mmcblk0boot0 179:32   0     4M  1 disk 
-mmcblk0boot1 179:64   0     4M  1 disk 
+mmcblk0boot0 179:32   0     4M  1 disk
+mmcblk0boot1 179:64   0     4M  1 disk
 zram0        254:0    0   3.8G  0 disk [SWAP]
-radxa@rock-5a:~$ 
+radxa@rock-5a:~$
 ```
 
 2、当系统识别到Penta SATA HAT时，你可以查看到SATA devices(sda/sdb/sdc/sdd)。
@@ -102,29 +102,29 @@ lv0 = 35
 lv1 = 40
 lv2 = 45
 lv3 = 50
- 
+
 [key]
 # You can customize the function of the key, currently available functions are
 # slider: oled display next page
 # switch: fan turn on/off switch
 # reboot, poweroff
-# If you have any good suggestions for key functions, 
+# If you have any good suggestions for key functions,
 # please add an issue on https://rock.sh/rockpi-sata
 click = slider
 twice = switch
 press = none
- 
+
 [time]
 # twice: maximum time between double clicking (seconds)
 # press: long press time (seconds)
 twice = 0.7
 press = 1.8
- 
+
 [slider]
 # Whether the oled auto display next page and the time interval (seconds)
 auto = true
 time = 10
- 
+
 [oled]
 # Whether rotate the text of oled 180 degrees, whether use Fahrenheit
 rotate = false

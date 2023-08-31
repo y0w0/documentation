@@ -1,9 +1,9 @@
 {
   "label": "配件",
-  "position": 70,
   "link": {
-    "type": "generated-index",
-	"slug": "/accessories",
-    "description": "瑞莎配件使用教程"
-  }
+    "description": "瑞莎配件使用教程",
+    "slug": "/accessories",
+    "type": "generated-index"
+  },
+  "position": 70
 }

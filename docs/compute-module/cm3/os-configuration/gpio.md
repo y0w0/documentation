@@ -1,5 +1,5 @@
-﻿---
-sidebar_label: 'GPIO'
+---
+sidebar_label: "GPIO"
 sidebar_position: 10
 ---
 

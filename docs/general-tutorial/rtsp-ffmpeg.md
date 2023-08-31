@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'RTSP 远程推流(基于 FFmpeg)'
+sidebar_label: "RTSP 远程推流(基于 FFmpeg)"
 sidebar_position: 20
 ---
 
@@ -24,6 +24,7 @@ sudo apt install librockchip-mpp-dev librockchip-vpu0 librga-dev libyuv-dev libd
 ```
 
 ### 编译并安装最新 MPP
+
 ```bash
 git clone https://github.com/rockchip-linux/mpp
 pushd mpp
@@ -63,7 +64,7 @@ sudo ffmpeg -re -f v4l2 -i /dev/video0 -c:v hevc -rc_mode 0 -level 30 -f rtsp rt
 以下以 Windows 下运行 [VLC](https://www.videolan.org/vlc/) 为例，介绍如何收看 RTSP 视频推流。
 
 1. 下载并安装 VLC
-![VLC-Main](/img/general-tutorial/rtsp/VLC-Main.webp)
+   ![VLC-Main](/img/general-tutorial/rtsp/VLC-Main.webp)
 
 2. 点击 媒体 - 打开网络串流 来输入 RTSP 推流地址
 
@@ -74,4 +75,4 @@ sudo ffmpeg -re -f v4l2 -i /dev/video0 -c:v hevc -rc_mode 0 -level 30 -f rtsp rt
 ![VLC-Open-RTSP](/img/general-tutorial/rtsp/VLC-Open-RTSP.webp)
 
 1. 点击播放后即可查看 RTSP 远程推流内容
-![VLC-View-RTSP](/img/general-tutorial/rtsp/VLC-View-RTSP.webp)
+   ![VLC-View-RTSP](/img/general-tutorial/rtsp/VLC-View-RTSP.webp)

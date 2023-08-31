@@ -1,38 +1,38 @@
 {
-  "title": {
-    "message": "",
-    "description": "The title in the navbar"
-  },
-  "item.label.Home": {
-    "message": "主页",
-    "description": "Navbar item with label Home"
-  },
-  "item.label.News": {
-    "message": "新闻",
-    "description": "Navbar item with label News"
-  },
   "item.label.About": {
-    "message": "关于",
-    "description": "Navbar item with label About"
-  },
-  "item.label.Products": {
-    "message": "产品",
-    "description": "Navbar item with label Products"
-  },
-  "item.label.Support": {
-    "message": "支持",
-    "description": "Navbar item with label Support"
+    "description": "Navbar item with label About",
+    "message": "关于"
   },
   "item.label.Community": {
-    "message": "社区",
-    "description": "Navbar item with label Community"
+    "description": "Navbar item with label Community",
+    "message": "社区"
+  },
+  "item.label.Home": {
+    "description": "Navbar item with label Home",
+    "message": "主页"
+  },
+  "item.label.News": {
+    "description": "Navbar item with label News",
+    "message": "新闻"
+  },
+  "item.label.Products": {
+    "description": "Navbar item with label Products",
+    "message": "产品"
   },
   "item.label.Services": {
-    "message": "服务",
-    "description": "Navbar item with label Services"
+    "description": "Navbar item with label Services",
+    "message": "服务"
+  },
+  "item.label.Support": {
+    "description": "Navbar item with label Support",
+    "message": "支持"
   },
   "item.label.Welcome": {
-    "message": "欢迎",
-    "description": "Navbar item with label Welcome"
+    "description": "Navbar item with label Welcome",
+    "message": "欢迎"
+  },
+  "title": {
+    "description": "The title in the navbar",
+    "message": ""
   }
 }

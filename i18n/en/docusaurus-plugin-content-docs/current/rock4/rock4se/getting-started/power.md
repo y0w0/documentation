@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Power Management'
+sidebar_label: "Power Management"
 sidebar_position: 18
 ---
 

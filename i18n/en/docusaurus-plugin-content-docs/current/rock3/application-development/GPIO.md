@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'GPIO Development'
+sidebar_label: "GPIO Development"
 sidebar_position: 10
 ---
 

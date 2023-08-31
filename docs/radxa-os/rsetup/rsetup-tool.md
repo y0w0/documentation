@@ -1,5 +1,5 @@
-﻿---
-sidebar_label: '功能介绍'
+---
+sidebar_label: "功能介绍"
 sidebar_position: 0
 ---
 
@@ -117,7 +117,7 @@ sidebar_position: 0
 
 ## Hardware选项
 
-在这个菜单上可以修改一些外围设备，下面是对它们的介绍。 
+在这个菜单上可以修改一些外围设备，下面是对它们的介绍。
 
 ```
 ┌──────────────────────────────────┤ RSETUP ├──────────────────────────────────┐
@@ -148,22 +148,22 @@ sidebar_position: 0
 
 ### Video capture devices选项
 
-如果你有连接一个视频设备，这个选项可以帮助你测试该设备。 
+如果你有连接一个视频设备，这个选项可以帮助你测试该设备。
 
 ### GPIO LEDs选项
 
-在这个选项上，你可以改变板子上的电源LED和用户LED的状态（有时只有一个）。 
-详细情况请参考[LED设置](led)。 
+在这个选项上，你可以改变板子上的电源LED和用户LED的状态（有时只有一个）。
+详细情况请参考[LED设置](led)。
 
 ### Thermal governor选项
 
-该模块用于调整风扇和其他温度选项。 
+该模块用于调整风扇和其他温度选项。
 一般来说，当使用直流风扇或不使用风扇时，选择`power_allcator`，当使用PWM风扇时，选择`step_wise`。  
 **注意：如果你将风扇直接连接到GPIO的5V和GND引脚上，它将不受控制且一直工作。**
 
 ### Configure DSI display mirroring选项
 
-如果在同时使用HDMI显示器和DSI显示器时，DSI显示器有一些问题，启用这个选项会有所帮助。 
+如果在同时使用HDMI显示器和DSI显示器时，DSI显示器有一些问题，启用这个选项会有所帮助。
 
 ## Overlays选项
 
@@ -175,11 +175,11 @@ sidebar_position: 0
 
 ## User Settings选项
 
-可以在这个选项上更改当前登录账户的 `Password` 和设备的 `Hostname`。 
+可以在这个选项上更改当前登录账户的 `Password` 和设备的 `Hostname`。
 
 ## Localization选项
 
-在这个选项中, 你可以改变 `Timezone` `Locale` `Keybaed layout` `Wi-Fi Country`.  
+在这个选项中, 你可以改变 `Timezone` `Locale` `Keybaed layout` `Wi-Fi Country`.
 
 ## About选项
 

@@ -1,12 +1,12 @@
-﻿---
-sidebar_label: 'Before start'
+---
+sidebar_label: "Before start"
 sidebar_position: 20
 ---
 
 # Introduction
 
-This Preparation guide is designed for Radxa ROCK 4SE enthusiast. The purpose is to learn about ROCK 4SE as well as how to prepare and set up for basic use. 
-When you get a board, you need to know what model it is and which hardware version it is. 
+This Preparation guide is designed for Radxa ROCK 4SE enthusiast. The purpose is to learn about ROCK 4SE as well as how to prepare and set up for basic use.
+When you get a board, you need to know what model it is and which hardware version it is.
 The information is printed in the top side of the board. We will introduce the board information as much as possible.
 
 ## Necessary
@@ -30,9 +30,9 @@ With 2x USB-A 2.0 HOST connectors, ROCK 4SE can be equipped with a full sized ke
 
 - Monitor and HDMI Cable
 
-ROCK 4SE is equipped with a HDMI connector and supports up to 4k@60. HDMI capable monitor is recommended.  
+ROCK 4SE is equipped with a HDMI connector and supports up to 4k@60. HDMI capable monitor is recommended.
 
-- MicroSD Card Reader 
+- MicroSD Card Reader
 
 For flashing the image to the microSD Card.
 
@@ -53,7 +53,7 @@ The official recommendation is to use [Radxa eMMC reader](/accessories/emmc_read
 - Ethernet cable
 
 ROCK 4SE supports internet access via Ethernet.  
-An Ethernet cable is used to connect your ROCK 4SE to a local network and the Internet.  
+An Ethernet cable is used to connect your ROCK 4SE to a local network and the Internet.
 
 - USB type A to type C cable
 
@@ -64,8 +64,8 @@ This is needed for fastboot/adb commands and the maskrom mode for advanced flash
 This is needed for [serial console](/general-tutorial/serial).
 
 - Camera Module
-    
-ROCK 4SE supports camera function.  
+
+ROCK 4SE supports camera function.
 
 :::tip
 The official recommendation is to use [Radxa Camera 4K](/accessories/camera_4k).
@@ -73,7 +73,7 @@ The official recommendation is to use [Radxa Camera 4K](/accessories/camera_4k).
 
 - LCD Module
 
-ROCK 4SE supports LCD display function.  
+ROCK 4SE supports LCD display function.
 
 :::tip
 The official recommendation is to use [Radxa Display 8 HD](/accessories/lcd-8-hd) or [Radxa Display 10 HD](/accessories/lcd-10-hd).

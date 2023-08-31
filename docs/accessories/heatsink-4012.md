@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Radxa Heatsink 4012 for ROCK 5B'
+sidebar_label: "Radxa Heatsink 4012 for ROCK 5B"
 sidebar_position: 5
 ---
 
@@ -9,6 +9,7 @@ Radxa Heatsink 4012是一款用于ROCK 5B的散热器，长40mm，宽40mm，高1
 ![Heatsink 4012](/img/accessories/heatsink-4012-1.webp)
 
 ## 物理规格
+
 - 孔径：3mm
 - 尺寸：4 x 4 x 1.2 厘米
 - 速度：4300rpm ± 10%

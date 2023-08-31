@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'upgrade_tool'
+sidebar_label: "upgrade_tool"
 sidebar_position: 3
 ---
 
@@ -16,7 +16,7 @@ upgrade_tool 是 Rockchip 为 Linux 平台下进行 USB 烧录所开发的软件
 
 请下载并解压以下文件以安装 upgrade_tool：
 
-- [upgrade_tool v2.1](https://dl.radxa.com/tools/linux/Linux_Upgrade_Tool_V2.1.zip) 
+- [upgrade_tool v2.1](https://dl.radxa.com/tools/linux/Linux_Upgrade_Tool_V2.1.zip)
 
 ## 使用 upgrade_tool
 
@@ -26,7 +26,7 @@ upgrade_tool 是 Rockchip 为 Linux 平台下进行 USB 烧录所开发的软件
 upgrade_tool 在命令行模式下的使用类似于 [rkdeveloptool](rkdeveloptool#使用-rkdeveloptool)。
 
 :::caution
-命令行模式下，upgrade_tool 不支持选择 Maskrom 设备，也无法选择待写入的存储介质。  
+命令行模式下，upgrade_tool 不支持选择 Maskrom 设备，也无法选择待写入的存储介质。
 
 如果需要从多个设备中选择特定的一个，请使用[交互模式](upgrade_tool?mode=Interactive)。
 :::

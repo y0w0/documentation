@@ -1,13 +1,13 @@
 ---
-sidebar_label: 'ROCK 4C+'
+sidebar_label: "ROCK 4C+"
 sidebar_position: 3
 ---
 
 # ROCK 4C+ 认证信息
 
-## CE RED 
+## CE RED
+
 - 报告编号: BCTC2207596553C
-  
 - 证书链接: [符合性测试验证](https://dl.radxa.com/rockpi4/compliance/4c+/RED/BCTC2207596553C_ROCK_4C_Plus_CE_RED.pdf)
 
 - 测试标准
@@ -19,7 +19,8 @@ sidebar_position: 3
   - ETSI EN 300 328 V2.2.2 (2019-07): 2.4G WIFI [测试报告](https://dl.radxa.com/rockpi4/compliance/4c+/RED/BCTC2207596553-5E_ROCK_4C_Plus_CE_RED_EN300328_WiFi20M.pdf)
   - ETSI EN 301 893 V2.1.1 (2017-05): 5G WIFI [测试报告](https://dl.radxa.com/rockpi4/compliance/4c+/RED/BCTC2207596553-6E_ROCK_4C_Plus_CE_RED_EN301893_5.1G_WIFI.pdf)
 
-## FCC ID 
+## FCC ID
+
 - 报告编号: 2AЗРA-ROCK4C
 
 - 证书链接 1: [符合性测试验证](https://dl.radxa.com/rockpi4/compliance/4c+/FCC%20ID/DSS-TC680342.pdf)
@@ -33,21 +34,24 @@ sidebar_position: 3
   - FCC Part15 15.407, ANSI C63.10-2013, KDB 662911 D01 v02r01, KDB 789033 D02 v02r01: 5G WIFI [测试报告](https://dl.radxa.com/rockpi4/compliance/4c+/FCC%20ID/BCTC2207707044-4E-ROCK_Pi_ROCK_4C_Plus_FCC_ID_5.1GWIFI.pdf)
 
 ## SRRC
+
 - 报告编号: 2023AJ2577 (M)
-  
 - 证书链接: [符合性测试验证](https://dl.radxa.com/rockpi4/compliance/4c+/SRRC/RADXA_ROCK_4C_Plus.pdf)
 
 ## RCM
+
 - 报告编号: 73009403356
 
 - 证书链接: [符合性测试验证](https://dl.radxa.com/rockpi4/compliance/4c+/AU_RCM/Supplier_declaration_of_conformity_ROCK_4C_Plus.pdf)
 
 ## IMDA
+
 - 报告编号: N5008-22
 
 - 证书链接: [符合性测试验证](https://dl.radxa.com/rockpi4/compliance/4c+/IMDA/IMDA_ESER_Acknowledgement_of_Registration_for_Radxa_ROCK_4CPlus_dated_18th_Oct_2022.pdf)
 
 ## IC ID
+
 - 报告编号: 29530-ROCK4CPLUS
 
 - 证书链接: [符合性测试验证](https://dl.radxa.com/rockpi4/compliance/4c+/IC_ID/EMC_123993_ISED_Grant.pdf)
@@ -59,30 +63,35 @@ sidebar_position: 3
   - RSS-247 Issue 2: February 2017, RSS-Gen Issue 5: Amendment 2 (February 2021): 5G WIFI [测试报告](https://dl.radxa.com/rockpi4/compliance/4c+/IC_ID/BCTC2210671499-4E_ROCK_Pi_4_ROCK_4C_Plus_IC_ID_5.1G.pdf)
 
 ## TELEC
+
 - 报告编号: 214-123993
 
 - 证书链接: [符合性测试验证](https://dl.radxa.com/rockpi4/compliance/4c+/TELEC/EMC123993_Japan_Certificate.pdf)
 
 - 测试标准
-  - Article 2 Paragraph 1, item 19: BT [测试报告](https://dl.radxa.com/rockpi4/compliance/4c+/TELEC/BCTC2210401068-1E_ROCK_Pi_4_ROCK_4C_Plus_TELEC_BT_3M(J).pdf)
+  - Article 2 Paragraph 1, item 19: BT [测试报告](<https://dl.radxa.com/rockpi4/compliance/4c+/TELEC/BCTC2210401068-1E_ROCK_Pi_4_ROCK_4C_Plus_TELEC_BT_3M(J).pdf>)
   - Article 2 paragraph 1, item 19: BLE [测试报告](https://dl.radxa.com/rockpi4/compliance/4c+/TELEC/BCTC2210401068-2E_ROCK_Pi_4_ROCK_4C_Plus_TELEC_BLE_1M.pdf)
-  - ARIB STD T-66 Ver.3.7, Article 2 paragraph 1 of item 19: 2.4G WIFI [测试报告](https://dl.radxa.com/rockpi4/compliance/4c+/TELEC/BCTC2210401068-3E_ROCK_Pi_4_ROCK_4C_Plus_TELEC_2.4G_N20(X).pdf)
+  - ARIB STD T-66 Ver.3.7, Article 2 paragraph 1 of item 19: 2.4G WIFI [测试报告](<https://dl.radxa.com/rockpi4/compliance/4c+/TELEC/BCTC2210401068-3E_ROCK_Pi_4_ROCK_4C_Plus_TELEC_2.4G_N20(X).pdf>)
   - ARIB STD-T71 Ver.6.1, Article2 Paragraph 1, item 19-3: 5G WIFI [测试报告](https://dl.radxa.com/rockpi4/compliance/4c+/TELEC/BCTC2210401068-4E_ROCK_Pi_4_ROCK_4C_Plus_TELEC_5.1G.pdf)
 
 ## NTC
+
 - 报告编号: ESD-RCE-2231417
 
 - 证书链接: [符合性测试验证](https://dl.radxa.com/rockpi4/compliance/4c+/NTC.pdf)
 
 ## NBTC
+
 - 证书链接: [符合性测试验证](https://dl.radxa.com/rockpi4/compliance/4c+/NBTC.pdf)
 
 ## OFCA
+
 - 报告编号: HK0022200147
 
 - 证书链接: [符合性测试验证](https://dl.radxa.com/rockpi4/compliance/4c+/OFCA.pdf)
 
 ## ICASA
+
 - 报告编号: TA-2022/2653
 
 - 证书链接: [符合性测试验证](https://dl.radxa.com/rockpi4/compliance/4c+/ICASA.pdf)

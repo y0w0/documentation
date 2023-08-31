@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'ROCK 5A上使用Radxa Camera 4K教程'
+sidebar_label: "ROCK 5A上使用Radxa Camera 4K教程"
 sidebar_position: 20
 ---
 
@@ -20,13 +20,14 @@ sidebar_position: 20
 ![ROCK5A Install Radxa Camera 4K](/img/accessories/rock5a_camera4k_fpc.webp)
 
 ## 配置 Radxa Camera 4K
+
 按下"Ctrl + Alt + T" 组合键打开终端,，运行 `rsetup` 命令：
 
 ```bash
 radxa@rock-5a:~$ rsetup
 ```
 
-在rsetup工具界面，输入密码并选择 `Overlays` .  
+在rsetup工具界面，输入密码并选择 `Overlays` .
 
 ```bash
 Configure Device Tree Overlay
@@ -40,12 +41,12 @@ Configure Device Tree Overlay
 然后, 选择`Manage overlays`:
 
 ```bash
-Configure Device Tree Overlay  
-        Manage overlays  
-        View overlay info  
-        Install overlay from source  
-        Reset overlays  
-       
+Configure Device Tree Overlay
+        Manage overlays
+        View overlay info
+        Install overlay from source
+        Reset overlays
+
 
       <Ok>            <Cancel>
 ```
@@ -53,7 +54,7 @@ Configure Device Tree Overlay
 接下来，将显示已安装的设备树，它可能在不同的产品上有所不同。在`Radxa Camera 4K`按下空格键
 
 ```bash
-Please select overlays: 
+Please select overlays:
         [ ] Enable 1-Wire on GPIO4_B1
         [ ] Enable FIQ Debugger on UART4-M2
         [ ] Enable FIQ Debugger on UART6-M1
@@ -69,13 +70,13 @@ Please select overlays:
         [ ] Enable PWM1-M2
         [ ] Enable PWM11-M1
         [ ] Enable PWM14-M1
-        [ ] Enable PWM14-M2 
+        [ ] Enable PWM14-M2
         [ ] Enable PWM15-M1
-        [ ] Enable PWM15-M3 
+        [ ] Enable PWM15-M3
         [ ] Enable PWM6-M0
         [ ] Enable PWM7-M0
         [ ] Enable Radxa Camera 4K
-        [ ] Enable Radxa Display 10HD 
+        [ ] Enable Radxa Display 10HD
         [ ] Enable Radxa Display 8HD
         [ ] Enable Raspberry Pi Camera V2
         [ ] Enable UART2-M0
@@ -110,6 +111,7 @@ radxa@rock-5a:~$ sudo reboot
 ## 使用 Radxa Camera 4K
 
 你可以下载 **cheese** 然后使用以下命令使用摄像机:
+
 ```bash
 radxa@rock-5a: sudo apt update
 radxa@rock-5a: sudo apt install cheese
@@ -117,17 +119,19 @@ radxa@rock-5a: ./cheese
 ```
 
 同时，你也可以使用终端命令打开相机预览:
+
 ```bash
-gst-launch-1.0 v4l2src device=/dev/video11 io-mode=4 ! videoconvert ! video/x-raw,format=NV12,width=1920,height=1080 ! xvimagesink;   
+gst-launch-1.0 v4l2src device=/dev/video11 io-mode=4 ! videoconvert ! video/x-raw,format=NV12,width=1920,height=1080 ! xvimagesink;
 ```
 
 使用以下命令拍照:
+
 ```bash
-gst-launch-1.0 v4l2src device=/dev/video11 io-mode=4 ! videoconvert ! video/x-raw,format=NV12,width=1920,height=1080 ! jpegenc ! multifilesink location=file.name.jpg;  
+gst-launch-1.0 v4l2src device=/dev/video11 io-mode=4 ! videoconvert ! video/x-raw,format=NV12,width=1920,height=1080 ! jpegenc ! multifilesink location=file.name.jpg;
 ```
 
 使用以下命令拍摄视频:
+
 ```bash
 gst-launch-1.0 v4l2src num-buffers=512 device=/dev/video11 io-mode=4 ! videoconvert ! video/x-raw, format=NV12, width=1920, height=1080, framerate=30/1 ! tee name=t ! queue ! mpph264enc ! queue ! h264parse ! mpegtsmux ! filesink location=/home/radxa/file.name.mp4
 ```
-

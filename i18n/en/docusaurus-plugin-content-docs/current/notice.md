@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Notice'
+sidebar_label: "Notice"
 sidebar_position: 3
 ---
 

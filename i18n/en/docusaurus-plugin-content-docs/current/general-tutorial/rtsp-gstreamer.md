@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'RTSP Remote Streaming (based on Gstreamer)'
+sidebar_label: "RTSP Remote Streaming (based on Gstreamer)"
 sidebar_position: 20
 ---
 
@@ -29,6 +29,7 @@ sudo apt install libgstreamer-plugins-base1.0-dev libgstreamer-plugins-bad1.0-de
 wget https://gstreamer.freedesktop.org/src/gst-rtsp-server/gst-rtsp-server-1.18.6.tar.xz
 tar -xvf gst-rtsp-server-1.18.6.tar.xz
 ```
+
 ### Build gst-rtsp-server
 
 ```bash
@@ -54,7 +55,7 @@ cd examples/
 The following is an example of how to watch RTSP video stream by running [VLC](https://www.videolan.org/vlc/) under Windows.
 
 1. Download and install VLC
-![VLC-Main](/img/general-tutorial/rtsp/VLC-Main-en.webp)
+   ![VLC-Main](/img/general-tutorial/rtsp/VLC-Main-en.webp)
 
 2. Click "Media - Open Network Streaming" to enter the RTSP stream address.
 
@@ -65,4 +66,4 @@ Starting gst-rtsp-server displays the RTSP link for the current device, but you 
 ![VLC-Open-RTSP](/img/general-tutorial/rtsp/VLC-Open-RTSP-en.webp)
 
 3. Click `Play` to view the RTSP remote streaming content.
-![VLC-View-RTSP](/img/general-tutorial/rtsp/VLC-View-RTSP-en.webp)
+   ![VLC-View-RTSP](/img/general-tutorial/rtsp/VLC-View-RTSP-en.webp)

@@ -1,22 +1,22 @@
-.card>li:hover .goH1 {
-  color: #74BC1F;
+.card > li:hover .goH1 {
+  color: #74bc1f;
 }
 
-.card>li>a {
+.card > li > a {
   width: 100%;
   height: 100%;
   display: block;
 }
 
-.card>li:hover {
+.card > li:hover {
   box-shadow: 0px 5.06748px 10.135px rgba(0, 0, 0, 0.25);
 }
 
-.card>li:hover {
-  color: #74BC1F;
+.card > li:hover {
+  color: #74bc1f;
 }
 
-.card>li:hover .goToIcon {
+.card > li:hover .goToIcon {
   background: url(/static/colorRig.svg) no-repeat;
   background-size: 55%;
 }
@@ -47,24 +47,23 @@ ul {
     background-color: rgb(9, 9, 9);
   }
 
-
   .centerBox {
     width: 880px;
     height: 300px;
     margin: 100px auto 0;
   }
 
-  .card>.doc {
+  .card > .doc {
     cursor: pointer;
     width: 418px;
     height: 230px;
     background-color: #fff;
-    transition: .3s;
+    transition: 0.3s;
     margin-right: 15px;
     margin-bottom: 15px;
   }
 
-  .card>.doc .goTo {
+  .card > .doc .goTo {
     height: 46px;
     margin-top: 50px;
     margin-left: 15px;
@@ -73,13 +72,13 @@ ul {
     align-items: center;
   }
 
-  .card>li .goTo>h1 {
+  .card > li .goTo > h1 {
     font-style: normal;
     font-weight: 700;
     font-size: 28px;
     margin-bottom: 0;
     color: #000000;
-    transition: .3s;
+    transition: 0.3s;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -109,7 +108,7 @@ ul {
     margin: 80px auto;
   }
 
-  .list>h1 {
+  .list > h1 {
     font-style: normal;
     font-weight: 700;
     font-size: 56px;
@@ -128,17 +127,17 @@ ul {
     flex-wrap: wrap;
   }
 
-  .card>li {
+  .card > li {
     cursor: pointer;
     width: 418px;
     height: 230px;
     background-color: #fff;
-    transition: .3s;
+    transition: 0.3s;
     margin-right: 10px;
     margin-top: 10px;
   }
 
-  .card>li .goTo {
+  .card > li .goTo {
     height: 46px;
     margin-top: 50px;
     margin-left: 12px;
@@ -147,17 +146,16 @@ ul {
     align-items: center;
   }
 
-  .card>li .goTo>h1 {
+  .card > li .goTo > h1 {
     font-style: normal;
     font-weight: 700;
     font-size: 28px;
     margin-bottom: 0;
     color: #000000;
-    transition: .3s;
-
+    transition: 0.3s;
   }
 
-  .card>li p {
+  .card > li p {
     font-style: normal;
     font-weight: 300;
     font-size: 14px;
@@ -174,10 +172,10 @@ ul {
     background-size: 50%;
     margin-left: 10px;
     margin-top: 8px;
-    transition: .3s;
+    transition: 0.3s;
   }
 
-  .card>.longli {
+  .card > .longli {
     width: 500px;
   }
 }
@@ -188,7 +186,6 @@ ul {
     height: 328px;
     margin: 0 auto;
     background-color: rgb(9, 9, 9);
-
   }
 
   .centerBox {
@@ -196,8 +193,6 @@ ul {
     height: 300px;
     margin: 50px auto 0;
   }
-
-
 
   .seleH {
     color: #fff;
@@ -223,7 +218,7 @@ ul {
     margin: 80px auto;
   }
 
-  .list>h1 {
+  .list > h1 {
     font-style: normal;
     font-weight: 700;
     font-size: 56px;
@@ -242,17 +237,17 @@ ul {
     flex-wrap: wrap;
   }
 
-  .card>li {
+  .card > li {
     cursor: pointer;
     width: 336.42px;
     height: 230px;
     background-color: #fff;
-    transition: .3s;
+    transition: 0.3s;
     margin-right: 10px;
     margin-top: 10px;
   }
 
-  .card>li .goTo {
+  .card > li .goTo {
     height: 46px;
     margin-top: 50px;
     margin-left: 12px;
@@ -261,17 +256,16 @@ ul {
     align-items: center;
   }
 
-  .card>li .goTo>h1 {
+  .card > li .goTo > h1 {
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     margin-bottom: 0;
     color: #000000;
-    transition: .3s;
-
+    transition: 0.3s;
   }
 
-  .card>li p {
+  .card > li p {
     font-style: normal;
     font-weight: 300;
     font-size: 14px;
@@ -288,16 +282,15 @@ ul {
     background-size: 50%;
     margin-left: 10px;
     margin-top: 8px;
-    transition: .3s;
+    transition: 0.3s;
   }
 
-  .card>.longli {
+  .card > .longli {
     width: 500px;
   }
 }
 
 @media screen and (max-width: 1050px) and (min-width: 750px) {
-
   .selectBox {
     width: 100%;
     height: 328px;
@@ -310,8 +303,6 @@ ul {
     height: 300px;
     margin: 50px auto 0;
   }
-
-
 
   .seleH {
     color: #fff;
@@ -337,7 +328,7 @@ ul {
     margin: 50px auto;
   }
 
-  .list>h1 {
+  .list > h1 {
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -356,17 +347,17 @@ ul {
     flex-wrap: wrap;
   }
 
-  .card>li {
+  .card > li {
     cursor: pointer;
     width: 216.42px;
     height: 162px;
     background-color: #fff;
-    transition: .3s;
+    transition: 0.3s;
     margin-right: 10px;
     margin-top: 10px;
   }
 
-  .card>li .goTo {
+  .card > li .goTo {
     height: 46px;
     margin-top: 30px;
     margin-left: 12px;
@@ -375,17 +366,16 @@ ul {
     align-items: center;
   }
 
-  .card>li .goTo>h1 {
+  .card > li .goTo > h1 {
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
     margin-bottom: 0;
     color: #000000;
-    transition: .3s;
-
+    transition: 0.3s;
   }
 
-  .card>li p {
+  .card > li p {
     font-style: normal;
     font-weight: 300;
     font-size: 12px;
@@ -401,15 +391,13 @@ ul {
     background-size: 50%;
     margin-left: 10px;
     margin-top: 8px;
-    transition: .3s;
+    transition: 0.3s;
   }
 
-  .card>.longli {
+  .card > .longli {
     width: 500px;
   }
 }
-
-
 
 @media screen and (max-width: 750px) {
   html {
@@ -435,8 +423,6 @@ ul {
     margin: 3.125rem auto 0;
   }
 
-
-
   .seleH {
     color: #fff;
     text-align: center;
@@ -461,7 +447,7 @@ ul {
     margin: 3.125rem auto;
   }
 
-  .list>h1 {
+  .list > h1 {
     font-style: normal;
     font-weight: 700;
     font-size: 2.25rem;
@@ -480,42 +466,41 @@ ul {
     flex-wrap: wrap;
   }
 
-  .card>li {
+  .card > li {
     cursor: pointer;
     width: 46.875rem;
     height: 10.125rem;
     background-color: #fff;
-    transition: .3s;
-    margin-right: .625rem;
-    margin-top: .625rem;
+    transition: 0.3s;
+    margin-right: 0.625rem;
+    margin-top: 0.625rem;
   }
 
-  .card>li .goTo {
+  .card > li .goTo {
     height: 2.875rem;
     margin-top: 1.875rem;
-    margin-left: .75rem;
-    margin-bottom: .625rem;
+    margin-left: 0.75rem;
+    margin-bottom: 0.625rem;
     display: flex;
     align-items: center;
   }
 
-  .card>li .goTo>h1 {
+  .card > li .goTo > h1 {
     font-style: normal;
     font-weight: 700;
     font-size: 1.25rem;
     margin-bottom: 0;
     color: #000000;
-    transition: .3s;
-
+    transition: 0.3s;
   }
 
-  .card>li p {
+  .card > li p {
     font-style: normal;
     font-weight: 300;
-    font-size: .75rem;
+    font-size: 0.75rem;
     letter-spacing: -0.015em;
     color: rgba(0, 0, 0, 0.8);
-    margin-left: .75rem;
+    margin-left: 0.75rem;
   }
 
   .goToIcon {
@@ -523,16 +508,15 @@ ul {
     height: 1.7rem;
     background: url(/static/rig.svg) no-repeat;
     background-size: 50%;
-    margin-left: .625rem;
-    transition: .3s;
+    margin-left: 0.625rem;
+    transition: 0.3s;
   }
 
-  .card>.longli {
+  .card > .longli {
     width: 31.25rem;
   }
 
   .list {
     min-height: 50rem;
   }
-
 }

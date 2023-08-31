@@ -1,9 +1,9 @@
 {
   "label": "Radxa CM3 IO Board",
-  "position": 10,
   "link": {
-    "type": "generated-index",
+    "description": "Start with your Radxa CM3 from here",
     "slug": "/compute-module/cm3/cm3-io-board",
-    "description": "Start with your Radxa CM3 from here"
-  }
+    "type": "generated-index"
+  },
+  "position": 10
 }

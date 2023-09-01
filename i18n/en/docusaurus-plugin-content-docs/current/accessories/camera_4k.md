@@ -16,21 +16,21 @@ Radxa Camera 4K is an high resolution camera module for Radxa products powered b
 
 ## Specification
 
-- Sensor：  
-  – SONY IMX415  
-  – Diagonal 6.43 mm (Type 1/2.8)  
-  – 8.29M pixel  
-  – Unit cell size: 1.45 µm (H) × 1.45 µm (V)
-- Output:  
-  – MIPI CSI‑2 4‑Lanes serial data output  
-  – RAW10 / RAW12 output
-- Lens Specification:  
-  – Interface Type： M12XP0.5  
-  – Focal Length(EFL): 2.95±5%mm  
-  – Back Focal Length(BFL): 4.64mm  
-  – Flange Back Length(FBL): 4.00mm  
-  – Single lens operating temperature：‑40°C ~ +85°C  
-  – FOV
+- Sensor：
+  - SONY IMX415
+  - Diagonal 6.43 mm (Type 1/2.8)
+  - 8.29M pixel
+  - Unit cell size: 1.45 µm (H) × 1.45 µm (V)
+- Output:
+  - MIPI CSI‑2 4‑Lanes serial data output
+  - RAW10 / RAW12 output
+- Lens Specification:
+  - Interface Type： M12XP0.5
+  - Focal Length(EFL): 2.95±5%mm
+  - Back Focal Length(BFL): 4.64mm
+  - Flange Back Length(FBL): 4.00mm
+  - Single lens operating temperature：‑40°C ~ +85°C
+  - FOV
 
 | Field of view (Diagonal/Horizontal/Vertical) | CRA |
 | -------------------------------------------- | --- |

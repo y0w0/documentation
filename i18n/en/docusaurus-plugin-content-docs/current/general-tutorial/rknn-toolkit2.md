@@ -1,17 +1,21 @@
 ---
-sidebar_label: "PC-based npu model transformation and inference tutorial (rknn-toolkit2)"
+sidebar_label: "PC-based npu model transformation and inference tutorial (RKNN Toolkit2)"
 sidebar_position: 20
 ---
 
-# PC-based npu model transformation and inference tutorial (rknn-toolkit2)
+# PC-based npu model transformation and inference tutorial (RKNN Toolkit2)
 
-## Install dependencies and software required to compile and run rknn-toolkit2
+:::info
+This document only shows how to run the official example, for more information you can check the doc folder in the repository.
+:::
+
+## Install dependencies and software required to compile and run RKNN Toolkit2
 
 ```bash
 sudo apt install git python-is-python3 python3-pip libxslt1-dev zlib1g-dev libglib2.0-dev libsm6 libgl1-mesa-glx libprotobuf-dev build-essential adb
 ```
 
-## Download and installing rknn-toolkit2
+## Download and installing RKNN Toolkit2
 
 ```bash
 git clone https://github.com/rockchip-linux/rknn-toolkit2.git

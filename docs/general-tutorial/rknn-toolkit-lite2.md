@@ -6,7 +6,7 @@ sidebar_position: 20
 # 板端 Python npu 模型推理教程 (RKNN Toolkit Lite2)
 
 :::info
-本文档仅演示如何运行官方示例，更多资料可以查看源码库内的doc文件夹
+本文档仅演示如何运行官方示例，更多资料可以查看源码库内的 doc 文件夹
 :::
 
 ## 安装编译与运行 RKNN Toolkit Lite2 所需依赖

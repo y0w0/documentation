@@ -5,6 +5,10 @@ sidebar_position: 20
 
 # PC 端 npu 模型转换与推理教程 (RKNN Toolkit2)
 
+:::info
+本文档仅演示如何运行官方示例，更多资料可以查看源码库内的doc文件夹
+:::
+
 ## 安装编译与运行 RKNN Toolkit2 所需依赖及软件
 
 ```bash

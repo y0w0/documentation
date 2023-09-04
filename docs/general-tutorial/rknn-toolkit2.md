@@ -1,17 +1,21 @@
 ---
-sidebar_label: "PC端npu模型转换与推理教程 (rknn-toolkit2)"
+sidebar_label: "PC 端 NPU 模型转换与推理教程 (RKNN Toolkit2)"
 sidebar_position: 20
 ---
 
-# PC端npu模型转换与推理教程 (rknn-toolkit2)
+# PC 端 NPU 模型转换与推理教程 (RKNN Toolkit2)
 
-## 安装编译与运行 rknn-toolkit2 所需依赖及软件
+:::info
+本文档仅演示如何运行官方示例，更多资料可以查看源码库内的 doc 文件夹
+:::
+
+## 安装编译与运行 RKNN Toolkit2 所需依赖及软件
 
 ```bash
 sudo apt install git python-is-python3 python3-pip libxslt1-dev zlib1g-dev libglib2.0-dev libsm6 libgl1-mesa-glx libprotobuf-dev build-essential adb
 ```
 
-## 拉取与安装 rknn-toolkit2
+## 拉取与安装 RKNN Toolkit2
 
 ```bash
 git clone https://github.com/rockchip-linux/rknn-toolkit2.git

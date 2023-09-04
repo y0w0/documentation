@@ -1,9 +1,9 @@
 ---
-sidebar_label: "Board-side Python npu model inference tutorial (RKNN Toolkit Lite2)"
+sidebar_label: "Board-side Python NPU model inference tutorial (RKNN Toolkit Lite2)"
 sidebar_position: 20
 ---
 
-# Board-side Python npu model inference tutorial (RKNN Toolkit Lite2)
+# Board-side Python NPU model inference tutorial (RKNN Toolkit Lite2)
 
 :::info
 This document only shows how to run the official example, for more information you can check the doc folder in the repository.
@@ -16,9 +16,11 @@ sudo apt install git python-is-python3 python3-pip python3-dev python3-opencv py
 ```
 
 ## Downloading and Installing RKNPU2 Dependencies
+
 :::info
 The path to the source file for the copy command needs to be changed depending on the SOC and system architecture.
 :::
+
 ```bash
 git clone https://github.com/rockchip-linux/rknpu2.git
 sudo cp rknpu2/runtime/RK3588/Linux/librknn_api/aarch64/* /usr/lib
@@ -39,7 +41,7 @@ pip install ./packages/rknn_toolkit_lite2-1.5.2-cp39-cp39-linux_aarch64.whl
 ## Running the Resnet18 example
 
 :::info
-RKNN Toolkit Lite2 is mainly used for deploying RKNN models on Rockchip NPU. Before using RKNN Toolkit Lite2, users need to convert the models exported by deep learning frameworks to RKNN models through RKNN Toolkit2. The tutorial of using RKNN Toolkit2 can be found in [PC-based npu model transformation and inference tutorial (RKNN Toolkit2)](./rknn-toolkit2)
+RKNN Toolkit Lite2 is mainly used for deploying RKNN models on Rockchip NPU. Before using RKNN Toolkit Lite2, users need to convert the models exported by deep learning frameworks to RKNN models through RKNN Toolkit2. The tutorial of using RKNN Toolkit2 can be found in [PC-based NPU model transformation and inference tutorial (RKNN Toolkit2)](./rknn-toolkit2)
 :::
 
 ```bash

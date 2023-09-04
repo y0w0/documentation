@@ -1,9 +1,9 @@
 ---
-sidebar_label: "PC-based npu model transformation and inference tutorial (RKNN Toolkit2)"
+sidebar_label: "PC-based NPU model transformation and inference tutorial (RKNN Toolkit2)"
 sidebar_position: 20
 ---
 
-# PC-based npu model transformation and inference tutorial (RKNN Toolkit2)
+# PC-based NPU model transformation and inference tutorial (RKNN Toolkit2)
 
 :::info
 This document only shows how to run the official example, for more information you can check the doc folder in the repository.

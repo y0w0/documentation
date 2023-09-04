@@ -3,7 +3,7 @@ sidebar_label: "板端 Python NPU 模型推理教程 (RKNN Toolkit Lite2)"
 sidebar_position: 20
 ---
 
-# 板端 Python npu 模型推理教程 (RKNN Toolkit Lite2)
+# 板端 Python NPU 模型推理教程 (RKNN Toolkit Lite2)
 
 :::info
 本文档仅演示如何运行官方示例，更多资料可以查看源码库内的 doc 文件夹。
@@ -17,9 +17,11 @@ sudo apt install git python-is-python3 python3-pip python3-dev python3-opencv py
 ```
 
 ## 下载与安装 RKNPU2 依赖
+
 :::info
 拷贝命令的源文件路径需要根据SOC与系统架构的不同更换文件路径名。
 :::
+
 ```bash
 git clone https://github.com/rockchip-linux/rknpu2.git
 sudo cp rknpu2/runtime/RK3588/Linux/librknn_api/aarch64/* /usr/lib

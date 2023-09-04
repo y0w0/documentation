@@ -20,8 +20,8 @@ ROCK 5B 上有一个 SPI Flash（SPI 闪存）,在 ROCK 5A 上则为与 eMMC 模
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-<Tabs>
-<TabItem value="初级方法" label="初级方法" default>
+<Tabs queryString="method">
+<TabItem value="basic" label="初级方法" default>
 
 ## 初级方法
 
@@ -150,7 +150,7 @@ import TabItem from '@theme/TabItem';
 - 如果您已经在 NVMe SSD 烧录了系统，请关闭 ROCK 5B 的电源，取出 µSD 卡或 eMMC 模块并重新通电。现在应该从 NVMe 启动
 
 </TabItem>
-<TabItem value="高级方法" label="高级方法">
+<TabItem value="advanced" label="高级方法">
 
 ## 高级方法
 
@@ -173,7 +173,6 @@ import TabItem from '@theme/TabItem';
 2. 获取 RK3588 loader 和 U-boot images
 
 - 下载 [loader images](https://dl.radxa.com/rock5/sw/images/loader/rock-5b/rk3588_spl_loader_v1.08.111.bin)
-
 - 下载最新 SPI 镜像
 
   - [正式版本](https://dl.radxa.com/rock5/sw/images/loader/rock-5b/release/rock-5b-spi-image-g49da44e116d.img)，u-boot 串口控制台关闭
@@ -181,16 +180,18 @@ import TabItem from '@theme/TabItem';
   - [Armbian版本](https://github.com/huazi-yg/rock5b/releases/download/rock5b/rkspi_loader.img)，需要安装 armbian Image 到 M.2 NVME SSD 时使用
   - [ROCK 5A 版本](https://dl.radxa.com/rock5/sw/images/loader/rock-5a/rock-5a-spi-image-g4b32117-20230605.img)，用于ROCK 5A。
 
-    3.1 ROCK 5B 进入 Maskrom 模式
+3. ROCK 5B 进入 Maskrom 模式
 
-- ![rock5b-maskrom](/zh/img/rock5b/rock-5b-maskrom-01.jpeg)
+![rock5b-maskrom](/zh/img/rock5b/rock-5b-maskrom-01.jpeg)
 
 - ROCK 5B 断开电源，关闭电路板。
 - 移除可启动设备，如 Micro SD 卡、eMMC 模块等。
 - 按下金色（或某些电路板版本上的银色）按钮并按住。如上图所示
 - 将 USB-A 转 Type-C 线缆插入 ROCK 5B Type-C 端口，另一端连接 PC。
 - 松开金色按钮，然后检查 USB 设备。
-  3.2 ROCK 5A 进入 Maskrom 模式
+
+4. ROCK 5A 进入 Maskrom 模式
+
 - 拔掉板子的电源。
 - 将 eMMC 或其他存储介质取下。
 - 把 USB-A 转 USB-A 线一端插入 ROCK 5A **上方的** [USB 3.0 端口](../rock5a/getting-started/overview)(8号标注)，另一端接入电脑 USB 3.0 端口。
@@ -204,7 +205,7 @@ import TabItem from '@theme/TabItem';
 - 对于 Linux 主机：`lsusb` 结果应该是：`... ID 2207:350b Fuzhou Rockchip Electronics Company`
 - 对于 Windows 主机：打开 RKDevTool，您会看到该设备处于**找到一个 MASKROM 设备**
 
-4. 将 u-boot 镜像写入 SPI NOR flash 或擦除 SPI NOR flash
+5. 将 u-boot 镜像写入 SPI NOR flash 或擦除 SPI NOR flash
 
 - 选择1. 使用 Linux PC/Mac 烧录
   在 linux 或 Mac 上，运行 rkdeveloptool

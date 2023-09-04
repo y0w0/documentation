@@ -43,22 +43,22 @@ The Radxa Display 8 HD touch panel is powered by GT911, a new‑generation 5‑p
 
 ### Features
 
-- Built‑in capacitive sensing circuit and high‑performance MPU  
-   – Report rate: 100Hz  
-   – Outputs touch coordinates in real time  
-   – Unified software applicable to capacitive touch screens of various sizes
-- Capacitive touch sensor  
-  – Channels: 26 (Tx channels) \* 14 (Rx channels)  
-   – Cover Lens thickness supported: 0.55mm ≦ Glass ≦ 2mm,0.5mm ≦ PMMA ≦ 1.2mm  
-   – Adaptive frequency hopping  
-   – Supports OGS full lamination
-- Environmental adaptability  
-   – Self‑calibration during initialization  
-   – Automatic drift compensation
-- Response time  
-   – Green mode: <48ms  
-   – Sleep mode: <200ms  
-   – Initialization: <200ms
+- Built‑in capacitive sensing circuit and high‑performance MPU
+  - Report rate: 100Hz
+  - Outputs touch coordinates in real time
+  - Unified software applicable to capacitive touch screens of various sizes
+- Capacitive touch sensor
+  - Channels: 26 (Tx channels) \* 14 (Rx channels)
+  - Cover Lens thickness supported: 0.55mm ≦ Glass ≦ 2mm,0.5mm ≦ PMMA ≦ 1.2mm
+  - Adaptive frequency hopping
+  - Supports OGS full lamination
+- Environmental adaptability
+  - Self‑calibration during initialization
+  - Automatic drift compensation
+- Response time
+  - Green mode: <48ms
+  - Sleep mode: <200ms
+  - Initialization: <200ms
 
 ## Pinout
 

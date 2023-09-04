@@ -42,8 +42,8 @@ pip install ./packages/rknn_toolkit_lite2-1.5.2-cp39-cp39-linux_aarch64.whl
 ## Running the Resnet18 example
 
 :::info
-RKNN Toolkit Lite2 is mainly used for deploying RKNN models on Rockchip NPU.
-Before using RKNN Toolkit Lite2, users need to convert the models exported by deep learning frameworks to RKNN models through RKNN Toolkit2.
+RKNN Toolkit Lite2 is mainly used for deploying RKNN models on Rockchip NPU.  
+Before using RKNN Toolkit Lite2, users need to convert the models exported by deep learning frameworks to RKNN models through RKNN Toolkit2.  
 The tutorial of using RKNN Toolkit2 can be found in [PC-based NPU model transformation and inference tutorial (RKNN Toolkit2)](./rknn-toolkit2).
 :::
 
@@ -71,9 +71,9 @@ done
 ```
 
 :::info
-Executing this example will load the Resnet18 model and perform inference to get the top5 classification results for the test image.
-Here, category 812 has the highest probability, so the model may think that the input image belongs to category 812.
-To understand what category 812 represents, you need to look at the dataset or labels that were used in the training of the model, or look for documents or resources related to the model to determine what category 812 means.
+Executing this example will load the Resnet18 model and perform inference to get the top5 classification results for the test image.  
+Here, category 812 has the highest probability, so the model may think that the input image belongs to category 812.  
+To understand what category 812 represents, you need to look at the dataset or labels that were used in the training of the model, or look for documents or resources related to the model to determine what category 812 means.  
 In this case category 812 would represent the space shuttle.
 :::
 

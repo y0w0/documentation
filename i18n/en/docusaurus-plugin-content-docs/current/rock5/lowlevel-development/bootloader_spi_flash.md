@@ -191,7 +191,7 @@ For ROCK 5A, please check [this guide](../rock5a/getting-started/rkdevtool).
 
 For ROCK 5B, operate as following:
 
-- ![rock5b-maskrom](/zh/img/rock5b/rock-5b-maskrom-01.jpeg)
+- ![rock5b-maskrom](/zh/img/rock5b/rock-5b-maskrom-01.webp)
 
 - Power off the board.
 - Remove bootable device like MicroSD card, eMMC module, etc.
@@ -240,7 +240,7 @@ now, the device should boot on SPI Nor Flash. And the blue led is on.
 
 Double click the RKDevTool.exe and you will see the following interface: Double click the RKDevTool.exe and you will see the following interface:
 
-![RKDevTool-01](/zh/img/rock5b/rock-5b-spi-flash-01.png)
+![RKDevTool-01](/zh/img/rock5b/rock-5b-spi-flash-01.webp)
 
 Step 1: confirm that ROCK 5B is in maskrom mode
 If your ROCK 5B is in maskrom mode and connects to PC, you can see that the program detects it, as the red arrow below
@@ -248,7 +248,7 @@ If your ROCK 5B is in maskrom mode and connects to PC, you can see that the prog
 Step 2: Load Configuration File
 Right-click in the list box and select Load Config,Then select the configuration file in the resource management folder（The configuration file and RKDevTool are in the same directory）
 
-![RKDevTool-02](/zh/img/rock5b/rock-5b-spi-flash-02.png)
+![RKDevTool-02](/zh/img/rock5b/rock-5b-spi-flash-02.webp)
 
 Step 3: Select Loader
 Next, click the right last columns in the "Loader" row to select rk3588_spl_loader_v1.08.111.bin
@@ -259,7 +259,7 @@ Next, click the right last columns in the "spi" row to select spi-image.
 Step 5: Excute
 Finally, click the "Excute" button, and you will see the content in the red box on the right. When the progress reaches 100%, the download is completed.
 
-![RKDevTool-03](/zh/img/rock5b/rock-5b-spi-flash-03.png)
+![RKDevTool-03](/zh/img/rock5b/rock-5b-spi-flash-03.webp)
 
 ## erase the SPI NOR flash
 
@@ -290,7 +290,7 @@ Before Erasing, please confirm that ROCK 5B is in maskrom mode
 - Click the "erase all" button after completion of Download
 - Reboot device
 
-![RKDevTool-04](/zh/img/rock5b/rock-5b-spi-flash-04.png)
+![RKDevTool-04](/zh/img/rock5b/rock-5b-spi-flash-04.webp)
 
 </TabItem>
 </Tabs>

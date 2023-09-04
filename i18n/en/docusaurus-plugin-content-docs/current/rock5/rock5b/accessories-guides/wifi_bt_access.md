@@ -7,10 +7,10 @@ sidebar_position: 2
 
 - ROCK 5B is not equipped with onboard WiFi/BT module, it needs an external module. It tested and supported[WIFI/BT卡](./support_accessories)
 - The M.2 wireless module demonstrated here is: Radxa Wireless Module A8.
-  ![Radxa Wireless Module A8](/zh/img/accessories/a8-module-01.png)
+  ![Radxa Wireless Module A8](/zh/img/accessories/a8-module-01.webp)
 - The installation is as shown in the figure:
 
-![Radxa Wireless Module A8](/zh/img/accessories/a8-module-02.png)
+![Radxa Wireless Module A8](/zh/img/accessories/a8-module-02.webp)
 
 ## WIFI Usage
 

@@ -15,8 +15,8 @@ It can use breakout board to make M.2 E-key into SATA.
 - M.2 E key to SATA breakout board
 - SATA cable
 
-![M.2-SATA-01](/zh/img/rock5b/m2-sata-01.png)
-![M.2-SATA-02](/zh/img/rock5b/m2-sata-02.png)
+![M.2-SATA-01](/zh/img/rock5b/m2-sata-01.webp)
+![M.2-SATA-02](/zh/img/rock5b/m2-sata-02.webp)
 
 ## Hardware Connection
 
@@ -24,10 +24,10 @@ SATA power cable, yellow is 12V, red is 5V, black is GND.
 
 1. If you use SSD. Need to use 5V power from 40pin. as the picture shows:
 
-![M.2-SATA-03](/zh/img/rock5b/m2-sata-03.jpg)
+![M.2-SATA-03](/zh/img/rock5b/m2-sata-03.webp)
 
 2. If you use a hard drive. Requires 12V and 5V power supplies. In the picture, the digital power supply is used to supply 12V, and the 5V power supply in 40pin is used.
-   ![M.2-SATA-04](/zh/img/rock5b/m2-sata-04.jpg)
+   ![M.2-SATA-04](/zh/img/rock5b/m2-sata-04.webp)
 
 ## Software Configuration
 

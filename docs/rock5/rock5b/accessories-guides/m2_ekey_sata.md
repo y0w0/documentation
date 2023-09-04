@@ -15,18 +15,18 @@ ROCK 5B有一个M.2 E-Key，支持PCIe 2.1 1-lanes、SATA、SDIO、UART。
 - M.2 E-key to SATA breakout board
 - SATA线材
 
-![M.2-SATA-01](/zh/img/rock5b/m2-sata-01.png)
-![M.2-SATA-02](/zh/img/rock5b/m2-sata-02.png)
+![M.2-SATA-01](/zh/img/rock5b/m2-sata-01.webp)
+![M.2-SATA-02](/zh/img/rock5b/m2-sata-02.webp)
 
 ## 硬件连接
 
 SATA电源线，黄色 12V，红色 5V，黑色 GND。
 
 1. 如果你使用固态硬盘。需要从 40pin 中使用 5V 电源。如图所示
-   ![M.2-SATA-03](/zh/img/rock5b/m2-sata-03.jpg)
+   ![M.2-SATA-03](/zh/img/rock5b/m2-sata-03.webp)
 
 2. 如果你使用硬盘。需要12V 和 5V 电源。图中使用数字电源供电12V，40pin 中使用 5V 电源。
-   ![M.2-SATA-04](/zh/img/rock5b/m2-sata-04.jpg)
+   ![M.2-SATA-04](/zh/img/rock5b/m2-sata-04.webp)
 
 ## 软件配置
 

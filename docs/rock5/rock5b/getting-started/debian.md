@@ -204,7 +204,7 @@ Playing WAVE '/mnt/test.wav' : Signed 16 bit Little Endian, Rate 44100 Hz, Stere
 
 1. 风扇
 
-![风扇安装-01](/zh/img/rock5b/fan-01.png)
+![风扇安装-01](/zh/img/rock5b/fan-01.webp)
 
 - ROCK5B 有PWM风扇连接座。执行脚本test_fan_run.sh打开风扇
 

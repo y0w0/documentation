@@ -8,11 +8,11 @@ sidebar_position: 2
 - ROCK 5B没有板载WiFi/BT模块，需要外接模块。测试并支持[WIFI/BT卡](./support_accessories)
 - 这里演示的M.2无线模块是： Radxa无线模块A8。
 
-[Radxa无线模块A8](/zh/img/accessories/a8-module-01.png)
+[Radxa无线模块A8](/zh/img/accessories/a8-module-01.webp)
 
 - 安装如图所示：
 
-[Radxa无线模块A8](/zh/img/accessories/a8-module-02.png)
+[Radxa无线模块A8](/zh/img/accessories/a8-module-02.webp)
 
 ## WIFI 使用情况
 

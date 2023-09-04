@@ -13,14 +13,14 @@ sidebar_position: 15
 
   - microSD， 大于 8GB
   - eMMC Module， 大于8GB
-  - 推荐使用 Radxa eMMC Module ![Radxa eMMC Module](/img/accessories/emmc-module.png).
+  - 推荐使用 Radxa eMMC Module ![Radxa eMMC Module](/img/accessories/emmc-module.webp).
 
 - 电源供应
 
   - ROCK 5B采用Type-C接口供电，输入电压范围广，从5V到21V。
   - ROCK 5B 支持 9V/2A、12V/2A、15V/2A 和 20V/2A 的 USB Type-C PD 2.0。
   - 您使用的Type-C数据线需要支持数据通信。 我们称之为USB Type-C充电数据线。
-  - 推荐使用官方的 Radxa Power PD 30W ![Radxa Power PD 30W](/img/accessories/pd-30w.png).
+  - 推荐使用官方的 Radxa Power PD 30W ![Radxa Power PD 30W](/img/accessories/pd-30w.webp).
 
 - USB 键盘和鼠标
 
@@ -34,11 +34,11 @@ sidebar_position: 15
 - USB 转 TTL 串口线
 
   - ROCK 5B 为 CPU 输出一个专用串行控制台，可以访问低级调试消息。
-  - 推荐使用Radxa USB to TTL Cable ![USB to TTL Cable](/img/accessories/usb-ttl.png).
+  - 推荐使用Radxa USB to TTL Cable ![USB to TTL Cable](/img/accessories/usb-ttl.webp).
 
 - 读卡器（二选一）
   - microSD 读卡器: 用于将镜像烧录到 microSD 卡中
-  - eMMC 读卡器: 用于将镜像烧录到eMMC 模块中，推荐使用 Radxa eMMC USB3 reader ![Radxa eMMC USB3 reader](/img/accessories/emmc-reader-02.png).
+  - eMMC 读卡器: 用于将镜像烧录到eMMC 模块中，推荐使用 Radxa eMMC USB3 reader ![Radxa eMMC USB3 reader](/img/accessories/emmc-reader-02.webp).
 
 ## 可选选项
 
@@ -68,7 +68,7 @@ sidebar_position: 15
 - WiFi/蓝牙卡
   - ROCK5B 支持 市面上常见的无线模块，请查看[支持列表](../accessories-guides/support_accessories)的 Wireless 列表。
   - 推荐使用 Radxa Wireless Module A8
-    ![Radxa Wireless Module A8](/img/accessories/a8-module-01.png).
+    ![Radxa Wireless Module A8](/img/accessories/a8-module-01.webp).
 
 ## 烧录方式选择
 
@@ -83,22 +83,22 @@ import TabItem from '@theme/TabItem';
 
 2. 将要烧录的MicroSD Card插入MicroSD Card读卡器，或者eMMC 按照正确方式插入 eMMC 读卡器。 eMMC的正确插入方式请看:
 
-   - ![emmc_insert](/zh/img/accessories/emmc-reader-02.png).
+   - ![emmc_insert](/zh/img/accessories/emmc-reader-02.webp).
 
 3. 打开etcher窗口，首先选择Flash from file，找到您镜像下载位置，双击选择。
 
-   - ![rock-5b-etcher-01](/zh/img/rock5b/rock-5b-etcher-01.png)
+   - ![rock-5b-etcher-01](/zh/img/rock5b/rock-5b-etcher-01.webp)
 
 4. 然后点击Select target，选择自己要烧录的eMMC或者MicroSD Card。
 
-   - ![rock-5b-etcher-02](/zh/img/rock5b/rock-5b-etcher-02.png)
+   - ![rock-5b-etcher-02](/zh/img/rock5b/rock-5b-etcher-02.webp)
 
 5. 点击Flash,烧录等待成功，这里需要一段时间。
 
-   - ![rock-5b-etcher-03](/zh/img/rock5b/rock-5b-etcher-03.png)
+   - ![rock-5b-etcher-03](/zh/img/rock5b/rock-5b-etcher-03.webp)
 
 6. 烧录成功，会显示如图所示，Flash Complete！，如果烧录未成功，请麻烦重试。
-   - ![rock-5b-etcher-04](/zh/img/rock5b/rock-5b-etcher-04.png)
+   - ![rock-5b-etcher-04](/zh/img/rock5b/rock-5b-etcher-04.webp)
 
 </TabItem>
 <TabItem value="Rufus" label="Rufus 方式">
@@ -108,20 +108,20 @@ import TabItem from '@theme/TabItem';
 
 2. 插入已经装好MicroSD卡或者eMMC的读卡器，然后打开Rufus，Rufus会自动识别，如果识别错误，请在设备栏目选中正确读卡器。显示如图所示。
 
-   - ![rock-5b-Rufus-01](/zh/img/rock5b/rock-5b-rufus-01.png)
+   - ![rock-5b-Rufus-01](/zh/img/rock5b/rock-5b-rufus-01.webp)
 
 3. 点击选择，选中下载好的镜像，如图所示。
 
-   - ![rock-5b-Rufus-02](/zh/img/rock5b/rock-5b-rufus-02.png)
-   - ![rock-5b-Rufus-03](/zh/img/rock5b/rock-5b-rufus-03.png)
+   - ![rock-5b-Rufus-02](/zh/img/rock5b/rock-5b-rufus-02.webp)
+   - ![rock-5b-Rufus-03](/zh/img/rock5b/rock-5b-rufus-03.webp)
 
 4. 点击开始之后，会提示警告信息，点击确定。
 
-   - ![rock-5b-Rufus-04](/zh/img/rock5b/rock-5b-rufus-04.png)
+   - ![rock-5b-Rufus-04](/zh/img/rock5b/rock-5b-rufus-04.webp)
 
 5. 等待烧录完成，进度条走完即烧录完成。
-   - ![rock-5b-Rufus-05](/zh/img/rock5b/rock-5b-rufus-05.png)
-   - ![rock-5b-Rufus-06](/zh/img/rock5b/rock-5b-rufus-06.png)
+   - ![rock-5b-Rufus-05](/zh/img/rock5b/rock-5b-rufus-05.webp)
+   - ![rock-5b-Rufus-06](/zh/img/rock5b/rock-5b-rufus-06.webp)
 
 </TabItem>
 <TabItem value="dd" label="dd 命令方式">
@@ -129,7 +129,7 @@ import TabItem from '@theme/TabItem';
 
 1. 使用`sudo fdisk -l`命令查看存储卡，如图所示
 
-   - ![rock-5b-dd-01](/zh/img/rock5b/rock-5b-dd-01.png)
+   - ![rock-5b-dd-01](/zh/img/rock5b/rock-5b-dd-01.webp)
    - 可以看出，MicroSD Card的盘符: /dev/sdb
 
 2. 如果有显示有分区，并且有挂载目录，需要提前取消挂载，使用`umount`命令取消挂载。
@@ -137,11 +137,11 @@ import TabItem from '@theme/TabItem';
 3. 写入镜像前，请解压下载的镜像文件为`.img`文件。使用`xz`命令解压缩。如图所示：
    `xz -d 镜像压缩名称`
 
-   - ![rock-5b-dd-02](/zh/img/rock5b/rock-5b-dd-02.png)
+   - ![rock-5b-dd-02](/zh/img/rock5b/rock-5b-dd-02.webp)
 
 4. dd命令格式`sudo dd if=镜像位置 of=/dev/盘号`，如图所示：
 
-   - ![rock-5b-dd-03](/zh/img/rock5b/rock-5b-dd-03.png)
+   - ![rock-5b-dd-03](/zh/img/rock5b/rock-5b-dd-03.webp)
    - if 后面接的是想要烧录的镜像，of 指向烧录位置，可以是设备或者文件，bs指块大小，status 为显示烧录状态，oflag表示dd方式，这里选择直连（即不复制到内存中），等到终端自行退出到可输入模式后就已经完成烧录了。
 
 </TabItem>
@@ -173,10 +173,10 @@ import TabItem from '@theme/TabItem';
 - 现在将带有镜像的存储介质 μSD Card 或 eMMC Module 插入开发板上的插槽中。
 
 - μSD Card插入方式，如图所示：
-- ![sd_insert](/img/rock5b/rock-5b-04.png)
+- ![sd_insert](/img/rock5b/rock-5b-04.webp)
 
 - eMMC Module 插入方式，找到缺口的位置，对准按压即可。如图所示:
-- ![emmc_insert](/img/rock5b/rock-5b-06.png)
+- ![emmc_insert](/img/rock5b/rock-5b-06.webp)
 
 - （可选）使用 USB 转 TTL 串口线, 请参加下面串口访问。
 
@@ -214,7 +214,7 @@ root@rock-5b:/home/rock#
 #### HDMI 显示器和鼠标键盘
 
 - 如图所示，插入HDMI线材和鼠标键盘
-  ![display_insert](/img/rock5b/rock-5b-05.png)
+  ![display_insert](/img/rock5b/rock-5b-05.webp)
 
 #### 串口访问
 
@@ -246,7 +246,7 @@ scp 选项   源地址  用户名@IP地址:目标地址
 #### Filezilla
 
 - 整体布局
-- ![filezilla-01](/img/rock5b/rock-5b-filezilla-01.jpg)
+- ![filezilla-01](/img/rock5b/rock-5b-filezilla-01.webp)
 - 输入ROCK5B的ip地址，用户名，密码，端口号22，点击快速链接。选中保存密码，确定之后。再点击总是信任该主机，如图所示。
 - 首先你的ROCK5B文件栏需要调整到你的目标位置，然后在主机PC文件栏选中你需要上传的文件，右键点击上传，等待完成即可。
 

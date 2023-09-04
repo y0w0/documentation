@@ -18,7 +18,7 @@ If you encounter any problems while using this documentation, please [submit an 
 - Discord Community: [Radxa Discord](https://rock.sh/go) - Instant chatting and discussion group, English only
 - QQ Group: 591048098 - QQ Discussion group, mostly Chinese
 - QQ Channel: [Radxa QQ Channel](https://pd.qq.com/s/23wlhn9j8)
-- WeChat group: ![Radxa ROCK5B](/zh/img/wechat_group/ROCK5B.png), mostly Chinese
+- WeChat group: ![Radxa ROCK5B](/zh/img/wechat_group/ROCK5B.webp), mostly Chinese
 
 ## Attention
 

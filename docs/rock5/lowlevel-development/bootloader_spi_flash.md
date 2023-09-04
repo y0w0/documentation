@@ -20,8 +20,8 @@ ROCK 5B 上有一个 SPI Flash（SPI 闪存）,在 ROCK 5A 上则为与 eMMC 模
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-<Tabs>
-<TabItem value="初级方法" label="初级方法" default>
+<Tabs queryString="method">
+<TabItem value="basic" label="初级方法" default>
 
 ## 初级方法
 
@@ -150,7 +150,7 @@ import TabItem from '@theme/TabItem';
 - 如果您已经在 NVMe SSD 烧录了系统，请关闭 ROCK 5B 的电源，取出 µSD 卡或 eMMC 模块并重新通电。现在应该从 NVMe 启动
 
 </TabItem>
-<TabItem value="高级方法" label="高级方法">
+<TabItem value="advanced" label="高级方法">
 
 ## 高级方法
 

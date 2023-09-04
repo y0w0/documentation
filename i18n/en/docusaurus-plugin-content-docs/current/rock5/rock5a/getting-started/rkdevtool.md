@@ -30,7 +30,7 @@ We use the rkdeveloptool in Linux/macOS and the RKDevTool under Windows.
 2. Take the eMMC module and other storage off.
 3. Plug the USB-A to USB-A cable to the **upper** [USB 3.0 port](../getting-started/overview)(No.8) of ROCK 5A, the other side to PC USB 3.0 port.
 4. Power on the board.  
-   ![ROCK 5A power on](/img/rock5a/rock5a_power.webp)
+   ![ROCK 5A power on](/img/rock5a/rock5a-OTG.webp)
 5. Attaching the eMMC module
 
 Another way is to connect the two pins of [the maskrom](../getting-started/overview)(No.23) before power on, it's not necessary that take the eMMC module and other storage off.

@@ -1,4 +1,13 @@
 repos:
+  - repo: https://github.com/radxa-docs/pre-commit-hooks
+    rev: 9e0215b68f80c49a06e8550049987bc31b41d4c9
+    hooks:
+      - id: use-webp-image
+      - id: fix-en-dash-list
+  - repo: https://github.com/detailyang/pre-commit-shell
+    rev: v1.0.6
+    hooks:
+      - id: shell-lint
   - repo: https://github.com/pre-commit/mirrors-prettier
     rev: v3.0.3
     hooks:
@@ -23,11 +32,3 @@ repos:
     rev: v3.0.3
     hooks:
       - id: prettier
-  - repo: https://github.com/detailyang/pre-commit-shell
-    rev: v1.0.6
-    hooks:
-      - id: shell-lint
-  - repo: ./
-    rev: HEAD
-    hooks:
-      - id: check-doc-style

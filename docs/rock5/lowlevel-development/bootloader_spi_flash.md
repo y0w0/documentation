@@ -182,7 +182,7 @@ import TabItem from '@theme/TabItem';
 
 3. ROCK 5B 进入 Maskrom 模式
 
-![rock5b-maskrom](/zh/img/rock5b/rock-5b-maskrom-01.jpeg)
+![rock5b-maskrom](/zh/img/rock5b/rock-5b-maskrom-01.webp)
 
 - ROCK 5B 断开电源，关闭电路板。
 - 移除可启动设备，如 Micro SD 卡、eMMC 模块等。
@@ -242,7 +242,7 @@ rkdeveloptool rd
 
 打开 RKDevTool.exe 会看到如下界面：
 
-![RKDevTool-01](/zh/img/rock5b/rock-5b-spi-flash-01.png)
+![RKDevTool-01](/zh/img/rock5b/rock-5b-spi-flash-01.webp)
 
 第1步：确认 ROCK 5B/ROCK 5A 处于 maskrom 模式
 如果你的 ROCK 5B 处于 maskrom 模式并连接 PC，你可以看到程序检测到它，如图圆圈2
@@ -251,7 +251,7 @@ Found One MASKROM Device
 第2步：加载配置文件
 在列表框中右击选择 Load Config，圆圈3，然后选择资源管理文件夹下的配置文件（配置文件和 RKDevTool 同目录）
 
-![RKDevTool-02](/zh/img/rock5b/rock-5b-spi-flash-02.png)
+![RKDevTool-02](/zh/img/rock5b/rock-5b-spi-flash-02.webp)
 
 第3步：选择 loader
 接下来，单击“Loader”行中右侧的最后一列以选择 rk3588_spl_loader_v1.08.111.bin。图中圆圈4
@@ -262,7 +262,7 @@ Found One MASKROM Device
 第5步：执行 Run
 最后点击“执行”按钮，当进度达到100%时，下载完成。
 
-![RKDevTool-03](/zh/img/rock5b/rock-5b-spi-flash-03.png)
+![RKDevTool-03](/zh/img/rock5b/rock-5b-spi-flash-03.webp)
 
 ## 擦除 SPI Nor Flash
 
@@ -293,7 +293,7 @@ sync
 - 进度完成后，点击 EraseALL 按钮
 - 结束后重启设备 ResetDevice
 
-![RKDevTool-04](/zh/img/rock5b/rock-5b-spi-flash-04.png)
+![RKDevTool-04](/zh/img/rock5b/rock-5b-spi-flash-04.webp)
 
 </TabItem>
 </Tabs>

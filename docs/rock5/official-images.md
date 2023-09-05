@@ -31,11 +31,9 @@ import TabItem from '@theme/TabItem';
 
 以下系统已由瑞莎官方测试验证：
 
-ROCK 5A: [Build 17](https://github.com/radxa-build/rock-5a/releases/download/b17/rock-5a_debian_bullseye_kde_b17.img.xz)
+ROCK 5A: [Build 18](https://github.com/radxa-build/rock-5a/releases/download/b18/rock-5a_debian_bullseye_kde_b18.img.xz)
 
 更多镜像请查看： [radxa-build](https://github.com/radxa-build/rock-5a/releases/latest)
-
-内核版本: [5.10.110-11](https://github.com/radxa-pkg/linux-rockchip/releases/tag/5.10.110-11)
 
 ### 发布信息
 

@@ -65,11 +65,9 @@ ROCK 5A 目前已适配安卓 12，你可以从以下链接中下载镜像：
 
 以下系统已由瑞莎官方测试验证：
 
-ROCK 5B: [Build 36](https://github.com/radxa-build/rock-5b/releases/download/b36/rock-5b_debian_bullseye_kde_b36.img.xz)
+ROCK 5B: [Build 39](https://github.com/radxa-build/rock-5b/releases/download/b39/rock-5b_debian_bullseye_kde_b39.img.xz)
 
 更多镜像请查看： [radxa-build](https://github.com/radxa-build/rock-5b/releases/latest)
-
-内核版本: [5.10.110-11](https://github.com/radxa-pkg/linux-rockchip/releases/tag/5.10.110-11)
 
 ### 发布信息
 

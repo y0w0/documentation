@@ -31,11 +31,9 @@ import TabItem from '@theme/TabItem';
 
 The following systems have been officially tested and verified by Radxa:
 
-ROCK 5A: [Build 17](https://github.com/radxa-build/rock-5a/releases/download/b17/rock-5a_debian_bullseye_kde_b17.img.xz)
+ROCK 5A: [Build 18](https://github.com/radxa-build/rock-5a/releases/download/b18/rock-5a_debian_bullseye_kde_b18.img.xz)
 
 For more images please check: [radxa-build](https://github.com/radxa-build/rock-5a/releases/latest)
-
-Kernel version: [5.10.110-11](https://github.com/radxa-pkg/linux-rockchip/releases/tag/5.10.110-11)
 
 ### Release Notice
 

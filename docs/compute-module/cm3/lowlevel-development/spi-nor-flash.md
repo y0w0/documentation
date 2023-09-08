@@ -20,8 +20,8 @@ import TabItem from '@theme/TabItem';
 - USB-A 转 Micro USB 线
 - 装有 [RKDevTool](/general-tutorial/rksdk/RKDevTool) 或 [rkdeveloptool](/general-tutorial/rksdk/rkdeveloptool) 的电脑
 - 获取 Radxa CM3 IO loader 和 U-Boot 映像  
-  [RK356X loader](https://dl.radxa.com/rock3/images/loader/radxa-cm3-io/rk356x_spl_loader_ddr1056_v1.10.111.bin)    
-  [Radxa CM3 IO SPI Image](https://dl.radxa.com/rock3/images/loader/radxa-cm3-io/radxa-cm3-io-spi-image-g8684d740b9f.img.gz)  
+  [RK356X loader](https://dl.radxa.com/rock3/images/loader/radxa-cm3-io/rk356x_spl_loader_ddr1056_v1.10.111.bin)  
+  [Radxa CM3 IO SPI Image](https://dl.radxa.com/rock3/images/loader/radxa-cm3-io/radxa-cm3-io-spi-image-g8684d740b9f.img.gz)
 
 ## 步骤
 
@@ -30,6 +30,7 @@ import TabItem from '@theme/TabItem';
 ![CM3 on CM3 IO Board](/img/cm3/cm3-with-io.webp)
 
 2. 将 CM3 启动至 Maskrom 模式
+
    - 将产品断电
    - 移除如 microSD 卡的启动介质
    - 按住 SPI Flash 和 eMMC 短接键
@@ -44,19 +45,19 @@ import TabItem from '@theme/TabItem';
    <Tabs>
     <TabItem value="windows" label="Windows">
 
-    打开 RKDevTool，如果 Maskrom 设备正常连接，你会看到 **发现一个 Maskrom 设备** 的提示。
+   打开 RKDevTool，如果 Maskrom 设备正常连接，你会看到 **发现一个 Maskrom 设备** 的提示。
 
-    ![RKDevTool zh maskrom](/img/configuration/rkdevtool-zh-maskrom.webp)
+   ![RKDevTool zh maskrom](/img/configuration/rkdevtool-zh-maskrom.webp)
 
     </TabItem>
     <TabItem value="linux_mac" label="Linux/MacOS">
 
-    使用命令行来查看：
+   使用命令行来查看：
 
-    ```bash
-    lsusb
-    Bus 001 Device 112: ID 2207:350a Fuzhou Rockchip Electronics Company # 类似于此的输出
-    ```
+   ```bash
+   lsusb
+   Bus 001 Device 112: ID 2207:350a Fuzhou Rockchip Electronics Company # 类似于此的输出
+   ```
 
     </TabItem>
    </Tabs>
@@ -68,42 +69,42 @@ import TabItem from '@theme/TabItem';
     <Tabs>
     <TabItem value="write" label="将 U-Boot 写入 SPI">
 
-    1.打开 RKDevTool
+   1.打开 RKDevTool
 
-    2.使用以下配置：
+   2.使用以下配置：
 
-    ![Write SPINOR](/img/configuration/rkdevtool-zh-spinor.webp)
+   ![Write SPINOR](/img/configuration/rkdevtool-zh-spinor.webp)
 
-    3.运行
+   3.运行
 
-    最后，点击`执行`按钮，您将看到右侧的输出。当 RKDevTool 显示 "下载完成" 时，下载任务就完成了。
+   最后，点击`执行`按钮，您将看到右侧的输出。当 RKDevTool 显示 "下载完成" 时，下载任务就完成了。
 
-    ![SPINOR Compeled](/img/configuration/rkdevtool-spi-complete-zh.webp)
+   ![SPINOR Compeled](/img/configuration/rkdevtool-spi-complete-zh.webp)
 
     </TabItem>
     <TabItem value="erase" label="擦除 SPI Nor Flash">
 
-    打开 RKDevTool 并点击`高级功能`来进入高级功能窗口。  
+   打开 RKDevTool 并点击`高级功能`来进入高级功能窗口。  
     整个过程如下图所示：
 
-    ![Progress](/img/configuration/rkdevtool-erase-spi-zh.webp)
+   ![Progress](/img/configuration/rkdevtool-erase-spi-zh.webp)
 
-    1.确认设备已进入 Maskrom 模式
+   1.确认设备已进入 Maskrom 模式
 
-    2.下载 RK356X Loader  
-      选择 loader 文件并点击`下载`来下载。
+   2.下载 RK356X Loader  
+    选择 loader 文件并点击`下载`来下载。
 
-      ![Download loader](/img/configuration/rkdevtool-download-loader-zh.webp)
+   ![Download loader](/img/configuration/rkdevtool-download-loader-zh.webp)
 
-    3.擦除设备  
-      点击`擦除所有`按钮来擦除设备。
+   3.擦除设备  
+    点击`擦除所有`按钮来擦除设备。
 
-      ![Erase spi](/img/configuration/rkdevtool-erase-device-zh.webp)
+   ![Erase spi](/img/configuration/rkdevtool-erase-device-zh.webp)
 
-    4.重启设备
-      点击`重启设备`按钮来重启设备。
+   4.重启设备
+   点击`重启设备`按钮来重启设备。
 
-      ![Reset device](/img/configuration/rkdevtool-reset-device-zh.webp)
+   ![Reset device](/img/configuration/rkdevtool-reset-device-zh.webp)
 
     </TabItem>
     </Tabs>
@@ -112,43 +113,43 @@ import TabItem from '@theme/TabItem';
     <Tabs>
     <TabItem value="write" label="将 U-Boot 写入 SPI">
 
-    打开终端并执行 rkdeveloptool：
+   打开终端并执行 rkdeveloptool：
 
-    ```bash
-    rkdeveloptool ld
-    DevNo=1	Vid=0x2207,Pid=0x350a,LocationID=104	Maskrom
-    ```
+   ```bash
+   rkdeveloptool ld
+   DevNo=1	Vid=0x2207,Pid=0x350a,LocationID=104	Maskrom
+   ```
 
    下载 loader 来初始化 RAM 并准备烧写环境等：
 
-    ```bash
-    rkdeveloptool db rk356x_spl_loader_ddr1056_v1.10.111.bin
-    ```
+   ```bash
+   rkdeveloptool db rk356x_spl_loader_ddr1056_v1.10.111.bin
+   ```
 
-    写入 bootloader：
+   写入 bootloader：
 
-    ```bash
-    rkdeveloptool wl 0 spi_image.img
-    ```
+   ```bash
+   rkdeveloptool wl 0 spi_image.img
+   ```
 
-    重启设备：
+   重启设备：
 
-    ```bash
-    rkdeveloptool rd
-    ```
+   ```bash
+   rkdeveloptool rd
+   ```
 
-    现在你的设备就可以从 SPI Nor Flash 来启动系统了。
+   现在你的设备就可以从 SPI Nor Flash 来启动系统了。
 
     </TabItem>
     <TabItem value="erase" label="擦除 SPI Nor Flash">
 
-    请注意，要擦除 SPI Nor Flash 时，请执行以下命令：
+   请注意，要擦除 SPI Nor Flash 时，请执行以下命令：
 
-    ```bash
-    rkdeveloptool db rk356x_spl_loader_ddr1056_v1.10.111.bin
-    rkdeveloptool ef
-    rkdeveloptool rd
-    ```
+   ```bash
+   rkdeveloptool db rk356x_spl_loader_ddr1056_v1.10.111.bin
+   rkdeveloptool ef
+   rkdeveloptool rd
+   ```
 
     </TabItem>
     </Tabs>

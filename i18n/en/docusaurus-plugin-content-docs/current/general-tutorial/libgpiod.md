@@ -4,15 +4,16 @@ sidebar_position: 10
 ---
 
 # Libgpiod
+
 Since linux 4.8, the GPIO sysfs interface has been deprecated. User space should be used for character devices instead. This library encapsulates ioctl calls and data structures behind a simple API.
 
 # features of libgpiod
 
-* Easy to use: libgpiod provides a simple API that makes controlling and operating GPIO devices easy to understand. Developers only need to understand basic GPIO concepts and function interfaces to use it.
-* Independence: libgpiod is a standalone user-space library that does not depend on any particular hardware platform or chip. It is suitable for a variety of embedded platforms that support GPIO control, such as the Radxa ROCK series, Raspberry Pi, BeagleBone, and so on.
-* Support multiple programming languages: libgpiod supports C language natively, and also provides Python bindings (python3-libgpiod) and wrappers for other languages, which makes it easy to use under different programming languages.
-* Efficient Event Listening: libgpiod provides functionality for asynchronous event listening, such as waiting for GPIO state changes. This allows developers to implement efficient event-driven applications.
-* GPIO specification support: libgpiod provides support for different GPIO specifications and numbering methods, including GPIO numbering and physical pin numbering.
+- Easy to use: libgpiod provides a simple API that makes controlling and operating GPIO devices easy to understand. Developers only need to understand basic GPIO concepts and function interfaces to use it.
+- Independence: libgpiod is a standalone user-space library that does not depend on any particular hardware platform or chip. It is suitable for a variety of embedded platforms that support GPIO control, such as the Radxa ROCK series, Raspberry Pi, BeagleBone, and so on.
+- Support multiple programming languages: libgpiod supports C language natively, and also provides Python bindings (python3-libgpiod) and wrappers for other languages, which makes it easy to use under different programming languages.
+- Efficient Event Listening: libgpiod provides functionality for asynchronous event listening, such as waiting for GPIO state changes. This allows developers to implement efficient event-driven applications.
+- GPIO specification support: libgpiod provides support for different GPIO specifications and numbering methods, including GPIO numbering and physical pin numbering.
 
 # command line fo libgpiod
 
@@ -27,10 +28,11 @@ Rockchip's gpio bank is gpiochip, and the offset value of gpio bank is gpio line
 
 ## C language version
 
-* Before using the libgpiod functions, you need to install the header files:
-    * Installation: sudo apt-get install libgpiod-dev -y
+- Before using the libgpiod functions, you need to install the header files:
 
-* Introduction to libgpiod's common APIs
+  - Installation: sudo apt-get install libgpiod-dev -y
+
+- Introduction to libgpiod's common APIs
 
 ```c
 Commonly used structures:
@@ -57,14 +59,16 @@ int gpiod_line_get_value(struct gpiod_line *line) // first argument is gpio line
 
 ```
 
-* [Sample code](https://github.com/nascs/sample_code/tree/main/gpiod).
-* More APIs can be found in [libgpiod full official documentation](https://github.com/brgl/libgpiod/blob/master/include/gpiod.h).
+- [Sample code](https://github.com/nascs/sample_code/tree/main/gpiod).
+- More APIs can be found in [libgpiod full official documentation](https://github.com/brgl/libgpiod/blob/master/include/gpiod.h).
 
 ## Python version
-* You need install gpiod library first
-  * installation: sudo pip install gpiod
 
-* Common APIs
+- You need install gpiod library first
+
+  - installation: sudo pip install gpiod
+
+- Common APIs
 
 ```py
 import gpiod # you need import gpiod first
@@ -92,8 +96,9 @@ gpiod.line.release(self: line)
 gpiod.chip.find_line(self: chip, name: str)
 
 ```
-* More available
-  * python3.9/site-packages/gpiod/__init__.py
-  * [python-gpiod](https://wiki.loliot.net/docs/lang/python/libraries/gpiod/python-gpiod-about/)
-  * [pypi](https://pypi.org/project/gpiod/)
-  * [github](https://github.com/hhk7734/python3-gpiod.git)
+
+- More available
+  - python3.9/site-packages/gpiod/**init**.py
+  - [python-gpiod](https://wiki.loliot.net/docs/lang/python/libraries/gpiod/python-gpiod-about/)
+  - [pypi](https://pypi.org/project/gpiod/)
+  - [github](https://github.com/hhk7734/python3-gpiod.git)

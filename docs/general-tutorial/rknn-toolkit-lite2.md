@@ -6,37 +6,25 @@ sidebar_position: 20
 # 板端 Python NPU 模型推理教程 (RKNN Toolkit Lite2)
 
 :::info
-本文档仅演示如何运行官方示例，更多资料可以查看源码库内的 doc 文件夹。
+本文档仅演示如何运行官方示例，更多资料可以查看 (RKNN Toolkit2 源码库)[https://github.com/rockchip-linux/rknn-toolkit2]内的 rknn_toolkit_lite2/doc 文件夹。
 :::
 
-## 安装编译与运行 RKNN Toolkit Lite2 所需依赖
+## 安装 RKNN Toolkit Lite2 及其所需依赖
+
+:::info
+Radxa 官方镜像已默认安装 RKNN Toolkit Lite2 及其所需依赖，如无法运行可尝试以下命令。
+:::
 
 ```bash
 sudo apt update
-sudo apt install git python-is-python3 python3-pip python3-dev python3-opencv python3-numpy build-essential
+sudo apt install rknpu2-rk3588 python3-rknnlite2
 ```
 
-## 下载与安装 RKNPU2 依赖
-
-:::info
-拷贝命令的源文件路径需要根据SOC与系统架构的不同更换文件路径名。
-:::
+## 安装 RKNN Toolkit Lite2 官方例程
 
 ```bash
-git clone https://github.com/rockchip-linux/rknpu2.git
-sudo cp rknpu2/runtime/RK3588/Linux/librknn_api/aarch64/* /usr/lib
-```
-
-## 拉取与安装 RKNN Toolkit Lite2
-
-:::info
-RKNN Toolkit Lite2 相关文档、例程和安装包在RKNN Toolkit2库的 RKNN Toolkit Lite2 文件夹。
-:::
-
-```bash
-git clone https://github.com/rockchip-linux/rknn-toolkit2.git
-cd rknn-toolkit2/rknn_toolkit_lite2/
-pip install ./packages/rknn_toolkit_lite2-1.5.2-cp39-cp39-linux_aarch64.whl
+sudo apt update
+sudo apt install python3-rknnlite2-example
 ```
 
 ## 运行 Resnet18 示例
@@ -48,15 +36,15 @@ RKNN Toolkit2 使用教程可以参考 [PC 端 npu 模型转换与推理教程 (
 :::
 
 ```bash
-cd examples/inference_with_lite
-python3 test.py
+cd /usr/share/python3-rknnlite2
+python test.py
 --> Load RKNN model
 done
 --> Init runtime environment
-I RKNN: [19:27:40.110] RKNN Runtime Information: librknnrt version: 1.5.2 (c6b7b351a@2023-08-23T15:28:22)
-I RKNN: [19:27:40.110] RKNN Driver Information: version: 0.8.2
-W RKNN: [19:27:40.110] Current driver version: 0.8.2, recommend to upgrade the driver to the new version: >= 0.8.8
-I RKNN: [19:27:40.111] RKNN Model Information: version: 6, toolkit version: 1.5.2-source_code(compiler version: 1.5.2 (71720f3fc@2023-08-21T09:35:42)), target: RKNPU v2, target platform: rk3588, framework name: PyTorch, framework layout: NCHW, model inference type: static_shape
+I RKNN: [14:34:53.240] RKNN Runtime Information: librknnrt version: 1.5.2 (c6b7b351a@2023-08-23T15:28:22)
+I RKNN: [14:34:53.242] RKNN Driver Information: version: 0.8.2
+W RKNN: [14:34:53.242] Current driver version: 0.8.2, recommend to upgrade the driver to the new version: >= 0.8.8
+I RKNN: [14:34:53.250] RKNN Model Information: version: 6, toolkit version: 1.5.2-source_code(compiler version: 1.5.2 (71720f3fc@2023-08-21T09:35:42)), target: RKNPU v2, target platform: rk3588, framework name: PyTorch, framework layout: NCHW, model inference type: static_shape
 done
 --> Running model
 resnet18

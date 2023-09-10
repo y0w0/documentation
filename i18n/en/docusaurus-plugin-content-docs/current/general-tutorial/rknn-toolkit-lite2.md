@@ -17,7 +17,8 @@ RKNN Toolkit Lite2 and its dependencies are installed by default in the official
 
 ```bash
 sudo apt update
-sudo apt install rknpu2-rk3588 python3-rknnlite2
+sudo apt install rknpu2-rk3588 python3-rknnlite2    #SOC is RK3588 series
+sudo apt install rknpu2-rk356x python3-rknnlite2    #SOC is RK356X series
 ```
 
 ## Install RKNN Toolkit Lite2 official rexample

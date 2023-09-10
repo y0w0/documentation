@@ -17,7 +17,8 @@ Radxa 官方镜像已默认安装 RKNN Toolkit Lite2 及其所需依赖，如无
 
 ```bash
 sudo apt update
-sudo apt install rknpu2-rk3588 python3-rknnlite2
+sudo apt install rknpu2-rk3588 python3-rknnlite2    #SOC为RK3588系列
+sudo apt install rknpu2-rk356x python3-rknnlite2    #SOC为RK356X系列
 ```
 
 ## 安装 RKNN Toolkit Lite2 官方例程

@@ -1,0 +1,84 @@
+---
+sidebar_label: "Radxa 25W PoE HAT"
+sidebar_position: 34
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+# 简介
+
+Radxa 25W PoE HAT 是专为配备 PoE 针脚的 Radxa SBC 设计的附加板，可与各种支持的 Radxa SBC 产品完全兼容。
+只要用户的网关设备支持供电，您就可以使用一根以太网电缆为具有 PoE 针脚的 Radxa SBC 建立网络连接和供电。
+
+![25W PoE](/img/accessories/poe-hat/25w-poe.webp)
+
+## 功能
+
+- 符合 IEEE 802.3af/at 标准
+- 宽电压输入： 37V 至 57V
+- 输出：5V/4.8A、12V/2.1A
+  - 仅连接 5V 负载时，PoE 输出高达 5V DC / 4.8A
+  - 仅连接 12V 负载时，PoE 输出高达 12V DC / 2.1A
+- 配备可编程温度传感器
+- 配备 1.45CFM 的可定制冷却风扇，用于处理器冷却
+  - 尺寸：20 x 20 毫米
+  - 转速：15000±15%RPM
+
+## 机械尺寸图
+
+![25W PoE MD](/img/accessories/poe-hat/25w-poe-md.webp)
+
+## 兼容性
+
+支持 Radxa ROCK 3A、3B、3C、4C+、5A 和 5B。
+
+## 使用方法
+
+Radxa 25W PoE 的包装清单如下：
+
+![25W PoE pkg](/img/accessories/poe-hat/25w-poe-pkg.webp)
+
+使用步骤
+
+1. 将四根 M2.5 x 4 铜柱穿过 Radxa SBC 的四个定位孔，并分别固定在 M2.5 x 9 铜柱上，以确保固定牢固。
+
+![25W PoE copper pillars on-board](/img/accessories/poe-hat/copper-pillars-on-board.webp)
+
+2. 将 Radxa 25W PoE HAT 与 PoE 接口和 40 针接口对齐，小心插入，确保穿过四个 M2.5 x 9 铜柱。
+
+![25W PoE connected](/img/accessories/poe-hat/25w-poe-connected.webp)
+
+3. 在 Radxa 25W PoE HAT 的顶部，将四根 M2.5 x 4 铜柱与四根 M2.5 x 9 铜柱对齐，然后旋转固定到位。以下是图解结果：
+
+  <Tabs>
+    <TabItem value="5a_4c+" label="ROCK 5A, ROCK 4C+">
+
+    ![25W PoE 5A](/img/accessories/poe-hat/25w-poe-5a.webp)
+      
+    </TabItem>
+    <TabItem value="5b_3b" label="ROCK 5B, ROCK 3B">
+
+    ![25W PoE 5B](/img/accessories/poe-hat/25w-poe-5b.webp)
+
+    </TabItem>
+    <TabItem value="3a_3c" label="ROCK 3A, ROCK 3C">
+
+    ![25W PoE 3A](/img/accessories/poe-hat/25w-poe-3c.webp)
+
+    </TabItem>
+  </Tabs>
+
+4. 启用 25W PoE Overlay
+
+旧版本软件尚未提供此 Overlay 功能。
+因此，您需要更新软件才能使用 PoE Overlay。
+您可以参考 [System Update Guide](/radxa-os/rsetup/rsetup-tool#system-update) 更新系统。
+
+然后，按照[设备树配置](/radxa-os/rsetup/devicetree#how-to-enable-an-overlay)启用名为 "Enable Radxa 25W PoE HAT "的 25W PoE Overlay。
+
+```bash
+  [*] Enable Radxa 25W PoE HAT
+```
+
+最后，重启 SBC，PoE HAT 即可工作。

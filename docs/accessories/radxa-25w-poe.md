@@ -19,6 +19,7 @@ Radxa 25W PoE HAT 可以为与之兼容的 Radxa SBC 添加通过以太网供电
 ## 兼容性
 
 Radxa 25W PoE HAT 支持以下 Radxa 产品：
+
 - Radxa ROCK 3A
 - Radxa ROCK 3B
 - Radxa ROCK 3C

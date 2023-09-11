@@ -19,6 +19,7 @@ Requires the use of a compatible Power over Ethernet device.
 ## Compatibility
 
 Radxa 25W PoE HAT supports the following Radxa products:
+
 - Radxa ROCK 3A
 - Radxa ROCK 3B
 - Radxa ROCK 3C
@@ -99,6 +100,6 @@ If you cannot find the corresponding Overlay in `rsetup`, please refer to [Syste
 
 After executing the following command, the second line outputs `t=XXYYYY` which is the current temperature (XX.YYY degrees Celsius):
 
-``bash
+```bash
 cat /sys/bus/w1/devices/28-*/w1_slave
 ```

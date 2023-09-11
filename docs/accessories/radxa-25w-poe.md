@@ -8,8 +8,11 @@ import TabItem from '@theme/TabItem';
 
 # 简介
 
-Radxa 25W PoE HAT 是专为配备 PoE 针脚的 Radxa SBC 设计的附加板，可与各种支持的 Radxa SBC 产品完全兼容。
-只要用户的网关设备支持供电，您就可以使用一根以太网电缆为具有 PoE 针脚的 Radxa SBC 建立网络连接和供电。
+Radxa 25W PoE HAT 可以为与之兼容的 Radxa SBC 添加通过以太网供电启动的能力。
+
+:::info
+需搭配使用兼容的以太网供电设备。
+:::
 
 ![25W PoE](/img/accessories/poe-hat/25w-poe.webp)
 
@@ -71,14 +74,24 @@ Radxa 25W PoE 的包装清单如下：
 
 4. 启用 25W PoE Overlay
 
-旧版本软件尚未提供此 Overlay 功能。
-因此，您需要更新软件才能使用 PoE Overlay。
-您可以参考 [System Update Guide](/radxa-os/rsetup/rsetup-tool#system-update) 更新系统。
+如需要启用温控风扇以及温度传感器，则需要开启对应 Overlay。
 
-然后，按照[设备树配置](/radxa-os/rsetup/devicetree#how-to-enable-an-overlay)启用名为 "Enable Radxa 25W PoE HAT "的 25W PoE Overlay。
+请参照[设备树配置](/radxa-os/rsetup/devicetree#how-to-enable-an-overlay)，启用名为 "Enable Radxa 25W PoE HAT "的 Overlay。
 
 ```bash
   [*] Enable Radxa 25W PoE HAT
 ```
 
-最后，重启 SBC，PoE HAT 即可工作。
+最后，重启设备以加载 Overlay。
+
+:::info
+如果您无法在`rsetup`中找到对应的 Overlay，请参考 [System Update Guide](/radxa-os/rsetup/rsetup-tool#system-update) 首先进行系统更新，然后再执行以上操作。
+:::
+
+5. 检查温度传感器读数
+
+执行以下命令后，第二行输出`t=XXYYY`即为当前温度（XX.YYY摄氏度）：
+
+```bash
+cat /sys/bus/w1/devices/28-*/w1_slave
+```

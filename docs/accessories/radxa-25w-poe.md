@@ -16,25 +16,30 @@ Radxa 25W PoE HAT 可以为与之兼容的 Radxa SBC 添加通过以太网供电
 
 ![25W PoE](/img/accessories/poe-hat/25w-poe.webp)
 
+## 兼容性
+
+Radxa 25W PoE HAT 支持以下 Radxa 产品：
+- Radxa ROCK 3A
+- Radxa ROCK 3B
+- Radxa ROCK 3C
+- Radxa ROCK 4C+
+- Radxa ROCK 5A
+- Radxa ROCK 5B
+
 ## 功能
 
 - 符合 IEEE 802.3af/at 标准
-- 宽电压输入： 37V 至 57V
 - 输出：5V/4.8A、12V/2.1A
   - 仅连接 5V 负载时，PoE 输出高达 5V DC / 4.8A
   - 仅连接 12V 负载时，PoE 输出高达 12V DC / 2.1A
 - 配备可编程温度传感器
 - 配备 1.45CFM 的可定制冷却风扇，用于处理器冷却
   - 尺寸：20 x 20 毫米
-  - 转速：15000±15%RPM
+  - 转速：15000 ± 15%RPM
 
 ## 机械尺寸图
 
 ![25W PoE MD](/img/accessories/poe-hat/25w-poe-md.webp)
-
-## 兼容性
-
-支持 Radxa ROCK 3A、3B、3C、4C+、5A 和 5B。
 
 ## 使用方法
 
@@ -58,7 +63,7 @@ Radxa 25W PoE 的包装清单如下：
     <TabItem value="5a_4c+" label="ROCK 5A, ROCK 4C+">
 
     ![25W PoE 5A](/img/accessories/poe-hat/25w-poe-5a.webp)
-      
+
     </TabItem>
     <TabItem value="5b_3b" label="ROCK 5B, ROCK 3B">
 
@@ -70,6 +75,7 @@ Radxa 25W PoE 的包装清单如下：
     ![25W PoE 3A](/img/accessories/poe-hat/25w-poe-3c.webp)
 
     </TabItem>
+
   </Tabs>
 
 4. 启用 25W PoE Overlay

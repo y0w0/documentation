@@ -8,11 +8,23 @@ import TabItem from '@theme/TabItem';
 
 # Introduction
 
-The Radxa 25W PoE HAT is an add‑on board specifically designed for Radxa SBCs equipped with PoE pins, offering full compatibility with various Radxa SBC products.
-Provided that the user’s gateway equipment supports power delivery,
-you can establish both network connectivity and power supply for Radxa SBCs featuring PoE pins using a single Ethernet cable.
+The Radxa 25W PoE HAT provides boot over Power over Ethernet support for compatible Radxa SBCs.
+
+:::info
+Requires the use of a compatible Power over Ethernet device.
+:::
 
 ![25W PoE](/img/accessories/poe-hat/25w-poe.webp)
+
+## Compatibility
+
+Radxa 25W PoE HAT supports the following Radxa products:
+- Radxa ROCK 3A
+- Radxa ROCK 3B
+- Radxa ROCK 3C
+- Radxa ROCK 4C+
+- Radxa ROCK 5A
+- Radxa ROCK 5B
 
 ## Features
 
@@ -24,15 +36,11 @@ you can establish both network connectivity and power supply for Radxa SBCs feat
 - Features a programmable temperature sensor
 - Equipped with a customizable Cooling Fan delivering 1.45CFM for processor cooling
   - Size: 20 x 20 mm
-  - Speed: 15000±15%RPM
+  - Speed: 15000 ± 15%RPM
 
 ## Mechanical Diagram
 
 ![25W PoE MD](/img/accessories/poe-hat/25w-poe-md.webp)
-
-## Compatibility
-
-It's supported on Radxa ROCK 3A, 3B, 3C, 4C+, 5A, and 5B.
 
 ## Usage
 
@@ -56,7 +64,7 @@ Usage steps:
     <TabItem value="5a_4c+" label="ROCK 5A, ROCK 4C+">
 
     ![25W PoE 5A](/img/accessories/poe-hat/25w-poe-5a.webp)
-      
+
     </TabItem>
     <TabItem value="5b_3b" label="ROCK 5B, ROCK 3B">
 
@@ -68,18 +76,29 @@ Usage steps:
     ![25W PoE 3A](/img/accessories/poe-hat/25w-poe-3c.webp)
 
     </TabItem>
+
   </Tabs>
 
-4. Enabled the 25W PoE Overlay
+4. Enable 25W PoE Overlay
 
-This overlay is not yet available in older versions of the software.
-So you need to update the software to use the PoE overay.
-You can update the system by refering the [System Update Guide](/radxa-os/rsetup/rsetup-tool#system-update).
+If you need to enable the temperature control fan and temperature sensor, you need to enable the corresponding Overlay.
 
-And then, following the [Device Tree Configuration](/radxa-os/rsetup/devicetree#how-to-enable-an-overlay) to enable the overlay of 25W PoE named `Enable Radxa 25W PoE HAT`,
+Please refer to [Device Tree Configuration](/radxa-os/rsetup/devicetree#how-to-enable-an-overlay) to enable the overlay named "Enable Radxa 25W PoE HAT".
 
-```bash
+```bash.
   [*] Enable Radxa 25W PoE HAT
 ```
 
-Finally, reboot your SBC, the PoE HAT would work.
+Finally, reboot the device to load the Overlay.
+
+:::info
+If you cannot find the corresponding Overlay in `rsetup`, please refer to [System Update Guide](/radxa-os/rsetup/rsetup-tool#system-update) to first perform a system update and then perform the above.
+:::
+
+5. Checking Temperature Sensor Readings
+
+After executing the following command, the second line outputs `t=XXYYYY` which is the current temperature (XX.YYY degrees Celsius):
+
+``bash
+cat /sys/bus/w1/devices/28-*/w1_slave
+```

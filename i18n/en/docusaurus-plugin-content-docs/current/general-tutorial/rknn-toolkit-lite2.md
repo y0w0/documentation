@@ -6,37 +6,26 @@ sidebar_position: 20
 # Board-side Python NPU model inference tutorial (RKNN Toolkit Lite2)
 
 :::info
-This document only shows how to run the official example, for more information you can check the doc folder in the repository.
+This document only shows how to run the official example, for more information you can see the rknn_toolkit_lite2/doc folder in (RKNN Toolkit2 repository)[https://github.com/rockchip-linux/rknn-toolkit2].
 :::
 
-## Install the dependencies required to compile and run RKNN Toolkit Lite2
+## Install RKNN Toolkit Lite2 and its dependencies.
+
+:::info
+RKNN Toolkit Lite2 and its dependencies are installed by default in the official Radxa system image, if it does not work, try the following commands.
+:::
 
 ```bash
 sudo apt update
-sudo apt install git python-is-python3 python3-pip python3-dev python3-opencv python3-numpy build-essential
+sudo apt install rknpu2-rk3588 python3-rknnlite2    #SOC is RK3588 series
+sudo apt install rknpu2-rk356x python3-rknnlite2    #SOC is RK356X series
 ```
 
-## Downloading and Installing RKNPU2 Dependencies
-
-:::info
-The path to the source file for the copy command needs to be changed depending on the SOC and system architecture.
-:::
+## Install RKNN Toolkit Lite2 official rexample
 
 ```bash
-git clone https://github.com/rockchip-linux/rknpu2.git
-sudo cp rknpu2/runtime/RK3588/Linux/librknn_api/aarch64/* /usr/lib
-```
-
-## Download and Install RKNN Toolkit Lite2
-
-:::info
-RKNN Toolkit Lite2 documentation, examples and installation packages are in the RKNN Toolkit Lite2 folder of the RKNN Toolkit2 repository.
-:::
-
-```bash
-git clone https://github.com/rockchip-linux/rknn-toolkit2.git
-cd rknn-toolkit2/rknn_toolkit_lite2/
-pip install ./packages/rknn_toolkit_lite2-1.5.2-cp39-cp39-linux_aarch64.whl
+sudo apt update
+sudo apt install python3-rknnlite2-example
 ```
 
 ## Running the Resnet18 example
@@ -48,15 +37,15 @@ The tutorial of using RKNN Toolkit2 can be found in [PC-based NPU model transfor
 :::
 
 ```bash
-cd examples/inference_with_lite
-python3 test.py
+cd /usr/share/python3-rknnlite2
+python test.py
 --> Load RKNN model
 done
 --> Init runtime environment
-I RKNN: [19:27:40.110] RKNN Runtime Information: librknnrt version: 1.5.2 (c6b7b351a@2023-08-23T15:28:22)
-I RKNN: [19:27:40.110] RKNN Driver Information: version: 0.8.2
-W RKNN: [19:27:40.110] Current driver version: 0.8.2, recommend to upgrade the driver to the new version: >= 0.8.8
-I RKNN: [19:27:40.111] RKNN Model Information: version: 6, toolkit version: 1.5.2-source_code(compiler version: 1.5.2 (71720f3fc@2023-08-21T09:35:42)), target: RKNPU v2, target platform: rk3588, framework name: PyTorch, framework layout: NCHW, model inference type: static_shape
+I RKNN: [14:34:53.240] RKNN Runtime Information: librknnrt version: 1.5.2 (c6b7b351a@2023-08-23T15:28:22)
+I RKNN: [14:34:53.242] RKNN Driver Information: version: 0.8.2
+W RKNN: [14:34:53.242] Current driver version: 0.8.2, recommend to upgrade the driver to the new version: >= 0.8.8
+I RKNN: [14:34:53.250] RKNN Model Information: version: 6, toolkit version: 1.5.2-source_code(compiler version: 1.5.2 (71720f3fc@2023-08-21T09:35:42)), target: RKNPU v2, target platform: rk3588, framework name: PyTorch, framework layout: NCHW, model inference type: static_shape
 done
 --> Running model
 resnet18

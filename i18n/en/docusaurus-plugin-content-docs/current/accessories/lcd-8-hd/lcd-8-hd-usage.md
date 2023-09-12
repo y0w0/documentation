@@ -92,7 +92,7 @@ Recommended [Radxa PD 30W Adapter](/accessories/pd_30w).
    ![Radxa Display 8 HD](/img/accessories/8hd-connect-fpc.webp)
 
 The 15 pin terminal is connected to the DSI connector on the SBC:  
-Step 1: Pivot the white tab of the seat upwards  
+Step 1: lift up the white tab on the FPC connector  
 Step 2: Cable Gold Finger Back to White Snap Insert Connector  
 Step 3: Press the snap down firmly to fix the wires  
  ![FPC 15 Pin Connecting](/img/accessories/lcd-8-hd/fpc-15-pin-connecting.webp)

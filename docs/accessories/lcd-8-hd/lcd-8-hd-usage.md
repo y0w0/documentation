@@ -92,7 +92,7 @@ import TabItem from '@theme/TabItem';
    ![Radxa Display 8 HD](/img/accessories/8hd-connect-fpc.webp)
 
 15 pin 端子接到产品 DSI 连接器上：  
-Step 1：将座子白色卡扣向上拨起  
+Step 1：将连接器白色卡扣向上拨起  
 Step 2：排线金手指背对白色卡扣插入连接器  
 Step 3：将卡扣向下按紧，固定排线  
  ![FPC 15 Pin Connecting](/img/accessories/lcd-8-hd/fpc-15-pin-connecting.webp)

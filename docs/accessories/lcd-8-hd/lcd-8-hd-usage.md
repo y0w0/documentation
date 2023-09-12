@@ -104,14 +104,14 @@ Step 3：将卡扣向下按紧，固定排线
 <div className='gpio_style'>
 
 | FPC 线引脚 |      |          单板机 GPIO 引脚           |
-| :-----------: | :--: | :---------------------------------: |
-|    VCC_5V     | <--> |  <div className='red'>+5.0V</div>   |
-|      GND      | <--> |  <div className='black'>GND</div>   |
-|      PWM      | <--> |        PWM14_M0(GPIO Pin 7)         |
-|    TP-RST     | <--> |        GPIO3_B2(GPIO Pin 18)        |
-|    YP-INT     | <--> |        GPIO3_B1(GPIO Pin 16)        |
-|    LCD-RST    | <--> | <div className='yellow'>+3.3V</div> |
-|     GINT      | <--> |                None                 |
+| :--------: | :--: | :---------------------------------: |
+|   VCC_5V   | <--> |  <div className='red'>+5.0V</div>   |
+|    GND     | <--> |  <div className='black'>GND</div>   |
+|    PWM     | <--> |        PWM14_M0(GPIO Pin 7)         |
+|   TP-RST   | <--> |        GPIO3_B2(GPIO Pin 18)        |
+|   YP-INT   | <--> |        GPIO3_B1(GPIO Pin 16)        |
+|  LCD-RST   | <--> | <div className='yellow'>+3.3V</div> |
+|    GINT    | <--> |                None                 |
 
 实物连接图参考如下：
 
@@ -123,14 +123,14 @@ Step 3：将卡扣向下按紧，固定排线
 <div className='gpio_style'>
 
 | FPC 线引脚 |      |          单板机 GPIO 引脚           |
-| :-----------: | :--: | :---------------------------------: |
-|    VCC_5V     | <--> |  <div className='red'>+5.0V</div>   |
-|      GND      | <--> |  <div className='black'>GND</div>   |
-|      PWM      | <--> |        PWM14_M0(GPIO Pin 11)        |
-|    TP-RST     | <--> |        GPIO3_B2(GPIO Pin 18)        |
-|    YP-INT     | <--> |        GPIO0_B6(GPIO Pin 16)        |
-|    LCD-RST    | <--> | <div className='yellow'>+3.3V</div> |
-|     GINT      | <--> |                None                 |
+| :--------: | :--: | :---------------------------------: |
+|   VCC_5V   | <--> |  <div className='red'>+5.0V</div>   |
+|    GND     | <--> |  <div className='black'>GND</div>   |
+|    PWM     | <--> |        PWM14_M0(GPIO Pin 11)        |
+|   TP-RST   | <--> |        GPIO3_B2(GPIO Pin 18)        |
+|   YP-INT   | <--> |        GPIO0_B6(GPIO Pin 16)        |
+|  LCD-RST   | <--> | <div className='yellow'>+3.3V</div> |
+|    GINT    | <--> |                None                 |
 
 实物连接图参考如下：
 
@@ -142,14 +142,14 @@ Step 3：将卡扣向下按紧，固定排线
 <div className='gpio_style'>
 
 | FPC 线引脚 |      |          单板机 GPIO 引脚           |
-| :-----------: | :--: | :---------------------------------: |
-|    VCC_5V     | <--> |  <div className='red'>+5.0V</div>   |
-|      GND      | <--> |  <div className='black'>GND</div>   |
-|      PWM      | <--> |          PWM1(GPIO Pin 13)          |
-|    TP-RST     | <--> |        GPIO4_D2(GPIO Pin 16)        |
-|    YP-INT     | <--> |        GPIO4_D4(GPIO Pin 18)        |
-|    LCD-RST    | <--> | <div className='yellow'>+3.3V</div> |
-|     GINT      | <--> |                None                 |
+| :--------: | :--: | :---------------------------------: |
+|   VCC_5V   | <--> |  <div className='red'>+5.0V</div>   |
+|    GND     | <--> |  <div className='black'>GND</div>   |
+|    PWM     | <--> |          PWM1(GPIO Pin 13)          |
+|   TP-RST   | <--> |        GPIO4_D2(GPIO Pin 16)        |
+|   YP-INT   | <--> |        GPIO4_D4(GPIO Pin 18)        |
+|  LCD-RST   | <--> | <div className='yellow'>+3.3V</div> |
+|    GINT    | <--> |                None                 |
 
 实物连接图参考如下：
 

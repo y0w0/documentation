@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Radxa Display 8 HD 使用教程'
+sidebar_label: "Radxa Display 8 HD 使用教程"
 sidebar_position: 6
 ---
 
@@ -10,12 +10,12 @@ import TabItem from '@theme/TabItem';
 
 ## 概述
 
-[Radxa Display 8 HD](lcd-8-hd-product) 显示面板现已支持以下瑞莎产品：  
+[Radxa Display 8 HD](lcd-8-hd-product) 显示面板现已支持以下瑞莎产品：
 
-|适配产品|使用 FPC 线材种类|实物图|
-|-|-|-|-|
-|4C+/5A/5B|39 pin 转 40 pin FPC 连接线|![AC012](/img/accessories/lcd-8-hd/ac013.webp)|
-|3A/3C/4SE|15 pin 转 40 pin FPC 连接线|![AC013](/img/accessories/lcd-8-hd/ac012.webp)|
+| 适配产品  | 使用 FPC 线材种类           | 实物图                                         |
+| --------- | --------------------------- | ---------------------------------------------- |
+| 4C+/5A/5B | 39 pin 转 40 pin FPC 连接线 | ![AC012](/img/accessories/lcd-8-hd/ac013.webp) |
+| 3A/3C/4SE | 15 pin 转 40 pin FPC 连接线 | ![AC013](/img/accessories/lcd-8-hd/ac012.webp) |
 
 其中，15 pin 转 40 pin 的 FPC 排线有需要额外连接的 7 pin 排针，其定义如下：
 
@@ -44,16 +44,16 @@ import TabItem from '@theme/TabItem';
 
 - 已烧录对应产品官方最新固件的存储介质，烧录教程请参阅[操作系统安装教程](/general-tutorial/os-installation)
 - USB 串口线或 HDMI 显示器及线缆
- 
+
 ### 操作步骤
 
 1. 将系统盘存储介质安装到 SBC 上
 
 2. 通过 FPC 线连接产品和显示面板  
- 其中，40 pin 端子接到显示面板上：向上拉起 FPC 接头黑色模块，将 FPC 排线插入卡槽，然后按下黑色模块固定 FPC 排线  
- ![Radxa Display 8 HD](/img/accessories/8hd-connect-fpc.webp)  
- 39 pin 端子接到产品 DSI 座子上：向上拉起 FPC 接头黑色模块，将 FPC 排线插入卡槽，然后向后按下黑色模块固定 FPC 排线  
- ![ROCK 5A-Radxa Display 8 HD](/img/accessories/rock5a-connect-fpc.webp)
+   其中，40 pin 端子接到显示面板上：向上拉起 FPC 接头黑色模块，将 FPC 排线插入卡槽，然后按下黑色模块固定 FPC 排线  
+   ![Radxa Display 8 HD](/img/accessories/8hd-connect-fpc.webp)  
+   39 pin 端子接到产品 DSI 座子上：向上拉起 FPC 接头黑色模块，将 FPC 排线插入卡槽，然后向后按下黑色模块固定 FPC 排线  
+   ![ROCK 5A-Radxa Display 8 HD](/img/accessories/rock5a-connect-fpc.webp)
 
 3. 连接显示器或 USB 串口调试，通电进入系统
 
@@ -82,16 +82,16 @@ import TabItem from '@theme/TabItem';
 
 - 已烧录对应产品官方最新固件的存储介质，烧录教程请参阅[操作系统安装教程](/general-tutorial/os-installation)
 - USB 串口线或 HDMI 显示器及线缆
- 
+
 ### 操作步骤
 
 1. 将系统盘存储介质安装到 SBC 上
 
 2. 通过 FPC 线连接产品和显示面板  
- 其中，40 pin 端子接到显示面板上：向上拉起 FPC 接头黑色模块，将 FPC 排线插入卡槽，然后按下黑色模块固定 FPC 排线  
- ![Radxa Display 8 HD](/img/accessories/8hd-connect-fpc.webp)  
+   其中，40 pin 端子接到显示面板上：向上拉起 FPC 接头黑色模块，将 FPC 排线插入卡槽，然后按下黑色模块固定 FPC 排线  
+   ![Radxa Display 8 HD](/img/accessories/8hd-connect-fpc.webp)
 
- 15 pin 端子接到产品 DSI 座子上：  
+15 pin 端子接到产品 DSI 座子上：  
 Step 1：将座子白色卡扣向上拉起  
 Step 2：排线金手指背对白色卡扣插入座子  
 Step 3：将卡扣向下按紧，固定排线  
@@ -103,15 +103,15 @@ Step 3：将卡扣向下按紧，固定排线
 <TabItem value="3c" label="ROCK 3C">
 <div className='gpio_style'>
 
-|   FPC 线 pin 脚      |      |          产品 GPIO pin 脚            |
-| :------------------: | :--: | :---------------------------------: |
-|        VCC_5V        | <--> |  <div className='red'>+5.0V</div>   |
-|         GND          | <--> |  <div className='black'>GND</div>   |
-|         PWM          | <--> |        PWM14_M0(GPIO Pin 7)         |
-|        TP-RST        | <--> |        GPIO3_B2(GPIO Pin 18)        |
-|        YP-INT        | <--> |        GPIO3_B1(GPIO Pin 16)        |
-|       LCD-RST        | <--> | <div className='yellow'>+3.3V</div> |
-|         GINT         | <--> |                None                 |
+| FPC 线 pin 脚 |      |          产品 GPIO pin 脚           |
+| :-----------: | :--: | :---------------------------------: |
+|    VCC_5V     | <--> |  <div className='red'>+5.0V</div>   |
+|      GND      | <--> |  <div className='black'>GND</div>   |
+|      PWM      | <--> |        PWM14_M0(GPIO Pin 7)         |
+|    TP-RST     | <--> |        GPIO3_B2(GPIO Pin 18)        |
+|    YP-INT     | <--> |        GPIO3_B1(GPIO Pin 16)        |
+|    LCD-RST    | <--> | <div className='yellow'>+3.3V</div> |
+|     GINT      | <--> |                None                 |
 
 实物连接图参考如下：
 
@@ -122,15 +122,15 @@ Step 3：将卡扣向下按紧，固定排线
 <TabItem value="3a" label="ROCK 3A">
 <div className='gpio_style'>
 
-|   FPC 线 pin 脚      |      |          产品 GPIO pin 脚            |
-| :------------------: | :--: | :---------------------------------: |
-|        VCC_5V        | <--> |  <div className='red'>+5.0V</div>   |
-|         GND          | <--> |  <div className='black'>GND</div>   |
-|         PWM          | <--> |        PWM14_M0(GPIO Pin 11)        |
-|        TP-RST        | <--> |        GPIO3_B2(GPIO Pin 18)        |
-|        YP-INT        | <--> |        GPIO0_B6(GPIO Pin 16)        |
-|       LCD-RST        | <--> | <div className='yellow'>+3.3V</div> |
-|         GINT         | <--> |                None                 |
+| FPC 线 pin 脚 |      |          产品 GPIO pin 脚           |
+| :-----------: | :--: | :---------------------------------: |
+|    VCC_5V     | <--> |  <div className='red'>+5.0V</div>   |
+|      GND      | <--> |  <div className='black'>GND</div>   |
+|      PWM      | <--> |        PWM14_M0(GPIO Pin 11)        |
+|    TP-RST     | <--> |        GPIO3_B2(GPIO Pin 18)        |
+|    YP-INT     | <--> |        GPIO0_B6(GPIO Pin 16)        |
+|    LCD-RST    | <--> | <div className='yellow'>+3.3V</div> |
+|     GINT      | <--> |                None                 |
 
 实物连接图参考如下：
 
@@ -141,15 +141,15 @@ Step 3：将卡扣向下按紧，固定排线
 <TabItem value="4se" label="ROCK 4SE">
 <div className='gpio_style'>
 
-|   FPC 线 pin 脚      |      |          产品 GPIO pin 脚            |
-| :------------------: | :--: | :---------------------------------: |
-|        VCC_5V        | <--> |  <div className='red'>+5.0V</div>   |
-|         GND          | <--> |  <div className='black'>GND</div>   |
-|         PWM          | <--> |          PWM1(GPIO Pin 13)          |
-|        TP-RST        | <--> |        GPIO4_D2(GPIO Pin 16)        |
-|        YP-INT        | <--> |        GPIO4_D4(GPIO Pin 18)        |
-|       LCD-RST        | <--> | <div className='yellow'>+3.3V</div> |
-|         GINT         | <--> |                None                 |
+| FPC 线 pin 脚 |      |          产品 GPIO pin 脚           |
+| :-----------: | :--: | :---------------------------------: |
+|    VCC_5V     | <--> |  <div className='red'>+5.0V</div>   |
+|      GND      | <--> |  <div className='black'>GND</div>   |
+|      PWM      | <--> |          PWM1(GPIO Pin 13)          |
+|    TP-RST     | <--> |        GPIO4_D2(GPIO Pin 16)        |
+|    YP-INT     | <--> |        GPIO4_D4(GPIO Pin 18)        |
+|    LCD-RST    | <--> | <div className='yellow'>+3.3V</div> |
+|     GINT      | <--> |                None                 |
 
 实物连接图参考如下：
 

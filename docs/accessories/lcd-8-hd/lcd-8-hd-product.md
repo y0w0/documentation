@@ -1,5 +1,5 @@
 ---
-sidebar_label: '产品介绍'
+sidebar_label: "产品介绍"
 sidebar_position: 5
 ---
 
@@ -12,13 +12,14 @@ sidebar_position: 5
 Radxa Display 8 HD 是一款带触摸屏的彩色有源矩阵 LCD 模块，专为 Radxa 单板计算机设计。
 这款 8.0 英寸显示屏可让您创建交互式项目，例如平板电脑、工业 HMI、信息仪表板等。 Radxa Display 8 HD 具有用于电源、显示和触摸的单根电缆以及启用的软件屏幕键盘，无需连接键盘或鼠标即可为您提供完整的人机界面。
 此外，显示器上的内置传感器可用于自动纵向或横向旋转。 它具有以下特点：
+
 - 8.0 英寸液晶显示器
 - 800 x 1280、16.7M 色分辨率
 - 全视角 LCD
 - 5 点电容式触摸屏
 - 支持 PWM 亮度控制
 - 支持颜色增强
-- 内置重力传感器，用于纵向/横向旋转 
+- 内置重力传感器，用于纵向/横向旋转
 
 ## LCD
 
@@ -52,7 +53,7 @@ GT911 支持最多 5 点并发触控，实时追踪准确位置和运动轨迹�
   - 实时输出触摸坐标
   - 适用于各种尺寸电容触摸屏的统一软件
 - 电容式触摸传感器
-- 通道：26（Tx 通道）* 14（Rx 通道）
+- 通道：26（Tx 通道）\* 14（Rx 通道）
   - 支持的 Cover Lens 厚度：0.55mm ≦ Glass ≦ 2mm,0.5mm ≦ PMMA ≦ 1.2mm
   - 自适应跳频
   - 支持 OGS 全贴合
@@ -66,28 +67,28 @@ GT911 支持最多 5 点并发触控，实时追踪准确位置和运动轨迹�
 
 ## Pinout
 
-| PIN | Name     | Description                                    | PIN | Name     | Description                                    |
-|-----|----------|------------------------------------------------|-----|----------|------------------------------------------------|
-| 1   | NC       | No connection                                  | 21  | MIPI_3P  | +MIPI differential data input                  |
-| 2   | VDD      | 3.3V                                           | 22  | GND      | Ground                                         |
-| 3   | VCCIO    | IO VCC (1.8V-3.3V)                             | 23  | GND      | Ground                                         |
-| 4   | NC       | INT 1                                          | 24  | TP_RESET | External interrupt to the host Reset           |
-| 5   | Reset    | RESET                                          | 25  | TP_VCC   | Power                                          |
-| 6   | NC       | INT 2                                          | 26  | TP_INT   | External Low is active                         |
-| 7   | GND      | Ground                                         | 27  | TP_SDA   | I2C data input and output                      |
-| 8   | MIPI_0N  | -MIPI differential data input                  | 28  | TP_SCL   | I2C clock input                                |
-| 9   | MIPI_0P  | +MIPI differential data input                  | 29  | GND      | Ground                                         |
-| 10  | GND      | Ground                                         | 30  | GND      | Ground                                         |
-| 11  | MIPI_1N  | -MIPI differential data input                  | 31  | VDD      | VDD 3.3V                                       |
-| 12  | MIPI_1P  | +MIPI differential data input                  | 32  | VDD      | VDD 3.3V                                       |
-| 13  | GND      | Ground                                         | 33  | GND      | Ground                                         |
-| 14  | MIPI_CKN | -MIPI differential clock input                 | 34  | GND      | Ground                                         |
-| 15  | MIPI_CKP | +MIPI differential clock input                 | 35  | LED-     | LED Cathode                                    |
-| 16  | GND      | Ground                                         | 36  | LED-     | LED Cathode                                    |
-| 17  | MIPI_2N  | -MIPI differential data input                  | 37  | NC       | No connection                                  |
-| 18  | MIPI_2P  | +MIPI differential data input                  | 38  | NC       | No connection                                  |
-| 19  | GND      | Ground                                         | 39  | LED+     | LED Anode                                      |
-| 20  | MIPI_3N  | -MIPI differential data input                  | 40  | LED+     | LED Anode                                      |
+| PIN | Name     | Description                    | PIN | Name     | Description                          |
+| --- | -------- | ------------------------------ | --- | -------- | ------------------------------------ |
+| 1   | NC       | No connection                  | 21  | MIPI_3P  | +MIPI differential data input        |
+| 2   | VDD      | 3.3V                           | 22  | GND      | Ground                               |
+| 3   | VCCIO    | IO VCC (1.8V-3.3V)             | 23  | GND      | Ground                               |
+| 4   | NC       | INT 1                          | 24  | TP_RESET | External interrupt to the host Reset |
+| 5   | Reset    | RESET                          | 25  | TP_VCC   | Power                                |
+| 6   | NC       | INT 2                          | 26  | TP_INT   | External Low is active               |
+| 7   | GND      | Ground                         | 27  | TP_SDA   | I2C data input and output            |
+| 8   | MIPI_0N  | -MIPI differential data input  | 28  | TP_SCL   | I2C clock input                      |
+| 9   | MIPI_0P  | +MIPI differential data input  | 29  | GND      | Ground                               |
+| 10  | GND      | Ground                         | 30  | GND      | Ground                               |
+| 11  | MIPI_1N  | -MIPI differential data input  | 31  | VDD      | VDD 3.3V                             |
+| 12  | MIPI_1P  | +MIPI differential data input  | 32  | VDD      | VDD 3.3V                             |
+| 13  | GND      | Ground                         | 33  | GND      | Ground                               |
+| 14  | MIPI_CKN | -MIPI differential clock input | 34  | GND      | Ground                               |
+| 15  | MIPI_CKP | +MIPI differential clock input | 35  | LED-     | LED Cathode                          |
+| 16  | GND      | Ground                         | 36  | LED-     | LED Cathode                          |
+| 17  | MIPI_2N  | -MIPI differential data input  | 37  | NC       | No connection                        |
+| 18  | MIPI_2P  | +MIPI differential data input  | 38  | NC       | No connection                        |
+| 19  | GND      | Ground                         | 39  | LED+     | LED Anode                            |
+| 20  | MIPI_3N  | -MIPI differential data input  | 40  | LED+     | LED Anode                            |
 
 ## 物理规格
 

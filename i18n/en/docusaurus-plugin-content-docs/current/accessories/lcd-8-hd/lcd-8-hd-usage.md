@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Radxa Display 8 HD Usage'
+sidebar_label: "Radxa Display 8 HD Usage"
 sidebar_position: 6
 ---
 
@@ -12,10 +12,10 @@ import TabItem from '@theme/TabItem';
 
 [Radxa Display 8 HD](lcd-8-hd-product) now supports the following radxa products:
 
-|Applicable to products|FPC cable types|Photos|
-|-|-|-|-|
-|4C+/5A/5B|39 pin to 40 pin FPC cable|![AC012](/img/accessories/lcd-8-hd/ac013.webp)|
-|3A/3C/4SE|15 pin to 40 pin FPC cable|![AC013](/img/accessories/lcd-8-hd/ac012.webp)|
+| Applicable to products | FPC cable types            | Photos                                         |
+| ---------------------- | -------------------------- | ---------------------------------------------- |
+| 4C+/5A/5B              | 39 pin to 40 pin FPC cable | ![AC012](/img/accessories/lcd-8-hd/ac013.webp) |
+| 3A/3C/4SE              | 15 pin to 40 pin FPC cable | ![AC013](/img/accessories/lcd-8-hd/ac012.webp) |
 
 The 15-pin to 40-pin FPC cable has an additional 7-pin holder that needs to be connected as defined below:
 
@@ -39,21 +39,21 @@ The ROCK 5A is used here as a demonstration, and other boards operate in a simil
 - Power supply
 
 :::tip
-Recommended  [Radxa PD 30W Adapter](/accessories/pd_30w).
+Recommended [Radxa PD 30W Adapter](/accessories/pd_30w).
 :::
 
 - Storage media with the latest official software of the corresponding product, please refer to [OS Installation Tutorial](/general-tutorial/os-installation) for the flashing tutorial.
 - USB to TTL serial cable or HDMI monitor and cable.
- 
+
 ### Procedures
 
 1. Install the system disc storage media on the SBC
 
 2. Connect the SBC and the display panel via the FPC cable.  
- The 40 pin terminal is connected to the display panel: pull up the black module of the FPC connector on SBC, insert the FPC cable into the slot, and then press the black module to fix the FPC cable.  
- ![Radxa Display 8 HD](/img/accessories/8hd-connect-fpc.webp)  
- 39 pin terminal to SBC DSI holder: pull up the black module of FPC connector on SBC, insert the FPC cable into the slot, and then press the black module backward to fix the FPC cable.  
- ![ROCK 5A-Radxa Display 8 HD](/img/accessories/rock5a-connect-fpc.webp)
+   The 40 pin terminal is connected to the display panel: pull up the black module of the FPC connector on SBC, insert the FPC cable into the slot, and then press the black module to fix the FPC cable.  
+   ![Radxa Display 8 HD](/img/accessories/8hd-connect-fpc.webp)  
+   39 pin terminal to SBC DSI holder: pull up the black module of FPC connector on SBC, insert the FPC cable into the slot, and then press the black module backward to fix the FPC cable.  
+   ![ROCK 5A-Radxa Display 8 HD](/img/accessories/rock5a-connect-fpc.webp)
 
 3. Connect the monitor or USB serial port debugging, power into the system
 
@@ -77,21 +77,21 @@ The ROCK 3C is used here as a demonstration, and other products operate in a sim
 - Power supply
 
 :::tip
-Recommended  [Radxa PD 30W Adapter](/accessories/pd_30w).
+Recommended [Radxa PD 30W Adapter](/accessories/pd_30w).
 :::
 
 - Storage media with the latest official software of the corresponding product, please refer to [OS Installation Tutorial](/general-tutorial/os-installation) for the flashing tutorial.
 - USB to TTL serial cable or HDMI monitor and cable.
- 
+
 ### Procedures
 
 1. Install the system disc storage media on the SBC
 
 2. Connect the SBC and the display panel via the FPC cable.  
- The 40 pin terminal is connected to the display panel: pull up the black module of the FPC connector on SBC, insert the FPC cable into the slot, and then press the black module to fix the FPC cable.  
- ![Radxa Display 8 HD](/img/accessories/8hd-connect-fpc.webp)  
+   The 40 pin terminal is connected to the display panel: pull up the black module of the FPC connector on SBC, insert the FPC cable into the slot, and then press the black module to fix the FPC cable.  
+   ![Radxa Display 8 HD](/img/accessories/8hd-connect-fpc.webp)
 
- The 15 pin terminal is connected to the DSI holder on the SBC:  
+The 15 pin terminal is connected to the DSI holder on the SBC:  
 Step 1: Pull up the white tab of the chassis.  
 Step 2: Insert the gold finger of the cable into the holder with the back of the white tab.  
 Step 3: Press the snap down firmly to fix the wires.  

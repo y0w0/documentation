@@ -50,9 +50,9 @@ import TabItem from '@theme/TabItem';
 1. 将系统盘存储介质安装到 SBC 上
 
 2. 通过 FPC 线连接产品和显示面板  
-   其中，40 pin 端子接到显示面板上：向上拉起 FPC 接头黑色模块，将 FPC 排线插入卡槽，然后按下黑色模块固定 FPC 排线  
+   其中，40 pin 一端接到显示面板上：向上拨起 FPC 接头黑色卡扣，将 FPC 排线插入连接器，然后按下黑色卡扣固定 FPC 排线  
    ![Radxa Display 8 HD](/img/accessories/8hd-connect-fpc.webp)  
-   39 pin 端子接到产品 DSI 座子上：向上拉起 FPC 接头黑色模块，将 FPC 排线插入卡槽，然后向后按下黑色模块固定 FPC 排线  
+   39 pin 一端接到产品 DSI 连接器上：向上拨起 FPC 接头黑色卡扣，将 FPC 排线插入连接器，然后按下黑色卡扣固定 FPC 排线  
    ![ROCK 5A-Radxa Display 8 HD](/img/accessories/rock5a-connect-fpc.webp)
 
 3. 连接显示器或 USB 串口调试，通电进入系统
@@ -88,22 +88,22 @@ import TabItem from '@theme/TabItem';
 1. 将系统盘存储介质安装到 SBC 上
 
 2. 通过 FPC 线连接产品和显示面板  
-   其中，40 pin 端子接到显示面板上：向上拉起 FPC 接头黑色模块，将 FPC 排线插入卡槽，然后按下黑色模块固定 FPC 排线  
+   其中，40 pin 端子接到显示面板上：向上拨起 FPC 接头黑色卡扣，将 FPC 排线插入连接器，然后按下黑色卡扣固定 FPC 排线  
    ![Radxa Display 8 HD](/img/accessories/8hd-connect-fpc.webp)
 
-15 pin 端子接到产品 DSI 座子上：  
-Step 1：将座子白色卡扣向上拉起  
-Step 2：排线金手指背对白色卡扣插入座子  
+15 pin 端子接到产品 DSI 连接器上：  
+Step 1：将座子白色卡扣向上拨起  
+Step 2：排线金手指背对白色卡扣插入连接器  
 Step 3：将卡扣向下按紧，固定排线  
  ![FPC 15 Pin Connecting](/img/accessories/lcd-8-hd/fpc-15-pin-connecting.webp)
 
-3. 排线接线 pin 脚通过杜邦线接到产品 GPIO 座子上，接法如下：
+3. 通过杜邦线连接额外接口，接法如下：
 
 <Tabs>
 <TabItem value="3c" label="ROCK 3C">
 <div className='gpio_style'>
 
-| FPC 线 pin 脚 |      |          产品 GPIO pin 脚           |
+| FPC 线引脚 |      |          单板机 GPIO 引脚           |
 | :-----------: | :--: | :---------------------------------: |
 |    VCC_5V     | <--> |  <div className='red'>+5.0V</div>   |
 |      GND      | <--> |  <div className='black'>GND</div>   |
@@ -122,7 +122,7 @@ Step 3：将卡扣向下按紧，固定排线
 <TabItem value="3a" label="ROCK 3A">
 <div className='gpio_style'>
 
-| FPC 线 pin 脚 |      |          产品 GPIO pin 脚           |
+| FPC 线引脚 |      |          单板机 GPIO 引脚           |
 | :-----------: | :--: | :---------------------------------: |
 |    VCC_5V     | <--> |  <div className='red'>+5.0V</div>   |
 |      GND      | <--> |  <div className='black'>GND</div>   |
@@ -141,7 +141,7 @@ Step 3：将卡扣向下按紧，固定排线
 <TabItem value="4se" label="ROCK 4SE">
 <div className='gpio_style'>
 
-| FPC 线 pin 脚 |      |          产品 GPIO pin 脚           |
+| FPC 线引脚 |      |          单板机 GPIO 引脚           |
 | :-----------: | :--: | :---------------------------------: |
 |    VCC_5V     | <--> |  <div className='red'>+5.0V</div>   |
 |      GND      | <--> |  <div className='black'>GND</div>   |

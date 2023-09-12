@@ -50,9 +50,9 @@ Recommended [Radxa PD 30W Adapter](/accessories/pd_30w).
 1. Install the system disc storage media on the SBC
 
 2. Connect the SBC and the display panel via the FPC cable.  
-   The 40 pin terminal is connected to the display panel: pull up the black module of the FPC connector on SBC, insert the FPC cable into the slot, and then press the black module to fix the FPC cable.  
+   The 40 pin terminal is connected to the display panel: lift up the black tab on the FPC connector, insert the FPC cable into the connector, and press the black tab to secure the FPC cable.  
    ![Radxa Display 8 HD](/img/accessories/8hd-connect-fpc.webp)  
-   39 pin terminal to SBC DSI holder: pull up the black module of FPC connector on SBC, insert the FPC cable into the slot, and then press the black module backward to fix the FPC cable.  
+   To connect the 39-pin end to the product's DSI connector: swivel up the black tab on the FPC connector, insert the FPC cable into the connector, and press down on the black tab to secure the FPC cable.  
    ![ROCK 5A-Radxa Display 8 HD](/img/accessories/rock5a-connect-fpc.webp)
 
 3. Connect the monitor or USB serial port debugging, power into the system
@@ -91,10 +91,10 @@ Recommended [Radxa PD 30W Adapter](/accessories/pd_30w).
    The 40 pin terminal is connected to the display panel: pull up the black module of the FPC connector on SBC, insert the FPC cable into the slot, and then press the black module to fix the FPC cable.  
    ![Radxa Display 8 HD](/img/accessories/8hd-connect-fpc.webp)
 
-The 15 pin terminal is connected to the DSI holder on the SBC:  
-Step 1: Pull up the white tab of the chassis.  
-Step 2: Insert the gold finger of the cable into the holder with the back of the white tab.  
-Step 3: Press the snap down firmly to fix the wires.  
+The 15 pin terminal is connected to the DSI connector on the SBC:  
+Step 1: Pivot the white tab of the seat upwards  
+Step 2: Cable Gold Finger Back to White Snap Insert Connector  
+Step 3: Press the snap down firmly to fix the wires  
  ![FPC 15 Pin Connecting](/img/accessories/lcd-8-hd/fpc-15-pin-connecting.webp)
 
 3. The pins are connected to the GPIO socket of the SBC through the Dupont cable as follows:

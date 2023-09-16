@@ -90,7 +90,8 @@ Supported U-Boot profile:
 
 :::info
 根据帮助提示我们可以选择 amlogic latest rk3328 rk356x rockchip stable 这六种 Radxa bsp Linux 内核配置。  
-Radxa bsp Linux 内核配置对应的仓库分支与板型可查看 bsp/linux 文件夹下 Radxa bsp Linux 内核配置同名文件夹下的fork.conf文件内容，我们以 Radxa 5B 为例选择 rockchip 。
+我们以 Radxa 5B 为例选择 rockchip 。  
+rockchip 内核配置对应的仓库分支与板型可查看 bsp/linux/rockchip 文件夹下的 fork.conf 文件内容。
 :::
 
 ## 修改内核配置文件(可选)
@@ -103,7 +104,7 @@ vim linux/Radxa bsp Linux 内核配置/kconfig.conf  #该文件采用与 defconf
 
 ```bash
 cd bsp/
-./bsp -b podman linux rockchip  #根据安装的容器管理软件输入对应的 -b 选项
+./bsp -b podman linux rockchip  #根据安装的容器管理软件输入对应的 -b 选项值
 ```
 
 :::info
@@ -132,8 +133,8 @@ sudo dpkg -i --force-overwrite *rock-5b*.deb *rockchip*.deb
 
 :::info
 你会发现在 /boot 目录下生成了一些文件。  
-检查**配置文件 /boot/extlinux/extlinux.conf。**是否有对应内核版本字样
-重启设备之后，检查内核版本
+检查**配置文件 /boot/extlinux/extlinux.conf。**是否有对应内核版本字样。  
+重启设备之后，检查内核版本。
 :::
 
 ```bash

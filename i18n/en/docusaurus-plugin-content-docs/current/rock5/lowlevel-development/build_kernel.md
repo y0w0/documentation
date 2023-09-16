@@ -133,7 +133,8 @@ sudo dpkg -i --force-overwrite *rock-5b*.deb *rockchip*.deb
 
 :::info
 You will find some files generated in the /boot directory.  
-Check ** the configuration file /boot/extlinux/extlinux.conf. ** if there is a kernel version corresponding to the words
+Check ** the configuration file /boot/extlinux/extlinux.conf. **  
+if there is a kernel version corresponding to the words
 After rebooting the device, check the kernel version.
 :::
 

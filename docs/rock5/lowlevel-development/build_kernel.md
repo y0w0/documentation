@@ -1,144 +1,176 @@
 ---
-sidebar_label: "构建 Kernel"
+sidebar_label: "在ROCK 5B 构建 Kernel"
 sidebar_position: 60
 ---
 
-# 构建 Kernel
+# 在ROCK 5B 构建Kernel
 
-## 准备
+- 准备 ROCK5B
 
-- 一台可运行 Linux 系统的 PC 或 SBC
-
-## 安装 Docker 与跨架构支持
+## 安装必要包
 
 ```bash
-sudo apt update
-
-# Podman (推荐)
-sudo apt install -y podman
-
-# Docker
-#sudo apt install docker.io
-
-# 次要功能的可选依赖项
-sudo apt install -y systemd-container
+sudo apt-get update
+sudo apt-get install git device-tree-compiler libncurses5 libncurses5-dev build-essential libssl-dev mtools bc python3 dosfstools bison flex rsync u-boot-tools make -y
 ```
 
-## 获取 Radxa bsp 构建框架源代码
+## 获取源代码
 
 ```bash
-git clone --recurse-submodules https://github.com/radxa-repo/bsp.git
+mkdir ~/rk3588-sdk && cd ~/rk3588-sdk
+git clone -b linux-5.10-gen-rkr3.4 https://github.com/radxa/kernel.git
+git clone -b master https://github.com/radxa/rkbin.git
+git clone -b debian https://github.com/radxa/build.git
 ```
 
-## 查看 Radxa bsp 帮助
+- 你将获得如下内容
 
 ```bash
-rock@rock-5b:~/bsp$ ./bsp -h
-Radxa BSP Build Tool
-usage: bsp [options] <linux|u-boot> <profile> [product]
-
-When building u-boot, you can also provide 'product' argument,
-which will only build for that specific image.
-
-Supported package generation options:
-    -r, --revision [num]    Specify custom revision number, default=1
-    -c, --clean             Run 'make clean' before building
-    -C, --distclean         Run 'make distclean' before building
-    --no-prepare-source     Allow building against locally modified repos
-    --no-config             Do not load defconfig or apply kconfig
-    --no-container-update   Do not update the container image
-                            Suppress --local-container
-    --dirty                 Build without modifying the source tree.
-                            Equals --no-prepare-source --no-config --no-container-update
-    --no-build              Prepare the source tree but do not build.
-                            Inverse of --dirty
-    -p                      Pause after applying patches from each folder
-    -n, --native-build      Build without using container
-    -l, --local-container   Using locally built container image
-    -s, --container-shell   Start a shell inside the container instead of the build
-    -d, --debug             Build debug package as well
-    --long-version          Add Git commit hash to the end of the version number
-    --dtb                   Build dtb only <only valid for linux build>
-    -b, --backend [backend] Manually specify container backend. supported values are:
-                            docker, podman
-    --no-submodule-check    Do not check for submodules
-    -h, --help              Show this help message
-
-Alternative commands
-    json <catagory>         Print supported options in json format
-                            Available catagories: edition linux edition u-boot
-    export <profile>        Export profile
-    import <profile>        Import profile
-    install <disk> [file]   Install built artifact to specified disk
-                            Root partition will be determined based on the layout
-                            When file is
-                            Supported file types: deb, dtb, dtbo
-
-Supported Linux profile:
-    amlogic
-    latest
-    rk3328
-    rk356x
-    rockchip
-    stable
-
-Supported U-Boot profile:
-    latest
-    rk3588
-    rknext
+ls rk3588-sdk
+# build  kernel  rkbin
 ```
 
-:::info
-根据帮助提示我们可以选择 amlogic latest rk3328 rk356x rockchip stable 这六种 Radxa bsp Linux 内核配置。  
-我们以 Radxa 5B 为例选择 rockchip 。  
-rockchip 内核配置对应的仓库分支与板型可查看 bsp/linux/rockchip 文件夹下的 fork.conf 文件内容。
-:::
+### 介绍
 
-## 修改内核配置文件(可选)
+- build: 用于构建u-boot、内核和rootfs 的一些脚本文件和配置文件。
+- rkbin: 预构建的 Rockchip 二进制文件，包括第一阶段loader和 ATF（Arm Trustzone 固件）。
+- u-boot: u-boot 作为第二阶段bootloader
+
+## 构建Kernel
+
+- 默认选择内核分支： linux-5.10-gen-rkr3.4.
+- 构建Kernel默认 rockchip_linux_defconfig.
 
 ```bash
-vim linux/Radxa bsp Linux 内核配置/kconfig.conf  #该文件采用与 defconfig 相同格式。
+cd ~/rk3588-sdk
+./build/mk-kernel.sh rk3588-rock-5b    # For ROCK 5B
 ```
 
-## 构建 Kernel
+## 修改内核配置文件
+
+- 可以选择修改内核配置文件
 
 ```bash
-cd bsp/
-./bsp -b podman linux rockchip  #根据安装的容器管理软件输入对应的 -b 选项值
+cd ~/rk3588-sdk
+cd kernel
+make rockchip_linux_defconfig
+make menuconfig
+make savedefconfig
+cp defconfig arch/arm64/configs/rockchip_linux_defconfig
 ```
 
-:::info
-Radxa bsp 可以将内核、设备树、模块和固件打包成 Debian 包。  
-这使得在 SBC 上安装更容易，生成的包位于 bsp 根目录。
-:::
+- 用新的配置文件构建Kernel
 
 ```bash
-ls *rock-5b*.deb *rockchip*.deb
-
-#linux-headers-5.10.110-1-rockchip_5.10.110-1_arm64.deb
-#linux-headers-rockchip_5.10.110-1_all.deb
-#linux-image-5.10.110-1-rockchip_5.10.110-1_arm64.deb
-#linux-image-rock-5b_5.10.110-1_all.deb
-#linux-image-rockchip_5.10.110-1_all.deb
-#linux-libc-dev-5.10.110-1-rockchip_5.10.110-1_arm64.deb
-#linux-libc-dev-rock-5b_5.10.110-1_all.deb
-#linux-libc-dev-rockchip_5.10.110-1_all.deb
+cd ~/rk3588-sdk
+./build/mk-kernel.sh rk3588-rock-5b    # For ROCK 5B
 ```
 
-## 安装Linux内核及其相关包
+- 你将得到内核image 和 dtb 文件
 
 ```bash
-sudo dpkg -i --force-overwrite *rock-5b*.deb *rockchip*.deb
+ls out/kernel/
+Image  rk3588-rock-5b.dtb
 ```
 
-:::info
-你会发现在 /boot 目录下生成了一些文件。  
-检查**配置文件 /boot/extlinux/extlinux.conf。**是否有对应内核版本字样。  
-重启设备之后，检查内核版本。
-:::
+## 构建Kernel包
+
+- 内核包kernel package构建可以将内核、设备树、模块和固件打包成 Debian 包，这使得在 ROCK 5B 上安装更容易。
+
+```bash
+./build/pack-kernel.sh -d rockchip_linux_defconfig -r 99 # [-d rockchip_linux_defconfig: kernel defconfig] [99: release number]
+```
+
+- 生成的包将被复制到 out/packages 目录。
+
+```bash
+ls out/packages/
+
+linux-5.10.110-99-rockchip-g9fd61a9a9912_5.10.110-99-rockchip_arm64.changes
+linux-headers-5.10.110-99-rockchip-g9fd61a9a9912_5.10.110-99-rockchip_arm64.deb
+linux-image-5.10.110-99-rockchip-g9fd61a9a9912-dbg_5.10.110-99-rockchip_arm64.deb
+linux-image-5.10.110-99-rockchip-g9fd61a9a9912_5.10.110-99-rockchip_arm64.deb
+linux-libc-dev_5.10.110-99-rockchip_arm64.deb
+```
+
+## 安装kernel包
+
+- 当您想要将指定的内核包安装到您的操作系统时，请尝试以下步骤。
+
+```bash
+sudo dpkg -i out/packages/linux-headers-5.10.110-99-rockchip-g9fd61a9a9912_5.10.110-99-rockchip_arm64.deb
+sudo dpkg -i out/packages/linux-image-5.10.110-99-rockchip-g9fd61a9a9912_5.10.110-99-rockchip_arm64.deb
+```
+
+- 你会发现在/boot目录下生成了一些文件。
+- 检查**配置文件/boot/extlinux/extlinux.conf。**
+
+```bash
+timeout 10
+menu title select kernel
+
+# Set default kernel version
+default kernel-5.10.110-99-rockchip-g9fd61a9a9912
+
+label kernel-5.10.110-99-rockchip-g9fd61a9a9912
+    kernel /vmlinuz-5.10.110-99-rockchip-g9fd61a9a9912
+    initrd /initrd.img-5.10.110-99-rockchip-g9fd61a9a9912
+    devicetreedir /dtbs/5.10.110-99-rockchip-g9fd61a9a9912
+    append   root=UUID=a6820e76-421d-4275-bdae-0ad612df361b earlycon=uart8250,mmio32,0xfeb50000 console=ttyFIQ0 console=tty1 consoleblank=0 loglevel=7 panic=10 rootwait rw init=/sbin/init rootfstype=ext4 cgroup_enable=cpuset cgroup_memory=1 cgroup_enable=memory swapaccount=1 irqchip.gicv3_pseudo_nmi=0 switolb=1 coherent_pool=2M
+
+label kernel-5.10.110-34-rockchip-gca15bbe36e6c
+    kernel /vmlinuz-5.10.110-34-rockchip-gca15bbe36e6c
+    initrd /initrd.img-5.10.110-34-rockchip-gca15bbe36e6c
+    devicetreedir /dtbs/5.10.110-34-rockchip-gca15bbe36e6c
+    append   root=UUID=a6820e76-421d-4275-bdae-0ad612df361b earlycon=uart8250,mmio32,0xfeb50000 console=ttyFIQ0 console=tty1 consoleblank=0 loglevel=7 panic=10 rootwait rw init=/sbin/init rootfstype=ext4 cgroup_enable=cpuset cgroup_memory=1 cgroup_enable=memory swapaccount=1 irqchip.gicv3_pseudo_nmi=0 switolb=1 coherent_pool=2M
+```
+
+- 重启设备之后，检查内核版本
 
 ```bash
 uname -a
 
-#Linux rock-5b 5.10.110-1-rockchip #1 SMP Fri Sep 15 16:40:30 UTC 2023 aarch64 GNU/Linux
+# Linux rock-5b 5.10.110-99-rockchip-g9fd61a9a9912 #rockchip SMP Sun Jan 29 17:51:26 UTC 2023 aarch64 GNU/Linux
+```
+
+## FAQs
+
+- 构建内核包时，出现“internal compiler error: Segmentation fault”错误，如下：
+
+```bash
+  CC [M]  drivers/net/wireless/rockchip_wlan/rtl8852bu/phl/test/verify/phl_test_verify.o
+during GIMPLE pass: local-fnsummary
+drivers/net/wireless/rockchip_wlan/rtl8852be/phl/test/mp/phl_test_mp_reg.c: In function 'phl_mp_reg_read_macreg':
+drivers/net/wireless/rockchip_wlan/rtl8852be/phl/test/mp/phl_test_mp_reg.c:320:1: internal compiler error: Segmentation fault
+  320 | }
+      | ^
+Please submit a full bug report,
+with preprocessed source if appropriate.
+See <file:///usr/share/doc/gcc-10/README.Bugs> for instructions.
+The bug is not reproducible, so it is likely a hardware or OS problem.
+make[9]: *** [scripts/Makefile.build:274: drivers/net/wireless/rockchip_wlan/rtl8852be/phl/test/mp/phl_test_mp_reg.o] Error 1
+make[9]: *** Waiting for unfinished jobs....
+  CC [M]  drivers/net/wireless/rockchip_wlan/rtl8852bu/phl/test/verify/dbcc/phl_test_dbcc.o
+```
+
+- 我们可以忽略它。 请在repository build构建中添加以下补丁。 并通过命令再次构建内核
+
+```bash
+./build/pack-kernel.sh -d rockchip_linux_defconfig -r 99
+```
+
+```bash
+diff --git a/pack-kernel.sh b/pack-kernel.sh
+index 5aa2e89ca..2ec116808 100755
+--- a/pack-kernel.sh
++++ b/pack-kernel.sh
+@@ -34,7 +34,7 @@ if [ "X$(uname -m)" == "Xaarch64" ]; then
+ fi
+
+ echo -e "\e[31m Start to pack kernel. \e[0m"
+-cd ${KERNEL_DIR} && make distclean && make -f $ROCKCHIP_BSP_DIR/build/kernel-package.mk kernel-package
++cd ${KERNEL_DIR} && make -f $ROCKCHIP_BSP_DIR/build/kernel-package.mk kernel-package
+
+ mv $ROCKCHIP_BSP_DIR/linux-*${RELEASE_NUMBER}-rockchip*.deb $PACKAGES_DIR
+ mv $ROCKCHIP_BSP_DIR/linux-*${RELEASE_NUMBER}-rockchip*.changes $PACKAGES_DIR
 ```

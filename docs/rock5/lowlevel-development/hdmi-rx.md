@@ -1,18 +1,18 @@
 ---
-sidebar_label: "HDMI IN 使用"
+sidebar_label: "HDMI RX 使用"
 sidebar_position: 30
 ---
 
-# HDMI-IN的使用
+# HDMI RX的使用
 
-ROCK 5B有一个HDMI-IN接口，支持标准的HDMI 2.0协议，可以支持高达2160p@60Hz的视频输入。
+ROCK 5B 有一个 HDMI RX 接口，支持标准的 HDMI 2.0 协议，可以支持高达 2160p@60Hz 的视频输入。
 
-- 准备ROCK 5B
-- 准备Micro HDMI线材
+- 准备 ROCK 5B
+- 准备 Micro HDMI 线材
 
 ## 使用步骤
 
-HDMI-IN设备接入ROCK 5B后，将被注册为内核中的视频设备，生成的节点为/dev/video0，可以使用v4l2-ctl命令获取设备信息并捕获帧。
+HDMI RX 设备接入 ROCK 5B 后，将被注册为内核中的视频设备，生成的节点为 /dev/video0，可以使用 v4l2-ctl 命令获取设备信息并捕获帧。
 
 - 检查设备信息
 
@@ -53,7 +53,7 @@ Format Video Capture Multiplanar:
           Size Image     : 12441600
 ```
 
-- 获取当前时间
+- 获取数字视频时序
 
 ```bash
 $ v4l2-ctl -d /dev/video0 --get-dv-timings
@@ -77,7 +77,7 @@ DV timings:
 
 - 通过设置分辨率和像素格式捕获图像文件
 
-将HDMI2设置为4k显示器并连接到hdmi-in。
+将 HDMI RX 设置为 4k 显示器并连接到 HDMI RX。
 
 ```bash
 $ v4l2-ctl --verbose -d /dev/video0 --set-fmt-video=width=3840,height=2160,pixelformat='NV12' --stream-mmap=4 --stream-skip=3 --stream-count=5 --stream-to=/home/rock/hdmiin4k.yuv --stream-poll
@@ -85,9 +85,9 @@ $ v4l2-ctl --verbose -d /dev/video0 --set-fmt-video=width=3840,height=2160,pixel
 
 - 检查图片文件
 
-在Windows使用 7yuv 工具
+在 Windows 使用 7yuv 工具
 
-在Linux使用 ffplay 工具
+在 Linux 使用 ffplay 工具
 
 ```bash
 $ ffplay -f rawvideo -video_size 3840x2160 -pixel_format nv12 /home/rock/hdmiin4k.yuv
@@ -95,7 +95,7 @@ $ ffplay -f rawvideo -video_size 3840x2160 -pixel_format nv12 /home/rock/hdmiin4
 
 - 检测音频功能
 
-当你的hdmi-in有音频输入时，你可以用arecord从hdmiin端口获得音频并在耳机上播放。
+当你的 HDMI RX 有音频输入时，你可以用 arecord 从 HDMI RX 端口获得音频并在耳机上播放。
 
 ```bash
 $ arecord -l
@@ -108,7 +108,7 @@ card 3: rockchiphdmiin [rockchip,hdmiin], device 0: fddf8000.i2s-dummy_codec hdm
  Subdevice #0: subdevice #0
 ```
 
-你可以看到，hdminrx（hdmiin）的声卡号是2，你可以运行下面的命令，在HDMI-IN有音频输入时，录制和播放音频。
+你可以看到，HDMI RX（HDMI IN）的声卡号是 2，你可以运行下面的命令，在 HDMI RX 有音频输入时，录制和播放音频。
 
 ```bash
 # get 5 seconds audio file

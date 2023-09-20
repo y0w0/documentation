@@ -21,7 +21,7 @@ import TabItem from '@theme/TabItem';
 
 1. Prepare a microSD card
 2. Prepare an SD card reader
-3. Download [corresponding product](productlist) of the official Ubuntu / Debian system image
+3. Download [corresponding product](/productlist) of the official Ubuntu / Debian system image
 4. Insert the SD card into the SD card reader, then insert the SD card reader into the USB port of the computer
 
 ### Flash OS image to microSD card
@@ -73,7 +73,7 @@ This tutorial is only applicable to write removable eMMC modules, onboard eMMCs 
 
 ![Radxa eMMC](/img/accessories/emmc_related_01.webp)
 
-- Download the [corresponding product](../productlist) for the official Ubuntu / Debian system image.
+- Download the [corresponding product](/productlist) for the official Ubuntu / Debian system image.
 - [Download](https://etcher.balena.io/) flash tool `Etcher`.  
   ![ROCK5A via Etcher](/img/rock5a/rock5a-etcher.webp)
 

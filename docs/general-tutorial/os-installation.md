@@ -21,7 +21,7 @@ import TabItem from '@theme/TabItem';
 
 1. 准备一个 microSD 卡
 2. 准备一个 SD 卡读卡器
-3. 下载[对应产品](../productlist)的官方 Ubuntu / Debian 系统镜像
+3. 下载[对应产品](/productlist)的官方 Ubuntu / Debian 系统镜像
 4. 把 SD 卡插入 SD 读卡器, 然后把 SD 读卡器插入计算机的 USB 接口
 
 ### 刷入操作系统镜像到 microSD 卡
@@ -74,7 +74,7 @@ import TabItem from '@theme/TabItem';
 
 ![Radxa eMMC](/img/accessories/emmc_related_01.webp)
 
-- 下载[对应产品](../productlist)的官方系统镜像。
+- 下载[对应产品](/productlist)的官方系统镜像。
 - [下载](https://etcher.balena.io/)刷写工具 `Etcher` 。
   ![ROCK5A via Etcher](/img/rock5a/rock5a-etcher.webp)
 

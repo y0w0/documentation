@@ -38,14 +38,17 @@ jobs:
         run: |
           yarn install
           yarn build
-      - name: Setup Pages
-        uses: actions/configure-pages@v3
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
           # Upload entire repository
           path: "./build"
+      - name: Setup Pages
+        id: setup-pages
+        uses: actions/configure-pages@v3
+        continue-on-error: true
+        if: github.event_name != 'pull_request' && github.event_name != 'merge_group'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
-        if: github.event_name != 'pull_request' && github.event_name != 'merge_group'
+        if: steps.setup-pages.outcome == 'success'

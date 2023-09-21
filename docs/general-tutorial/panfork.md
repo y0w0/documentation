@@ -17,7 +17,7 @@ Panfork 开源驱动需要运行于主线 Xorg server，厂商 Mali 驱动需要
 sudo apt update
 sudo apt-get install xserver-xorg-core/bullseye
 
-#   如需恢复 Rockchip Xorg server，请运行一下命令
+#   如需恢复 Rockchip Xorg server，请运行以下命令
 #   sudo apt-get install  xserver-xorg-core/rockchip-bullseye
 ```
 

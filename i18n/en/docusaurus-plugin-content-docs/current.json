@@ -206,17 +206,17 @@
   "sidebar.tutorialSidebar.category.系统配置.link.generated-index.description": {
     "message": "Radxa CM3 System Configuration"
   },
-  "sidebar.tutorialSidebar.category.计算机模块系列": {
-    "message": "Computer Module Family"
+  "sidebar.tutorialSidebar.category.计算模块系列": {
+    "message": "Compute Module Family"
   },
-  "sidebar.tutorialSidebar.category.计算机模块系列.link.generated-index.description": {
+  "sidebar.tutorialSidebar.category.计算模块系列.link.generated-index.description": {
     "message": "Compute Module is a family of small form factor and compact layout computing modules based on Rockchip SOCs."
   },
-  "sidebar.tutorialSidebar.category.计算机模块认证": {
-    "message": "Computer Module Compliance"
+  "sidebar.tutorialSidebar.category.计算模块认证": {
+    "message": "Compute Module Compliance"
   },
-  "sidebar.tutorialSidebar.category.计算机模块认证.link.generated-index.description": {
-    "message": "Computer Module Family Compliance Information"
+  "sidebar.tutorialSidebar.category.计算模块认证.link.generated-index.description": {
+    "message": "Compute Module Family Compliance Information"
   },
   "sidebar.tutorialSidebar.category.进阶使用教程": {
     "message": "Advanced Tutorial"

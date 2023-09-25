@@ -23,6 +23,10 @@
     "description": "The label of footer link with label=关于我们 linking to http://www.radxa.com/about",
     "message": "About Us"
   },
+  "link.item.label.About Distributors": {
+    "description": "The label of footer link with label=About Distributors linking to http://www.radxa.com/about?#distributors",
+    "message": "About Distributors"
+  },
   "link.item.label.支持": {
     "description": "The label of footer link with label=支持 linking to http://www.radxa.com/sustain",
     "message": "Support"

@@ -3,6 +3,10 @@
     "description": "The label of footer link with label=About linking to http://www.radxa.com/about",
     "message": "关于"
   },
+  "link.item.label.About Distributors": {
+    "description": "The label of footer link with label=About Distributors linking to http://www.radxa.com/about?#distributors",
+    "message": "瑞莎分销商"
+  },
   "link.item.label.About Radxa": {
     "description": "The label of footer link with label=About Radxa linking to http://www.radxa.com/about",
     "message": "关于瑞莎"
@@ -12,7 +16,7 @@
     "message": "社区"
   },
   "link.item.label.Contact Radxa": {
-    "description": "The label of footer link with label=Contact Radxa linking to http://www.radxa.com/about?contact_us",
+    "description": "The label of footer link with label=Contact Radxa linking to http://www.radxa.com/about?#contact",
     "message": "联系瑞莎"
   },
   "link.item.label.Forum": {

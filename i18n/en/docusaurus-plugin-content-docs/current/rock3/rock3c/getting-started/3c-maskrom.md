@@ -98,6 +98,7 @@ In particular, if you still cannot access the system by shorting the reserved SP
 - Use the female connector of a male-to-female DuPont cable to connect to the ground pin of the 40-pin connector, which is marked in black on the connector
 - Use the male end of the male-to-female DuPont cable to connect to the clk pin of the SPI Flash, which is shown in the following figure on the ROCK 3C
 - Power on
+- Disconnect after the serial port log indicates booting to U-Boot
 
 Power up and power on! [SPI clk connect](/img/rock3/3c/3c-spi-connect.webp)
 

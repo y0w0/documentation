@@ -1,5 +1,5 @@
 {
-  "label": "计算机模块系列",
+  "label": "计算模块系列",
   "link": {
     "description": "Compute Module 是由 Rockchip SoC 所实现的，具有小尺寸和紧凑布局的计算模块系列。",
     "slug": "/compute-module",

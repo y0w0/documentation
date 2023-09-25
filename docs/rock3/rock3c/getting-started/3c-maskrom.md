@@ -97,6 +97,7 @@ ROCK 3C 支持 Maskrom 模式，这是 CPU 通过 USB OTG 端口接收命令的�
 - 使用公对母杜邦线的母座端接 40 pin 连接座的接地引脚，其在连接座上标注为黑色
 - 使用公对母杜邦线的公头端连接 SPI Flash 的 clk 脚，在 ROCK 3C 上为下图所示引脚
 - 上电开机
+- 待串口启动到 U-Boot 后断开连接
 
 ![SPI clk connect](/img/rock3/3c/3c-spi-connect.webp)
 

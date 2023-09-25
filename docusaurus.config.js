@@ -135,16 +135,16 @@ const config = {
             position: "right",
             items: [
               {
-                label: 'Community',
-                href: 'http://www.radxa.com/community',
+                label: "Community",
+                href: "http://www.radxa.com/community",
               },
               {
                 label: "Forum",
                 href: "https://forum.radxa.com/",
               },
               {
-                label: 'WiKi',
-                href: 'https://wiki.radxa.com/',
+                label: "WiKi",
+                href: "https://wiki.radxa.com/",
               },
               {
                 label: "Github",

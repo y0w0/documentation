@@ -11,7 +11,7 @@ The Radxa ROCK 5 Model A (ROCK 5A) is a Single Board Computer (SBC) in a compact
 8GB  
 16GB
 
-![ROCK5A Interface](/img/rock5a/rock5a_interfaces.webp)
+![ROCK5A Interface](/img/rock5a/rock5a-interfaces.webp)
 
 **_Note:_ The actual board layout or components location may change during the time but the main connectors type and location will remain the same**
 

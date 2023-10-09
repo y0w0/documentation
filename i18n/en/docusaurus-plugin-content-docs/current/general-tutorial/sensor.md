@@ -6,10 +6,12 @@ sidebar_position: 10
 ## Development Environment Setup
 
 ```
+// Download the sample code
 rock@rock-4c-plus:~$ sudo apt-get install cmake build-essential git python3-dev -y
 rock@rock-4c-plus:~$ git clone https://github.com/nascs/sample_code.git
 rock@rock-4c-plus:~$ source sample_code/env.sh
 
+// LibwiringX installation
 rock@rock-4c-plus:~$ git clone https://github.com/wiringX/wiringX.git
 rock@rock-4c-plus:~$ cd wiringX
 rock@rock-4c-plus:~/wiringX/$ mkdir build

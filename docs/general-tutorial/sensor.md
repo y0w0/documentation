@@ -5,11 +5,15 @@ sidebar_position: 10
 
 ## 开发环境搭建
 
+该教程适用于瑞莎大部分 SBC 产品，此处使用 ROCK 4C+ 进行实际演示，其他 SBC 操作相同。
+
 ```
+// 下载示例代码
 rock@rock-4c-plus:~$ sudo apt-get install cmake build-essential git python3-dev -y
 rock@rock-4c-plus:~$ git clone https://github.com/nascs/sample_code.git
 rock@rock-4c-plus:~$ source sample_code/env.sh
 
+// 安装 wiringX 库
 rock@rock-4c-plus:~$ git clone https://github.com/wiringX/wiringX.git
 rock@rock-4c-plus:~$ cd wiringX
 rock@rock-4c-plus:~/wiringX/$ mkdir build

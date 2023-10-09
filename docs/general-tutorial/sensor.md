@@ -5,7 +5,7 @@ sidebar_position: 10
 
 ## 开发环境搭建
 
-该教程适用于瑞莎大部分 SBC 产品，此处使用 ROCK 4C+ 进行实际演示，其他 SBC 操作相同。
+该教程适用于瑞莎大部分 SBC 产品，此处使用 ROCK 4C+ 进行实际演示，其他 SBC 可参考此操作。
 
 ```
 // 下载示例代码
@@ -30,26 +30,26 @@ keyestudio 1602 I2C 模块是一个 16 个字符的 2 行 LCD 显示器，采用
 
 1. 使用 rsetup 工具打开 i2c7
 
-2. 关机
+2. 断电关机
 
-3. 接线
+3. 将 LCD 按以下方式接线
 
 ```
 LCD				Radxa ROCK 4
-GND			 	GND
-VCC			 	5V
-SDA			 	Pin 3
-SCL			 	Pin 5
+GND		<-->	 	GND
+VCC		<-->	 	5V
+SDA		<-->	 	Pin 3
+SCL		<-->	 	Pin 5
 ```
 
 4. 重启，并检查 i2c7 是否开启
 
 ```
 radxa@rock-4c-plus:~$ ls /dev/i2c-*
-/dev/i2c-0  /dev/i2c-7  /dev/i2c-9
+/dev/i2c-0  /dev/i2c-7  /dev/i2c-9 # 开启后可检测到 /dev/i2c-7
 ```
 
-5. 检查 LCD 是否正常被识别
+5. 通过以下命令检查 LCD 是否正常被识别
 
 ```
 radxa@rock-4c-plus:~$ sudo i2cdetect -r -y 7
@@ -78,16 +78,16 @@ ADXL345 是一款小巧、轻薄、低功耗的三轴 MEMS 加速计，具有高
 
 1. 使用 rsetup 工具打开 i2c7
 
-2. 关机
+2. 断电关机
 
-3. 接线
+3. 将 sensor 按以下方式接线
 
 ```
 ADXL345			Radxa ROCK 4
- GND			 GND
- VCC			 5V
- SDA			 Pin 3
- SCL			 Pin 5
+ GND		<-->	 GND
+ VCC		<-->	 5V
+ SDA		<-->	 Pin 3
+ SCL		<-->	 Pin 5
 ```
 
 4. 重启，并检查 i2c7 是否开启
@@ -110,20 +110,20 @@ root@rock-4c-plus:/home/radxa/sample_code/modules/keyestudio# ./a.out
 
 这有一个按钮和一个发光二极管。二者皆可通过编程控制，可实现按下按钮对发光二极管的控制。下面是在 radxa 平台上的使用方法:
 
-1. 接线
+1. 将 sensor 按以下方式接线
 
 ```
 led			Radxa ROCK 4
- s			Pin 3
- v			3.3V/5V
- g			GND
+ s	<-->		Pin 3
+ v	<-->		3.3V/5V
+ g	<-->		GND
 
 
 
-button				Radxa ROCK 4
- s					Pin 5
- v					3.3V/5V
- g					GND
+button		Radxa ROCK 4
+ s	<-->		Pin 5
+ v	<-->		3.3V/5V
+ g	<-->		GND
 ```
 
 2. 运行测试程序
@@ -139,14 +139,14 @@ radxa@rock-4c-plus:~$ sudo ./a.out
 
 Keyestudio SR01 超声波传感器价格实惠，可检测超声波传感器与障碍物之间的距离。它采用 CS100A 芯片，兼容 3.3V 和 5V。其最大探测距离为 3 米，盲区小于 4 厘米。与蝙蝠的原理一样，超声波模块发出的是人体听不到的高频信号。如果遇到障碍物，它们就会返回。接收到返回的信息后，它将通过确定发射信号和接收信号的时间差来计算传感器与障碍物之间的距离。下面是在 radxa 平台上的使用方法:
 
-1. 接线
+1. 将 sensor 按以下方式接线
 
 ```
-ultrasonic sensor				Radxa ROCK 4
-trig							Pin 3
-echo 							Pin 5
-v								3.3V/5V
-g								GND
+ultrasonic sensor		Radxa ROCK 4
+trig			<-->		Pin 3
+echo 		<-->      Pin 5
+v			<-->      3.3V/5V
+g			<-->		GND
 ```
 
 2. 运行测试程序
@@ -163,14 +163,14 @@ root@rock-4c-plus:/home/radxa/sample_code/modules/keyestudio# ./a.out
 keyestudio 4 位 LED 显示器模块集成了一个 0.36" 4 位 7 段显示器共阳极，有 12 个引脚。它使用 TM1637 驱动芯片。
 该模块有 4 个间距为 2.54 毫米的控制引脚，可通过跳线直接连接到微控制器。因此，控制矩阵非常简单，无需大量布线。可让微控制器通过信号接口控制 4 位 LED 段显示屏，大大节省了微控制器的 IO 引脚资源。模块上有两个 3 毫米的固定孔，方便安装到其他设备上。如果您一直在关注矩阵显示屏，但因其复杂性而犹豫不决，那么这款产品就是您一直在寻找的解决方案！下面是在 radxa 平台上的使用方法:
 
-1. 接线
+1. 将 sensor 按以下方式接线
 
 ```
-4-digit 7-segment Display				Radxa ROCK 4
-CLK 									Pin 40
-DIO										Pin 38
-VCC										3.3V/5V
-GND										GND
+4-digit 7-segment Display		     Radxa ROCK 4
+CLK 				<-->				Pin 40
+DIO				<-->				Pin 38
+VCC				<-->				3.3V/5V
+GND				<-->				GND
 ```
 
 2. 运行测试程序
@@ -188,16 +188,16 @@ OLED 是有机发光二极管的简称。在微观层面上，OLED 显示屏是�
 
 1. 使用 rsetup 工具打开 i2c7
 
-2. 关机
+2. 断电关机
 
-3. 接线
+3. 将 sensor 按以下方式接线
 
 ```
-OLED			Radxa ROCK 4
- GND			GND
- VCC			5V
- SDA			Pin 3
- SCL			Pin 5
+OLED		Radxa ROCK 4
+ GND	<-->	GND
+ VCC	<--> 5V
+ SDA	<-->	Pin 3
+ SCL	<-->	Pin 5
 ```
 
 4. 重启，并检查 i2c7 是否开启
@@ -235,13 +235,13 @@ root@rock-4c-plus:/home/radxa/sample_code/modules/keyestudio# ./a.out
 
 这里有一个蜂鸣器，一个led和一个红外发射器。三者均可以通过编程来进行控制。下面是在 radxa 平台上的使用方法:
 
-1. 接线
+1. 将 sensor 按以下方式接线
 
 ```
 buzzer/led/ir transmitter 		Radxa ROCK 4
-s								Pin 3
-v								3.3V/5V
-g								GND
+s					<-->		Pin 3
+v					<-->		3.3V/5V
+g					<-->		GND
 ```
 
 2. 运行测试程序
@@ -267,16 +267,16 @@ radxa@rock-4c-plus:~/TCS34725$ git checkout -b test origin/test
 
 2. 使用 rsetup 工具打开 i2c7
 
-3. 关机
+3. 断电关机
 
-4. 接线
+4. 将 sensor 按以下方式接线
 
 ```
 TCS34725			Radxa ROCK 4
- GND				GND
- VCC			 	5V
- SDA			 	Pin 3
- SCL			 	Pin 5
+ GND		<-->		GND
+ VCC		<-->	 	5V
+ SDA		<-->	 	Pin 3
+ SCL		<-->	 	Pin 5
 ```
 
 5. 重启，并检查 i2c7 是否开启
@@ -315,14 +315,14 @@ DS3231 集成了 TCXO 和晶体，是一款高性价比、高精度的 I2C 实�
 
 1. 使用 rsetup 打开 ds3231 overlay
 
-2. 接线
+2. 将 sensor 按以下方式接线
 
 ```
-DS3231			 Radxa ROCK 4
- GND			 GND
- VCC			 5V
- SDA			 Pin 3
- SCL			 Pin 5
+DS3231		 Radxa ROCK 4
+ GND	   <-->	 GND
+ VCC	   <-->	 5V
+ SDA	   <-->	 Pin 3
+ SCL	   <-->	 Pin 5
 ```
 
 3. 重启，并检查 i2c7 是否开启
@@ -437,15 +437,15 @@ DS18B20 是一款数字温度传感器。它可用于量化环境温度测试。
 
 1. 使用 rsetup 工具打开 one wire
 
-2. 关机
+2. 断电关机
 
-3. 接线
+3. 按以下接线方式连接
 
 ```
-DS18B2			Radxa ROCK 4
-s				Pin 37 (GPIO4_D6)
-v				3.3V/5V
-g				GND
+DS18B20			Radxa ROCK 4
+s		<-->		Pin 37 (GPIO4_D6)
+v		<-->		3.3V/5V
+g		<-->		GND
 ```
 
 4. 重启，并检设备是否被识别
@@ -465,14 +465,14 @@ radxa@rock-4c-plus:~/sample_code/modules/keyestudio$ sudo ./a.out
 
 keyestudio L9110 风扇控制模块采用 L9110 电机控制芯片。它可以控制电机的旋转方向，从而控制风扇。该模块设计有安装孔，可兼容伺服电机控制。该模块效率高，配合高质量的风扇，可轻松吹灭 20 厘米距离内的灯火。它是消防机器人开发中必不可少的部件。以下是它在 radxa 平台上的使用方法：
 
-1. 接线
+1. 按以下方式接线
 
 ```
-fan			Radxa ROCK 4
-INA			Pin 13
-INB			Pin 14
-VCC			3.3V/5V
-GND			GND
+fan		Radxa ROCK 4
+INA	<-->	Pin 13
+INB	<-->	Pin 14
+VCC	<-->	3.3V/5V
+GND	<-->	GND
 ```
 
 2. 运行测试程序
@@ -488,13 +488,13 @@ radxa@rock-4c-plus:~/sample_code/modules/keyestudio$ sudo ./a.out
 
 1. 使用 rsetup 工具打开 IR receiver
 
-2. 接线
+2. 按以下方式接线
 
 ```
-IR Receiver			Radxa ROCK 4
-s					Pin 13
-v					3.3V/5V
-g					GND
+IR Receiver		Radxa ROCK 4
+s		<-->		Pin 13
+v		<-->		3.3V/5V
+g		<-->		GND
 ```
 
 3. 安装测试软件，进行测试
@@ -510,13 +510,13 @@ radxa@rock-4c-plus:~$ sudo evtest
 
 舵机是一种位置（角度）伺服的驱动器，适用于那些需要角度不断变化并可以保持的控制系统。以下是它在 radxa 平台上的使用方法：
 
-1. 接线
+1. 按以下方式接线
 
 ```
 MG90s			Radxa ROCK 4
- s				Pin 13
- v				3.3V/5V
- g				GND
+ s		<-->		Pin 13
+ v		<-->		3.3V/5V
+ g		<-->		GND
 ```
 
 2. 运行测试程序
@@ -534,15 +534,15 @@ WS2812B是一种数字可编程LED灯珠，也被称为Neopixel。它是基于�
 
 1. 使用 rsetup 工具打开 spi1
 
-2. 关机
+2. 断电关机
 
-3. 接线
+3. 按以下方式接线
 
 ```
 ws2812b						Radxa ROCK 4
-IN							Pin 19
-GDN							GND
-VCC							VCC
+IN			<-->				Pin 19
+GDN			<-->				GND
+VCC			<-->				VCC
 ```
 
 5. 重启，检查 spi1 是否正常打开
@@ -559,13 +559,13 @@ radxa@rock-4c-plus:~/sample_code/modules/keyestudio$ sudo python3 ws2812b.py
 
 DHT11/DHT22是一种数字式温湿度传感器。它采用了高精度温湿度传感器和专用的模数转换器，可将温度和湿度信息数字化后通过单总线进行传输。DHT11适用于室内环境测量，测量范围温度0-50℃，湿度 20-90RH%，精度为±2℃和±5%RH，DHT22适用于更为苛刻的环境测量，测量范围-40~80℃，湿度 0-100RH%，精度为±0.5℃和±2%RH。这两种传感器具有结构简单、使用方便、价格低廉等优点，在物联网、智能家居、环境监测等领域得到了广泛应用。以下是它在 radxa 平台上的使用方法：
 
-1. 接线
+1. 按以下方式接线
 
 ```
 DHT11/DHT22					Radxa ROCK 4
-S							Pin 3
-GDN							GND
-VCC							VCC
+S			<-->				Pin 3
+GDN			<-->				GND
+VCC			<-->				VCC
 ```
 
 2. 运行测试程序
@@ -583,16 +583,16 @@ radxa@rock-4c-plus:~/sample_code/modules/keyestudio$ ./a.out ROCK 4 8
 
 1. 使用 rsetup 工具打开 uart4
 
-2. 关机
+2. 断电关机
 
-3. 接线
+3. 按以下方式接线
 
 ```
 HC-06			Radxa ROCK 4
-RXD				Pin 19
-TXD				Pin 21
-VCC				3.3/5V
-GND				GND
+RXD		<-->		Pin 19
+TXD		<-->		Pin 21
+VCC		<-->		3.3/5V
+GND		<--> 	GND
 ```
 
 4. 检查 uart4 是否正常打开
@@ -624,13 +624,13 @@ sudo minicom -D /dev/ttyS4 -b 9600
 
 模拟旋转传感器的电压可细分为 1024。以下是它在 radxa 平台上的使用方法：
 
-1. 接线
+1. 按以下方式接线
 
 ```
 rotation sensor				Radxa ROCK 4
-s							Pin 26
-v							3.3/5V
-g							GND
+s			<-->				Pin 26
+v			<-->				3.3/5V
+g			<-->				GND
 ```
 
 2. 运行测试程序
@@ -648,19 +648,20 @@ MF522-AN 模块采用飞利浦 MFRC522 原装读写器电路芯片设计，使�
 
 1. 使用 rsetup 工具打开 spi1
 
-2. 关机
-3. 接线
+2. 断电关机
+
+3. 按以下方式接线
 
 ```
 RfID RC522					Radxa ROCK 4
-vcc							3.3V/5V
-rst							Pin 36
-gnd							GND
-miso						Pin 21
-mosi						Pin 19
-sck							Pin 23
-nss							Pin 38
-irq							Pin 40
+vcc			<-->				3.3V/5V
+rst			<-->				Pin 36
+gnd			<-->				GND
+miso			<-->		     	Pin 21
+mosi			<-->		     	Pin 19
+sck			<-->				Pin 23
+nss			<-->				Pin 38
+irq			<-->				Pin 40
 ```
 
 2. 重启，检查 spi1 是否正常打开
@@ -697,9 +698,9 @@ PCF8591 具有四个 8 位模数转换器和一个 8 位数模转换器。它将
 
 1. 使用 rsetup 工具打开 i2c7
 
-2. 关机
+2. 断电关机
 
-3. 接线
+3. 接线方式
 
 将 gpio shield 连接到 ROCK 4 的 40 Pin 上
 

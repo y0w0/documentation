@@ -28,23 +28,23 @@ keyestudio 1602 I2C module is a 16 character by 2 line LCD display with Blue bac
 
 1. Using the rsetup utility to open the i2c7
 
-2. Shutdown
+2. Power down and switch off the power supply.
 
-3. Wire
+3. Wire the LCD as follows
 
 ```
-LCD		 Radxa ROCK 4
- GND			 GND
- VCC			 5V
- SDA			 Pin 3
- SCL			 Pin 5
+LCD Radxa ROCK 4
+GND <--> GND
+VCC <--> 5V
+SDA <--> Pin 3
+SCL <--> Pin 5
 ```
 
 4. Reboot and check if i2c7 is on
 
 ```
 radxa@rock-4c-plus:~$ ls /dev/i2c-*
-/dev/i2c-0  /dev/i2c-7  /dev/i2c-9
+/dev/i2c-0  /dev/i2c-7  /dev/i2c-9 # Enabled to detect /dev/i2c-7
 ```
 
 5. Check if the LCD is recognized properly
@@ -76,17 +76,17 @@ The ADXL345 is a small, thin, low power, 3-axis MEMS accelerometer with high res
 
 1. Using the rsetup utility to open the i2c7
 
-2. Shutdown
+2. Power down and switch off the machine.
 
-3. Wire
+3. Wire the sensor as follows
 
 ```
-ADXL345		 Radxa ROCK 4
- GND			 GND
- VCC			 5V
- SDA			 Pin 3
- SCL			 Pin 5
-```
+ADXL345 Radxa ROCK 4
+ GND <--> GND
+ VCC <--> 5V
+ SDA <--> Pin 3
+ SCL <--> Pin 5
+ ``
 
 4. Reboot and check if i2c7 is on
 
@@ -108,20 +108,20 @@ The program displays acceleration data in the x y z directions.
 
 There is a button and a light emitting diode. Both can be programmed to control the light emitting diode by pressing the button. Here's how they works on the radxa platform:
 
-1. Wire
+1. Wiring Method
 
 ```
-led					Radxa ROCK 4
- s					Pin 3
- v					3.3V/5V
- g					GND
+led			Radxa ROCK 4
+ s	<-->		Pin 3
+ v	<-->		3.3V/5V
+ g	<-->		GND
 
 
 
-button				Radxa ROCK 4
- s					Pin 5
- v					3.3V/5V
- g					GND
+button		Radxa ROCK 4
+ s	<-->		Pin 5
+ v	<-->		3.3V/5V
+ g	<-->		GND
 ```
 
 2. Running the test program
@@ -137,14 +137,14 @@ The program shows whether the button is pressed or not, if the button is pressed
 
 The Keyestudio SR01 Ultrasonic sensor is a very affordable and detects the distance between the ultrasonic sensor and obstacle. It adopts CS100A chip, compatible with 3.3V and 5V. Its maximum detection distance is 3m and blind area is less than 4cm. As same as the principle of the bat, ultrasonic module sends a high frequency signals that the human body cannot hear. They will travel back if encountering the obstacle. On receiving the returned information, it will calculate the distance between the sensor and the obstacle by determining the time difference of the transmitted signal and the received signal. Here's how it works on the radxa platform:
 
-1. Wire
+1. Wiring Method
 
 ```
-ultrasonic sensor				Radxa ROCK 4
-trig							Pin 3
-echo 							Pin 5
-v								3.3V/5V
-g								GND
+ultrasonic sensor		Radxa ROCK 4
+trig			<-->		Pin 3
+echo 		<-->      Pin 5
+v			<-->      3.3V/5V
+g			<-->		GND
 ```
 
 2. Running the test program
@@ -160,14 +160,14 @@ The program outputs the distance measured by the ultrasonic sensor.
 
 The keyestudio 4-digit LED Display Module integrates a 0.36" 4-Digit 7-Segment Display Common Anode with 12 pins. It uses the driver chip TM1637. The module has 4 control pins of 2.54mm pitch, which can direct connect to microcontroller with jumper wires. So it’s very easy to control the matrix without tons of wiring. Available to make microcontroller control the 4-digit LED segment display via signal interface, greatly saving IO pin resource on microcontroller. The module has two 3mm fixed holes, convenient for mounting on other devices. If you've been eyeing matrix displays but hesitated because of the complexity, this is the solution you've been looking for! Here's how it works on the radxa platform:
 
-1. Wire
+1. Wiring Method
 
 ```
-4-digit 7-segment Display				Radxa ROCK 4
-CLK 									Pin 40
-DIO										Pin 38
-VCC										3.3V/5V
-GND										GND
+4-digit 7-segment Display		     Radxa ROCK 4
+CLK 				<-->				Pin 40
+DIO				<-->				Pin 38
+VCC				<-->				3.3V/5V
+GND				<-->				GND
 ```
 
 2. Running the test program
@@ -185,16 +185,16 @@ OLED is short for organic light emitting diode. On the microscopic level, an OLE
 
 1. Using the rsetup utility to open the i2c7
 
-2. Shutdown
+2. Shutdown and power down
 
-3. Wire
+3. Wiring Method
 
 ```
-OLED			Radxa ROCK 4
-GND				GND
-VCC				5V
-SDA				Pin 3
-SCL				Pin 5
+OLED		Radxa ROCK 4
+ GND	<-->	GND
+ VCC	<--> 5V
+ SDA	<-->	Pin 3
+ SCL	<-->	Pin 5
 ```
 
 4. Reboot and check if i2c7 is on
@@ -232,13 +232,13 @@ The program displays the character "Radxa ROCK 4".
 
 There is a buzzer, an led and an IR emitter. All three can be programmed and controlled. Here is how it works on the radxa platform:
 
-1. Wire
+1. Wiring Methode
 
 ```
 buzzer/led/ir transmitter 		Radxa ROCK 4
-s								Pin 3
-v								3.3V/5V
-g								GND
+s					<-->		Pin 3
+v					<-->		3.3V/5V
+g					<-->		GND
 ```
 
 2. Running the test program
@@ -265,16 +265,16 @@ radxa@rock-4c-plus:~/TCS34725$ git checkout -b test origin/test
 
 2. Using the rsetup utility to open the i2c7
 
-3. Shutdown
+3. Shutdown and power down
 
-4. Wire
+4. Wiring Method
 
 ```
-TCS34725		 Radxa ROCK 4
- GND			 GND
- VCC			 5V
- SDA			 Pin 3
- SCL			 Pin 5
+TCS34725			Radxa ROCK 4
+ GND		<-->		GND
+ VCC		<-->	 	5V
+ SDA		<-->	 	Pin 3
+ SCL		<-->	 	Pin 5
 ```
 
 5. Reboot and check if i2c7 is on
@@ -313,14 +313,14 @@ DS3231 is equipped with integrated TCXO and crystal, which make it a cost-effect
 
 1. Use rsetup to open the ds3231
 
-2. wire
+2. Wiring Method
 
 ```
-DS3231			 Radxa ROCK 4
- GND			 GND
- VCC			 5V
- SDA			 Pin 3
- SCL			 Pin 5
+DS3231		 Radxa ROCK 4
+ GND	   <-->	 GND
+ VCC	   <-->	 5V
+ SDA	   <-->	 Pin 3
+ SCL	   <-->	 Pin 5
 ```
 
 3. Reboot and check if i2c7 is on
@@ -436,15 +436,15 @@ The temperature range is -55 ~ +125 ℃, inherent temperature resolution 0.5 ℃
 
 1. Use the rsetup utility to open the one wire
 
-2. Shutdown
+2. Shutdown and power down
 
-3. Wire
+3. Wiring Method
 
 ```
-DS18B20						Radxa ROCK 4
-s							Pin 37
-v							3.3V/5V
-g							GND
+DS18B20			Radxa ROCK 4
+s		<-->		Pin 37 (GPIO4_D6)
+v		<-->		3.3V/5V
+g		<-->		GND
 ```
 
 4. Reboot and check if the device is recognized
@@ -464,14 +464,14 @@ The program outputs the current temperature.
 
 keyestudio L9110 fan control module adopts L9110 motor control chip. It can control the rotation direction of the motor, hence the fan. The module is designed with mounting hole, compatible with servo motor control. The module is of high efficiency, with the high quality fan, it can easily blow out flame of a light in 20cm distance. It’s an essential part in fire fighting robot development. Here's how it works on the radxa platform:
 
-1. Wire
+1. Wiring Method
 
 ```
-fan							Radxa ROCK 4
-INA							Pin 13
-INB 						Pin 14
-VCC							3.3V/5V
-GND							GND
+fan		Radxa ROCK 4
+INA	<-->	Pin 13
+INB	<-->	Pin 14
+VCC	<-->	3.3V/5V
+GND	<-->	GND
 ```
 
 2. Running the test program
@@ -487,13 +487,13 @@ IR is widely used in remote control. With this IR receiver, your project is able
 
 1. Use the rsetup utility to open the IR receiver
 
-2. Wire
+2. Wiring Method
 
 ```
-IR Receiver			Radxa ROCK 4
-s					Pin 13
-v					3.3V/5V
-g					GND
+IR Receiver		Radxa ROCK 4
+s		<-->		Pin 13
+v		<-->		3.3V/5V
+g		<-->		GND
 ```
 
 3. Install the test software and perform the test
@@ -509,13 +509,13 @@ We have adapted the "Car MP3" remote control. When you press the buttons of the 
 
 A servo is an actuator for position (angle) servoing for those control systems where the angle needs to be constantly changing and can be maintained. Here's how it is used on the radxa platform:
 
-1. Wire
+1. Wiring Method
 
 ```
-MG90s					Radxa ROCK 4
- s						Pin 13
- v						3.3V/5V
- g						GND
+MG90s			Radxa ROCK 4
+ s		<-->		Pin 13
+ v		<-->		3.3V/5V
+ g		<-->		GND
 ```
 
 2. Running the test program
@@ -533,15 +533,15 @@ WS2812B is a digital programmable LED lamp bead, also known as Neopixel, which i
 
 1. Use the rsetup utility to open spi1
 
-2. Shutdown
+2. Shutdown and powe down
 
-3. Wire
+3. Wiring Method
 
 ```
 ws2812b						Radxa ROCK 4
-IN							Pin 19
-GDN							GND
-VCC							VCC
+IN			<-->				Pin 19
+GDN			<-->				GND
+VCC			<-->				VCC
 ```
 
 5. Reboot and check if spi1 opens properly
@@ -558,13 +558,13 @@ The program will light up the WS2812B lamps one by one and then turn them all of
 
 DHT11/DHT22 is a digital temperature and humidity sensor. It adopts high-precision temperature and humidity sensor and special analog-to-digital converter, which can digitize the temperature and humidity information and then transmit it through a single bus.DHT11 is suitable for indoor environment measurement, with a measuring range of temperature 0-50℃, humidity 20-90RH%, and an accuracy of ±2℃ and ±5%RH, and DHT22 is suitable for more demanding environment measurement, with a measuring range of -40~80℃, humidity 0-100RH%, and an accuracy of ±0.5℃ and ±2%RH.These two sensors have a simple structure, easy to use, and low price. The DHT22 is suitable for more demanding environment measurement, with a measuring range of -40~80℃, humidity 0-100RH%, and accuracy of ±0.5℃ and ±2%RH. These two sensors have the advantages of simple structure, easy to use, and low price, which are widely used in the fields of Internet of Things, smart home, and environment monitoring. Here's how it is used on the radxa platform:
 
-1. Wire
+1. Wiring Method
 
 ```
 DHT11/DHT22					Radxa ROCK 4
-S							Pin 3
-GDN							GND
-VCC							VCC
+S			<-->				Pin 3
+GDN			<-->				GND
+VCC			<-->				VCC
 ```
 
 2. Running the test program
@@ -582,16 +582,16 @@ This Bluetooth module can easily achieve serial wireless data transmission. Its 
 
 1. Use the rsetup utility to open the uart4
 
-2. Shutdown
+2. Shutdown and power down
 
-3. Wire
+3. Wiring Method
 
 ```
 HC-06			Radxa ROCK 4
-RXD				Pin 19
-TXD				Pin 21
-VCC				3.3/5V
-GND				GND
+RXD		<-->		Pin 19
+TXD		<-->		Pin 21
+VCC		<-->		3.3/5V
+GND		<--> 	GND
 ```
 
 4. Check if uart4 is turned on properly
@@ -623,13 +623,13 @@ Use the Bluetooth debugging tool of your cell phone or computer to send data, an
 
 The voltage of the analog rotary sensor can be subdivided into 1024. Here's how it is used on the radxa platform:
 
-1. Wire
+1. Wiring Method
 
-```
+``
 rotation sensor				Radxa ROCK 4
-s							Pin 26
-v							3.3/5V
-g							GND
+s			<-->				Pin 26
+v			<-->				3.3/5V
+g			<-->				GND
 ```
 
 2. Running the test program
@@ -647,19 +647,20 @@ MF522-AN module adopts Philips MFRC522 original reader circuit chip design, easy
 
 1. Use the rsetup utility to open spi1
 
-2. Shutdown
-3. Wire
+2. Shutdown and power down
+
+3. Wiring Method
 
 ```
 RfID RC522					Radxa ROCK 4
-vcc							3.3V/5V
-rst							Pin 36
-gnd							GND
-miso						miso
-mosi						mosi
-sck							sck
-nss							Pin 38
-irq							Pin 40
+vcc			<-->				3.3V/5V
+rst			<-->				Pin 36
+gnd			<-->				GND
+miso			<-->		     	Pin 21
+mosi			<-->		     	Pin 19
+sck			<-->				Pin 23
+nss			<-->				Pin 38
+irq			<-->				Pin 40
 ```
 
 2. Reboot and check if spi1 opens properly
@@ -696,9 +697,9 @@ The PCF8591 features four-8-bit analog to digital converters and a single 8-bit 
 
 1. Using the rsetup utility to open the i2c7
 
-2. Shutdown
+2. Shutdown and power down
 
-3. Wire
+3. Wiring Method
 
 Connect the gpio shield to Pin 40 of ROCK 4.
 

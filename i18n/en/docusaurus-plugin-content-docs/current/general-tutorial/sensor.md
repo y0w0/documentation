@@ -305,7 +305,7 @@ radxa@rock-4c-plus:~$ sudo i2cdetect -r -y 7
 radxa@rock-4c-plus:~/TCS34725$ sudo python3 example.py
 ```
 
-The program needs to be run in a darker fiber optic situation and will recognize the surface color of the object and output the RGB value.
+The program needs to run in low light conditions and will recognize the surface color of the object and output the RGB value.
 
 ## DS3231
 

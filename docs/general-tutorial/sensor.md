@@ -307,7 +307,7 @@ radxa@rock-4c-plus:~$ sudo i2cdetect -r -y 7
 radxa@rock-4c-plus:~/TCS34725$ sudo python3 example.py
 ```
 
-该程序需要在光纤比较暗的情况下运行，会识别物体的表面颜色，并输出 RGB 值。
+该程序需要在光线比较暗的情况下运行，会识别物体的表面颜色，并输出 RGB 值。
 
 ## DS3231
 

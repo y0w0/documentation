@@ -3,23 +3,23 @@ sidebar_label: "Overview"
 sidebar_position: 3
 ---
 
-# ZERO 2 Overview
+# Zero 2 Pro Overview
 
-The Radxa ZERO 2 is a compact single board computer designed for embedded use with other peripherals. Equipped with a powerful Amlogic A311D processor as a development platform, it provides users with excellent computing performance. The multi-core architecture and high-frequency operation make it excellent in handling a variety of complex tasks, covering multimedia processing, image processing, artificial intelligence and data analysis and other fields. In addition, it integrates an efficient image and multimedia processing unit to support high-definition video decoding and encoding, as well as smooth image rendering.
+The Radxa Zero 2 Pro is a compact single board computer designed for embedded use with other peripherals. Equipped with a powerful Amlogic A311D processor as a development platform, it provides users with excellent computing performance. The multi-core architecture and high-frequency operation make it excellent in handling a variety of complex tasks, covering multimedia processing, image processing, artificial intelligence and data analysis and other fields. In addition, it integrates an efficient image and multimedia processing unit to support high-definition video decoding and encoding, as well as smooth image rendering.
 
-![ZERO 2 Overview](/img/zero/zero2/zero2-mark.webp)
+![Zero 2 Pro Overview](/img/zero/zero2pro/zero2pro-mark.webp)
 
-In order to maximize the performance of Radxa ZERO 2, it is specially equipped with a customized cooling module. The heat dissipation module is made of aluminum and designed with a multi-fin structure, which effectively increases the heat dissipation surface area. In addition, it is also equipped with a programmable cooling fan, which can dynamically adjust the speed according to the current load and temperature requirements of the device, so as to avoid unnecessary energy consumption and improve energy efficiency, thereby reducing power consumption and heat generation. This enables Radxa ZERO 2 to maintain stable performance under high load conditions and provide an excellent user experience.
+In order to maximize the performance of Radxa Zero 2 Pro, it is specially equipped with a customized cooling module. The heat dissipation module is made of aluminum and designed with a multi-fin structure, which effectively increases the heat dissipation surface area. In addition, it is also equipped with a programmable cooling fan, which can dynamically adjust the speed according to the current load and temperature requirements of the device, so as to avoid unnecessary energy consumption and improve energy efficiency, thereby reducing power consumption and heat generation. This enables Radxa Zero 2 Pro to maintain stable performance under high load conditions and provide an excellent user experience.
 
 <div className='img' style={{ transform: 'scale(.6)' }}>
 
-![ZERO 2 Overview](/img/zero/zero2/zero2-heatsink.webp)
+![Zero 2 Pro Overview](/img/zero/zero2pro/zero2pro-heatsink.webp)
 
 </div>
 
 ## Features
 
-|        Product        |                                                  Radxa ZERO 2                                                   |
+|        Product        |                                                  Radxa Zero 2 Pro                                                   |
 | :-------------------: | :-------------------------------------------------------------------------------------------------------------: |
 |          SoC          |                                                  Amlogic A311D                                                  |
 |          CPU          | Quad-core Cortex‑A73 (Arm® v8) 64‑bit SoC @ 2.2GHz<br/>and Dual-core Cortex‑A53 (Arm® v8) 64‑bit SoC @ 1.8GHz |
@@ -33,4 +33,4 @@ In order to maximize the performance of Radxa ZERO 2, it is specially equipped w
 |        Others         |                                          40x GPIO expansion interfaces                                          |
 |         Power         |                                         Requires a 5V/2A power adapter                                          |
 |       Dimension       |                                                   65mm x 37mm                                                   |
-|     Package List      |              1x Radxa Zero 2 <br/>1x Heatsink Module<br/>1x Thermal silicone grease<br/>1x Antenna              |
+|     Package List      |              1x Radxa Zero 2 Pro <br/>1x Heatsink Module<br/>1x Thermal silicone grease<br/>1x Antenna              |

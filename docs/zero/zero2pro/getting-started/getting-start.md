@@ -8,28 +8,28 @@ import TabItem from '@theme/TabItem';
 
 # 简介
 
-本指南是为 瑞莎 Zero 2 初级使用者编写，可以帮助您了解 瑞莎 Zero 2 基本的准备和设置。
-当您拿到一块 瑞莎 Zero 2 主板时，建议您首先查看印在电路板上面的型号和硬件版本。
+本指南是为 瑞莎 Zero 2 Pro 初级使用者编写，可以帮助您了解 瑞莎 Zero 2 Pro 基本的准备和设置。
+当您拿到一块 瑞莎 Zero 2 Pro 主板时，建议您首先查看印在电路板上面的型号和硬件版本。
 我们将尽可能多地介绍相关信息。
 
 ## 必要项
 
-- 瑞莎 Zero 2 SBC
+- 瑞莎 Zero 2 Pro SBC
 
-- microSD 卡，容量不小于 8GB（如果您的 Zero 2 配备板载 eMMC，您可以直接将系统烧录其中）
+- microSD 卡，容量不小于 8GB（如果您的 Zero 2 Pro 配备板载 eMMC，您可以直接将系统烧录其中）
 
 - 电源：  
-  瑞莎 Zero 2 采用 Type-C 接口供电，仅支持 5V 输入。
+  瑞莎 Zero 2 Pro 采用 Type-C 接口供电，仅支持 5V 输入。
 
   :::tip
   瑞莎推荐使用 [瑞莎 Power PD30W](/accessories/pd_30w)。
   :::
 
 - Type-C 分线器及 USB 键鼠  
-  Zero 2 拥有两个 Type-C 接口，其中一个用于供电时，另一个可使用 Type-C 分线器来扩展键鼠或其他外设。
+  Zero 2 Pro 拥有两个 Type-C 接口，其中一个用于供电时，另一个可使用 Type-C 分线器来扩展键鼠或其他外设。
 
 - 显示器和 micro HDMI 线  
-  Zero 2 配备的是 micro HDMI 接口。建议使用具有 HDMI 功能的显示器，最高支持 1920 x 1080 的分辨率。
+  Zero 2 Pro 配备的是 micro HDMI 接口。建议使用具有 HDMI 功能的显示器，最高支持 1920 x 1080 的分辨率。
 
 - microSD 读卡器  
   将镜像刷写到 microSD 卡上。
@@ -62,13 +62,13 @@ import TabItem from '@theme/TabItem';
 <Tabs queryString="host_os">
 <TabItem value="Windows">
 
-1. 将瑞莎 Zero 2 以 [Maskrom 模式](#maskrom-模式)连接电脑
+1. 将瑞莎 Zero 2 Pro 以 [Maskrom 模式](#maskrom-模式)连接电脑
 
 2. 下载并安装 [Zagdig](https://zadig.akeo.ie/) USB 驱动
 
    确保展示的信息为 `GX-CHIP`，USB ID 为 `1B8E:C003`，选择 `libusb-win32`，然后点击 `Install Driver` 安装驱动程序。
 
-   ![Zagdig libusb](/img/zero/zero2/Zagdig-libusb.webp)
+   ![Zagdig libusb](/img/zero/zero2pro/Zagdig-libusb.webp)
 
    此外，您还可以在 PowerShell 中运行以下命令，使用 nexus-tools 安装 fastboot：
 
@@ -84,13 +84,13 @@ import TabItem from '@theme/TabItem';
 
    解压缩后右击 .inf 文件安装驱动程序。
 
-   ![Android driver](/img/zero/zero2/Install-win-android-driver.webp)
+   ![Android driver](/img/zero/zero2pro/Install-win-android-driver.webp)
 
    [RZ USB Boot Helper](https://dl.radxa.com/zero/tools/windows/RZ_USB_Boot_Helper_V1.0.0.zip) 是一款由 Radxa 制作的 Windows 工具，用于 maskrom 通信。
 
    该工具会在其界面上列出当前模式。现在我们使用的是 Maskrom 模式：
 
-   ![Rz maskrom](/img/zero/zero2/Rz-usb-helper-maskrom.webp)
+   ![Rz maskrom](/img/zero/zero2pro/Rz-usb-helper-maskrom.webp)
 
 </TabItem>
 <TabItem value="Linux/MacOS">
@@ -133,7 +133,7 @@ bash <(curl -s https://raw.githubusercontent.com/corbindavenport/nexus-tools/mas
 
 工具检测到 Maskrom 模式后，你就可以点击 `Select` 按钮来选择镜像文件，然后点击 `Run` 按钮进行烧录：
 
-![Rz fastboot](/img/zero/zero2/Rz-usb-helper-fastboot.webp)
+![Rz fastboot](/img/zero/zero2pro/Rz-usb-helper-fastboot.webp)
 
 运行结果如上图所示。
 
@@ -166,7 +166,7 @@ bash <(curl -s https://raw.githubusercontent.com/corbindavenport/nexus-tools/mas
 请按以下步骤进入 Maskrom 模式：
 
 1. 按住 Maskrom 按键
-2. 将 USB-A 转 USB-C 线缆的 USB-A 端口接入 PC, USB-C 接口插入 Zero 2 的 OTG 端口
+2. 将 USB-A 转 USB-C 线缆的 USB-A 端口接入 PC, USB-C 接口插入 Zero 2 Pro 的 OTG 端口
 3. 松开 Maskrom 按键
 
-![Zero 2 Maskrom](/img/zero/zero2/zero2-maskrom.webp)
+![Zero 2 Pro Maskrom](/img/zero/zero2pro/zero2pro-maskrom.webp)

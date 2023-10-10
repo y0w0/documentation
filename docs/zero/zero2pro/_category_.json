@@ -1,8 +1,8 @@
 {
-  "label": "ZERO 2",
+  "label": "ZERO 2 Pro",
   "link": {
     "description": "ZERO 2 是一款基于 Amlogic A311D SOC 的高性能单板计算机。",
-    "slug": "/zero/zero2",
+    "slug": "/zero/zero2pro",
     "type": "generated-index"
   },
   "position": 30

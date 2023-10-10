@@ -145,7 +145,6 @@ The Keyestudio SR01 Ultrasonic sensor is a very affordable and detects the dista
 
 1. Wiring Method
 
-
 ```
 
 ultrasonic sensor <--> Radxa ROCK 4

@@ -7,7 +7,7 @@ sidebar_position: 30
 
 Eclipse Mraa（Libmraa）是一个包含 Java、Python 和 JavaScript 绑定的 C/C++ 库，用于连接各种物联网和边缘平台上的 I/O 引脚和总线，其 API 结构合理，端口名称/编号与所在的电路板相匹配。
 
-# 在 Radxa 板子上安装 MRAA
+## 安装 MRAA
 
 ```bash
 sudo apt-get update -y

@@ -19,7 +19,7 @@ In order to maximize the performance of Radxa Zero 2 Pro, it is specially equipp
 
 ## Features
 
-|        Product        |                                                  Radxa Zero 2 Pro                                                   |
+|        Product        |                                                Radxa Zero 2 Pro                                                 |
 | :-------------------: | :-------------------------------------------------------------------------------------------------------------: |
 |          SoC          |                                                  Amlogic A311D                                                  |
 |          CPU          | Quad-core Cortex‑A73 (Arm® v8) 64‑bit SoC @ 2.2GHz<br/>and Dual-core Cortex‑A53 (Arm® v8) 64‑bit SoC @ 1.8GHz |
@@ -33,4 +33,4 @@ In order to maximize the performance of Radxa Zero 2 Pro, it is specially equipp
 |        Others         |                                          40x GPIO expansion interfaces                                          |
 |         Power         |                                         Requires a 5V/2A power adapter                                          |
 |       Dimension       |                                                   65mm x 37mm                                                   |
-|     Package List      |              1x Radxa Zero 2 Pro <br/>1x Heatsink Module<br/>1x Thermal silicone grease<br/>1x Antenna              |
+|     Package List      |              1x Radxa Zero 2 Pro <br/>1x Heatsink Module<br/>1x Thermal silicone grease<br/>1x Antenna          |

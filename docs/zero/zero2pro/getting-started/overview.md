@@ -19,7 +19,7 @@ Radxa Zero 2 Pro 是一款小尺寸单板计算机，专为嵌入其他外设共
 
 ## 特性
 
-|   产品   |                                   Radxa Zero 2 Pro                                   |
+|   产品   |                                 Radxa Zero 2 Pro                                 |
 | :------: | :------------------------------------------------------------------------------: |
 |   SoC    |                                  Amlogic A311D                                   |
 |   CPU    |               四核 Cortex‑A73 @ 2.2GHz + 双核 Cortex‑A53 @ 1.8GHz                |
@@ -33,4 +33,4 @@ Radxa Zero 2 Pro 是一款小尺寸单板计算机，专为嵌入其他外设共
 |   其他   |                                  一个40针扩展座                                  |
 |   电源   |                              需要 5V/2A 电源适配器                               |
 |   尺寸   |                                   65mm x 37mm                                    |
-| 包裹清单 |           1x Radxa Zero 2 Pro <br/>1x 散热模块<br/>1x 导热硅胶<br/>1x 天线           |
+| 包裹清单 |         1x Radxa Zero 2 Pro <br/>1x 散热模块<br/>1x 导热硅胶<br/>1x 天线         |

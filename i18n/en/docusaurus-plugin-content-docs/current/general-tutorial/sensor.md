@@ -5,7 +5,9 @@ sidebar_position: 10
 
 ## Development Environment Setup
 
-```
+This tutorial applies to most of Radxa SBC products, here is a practical demonstration using the ROCK 4C+, other SBCs can be referred to here.
+
+```bash
 // Download the sample code
 rock@rock-4c-plus:~$ sudo apt-get install cmake build-essential git python3-dev -y
 rock@rock-4c-plus:~$ git clone https://github.com/nascs/sample_code.git
@@ -33,23 +35,25 @@ keyestudio 1602 I2C module is a 16 character by 2 line LCD display with Blue bac
 3. Wire the LCD as follows
 
 ```
-LCD Radxa ROCK 4
+
+LCD <--> Radxa ROCK 4
 GND <--> GND
 VCC <--> 5V
 SDA <--> Pin 3
 SCL <--> Pin 5
+
 ```
 
 4. Reboot and check if i2c7 is on
 
-```
+```bash
 radxa@rock-4c-plus:~$ ls /dev/i2c-*
 /dev/i2c-0  /dev/i2c-7  /dev/i2c-9 # Enabled to detect /dev/i2c-7
 ```
 
 5. Check if the LCD is recognized properly
 
-```
+```bash
 radxa@rock-4c-plus:~$ sudo i2cdetect -r -y 7
 	 0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f
 00:						 -- -- -- -- -- -- -- --
@@ -64,7 +68,7 @@ radxa@rock-4c-plus:~$ sudo i2cdetect -r -y 7
 
 6. Running the test program
 
-```
+```bash
 sudo python LCD1602.py
 ```
 
@@ -81,23 +85,25 @@ The ADXL345 is a small, thin, low power, 3-axis MEMS accelerometer with high res
 3. Wire the sensor as follows
 
 ```
-ADXL345 Radxa ROCK 4
- GND <--> GND
- VCC <--> 5V
- SDA <--> Pin 3
- SCL <--> Pin 5
- ``
+
+ADXL345 <--> Radxa ROCK 4
+GND <--> GND
+VCC <--> 5V
+SDA <--> Pin 3
+SCL <--> Pin 5
+
+```
 
 4. Reboot and check if i2c7 is on
 
-```
+```bash
 radxa@rock-4c-plus:~$ ls /dev/i2c-*
 /dev/i2c-0  /dev/i2c-7  /dev/i2c-9
 ```
 
 5. Running the test program
 
-```
+```bash
 root@rock-4c-plus:/home/radxa/sample_code/modules/keyestudio# gcc adxl345.c -lwiringx
 root@rock-4c-plus:/home/radxa/sample_code/modules/keyestudio# ./a.out
 ```
@@ -111,22 +117,22 @@ There is a button and a light emitting diode. Both can be programmed to control 
 1. Wiring Method
 
 ```
-led			Radxa ROCK 4
- s	<-->		Pin 3
- v	<-->		3.3V/5V
- g	<-->		GND
 
+led <--> Radxa ROCK 4
+ s <--> Pin 3
+ v <--> 3.3V/5V
+ g <--> GND
 
+button <--> Radxa ROCK 4
+ s <--> Pin 5
+ v <--> 3.3V/5V
+ g <--> GND
 
-button		Radxa ROCK 4
- s	<-->		Pin 5
- v	<-->		3.3V/5V
- g	<-->		GND
 ```
 
 2. Running the test program
 
-```
+```bash
 radxa@rock-4c-plus:~$ gcc button_led.c -lwiringx
 radxa@rock-4c-plus:~$ sudo ./a.out
 ```
@@ -139,17 +145,20 @@ The Keyestudio SR01 Ultrasonic sensor is a very affordable and detects the dista
 
 1. Wiring Method
 
+
 ```
-ultrasonic sensor		Radxa ROCK 4
-trig			<-->		Pin 3
-echo 		<-->      Pin 5
-v			<-->      3.3V/5V
-g			<-->		GND
+
+ultrasonic sensor <--> Radxa ROCK 4
+trig <--> Pin 3
+echo <--> Pin 5
+v <--> 3.3V/5V
+g <--> GND
+
 ```
 
 2. Running the test program
 
-```
+```bash
 root@rock-4c-plus:/home/radxa/sample_code/modules/keyestudio# gcc ultrasonic_sensor.c -lwiringx
 root@rock-4c-plus:/home/radxa/sample_code/modules/keyestudio# ./a.out
 ```
@@ -163,16 +172,18 @@ The keyestudio 4-digit LED Display Module integrates a 0.36" 4-Digit 7-Segment D
 1. Wiring Method
 
 ```
-4-digit 7-segment Display		     Radxa ROCK 4
-CLK 				<-->				Pin 40
-DIO				<-->				Pin 38
-VCC				<-->				3.3V/5V
-GND				<-->				GND
+
+4-digit 7-segment Display <--> Radxa ROCK 4
+CLK <--> Pin 40
+DIO <--> Pin 38
+VCC <--> 3.3V/5V
+GND <--> GND
+
 ```
 
 2. Running the test program
 
-```
+```bash
 root@rock-4c-plus:/home/radxa/sample_code/modules/keyestudio# gcc tm1637.c -lwiringx
 root@rock-4c-plus:/home/radxa/sample_code/modules/keyestudio# ./a.out
 ```
@@ -190,23 +201,25 @@ OLED is short for organic light emitting diode. On the microscopic level, an OLE
 3. Wiring Method
 
 ```
-OLED		Radxa ROCK 4
+
+OLED <--> Radxa ROCK 4
  GND	<-->	GND
  VCC	<--> 5V
  SDA	<-->	Pin 3
  SCL	<-->	Pin 5
+
 ```
 
 4. Reboot and check if i2c7 is on
 
-```
+```bash
 radxa@rock-4c-plus:~$ ls /dev/i2c-*
 /dev/i2c-0  /dev/i2c-7  /dev/i2c-9
 ```
 
 5. Check if the OLED is recognized properly
 
-```
+```bash
 radxa@rock-4c-plus:~$ sudo i2cdetect -r -y 7
 	 0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f
 00:						 -- -- -- -- -- -- -- --
@@ -221,7 +234,7 @@ radxa@rock-4c-plus:~$ sudo i2cdetect -r -y 7
 
 6. Running the test program
 
-```
+```bash
 root@rock-4c-plus:/home/radxa/sample_code/modules/keyestudio# gcc oled.c -lwiringx
 root@rock-4c-plus:/home/radxa/sample_code/modules/keyestudio# ./a.out
 ```
@@ -235,15 +248,17 @@ There is a buzzer, an led and an IR emitter. All three can be programmed and con
 1. Wiring Methode
 
 ```
-buzzer/led/ir transmitter 		Radxa ROCK 4
-s					<-->		Pin 3
-v					<-->		3.3V/5V
-g					<-->		GND
+
+buzzer/led/ir transmitter Radxa ROCK 4
+s <--> Pin 3
+v <--> 3.3V/5V
+g <--> GND
+
 ```
 
 2. Running the test program
 
-```
+```bash
 radxa@rock-4c-plus:~ cd sample_code/wiringX
 radxa@rock-4c-plus:~/sample_code/wiringX$ gcc blink.c -lwiringx
 ```
@@ -257,7 +272,7 @@ On the sensor bottom you can see 4 yellow highlight LEDs, which can ensure that 
 
 1. Get test code
 
-```
+```bash
 radxa@rock-4c-plus:~$ git clone https://github.com/nascs/TCS34725.git
 radxa@rock-4c-plus:~$ cd TCS34725
 radxa@rock-4c-plus:~/TCS34725$ git checkout -b test origin/test
@@ -270,23 +285,25 @@ radxa@rock-4c-plus:~/TCS34725$ git checkout -b test origin/test
 4. Wiring Method
 
 ```
-TCS34725			Radxa ROCK 4
- GND		<-->		GND
- VCC		<-->	 	5V
- SDA		<-->	 	Pin 3
- SCL		<-->	 	Pin 5
+
+TCS34725 Radxa ROCK 4
+ GND <--> GND
+ VCC <--> 5V
+ SDA <--> Pin 3
+ SCL <--> Pin 5
+
 ```
 
 5. Reboot and check if i2c7 is on
 
-```
+```bash
 radxa@rock-4c-plus:~$ ls /dev/i2c-*
 /dev/i2c-0  /dev/i2c-7  /dev/i2c-9
 ```
 
 6. Check if TCS34725 is recognized
 
-```
+```bash
 radxa@rock-4c-plus:~$ sudo i2cdetect -r -y 7
      0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f
 00:						 -- -- -- -- -- -- -- --
@@ -301,7 +318,7 @@ radxa@rock-4c-plus:~$ sudo i2cdetect -r -y 7
 
 7. Running the test program
 
-```
+```bash
 radxa@rock-4c-plus:~/TCS34725$ sudo python3 example.py
 ```
 
@@ -316,23 +333,25 @@ DS3231 is equipped with integrated TCXO and crystal, which make it a cost-effect
 2. Wiring Method
 
 ```
-DS3231		 Radxa ROCK 4
- GND	   <-->	 GND
- VCC	   <-->	 5V
- SDA	   <-->	 Pin 3
- SCL	   <-->	 Pin 5
+
+DS3231 Radxa ROCK 4
+GND <--> GND
+VCC <--> 5V
+SDA <--> Pin 3
+SCL <--> Pin 5
+
 ```
 
 3. Reboot and check if i2c7 is on
 
-```
+```bash
 radxa@rock-4c-plus:~$ ls /dev/i2c-*
 /dev/i2c-0  /dev/i2c-7  /dev/i2c-9
 ```
 
 4. Check if TCS34725 is recognized
 
-```
+```bash
 radxa@rock-4c-plus:~$ sudo i2cdetect -r -y 7
      0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f
 00:						 -- -- -- -- -- -- -- --
@@ -347,27 +366,27 @@ radxa@rock-4c-plus:~$ sudo i2cdetect -r -y 7
 
 5. add a new rtc device
 
-```
+```bash
 root@rock-4c-plus:/home/radxa# echo ds3231 0x68 | sudo tee  /sys/class/i2c-adapter/i2c-7/new_device
 ```
 
 6. checkout the new rtc device
 
-```
+```bash
 root@rock-4c-plus:/home/radxa# ls /dev/rtc*
 /dev/rtc  /dev/rtc0 /dev/rtc1
 ```
 
 7. read time from rtc module
 
-```
+```bash
 root@rock-4c-plus:/home/radxa# hwclock -r -f /dev/rtc1
 2000-01-01 00:01:40.083622+08:00
 ```
 
 8. set the system time
 
-```
+```bash
 root@rock-4c-plus:/home/radxa# apt-get install ntp -y
 root@rock-4c-plus:/home/radxa# sudo service ntp start
 
@@ -379,26 +398,26 @@ date -s "2023-05-09 15:16:35"
 
 - write time to rtc module after you make sure the time of linux is right
 
-```
+```bash
 root@rock-4c-plus:/home/radxa# hwclock -w -f /dev/rtc1
 ```
 
 - then read the hardware RTC at the time to see if it is correct
 
-```
+```bash
 root@rock-4c-plus:/home/radxa# hwclock -r -f /dev/rtc1
 2023-05-09 15:18:45.390726+08:00
 ```
 
 - to set the Linux system time to the hardware RTC time
 
-```
+```bash
 root@rock-4c-plus:/home/radxa# hwclock -s -f /dev/rtc1
 ```
 
 - use timedatectl to view all the time information
 
-```
+```bash
 root@rock-4c-plus:/home/radxa# timedatectl
                Local time: Tue 2023-05-09 15:21:49 CST
            Universal time: Tue 2023-05-09 07:21:49 UTC
@@ -419,7 +438,7 @@ Warning: The system is configured to read the RTC time in the local time zone.
 
 10. set automatic startup
 
-```
+```bash
 root@rock-4c-plus:/home/radxa# touch /etc/rc.local
 root@rock-4c-plus:/home/radxa# chmod 777 /etc/rc.local
 root@rock-4c-plus:/home/radxa# cat /etc/rc.local
@@ -441,10 +460,12 @@ The temperature range is -55 ~ +125 ℃, inherent temperature resolution 0.5 ℃
 3. Wiring Method
 
 ```
-DS18B20			Radxa ROCK 4
-s		<-->		Pin 37 (GPIO4_D6)
-v		<-->		3.3V/5V
-g		<-->		GND
+
+DS18B20 Radxa ROCK 4
+s <--> Pin 37 (GPIO4_D6)
+v <--> 3.3V/5V
+g <--> GND
+
 ```
 
 4. Reboot and check if the device is recognized
@@ -453,7 +474,7 @@ If Wire is working properly, there will be a device starting with 28 in the dire
 
 5. Running the test program
 
-```
+```bash
 radxa@rock-4c-plus:~/sample_code/modules/keyestudio$ gcc ds18b20.c
 radxa@rock-4c-plus:~/sample_code/modules/keyestudio$ sudo ./a.out
 ```
@@ -467,16 +488,18 @@ keyestudio L9110 fan control module adopts L9110 motor control chip. It can cont
 1. Wiring Method
 
 ```
-fan		Radxa ROCK 4
-INA	<-->	Pin 13
-INB	<-->	Pin 14
-VCC	<-->	3.3V/5V
-GND	<-->	GND
+
+fan Radxa ROCK 4
+INA <--> Pin 13
+INB <--> Pin 14
+VCC <--> 3.3V/5V
+GND <--> GND
+
 ```
 
 2. Running the test program
 
-```
+```bash
 radxa@rock-4c-plus:~/sample_code/modules/keyestudio$ gcc fan_motor.c -lwiringx
 radxa@rock-4c-plus:~/sample_code/modules/keyestudio$ sudo ./a.out
 ```
@@ -490,15 +513,17 @@ IR is widely used in remote control. With this IR receiver, your project is able
 2. Wiring Method
 
 ```
-IR Receiver		Radxa ROCK 4
-s		<-->		Pin 13
-v		<-->		3.3V/5V
-g		<-->		GND
+
+IR Receiver Radxa ROCK 4
+s <--> Pin 13
+v <--> 3.3V/5V
+g <--> GND
+
 ```
 
 3. Install the test software and perform the test
 
-```
+```bash
 radxa@rock-4c-plus:~$ sudo apt-get install evtest -y
 radxa@rock-4c-plus:~$ sudo evtest
 ```
@@ -512,15 +537,17 @@ A servo is an actuator for position (angle) servoing for those control systems w
 1. Wiring Method
 
 ```
-MG90s			Radxa ROCK 4
- s		<-->		Pin 13
- v		<-->		3.3V/5V
- g		<-->		GND
+
+MG90s Radxa ROCK 4
+s <--> Pin 13
+v <--> 3.3V/5V
+g <--> GND
+
 ```
 
 2. Running the test program
 
-```
+```bash
 radxa@rock-4c-plus:~/sample_code/modules/keyestudio$ gcc servo.c -lwiringx
 radxa@rock-4c-plus:~/sample_code/modules/keyestudio$ sudo ./a.out 90		//90 is angle
 ```
@@ -538,17 +565,19 @@ WS2812B is a digital programmable LED lamp bead, also known as Neopixel, which i
 3. Wiring Method
 
 ```
-ws2812b						Radxa ROCK 4
-IN			<-->				Pin 19
-GDN			<-->				GND
-VCC			<-->				VCC
+
+ws2812b Radxa ROCK 4
+IN <--> Pin 19
+GDN <--> GND
+VCC <--> VCC
+
 ```
 
 5. Reboot and check if spi1 opens properly
 
 6. Running the test program
 
-```
+```bash
 radxa@rock-4c-plus:~/sample_code/modules/keyestudio$ sudo python3 ws2812b.py
 ```
 
@@ -561,15 +590,17 @@ DHT11/DHT22 is a digital temperature and humidity sensor. It adopts high-precisi
 1. Wiring Method
 
 ```
-DHT11/DHT22					Radxa ROCK 4
-S			<-->				Pin 3
-GDN			<-->				GND
-VCC			<-->				VCC
+
+DHT11/DHT22 Radxa ROCK 4
+S <--> Pin 3
+GDN <--> GND
+VCC <--> VCC
+
 ```
 
 2. Running the test program
 
-```
+```bash
 radxa@rock-4c-plus:~/sample_code/modules/keyestudio$ gcc dht11.c -lwiringx
 radxa@rock-4c-plus:~/sample_code/modules/keyestudio$ ./a.out ROCK 4 8
 ```
@@ -587,29 +618,31 @@ This Bluetooth module can easily achieve serial wireless data transmission. Its 
 3. Wiring Method
 
 ```
-HC-06			Radxa ROCK 4
-RXD		<-->		Pin 19
-TXD		<-->		Pin 21
-VCC		<-->		3.3/5V
-GND		<--> 	GND
+
+HC-06 Radxa ROCK 4
+RXD <--> Pin 19
+TXD <--> Pin 21
+VCC <--> 3.3/5V
+GND <--> GND
+
 ```
 
 4. Check if uart4 is turned on properly
 
-```
+```bash
 radxa@rock-4c-plus:~$ ls
 /dev/ttyS4
 ```
 
 5. Install minicom or other serial debugging tools.
 
-```
+```bash
 radxa@rock-4c-plus:~$ sudo apt-get install minicom -y
 ```
 
 6. Open the serial port debugging tool
 
-```
+```bash
 sudo minicom -D /dev/ttyS4 -b 9600
 ```
 
@@ -625,20 +658,21 @@ The voltage of the analog rotary sensor can be subdivided into 1024. Here's how 
 
 1. Wiring Method
 
-``
-rotation sensor				Radxa ROCK 4
-s			<-->				Pin 26
-v			<-->				3.3/5V
-g			<-->				GND
+```
+
+rotation sensor Radxa ROCK 4
+s <--> Pin 26
+v <--> 3.3/5V
+g <--> GND
+
 ```
 
 2. Running the test program
 
-```
+```bash
 radxa@rock-4c-plus:~/sample_code/modules/keyestudio$  gcc rotation_sensor.c
 radxa@rock-4c-plus:~/sample_code/modules/keyestudio$  sudo ./a.out
 IIO device value: 954
-
 ```
 
 ## RfID RC522
@@ -652,27 +686,29 @@ MF522-AN module adopts Philips MFRC522 original reader circuit chip design, easy
 3. Wiring Method
 
 ```
-RfID RC522					Radxa ROCK 4
-vcc			<-->				3.3V/5V
-rst			<-->				Pin 36
-gnd			<-->				GND
-miso			<-->		     	Pin 21
-mosi			<-->		     	Pin 19
-sck			<-->				Pin 23
-nss			<-->				Pin 38
-irq			<-->				Pin 40
+
+RfID RC522 Radxa ROCK 4
+vcc <--> 3.3V/5V
+rst <--> Pin 36
+gnd <--> GND
+miso <--> Pin 21
+mosi <--> Pin 19
+sck <--> Pin 23
+nss <--> Pin 38
+irq <--> Pin 40
+
 ```
 
 2. Reboot and check if spi1 opens properly
 
-```
+```bash
 radxa@rock-4c-plus:~$ ls /dev/spidev*
 /dev/spidev1.0
 ```
 
 2. Installation of necessary libraries
 
-```
+```bash
 sudo apt update
 sudo apt install python-dev python3-dev
 sudo pip3 install spidev
@@ -707,7 +743,7 @@ Connect the gpio shield to Pin 40 of ROCK 4.
 
 5. Running the test program
 
-```
+```bash
 sudo python3 gpio_shield_pcf8591.py
 ```
 

@@ -7,7 +7,7 @@ sidebar_position: 10
 
 该教程适用于瑞莎大部分 SBC 产品，此处使用 ROCK 4C+ 进行实际演示，其他 SBC 可参考此操作。
 
-```
+```bash
 // 下载示例代码
 rock@rock-4c-plus:~$ sudo apt-get install cmake build-essential git python3-dev -y
 rock@rock-4c-plus:~$ git clone https://github.com/nascs/sample_code.git
@@ -35,23 +35,25 @@ keyestudio 1602 I2C 模块是一个 16 个字符的 2 行 LCD 显示器，采用
 3. 将 LCD 按以下方式接线
 
 ```
-LCD				Radxa ROCK 4
-GND		<-->	 	GND
-VCC		<-->	 	5V
-SDA		<-->	 	Pin 3
-SCL		<-->	 	Pin 5
+
+LCD <--> Radxa ROCK 4
+GND <--> GND
+VCC <--> 5V
+SDA <--> Pin 3
+SCL <--> Pin 5
+
 ```
 
 4. 重启，并检查 i2c7 是否开启
 
-```
+```bash
 radxa@rock-4c-plus:~$ ls /dev/i2c-*
 /dev/i2c-0  /dev/i2c-7  /dev/i2c-9 # 开启后可检测到 /dev/i2c-7
 ```
 
 5. 通过以下命令检查 LCD 是否正常被识别
 
-```
+```bash
 radxa@rock-4c-plus:~$ sudo i2cdetect -r -y 7
 	 0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f
 00:						 -- -- -- -- -- -- -- --
@@ -66,7 +68,7 @@ radxa@rock-4c-plus:~$ sudo i2cdetect -r -y 7
 
 6. 运行 LCD 测试程序
 
-```
+```bash
 sudo python LCD1602.py
 ```
 
@@ -83,23 +85,25 @@ ADXL345 是一款小巧、轻薄、低功耗的三轴 MEMS 加速计，具有高
 3. 将 sensor 按以下方式接线
 
 ```
-ADXL345			Radxa ROCK 4
- GND		<-->	 GND
- VCC		<-->	 5V
- SDA		<-->	 Pin 3
- SCL		<-->	 Pin 5
+
+ADXL345 <--> Radxa ROCK 4
+GND <--> GND
+VCC <--> 5V
+SDA <--> Pin 3
+SCL <--> Pin 5
+
 ```
 
 4. 重启，并检查 i2c7 是否开启
 
-```
+```bash
 radxa@rock-4c-plus:~$ ls /dev/i2c-*
 /dev/i2c-0  /dev/i2c-7  /dev/i2c-9
 ```
 
 5. 运行测试程序
 
-```
+```bash
 root@rock-4c-plus:/home/radxa/sample_code/modules/keyestudio# gcc adxl345.c -lwiringx
 root@rock-4c-plus:/home/radxa/sample_code/modules/keyestudio# ./a.out
 ```
@@ -113,22 +117,22 @@ root@rock-4c-plus:/home/radxa/sample_code/modules/keyestudio# ./a.out
 1. 将 sensor 按以下方式接线
 
 ```
-led			Radxa ROCK 4
- s	<-->		Pin 3
- v	<-->		3.3V/5V
- g	<-->		GND
 
+led <--> Radxa ROCK 4
+ s <--> Pin 3
+ v <--> 3.3V/5V
+ g <--> GND
 
+button <--> Radxa ROCK 4
+ s <--> Pin 5
+ v <--> 3.3V/5V
+ g <--> GND
 
-button		Radxa ROCK 4
- s	<-->		Pin 5
- v	<-->		3.3V/5V
- g	<-->		GND
 ```
 
 2. 运行测试程序
 
-```
+```bash
 radxa@rock-4c-plus:~$ gcc button_led.c -lwiringx
 radxa@rock-4c-plus:~$ sudo ./a.out
 ```
@@ -142,16 +146,18 @@ Keyestudio SR01 超声波传感器价格实惠，可检测超声波传感器与�
 1. 将 sensor 按以下方式接线
 
 ```
-ultrasonic sensor		Radxa ROCK 4
-trig			<-->		Pin 3
-echo 		<-->      Pin 5
-v			<-->      3.3V/5V
-g			<-->		GND
+
+ultrasonic sensor <--> Radxa ROCK 4
+trig <--> Pin 3
+echo <--> Pin 5
+v <--> 3.3V/5V
+g <--> GND
+
 ```
 
 2. 运行测试程序
 
-```
+```bash
 root@rock-4c-plus:/home/radxa/sample_code/modules/keyestudio# gcc ultrasonic_sensor.c -lwiringx
 root@rock-4c-plus:/home/radxa/sample_code/modules/keyestudio# ./a.out
 ```
@@ -166,16 +172,18 @@ keyestudio 4 位 LED 显示器模块集成了一个 0.36" 4 位 7 段显示器�
 1. 将 sensor 按以下方式接线
 
 ```
-4-digit 7-segment Display		     Radxa ROCK 4
-CLK 				<-->				Pin 40
-DIO				<-->				Pin 38
-VCC				<-->				3.3V/5V
-GND				<-->				GND
+
+4-digit 7-segment Display <--> Radxa ROCK 4
+CLK <--> Pin 40
+DIO <--> Pin 38
+VCC <--> 3.3V/5V
+GND <--> GND
+
 ```
 
 2. 运行测试程序
 
-```
+```bash
 root@rock-4c-plus:/home/radxa/sample_code/modules/keyestudio# gcc tm1637.c -lwiringx
 root@rock-4c-plus:/home/radxa/sample_code/modules/keyestudio# ./a.out
 ```
@@ -193,23 +201,25 @@ OLED 是有机发光二极管的简称。在微观层面上，OLED 显示屏是�
 3. 将 sensor 按以下方式接线
 
 ```
-OLED		Radxa ROCK 4
+
+OLED <--> Radxa ROCK 4
  GND	<-->	GND
  VCC	<--> 5V
  SDA	<-->	Pin 3
  SCL	<-->	Pin 5
+
 ```
 
 4. 重启，并检查 i2c7 是否开启
 
-```
+```bash
 radxa@rock-4c-plus:~$ ls /dev/i2c-*
 /dev/i2c-0  /dev/i2c-7  /dev/i2c-9
 ```
 
 5. 检查 OLED 是否正常被识别
 
-```
+```bash
 radxa@rock-4c-plus:~$ sudo i2cdetect -r -y 7
 	 0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f
 00:						 -- -- -- -- -- -- -- --
@@ -224,7 +234,7 @@ radxa@rock-4c-plus:~$ sudo i2cdetect -r -y 7
 
 6. 运行测试程序
 
-```
+```bash
 root@rock-4c-plus:/home/radxa/sample_code/modules/keyestudio# gcc oled.c -lwiringx
 root@rock-4c-plus:/home/radxa/sample_code/modules/keyestudio# ./a.out
 ```
@@ -238,15 +248,17 @@ root@rock-4c-plus:/home/radxa/sample_code/modules/keyestudio# ./a.out
 1. 将 sensor 按以下方式接线
 
 ```
-buzzer/led/ir transmitter 		Radxa ROCK 4
-s					<-->		Pin 3
-v					<-->		3.3V/5V
-g					<-->		GND
+
+buzzer/led/ir transmitter <--> Radxa ROCK 4
+s <--> Pin 3
+v <--> 3.3V/5V
+g <--> GND
+
 ```
 
 2. 运行测试程序
 
-```
+```bash
 radxa@rock-4c-plus:~ cd sample_code/wiringX
 radxa@rock-4c-plus:~/sample_code/wiringX$ gcc blink.c -lwiringx
 ```
@@ -259,7 +271,7 @@ keyestudio TCS34725 传感器主要使用 TCS34725 色彩传感器芯片。它�
 
 1. 拉取测试代码
 
-```
+```bash
 radxa@rock-4c-plus:~$ git clone https://github.com/nascs/TCS34725.git
 radxa@rock-4c-plus:~$ cd TCS34725
 radxa@rock-4c-plus:~/TCS34725$ git checkout -b test origin/test
@@ -272,23 +284,25 @@ radxa@rock-4c-plus:~/TCS34725$ git checkout -b test origin/test
 4. 将 sensor 按以下方式接线
 
 ```
-TCS34725			Radxa ROCK 4
- GND		<-->		GND
- VCC		<-->	 	5V
- SDA		<-->	 	Pin 3
- SCL		<-->	 	Pin 5
+
+TCS34725 <--> Radxa ROCK 4
+ GND <--> GND
+ VCC <--> 5V
+ SDA <--> Pin 3
+ SCL <--> Pin 5
+
 ```
 
 5. 重启，并检查 i2c7 是否开启
 
-```
+```bash
 radxa@rock-4c-plus:~$ ls /dev/i2c-*
 /dev/i2c-0  /dev/i2c-7  /dev/i2c-9
 ```
 
 6. 检查 TCS34725 是否被识别
 
-```
+```bash
 radxa@rock-4c-plus:~$ sudo i2cdetect -r -y 7
      0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f
 00:						 -- -- -- -- -- -- -- --
@@ -303,7 +317,7 @@ radxa@rock-4c-plus:~$ sudo i2cdetect -r -y 7
 
 7. 运行测试程序
 
-```
+```bash
 radxa@rock-4c-plus:~/TCS34725$ sudo python3 example.py
 ```
 
@@ -318,23 +332,25 @@ DS3231 集成了 TCXO 和晶体，是一款高性价比、高精度的 I2C 实�
 2. 将 sensor 按以下方式接线
 
 ```
-DS3231		 Radxa ROCK 4
- GND	   <-->	 GND
- VCC	   <-->	 5V
- SDA	   <-->	 Pin 3
- SCL	   <-->	 Pin 5
+
+DS3231 <--> Radxa ROCK 4
+GND <--> GND
+VCC <--> 5V
+SDA <--> Pin 3
+SCL <--> Pin 5
+
 ```
 
 3. 重启，并检查 i2c7 是否开启
 
-```
+```bash
 radxa@rock-4c-plus:~$ ls /dev/i2c-*
 /dev/i2c-0  /dev/i2c-7  /dev/i2c-9
 ```
 
 4. 检查 DS3231 是否被识别
 
-```
+```bash
 radxa@rock-4c-plus:~$ sudo i2cdetect -r -y 7
      0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f
 00:						 -- -- -- -- -- -- -- --
@@ -349,27 +365,27 @@ radxa@rock-4c-plus:~$ sudo i2cdetect -r -y 7
 
 5. 添加一个新的 RTC 设备
 
-```
+```bash
 root@rock-4c-plus:/home/radxa# echo ds3231 0x68 | sudo tee  /sys/class/i2c-adapter/i2c-7/new_device
 ```
 
 6. 检查新的 RTC 设备
 
-```
+```bash
 root@rock-4c-plus:/home/radxa# ls /dev/rtc*
 /dev/rtc  /dev/rtc0 /dev/rtc1
 ```
 
 7. 从 RTC 模块中读取时间
 
-```
+```bash
 root@rock-4c-plus:/home/radxa# hwclock -r -f /dev/rtc1
 2000-01-01 00:01:40.083622+08:00
 ```
 
 8. 设置系统时间
 
-```
+```bash
 root@rock-4c-plus:/home/radxa# apt-get install ntp -y
 root@rock-4c-plus:/home/radxa# sudo service ntp start
 
@@ -381,26 +397,26 @@ date -s "2023-05-09 15:16:35"
 
 - 确保 linux 时间正确后，将时间写入 rtc 模块
 
-```
+```bash
 root@rock-4c-plus:/home/radxa# hwclock -w -f /dev/rtc1
 ```
 
 - 然后读取硬件 RTC 的时间，看看它是否正确
 
-```
+```bash
 root@rock-4c-plus:/home/radxa# hwclock -r -f /dev/rtc1
 2023-05-09 15:18:45.390726+08:00
 ```
 
 - 将 Linux 系统时间设置为硬件 RTC 时间
 
-```
+```bash
 root@rock-4c-plus:/home/radxa# hwclock -s -f /dev/rtc1
 ```
 
 - 使用 timedatectl 查看所有时间信息
 
-```
+```bash
 root@rock-4c-plus:/home/radxa# timedatectl
                Local time: Tue 2023-05-09 15:21:49 CST
            Universal time: Tue 2023-05-09 07:21:49 UTC
@@ -421,7 +437,7 @@ Warning: The system is configured to read the RTC time in the local time zone.
 
 10. 设置开机自启
 
-```
+```bash
 root@rock-4c-plus:/home/radxa# touch /etc/rc.local
 root@rock-4c-plus:/home/radxa# chmod 777 /etc/rc.local
 root@rock-4c-plus:/home/radxa# cat /etc/rc.local
@@ -442,10 +458,12 @@ DS18B20 是一款数字温度传感器。它可用于量化环境温度测试。
 3. 按以下接线方式连接
 
 ```
-DS18B20			Radxa ROCK 4
-s		<-->		Pin 37 (GPIO4_D6)
-v		<-->		3.3V/5V
-g		<-->		GND
+
+DS18B20 <--> Radxa ROCK 4
+s <--> Pin 37 (GPIO4_D6)
+v <--> 3.3V/5V
+g <--> GND
+
 ```
 
 4. 重启，并检设备是否被识别
@@ -454,7 +472,7 @@ g		<-->		GND
 
 5. 运行测试程序
 
-```
+```bash
 radxa@rock-4c-plus:~/sample_code/modules/keyestudio$ gcc ds18b20.c
 radxa@rock-4c-plus:~/sample_code/modules/keyestudio$ sudo ./a.out
 ```
@@ -468,16 +486,18 @@ keyestudio L9110 风扇控制模块采用 L9110 电机控制芯片。它可以�
 1. 按以下方式接线
 
 ```
-fan		Radxa ROCK 4
-INA	<-->	Pin 13
-INB	<-->	Pin 14
-VCC	<-->	3.3V/5V
-GND	<-->	GND
+
+fan <--> Radxa ROCK 4
+INA <--> Pin 13
+INB <--> Pin 14
+VCC <--> 3.3V/5V
+GND <--> GND
+
 ```
 
 2. 运行测试程序
 
-```
+```bash
 radxa@rock-4c-plus:~/sample_code/modules/keyestudio$ gcc fan_motor.c -lwiringx
 radxa@rock-4c-plus:~/sample_code/modules/keyestudio$ sudo ./a.out
 ```
@@ -491,15 +511,17 @@ radxa@rock-4c-plus:~/sample_code/modules/keyestudio$ sudo ./a.out
 2. 按以下方式接线
 
 ```
-IR Receiver		Radxa ROCK 4
-s		<-->		Pin 13
-v		<-->		3.3V/5V
-g		<-->		GND
+
+IR Receiver <--> Radxa ROCK 4
+s <--> Pin 13
+v <--> 3.3V/5V
+g <--> GND
+
 ```
 
 3. 安装测试软件，进行测试
 
-```
+```bash
 radxa@rock-4c-plus:~$ sudo apt-get install evtest -y
 radxa@rock-4c-plus:~$ sudo evtest
 ```
@@ -513,15 +535,17 @@ radxa@rock-4c-plus:~$ sudo evtest
 1. 按以下方式接线
 
 ```
-MG90s			Radxa ROCK 4
- s		<-->		Pin 13
- v		<-->		3.3V/5V
- g		<-->		GND
+
+MG90s <--> Radxa ROCK 4
+s <--> Pin 13
+v <--> 3.3V/5V
+g <--> GND
+
 ```
 
 2. 运行测试程序
 
-```
+```bash
 radxa@rock-4c-plus:~/sample_code/modules/keyestudio$ gcc servo.c -lwiringx
 radxa@rock-4c-plus:~/sample_code/modules/keyestudio$ sudo ./a.out 90		//90 is angle
 ```
@@ -539,17 +563,19 @@ WS2812B是一种数字可编程LED灯珠，也被称为Neopixel。它是基于�
 3. 按以下方式接线
 
 ```
-ws2812b						Radxa ROCK 4
-IN			<-->				Pin 19
-GDN			<-->				GND
-VCC			<-->				VCC
+
+ws2812b <--> Radxa ROCK 4
+IN <--> Pin 19
+GDN <--> GND
+VCC <--> VCC
+
 ```
 
 5. 重启，检查 spi1 是否正常打开
 
 6. 运行测试程序
 
-```
+```bash
 radxa@rock-4c-plus:~/sample_code/modules/keyestudio$ sudo python3 ws2812b.py
 ```
 
@@ -562,15 +588,17 @@ DHT11/DHT22是一种数字式温湿度传感器。它采用了高精度温湿度
 1. 按以下方式接线
 
 ```
-DHT11/DHT22					Radxa ROCK 4
-S			<-->				Pin 3
-GDN			<-->				GND
-VCC			<-->				VCC
+
+DHT11/DHT22 <--> Radxa ROCK 4
+S <--> Pin 3
+GDN <--> GND
+VCC <--> VCC
+
 ```
 
 2. 运行测试程序
 
-```
+```bash
 radxa@rock-4c-plus:~/sample_code/modules/keyestudio$ gcc dht11.c -lwiringx
 radxa@rock-4c-plus:~/sample_code/modules/keyestudio$ ./a.out ROCK 4 8
 ```
@@ -588,29 +616,31 @@ radxa@rock-4c-plus:~/sample_code/modules/keyestudio$ ./a.out ROCK 4 8
 3. 按以下方式接线
 
 ```
-HC-06			Radxa ROCK 4
-RXD		<-->		Pin 19
-TXD		<-->		Pin 21
-VCC		<-->		3.3/5V
-GND		<--> 	GND
+
+HC-06 <--> Radxa ROCK 4
+RXD <--> Pin 19
+TXD <--> Pin 21
+VCC <--> 3.3/5V
+GND <--> GND
+
 ```
 
 4. 检查 uart4 是否正常打开
 
-```
+```bash
 radxa@rock-4c-plus:~$ ls
 /dev/ttyS4
 ```
 
 5. 安装 minicom 或者其他串口调试工具
 
-```
+```bash
 radxa@rock-4c-plus:~$ sudo apt-get install minicom -y
 ```
 
 6. 打开串口调试工具
 
-```
+```bash
 sudo minicom -D /dev/ttyS4 -b 9600
 ```
 
@@ -627,19 +657,20 @@ sudo minicom -D /dev/ttyS4 -b 9600
 1. 按以下方式接线
 
 ```
-rotation sensor				Radxa ROCK 4
-s			<-->				Pin 26
-v			<-->				3.3/5V
-g			<-->				GND
+
+rotation sensor <--> Radxa ROCK 4
+s <--> Pin 26
+v <--> 3.3/5V
+g <--> GND
+
 ```
 
 2. 运行测试程序
 
-```
+```bash
 radxa@rock-4c-plus:~/sample_code/modules/keyestudio$  gcc rotation_sensor.c
 radxa@rock-4c-plus:~/sample_code/modules/keyestudio$  sudo ./a.out
 IIO device value: 954
-
 ```
 
 ## RfID RC522
@@ -653,27 +684,29 @@ MF522-AN 模块采用飞利浦 MFRC522 原装读写器电路芯片设计，使�
 3. 按以下方式接线
 
 ```
-RfID RC522					Radxa ROCK 4
-vcc			<-->				3.3V/5V
-rst			<-->				Pin 36
-gnd			<-->				GND
-miso			<-->		     	Pin 21
-mosi			<-->		     	Pin 19
-sck			<-->				Pin 23
-nss			<-->				Pin 38
-irq			<-->				Pin 40
+
+RfID RC522 <--> Radxa ROCK 4
+vcc <--> 3.3V/5V
+rst <--> Pin 36
+gnd <--> GND
+miso <--> Pin 21
+mosi <--> Pin 19
+sck <--> Pin 23
+nss <--> Pin 38
+irq <--> Pin 40
+
 ```
 
 2. 重启，检查 spi1 是否正常打开
 
-```
+```bash
 radxa@rock-4c-plus:~$ ls /dev/spidev*
 /dev/spidev1.0
 ```
 
 2. 安装必要库
 
-```
+```bash
 sudo apt update
 sudo apt install python-dev python3-dev
 sudo pip3 install spidev
@@ -708,7 +741,7 @@ PCF8591 具有四个 8 位模数转换器和一个 8 位数模转换器。它将
 
 5. 运行测试程序
 
-```
+```bash
 sudo python3 gpio_shield_pcf8591.py
 ```
 

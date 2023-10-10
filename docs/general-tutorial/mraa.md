@@ -25,7 +25,7 @@ sudo apt-get install libmraa2 libmraa-dev libmraa-java python3-mraa mraa-tools -
 
 ### I2C
 
-- mraa-i2c list： 列出所有可用 i2c 总线
+- mraa-i2c list： 列出所有可用 I2C 总线
 - mraa-i2c version： 获取 mraa 版本和板卡名称
 - mraa-i2c detect bus： 列出指定总线上检测到的设备
 - mraa-i2c get bus device reg： 从指定设备寄存器中获取值

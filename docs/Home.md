@@ -392,7 +392,7 @@ sidebar_custom_props: { product_docs: [
                 info_en: "Start Your ZERO 3W Here",
                 url: "/zero/zero3w",
               },
-               {
+              {
                 title_zh: "配件使用指南",
                 info_zh: "使用 ZERO 3W 配件",
                 title_en: "Accessories Guide",

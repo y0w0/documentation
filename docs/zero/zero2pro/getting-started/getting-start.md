@@ -10,11 +10,10 @@ import TabItem from '@theme/TabItem';
 
 本指南是为 瑞莎 Zero 2 Pro 初级使用者编写，可以帮助您了解 瑞莎 Zero 2 Pro 基本的准备和设置。
 当您拿到一块 瑞莎 Zero 2 Pro 主板时，建议您首先查看印在电路板上面的型号和硬件版本。
-我们将尽可能多地介绍相关信息。
 
 ## 必要项
 
-- 瑞莎 Zero 2 Pro SBC
+- 瑞莎 ZERO 2 PRO
 
 - microSD 卡，容量不小于 8GB（如果您的 Zero 2 Pro 配备板载 eMMC，您可以直接将系统烧录其中）
 
@@ -25,11 +24,11 @@ import TabItem from '@theme/TabItem';
   瑞莎推荐使用 [瑞莎 Power PD30W](/accessories/pd_30w)。
   :::
 
-- Type-C 分线器及 USB 键鼠  
-  Zero 2 Pro 拥有两个 Type-C 接口，其中一个用于供电时，另一个可使用 Type-C 分线器来扩展键鼠或其他外设。
+- Type-C 集线器及 USB 键鼠  
+  Zero 2 Pro 拥有两个 Type-C 接口，其中一个用于供电时，另一个可使用 Type-C 集线器来扩展键鼠或其他外设。
 
 - 显示器和 micro HDMI 线  
-  Zero 2 Pro 配备的是 micro HDMI 接口。建议使用具有 HDMI 功能的显示器，最高支持 1920 x 1080 的分辨率。
+  Zero 2 Pro 配备的是 micro HDMI 接口。建议使用具有 HDMI 功能的显示器，最高支持 4K60p 分辨率。
 
 - microSD 读卡器  
   将镜像刷写到 microSD 卡上。
@@ -151,7 +150,7 @@ bash <(curl -s https://raw.githubusercontent.com/corbindavenport/nexus-tools/mas
 在 Linux 平台下，还需要增加 `sudo` 以获取权限：
 
 ```bash
-  sudo boot-g12.py .bin
+sudo boot-g12.py .bin
 ```
 
 其中，`loader.bin` 更换为您需要烧录的固件，您可以在下文中获得下载链接。

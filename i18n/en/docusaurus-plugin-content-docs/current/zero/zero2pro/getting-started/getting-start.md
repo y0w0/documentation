@@ -131,11 +131,13 @@ bash <(curl -s https://raw.githubusercontent.com/corbindavenport/nexus-tools/mas
 <Tabs>
 <TabItem value="Windows">
 
-Once the tool detects the Maskrom mode, you can click the `Select` button to select the image file and then click the `Run` button to flash it:
+Once the tool detects the Maskrom mode, you can click the `Select` button to select the loader file and then click the `Run` button to load it:
 
 ![Rz fastboot](/img/zero/zero2pro/Rz-usb-helper-fastboot.webp)
 
 The result of running is shown above.
+
+After that, your computer will recognise the Radxa ZERO 2 PRO as a USB storage device, and you just need to follow the instructions in the [OS Installation Guide](/general-tutorial/os-installation) to flash the system image into it, and then boot it up normally.
 
 </TabItem>
 <TabItem value="Linux/MacOS">
@@ -145,13 +147,13 @@ Under those platforms, you can use the boot-g12.py utility.
 Run the following command to flash:
 
 ```bash
-  boot-g12.py loader.bin
+  boot-g12.py radxa-zero2-2pro-erase-emmc.bin
 ```
 
 On Linux platforms, you will also need to add `sudo` for permissions:
 
 ```bash
-  sudo boot-g12.py .bin
+  sudo boot-g12.py radxa-zero2-2pro-erase-emmc.bin
 ```
 
 Where `loader.bin` is replaced with the firmware you need to flash, you can get the download link below.

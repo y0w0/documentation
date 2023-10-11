@@ -130,11 +130,13 @@ bash <(curl -s https://raw.githubusercontent.com/corbindavenport/nexus-tools/mas
 <Tabs>
 <TabItem value="Windows">
 
-工具检测到 Maskrom 模式后，你就可以点击 `Select` 按钮来选择镜像文件，然后点击 `Run` 按钮进行烧录：
+工具检测到 Maskrom 模式后，你就可以点击 `Select` 按钮来选择 Loader 文件，然后点击 `Run` 按钮进行加载：
 
 ![Rz fastboot](/img/zero/zero2pro/Rz-usb-helper-fastboot.webp)
 
 运行结果如上图所示。
+
+在此之后，您的电脑将会将瑞莎 ZERO 2 PRO 识别为一个 USB 存储设备，您只需按照[操作系统安装指南](/general-tutorial/os-installation)中的操作将系统镜像烧录其中，再正常启动即可。
 
 </TabItem>
 <TabItem value="Linux/MacOS">
@@ -144,13 +146,13 @@ bash <(curl -s https://raw.githubusercontent.com/corbindavenport/nexus-tools/mas
 运行以下命令来进行烧录：
 
 ```bash
-  boot-g12.py loader.bin
+boot-g12.py radxa-zero2-2pro-erase-emmc.bin
 ```
 
 在 Linux 平台下，还需要增加 `sudo` 以获取权限：
 
 ```bash
-sudo boot-g12.py .bin
+sudo boot-g12.py radxa-zero2-2pro-erase-emmc.bin
 ```
 
 其中，`loader.bin` 更换为您需要烧录的固件，您可以在下文中获得下载链接。

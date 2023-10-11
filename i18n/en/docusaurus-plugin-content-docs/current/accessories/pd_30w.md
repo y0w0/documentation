@@ -31,11 +31,3 @@ The Radxa Power PD 30W is an adapter designed specifically for Radxa's SBC produ
 # Mechanical Appendix
 
 ![](/img/accessories/power-pd-30w-mechanical.webp)
-
-# Availability
-
-Radxa guarantees availability of the Radxa Power PD 30W until at least September 2029.
-
-# Support
-
-For support please see the hardware documentation section of the [Radxa Wiki](https://wiki.radxa.com/) website and post questions to the [Radxa forum](https://forum.radxa.com/).

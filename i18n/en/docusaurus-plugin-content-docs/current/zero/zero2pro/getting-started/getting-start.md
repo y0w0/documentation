@@ -161,6 +161,16 @@ Where `loader.bin` is replaced with the firmware you need to flash, you can get 
 
 ### Loader file
 
+[radxa-zero2-2pro-erase-emmc.bin](https://dl.radxa.com/zero2/images/loader/radxa-zero-2pro-erase-emmc.bin): automatically erase eMMC, then present eMMC as a USB storage device. This is the recommended way to load a new Linux image.
+
+[rz-2pro-fastboot-loader.bin](https://dl.radxa.com/zero2/images/loader/rz-2pro-fastboot-loader.bin): enable fastboot mode. This cannot be used to install our official Android.
+
+[rz-2pro-udisk-loader.bin](https://dl.radxa.com/zero2/images/loader/rz-2pro-udisk-loader.bin): expose embedded eMMC as a USB Mass Storage device.
+
+[u-boot.bin](https://dl.radxa.com/zero2/images/loader/u-boot.bin): mainline U-Boot bootloader for USB boot. Won't work if you flashed it to eMMC/microSD.
+
+[u-boot.bin.sd.bin](https://dl.radxa.com/zero2/images/loader/u-boot.bin.sd.bin): mainline U-Boot bootloader for eMMC/microSD boot. Please refer to this guide to see how to flash it when OS is already installed.
+
 ### Maskrom Mode
 
 To enter Maskrom mode, please follow the steps below:

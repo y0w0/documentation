@@ -155,7 +155,7 @@ boot-g12.py radxa-zero2-2pro-erase-emmc.bin
 sudo boot-g12.py radxa-zero2-2pro-erase-emmc.bin
 ```
 
-其中，`loader.bin` 更换为您需要烧录的固件，您可以在下文中获得下载链接。
+在此之后，您的电脑将会将瑞莎 ZERO 2 PRO 识别为一个 USB 存储设备，您只需按照[操作系统安装指南](/general-tutorial/os-installation)中的操作将系统镜像烧录其中，再正常启动即可。
 
 </TabItem>
 </Tabs>

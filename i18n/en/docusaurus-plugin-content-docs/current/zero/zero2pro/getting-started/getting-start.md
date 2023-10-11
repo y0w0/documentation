@@ -156,7 +156,7 @@ On Linux platforms, you will also need to add `sudo` for permissions:
   sudo boot-g12.py radxa-zero2-2pro-erase-emmc.bin
 ```
 
-Where `loader.bin` is replaced with the firmware you need to flash, you can get the download link below.
+After that, your computer will recognise the Radxa ZERO 2 PRO as a USB storage device, and you just need to follow the instructions in the [OS Installation Guide](/general-tutorial/os-installation) to flash the system image into it, and then boot it up normally.
 
 </TabItem>
 </Tabs>

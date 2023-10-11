@@ -168,7 +168,7 @@ sudo boot-g12.py .bin
 
 [u-boot.bin](https://dl.radxa.com/zero2/images/loader/u-boot.bin)：用于 USB 启动的主线 U-Boot 引导加载器。如果刷写到 eMMC/microSD，则无法工作。
 
-[u-boot.bin.sd.bin](https://dl.radxa.com/zero2/images/loader/u-boot.bin.sd.bin)：用于 eMMC/microSD 启动的主线 U-Boot 引导加载程序。请参阅本指南，了解如何在已安装操作系统的情况下闪存它。
+[u-boot.bin.sd.bin](https://dl.radxa.com/zero2/images/loader/u-boot.bin.sd.bin)：用于 eMMC/microSD 启动的主线 U-Boot 引导加载程序。
 
 ### Maskrom 模式
 

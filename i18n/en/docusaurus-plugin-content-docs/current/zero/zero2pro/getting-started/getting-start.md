@@ -169,7 +169,7 @@ Where `loader.bin` is replaced with the firmware you need to flash, you can get 
 
 [u-boot.bin](https://dl.radxa.com/zero2/images/loader/u-boot.bin): mainline U-Boot bootloader for USB boot. Won't work if you flashed it to eMMC/microSD.
 
-[u-boot.bin.sd.bin](https://dl.radxa.com/zero2/images/loader/u-boot.bin.sd.bin): mainline U-Boot bootloader for eMMC/microSD boot. Please refer to this guide to see how to flash it when OS is already installed.
+[u-boot.bin.sd.bin](https://dl.radxa.com/zero2/images/loader/u-boot.bin.sd.bin): mainline U-Boot bootloader for eMMC/microSD boot.
 
 ### Maskrom Mode
 

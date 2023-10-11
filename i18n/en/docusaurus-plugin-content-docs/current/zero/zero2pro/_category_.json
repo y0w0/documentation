@@ -1,8 +1,8 @@
 {
-  "label": "ZERO 2",
+  "label": "ZERO 2 Pro",
   "link": {
     "description": "ZERO 2 is a high-performance single-board computer based on the Amlogic A311D SOC.",
-    "slug": "/zero/zero2",
+    "slug": "/zero/zero2pro",
     "type": "generated-index"
   },
   "position": 30

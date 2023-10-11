@@ -160,15 +160,15 @@ sudo boot-g12.py .bin
 
 ### Loader 文件
 
- - [radxa-zero2-2pro-erase-emmc.bin](https://dl.radxa.com/zero2/images/loader/radxa-zero-2pro-erase-emmc.bin)：自动擦除 eMMC，然后将 eMMC 作为 USB 存储设备显示。这是加载新 Linux 映像的推荐方法。
+- [radxa-zero2-2pro-erase-emmc.bin](https://dl.radxa.com/zero2/images/loader/radxa-zero-2pro-erase-emmc.bin)：自动擦除 eMMC，然后将 eMMC 作为 USB 存储设备显示。这是加载新 Linux 映像的推荐方法。
 
- - [rz-2pro-fastboot-loader.bin](https://dl.radxa.com/zero2/images/loader/rz-2pro-fastboot-loader.bin)：启用 fastboot 模式。其不能用于安装我们的官方 Android 系统。
+- [rz-2pro-fastboot-loader.bin](https://dl.radxa.com/zero2/images/loader/rz-2pro-fastboot-loader.bin)：启用 fastboot 模式。其不能用于安装我们的官方 Android 系统。
 
- - [rz-2pro-udisk-loader.bin](https://dl.radxa.com/zero2/images/loader/rz-2pro-udisk-loader.bin): 将板载 eMMC 作为 USB 大容量存储设备。
+- [rz-2pro-udisk-loader.bin](https://dl.radxa.com/zero2/images/loader/rz-2pro-udisk-loader.bin): 将板载 eMMC 作为 USB 大容量存储设备。
 
- - [u-boot.bin](https://dl.radxa.com/zero2/images/loader/u-boot.bin)：用于 USB 启动的主线 U-Boot 引导加载器。如果刷写到 eMMC/microSD，则无法工作。
+- [u-boot.bin](https://dl.radxa.com/zero2/images/loader/u-boot.bin)：用于 USB 启动的主线 U-Boot 引导加载器。如果刷写到 eMMC/microSD，则无法工作。
 
- - [u-boot.bin.sd.bin](https://dl.radxa.com/zero2/images/loader/u-boot.bin.sd.bin)：用于 eMMC/microSD 启动的主线 U-Boot 引导加载程序。
+- [u-boot.bin.sd.bin](https://dl.radxa.com/zero2/images/loader/u-boot.bin.sd.bin)：用于 eMMC/microSD 启动的主线 U-Boot 引导加载程序。
 
 ### Maskrom 模式
 

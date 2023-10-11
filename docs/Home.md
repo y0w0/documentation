@@ -352,6 +352,57 @@ sidebar_custom_props: { product_docs: [
         },
 
         {
+          # 产品代号
+          product_code: "rs105",
+          # 产品名
+          product_name_zh: "ZERO 2 PRO",
+          product_name_en: "ZERO 2 PRO",
+          # 产品系列
+          Product_Line_zh: "Radxa ZERO 系列",
+          Product_Line_en: "Radxa ZERO Series",
+          # 产品对应的所有文档
+          docs:
+            [
+              {
+                title_zh: "新手入门指南",
+                info_zh: "从这里开始你的 ZERO 2 PRO 之旅",
+                title_en: "Getting Started Guide",
+                info_en: "Start Your ZERO 2 PRO Here",
+                url: "/zero/zero2pro",
+              },
+            ],
+        },
+
+        {
+          # 产品代号
+          product_code: "rs107",
+          # 产品名
+          product_name_zh: "ZERO 3W",
+          product_name_en: "ZERO 3W",
+          # 产品系列
+          Product_Line_zh: "Radxa ZERO 系列",
+          Product_Line_en: "Radxa ZERO Series",
+          # 产品对应的所有文档
+          docs:
+            [
+              {
+                title_zh: "新手入门指南",
+                info_zh: "从这里开始你的 ZERO 3W 之旅",
+                title_en: "Getting Started Guide",
+                info_en: "Start Your ZERO 3W Here",
+                url: "/zero/zero3w",
+              },
+               {
+                title_zh: "配件使用指南",
+                info_zh: "使用 ZERO 3W 配件",
+                title_en: "Accessories Guide",
+                info_en: "Using ZERO 3W Accessories",
+                url: "/zero/zero3w/using-accessories",
+              },
+            ],
+        },
+
+        {
           product_name_zh: "RadxaOS",
           product_name_en: "RadxaOS",
           product_code: "radxa-os",

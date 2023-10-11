@@ -71,7 +71,7 @@ ROCK 5A支持相机功能。
 
 ROCK 5A支持LCD显示功能。
 
-**官方推荐使用[瑞莎8寸HD显示屏](../../../accessories/lcd-8-hd)或者[瑞莎10寸HD显示屏](../../../accessories/lcd-10-hd)。**
+**官方推荐使用[瑞莎8寸HD显示屏](../../../accessories/lcd-8-hd)或者[瑞莎10寸FHD显示屏](../../../accessories/lcd-10-fhd)。**
 
 - 音频线
 

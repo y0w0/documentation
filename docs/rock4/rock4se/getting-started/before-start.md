@@ -75,7 +75,7 @@ ROCK 4SE 支持摄像头功能。
 ROCK 4SE 支持 LCD 显示功能。
 
 :::tip
-官方推荐使用 [Radxa Display 8 HD](/accessories/lcd-8-hd) 或 [Radxa Display 10 HD](/accessories/lcd-10-hd)。
+官方推荐使用 [Radxa Display 8 HD](/accessories/lcd-8-hd) 或 [Radxa Display 10 FHD](/accessories/lcd-10-fhd)。
 :::
 
 - 音频设备

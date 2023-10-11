@@ -71,7 +71,7 @@ ROCK 5A supports camera function.
 
 ROCK 5A supports LCD display function.
 
-**The official recommendation is to use [Radxa Display 8 HD](../../../accessories/lcd-8-hd) or [Radxa Display 10 HD](../../../accessories/lcd-10-hd)**
+**The official recommendation is to use [Radxa Display 8 HD](../../../accessories/lcd-8-hd) or [Radxa Display 10 FHD](../../../accessories/lcd-10-fhd)**
 
 - Audio cable
 

@@ -76,7 +76,7 @@ The official recommendation is to use [Radxa Camera 4K](/accessories/camera_4k).
 ROCK 4SE supports LCD display function.
 
 :::tip
-The official recommendation is to use [Radxa Display 8 HD](/accessories/lcd-8-hd) or [Radxa Display 10 HD](/accessories/lcd-10-hd).
+The official recommendation is to use [Radxa Display 8 HD](/accessories/lcd-8-hd) or [Radxa Display 10 FHD](/accessories/lcd-10-fhd).
 :::
 
 - Audio device

@@ -23,7 +23,7 @@ Hardware version V1.1/V1.2 ：
 <div className='gpio_style'>
 
 :::caution
-Pin 3 and Pin 5 levels are not controllable and are fixed at +3.3V.
+Pin 3 and Pin 5 have additional pull-up to power downstream I2C devices, as such when used as GPIO they may not work correctly.
 :::
 
 | GPIO number | Function5   |  Function4   |    Function3    |  Function2   | Function1 |               Pin#               |              Pin#               | Function1 |                 Function2                 | Function3 |  Function4  | Function5    | GPIO number |

@@ -23,7 +23,7 @@ ROCK 3C 提供了一个40 pin 针脚的 GPIO 座子，与市场上大多数的 S
 <div className='gpio_style'>
 
 :::caution
-Pin 3 与 Pin 5 电平不可控制，固定为 +3.3V。
+Pin 3 与 Pin 5 为 I2C 设备供电添加了额外的上拉电阻，故在作为 GPIO 使用时会工作异常。
 :::
 
 | GPIO number | Function5   |  Function4   |    Function3    |  Function2   | Function1 |               Pin#               |              Pin#               | Function1 |                 Function2                 | Function3 |  Function4  | Function5    | GPIO number |

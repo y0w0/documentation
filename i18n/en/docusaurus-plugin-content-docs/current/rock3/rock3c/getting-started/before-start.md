@@ -51,7 +51,7 @@ We will introduce the board information as much as possible.
 - LCD Module  
   ROCK 3C supports 2-lanes MIPI DSI display function.  
   :::tip
-  The official recommendation is to use [Radxa Display 8 HD](/accessories/lcd-8-hd) or [Radxa Display 10 HD](/accessories/lcd-10-hd)
+  The official recommendation is to use [Radxa Display 8 HD](/accessories/lcd-8-hd) or [Radxa Display 10 FHD](/accessories/lcd-10-fhd)
   :::
 
 - Audio cable  

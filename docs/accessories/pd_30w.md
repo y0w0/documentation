@@ -31,11 +31,3 @@ Radxa Power PD 30W 是专为 Radxa 的 SBC 产品设计的适配器。 它可以
 # 机械规格
 
 ![](/img/accessories/power-pd-30w-mechanical.webp)
-
-# Availability
-
-Radxa guarantees availability of the Radxa Power PD 30W until at least September 2029.
-
-# Support
-
-For support please see the hardware documentation section of the [Radxa Wiki](https://wiki.radxa.com/) website and post questions to the [Radxa forum](https://forum.radxa.com/).

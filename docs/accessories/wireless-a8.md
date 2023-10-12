@@ -48,11 +48,4 @@ Radxa 无线模块 A8 是基于 Realtek RTL8852BE 的标准 M.2 2230 无线模�
 
 - Radxa ROCK 3A
 - Radxa ROCK 5B
-
-# Availability
-
-Radxa guarantees availability of the Radxa Wireless Module A8 until at least September 2029.
-
-# Support
-
-For support please see the hardware documentation section of the [Radxa Wiki](https://wiki.radxa.com/Wireless_module) website and post questions to the [Radxa forum](https://forum.radxa.com/).
+- Radxa ROCK 5A

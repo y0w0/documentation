@@ -74,7 +74,7 @@ ROCK 4C Plus supports camera function.
 ROCK 4C Plus supports LCD display function.
 
 :::tip
-The official recommendation is to use [Radxa Display 10 HD](/accessories/lcd-10-hd).
+The official recommendation is to use [Radxa Display 10 FHD](/accessories/lcd-10-fhd).
 :::
 
 - Audio device

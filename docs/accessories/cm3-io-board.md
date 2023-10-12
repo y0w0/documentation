@@ -1,5 +1,5 @@
 ---
-sidebar_label: "瑞莎 CM3 接口板"
+sidebar_label: "Radxa CM3 IO Board"
 sidebar_position: 5
 ---
 

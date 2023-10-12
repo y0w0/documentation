@@ -1,48 +1,41 @@
 ---
 sidebar_label: "Radxa CM3 IO Board"
-sidebar_position: 5
+sidebar_position: 80
 ---
 
-# 瑞莎 CM3 接口板
+# Radxa CM3 IO Board
 
 # 介绍
 
-瑞莎 CM3 接口板是瑞莎CM3高性价比、高性能、接口丰富的应用板，提供SD卡槽、SATA接口、PCIe、HDMI、MIPI、以太网、TP接口、eDP屏、USB3.0、USB2 . 0、RTC、CSI、GPIO、耳机孔、风扇等丰富的外设接口。
+Radxa CM3 IO Board 是 Radxa CM3 的功能验证底板，可用于产品评估及前期研发使用。
 
 尺寸: 160mm × 90mm
 
-![CM3_IO_Board](/img/accessories/cm3-io-board/cm3-io-board.webp)
+![Radxa CM3 IO Board](/img/accessories/cm3-io-board/cm3-io-board-01.webp)
 
 # 外设概述
 
-- 1 x DC 12V power
-- 1 x HDMI
-- 1 x USB 3.0
-- 1 x Gigabit Ethernet
-- 2 x USB 2.0
-- 1 x USB Micro-B OTG
-- 1 x Headphone Jack
-- 2 x SATA
-- 1 x PCI Express
-- 2 x MIPI
-- 1 x TP
-- 1 x RTC
-- 1 x EDP
-- 2 x CSI
-- 1 x 4 Pin Fan Header
-- 1 x 40 Pin GPIO
-- 1 x 2 Pin Speaker
-- 1 x 2 Pin Microphone
-- 1 x 4 Pin USB 2.0
-- 1 x 2 Pin Recovery
-- 1 x 14 Pin Power key
-- 1 x 4 Pin POE Header
-- 1 x 10 Pin External USB
-- 1 x 4 Pin Power Supply Unit
-- 1 x 3 Pin Battery
+- 1 x 12V DC 电源
+- 1 x 4 Pin Fan 座子
+- 2 x MIPI DSI 接口
+- 1 x eDP 带触摸板接口
+- 1 x RTC Battery 座子
+- 1 x 40 Pin GPIO 座子
+- 1 x 4 Pin PoE 座子
+- 2 x MIPI CSI 接口
+- 1 x HDMI 接口
+- 1 x USB 3.0 接口
+- 1 x Gigabit Ethernet 接口
+- 2 x USB 2.0 接口
+- 1 x Micro USB OTG 接口
+- 1 x Headphone Jack 接口
+- 2 x SATA 接口
+- 1 x 4 Pin SATA PSU(电源供应单元)
+- 1 x PCI Express 接口
+- 1 x TF Card 卡槽(背面)
 
 # 机械规格
 
-![CM3_IO_Board](/img/accessories/cm3-io-board/cm3-io-top-specification.webp)
+![Radxa CM3 IO Board Top](/img/accessories/cm3-io-board/cm3-io-board-02.webp)
 
-![CM3_IO_Board](/img/accessories/cm3-io-board/cm3-io-bottom-specification.webp)
+![Radxa CM3 IO Board Bottom](/img/accessories/cm3-io-board/cm3-io-board-03.webp)

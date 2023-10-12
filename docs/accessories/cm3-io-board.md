@@ -1,6 +1,6 @@
 ---
 sidebar_label: "Radxa CM3 IO Board"
-sidebar_position: 5
+sidebar_position: 80
 ---
 
 # 瑞莎 CM3 接口板
@@ -30,8 +30,9 @@ sidebar_position: 5
 - 1 x Micro USB OTG 接口
 - 1 x Headphone Jack 接口
 - 2 x SATA 接口
-- 1 x 4 Pin PSU(电源供应单元) for SATA
+- 1 x 4 Pin SATA PSU(电源供应单元)
 - 1 x PCI Express 接口
+- 1 x TF Card 卡槽(背面)
 
 # 机械规格
 

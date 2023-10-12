@@ -1,6 +1,6 @@
 ---
 sidebar_label: "Radxa CM3 IO Board"
-sidebar_position: 5
+sidebar_position: 80
 ---
 
 # Radxa CM3 IO Board
@@ -25,13 +25,14 @@ Dimensions: 160mm × 90mm
 - 2 x MIPI CSI
 - 1 x HDMI
 - 1 x USB 3.0
-- 1 x Gigabit Ethernet
+- 1 x Gigabit Ethernet Port
 - 2 x USB 2.0
 - 1 x Micro USB OTG
 - 1 x Headphone Jack
 - 2 x SATA
 - 1 x 4 Pin Power Supply Unit for SATA
 - 1 x PCI Express
+- 1 x TF Card Slot(Back)
 
 # Mechanical Specification
 

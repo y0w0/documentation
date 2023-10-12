@@ -9,36 +9,21 @@ sidebar_position: 4
 
 ## Overview
 
-Radxa Display 10 FHD's Display mode is a color active matrix thin film transistor (TFT) liquid crystal display (LCD) that uses amorphous silicon TFT as a switching device.This model is composed of a TFT LCD panel and a driving circuit.This TFT LCD has a 10.1(16:10) inch diagonally measured active display area with (1200 horizontal by 1920 vertical pixel) resolution. It has the following features:
+The Radxa Display 10 FHD supports 10-point touch and has a 10.1-inch (10:16) display area with a resolution of 1200 × 1920 pixels.
+
+It has the following features:
 
 - Panel Size: 10.1 inch
-- Compatible with NTSC & PAL system
-- Image Reversion: UP/DOWN and LEFT/RIGHT
-- ROHS design
+- Compliant with RoHS design standards
 - Outline Dimension: 155(H) x 246.16(V) x 5.95(D) mm
 - Display area: 135.36(H) x 216.58 (V) mm
 - Number of Pixel: 1200RGB (H) x 1920 (V) pixels
 - Pixel pitch: 0.0564 (H) x 0.1692(V)s mm
 - Pixel arrangement: RGB Vertical stripe
-- Display mode: Normally Black
 - Color Filter Array: RGB vertical stripes
 - Backlight: White LED
 - Electrical Interface: MIPI
-- Built-in Gravity Sensor for rotation
-
-## Touch
-
-The Radxa Display 10 FHD touch panel is powered by GT9271, a new‑generation 10‑point capacitive touch solution designed for 7” to 10.1” panels.
-
-The GT9271 provides a standard I2C communication interface, facilitating communication with the main CPU through the SCL and SDA lines. Within the system, GT9271 consistently operates as a slave device, with all communication actions being initiated by the primary CPU. To ensure the stability of communication, it is advisable to configure the communication speed at 400Kbps or lower. GT9271 offers two sets of I2C slave addresses, namely **0xBA/0xBB** and **0x28/0x29**, which can be chosen as needed.
-
-## Gravity Sensor
-
-The Radxa Display 10 FHD incorporates an SC7A20 chip, which serves as a high-precision 12-bit digital three-axis accelerometer. This chip demonstrates remarkable performance in measurement capabilities, not only enhancing measurement accuracy but also embedding additional functionalities. Furthermore, its attributes of low power consumption and compact size confer distinct advantages in practical applications.
-
-Employing the I2C communication protocol, the SC7A20 establishes connections with other devices, facilitating efficient data transmission through an interrupt mechanism. This mechanism streamlines data acquisition and processing. Regarding hardware connectivity, the SC7A20 utilizes the 4th and 6th pins of the MIPI DSI 40-Pin interface to implement interrupt functionality, ensuring the effective propagation of sensor interrupt signals and delivering instantaneous event response capabilities to the system.
-
-The I2C addresses of the SC7A20 are 0x18 and 0x19, and it utilizes the 27th and 28th pins of the MIPI DSI 40-Pin interface to transmit signals.
+- Built-in Gravity Sensor
 
 ## Pinout
 
@@ -69,4 +54,4 @@ The I2C addresses of the SC7A20 are 0x18 and 0x19, and it utilizes the 27th and 
 
 ## Mechanical Specification
 
-![Radxa Display 8 HD](/img/accessories/display_10_fhd_01.webp)
+![Radxa Display 10 FHD](/img/accessories/display_10_fhd_01.webp)

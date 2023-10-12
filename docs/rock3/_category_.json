@@ -1,9 +1,4 @@
 {
   "label": "ROCK 3 系列",
-  "link": {
-    "description": "ROCK 3系列是基于RK3566、RK3568、RK3568J SoC的高性能SBC。",
-    "slug": "/rock3",
-    "type": "generated-index"
-  },
   "position": 30
 }

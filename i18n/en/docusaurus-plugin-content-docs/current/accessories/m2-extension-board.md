@@ -5,11 +5,7 @@ sidebar_position: 20
 
 # Radxa M.2 Extension Board
 
-The Radxa M.2 Extension Board is a solution for expanding the storage capacity of embedded systems.
-
-M2.E is an interface used to connect embedded devices, typically used to connect storage cards, WiFi modules, Bluetooth modules, and other devices. M2.M is an interface used to connect high-speed storage devices, typically used to connect solid-state drives, high-speed storage cards, and other devices. With this extension board, users can connect M2.M interface devices to the M2.E interface, thereby expanding the system's storage capacity and performance.
-
-Radxa M.2 Extension Board can be mounted on the top of the SBC or on the bottom of the SBC.
+Radxa M.2 Extension Boards are solutions for expanding the storage capacity of embedded systems.
 
 ![Radxa M.2 Extension Board](/img/accessories/m2-extension-1.webp)
 
@@ -24,18 +20,26 @@ Radxa M.2 Extension Board can be mounted on the top of the SBC or on the bottom 
 - 1 x Radxa M.2 Extension Board
 - 1 x Screws for fixing
 - 1 x Adapter Board
+- 1 x IPEX Cable
 
 **Note꞉ The following products require an adapter board to support Radxa M.2 Extension Board.**
 
-| Adapter Board     | Applicable products            |
-| ----------------- | ------------------------------ |
-| ROCKPI M2 to IPEX | ROCK 4A / 4B / 4A+ / 4B+ / 4SE |
-| M.2 M Key to IPEX | ROCK 3C                        |
-| M.2 E Key to IPEX | ROCK 5A                        |
+| Adapter Board     | Applicable products                 |
+| ----------------- | ----------------------------------- |
+| ROCKPI M2 to IPEX | ROCK 4A / 4B / 4A+ / 4B+ / 4SE / 3A |
+| M.2 M Key to IPEX | ROCK 3C                             |
+| M.2 E Key to IPEX | ROCK 5A                             |
 
-- **ROCK 5A M.2 Extension Board**  
-   Details refer to [Using M.2 E extension board on ROCK 5A](/rock5/rock5a/accessories-guides/m.2-extension-board)
-  ![Radxa M.2 Extension Board](/img/accessories/m2-extension-2.webp)
+- **M.2 Extension Board Kit with ROCK 5A support**
 
-- **ROCK 4A/4B/4A+/4B+/4SE M.2 Extension Board**
+Details refer to [Using M.2 E extension board on ROCK 5A](/rock5/rock5a/accessories-guides/m.2-extension-board)
+
+![Radxa M.2 Extension Board](/img/accessories/m2-extension-2.webp)
+
+- **M.2 Extension Board Kit with ROCK 4A / 4B / 4A+ / 4B+ / 4SE / 3A support**
+
+  ![Radxa M.2 Extension Board](/img/accessories/m2-extension-4.webp)
+
+- **M.2 Extension Board Kit with ROCK 3C support**
+
   ![Radxa M.2 Extension Board](/img/accessories/m2-extension-3.webp)

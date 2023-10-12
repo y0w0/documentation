@@ -1,9 +1,9 @@
 ---
-sidebar_label: "相关信息及下载"
+sidebar_label: "第三方镜像"
 sidebar_position: 30
 ---
 
-# ROCK 3系列第三方镜像
+# ROCK 3 系列第三方镜像
 
 ROCK 3系列拥有丰富的社区生态，支持的第三方镜像也在持续增加中。
 

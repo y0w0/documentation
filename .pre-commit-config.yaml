@@ -1,6 +1,6 @@
 repos:
   - repo: https://github.com/radxa-docs/pre-commit-hooks
-    rev: 6ec151211ad814f84eb781288afe8a69e8ac08ab
+    rev: 58583774a194f71c974de22d567e0f0a606d3c63
     hooks:
       - id: remove-unreferenced-image
       - id: use-webp-image
@@ -15,7 +15,7 @@ repos:
     hooks:
       - id: prettier
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.4.0
+    rev: v4.5.0
     hooks:
       - id: check-added-large-files
         args: [--maxkb=2048]

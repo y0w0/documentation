@@ -3,11 +3,11 @@ sidebar_label: "Radxa CM3 IO Board"
 sidebar_position: 80
 ---
 
-# 瑞莎 CM3 接口板
+# Radxa CM3 IO Board
 
 # 介绍
 
-瑞莎 CM3 接口板是瑞莎 CM3 的功能验证 IO 板
+Radxa CM3 IO Board 是 Radxa CM3 的功能验证底板，可用于产品评估及前期研发使用。
 
 尺寸: 160mm × 90mm
 

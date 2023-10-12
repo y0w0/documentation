@@ -7,7 +7,7 @@ sidebar_position: 80
 
 # Introduction
 
-Radxa CM3 IO Board is an IO interface board used to validate the functionality of Radxa CM3.
+Radxa CM3 IO Board is the baseboard for Radxa CM3. It is suitable for product evaluation and early stage product development.
 
 Dimensions: 160mm × 90mm
 

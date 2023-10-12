@@ -7,10 +7,11 @@ sidebar_position: 30
 
 Radxa ROCK Penta SATA HAT 是为 ROCK 系列设计的附加 HAT。 它利用 ROCK 系列上的高速 PCIe 总线，提供基于 ROCK 系列的完整 NAS 解决方案。
 
-![Radxa Penta SATA HAT](/img/accessories/penta-sata-hat-1.webp)
+![Radxa Penta SATA HAT](/img/accessories/penta-sata-hat-01.webp)
 
 目前支持的Radxa ROCK系列产品：
 
+- ROCK 3A
 - ROCK 3C
 - ROCK 4A / 4B
 - ROCK 4A+ / 4B+
@@ -32,17 +33,18 @@ Radxa ROCK Penta SATA HAT 是为 ROCK 系列设计的附加 HAT。 它利用 ROC
 ## 产品列表
 
 - Radxa ROCK Penta SATA HAT
-- eSATA 数据线
-- 固定螺丝
-- 适配板
+- 铜柱
+- 转接板
 - IPEX 电缆
 
-![Radxa Penta SATA HAT](/img/accessories/penta-sata-hat-2.webp)
+- **支持 ROCK 5A 的 Penta SATA HAT 套装**
 
-**注意꞉以下产品需要转接板才能支持Penta SATA HAT**
+  ![Radxa M.2 Extension Board](/img/accessories/penta-sata-hat-02.webp)
 
-| 适配板            | 适用产品                      |
-| ----------------- | ----------------------------- |
-| ROCKPI M2 to IPEX | ROCK 4A / 4B/ 4A+ / 4B+ / 4SE |
-| M.2 M Key to IPEX | ROCK3C                        |
-| M.2 E Key to IPEX | ROCK5A                        |
+- **支持 ROCK 3A / 4A / 4B / 4A+ / 4B+ / 4SE 的 Penta SATA HAT 套装**
+
+  ![Radxa M.2 Extension Board](/img/accessories/penta-sata-hat-03.webp)
+
+- **支持 ROCK 3C 的 Penta SATA HAT 套装**
+
+  ![Radxa M.2 Extension Board](/img/accessories/penta-sata-hat-04.webp)

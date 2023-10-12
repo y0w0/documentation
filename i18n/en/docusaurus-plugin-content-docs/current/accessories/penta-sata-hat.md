@@ -7,15 +7,16 @@ sidebar_position: 30
 
 Radxa ROCK Penta SATA HAT is an addon HAT designed for ROCK Series. It utilizes the high speed PCIe buses on ROCK Series and provides a complete NAS solution based on ROCK Series.
 
-![Radxa Penta SATA HAT](/img/accessories/penta-sata-hat-1.webp)
+![Radxa Penta SATA HAT](/img/accessories/penta-sata-hat-01.webp)
 
 Currently supported Radxa ROCK Series products:
 
-- ROCK3C
-- ROCK4A/4B
-- ROCK4A+/4B+
-- ROCK4SE
-- ROCK5A
+- ROCK 3A
+- ROCK 3C
+- ROCK 4A / 4B
+- ROCK 4A+ / 4B+
+- ROCK 4SE
+- ROCK 5A
 
 ## Feature
 
@@ -32,17 +33,18 @@ Currently supported Radxa ROCK Series products:
 ## Package List
 
 - Radxa ROCK Penta SATA HAT
-- eSATA Cable
-- Screws for fixing
+- Copper Pillar for fixing
 - Adapter Board
 - IPEX Cable
 
-![Radxa Penta SATA HAT](/img/accessories/penta-sata-hat-2.webp)
+- **Penta SATA HAT Kit with ROCK 5A support**
 
-**Note꞉ The following products require an adapter board to support Penta SATA HAT**
+  ![Radxa M.2 Extension Board](/img/accessories/penta-sata-hat-02.webp)
 
-| Adapter board     | Applicable products           |
-| ----------------- | ----------------------------- |
-| ROCKPI M2 to IPEX | ROCK 4A / 4B/ 4A+ / 4B+ / 4SE |
-| M.2 M Key to IPEX | ROCK3C                        |
-| M.2 E Key to IPEX | ROCK5A                        |
+- **Penta SATA HAT with ROCK 3A / 4A / 4B / 4A+ / 4B+ / 4SE support**
+
+  ![Radxa M.2 Extension Board](/img/accessories/penta-sata-hat-03.webp)
+
+- **Penta SATA HAT with ROCK 3C support**
+
+  ![Radxa M.2 Extension Board](/img/accessories/penta-sata-hat-04.webp)

@@ -9,11 +9,11 @@ sidebar_position: 2
 
 ### ROCK 3 Family
 
-| Model                            | Description                       |
-| -------------------------------- | --------------------------------- |
-| [ROCK 3A](/rock3/rock3a/) (2022) | RK3568 and Credit-Card Size SBC   |
-| ROCK 3B (2023)                   | RK3568(J) with Multiple Interface |
-| [ROCK 3C](/rock3/rock3c/) (2022) | RK3566 and Credit-Card Size SBC   |
+| Model                      | Description                       |
+| -------------------------- | --------------------------------- |
+| [ROCK 3A](/rock3a/) (2022) | RK3568 and Credit-Card Size SBC   |
+| ROCK 3B (2023)             | RK3568(J) with Multiple Interface |
+| [ROCK 3C](/rock3c/) (2022) | RK3566 and Credit-Card Size SBC   |
 
 ### ROCK 4 Family
 

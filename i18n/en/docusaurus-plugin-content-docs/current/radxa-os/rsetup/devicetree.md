@@ -21,7 +21,7 @@ run `rsetup` command as below:
 rsetup
 ```
 
-After typing the password, you can see the [rsetup tool interface](rsetup-tool).  
+After typing the password, you can see the [rsetup tool interface](../rsetup).  
 Select `Overlays`:
 
 ```

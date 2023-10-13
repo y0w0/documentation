@@ -5,7 +5,7 @@ sidebar_position: 10
 
 # LED设置
 
-一些产品会有用户可控制的板载LED。它们可以通过[`rsetup`](rsetup-tool#gpio-leds)管理：
+一些产品会有用户可控制的板载LED。它们可以通过[`rsetup`](../rsetup#gpio-leds)管理：
 
 ```
 ┌──────────────────────────────────┤ RSETUP ├──────────────────────────────────┐

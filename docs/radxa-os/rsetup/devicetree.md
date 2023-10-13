@@ -21,7 +21,7 @@ sidebar_position: 10
 rsetup
 ```
 
-在要求输入密码后， 你可以看到[rsetup工具界面](rsetup-tool)。  
+在要求输入密码后， 你可以看到[rsetup工具界面](../rsetup)。  
 选择 `Overlays`:
 
 ```

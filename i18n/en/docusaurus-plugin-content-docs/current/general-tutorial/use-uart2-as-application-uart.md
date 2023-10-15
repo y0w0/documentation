@@ -13,11 +13,11 @@ By default, the UART2_M0 interface is a FIQ debugging serial port, which can out
 
 - A Radxa single board computer or computing module running an official Radxa distribution system
 
-## Start rsetup and enter the device tree management interface
+## Start rsetup and enter the Manage overlays interface
 
 ```bash
 sudo rsetup
-# After entering rsetup, follow these options to enter the device tree management interface
+# After entering rsetup, follow these options to enter the Manage overlays interface
 # Overlays -> Manage overlays
 ```
 

@@ -27,6 +27,10 @@ sudo vim /boot/user_led3.dts
 
 ### 以下为文件内容：
 
+:::info
+可使用的触发器有：none rc-feedback rfkill-any rfkill-none kbd-scrolllock kbd-numlock kbd-capslock kbd-kanalock kbd-shiftlock kbd-altgrlock kbd-ctrllock kbd-altlock kbd-shiftllock kbd-shiftrlock kbd-ctrlllock kbd-ctrlrlock tcpm-source-psy-4-0022-online disk-activity disk-read disk-write ide-disk mtd nand-disk cpu cpu0 cpu1 cpu2 cpu3 cpu4 cpu5 cpu6 cpu7 panic mmc2 mmc1 mmc0 default-on heartbeat pattern timer rfkill1 phy0rx phy0tx phy0assoc phy0radio rfkill2 rfkill3
+:::
+
 ```
 /dts-v1/;
 /plugin/;
@@ -37,7 +41,7 @@ sudo vim /boot/user_led3.dts
 / {
     fragment@0 {
         target-path = "/gpio-leds";                                     #要修改的主 dts 节点
-        __overlay__ {                                                   #再次花括号内添加或修改内容
+        __overlay__ {                                                   #再此花括号内添加或修改内容
             user-led3 {                                                 #添加 user-led3 节点
                 gpios = <&gpio3 RK_PC1 GPIO_ACTIVE_HIGH>;               #将 GPIO3_C1 注册为 user-led3 的使能引脚，默认使能为电平拉高。
                             linux,default-trigger = "disk-activity";    #设置默认触发器为 disk-activity

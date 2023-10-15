@@ -59,7 +59,7 @@ sudo rsetup
 
 ## 选择 user_led3.dts
 
-![enable-user_led3](/img/general-tutorial/enable-user_led3.png)
+![enable-user_led3](/img/general-tutorial/enable-user-led3.webp)
 
 ## 重启
 

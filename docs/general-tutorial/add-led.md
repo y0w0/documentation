@@ -22,7 +22,7 @@ GPIO3_C1(PIN11)(3.3V) <----> 电阻 (根据 LED 的数据手册选择大小) <--
 ## 编写设备树覆写文件（DTBO）
 
 ```bash
-sudo vim /boot/user_led3.dts
+nano ~/user_led3.dts
 ```
 
 ### 以下为文件内容：
@@ -55,7 +55,7 @@ sudo vim /boot/user_led3.dts
 ## 进入 rsetup，并加载设备树覆写文件（DTBO）
 
 ```bash
-sudo rsetup
+rsetup
 
 # 按照一下选项进入加载设备树覆写文件（DTBO）界面
 # Overlays -> Install 3rd party overlay

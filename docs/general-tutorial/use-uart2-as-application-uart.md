@@ -32,11 +32,9 @@ sudo rsetup
 ## 修改 Linux 启动参数
 
 ```bash
-# 此处的 nano 可以替换为你熟悉的文本编辑器，如：vim。
-sudo nano /etc/kernel/cmdline && sudo u-boot-update
-
-# 删除所有以 console 开头的参数，如 "console=ttyFIQ0,1500000n8"
-
+sudo nano /etc/kernel/cmdline
+# 删除所有 ttyFIQ0 和 ttyS2 相关的 console 参数，如 "console=ttyFIQ0,1500000n8"
+sudo u-boot-update
 ```
 
 ## 重启

@@ -40,12 +40,14 @@ nano ~/user_led3.dts
 
 / {
     fragment@0 {
-        target-path = "/gpio-leds";                                     #要修改的主 dts 节点
-        __overlay__ {                                                   #再此花括号内添加或修改内容
-            user-led3 {                                                 #添加 user-led3 节点
-                gpios = <&gpio3 RK_PC1 GPIO_ACTIVE_HIGH>;               #将 GPIO3_C1 注册为 user-led3 的使能引脚，默认使能为电平拉高。
-                            linux,default-trigger = "disk-activity";    #设置默认触发器为 disk-activity
-                            default-state = "on";                       #默认使能
+        target-path = "/";                                      /* 要修改的主 dts 节点 */
+        __overlay__ {                                           /* 再此花括号内添加或修改内容 */
+            gpio-leds{                                          /* 添加 gpio-leds 节点 */
+                user-led3 {                                     /* 添加 user-led3 节点 */
+                    gpios = <&gpio3 RK_PC1 GPIO_ACTIVE_HIGH>;   /* 将 GPIO3_C1 注册为 user-led3 的使能引脚，默认使能为电平拉高。 */
+                    linux,default-trigger = "mmc1";             /* 设置默认触发器为 mmc1(SD Card) */
+                    default-state = "on";                       /* 默认使能 */
+                };
             };
         };
     };

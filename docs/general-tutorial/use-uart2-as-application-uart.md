@@ -16,10 +16,10 @@ sidebar_position: 10
 ## 启动 rsetup，并进入设备树管理界面
 
 ```bash
-sudo rsetup
-# 进入 rsetup 后，跟随以下选项进入设备树管理界面
-# Overlays -> Manage overlays
+rsetup
 ```
+
+## 进入 rsetup 后，跟随[设备树设置](/radxa-os/rsetup/devicetree)进入设备树管理界面
 
 ## 配置 UART2_M0 为普通串口
 

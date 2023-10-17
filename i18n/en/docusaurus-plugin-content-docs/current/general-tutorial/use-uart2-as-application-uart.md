@@ -16,10 +16,10 @@ By default, the UART2_M0 interface is a FIQ debugging serial port, which can out
 ## Start rsetup and enter the Manage overlays interface
 
 ```bash
-sudo rsetup
-# After entering rsetup, follow these options to enter the Manage overlays interface
-# Overlays -> Manage overlays
+rsetup
 ```
+
+## After entering rsetup, follow [Device Tree Configuration](/radxa-os/rsetup/devicetree) to enter the Manage overlays interface
 
 ## Configure UART2_M0 as a normal serial port.
 
@@ -32,11 +32,9 @@ sudo rsetup
 ## Modify Linux boot parameters
 
 ```bash
-## The nano here can be replaced with a familiar text editor such as vim.
-sudo nano /etc/kernel/cmdline && sudo u-boot-update
-
-# Remove all parameters starting with console, like "console=ttyFIQ0,1500000n8"
-
+sudo nano /etc/kernel/cmdline
+# Remove all ttyFIQ0 and ttyS2 related console parameters, e.g. "console=ttyFIQ0,1500000n8"
+sudo u-boot-update
 ```
 
 ## Reboot

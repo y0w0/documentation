@@ -22,7 +22,7 @@ GPIO3_C1(PIN11)(3.3V) <----> Resistor (select size according to LED datasheet) <
 ## Edit device tree overlay file (DTBO)
 
 ```bash
-sudo vim /boot/user_led3.dts
+nano ~/user_led3.dts
 ```
 
 ### The following is the content of the device tree overlay file (DTBO):
@@ -40,12 +40,14 @@ The triggers that can be used: none rc-feedback rfkill-any rfkill-none kbd-scrol
 
 / {
     fragment@0 {
-        target-path = "/gpio-leds";                                     # Base dts node to be modified
-        __overlay__ {                                                   # Write additions or modifications in these brackets again
-            user-led3 {                                                 # Add user-led3 node
-                gpios = <&gpio3 RK_PC1 GPIO_ACTIVE_HIGH>;               # Register GPIO3_C1 as the enable pin of user-led3, the default enable is level-pull-high.
-                            linux,default-trigger = "disk-activity";    # Set the default trigger to disk-activity
-                            default-state = "on";                       # Default Enable
+        target-path = "/";                                      /* Primary dts node to be modified */
+        __overlay__ {                                           /* Add or modify the contents of these brackets */
+            gpio-leds{                                          /* Add gpio-leds node */
+                user-led3 {                                     /* Add user-led3 node */
+                    gpios = <&gpio3 RK_PC1 GPIO_ACTIVE_HIGH>;   /* Register GPIO3_C1 as the enable pin of user-led3, the enable is level-pull-high by default . */
+                    linux,default-trigger = "mmc1";             /* Set default trigger to mmc1(SD Card) */
+                    default-state = "on";                       /* Enabled by default */
+                };
             };
         };
     };
@@ -55,7 +57,7 @@ The triggers that can be used: none rc-feedback rfkill-any rfkill-none kbd-scrol
 ## Enter rsetup and load the device tree overlay file (DTBO)
 
 ```bash
-sudo rsetup
+rsetup
 
 # Follow these options to access the Install 3rd party overlay interface
 # Overlays -> Install 3rd party overlay

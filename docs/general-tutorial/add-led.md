@@ -59,7 +59,7 @@ nano ~/user_led3.dts
 ```bash
 rsetup
 
-# 按照一下选项进入加载设备树覆写文件（DTBO）界面
+# 按照以下选项进入加载设备树覆写文件（DTBO）界面
 # Overlays -> Install 3rd party overlay
 ```
 

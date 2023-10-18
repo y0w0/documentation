@@ -1,8 +1,8 @@
 {
   "label": "ROCK 3A",
   "link": {
-    "description": "ROCK 3A是一款低成本，高性能的单板计算机 (SBC)。",
-    "slug": "/rock3/rock3a",
+    "description": "ROCK 3A 是一款低成本，高性能的单板计算机 (SBC)。",
+    "slug": "/rock3a",
     "type": "generated-index"
   },
   "position": 30

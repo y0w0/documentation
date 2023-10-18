@@ -2,7 +2,7 @@
   "label": "硬件信息",
   "link": {
     "description": "硬件资料查询下载。",
-    "slug": "/rock3c/hardware",
+    "slug": "/rock3/rock3c/hardware",
     "type": "generated-index"
   },
   "position": 50

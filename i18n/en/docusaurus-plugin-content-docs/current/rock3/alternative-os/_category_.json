@@ -1,0 +1,9 @@
+{
+  "label": "Alternative OS",
+  "link": {
+    "description": "Many other OSes already supports ROCK 3 family",
+    "slug": "/rock3/alt-os",
+    "type": "generated-index"
+  },
+  "position": 40
+}

@@ -42,11 +42,12 @@ The triggers that can be used: none rc-feedback rfkill-any rfkill-none kbd-scrol
     fragment@0 {
         target-path = "/";                                      /* Primary dts node to be modified */
         __overlay__ {                                           /* Add or modify the contents of these brackets */
-            gpio-leds{                                          /* Add gpio-leds node */
-                user-led3 {                                     /* Add user-led3 node */
-                    gpios = <&gpio3 RK_PC1 GPIO_ACTIVE_HIGH>;   /* Register GPIO3_C1 as the enable pin of user-led3, the enable is level-pull-high by default . */
+            custom-leds{                                        /* Add custom-leds node */
+                compatible = "gpio-leds";
+                status = "okay";
+                microsd-led {                                   /* Add icrosd-led node */
+                    gpios = <&gpio3 RK_PC1 GPIO_ACTIVE_HIGH>;   /* Register GPIO3_C1 as the enable pin of microsd-led, the enable is level-pull-high by default. */
                     linux,default-trigger = "mmc1";             /* Set default trigger to mmc1(SD Card) */
-                    default-state = "on";                       /* Enabled by default */
                 };
             };
         };

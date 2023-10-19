@@ -1,5 +1,5 @@
 ---
-sidebar_label: "使用手册"
+sidebar_label: "使用教程"
 sidebar_position: 3
 ---
 

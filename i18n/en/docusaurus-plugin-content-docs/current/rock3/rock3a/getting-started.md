@@ -1,5 +1,5 @@
 ---
-sidebar_label: "User Manual"
+sidebar_label: "Getting Started"
 sidebar_position: 3
 ---
 

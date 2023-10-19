@@ -1,5 +1,5 @@
 ---
-sidebar_label: "开始使用"
+sidebar_label: "使用教程"
 sidebar_position: 3
 ---
 

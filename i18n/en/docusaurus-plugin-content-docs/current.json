@@ -113,9 +113,6 @@
   "sidebar.tutorialSidebar.category.备选操作系统.link.generated-index.description": {
     "message": "Introduction of other supported operating systems."
   },
-  "sidebar.tutorialSidebar.category.安卓操作系统": {
-    "message": "Android"
-  },
   "sidebar.tutorialSidebar.category.定频认证指导": {
     "message": "Radiofrequency Compliance Guidance"
   },

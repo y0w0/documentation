@@ -50,11 +50,15 @@ Additional information:
 [Radxa Android Manifests](https://github.com/radxa/manifests)  
 [Android 12 Installation Guide](https://wiki.radxa.com/Rock5/guide/android12)
 
+<!--
+
 #### Ubuntu Server
 
-[Ubuntu Server Download](https://github.com/radxa-build/rock-5a/releases)  
-[Ubuntu Installation Guide](https://wiki.radxa.com/Rock5/linux/ubuntu)  
+[Ubuntu Server Download](https://github.com/radxa-build/rock-5a/releases)
+[Ubuntu Installation Guide](https://wiki.radxa.com/Rock5/linux/ubuntu)
 [Github Change log](https://github.com/radxa/debos-radxa/releases/latest)
+
+-->
 
 </TabItem>
 <TabItem value="ROCK 5B" label="ROCK 5B">
@@ -83,11 +87,15 @@ Additional information:
 [Radxa Android Manifests](https://github.com/radxa/manifests)  
 [Android 12 Installation Guide](https://wiki.radxa.com/Rock5/guide/android12)
 
+<!--
+
 #### Ubuntu Server
 
-[Ubuntu Server Download](https://github.com/radxa-build/rock-5b/releases)  
-[Ubuntu Installation Guide](https://wiki.radxa.com/Rock5/linux/ubuntu)  
+[Ubuntu Server Download](https://github.com/radxa-build/rock-5b/releases)
+[Ubuntu Installation Guide](https://wiki.radxa.com/Rock5/linux/ubuntu)
 [Github Change log](https://github.com/radxa/debos-radxa/releases/latest)
+
+-->
 
 </TabItem>
 </Tabs>

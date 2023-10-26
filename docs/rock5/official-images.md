@@ -50,11 +50,15 @@ ROCK 5A 目前已适配安卓 12，你可以从以下链接中下载镜像：
 [瑞莎安卓 Manifests](https://github.com/radxa/manifests)  
 [安卓 12 安装指导](https://wiki.radxa.com/Rock5/guide/android12)
 
+<!--
+
 #### Ubuntu 服务端
 
-[Ubuntu 服务端镜像下载页面](https://github.com/radxa-build/rock-5a/releases)  
-[Ubuntu 安装教程](https://wiki.radxa.com/Rock5/linux/ubuntu)  
+[Ubuntu 服务端镜像下载页面](https://github.com/radxa-build/rock-5a/releases)
+[Ubuntu 安装教程](https://wiki.radxa.com/Rock5/linux/ubuntu)
 [Github 更改日志](https://github.com/radxa/debos-radxa/releases/latest)
+
+-->
 
 </TabItem>
 <TabItem value="ROCK 5B" label="ROCK 5B">
@@ -83,11 +87,15 @@ ROCK 5B 的官方发布通告请在以下链接查看(仅英文版)：
 [瑞莎安卓 Manifests](https://github.com/radxa/manifests)  
 [安卓 12 安装指导](https://wiki.radxa.com/Rock5/guide/android12)
 
+<!--
+
 #### Ubuntu 服务器
 
-[Ubuntu 服务器镜像下载页面](https://github.com/radxa-build/rock-5b/releases)  
-[Ubuntu 安装教程](https://wiki.radxa.com/Rock5/linux/ubuntu)  
+[Ubuntu 服务器镜像下载页面](https://github.com/radxa-build/rock-5b/releases)
+[Ubuntu 安装教程](https://wiki.radxa.com/Rock5/linux/ubuntu)
 [Github 更改日志](https://github.com/radxa/debos-radxa/releases/latest)
+
+-->
 
 </TabItem>
 </Tabs>

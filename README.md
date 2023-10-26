@@ -18,6 +18,14 @@ yarn start & DOCUSAURUS_GENERATED_FILES_DIR_NAME=.docusaurus/en yarn start --loc
 kill %1
 ```
 
+## Set up pre-commit
+
+```bash
+pip3 install pre-commit
+pre-commit install
+pre-commit run --all-files
+```
+
 ## Upgrade dependencies to the latest release
 
 ```bash

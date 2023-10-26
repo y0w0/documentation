@@ -92,7 +92,7 @@ Radxa 25W PoE 的包装清单如下：
 最后，重启设备以加载 Overlay。
 
 :::info
-如果您无法在`rsetup`中找到对应的 Overlay，请参考 [System Update Guide](/radxa-os/rsetup/rsetup-tool#system-update) 首先进行系统更新，然后再执行以上操作。
+如果您无法在`rsetup`中找到对应的 Overlay，请参考 [System Update Guide](/radxa-os/rsetup#system-update) 首先进行系统更新，然后再执行以上操作。
 :::
 
 5. 检查温度传感器读数

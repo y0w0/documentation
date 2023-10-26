@@ -273,7 +273,7 @@ deb http://apt.radxa.com/bullseye-testing/ bullseye main
 sudo apt-get update
 ```
 
-更多细节请查看[Radxa APT](/general-tutorial/apt.md)
+更多细节请查看[Radxa APT](/radxa-os/maintenance/apt-repo.md)
 
 3. /boot/config.txt
    /boot/config.txt是为内核参数和硬件配置设计的。请注意，在改变/boot/config.txt文件后，要执行 "update_extlinux.sh"。

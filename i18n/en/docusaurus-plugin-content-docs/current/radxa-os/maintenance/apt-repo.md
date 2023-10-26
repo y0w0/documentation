@@ -54,7 +54,7 @@ If you need to use software from this repository, Radxa recommends using the des
 
 :::warning
 Enabling the RadxaOS Vendor repository on non-desktop variants of RadxaOS is unsupported, so please use with caution.
-::::
+:::
 
 Please run the following command to add the RadxaOS Vendor repository:
 

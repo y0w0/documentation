@@ -1,9 +1,8 @@
 {
   "label": "安卓操作系统",
   "link": {
-    "description": "安卓使用手册",
     "slug": "/android",
     "type": "generated-index"
   },
-  "position": 20
+  "position": 12
 }

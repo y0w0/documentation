@@ -5,7 +5,7 @@ sidebar_position: 10
 
 # LED Setup
 
-Some products will have user-controllable LEDs on-board. They can be managed via [`rsetup`](rsetup-tool#gpio-leds):
+Some products will have user-controllable LEDs on-board. They can be managed via [`rsetup`](../rsetup#gpio-leds):
 
 ```
 ┌──────────────────────────────────┤ RSETUP ├──────────────────────────────────┐

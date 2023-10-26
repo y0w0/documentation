@@ -198,7 +198,7 @@ Please check [LED guide](/radxa-os/rsetup/led).
 
 ## Fan (24)
 
-You can check [rsetup-thermal-governor](/radxa-os/rsetup/rsetup-tool#thermal-governor) to set up the fan.
+You can check [rsetup-thermal-governor](/radxa-os/rsetup#thermal-governor) to set up the fan.
 Definition table (From top to bottom in the picture):
 
 | Pin# | Name  |

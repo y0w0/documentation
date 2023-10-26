@@ -1,9 +1,8 @@
 {
   "label": "Android",
   "link": {
-    "description": "Android",
     "slug": "/android",
     "type": "generated-index"
   },
-  "position": 20
+  "position": 12
 }

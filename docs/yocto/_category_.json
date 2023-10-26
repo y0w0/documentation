@@ -1,0 +1,9 @@
+{
+  "label": "Yocto 操作系统",
+  "link": {
+    "description": "Yocto 使用手册",
+    "slug": "/yocto",
+    "type": "generated-index"
+  },
+  "position": 20
+}

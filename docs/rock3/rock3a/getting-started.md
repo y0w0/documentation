@@ -68,7 +68,7 @@ ROCK 3A 的 OTG 接口位于处于上方的 USB 3.0 接口，可通过 USB-A 转
 
 ### 系统安装
 
-1. 选择您要使用的[官方镜像](/rock3/official-images)并下载。
+1. 选择您要使用的[官方镜像](/rock3/images)并下载。
 
 2. 参考[操作系统安装指南](/general-tutorial/os-installation)将镜像刷写到存储介质中。
 

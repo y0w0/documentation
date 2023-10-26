@@ -1,7 +1,7 @@
 {
-  "label": "安卓操作系统",
+  "label": "Android",
   "link": {
-    "description": "安卓使用手册",
+    "description": "Android",
     "slug": "/android",
     "type": "generated-index"
   },

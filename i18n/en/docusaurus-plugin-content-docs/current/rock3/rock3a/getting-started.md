@@ -68,7 +68,7 @@ The following are the steps for the ROCK 3A to enter Maskrom mode:
 
 ### System Installation
 
-1. Select the [Official Image](/rock3/official-images) you want to use and download it. 2.
+1. Select the [Official Image](/rock3/images) you want to use and download it. 2.
 
 2. Refer to the [Operating System Installation Guide](/general-tutorial/os-installation) to overwrite the image to the storage media.
 

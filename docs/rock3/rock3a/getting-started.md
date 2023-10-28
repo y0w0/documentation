@@ -86,7 +86,7 @@ ROCK 3A 的 OTG 接口位于处于上方的 USB 3.0 接口，可通过 USB-A 转
 
 [GPIO 编号介绍](/general-tutorial/gpio-num)
 
-### Download
+### 下载
 
 [v1.3 schematic pdf](https://dl.radxa.com/rock3/docs/hw/3a/ROCK-3A-V1.3-SCH.pdf) - ROCK 3A 原理图下载
 

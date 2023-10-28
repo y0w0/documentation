@@ -82,7 +82,7 @@ If you already know the product well enough, you can also use the wire-flush met
 
 ### GPIO
 
-[GPIO Definition](https://docs.radxa.com/en/rock3/rock3a/hardware/rock3a-gpio)
+[GPIO Definition](/rock3/rock3a/hardware/rock3a-gpio)
 
 [GPIO Number](/general-tutorial/gpio-num)
 

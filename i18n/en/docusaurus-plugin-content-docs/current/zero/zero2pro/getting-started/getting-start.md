@@ -47,7 +47,7 @@ We will cover as much information as possible.
 
 ## System Installation
 
-First, select the [official image](/zero/official-images) you want to use and download it.
+First, select the [official image](/zero/images) you want to use and download it.
 
 Then, refer to the [OS Installation Guide](/general-tutorial/os-installation) to flash the image to the microSD card.
 

@@ -26,4 +26,5 @@ Radxa ZERO 2 PRO: [Build 32](https://github.com/radxa-build/radxa-zero-2pro/rele
 
 即将推出。
 
+</TabItem>
 </Tabs>

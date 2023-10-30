@@ -46,7 +46,7 @@ import TabItem from '@theme/TabItem';
 
 ## 系统安装
 
-首先，选择您要使用的[官方镜像](/zero/official-images)并下载。
+首先，选择您要使用的[官方镜像](/zero/images)并下载。
 
 然后，参考[操作系统安装指南](/general-tutorial/os-installation)将镜像刷写到 microSD 卡中。
 

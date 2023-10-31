@@ -1,0 +1,9 @@
+{
+  "label": "Hardware",
+  "link": {
+    "description": "Hardware Information about ROCK 3B",
+    "slug": "/rock3/rock3B/hardware",
+    "type": "generated-index"
+  },
+  "position": 30
+}

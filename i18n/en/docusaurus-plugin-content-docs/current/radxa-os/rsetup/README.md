@@ -153,7 +153,7 @@ If you have connect a video device, this option can help you to capture an image
 ### GPIO LEDs
 
 On this option, you can change the status of power LED and user LED on the board (Sometimes only one).  
-For the details, please refer to the [LED Setup](rsetup/led).
+For the details, please refer to the [LED Setup](/radxa-os/rsetup/led).
 
 ### Thermal governor
 
@@ -167,11 +167,11 @@ If DSI display has some problems when using HDMI display and DSI display at the 
 
 ## Overlays
 
-This option is for Configure Device Tree Overlay, please check [Device Tree Configuration](rsetup/devicetree) for more informations.
+This option is for Configure Device Tree Overlay, please check [Device Tree Configuration](/radxa-os/rsetup/devicetree) for more informations.
 
 ## Connectivity
 
-This option is normally similar to [Network Setting](network).
+This option is normally similar to [Network Setting](/radxa-os/config/network.md).
 
 ## User Settings
 

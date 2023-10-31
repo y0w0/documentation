@@ -35,7 +35,7 @@ sudo systemctl status radxa-usbnet.service
 ## OTG设置
 
 首先，用USB-A转USB-A数据线连接两个SBC的OTG端口。
-共享网络里的设备性质由你所启用的[overlay](rsetup/devicetree)决定，主机的设备名称为host。
+共享网络里的设备性质由你所启用的[overlay](/radxa-os/rsetup/devicetree)决定，主机的设备名称为host。
 主机启用此项overlay：
 
 ```
@@ -75,7 +75,7 @@ radxa@rock-5a:~$ ip a
 
 如果没有新的网卡，你可能需要再次设置overlay或重启。
 
-网络管理器工具(Network Manager Tool)是推荐的管网络理工具，输入命令即可打开界面：
+网络管理器工具(/radxa-os/config/network.md Manager Tool)是推荐的管网络理工具，输入命令即可打开界面：
 
 ```
 radxa@rock-5a:~$ sudo nmtui

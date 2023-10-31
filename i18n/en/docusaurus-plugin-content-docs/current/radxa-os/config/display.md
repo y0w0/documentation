@@ -76,7 +76,7 @@ Single Screen:
 
 Some of Radxa products support MIPI displays connected via ribbon cable. However, they are not enabled by default.
 
-You can get the supported mipi screen model from the [overlay menu](rsetup/devicetree#how-to-enable-an-overlay).
+You can get the supported mipi screen model from the [overlay menu](/radxa-os/rsetup/devicetree#how-to-enable-an-overlay).
 
 Before using the mipi screen, you need to enable the corresponding overlay and reboot.
 

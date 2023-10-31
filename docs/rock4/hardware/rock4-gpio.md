@@ -68,4 +68,4 @@ ROCK 4 系列有一个 40 引脚的扩展针座。每个引脚用颜色区分。
 
 ## GPIO 编号
 
-如果你需要获取 GPIO 编号，请参阅 [GPIO 编号介绍](/general-tutorial/gpio-num)。
+如果你需要获取 GPIO 编号，请参阅 [GPIO 编号介绍](/radxa-os/development/gpio-num.md)。

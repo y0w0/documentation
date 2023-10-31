@@ -76,7 +76,7 @@ Single Screen:
 
 Radxa的一些产品支持通过带状线缆连接的MIPI显示器。但是它们在默认情况下是被禁用的。
 
-你可以从[overlay 菜单](rsetup/devicetree#how-to-enable-an-overlay)获得支持的mipi屏幕型号。
+你可以从[overlay 菜单](/radxa-os/rsetup/devicetree#how-to-enable-an-overlay)获得支持的mipi屏幕型号。
 
 在使用mipi屏幕之前，你需要启用相应的overlay并重启。
 

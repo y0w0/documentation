@@ -42,7 +42,7 @@ We will cover as much information about the board as possible.
 
 ## System Installation
 
-First, select the [Official Image](/rock3/official-images) you want to use and download it.
+First, select the [Official Image](/rock3/images) you want to use and download it.
 
 Then, refer to the [Operating System Installation Guide](/general-tutorial/os-installation) to swipe the image to the storage media.
 

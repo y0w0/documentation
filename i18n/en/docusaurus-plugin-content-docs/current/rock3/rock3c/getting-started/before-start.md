@@ -59,7 +59,7 @@ We will introduce the board information as much as possible.
 
 ## OS Installation
 
-First, choose the [official image](/rock3/official-images) that you want to flash and download it.
+First, choose the [official image](/rock3/images) that you want to flash and download it.
 
 Then, flash the image to the storage media by refering the [OS Installation guide](/general-tutorial/os-installation).
 

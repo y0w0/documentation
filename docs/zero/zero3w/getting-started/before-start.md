@@ -42,7 +42,7 @@ sidebar_position: 5
 
 ## 系统安装
 
-首先，选择您要使用的[官方镜像](/rock3/official-images)并下载。
+首先，选择您要使用的[官方镜像](/rock3/images)并下载。
 
 然后，参考[操作系统安装指南](/general-tutorial/os-installation)将镜像刷写到存储介质中。
 

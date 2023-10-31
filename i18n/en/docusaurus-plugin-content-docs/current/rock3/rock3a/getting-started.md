@@ -84,7 +84,7 @@ If you already know the product well enough, you can also use the wire-flush met
 
 [GPIO Definition](/rock3/rock3a/hardware/rock3a-gpio)
 
-[GPIO Number](/general-tutorial/gpio-num)
+[GPIO Number](/radxa-os/development/gpio-num.md)
 
 ### Hardware Docs Download
 

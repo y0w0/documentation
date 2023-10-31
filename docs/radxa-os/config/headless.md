@@ -11,12 +11,12 @@ sidebar_position: 10
 
 ## 以太网
 
-网络设置可以参考这个指南： [网络指南](network)。
+网络设置可以参考这个指南： [网络指南](/radxa-os/config/network.md)。
 通过有线连接将SBC连接到与你的计算机**相同的网络**。
 
 ## 无线网
 
-The [wireless guide](network) may be helpful.
+The [wireless guide](/radxa-os/config/network.md) may be helpful.
 
 _注意：有些产品需要安装WiFi模块来连接到无线网络。更多细节，请在[产品介绍](https://radxa.com/product)上查看产品参数_。
 

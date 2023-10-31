@@ -153,7 +153,7 @@ sidebar_position: 0
 ### GPIO LEDs选项
 
 在这个选项上，你可以改变板子上的电源LED和用户LED的状态（有时只有一个）。
-详细情况请参考[LED设置](rsetup/led)。
+详细情况请参考[LED设置](/radxa-os/rsetup/led)。
 
 ### Thermal governor选项
 
@@ -167,11 +167,11 @@ sidebar_position: 0
 
 ## Overlays选项
 
-该选项用于配置设备树Overlays，请查看[设备树配置](rsetup/devicetree)获取更多信息。
+该选项用于配置设备树Overlays，请查看[设备树配置](/radxa-os/rsetup/devicetree)获取更多信息。
 
 ## Connectivity选项
 
-该选项与[网络设置](network)类似。
+该选项与[网络设置](/radxa-os/config/network.md)类似。
 
 ## User Settings选项
 

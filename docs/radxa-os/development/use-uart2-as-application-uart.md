@@ -23,12 +23,12 @@ rsetup
 
 ## 配置 UART2_M0 为普通串口
 
-### 勾选 `Enable UART2-M0`
+勾选 `Enable UART2-M0`
 
 ![Enable UART2-M0](/img/general-tutorial/EnableUART2-M0.webp)
 
-### 勾选后选择 OK ，然后退出 rsetup
+勾选后选择 OK ，然后退出 rsetup
 
 ## 修改 Linux 启动参数
 
-### 跟随[修改 Linux 启动参数](/radxa-os/config/cmdline)的操作，在进行 `sudo nano /etc/kernel/cmdline` 操作时，删除所有 ttyFIQ0 和 ttyS2 相关的 console 参数，如 "console=ttyFIQ0,1500000n8"
+跟随[修改 Linux 启动参数](/radxa-os/config/cmdline)的操作，在进行 `sudo nano /etc/kernel/cmdline` 操作时，删除所有 ttyFIQ0 和 ttyS2 相关的 console 参数，如 "console=ttyFIQ0,1500000n8"

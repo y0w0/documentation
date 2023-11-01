@@ -1,11 +1,6 @@
----
-sidebar_label: "LED Setup"
-sidebar_position: 10
----
-
 # LED Setup
 
-Some products will have user-controllable LEDs on-board. They can be managed via [`rsetup`](../rsetup#gpio-leds):
+Some products will have user-controllable LEDs on-board. They can be managed via [`rsetup`](/radxa-os/rsetup#gpio-leds):
 
 ```
 ┌──────────────────────────────────┤ RSETUP ├──────────────────────────────────┐
@@ -14,20 +9,6 @@ Some products will have user-controllable LEDs on-board. They can be managed via
 |                                                                              |
 |    [ ] user-led1 [default-on]                                                |
 |    [ ] user-led2 [heartbeat]                                                 |
-|                                                                              |
-|                                                                              |
-|                                                                              |
-|                                                                              |
-|                                                                              |
-|                                                                              |
-|                                                                              |
-|                                                                              |
-|                                                                              |
-|                                                                              |
-|                                                                              |
-|                                                                              |
-|                                                                              |
-|                                                                              |
 |                                                                              |
 |                     <Ok>                         <Cancel>                    |
 |                                                                              |
@@ -52,20 +33,6 @@ The following steps help us to change light status:
 |                                                                              |
 |    [*] user-led1 [default-on]                                                |
 |    [ ] user-led2 [heartbeat]                                                 |
-|                                                                              |
-|                                                                              |
-|                                                                              |
-|                                                                              |
-|                                                                              |
-|                                                                              |
-|                                                                              |
-|                                                                              |
-|                                                                              |
-|                                                                              |
-|                                                                              |
-|                                                                              |
-|                                                                              |
-|                                                                              |
 |                                                                              |
 |                     <Ok>                         <Cancel>                    |
 |                                                                              |

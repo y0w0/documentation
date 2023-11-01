@@ -167,7 +167,7 @@ import TabItem from '@theme/TabItem';
 
 1. 安装驱动和工具
 
-- 请查看工具教程，在 Windows/Linux/MacOS PC 上安装 [RockChip Flash tools](./rockchip_tools)。
+- 请查看工具教程，在 Windows/Linux/MacOS PC 上安装 RockChip Flash tools。
 - 我们将 ROCK 5B/ROCK 5A 设置为 Maskrom 模式，通过 Linux/macOS 上的rkdevelopool 和 Windows PC 上的 RkDevtool，与 RockChip 工具通信。
 
 2. 获取 RK3588 loader 和 U-boot images

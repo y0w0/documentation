@@ -34,7 +34,7 @@ rkdeveloptool 可以被认为是[开源版本](https://opensource.rock-chips.com
 
 ```bash
 sudo apt-get update
-sudo apt-get install -y libudev-dev libusb-1.0-0-dev dh-autoreconf pkg-config libusb-1.0 build-essential g++ git wget
+sudo apt-get install -y libudev-dev libusb-1.0-0-dev dh-autoreconf pkg-config libusb-1.0 build-essential git wget
 git clone https://github.com/rockchip-linux/rkdeveloptool
 cd rkdeveloptool
 wget https://patch-diff.githubusercontent.com/raw/rockchip-linux/rkdeveloptool/pull/73.patch

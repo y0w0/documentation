@@ -31,14 +31,4 @@ rsetup
 
 ## 修改 Linux 启动参数
 
-```bash
-sudo nano /etc/kernel/cmdline
-# 删除所有 ttyFIQ0 和 ttyS2 相关的 console 参数，如 "console=ttyFIQ0,1500000n8"
-sudo u-boot-update
-```
-
-## 重启
-
-```bash
-sudo reboot
-```
+### 跟随[修改 Linux 启动参数](/radxa-os/config/cmdline)的操作，在进行 `sudo nano /etc/kernel/cmdline` 操作时，删除所有 ttyFIQ0 和 ttyS2 相关的 console 参数，如 "console=ttyFIQ0,1500000n8"

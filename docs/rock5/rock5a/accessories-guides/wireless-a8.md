@@ -68,7 +68,7 @@ wlan0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UP group defaul
   nmcli dev wifi connect "wifi_name" password "wifi_password"
   ```
 
-关于网络设置以及IP设置，你也可以参考[网络设置](https://docs.radxa.com/radxa-os/network).
+关于网络设置以及IP设置，你也可以参考[网络设置](https://docs.radxa.com/radxa-os/config/network.md).
 
 ### 蓝牙设置
 

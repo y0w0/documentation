@@ -1,11 +1,6 @@
----
-sidebar_label: "LED灯设置"
-sidebar_position: 10
----
-
 # LED设置
 
-一些产品会有用户可控制的板载LED。它们可以通过[`rsetup`](../rsetup#gpio-leds)管理：
+一些产品会有用户可控制的板载LED。它们可以通过[`rsetup`](/radxa-os/rsetup#gpio-leds选项)管理：
 
 ```
 ┌──────────────────────────────────┤ RSETUP ├──────────────────────────────────┐
@@ -14,20 +9,6 @@ sidebar_position: 10
 |                                                                              |
 |    [ ] user-led1 [default-on]                                                |
 |    [ ] user-led2 [heartbeat]                                                 |
-|                                                                              |
-|                                                                              |
-|                                                                              |
-|                                                                              |
-|                                                                              |
-|                                                                              |
-|                                                                              |
-|                                                                              |
-|                                                                              |
-|                                                                              |
-|                                                                              |
-|                                                                              |
-|                                                                              |
-|                                                                              |
 |                                                                              |
 |                     <Ok>                         <Cancel>                    |
 |                                                                              |
@@ -38,7 +19,7 @@ sidebar_position: 10
 
 在瑞莎产品的默认设置中，电源LED通常有 `default-on` 触发器，而状态LED通常有 `heartbeat` 触发器。
 
-## 改变LED灯出触发状态
+## 改变LED灯触发状态
 
 通过以下步骤来改变灯光状态：
 
@@ -52,20 +33,6 @@ sidebar_position: 10
 |                                                                              |
 |    [*] user-led1 [default-on]                                                |
 |    [ ] user-led2 [heartbeat]                                                 |
-|                                                                              |
-|                                                                              |
-|                                                                              |
-|                                                                              |
-|                                                                              |
-|                                                                              |
-|                                                                              |
-|                                                                              |
-|                                                                              |
-|                                                                              |
-|                                                                              |
-|                                                                              |
-|                                                                              |
-|                                                                              |
 |                                                                              |
 |                     <Ok>                         <Cancel>                    |
 |                                                                              |

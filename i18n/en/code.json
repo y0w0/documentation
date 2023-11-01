@@ -1,10 +1,8 @@
 {
   "home.page.HomePageIntroduction": {
-    "description": "Home page introduction",
     "message": "Choose a product"
   },
   "home.page.HomePageTitle": {
-    "description": "Home Page Title",
     "message": "Radxa Documentation Center"
   },
   "homepage.hero.hello": {
@@ -43,8 +41,12 @@
     "message": "This page crashed."
   },
   "theme.ErrorPageContent.tryAgain": {
-    "description": "The label of the button to try again when the page crashed",
+    "description": "The label of the button to try again rendering when the React error boundary captures an error",
     "message": "Try again"
+  },
+  "theme.NavBar.navAriaLabel": {
+    "description": "The ARIA label for the main navigation",
+    "message": "Main"
   },
   "theme.NotFound.p1": {
     "description": "The first paragraph of the 404 page",
@@ -57,6 +59,137 @@
   "theme.NotFound.title": {
     "description": "The title of the 404 page",
     "message": "Page Not Found"
+  },
+  "theme.SearchBar.label": {
+    "description": "The ARIA label and placeholder for search button",
+    "message": "Search"
+  },
+  "theme.SearchBar.seeAll": {
+    "message": "See all {count} results"
+  },
+  "theme.SearchModal.errorScreen.helpText": {
+    "description": "The help text for error screen of search modal",
+    "message": "You might want to check your network connection."
+  },
+  "theme.SearchModal.errorScreen.titleText": {
+    "description": "The title for error screen of search modal",
+    "message": "Unable to fetch results"
+  },
+  "theme.SearchModal.footer.closeKeyAriaLabel": {
+    "description": "The ARIA label for the Escape key button that close the modal",
+    "message": "Escape key"
+  },
+  "theme.SearchModal.footer.closeText": {
+    "description": "The explanatory text of the action for Escape key",
+    "message": "to close"
+  },
+  "theme.SearchModal.footer.navigateDownKeyAriaLabel": {
+    "description": "The ARIA label for the Arrow down key button that makes the navigation",
+    "message": "Arrow down"
+  },
+  "theme.SearchModal.footer.navigateText": {
+    "description": "The explanatory text of the action for the Arrow up and Arrow down key",
+    "message": "to navigate"
+  },
+  "theme.SearchModal.footer.navigateUpKeyAriaLabel": {
+    "description": "The ARIA label for the Arrow up key button that makes the navigation",
+    "message": "Arrow up"
+  },
+  "theme.SearchModal.footer.searchByText": {
+    "description": "The text explain that the search is making by Algolia",
+    "message": "Search by"
+  },
+  "theme.SearchModal.footer.selectKeyAriaLabel": {
+    "description": "The ARIA label for the Enter key button that makes the selection",
+    "message": "Enter key"
+  },
+  "theme.SearchModal.footer.selectText": {
+    "description": "The explanatory text of the action for the enter key",
+    "message": "to select"
+  },
+  "theme.SearchModal.noResultsScreen.noResultsText": {
+    "description": "The text explains that there are no results for the following search",
+    "message": "No results for"
+  },
+  "theme.SearchModal.noResultsScreen.reportMissingResultsLinkText": {
+    "description": "The text for the link to report missing results",
+    "message": "Let us know."
+  },
+  "theme.SearchModal.noResultsScreen.reportMissingResultsText": {
+    "description": "The text for the question where the user thinks there are missing results",
+    "message": "Believe this query should return results?"
+  },
+  "theme.SearchModal.noResultsScreen.suggestedQueryText": {
+    "description": "The text for the suggested query when no results are found for the following search",
+    "message": "Try searching for"
+  },
+  "theme.SearchModal.placeholder": {
+    "description": "The placeholder of the input of the DocSearch pop-up modal",
+    "message": "Search docs"
+  },
+  "theme.SearchModal.searchBox.cancelButtonText": {
+    "description": "The label and ARIA label for search box cancel button",
+    "message": "Cancel"
+  },
+  "theme.SearchModal.searchBox.resetButtonTitle": {
+    "description": "The label and ARIA label for search box reset button",
+    "message": "Clear the query"
+  },
+  "theme.SearchModal.startScreen.favoriteSearchesTitle": {
+    "description": "The title for favorite searches",
+    "message": "Favorite"
+  },
+  "theme.SearchModal.startScreen.noRecentSearchesText": {
+    "description": "The text when no recent searches",
+    "message": "No recent searches"
+  },
+  "theme.SearchModal.startScreen.recentSearchesTitle": {
+    "description": "The title for recent searches",
+    "message": "Recent"
+  },
+  "theme.SearchModal.startScreen.removeFavoriteSearchButtonTitle": {
+    "description": "The label for remove favorite search button",
+    "message": "Remove this search from favorites"
+  },
+  "theme.SearchModal.startScreen.removeRecentSearchButtonTitle": {
+    "description": "The label for remove recent search button",
+    "message": "Remove this search from history"
+  },
+  "theme.SearchModal.startScreen.saveRecentSearchButtonTitle": {
+    "description": "The label for save recent search button",
+    "message": "Save this search"
+  },
+  "theme.SearchPage.algoliaLabel": {
+    "description": "The ARIA label for Algolia mention",
+    "message": "Search by Algolia"
+  },
+  "theme.SearchPage.documentsFound.plurals": {
+    "description": "Pluralized label for \"{count} documents found\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)",
+    "message": "One document found|{count} documents found"
+  },
+  "theme.SearchPage.emptyResultsTitle": {
+    "description": "The search page title for empty query",
+    "message": "Search the documentation"
+  },
+  "theme.SearchPage.existingResultsTitle": {
+    "description": "The search page title for non-empty query",
+    "message": "Search results for \"{query}\""
+  },
+  "theme.SearchPage.fetchingNewResults": {
+    "description": "The paragraph for fetching new search results",
+    "message": "Fetching new results..."
+  },
+  "theme.SearchPage.inputLabel": {
+    "description": "The ARIA label for search page input",
+    "message": "Search"
+  },
+  "theme.SearchPage.inputPlaceholder": {
+    "description": "The placeholder for search page input",
+    "message": "Type your search here"
+  },
+  "theme.SearchPage.noResultsText": {
+    "description": "The paragraph for empty search result",
+    "message": "No results were found"
   },
   "theme.TOCCollapsible.toggleButtonLabel": {
     "description": "The label used by the button on the collapsible TOC component",
@@ -205,6 +338,10 @@
   "theme.docs.sidebar.expandButtonTitle": {
     "description": "The ARIA label and title attribute for expand button of doc sidebar",
     "message": "Expand sidebar"
+  },
+  "theme.docs.sidebar.navAriaLabel": {
+    "description": "The ARIA label for the sidebar navigation",
+    "message": "Docs sidebar"
   },
   "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
     "description": "The ARIA label for hamburger menu button of mobile navigation",

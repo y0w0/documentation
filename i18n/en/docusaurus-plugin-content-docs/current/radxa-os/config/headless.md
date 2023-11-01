@@ -11,12 +11,12 @@ The SSH service is automatically enabled when no monitor is connected during the
 
 ## Ethernet
 
-You can refer to this guide: [network guide](network).  
+You can refer to this guide: [network guide](/radxa-os/config/network.md).  
 Connect the SBC to **the same network** as your computer via wired connection.
 
 ## Wireless
 
-The [wireless guide](network) may be helpful.
+The [wireless guide](/radxa-os/config/network.md) may be helpful.
 
 _Note: Some solutions require a WiFi module to be installed in order to connect to the wireless network. For more details, please check product parameters on [Product Introduction](https://radxa.com/product)._
 

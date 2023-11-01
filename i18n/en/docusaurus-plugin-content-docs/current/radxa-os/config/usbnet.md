@@ -35,7 +35,7 @@ The service active status is usually `active(exited)` when running.
 ## OTG Settings
 
 At first, connect the two SBC OTG ports by USB-A to USB-A cable.  
-Device identity of this shared network depends on what [overlay](rsetup/devicetree) you enable,the host machine shares the network to device mahine.  
+Device identity of this shared network depends on what [overlay](/radxa-os/rsetup/devicetree) you enable,the host machine shares the network to device mahine.  
 The host machine enable this overlay:
 
 ```

@@ -1,5 +1,4 @@
 ---
-sidebar_label: "Getting Started"
 sidebar_position: 3
 slug: /rock3b/getting-started
 ---
@@ -7,7 +6,7 @@ slug: /rock3b/getting-started
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# Start using ROCK 3B
+# Getting Started
 
 ## Preparation
 
@@ -23,7 +22,7 @@ import TabItem from '@theme/TabItem';
 - microSD card reader or eMMC card reader  
    For mirroring microSD cards or eMMC modules.
 
-### Operating System Installation
+## Operating System Installation
 
 1. Select the [Official Image](/rock3/images) you want to use and download it. 2.
 
@@ -33,17 +32,4 @@ import TabItem from '@theme/TabItem';
 
 4. Connect the peripherals and start using [Radxa OS](/radxa-os).
 
-If you already know the product well enough, you can also use the USB flash method to flash the device：
-
-<Tabs>
-<TabItems value="Windows">
-
-Please check the [RKDevtool usage guide](/general-tutorial/rksdk/rkdevtool#write-file-to-device).
-
-</TabItems>
-<TabItems value="Linux/MacOS">
-
-Please check the [rkdevloptool usage guide](/general-tutorial/rksdk/rkdeveloptool#usage-for-rkdeveloptool) or the [upgrade_tool usage guide](/general-tutorial/rksdk/upgrade_tool#usage-for-upgrade_tool)
-
-</TabItems>
-</Tabs>
+If you already know the product well enough, you can also use the direct connection method to flash the device：

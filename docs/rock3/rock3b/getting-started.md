@@ -1,5 +1,4 @@
 ---
-sidebar_label: "上手指南"
 sidebar_position: 3
 slug: /rock3b/getting-started
 ---
@@ -7,7 +6,7 @@ slug: /rock3b/getting-started
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# 开始使用 ROCK 3B
+# 开始使用
 
 ## 准备项
 
@@ -23,7 +22,7 @@ import TabItem from '@theme/TabItem';
 - microSD 读卡器或 eMMC 读卡器  
    用于 microSD 卡或 eMMC 模块的镜像刷写。
 
-### 系统安装
+## 系统安装
 
 1. 选择您要使用的[官方镜像](/rock3/images)并下载。
 
@@ -33,17 +32,4 @@ import TabItem from '@theme/TabItem';
 
 4. 连接外设，开始使用 [Radxa OS](/radxa-os)。
 
-如果您对该产品已足够了解，您也可使用线刷的方式来进行刷机：
-
-<Tabs>
-<TabItems value="Windows">
-
-请参阅 [RKDevtool 使用指南](/general-tutorial/rksdk/rkdevtool#write-file-to-device)。
-
-</TabItems>
-<TabItems value="Linux/MacOS">
-
-请参阅 [rkdevloptool 使用指南](/general-tutorial/rksdk/rkdeveloptool#usage-for-rkdeveloptool)或者 [upgrade_tool 使用指南](/general-tutorial/rksdk/upgrade_tool#usage-for-upgrade_tool)。
-
-</TabItems>
-</Tabs>
+如果您对该产品已足够了解，您也可使用直连刷入的方式来进行刷机：

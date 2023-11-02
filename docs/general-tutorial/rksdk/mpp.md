@@ -1,61 +1,55 @@
 ---
-sidebar_label: "RockChip 多媒体框架 MPP 说明"
+sidebar_label: "Media Process Platform (MPP)"
 sidebar_position: 40
 ---
 
-# 在ROCK 5B 上使用 MPP
+# Media Process Platform (MPP)
 
-- MPP：Media Process Platform module
+MPP 是 Rockchip 专有的视频加速 API。目前支持主流视频格式的硬件编解码。
 
-1. 下载必要的包
+## 从源代码编译
+
+### 安装编译依赖
 
 ```bash
-rock@rock-5b:~$ sudo apt install -y git make cmake gcc g++ wget
+sudo apt-get update
+sudo apt-get install -y build-essentials git cmake wget
 ```
 
-2. 下载MPP源代码
+### 编译
 
 ```bash
-rock@rock-5b:~$ wget https://github.com/rockchip-linux/mpp/archive/refs/heads/develop.zip
-rock@rock-5b:~$ unzip develop.zip
-rock@rock-5b:~$ cd ~/mpp-develop/build/linux/aarch64
-rock@rock-5b:~/mpp-develop/build/linux/aarch64$ ./make-Makefiles.bash
-rock@rock-5b:~/mpp-develop/build/linux/aarch64$ make
+git clone https://github.com/rockchip-linux/mpp.git
+cd mpp/build/linux/aarch64
+./make-Makefiles.bash
+make
 ```
 
-3. 查看mpp测试demo
+### 查看生成的测试程序
 
 ```bash
-rock@rock-5b:~/mpp-develop/build/linux/aarch64$ ls test/
+$ ls test/
 CMakeFiles           mpi_dec_mt_test     mpi_dec_test     mpi_rc2_test
 Makefile             mpi_dec_multi_test  mpi_enc_mt_test  mpp_info_test
 cmake_install.cmake  mpi_dec_nt_test     mpi_enc_test     vpu_api_test
 ```
 
-## MPP demo
+## 运行自带测试
 
-### mpi_dec_test
-
-1. 获取测试视频
+以下以 `mpi_dec_test` 为例：
 
 ```bash
-rock@rock-5b:~$ wget https://dl.radxa.com/media/video/1080p.264
+wget https://dl.radxa.com/media/video/1080p.264
+export mpi_debug=1
+export mpp_debug=1
+export h264d_debug=1
+export mpp_syslog_perror=1
+./mpi_dec_test -i 1080p.264 -t 7 -h 1080 -w 1920
 ```
 
-2. 输出调试信息
+如得到类似如下的输出，则证明 MPP 已在你的系统上正常工作：
 
 ```bash
-rock@rock-5b:~$ export mpi_debug=1
-rock@rock-5b:~$ export mpp_debug=1
-rock@rock-5b:~$ export h264d_debug=1
-rock@rock-5b:~$ export mpp_syslog_perror=1
-```
-
-3. 运行mpi_dec_test.
-
-```bash
-rock@rock-5b:~/mpp-develop/build/linux/aarch64/test$ ./mpi_dec_test -i ~/1080p.264 -t 7 -h 1080 -w 1920
-
 mpp[1253]: mpi_dec_utils: input file /home/rock/1080p.264 size 10076324
 mpp[1253]: mpi_dec_utils: cmd parse result:
 mpp[1253]: mpi_dec_utils: input  file name: /home/rock/1080p.264
@@ -74,3 +68,8 @@ mpp[1253]: mpi: mpp_destroy enter ctx 0x558fb02300
 mpp[1253]: mpi: mpp_destroy leave ctx 0x558fb02300 ret 0
 mpp[1253]: mpi_dec_test: test success max memory 19.92 MB
 ```
+
+## 参考
+
+- [GitHub](https://github.com/rockchip-linux/mpp)
+- [官方文档](https://opensource.rock-chips.com/wiki_Mpp)

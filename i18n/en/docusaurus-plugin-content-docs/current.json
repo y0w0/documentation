@@ -9,6 +9,10 @@
   "sidebar.tutorialSidebar.category.Compute Module 系列.link.generated-index.description": {
     "message": "Compute Module is a family of small form factor and compact layout computing modules based on Rockchip SOCs."
   },
+  "sidebar.tutorialSidebar.category.Development Reference": {
+    "description": "The label for category Development Reference in sidebar tutorialSidebar",
+    "message": "Development Reference"
+  },
   "sidebar.tutorialSidebar.category.ROCK 3 Series": {
     "description": "The label for category ROCK 3 Series in sidebar tutorialSidebar",
     "message": "ROCK 3 Series"
@@ -130,6 +134,10 @@
   "sidebar.tutorialSidebar.category.Rockchip SDK 工具": {
     "description": "The label for category Rockchip SDK 工具 in sidebar tutorialSidebar",
     "message": "Rockchip SDK Utilities"
+  },
+  "sidebar.tutorialSidebar.category.System Configuration": {
+    "description": "The label for category System Configuration in sidebar tutorialSidebar",
+    "message": "System Configuration"
   },
   "sidebar.tutorialSidebar.category.System Maintaince": {
     "description": "The label for category System Maintaince in sidebar tutorialSidebar",
@@ -288,6 +296,14 @@
   "sidebar.tutorialSidebar.category.瑞莎 CM3.link.generated-index.description": {
     "description": "The generated-index page description for category 瑞莎 CM3 in sidebar tutorialSidebar",
     "message": ""
+  },
+  "sidebar.tutorialSidebar.category.瑞莎 NX5": {
+    "description": "The label for category 瑞莎 NX5 in sidebar tutorialSidebar",
+    "message": "Radxa NX5"
+  },
+  "sidebar.tutorialSidebar.category.瑞莎 NX5.link.generated-index.description": {
+    "description": "The generated-index page description for category 瑞莎 NX5 in sidebar tutorialSidebar",
+    "message": "Radxa NX5 is a compact computing module based on the Rockchip RK3588s SoC, known for its small size and compact layout."
   },
   "sidebar.tutorialSidebar.category.瑞莎操作系统": {
     "description": "The label for category 瑞莎操作系统 in sidebar tutorialSidebar",

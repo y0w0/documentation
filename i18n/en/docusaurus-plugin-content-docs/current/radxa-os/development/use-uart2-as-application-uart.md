@@ -31,14 +31,4 @@ rsetup
 
 ## Modify Linux boot parameters
 
-```bash
-sudo nano /etc/kernel/cmdline
-# Remove all ttyFIQ0 and ttyS2 related console parameters, e.g. "console=ttyFIQ0,1500000n8"
-sudo u-boot-update
-```
-
-## Reboot
-
-```bash
-sudo reboot
-```
+Following [Modify Linux boot parameters](/radxa-os/config/cmdline), remove all console parameters related to ttyFIQ0 and ttyS2 when doing `sudo nano /etc/kernel/cmdline` operations, such as "console=ttyFIQ0, 1500000n8"

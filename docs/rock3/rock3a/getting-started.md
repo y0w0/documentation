@@ -1,12 +1,11 @@
 ---
-sidebar_label: "使用教程"
 sidebar_position: 3
 ---
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# ROCK 3A
+# 开始使用
 
 ROCK 3A 配备了四核 Cortex-A55 ARM 处理器和 LPDDR4 运行内存，
 最高支持 4K@60 的 HDMI、MIPI DSI、MIPI CSI、带麦克风的 3.5 毫米耳机插孔、USB 端口、千兆以太网、PCIe 3.0、PCIe 2.0、40 pin GPIO 扩展座、RTC。  
@@ -44,7 +43,7 @@ ROCK 3A 的 OTG 接口位于处于上方的 USB 3.0 接口，可通过 USB-A 转
 |            声音             | 带麦克风的 3.5 毫米耳机插孔<br/>支持高达 24 位/96KHz 音频的高清编解码器                                                                                                  |
 |           摄像头            | 通过 FPC 连接的 2-lane MIPI CSI，支持高达 800 万像素摄像头                                                                                                               |
 |            无线             | 可额外选购 [Radxa Wireless Module A8](/accessories/wireless-a8)                                                                                                          |
-|             USB             | 一个 USB 3.0 OTG, 位于上方的 USB 3.0 端口，通过硬件开关来切换硬件功能；一个 USB 3.0 HOST 端口；两个 USB 2.0 HOST 端口                                                    |
+|             USB             | 一个 USB 3.0 OTG, 位于上方的 USB 3.0 端口，通过软件（[rsetup](/radxa-os/rsetup)）来切换硬件功能；一个 USB 3.0 HOST 端口；两个 USB 2.0 HOST 端口                          |
 |           以太网            | 支持以太网供电 (PoE) 的千兆以太网：PoE 供电需要额外选购的 HAT                                                                                                            |
 |             IO              | 40 pin GPIO 扩展座                                                                                                                                                       |
 |            电源             | USB PD, 支持 USB Type-C PD 2.0, 9V/2A, 12V/2A, 15V/2A, 20V/2A（推荐）<br/>Qualcomm® Quick ChargeTM: 支持 QC 3.0/2.0 充电协议, 9V/2A, 12V/1.5A（推荐）<br/>DC 5V/4A 供电 |
@@ -76,7 +75,7 @@ ROCK 3A 的 OTG 接口位于处于上方的 USB 3.0 接口，可通过 USB-A 转
 
 4. 连接外设，开始使用 [Radxa OS](/radxa-os)。
 
-如果您对该产品已足够了解，您也可使用线刷的方式来进行刷机。
+如果您对该产品已足够了解，您也可使用直连写入的方式来进行刷机。
 
 ## 硬件资料
 

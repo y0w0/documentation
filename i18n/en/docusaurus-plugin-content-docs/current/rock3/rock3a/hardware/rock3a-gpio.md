@@ -1,5 +1,4 @@
 ---
-sidebar_label: "ROCK 3A GPIO Definition"
 sidebar_position: 50
 ---
 

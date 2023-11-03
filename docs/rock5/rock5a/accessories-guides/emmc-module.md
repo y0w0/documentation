@@ -7,7 +7,7 @@ sidebar_position: 20
 
 Radxa eMMC模块是一种嵌入式存储模块，具有超小面积、高性能和可靠性。使用双B2B(Board to Board)连接器，Radxa eMMC模块不用焊接就可以拔掉插头并更换，使数据存储维护变得容易。
 
-如何使用eMMC模块刷写操作系统，请参考[在eMMC模块上安装操作系统](https://docs.radxa.com/rock5/rock5a/getting-started/emmc-install).
+如何使用eMMC模块刷写操作系统，请参考[在eMMC模块上安装操作系统](/general-tutorial/os-installation?target=eMMC+Module).
 
 # 如何在ROCK 5A上使用eMMC模块
 

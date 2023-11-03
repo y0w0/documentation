@@ -7,6 +7,7 @@ repos:
       - id: fix-en-dash-list
       - id: tab-with-querystring-undefined
       - id: tab-without-querystring
+      - id: no-full-uri-for-internal-pages
   - repo: https://github.com/detailyang/pre-commit-shell
     rev: v1.0.6
     hooks:

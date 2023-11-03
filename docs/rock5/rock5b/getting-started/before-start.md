@@ -75,7 +75,7 @@ sidebar_position: 15
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-<Tabs>
+<Tabs queryString="app">
 	<TabItem value="Etcher" label="Etcher 方式" default>
 - 该方法适用于 Windows、MacOS、Linux x64 操作系统
 

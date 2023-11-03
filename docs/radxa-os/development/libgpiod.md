@@ -34,7 +34,7 @@ libgpiod 提供了命令行工具 gpiod，用于查看和控制 GPIO 设备。gp
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-<Tabs>
+<Tabs queryString="lang">
 <TabItem value="C">
 
 使用前需要先安装相关头文件：

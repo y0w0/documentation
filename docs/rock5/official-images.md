@@ -22,7 +22,7 @@ sidebar_position: 2
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-<Tabs>
+<Tabs queryString="model">
 <TabItem value="ROCK 5A" label="ROCK 5A" default>
 
 ## ROCK 5A

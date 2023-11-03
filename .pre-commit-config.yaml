@@ -1,10 +1,12 @@
 repos:
   - repo: https://github.com/radxa-docs/pre-commit-hooks
-    rev: 58583774a194f71c974de22d567e0f0a606d3c63
+    rev: e8b38c96bc9a061ae28ab5bc7d4203fdf778e9e9
     hooks:
       - id: remove-unreferenced-image
       - id: use-webp-image
       - id: fix-en-dash-list
+      - id: tab-with-querystring-undefined
+      - id: tab-without-querystring
   - repo: https://github.com/detailyang/pre-commit-shell
     rev: v1.0.6
     hooks:

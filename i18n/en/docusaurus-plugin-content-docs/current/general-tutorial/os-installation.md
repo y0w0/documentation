@@ -20,7 +20,7 @@ There are two main methods of installing the operating system
 
 ## Method I
 
-<Tabs>
+<Tabs queryString="target">
   <TabItem value="microSD" label="microSD">
 
 ### Flash OS image to microSD card

@@ -1,3 +1,7 @@
+---
+sidebar_position: 40
+---
+
 # Maskrom 模式
 
 ROCK 3A 的 OTG 接口位于处于上方的 USB 3.0 接口，可通过 USB-A 转 USB-A 线连接主机和进入 Maskrom 的主板进行通信。

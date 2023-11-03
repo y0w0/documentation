@@ -84,7 +84,7 @@ import TabItem from '@theme/TabItem';
 - [下载](https://etcher.balena.io/)刷写工具 `Etcher` 。
   ![ROCK5A via Etcher](/img/rock5a/rock5a-etcher.webp)
 
-###  刷入操作系统镜像到 EMMC
+### 刷入操作系统镜像到 EMMC Module
 
 1. 将 eMMC 模块插入 Radxa eMMC USB 读卡器，然后将 Radxa eMMC USB 读卡器插入计算机的 USB 接口。
 
@@ -123,11 +123,11 @@ import TabItem from '@theme/TabItem';
 
 - 下载必要的工具和镜像
 
-   Etcher 就是我们用来写镜像的工具。从[下载](https://etcher.balena.io/)页面为您的 PC 下载合适的 Etcher 并安装它。
+Etcher 就是我们用来写镜像的工具。从[下载](https://etcher.balena.io/)页面为您的 PC 下载合适的 Etcher 并安装它。
 
-   查看 [Etcher 网站](https://etcher.balena.io/)以获取有关 Etcher 的更多信息。
+查看 [Etcher 网站](https://etcher.balena.io/)以获取有关 Etcher 的更多信息。
 
-- 下载您对应产品的镜像。  
+- 下载您对应产品的镜像。
 
 ### 刷入操作系统镜像到 M.2 NVMe SSD
 
@@ -164,10 +164,10 @@ import TabItem from '@theme/TabItem';
 
 ### 我的电脑是Windows
 
-   [rkdevtool](/general-tutorial/rksdk/rkdevtool)
+&emsp;[rkdevtool](/general-tutorial/rksdk/rkdevtool)
 
 ### 我是电脑是Linux / macOS
 
-   [rkdeveloptool](/general-tutorial/rksdk/rkdeveloptool)
+&emsp;[rkdeveloptool](/general-tutorial/rksdk/rkdeveloptool)
 
-   [upgrade_tool](general-tutorial/rksdk/upgrade_tool)（可同时烧录多台设备）
+&emsp;[upgrade_tool](general-tutorial/rksdk/upgrade_tool)（可同时烧录多台设备）

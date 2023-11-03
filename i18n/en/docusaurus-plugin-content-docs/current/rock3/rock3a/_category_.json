@@ -1,8 +1,7 @@
 {
   "label": "ROCK 3A",
   "link": {
-    "description": "The ROCK 3A is a low-cost, high-performance single board computer (SBC).",
-    "slug": "/rock3/rock3a",
+    "slug": "/rock3a",
     "type": "generated-index"
   },
   "position": 30

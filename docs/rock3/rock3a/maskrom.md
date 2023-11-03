@@ -15,12 +15,12 @@ ROCK 3A 进入 Maskrom 模式的步骤：
 4. 插入电源线上电，如果电源绿灯常亮则成功进入 Maskrom 模式
 5. 进入 Maskrom 后，断开 Maskrom引脚的连接,
 
-&emsp;&emsp;如果需要**刷写EMMC**,则需**继续短接SPI引脚**(参考步骤2)
+&emsp;&emsp;如果需要**刷写EMMC**,则需**继续短接SPI引脚**;
    
-&emsp;&emsp;如果需要**刷写SPI Nor Flash**, 则**需要断开SPI引脚**(参考步骤2）
+&emsp;&emsp;如果需要**刷写SPI Nor Flash**, 则**需要断开SPI引脚**;
+
+&emsp;&emsp;(关于SPI引脚的位置请参考步骤2)
    
 7. 通过 USB-A 转 USB-A 线连接主板的 OTG 口和 PC 主机的 USB 口
-
-&emsp;&emsp;![ROCK 3A Maskrom-otg-port](/img/rock3/3a/rock3a-maskrom-otg.webp)
-
-9. 使用 [Rockchip 开发套件](/general-tutorial/rksdk)来对您的产品进行擦写、线刷等操作。
+   ![ROCK 3A Maskrom](/img/rock3/3a/rock3a-maskrom-otg.webp)
+8. 使用 [Rockchip 开发套件](/general-tutorial/rksdk)来对您的产品进行擦写、线刷等操作。

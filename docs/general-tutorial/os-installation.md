@@ -8,11 +8,17 @@ import TabItem from '@theme/TabItem';
 
 # 操作系统安装教程
 
-本教程适用于瑞莎官方镜像。目前支持的系统安装位置有 microSD 卡、eMMC、及固态硬盘。
-
 :::tip
 官方镜像的默认账号/密码为**radxa**/**radxa**。
 :::
+
+本教程适用于所有 Radxa 产品的官方镜像.
+安装操作系统主要使用以下两种方法
+
+1. 通过读卡器将系统镜像烧写到MicroSD 卡、eMMC Module 或 SSD上. （**推荐**）
+2. 使用USB线将系统镜像直接刷写到 eMMC、Nand Flash上.
+
+## 方法一
 
 <Tabs>
   <TabItem value="microSD" label="microSD">
@@ -24,9 +30,9 @@ import TabItem from '@theme/TabItem';
 3. 下载[对应产品](/productlist)的官方 Ubuntu / Debian 系统镜像
 4. 把 SD 卡插入 SD 读卡器, 然后把 SD 读卡器插入计算机的 USB 接口
 
-### 刷入操作系统镜像到 microSD 卡
+### 刷入操作系统镜像到 microSD
 
-#### 通过 Etcher 刷入操作系统镜像到 microSD 卡
+#### 通过 Etcher 刷入操作系统镜像到 microSD
 
 1. [下载](https://etcher.balena.io/)刷写工具 `Etcher`。  
    ![ROCK5A via Etcher 01](/img/rock5a/rock5a-etcher.webp)
@@ -45,7 +51,7 @@ import TabItem from '@theme/TabItem';
 
 **如果刷写操作系统镜像错误, 请手动再试一次。**
 
-#### 通过 Win32DiskImager 刷入操作系统镜像到 microSD 卡
+#### 通过 Win32DiskImager 刷入操作系统镜像到 microSD
 
 1. [下载](https://win32diskimager.org/)刷写工具 `Win32DiskImager`  
    ![ROCK5A via Win32DiskImager 01](/img/rock5a/rock5a-win32.webp)
@@ -62,7 +68,7 @@ import TabItem from '@theme/TabItem';
 <!-- end of the list -->
 
    </TabItem>
-   <TabItem value="eMMC" label="eMMC">
+   <TabItem value="eMMC Module" label="eMMC Module">
 
 ### 准备
 
@@ -78,7 +84,7 @@ import TabItem from '@theme/TabItem';
 - [下载](https://etcher.balena.io/)刷写工具 `Etcher` 。
   ![ROCK5A via Etcher](/img/rock5a/rock5a-etcher.webp)
 
-### 刷写镜像
+###  刷入操作系统镜像到 EMMC
 
 1. 将 eMMC 模块插入 Radxa eMMC USB 读卡器，然后将 Radxa eMMC USB 读卡器插入计算机的 USB 接口。
 
@@ -115,15 +121,15 @@ import TabItem from '@theme/TabItem';
 - M.2 NVMe SSD
 - **NVMe 转 USB 3.0 读卡器或带 NVMe 插槽的 PC 主机**
 
-### 下载必要的工具和镜像
+- 下载必要的工具和镜像
 
-Etcher 就是我们用来写镜像的工具。从[下载](https://etcher.balena.io/)页面为您的 PC 下载合适的 Etcher 并安装它。
+   Etcher 就是我们用来写镜像的工具。从[下载](https://etcher.balena.io/)页面为您的 PC 下载合适的 Etcher 并安装它。
 
-查看 [Etcher 网站](https://etcher.balena.io/)以获取有关 Etcher 的更多信息。
+   查看 [Etcher 网站](https://etcher.balena.io/)以获取有关 Etcher 的更多信息。
 
-下载您对应产品的镜像。
+- 下载您对应产品的镜像。  
 
-### 将镜像写入 M.2 NVMe SSD
+### 刷入操作系统镜像到 M.2 NVMe SSD
 
 将 M.2 NVMe SSD 插入 M.2 NVMe SSD 转 USB 3.0 读卡器，连接主机。
 
@@ -143,46 +149,25 @@ Etcher 就是我们用来写镜像的工具。从[下载](https://etcher.balena.
 
 完毕！现在您已成功在 M.2 NVMe SSD 上安装操作系统镜像。
 
-## 在支持 NVMe SSD 的 SBC 上写入镜像
-
-（以 ROCK 5A 搭配 M key 转 E key配件为例 ）
-
-1. 首先烧录 ROCK 5A 镜像到 eMMC 模块或 microSD card
-
-2. 将 NVMe SSD 装入 ROCK 5A，插入带有镜像的 eMMC 模块和 microSD card 。上电启动。
-
-3. 联网进入系统并通过 SCP、wget 等工具，将目标镜像复制或下载到 ROCK 5A 中。
-
-4. 检查 NVMe SSD 是否存在
-
-```bash
-sudo fdisk -l
-```
-
-你可以看到以下类似信息：
-
-```bash
-Disk /dev/nvme0n1: 232.9 GiB, 250059350016 bytes, 488397168 sectors
-    #The '/dev/nvme0n1' is your NVME SSD device path
-Units: sectors of 1 * 512 = 512 bytes
-Sector size (logical/physical): 512 bytes / 512 bytes
-I/O size (minimum/optimal): 512 bytes / 512 bytes
-```
-
-5. 使用 ROCK 5A 烧录镜像到 NVMe SSD 中
-
-```bash
-xzcat 'your compressed image path' | sudo dd of='your NVME SSD device path' bs=1M status=progress
-#such as: xzcat rock-5a-debian-bullseye-xfce4-arm64-20220906-0626-gpt.img.xz | sudo dd of=/dev/nvme0n1 bs=1M status=progress
-```
-
-### 擦除 M.2 NVMe SSD
-
+擦除 M.2 NVMe SSD
 如果之前 M.2 NVMe SSD 烧录了 Android（或 Linux）镜像，在重新烧录前建议您先擦除 M.2 NVMe SSD，然后写入目标镜像。
 
-### 从 NVMe SSD启动
+从 NVMe SSD启动
+将镜像写入 NVMe SSD 后，要从 NVMe SSD 启动，您需要将 bootloader 写入 SPI Flash。详情请查看安装 bootloader 到 SPI Flash
 
-将镜像写入 NVMe SSD 后，要从 NVMe SSD 启动，您需要将 bootloader 写入 SPI Flash。详情请查看[安装 bootloader 到 SPI Flash](rksdk/rkdevtool)
+   </TabItem>
+   </Tabs>
 
-  </TabItem>
-</Tabs>
+## 方法二
+
+如果您的设备使用 Rockchip 芯片，可参考以下教程：
+
+### 我的电脑是Windows
+
+   [rkdevtool](/general-tutorial/rksdk/rkdevtool)
+
+### 我是电脑是Linux / macOS
+
+   [rkdeveloptool](/general-tutorial/rksdk/rkdeveloptool)
+
+   [upgrade_tool](general-tutorial/rksdk/upgrade_tool)（可同时烧录多台设备）

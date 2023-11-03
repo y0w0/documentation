@@ -17,7 +17,7 @@ There are two main methods of installing the operating system
 
 1. Burning the system image to a MicroSD card, eMMC Module or SSD via a card reader. (**Recommended**)
 2. Burning the system image directly to eMMC, Nand Flash via USB cable
- 
+
 ## Method I
 
 <Tabs>
@@ -69,7 +69,7 @@ There are two main methods of installing the operating system
   </TabItem>
   <TabItem value="eMMC Module" label="eMMC Module">
 
-### Flash OS image to EMMC
+### Flash OS image to EMMC Module
 
 #### Preparations
 
@@ -171,10 +171,10 @@ If your device uses a Rockchip chip, refer to the following tutorial:
 
 ### My computer is Windows
 
-[rkdevtool](/general-tutorial/rksdk/rkdevtool)
+&emsp;[rkdevtool](/general-tutorial/rksdk/rkdevtool)
 
 ### My computer is Linux / macOS
 
-[rkdeveloptool](/general-tutorial/rksdk/rkdeveloptool)
+&emsp;[rkdeveloptool](/general-tutorial/rksdk/rkdeveloptool)
 
-[upgrade_tool](general-tutorial/rksdk/upgrade_tool)（Multiple devices can be burned at the same time）
+&emsp;[upgrade_tool](general-tutorial/rksdk/upgrade_tool)（Multiple devices can be burned at the same time）

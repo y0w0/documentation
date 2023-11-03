@@ -14,7 +14,7 @@ Radxa 23W PoE HAT 是专为树莓派、Radxa ROCK 3 和 4 系列以及 Jetson Na
 通过 23W PoE HAT，您可以使用支持以太网供电的网络为树莓派、ROCK 3 和 4 系列或 Jetson Nano 供电；
 如要使用本产品，需要额外的 PoE 供电设备。
 
-<Tabs>
+<Tabs queryString="section">
 <TabItem value="specs" label="硬件介绍">
 
 ## 产品支持
@@ -47,7 +47,7 @@ L版本额外提供了 40 针引脚，可以在使用 HAT 的同时连接其他�
 </TabItem>
 
 <TabItem value="hardware" label="Hareware Information">
-<Tabs>
+<Tabs queryString="model">
 <TabItem value="f3" label="F3/F3L Pinout">
 
 用于 Raspberry Pi 3B+/4/Jetson Nano ROCK 3A 3C 和 4C+ 的 PoE HAT。

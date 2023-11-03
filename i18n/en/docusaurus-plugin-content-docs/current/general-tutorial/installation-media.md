@@ -10,7 +10,7 @@ sidebar_position: 30
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-<Tabs>
+<Tabs queryString="target">
   <TabItem value="eMMC" label="eMMC">
 
 ### eMMC

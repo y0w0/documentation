@@ -61,7 +61,7 @@ Usage steps:
 
 3. On top of the Radxa 25W PoE HAT, align the four M2.5 x 4 Copper Pillars with the four M2.5 x 9 Copper Pillars, then secure them by rotating them into place. The following is the Illustrated Outcome:
 
-  <Tabs>
+  <Tabs queryString="model">
     <TabItem value="5a_4c+" label="ROCK 5A, ROCK 4C+">
 
     ![25W PoE 5A](/img/accessories/poe-hat/25w-poe-5a.webp)

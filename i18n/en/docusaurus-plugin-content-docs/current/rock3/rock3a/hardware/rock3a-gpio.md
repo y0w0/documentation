@@ -1,5 +1,4 @@
 ---
-sidebar_label: "ROCK 3A GPIO Definition"
 sidebar_position: 50
 ---
 
@@ -21,7 +20,7 @@ ROCK 3A provides a 40pin GPIO socket, which is compatible with most sensor appli
 
 **_Tips:_ The actual compatibility is subject to usage.**
 
-<Tabs>
+<Tabs queryString="revision">
 <TabItem value="v1_3" label="v1.3+">
 
 <div className='gpio_style'>

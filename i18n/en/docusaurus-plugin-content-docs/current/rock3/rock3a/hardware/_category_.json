@@ -1,8 +1,7 @@
 {
   "label": "Hardware",
   "link": {
-    "description": "Hardware Information about ROCK 3A",
-    "slug": "/rock3/rock3a/hardware",
+    "slug": "/rock3a/hardware",
     "type": "generated-index"
   },
   "position": 30

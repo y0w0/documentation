@@ -1,5 +1,4 @@
 ---
-sidebar_label: "Hardware Documentations"
 sidebar_position: 55
 ---
 

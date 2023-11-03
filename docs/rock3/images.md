@@ -1,20 +1,82 @@
 ---
-sidebar_label: "镜像下载"
 sidebar_position: 2
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # 镜像下载
 
-## 官方镜像
+瑞莎团队以 Debian 为基础开发了 Radxa OS 作为官方操作系统。
 
-|          | ![Debian](/img/Debian-logo.webp)                                                                                                                                                                                                                                  | ![Android](/img/Android-Logo.webp)                                                                       |
-| :------: | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
-| 系统信息 | Debian Bullseye (11)<br/>[安装指南](https://wiki.radxa.com/Rock3/Debian)<br/>[ROCK 3C Debian11 版本发布指南](https://forum.radxa.com/t/230428-system-release-notice-for-rock-3c/16282)<br/>瑞莎CM3核心板搭配树莓派CM4 IO板需要改变dtb文件，详细说明请查阅下载页。 | 版本：Android11-20220408_1204<br/>ROCK 3A/3B[安装指南](https://wiki.radxa.com/Rock3/install/usb-install) |
-| ROCK 3A  | [点击跳转至下载页](https://github.com/radxa-build/rock-3a/releases/latest)                                                                                                                                                                                        | [点击立即下载](https://dl.radxa.com/rock3/images/android/rock3a-android11-20220408_1204-gpt.img.xz)      |
-| ROCK 3B  | [点击跳转至下载页](https://github.com/radxa-build/rock-3b/releases/latest)                                                                                                                                                                                        | [点击立即下载](https://dl.radxa.com/rock3/images/android/rock3b-android11-20220408_1204-gpt.img.xz)      |
-| ROCK 3C  | [点击跳转至下载页](https://github.com/radxa-build/rock-3c/releases/latest)                                                                                                                                                                                        | -                                                                                                        |
+如果你想尝试其他镜像，请参阅[第三方镜像](#第三方镜像)。
+
+:::note
+注意：许多第三方镜像未经过官方测试，可能存在一些问题。
+:::
+
+:::tip
+提示：我们将会在[瑞莎论坛](https://forum.radxa.com/)发布每次版本发布的相关信息。
+:::
+
+<Tabs queryString="model">
+<TabItem value="ROCK 3A">
+
+## ROCK 3A
+
+### 官方镜像
+
+以下系统已由瑞莎官方测试验证：
+
+ROCK 3A: [Build 25](https://github.com/radxa-build/rock-3a/releases/download/b25/rock-3a_debian_bullseye_xfce_b25.img.xz)
+
+更多镜像请查看： [ROCK 3A radxa-build](https://github.com/radxa-build/rock-3a/releases/latest)
+
+### 发布信息
+
+### 其他备选系统
+
+#### 安卓
+
+ROCK 3A 当前使用的是安卓 11，你可以从以下链接中下载镜像：
+
+[ROCK 3A 安卓 11](https://dl.radxa.com/rock3/images/android/rock3a-android11-20220408_1204-gpt.img.xz)
+
+补充信息：
+
+[瑞莎安卓 Manifests](https://github.com/radxa/manifests)
+
+[ROCK 3A 安卓 11 安装指导](https://wiki.radxa.com/Rock3/install/usb-install)
+</TabItem>
+<TabItem value="ROCK 3B">
+
+Comming soon.
+
+</TabItem>
+<TabItem value="ROCK 3C">
+
+## ROCK 3C
+
+### 下载
+
+以下系统已由瑞莎官方测试验证：
+
+ROCK 3C: [Build 38](https://github.com/radxa-build/rock-3c/releases/download/b38/rock-3c_debian_bullseye_xfce_b38.img.xz)
+
+更多镜像请查看： [ROCK 3C radxa-build](https://github.com/radxa-build/rock-3c/releases/latest)
+
+### 发布信息
+
+[ROCK 3C Debian11 版本发布指南](https://forum.radxa.com/t/230428-system-release-notice-for-rock-3c/16282)
+
+</TabItem>
+</Tabs>
 
 ## 第三方镜像
+
+:::caution
+ROCK 3B 可以兼容 ROCK 3A 的大部分镜像，但是由于硬件接口差异，功能可能不完善，并且可能出现未知缺陷。
+:::
 
 | 系统                                                                                                                                          | 下载                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | 版本信息                                                                                                                                                                                     |
 | --------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

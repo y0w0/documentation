@@ -38,7 +38,7 @@ HDMI使用EDID显示数据来确定最佳显示分辨率。 在支持1080p（或
 
 ## 可选项
 
-- 支持 8GB 存储容量以上的[eMMC模块](https://docs.radxa.com/accessories/emmc_module)
+- 支持 8GB 存储容量以上的[eMMC模块](/accessories/emmc_module)
 
 - eMMC读卡器 **( <font color='red'>注意：该读卡器不适用于SPI Flash</font> )**
 

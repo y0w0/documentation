@@ -99,7 +99,7 @@ Step 3: Press the snap down firmly to fix the wires
 
 3. The pins are connected to the GPIO socket of the SBC through the Dupont cable as follows:
 
-<Tabs>
+<Tabs queryString="model">
 <TabItem value="3c" label="ROCK 3C">
 <div className='gpio_style'>
 

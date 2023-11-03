@@ -10,7 +10,7 @@ import TabItem from '@theme/TabItem';
 
 You can download the hardware information of ROCK 4 series board in this guide.
 
-<Tabs>
+<Tabs queryString="model">
   <TabItem value="ROCK_4SE" label="ROCK 4SE" default>
 
 [Product brief pdf](https://dl.radxa.com/rockpi4/docs/hw/rockpi4/radxa_rock4se_product_brief_Revision_1.8.pdf) - Overview of ROCK 4SE features  

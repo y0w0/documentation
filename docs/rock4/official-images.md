@@ -14,7 +14,7 @@ ROCK 4 官方操作系统镜像可从以下方式下载：
 
 ## 官方镜像下载链接
 
-<Tabs>
+<Tabs queryString="model">
   <TabItem value="ROCK 4SE" label="ROCK 4SE" default>
 
 | ![Debian](/img/Debian-logo.webp)                                                  | ![Android](/img/Android-Logo.webp)                                                                                                                    |

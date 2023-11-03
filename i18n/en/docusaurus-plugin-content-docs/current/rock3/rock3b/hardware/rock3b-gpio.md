@@ -21,7 +21,7 @@ ROCK 3B provides a 40pin GPIO socket, which is compatible with most sensor appli
 
 **_Tips:_ The actual compatibility is subject to usage.**
 
-<Tabs>
+<Tabs queryString="revision">
 <TabItem value="v1_1" label="v1.1">
 
 <div className='gpio_style'>

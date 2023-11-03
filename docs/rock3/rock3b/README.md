@@ -30,5 +30,5 @@ import TabItem from '@theme/TabItem';
 |             USB             | 一个 USB 3.0 OTG, 位于上方的 USB 3.0 端口，通过硬件开关来切换硬件功能；一个 USB 3.0 HOST 端口；两个 USB 2.0 HOST 端口                                           |
 |           以太网            | 支持以太网供电 (PoE) 的千兆以太网：PoE 供电需要选购额外的 HAT                                                                                                   |
 |             IO              | 40 pin GPIO 扩展座                                                                                                                                              |
-|            电源             | USB PD, 支持 USB Type-C PD 2.0, 9V/2A, 12V/2A, 15V/2A, 20V/2A<br/>Qualcomm® Quick ChargeTM: 支持 QC 3.0/2.0 协议，9V/2A, 12V/1.5A<br/>USB Type-C DC 6~24V 供电 |
+|            电源             | USB PD, 支持 USB Type-C PD 2.0, 9V/2A, 12V/2A, 15V/2A, 20V/2A<br/>Qualcomm® Quick ChargeTM: 支持 QC 3.0/2.0 协议，9V/2A, 12V/1.5A<br/>USB Type-C DC 5.3~12V 供电 |
 |            尺寸             | 100mm x 75mm                                                                                                                                                    |

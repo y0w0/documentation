@@ -30,5 +30,5 @@ Moreover, ROCK 3B not only has a community version (RK3568), but also provides a
 |             USB             | USB 3.0 OTG X1, hardware switch for host/device function switch, upper one<br/>USB 3.0 HOST X1<br/>USB 2.0 HOSTx2                                                        |
 |          Ethernet           | GbE LAN with Power over Ethernet (PoE) support<br/>additional HAT is required for powering from PoE                                                                      |
 |             IO              | 40 pin GPIO header                                                                                                                                                       |
-|            Power            | USB PD, support USB Type-C PD 2.0, 9V/2A, 12V/2A, 15V/2A, 20V/2A<br/>Qualcomm® Quick ChargeTM: support QC 3.0/2.0, 9V/2A, 12V/1.5A<br/>USB Type-C DC 6~24V power supply |
+|            Power            | USB PD, support USB Type-C PD 2.0, 9V/2A, 12V/2A, 15V/2A, 20V/2A<br/>Qualcomm® Quick ChargeTM: support QC 3.0/2.0, 9V/2A, 12V/1.5A<br/>USB Type-C DC 5.3~12V power supply |
 |            Size             | 100mm x 75mm                                                                                                                                                             |

@@ -19,7 +19,7 @@ import TabItem from '@theme/TabItem';
 提示：我们将会在[瑞莎论坛](https://forum.radxa.com/)发布每次版本发布的相关信息。
 :::
 
-<Tabs>
+<Tabs queryString="model">
 <TabItem value="ROCK 3A">
 
 ## ROCK 3A

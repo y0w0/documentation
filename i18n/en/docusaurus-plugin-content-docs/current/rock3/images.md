@@ -18,7 +18,7 @@ Tip: We will publish relevant information about each version release in [Raxa Fo
 
 ## Official Images
 
-<Tabs>
+<Tabs queryString="model">
 <TabItem value="ROCK 3A">
 
 ## ROCK 3A

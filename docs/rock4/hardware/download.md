@@ -10,7 +10,7 @@ import TabItem from '@theme/TabItem';
 
 您可以在本指南中下载 ROCK 4 系列对应主板的硬件信息。
 
-<Tabs>
+<Tabs queryString="model">
   <TabItem value="ROCK_4SE" label="ROCK 4SE">
 
 [产品简介 pdf](https://dl.radxa.com/rockpi4/docs/hw/rockpi4/radxa_rock4se_product_brief_Revision_1.8.pdf) - ROCK 4SE 功能概览  

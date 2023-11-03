@@ -34,7 +34,7 @@ GPIO tags are added to Radxa devices. You can simply use a command like `gpiofin
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-<Tabs>
+<Tabs queryString="lang">
 <TabItem value="C">
 
 The relevant header files need to be installed before use:

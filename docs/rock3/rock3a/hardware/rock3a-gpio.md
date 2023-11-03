@@ -22,7 +22,7 @@ ROCK 3A 提供一个 40 pin GPIO 扩展座，兼容市场上大多数传感器�
 提示：实际兼容性以实际使用情况为准。
 :::
 
-<Tabs>
+<Tabs queryString="revision">
 <TabItem value="v1_3" label="v1.3+">
 
 <div className='gpio_style'>

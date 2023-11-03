@@ -97,7 +97,7 @@ If you need to flash the system into the onboard eMMC, you need to use a USB-A t
 
 On such platforms, we can use the Amlogic boot tool to load the binaries. First make sure that the [python](https://www.python.org/) environment is installed, then run the following command in a new terminal:
 
-<Tabs>
+<Tabs queryString="nix">
 <TabItem value="MacOS">
 
 ```bash
@@ -128,7 +128,7 @@ bash <(curl -s https://raw.githubusercontent.com/corbindavenport/nexus-tools/mas
 
 #### Flash images
 
-<Tabs>
+<Tabs queryString="host_os">
 <TabItem value="Windows">
 
 Once the tool detects the Maskrom mode, you can click the `Select` button to select the loader file and then click the `Run` button to load it:

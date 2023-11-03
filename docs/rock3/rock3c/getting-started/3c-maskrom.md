@@ -49,7 +49,7 @@ ROCK 3C 支持 Maskrom 模式，这是 CPU 通过 USB OTG 端口接收命令的�
 
 5. 上电启动，随后可通过对应工具查看是否成功进入 Maskrom 模式，以下是正确进入后的示例
 
-   <Tabs>
+   <Tabs queryString="app">
    <TabItem value="RKDevTool">
 
    ![Connect SPI Pin](/img/configuration/rkdevtool-maskrom.webp)

@@ -49,7 +49,7 @@ This guide will instruct you how to operate the ROCK 3C in Maskrom mode.
 
 5. Power on the device and check if it has successfully entered Maskrom mode by using the corresponding tool, the following is an example of the correct entry.
 
-   <Tabs>
+   <Tabs queryString="app">
    <TabItem value="RKDevTool">
 
    ! [Connect SPI Pin](/img/configuration/rkdevtool-maskrom.webp)

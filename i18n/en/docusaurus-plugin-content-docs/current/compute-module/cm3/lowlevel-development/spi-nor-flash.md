@@ -44,7 +44,7 @@ This guide can help you to install the image to the SPI Nor Flash from the USB p
    - Plug the USB Male A to MicroUSB cable to Radxa CM3 IO OTG port(the Micro USB port), the other side to PC
    - Check usb device
 
-   <Tabs>
+   <Tabs groupId="os" queryString>
     <TabItem value="windows" label="Windows">
 
    Open RKDevTool and you would see the device is in **Found One MASKROM Device**.
@@ -66,9 +66,9 @@ This guide can help you to install the image to the SPI Nor Flash from the USB p
 
 3. Write U-Boot images to SPI Nor Flash or erase SPI Nor Flash
 
-   <Tabs>
+   <Tabs groupId="os" queryString>
     <TabItem value="windows" label="Windows PC">
-    <Tabs>
+    <Tabs groupId="operation" queryString>
     <TabItem value="write" label="Write U-Boot to SPI">
 
    1.Open the RKDevTool
@@ -112,7 +112,7 @@ This guide can help you to install the image to the SPI Nor Flash from the USB p
     </Tabs>
     </TabItem>
     <TabItem value="linux_mac" label="Linux/MacOS PC">
-    <Tabs>
+    <Tabs groupId="operation" queryString>
     <TabItem value="write" label="Write U-Boot to SPI">
 
    Open the terminal and run command rkdeveloptool:

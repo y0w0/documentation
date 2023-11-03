@@ -23,8 +23,8 @@ There are two methods available to flash the SPI:
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-<Tabs>
-<TabItem value="Simple method" label="Simple method" default>
+<Tabs queryString="method">
+<TabItem value="simple" label="Simple method" default>
 
 ## Simple method
 
@@ -156,7 +156,7 @@ Now you are done flashing a bootloader supporting NVMe booting.
 - Otherwise power off the ROCK 5, remove the µSD card or eMMC module and power it back up.It should boot now from your NVMe.
 
 </TabItem>
-<TabItem value="Advanced (external) method" label="Advanced (external) method">
+<TabItem value="external" label="Advanced (external) method">
 
 ## Advanced (external) method
 

@@ -10,7 +10,7 @@ import TabItem from '@theme/TabItem';
 
 You can check the differences between different hardware versions of ROCK 4 series boards here.
 
-<Tabs>
+<Tabs queryString="model">
 <TabItem value="ROCK_4SE" label="ROCK 4SE">
 
 - **V1.53:**  

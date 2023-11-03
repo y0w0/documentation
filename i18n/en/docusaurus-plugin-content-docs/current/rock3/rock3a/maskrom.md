@@ -27,5 +27,5 @@ Steps for the ROCK 3A to enter Maskrom mode:
 &emsp;&emsp;(About the position of the SPI pins please refer to step 2)
 
 7. Connect the OTG port of the board to the USB port of the host PC via the USB-A to USB-A cable.
-      ![ROCK 3A Maskrom](/img/rock3/3a/rock3a-maskrom-otg.webp)
+   ![ROCK 3A Maskrom](/img/rock3/3a/rock3a-maskrom-otg.webp)
 8. Use [Rockchip Development Kit](/general-tutorial/rksdk) for Maskrom mode operation

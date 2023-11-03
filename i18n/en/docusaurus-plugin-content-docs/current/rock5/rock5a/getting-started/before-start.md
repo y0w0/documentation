@@ -38,7 +38,7 @@ For flashing the image to the microSD Card
 
 ## Optional
 
-- [eMMC module](https://docs.radxa.com/accessories/emmc_module), larger than 8GB
+- [eMMC module](/accessories/emmc_module), larger than 8GB
 
 - eMMC reader **(<font color='red'> Note: The eMMC reader is not suitable for SPI Flash</font> )**
 

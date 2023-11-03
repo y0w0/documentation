@@ -60,7 +60,7 @@ Radxa 25W PoE 的包装清单如下：
 
 3. 在 Radxa 25W PoE HAT 的顶部，将四根 M2.5 x 4 铜柱与四根 M2.5 x 9 铜柱对齐，然后旋转固定到位。以下是图解结果：
 
-  <Tabs>
+  <Tabs queryString="model">
     <TabItem value="5a_4c+" label="ROCK 5A, ROCK 4C+">
 
     ![25W PoE 5A](/img/accessories/poe-hat/25w-poe-5a.webp)

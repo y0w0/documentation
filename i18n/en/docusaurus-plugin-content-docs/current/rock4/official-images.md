@@ -14,7 +14,7 @@ Official ROCK 4 OS images can also be downloaded from:
 
 ## Official Images
 
-<Tabs>
+<Tabs queryString="model">
   <TabItem value="ROCK 4SE" label="ROCK 4SE" default>
 
 | ![Debian](/img/Debian-logo.webp)                                                  | ![Android](/img/Android-Logo.webp)                                                                                                                    |

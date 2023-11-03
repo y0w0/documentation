@@ -43,7 +43,7 @@ The definition of each pin of USB to TTL cable is showing like this:
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-<Tabs>
+<Tabs queryString="os">
 <TabItem value="Windows" label="Windows" default>
 
 ## Windows

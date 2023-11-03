@@ -20,7 +20,7 @@ import TabItem from '@theme/TabItem';
 
 ## 方法一
 
-<Tabs>
+<Tabs queryString="target">
   <TabItem value="microSD" label="microSD">
 
 ### 准备

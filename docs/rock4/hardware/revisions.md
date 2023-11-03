@@ -10,7 +10,7 @@ import TabItem from '@theme/TabItem';
 
 您可以在此查询 ROCK 4 系列主板不同硬件版本之间的差异。
 
-<Tabs>
+<Tabs queryString="model">
 <TabItem value="ROCK_4SE" label="ROCK 4SE">
 
 - **V1.53:**  

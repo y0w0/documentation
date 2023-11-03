@@ -42,7 +42,7 @@ import TabItem from '@theme/TabItem';
    - 将 USB-A 转 MicroUSB 连接线插入 Radxa CM3 IO OTG 端口（Micro USB 端口），另一端插入电脑
    - 检查 USB 设备
 
-   <Tabs>
+   <Tabs groupId="os" queryString>
     <TabItem value="windows" label="Windows">
 
    打开 RKDevTool，如果 Maskrom 设备正常连接，你会看到 **发现一个 Maskrom 设备** 的提示。
@@ -64,9 +64,9 @@ import TabItem from '@theme/TabItem';
 
 3. 将 U-Boot 映像写入 SPI Nor Flash 或擦除 SPI Nor Flash
 
-   <Tabs>
+   <Tabs groupId="os" queryString>
     <TabItem value="windows" label="Windows PC">
-    <Tabs>
+    <Tabs groupId="operation" queryString>
     <TabItem value="write" label="将 U-Boot 写入 SPI">
 
    1.打开 RKDevTool
@@ -110,7 +110,7 @@ import TabItem from '@theme/TabItem';
     </Tabs>
     </TabItem>
     <TabItem value="linux_mac" label="Linux/MacOS PC">
-    <Tabs>
+    <Tabs groupId="operation" queryString>
     <TabItem value="write" label="将 U-Boot 写入 SPI">
 
    打开终端并执行 rkdeveloptool：

@@ -7,7 +7,7 @@ sidebar_position: 20
 
 Radxa SPI Flash Module is an embedded storage module with high performance and reliability in a ultra small form factor. With dual B2B(Board to Board) connector, Radxa SPI Flash module can be unplug and replaced without soldering, making data storage maintenance easy.
 
-The SPI Flash module and the eMMC module write the OS image in the same way, you can refer to [Install OS to an SPI Flash Module](https://docs.radxa.com/rock5/rock5a/getting-started/emmc-install).
+The SPI Flash module and the eMMC module write the OS image in the same way, you can refer to [Install OS to an SPI Flash Module](/general-tutorial/os-installation?target=eMMC+Module).
 
 # How to use SPI Flash module on ROCK 5A
 

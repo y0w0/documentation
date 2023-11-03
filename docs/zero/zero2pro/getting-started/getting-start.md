@@ -96,7 +96,7 @@ import TabItem from '@theme/TabItem';
 
 在这类平台上，我们可以使用 Amlogic boot tool 来加载二进制文件。首先确认已安装 [python](https://www.python.org/) 环境，然后在新终端中运行以下命令：
 
-<Tabs>
+<Tabs queryString="nix">
 <TabItem value="MacOS">
 
 ```bash
@@ -127,7 +127,7 @@ bash <(curl -s https://raw.githubusercontent.com/corbindavenport/nexus-tools/mas
 
 #### 烧录固件
 
-<Tabs>
+<Tabs queryString="host_os">
 <TabItem value="Windows">
 
 工具检测到 Maskrom 模式后，你就可以点击 `Select` 按钮来选择 Loader 文件，然后点击 `Run` 按钮进行加载：

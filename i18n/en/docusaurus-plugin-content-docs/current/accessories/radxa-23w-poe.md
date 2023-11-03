@@ -14,7 +14,7 @@ Radxa 23W PoE HAT is a HAT accessory designed for Raspberry Pi, Radxa ROCK 3 and
 The 23W PoE HAT allows you to power your Raspberry Pi, ROCK 3 and 4 series or Jetson Nano using Power over Ethernet–enabled networks;
 for this product to be used, the network it is connected to needs to have power-sourcing equipment installed.
 
-<Tabs>
+<Tabs queryString="section">
 <TabItem value="specs" label="Hardware Introduction">
 
 ## Supported Products
@@ -47,7 +47,7 @@ FxL has the 40 pins GPIO pin-out, you can also use the 40 pins GPIO, but you can
 
 </TabItem>
 <TabItem value="hardware" label="Hareware Information">
-<Tabs>
+<Tabs queryString="model">
 <TabItem value="f3" label="F3/F3L Pinout">
 
 PoE HAT for Raspberry Pi 3B+/4/Jetson Nano ROCK 3A 3C and 4C+.

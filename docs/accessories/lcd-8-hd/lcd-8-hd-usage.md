@@ -99,7 +99,7 @@ Step 3：将卡扣向下按紧，固定排线
 
 3. 通过杜邦线连接额外接口，接法如下：
 
-<Tabs>
+<Tabs queryString="model">
 <TabItem value="3c" label="ROCK 3C">
 <div className='gpio_style'>
 

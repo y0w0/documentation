@@ -3,9 +3,12 @@ sidebar_label: "获取Loader"
 sidebar_position: 2
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # SPI U-Boot 镜像及 Loader 文件
 
-:::note
+:::tip
 SPI/U-boot/loader文件和CPU型号相关, 可根据产品对应的CPU型号去下面列表中去找.
 :::
 

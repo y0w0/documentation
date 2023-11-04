@@ -3,9 +3,12 @@ sidebar_label: "Get Loader"
 sidebar_position: 2
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # SPI U-Boot image and Loader file
 
-:::note
+:::tip
 The SPI/U-boot/loader file is related to the CPU model, you can find them in the following list according to the corresponding CPU model of the product.
 :::
 

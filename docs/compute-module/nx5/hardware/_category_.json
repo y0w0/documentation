@@ -1,7 +1,6 @@
 {
   "label": "硬件信息",
   "link": {
-    "description": "Radxa NX5 IO 的硬件信息",
     "slug": "/compute-module/nx5/hardware",
     "type": "generated-index"
   },

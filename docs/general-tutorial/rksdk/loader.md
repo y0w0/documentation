@@ -15,7 +15,7 @@ SPI/U-boot/loader文件和CPU型号相关, 可根据产品对应的CPU型号去�
   - [rk356x_spl_loader_ddr1056_v1.10.111.bin](https://dl.radxa.com/rock3/images/loader/radxa-cm3-io/rk356x_spl_loader_ddr1056_v1.10.111.bin)
   - [rk356x_spl_loader_ddr1056_v1.12.109_no_check_todly.bin](https://dl.radxa.com/rock3/images/loader/rk356x_spl_loader_ddr1056_v1.12.109_no_check_todly.bin)
 
-- ROCK 4 系列 （**对应的CPU型号：RK3399/RK3399-T/RK3399Pro**）
+- ROCK 4 系列 （**对应的CPU型号：RK3399/RK3399-T/RK3399(Rockchip OP1)**）
 
   - [rk3399_loader_v1.27.126.bin](https://dl.radxa.com/rockpi4/images/loader/rk3399_loader_v1.27.126.bin)
 

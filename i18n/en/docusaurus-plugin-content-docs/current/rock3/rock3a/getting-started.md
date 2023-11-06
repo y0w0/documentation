@@ -7,7 +7,7 @@ import TabItem from '@theme/TabItem';
 
 # Getting Started
 
-ROCK 3A features a quad core Cortex-A55 ARM processor, 32bit 3200Mb/s LPDDR4,
+ROCK 3A features a quad core Cortex-A55 ARM processor, 32bit LPDDR4 memory,
 up to 4K@60 HDMI, MIPI DSI, MIPI CSI, 3.5mm jack with mic, USB Port, GbE LAN,
 PCIe 3.0, PCIe 2.0, 40-pin color expansion header, RTC. Also, ROCK 3A supports USB PD and QC powering.
 

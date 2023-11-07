@@ -51,6 +51,4 @@ Pin 3 and Pin 5 have additional pull-up to power downstream I2C devices, as such
 
 </div>
 
-## GPIO Number
-
-If you want to get the GPIO number,please check [GPIO Number Introduction](/radxa-os/development/gpio-num.md).
+Please refer to [`libgpiod`](/radxa-os/development/libgpiod.md) for how to control GPIO.

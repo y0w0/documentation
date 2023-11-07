@@ -1,6 +1,6 @@
 ---
 sidebar_label: "Antenna"
-sidebar_position: 50
+sidebar_position: 1
 ---
 
 # RF Antenna

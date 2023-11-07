@@ -83,8 +83,6 @@ If you already know the product well enough, you can also use the Direct Connect
 
 [GPIO Definition](/rock3/rock3a/hardware/rock3a-gpio)
 
-[GPIO Number](/radxa-os/development/gpio-num.md)
-
 ### Hardware Docs Download
 
 [v1.3 schematic pdf](https://dl.radxa.com/rock3/docs/hw/3a/ROCK-3A-V1.3-SCH.pdf) - ROCK 3A Schematic file Download

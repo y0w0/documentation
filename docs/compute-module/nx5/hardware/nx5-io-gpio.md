@@ -47,6 +47,4 @@ Radxa NX5 IO 提供了一个40pin针脚的GPIO座子，兼容于市面上大部�
 
 </div>
 
-## GPIO 编号
-
-如果你需要获取 GPIO 编号，请参阅 [GPIO 编号介绍](/radxa-os/development/gpio-num.md)。
+请参阅 [`libgpiod`](/radxa-os/development/libgpiod.md) 来了解该如何控制 GPIO。

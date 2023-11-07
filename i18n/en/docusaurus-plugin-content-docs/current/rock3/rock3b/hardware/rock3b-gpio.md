@@ -64,6 +64,4 @@ ROCK 3B provides a 40pin GPIO socket, which is compatible with most sensor appli
 </TabItem>
 </Tabs>
 
-## GPIO Number
-
-If you want to get the GPIO number,please check [GPIO Number Introduction](/radxa-os/development/gpio-num.md).
+Please refer to [`libgpiod`](/radxa-os/development/libgpiod.md) for how to control GPIO.

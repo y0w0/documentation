@@ -66,6 +66,4 @@ Not all functions can be turned on at the same time. Only one function can be as
 - For I2C-2 and I2C-7
   - We have do the test using the i2c device e2prom. We need to open the i2c device file, and then do the read or write operation.
 
-## GPIO Number
-
-If you want to get the GPIO number,please check [GPIO Number Introduction](/radxa-os/development/gpio-num.md).
+Please refer to [`libgpiod`](/radxa-os/development/libgpiod.md) for how to control GPIO.

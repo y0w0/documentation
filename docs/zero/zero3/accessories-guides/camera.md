@@ -1,5 +1,5 @@
 ---
-sidebar_label: "Camera 使用教程"
+sidebar_label: "Camera"
 sidebar_position: 20
 ---
 

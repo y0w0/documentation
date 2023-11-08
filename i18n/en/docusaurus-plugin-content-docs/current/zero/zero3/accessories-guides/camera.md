@@ -1,6 +1,6 @@
 ---
-sidebar_label: "Camera Tutorial"
-sidebar_position: 20
+sidebar_label: "Camera"
+sidebar_position: 2
 ---
 
 # ZERO 3W CSI Interface Definition

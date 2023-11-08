@@ -1,6 +1,6 @@
 ---
 sidebar_label: "射频天线"
-sidebar_position: 50
+sidebar_position: 1
 ---
 
 # 射频天线

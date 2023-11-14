@@ -5,7 +5,7 @@ sidebar_position: 1
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# Getting Start
+# Getting Started
 
 - Radxa NIO 12L is a small-sized, high-performance single-board computer, equipped with the MediaTek MT8395(Genio 1200) eight-core processor as the development platform, equipped with Mali G-57 MC5 GPU and AI processing module, providing users with a smooth desktop experience and powerful AI Computing power and rich peripheral interfaces provide more possibilities for complex multiple scenarios.
 
@@ -98,4 +98,4 @@ import TabItem from '@theme/TabItem';
 - Camera  
   Support MIPI CSI camera.
 
-### [System burning](/nio/nio_12l/system-flash)
+### [System burning](/nio/nio12l/system-flash)

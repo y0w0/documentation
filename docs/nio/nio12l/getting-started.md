@@ -98,4 +98,4 @@ import TabItem from '@theme/TabItem';
 - 摄像头  
   支持MIPI CSI摄像头。
 
-### [系统烧录](/nio/nio_12l/system-flash)
+### [系统烧录](/nio/nio12l/system-flash)

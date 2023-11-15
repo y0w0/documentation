@@ -11,7 +11,7 @@ import TabItem from '@theme/TabItem';
 
 ## 标注图
 
-![NIO 12L Overview](/img/nio/nio_12l/n12_overview.webp)
+![NIO 12L Overview](/img/nio/nio12l/n12l_overview.webp)
 
 ## 特性
 
@@ -98,4 +98,6 @@ import TabItem from '@theme/TabItem';
 - 摄像头  
   支持MIPI CSI摄像头。
 
-### [系统烧录](/nio/nio12l/system-flash)
+### 系统安装
+
+[Yocto系统安装](/nio/nio12l/install-yocto-system)

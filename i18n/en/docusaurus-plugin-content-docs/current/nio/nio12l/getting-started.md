@@ -11,7 +11,7 @@ import TabItem from '@theme/TabItem';
 
 ## Annotation diagram
 
-![NIO 12L Overview](/img/nio/nio_12l/n12_overview.webp)
+![NIO 12L Overview](/img/nio/nio12l/n12l_overview.webp)
 
 ## Feature
 
@@ -95,7 +95,8 @@ import TabItem from '@theme/TabItem';
 - USB to TTL serial cable.
   For [Serial Debugging](/general-tutorial/serial),serial port baud rate is 921600.。
 
-- Camera  
+- Camera
   Support MIPI CSI camera.
 
-### [System burning](/nio/nio12l/system-flash)
+### System Installation
+[Yocto System installation](/nio/nio12l/install-yocto-system)

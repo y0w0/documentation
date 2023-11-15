@@ -99,4 +99,5 @@ import TabItem from '@theme/TabItem';
   支持MIPI CSI摄像头。
 
 ### 系统安装
+
 [Yocto系统安装](/nio/nio12l/install-yocto-system)

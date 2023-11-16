@@ -53,9 +53,9 @@ Additional information:
 
 ### Official image
 
-The following systems have been officially tested and verified by Renesas:
+The following systems have been officially tested and verified by Radxa:
 
-ROCK 3B: The first release version: [Build 18](https://github.com/radxa-build/rock-3b/releases/download/b18/rock-3b_debian_bullseye_xfce_b18.img.xz)
+ROCK 3B:  [Build 18](https://github.com/radxa-build/rock-3b/releases/download/b18/rock-3b_debian_bullseye_xfce_b18.img.xz)
 
 For more images, please check: [ROCK 3B radxa-build](https://github.com/radxa-build/rock-3b/releases/latest)
 

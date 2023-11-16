@@ -49,7 +49,15 @@ Additional information:
 </TabItem>
 <TabItem value="ROCK 3B">
 
-Coming soon.
+## ROCK 3B
+
+### Official image
+
+The following systems have been officially tested and verified by Radxa:
+
+ROCK 3B: [Build 18](https://github.com/radxa-build/rock-3b/releases/download/b18/rock-3b_debian_bullseye_xfce_b18.img.xz)
+
+For more images, please check: [ROCK 3B radxa-build](https://github.com/radxa-build/rock-3b/releases/latest)
 
 </TabItem>
 <TabItem value="ROCK 3C">
@@ -61,8 +69,6 @@ Coming soon.
 The following systems have been officially tested and verified by Renesas:
 
 ROCK 3C: [Build 38](https://github.com/radxa-build/rock-3c/releases/download/b38/rock-3c_debian_bullseye_xfce_b38.img.xz)
-
-For more images, please check: [ROCK 3C radxa-build](https://github.com/radxa-build/rock-3c/releases/latest)
 
 ### release notes
 

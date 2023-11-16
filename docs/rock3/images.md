@@ -71,8 +71,6 @@ ROCK 3B：[Build 18](https://github.com/radxa-build/rock-3b/releases/download/b1
 
 ROCK 3C: [Build 38](https://github.com/radxa-build/rock-3c/releases/download/b38/rock-3c_debian_bullseye_xfce_b38.img.xz)
 
-更多镜像请查看： [ROCK 3C radxa-build](https://github.com/radxa-build/rock-3c/releases/latest)
-
 ### 发布信息
 
 [ROCK 3C Debian11 版本发布指南](https://forum.radxa.com/t/230428-system-release-notice-for-rock-3c/16282)

@@ -50,7 +50,15 @@ ROCK 3A 当前使用的是安卓 11，你可以从以下链接中下载镜像：
 </TabItem>
 <TabItem value="ROCK 3B">
 
-Comming soon.
+## ROCK 3B
+
+### 官方镜像
+
+以下系统已由瑞莎官方测试验证：
+
+ROCK 3B：首个发布镜像：[Build 18](https://github.com/radxa-build/rock-3b/releases/download/b18/rock-3b_debian_bullseye_xfce_b18.img.xz)
+
+更多镜像请查看： [ROCK 3B radxa-build](https://github.com/radxa-build/rock-3b/releases/latest)
 
 </TabItem>
 <TabItem value="ROCK 3C">

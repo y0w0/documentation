@@ -1,7 +1,6 @@
 ---
 sidebar_label: "Maskrom 模式"
 sidebar_position: 40
-slug: /rock3b/maskrom
 ---
 
 import Tabs from '@theme/Tabs';

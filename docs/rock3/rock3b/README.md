@@ -1,6 +1,5 @@
 ---
 sidebar_position: 30
-slug: /rock3b
 ---
 
 import Tabs from '@theme/Tabs';

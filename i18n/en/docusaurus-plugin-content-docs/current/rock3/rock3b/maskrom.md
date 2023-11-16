@@ -1,7 +1,6 @@
 ---
 sidebar_label: "Maskrom Mode"
 sidebar_position: 40
-slug: /rock3b/maskrom
 ---
 
 import Tabs from '@theme/Tabs';

@@ -1,7 +1,6 @@
 ---
 sidebar_label: "Hardware Information"
 sidebar_position: 55
-slug: /rock3b/hardware-download
 ---
 
 # Hardware Information

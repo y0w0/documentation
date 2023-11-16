@@ -1,7 +1,6 @@
 ---
 sidebar_label: "硬件资料下载"
 sidebar_position: 55
-slug: /rock3b/hardware-download
 ---
 
 # 硬件资料下载

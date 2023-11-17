@@ -24,7 +24,9 @@ Radxa ZERO 2 PRO: [Build 32](https://github.com/radxa-build/radxa-zero-2pro/rele
 </TabItem>
 <TabItem value="ZERO 3W/E">
 
-即将推出。
+Radxa ZERO 3: [Build 3](https://github.com/radxa-build/radxa-zero3/releases/download/b3/radxa-zero3_debian_bullseye_xfce_b3.img.xz)
+
+更多镜像请查看： [ZERO 3 Release](https://github.com/radxa-build/radxa-zero3/releases/latest)
 
 </TabItem>
 </Tabs>

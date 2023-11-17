@@ -118,7 +118,7 @@ import TabItem from '@theme/TabItem';
 
 ### 系统安装
 
-1. 选择您要使用的[官方镜像](/rock3/images)并下载。
+1. 选择您要使用的[官方镜像](/zero/images)并下载。
 
 2. 参考[操作系统安装指南](/general-tutorial/os-installation)将镜像刷写到存储介质中。
 

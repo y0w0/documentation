@@ -118,7 +118,7 @@ import TabItem from '@theme/TabItem';
 
 ### System Installation
 
-1. select the [Official Image](/rock3/images) you want to use and download it.
+1. select the [Official Image](/zero/images) you want to use and download it.
 
 2. refer to the [Operating System Installation Guide](/general-tutorial/os-installation) to swipe the image to the storage media.
 

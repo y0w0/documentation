@@ -29,7 +29,7 @@ Typing the password and select `Overlays` to rsetup tool interface.
 Select `Overlays`:
 
 ```
-Please select an option below: 
+Please select an option below:
         System Maintenance
         Hardware
         Overlays
@@ -52,7 +52,7 @@ Configure Device Tree Overlay
       <Ok>            <Cancel>
 ```
 
-Next, the installed device tree would shown, it may be different on different product.  
+Next, the installed device tree would shown, it may be different on different product.
 Press the space bar to `Enable Radxa Display 8HD`
 
 ```

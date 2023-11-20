@@ -28,7 +28,7 @@ radxa@rock-3b:~$ rsetup
 输入密码进入 rsetup 工具界面，并选择 `Overlays`：
 
 ```bash
-Please select an option below: 
+Please select an option below:
         System Maintenance
         Hardware
         Overlays

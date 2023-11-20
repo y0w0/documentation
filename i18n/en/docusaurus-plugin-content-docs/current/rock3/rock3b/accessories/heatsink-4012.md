@@ -1,52 +1,54 @@
 ---
-sidebar_label: "散热器 4012"
+sidebar_label: "Heatsink 4012"
 sidebar_position: 55
 ---
 
-# Heatsink 4012 使用教程
+# Heatsink 4012 Usage
 
-## 材料清单
+## List of Accessories
 
 - Heatsink 4012
-- 导热硅胶
+- Thermal Conductive Silicone Gel
+- Thermal Conductive Silicone Grease
 
-## 安装流程
+## Installation Procedure
 
-Heatsink 4012 是可用在 ROCK 3B 的散热风扇，安装教程如图所示：
+- Heatsink 4012 is a heatsink fan that can be used with the ROCK 3B. The installation instructions are shown in the diagram below:
 
-- 将散热硅胶贴在 Heatsink 4012 上，露出 SoC 位置用于涂上导热硅脂；
+- Apply thermal silicone adhesive to the Heatsink 4012, exposing the SoC position for the application of thermal silicone grease.
 
 ![Heatsink 4012](/img/rock5b/heatsink4012-use-1.webp)
 
-- 把散热硅胶涂在 SoC 芯片上；
+- Apply thermal silicone adhesive to the SoC chip.
 
 ![Heatsink 4012](/img/rock5b/heatsink4012-use-2.webp)
 
-- 将卡扣对准 ROCK 5B 的孔位按压下去；
-- 连接电源线到风扇座。
+- Align the buckle with the mounting holes on the ROCK 5B and press it down.
+- Connect the power cable to the fan socket.
 
 ![Heatsink 4012](/img/rock3/3b/rock_3b_with_heatsink.webp)
 
-## 配置
+## Configuration
 
-系统默认是有三种模式
+The operating system has three modes by default：
 
-- **power_allocator**：系统默认是无风扇模式或 DC 风扇模式。确保机器在没有散热风扇的前提下依旧能稳定工作；
-- **user_space**：手动控制散热风扇模式。用户可以根据自己的需要，通过命令终端控制散热风扇的转速；
-- **step_wise**：自动温度调节模式。CPU 在 60℃ 以下散热风扇处于休眠状态，当 CPU 达到 60℃ 以上散热风扇开始工作。  
-  **注意：当 ROCK 3B 处于关机和睡眠状态的时候，散热风扇将不工作。**
+- **power_allocator**: The system defaults to fanless mode or DC fan mode. Make sure that the machine can still work stably without a cooling fan;
+- **user_space**: Manually control cooling fan mode. Users can control the speed of the cooling fan through the command terminal according to your needs;
+- **step_wise**: automatic temperature adjustment mode. When the temperature of the CPU is below 60°C, the cooling fan is in a dormant state; And when the temperature of the CPU reaches above 60°C, the cooling fan starts to work.
+  **Note: When ROCK 5B is in shutdown or sleep state, the cooling fan does not work.**
 
-你可以通过命令终端"`retsup`->`Hardware`->`Thermal governor`"，用`空格键`选用模式，具体操作如下：
+You can use the command terminal by "`retsup->Hardware`->`Thermal governor`", then use the `space bar` to select the mode, the specific operation is as follows:
 
-同时按 `Ctrl + Alt + T` 打开终端，运行 `rsetup` 命令如下：
+Press "Ctrl + Alt + T" simultaneously to open a terminal, run `rsetup` command as below:
 
-```bash
+```
 radxa@rock-3b:~$ rsetup
 ```
 
-输入密码并选择 `Hardware` 进入硬件控制端界面:
+Typing the password and select `Hardware` to rsetup tool interface.  
+Select `Hardware`:
 
-```bash
+```
 Please select an option below:
         System Maintaince
         Hardware
@@ -58,9 +60,9 @@ Please select an option below:
         <Ok>            <Cancel>
 ```
 
-按然后进入 `Thermal governor`
+Then, select `Thermal governor`.
 
-```bash
+```
 Manage on-board hardware:
         Video capture devices
         GPIO LEDs
@@ -69,7 +71,7 @@ Manage on-board hardware:
         <Ok>            <Cancel>
 ```
 
-用`空格键`选用模式
+Select mode with `spacebar`
 
 ```bash
 ┌─────────────────────────────────────────┤ RSETUP ├───────────────────────────────────────────────┐
@@ -94,45 +96,44 @@ Manage on-board hardware:
 └──────────────────────────────────────────────────────────────────────────────────────────────────│
 ```
 
-如果你选用的是 `user_space` 模式，你需要手动去控制散热风扇。
+If you choose `user_space` mode, you need to manually control the cooling fan.
 
-首先，你要找到风扇设备节点 `pwm-fan`:
+Find the node of the fan device `pwm-fan`:
 
-```bash
+```
 cat /sys/class/thermal/cooling_device*/type
 ```
 
-举个例子，该散热风扇的挂载在 `cooling_device1`，你将会通过 `cat /sys/class/thermal/cooling_device1/type` 查看到 `pwm-fan`:
+For example, the node of the pwm fan is `cooling_device1`:
 
-```bash
+```
 radxa@rock-3b: cat /sys/class/thermal/cooling_device1/type
 pwm-fan
 ```
 
-**注意：以下操作以 `cooling_device1` 为例**
+**Note: The following operations take `cooling_device1` as an example.**
 
-直接打开散热风扇最高速度:
+Directly open the highest speed:
 
 ```
 radxa@rock-3b:~$ sudo cp /sys/class/thermal/cooling_device1/max_state /sys/class/thermal/cooling_device1/cur_state
 ```
 
-您可以通过以下指令查看散热风扇支持多少转速：
+You can check how many speeds the cooling fan supports through the following:
 
 ```
 radxa@rock-3b:~$ cat /sys/class/thermal/cooling_device1/max_state
 4
 ```
 
-如果要选择第三档速度，请按照以下指令进行操作：
+If you want to select the third speed, follow the instructions below:
 
 ```
 echo 3 | sudo tee /sys/class/thermal/cooling_device1/cur_state
 ```
 
-如果您想使用其他速度档位，只需更改数字即可。 如果要关闭散热风扇，速度档选 0 即可。
+If you want to use another speed gear, you just need to change the number. If you want to turn off the cooling fan, just select 0 for the speed gear.
 
 ```
 echo 0 | sudo tee /sys/class/thermal/cooling_device1/cur_state
 ```
-

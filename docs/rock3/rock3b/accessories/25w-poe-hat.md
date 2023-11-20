@@ -13,7 +13,7 @@ sidebar_position: 55
 
 ## 安装流程
 
-请参考 [Radxa 25W PoE HAT](/docs/accessories/radxa-25w-poe.md)
+请参考 [Radxa 25W PoE HAT](/docs/accessories/radxa-25w-poe)
 
 ## 风扇调速
 

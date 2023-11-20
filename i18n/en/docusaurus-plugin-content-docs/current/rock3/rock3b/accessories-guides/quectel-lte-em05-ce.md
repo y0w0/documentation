@@ -46,7 +46,6 @@ sudo apt update
 sudo apt install ppp picocom net-tools
 ```
 
-
 ## Test the modem with the `at` command
 
 First, open the serial port using `picocom` :

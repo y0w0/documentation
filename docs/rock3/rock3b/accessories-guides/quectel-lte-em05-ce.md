@@ -46,7 +46,6 @@ sudo apt update
 sudo apt install ppp picocom net-tools
 ```
 
-
 ## 使用 `at` 指令测试调制解调器
 
 首先，使用 `picocom` 打开串口：

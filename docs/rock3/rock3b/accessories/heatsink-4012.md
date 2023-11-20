@@ -136,4 +136,3 @@ echo 3 | sudo tee /sys/class/thermal/cooling_device1/cur_state
 ```
 echo 0 | sudo tee /sys/class/thermal/cooling_device1/cur_state
 ```
-

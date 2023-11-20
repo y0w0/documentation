@@ -56,7 +56,7 @@ sidebar_custom_props: { product_docs: [
             ],
         },
 
- {
+        {
           # 产品代号
           product_code: "rs118",
           # 产品名

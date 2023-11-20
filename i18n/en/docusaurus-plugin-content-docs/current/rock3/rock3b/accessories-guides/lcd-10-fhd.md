@@ -35,7 +35,7 @@ Please select an option below:
         Overlays
         User Settings
         Localization
-        About   
+        About
         <Ok>             <Cancel>
 ```
 

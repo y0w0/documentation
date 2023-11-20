@@ -30,8 +30,8 @@ radxa@rock-3b:~$ rsetup
 ```bash
 Please select an option below: 
         System Maintenance
-        Hardware 
-        Overlays 
+        Hardware
+        Overlays
         User Settings
         Localization
         About   

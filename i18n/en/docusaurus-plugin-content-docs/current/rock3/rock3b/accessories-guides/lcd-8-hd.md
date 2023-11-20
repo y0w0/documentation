@@ -31,8 +31,8 @@ Select `Overlays`:
 ```
 Please select an option below: 
         System Maintenance
-        Hardware 
-        Overlays 
+        Hardware
+        Overlays
         User Settings
         Localization
         About   

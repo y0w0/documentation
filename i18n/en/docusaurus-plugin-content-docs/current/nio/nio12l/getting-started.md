@@ -101,3 +101,5 @@ import TabItem from '@theme/TabItem';
 ### System Installation
 
 [Yocto System installation](/nio/nio12l/install-yocto-system)
+
+## [Build Yocto](https://gitlab.com/mediatek-iot-yocto/docs)

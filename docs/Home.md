@@ -72,7 +72,7 @@ sidebar_custom_props: { product_docs: [
                 title_zh: "新手入门指南",
                 info_zh: "从这里开始你的 ROCK 3B 之旅",
                 title_en: "Getting Started Guide",
-                info_en: "Start Your ROCK 3A Journey Here",
+                info_en: "Start Your ROCK 3B Journey Here",
                 url: "/rock3/rock3b/getting-started",
               },
               {

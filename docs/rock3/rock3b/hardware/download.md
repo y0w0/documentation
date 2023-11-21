@@ -24,3 +24,7 @@ ROCK 3B V1.5 底部尺寸标注图下载：[ROCK_3B_V1_5_pcb_reaerence_dimension
 ROCK 3B V1.5 顶部 2D 设计文件下载（dxf 格式）：[ROCK_3B_V1_51_pcb_2d_top](https://dl.radxa.com/rock3/docs/hw/3b/ROCK_3B_V1_51_pcb_2d_top.dxf)。
 
 ROCK 3B V1.5 底部 2D 设计文件下载（dxf 格式）：[ROCK_3B_V1_51_pcb_2d_bottom](https://dl.radxa.com/rock3/docs/hw/3b/ROCK_3B_V1_51_pcb_2d_bottom.dxf)。
+
+### 3D 文件
+
+ROCK 3B V1.5 PCBA 3D 设计文件(stp格式)：[ROCK_3B_V1_51_pcb_3d_top](https://dl.radxa.com/rock3/docs/hw/3b/radxa_rock_3b_sbc_3d_v1.51.stp.zip)

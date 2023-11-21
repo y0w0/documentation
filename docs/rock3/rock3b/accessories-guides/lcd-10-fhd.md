@@ -105,7 +105,7 @@ Please select overlays:
         <Ok>                   <Cancel>
 ```
 
-按下空格键使能8HD屏幕`Enable Radxa Display 10FHD`
+按下空格键使能 10FHD 屏幕`Enable Radxa Display 10FHD`
 
 ```bash
 [*] Enable Radxa Display 10FHD

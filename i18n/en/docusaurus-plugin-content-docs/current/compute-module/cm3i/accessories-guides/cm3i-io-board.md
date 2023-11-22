@@ -39,4 +39,4 @@ Radxa CM3I IO Board is the functional verification baseboard of Radxa CM3I, whic
 - 1x 12V DC, Power input option provides 12V DC power
 - 1x 12V DC Pin, Direct 12V power input/output option available
 - 1x PoE
-- 14 GPIO pins: Provides debugging serial port, Speak and headphone interfaces
+- 14 GPIO pins: Provides debugging serial port, Speaker and headphone interfaces

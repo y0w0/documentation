@@ -1,12 +1,12 @@
 ---
-sidebar_label: "安装系统"
+sidebar_label: "Debian系统安装"
 sidebar_position: 2
 ---
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# 系统安装
+# Debian系统安装
 
 ## microSD 卡系统安装
 
@@ -14,7 +14,7 @@ import TabItem from '@theme/TabItem';
 
 1. 准备一个 microSD 卡
 2. 准备一个 SD 卡读卡器
-3. 下载[对应产品](/productlist)的官方 Ubuntu / Debian 系统镜像
+3. 下载对应产品的官方 [Debian系统镜像](/compute-module/images)
 4. 把 SD 卡插入 SD 读卡器, 然后把 SD 读卡器插入计算机的 USB 接口
 
 ### 刷入操作系统镜像到 microSD
@@ -22,35 +22,35 @@ import TabItem from '@theme/TabItem';
 #### 通过 Etcher 刷入操作系统镜像到 microSD
 
 1. [下载](https://etcher.balena.io/)刷写工具 `Etcher`。  
-   ![ROCK5A via Etcher 01](/img/rock5a/rock5a-etcher.webp)
+   ![CM3I  via Etcher 01](/img/rock5a/rock5a-etcher.webp)
 
 2. 打开 Etcher，将准备的操作系统镜像刷写到 microSD 卡。在 Etcher 窗口中，单击 `Flash from file` 选择刚下载的操作系统镜像。  
-   ![ROCK5A via Etcher 02](/img/rock5a/rock5a-etcher-1.webp)
+   ![CM3I via Etcher 02](/img/rock5a/rock5a-etcher-1.webp)
 
 3. 在 Etcher 窗口中，点击 `Select target`。  
-   ![ROCK5A via Etcher 03](/img/rock5a/rock5a-etcher-2.webp)
+   ![CM3I  via Etcher 03](/img/rock5a/rock5a-etcher-2.webp)
 
 4. 在 Etcher 窗口中，点击 `Flash!` 然后等待刷写进度条。  
-   ![ROCK5A via Etcher 04](/img/rock5a/rock5a-etcher-3.webp)
+   ![CM3I  via Etcher 04](/img/rock5a/rock5a-etcher-3.webp)
 
 5. 在 Etcher 窗口中，当刷写成功时将会显示 `Flash Complete!`  
-   ![ROCK5A via Etcher 05](/img/rock5a/rock5a-etcher-4.webp)
+   ![CM3I  via Etcher 05](/img/rock5a/rock5a-etcher-4.webp)
 
 **如果刷写操作系统镜像错误, 请手动再试一次。**
 
 #### 通过 Win32DiskImager 刷入操作系统镜像到 microSD
 
 1. [下载](https://win32diskimager.org/)刷写工具 `Win32DiskImager`  
-   ![ROCK5A via Win32DiskImager 01](/img/rock5a/rock5a-win32.webp)
+   ![CM3I  via Win32DiskImager 01](/img/rock5a/rock5a-win32.webp)
 
 2. 打开 Win32DiskImager  
-   ![ROCK5A via Win32DiskImager 02](/img/rock5a/rock5a-win32-1.webp)
+   ![CM3I  via Win32DiskImager 02](/img/rock5a/rock5a-win32-1.webp)
 
 3. 点击文件夹图标按钮然后选择要刷写的镜像  
-   ![ROCK5A via Win32DiskImager 03](/img/rock5a/rock5a-win32-2.webp)
+   ![CM3I  via Win32DiskImager 03](/img/rock5a/rock5a-win32-2.webp)
 
 4. 完成上述操作后，单击 `Write` 按钮开始刷写镜像，然后等待写入镜像完成。  
-   ![ROCK5A via Win32DiskImager 04](/img/rock5a/rock5a-win32-3.webp)
+   ![CM3I  via Win32DiskImager 04](/img/rock5a/rock5a-win32-3.webp)
 
 <!-- end of the list -->
 

@@ -1,12 +1,12 @@
 ---
-sidebar_label: "Install System"
+sidebar_label: "Install Debian System"
 sidebar_position: 2
 ---
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# Install System
+# Install Debian System
 
 ## Flash OS image to microSD card
 
@@ -14,45 +14,45 @@ import TabItem from '@theme/TabItem';
 
 1. Prepare a microSD card
 2. Prepare an SD card reader
-3. Download corresponding product of the official Ubuntu / Debian system image
+3. Download corresponding product of the official [Debian system image](/compute-module/images)
 4. Insert the SD card into the SD card reader, then insert the SD card reader into the USB port of the computer
 
 #### Flash OS image to microSD card via Etcher
 
 1. [Download](https://etcher.balena.io/) flash tool `Etcher`
-   ![ROCK5A via Etcher 01](/img/rock5a/rock5a-etcher.webp)
+   ![CM3I via Etcher 01](/img/rock5a/rock5a-etcher.webp)
 
-2. Open the Etcher and flash the prepared OS image to the microSD card. In the Etcher window
+2. Open the Etcher and flash the prepared OS image to the microSD card.
 
 3. click `Flash from file` to select the OS image you have just downloaded.
-   ![ROCK5A via Etcher 02](/img/rock5a/rock5a-etcher-1.webp)
+   ![CM3I via Etcher 02](/img/rock5a/rock5a-etcher-1.webp)
 
 4. In the Etcher window, click on `Select target`.  
-   ![ROCK5A via Etcher 03](/img/rock5a/rock5a-etcher-2.webp)
+   ![CM3I via Etcher 03](/img/rock5a/rock5a-etcher-2.webp)
 
 5. In the Etcher window, click on `Flash!` and wait for the progress bar to be painted.
-   ![ROCK5A via Etcher 04](/img/rock5a/rock5a-etcher-3.webp)
+   ![CM3I via Etcher 04](/img/rock5a/rock5a-etcher-3.webp)
 
-6. In the Etcher window, `Flash Complete!` will be displayed when the swipe is successful
-   ![ROCK5A via Etcher 05](/img/rock5a/rock5a-etcher-4.webp)
+6. In the Etcher window, `Flash Complete!` will show when the flashing is completed.
+   ![CM3I via Etcher 05](/img/rock5a/rock5a-etcher-4.webp)
 
-**If the OS image is flashed incorrectly, please try again manually.**
+**If the OS image is flashed failed, please try again manually.**
 
-#### Swipe OS image to microSD card via Win32DiskImager
+#### Flash OS image to microSD card via Win32DiskImager
 
-1. [Download](https://win32diskimager.org/) flash tool `Win32DiskImager`
+1. [Download](https://win32diskimager.org/) flash tool `Win32DiskImager`.
 
-2. Open Win32DiskImager
+2. Open Win32DiskImager.
 
-3. Click on the folder icon button and select the image to be flashed
+3. Click on the folder icon button and select the image to be flashed.
 
-4. Once you have done so, click the `Write` button to start writing the image and wait for the write to complete
+4. Once you have done so, click the `Write` button to start writing the image and wait for the writing to be completed.
 
 ## Flash OS image to EMMC Module
 
 ### Enter MASKROM mode
 
-When there is no available boot device in the system, it will automatically enter MASKROM mode, so you only need to make the microSD eMMC SPI Flash unable to boot to enter MASKROM mode.
+When there is no available boot device in the system, it will automatically enter MASKROM mode, so you need only to make the microSD / eMMC / SPI Flash unable to boot.
 
 #### MASKROM mode steps
 
@@ -77,7 +77,7 @@ rkdeveloptool can be thought of as [upgrade_tool](/general-tutorial/rksdk/upgrad
 
 #### Installation for rkdeveloptool
 
-If your operating system does not provide rkdeveloptool, you will need to compile and install it from source.
+If there is no rkdeveloptool version for your operate system, you will need to compile it from source and then install it.
 
 <Tabs queryString="host_os">
 <TabItem value="Arch Linux">
@@ -255,7 +255,7 @@ Wait for the write to complete, after which the device will reboot automatically
 
 ### Unable to enter MASKROM mode
 
-If both SPI Flash and eMMC have boot images, you need to ensure that the Maskrom Button SPI Flash and Maskrom Button eMMC buttons are pressed and held before powering on. You can observe the serial port printing to see whether it has booted to the U-BOOT stage. If it has booted to the U-BOOT stage, The BOOT stage indicates that there is a normal boot medium during startup, and re-execute the above steps to enter MASKROM mode.
+If both SPI Flash and eMMC have boot images, you need to ensure that the Maskrom Button SPI Flash and Maskrom Button eMMC button are pressed and held before powering on. You can observe the serial port printing to see whether it has booted to the U-BOOT stage. If it has booted to the U-BOOT stage, The BOOT stage indicates that there is a normal boot medium during startup, and re-execute the above steps to enter MASKROM mode.
 
 ### Unable to enter the system after burning
 

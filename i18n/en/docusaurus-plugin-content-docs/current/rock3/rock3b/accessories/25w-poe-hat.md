@@ -33,7 +33,7 @@ Finally, reboot the device to enable the overlay.
 If you cannot find the corresponding Overlay in `rsetup`, please refer to [System Update Guide](/radxa-os/rsetup#system-update) to update the system first and then do the steps above.
 :::
 
-5. Reading Data from Temperature Sensor
+### Check the Temperature Sensor's function
 
 After executing the following command, the second line outputs `t=XXYYYY` which is the current temperature (XX.YYY degrees Celsius):
 

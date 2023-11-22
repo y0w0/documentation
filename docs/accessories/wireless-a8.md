@@ -5,9 +5,133 @@ sidebar_position: 6
 
 # Radxa Wireless Module A8
 
-Radxa 无线模块 A8 是基于 Realtek RTL8852BE 的标准 M.2 2230 无线模块，这是一款高度集成的单芯片，支持 2 流 802.11ax 解决方案，具有多用户 MIMO（多输入，多输出）和无线局域网（ WLAN ) PCI Express 网络接口控制器，集成 BT5 USB 接口控制器。 它将 WLAN MAC、支持 2T2R 的 WLAN 基带和 RF 组合在一个芯片中。
+Radxa 无线模块 A8 是基于 Realtek RTL8852BE 的标准 M.2 2230 无线模块，这是一款高度集成的单芯片，支持 2 流 802.11ax 解决方案，具有多用户 MIMO（多输入，多输出）和无线局域网（ WLAN ）PCI Express 网络接口控制器，集成 BT5 USB 接口控制器。 它将 WLAN MAC、支持 2T2R 的 WLAN 基带和 RF 组合在一个芯片中。
 
-# 特征
+![Radxa Wireless Module A8](/img/accessories/a8-module-01.webp)
+
+## 兼容性
+
+- Radxa ROCK 3A
+- Radxa ROCK 3B
+- Radxa ROCK 5B
+- Radxa ROCK 5A
+
+## 使用教程
+
+### 安装
+
+对于支持 A8 模块的产品，瑞莎已在官方镜像中集成了对应驱动，直接将该无线模块插入 M.2 E Key 座子即可使用。
+
+以使用 ROCK 5B 为例，安装如图所示：
+
+![Radxa Wireless Module A8](/img/accessories/a8-module-02.webp)
+
+### WiFi 使用
+
+1. 在进入系统后，打开终端
+
+2. 输入以下命令打开 WIFI
+
+```bash
+sudo nmcli r wifi on
+```
+
+:::tip
+首次使用 sudo 命令时需要输入登录账户的密码。
+:::
+
+3. 输入以下命令扫描 WIFI
+
+```bash
+sudo nmcli dev wifi
+```
+
+4. 输入以下命令连接 WIFI 网络
+
+```bash
+sudo nmcli dev wifi connect "wifi_name" password "wifi_password"
+```
+
+其中，`wifi_name` 为您要连接的 WiFi 名称（SSID），`wifi_password` 为该 WiFi 的密码。
+
+另外，您也可以通过 Linux 桌面提供的 WiFi 控件来进行可视化操作。
+
+### 蓝牙使用
+
+当您使用 Radxa Wireless A8 Module 时，您必须添加如下黑名单后重启应用配置才能使 BT 正常工作。
+
+```bash
+root@rock-5b:~$ sudo cat /etc/modprobe.d/blacklist.conf
+blacklist pgdrv
+blacklist btusb
+blacklist btrtl
+blacklist btbcm
+blacklist btintel
+
+root@rock-5b:~$ sudo reboot
+```
+
+Radxa APT 包括 Broadcom 无线模块的 `broadcom-wifibt-firmware` 包和 Intel 无线模块的 `intel-wifibt-firmware` 包。需要下载相应的包。
+
+```bash
+root@rock-5b:~$ sudo apt-get update -y
+root@rock-5b:~$ sudo apt-get install -y broadcom-wifibt-firmware intel-wifibt-firmware
+```
+
+1. 测试蓝牙模块情况，检查蓝牙设备。
+
+```bash
+root@rock-5b:~$ sudo systemctl status bluetooth
+```
+
+2. 运行蓝牙设备。
+
+```bash
+root@rock-5b:~$ sudo systemctl start bluetooth
+```
+
+3. 检测蓝牙设备
+
+```bash
+root@rock-5b:~$ sudo hciconfig
+hci0:   Type: Primary  Bus: UART
+       BD Address: 10:2C:6B:49:D5:53  ACL MTU: 1021:8  SCO MTU: 64:1
+       UP RUNNING
+       RX bytes:850 acl:0 sco:0 events:58 errors:0
+       TX bytes:2814 acl:0 sco:0 commands:58 errors:0
+```
+
+4. 测试蓝牙功能
+
+   连接蓝牙扬声器：
+
+   首先安装 `pulseaudio`
+
+   ```bash
+   root@rock-5b:~$ sudo apt-get install -y pulseaudio-module-bluetooth pulseaudio
+   ```
+
+   运行 `pulseaudio`
+
+   ```bash
+   root@rock-5b:~$ sudo pulseaudio --start
+   ```
+
+   使用 `pulseaudio` 连接
+
+   ```bash
+   root@rock-5b:~$ sudo bluetoothctl
+   [bluetooth]# default-agent
+   [bluetooth]# power on
+   [bluetooth]# scan on
+   [bluetooth]# trust 41:42:1A:8D:A9:65       #BT-280
+   [bluetooth]# pair 41:42:1A:8D:A9:65
+   [bluetooth]# connect 41:42:1A:8D:A9:65
+   ```
+
+## 硬件信息
+
+### 特征
 
 - IEEE 802.11a/b/g/n/ac/ax 兼容无线局域网
 - 支持 BT5 系统（BT 5.2 Logo Compliant）
@@ -22,11 +146,11 @@ Radxa 无线模块 A8 是基于 Realtek RTL8852BE 的标准 M.2 2230 无线模�
 - 支持蓝牙5系统（BT 5.2 Logo Compliant）
 - 兼容蓝牙 v2.1 + EDR
 
-# 结构框图
+### 结构框图
 
-![](/img/accessories/wireless-a8-block-diagram.webp)
+![A8 结构](/img/accessories/wireless-a8-block-diagram.webp)
 
-# 规格
+### 规格
 
 | 特征     | 描述                                                                                             |
 | -------- | ------------------------------------------------------------------------------------------------ |
@@ -40,12 +164,6 @@ Radxa 无线模块 A8 是基于 Realtek RTL8852BE 的标准 M.2 2230 无线模�
 | 工作温度 | 0 to +70°C                                                                                       |
 | 重量     | 3g                                                                                               |
 
-# 尺寸
+### 尺寸
 
-![](/img/accessories/radxa-wireless-module-2d.webp)
-
-# 兼容性
-
-- Radxa ROCK 3A
-- Radxa ROCK 5B
-- Radxa ROCK 5A
+![A8 2D size](/img/accessories/radxa-wireless-module-2d.webp)

@@ -23,7 +23,7 @@ sidebar_position: 55
 
 ![Heatsink 4012](/img/rock5b/heatsink4012-use-2.webp)
 
-- Align the buckle with the mounting holes on the ROCK 5B and press it down.
+- Align the buckle with the mounting holes on the ROCK 3B and press it down.
 - Connect the power cable to the fan socket.
 
 ![Heatsink 4012](/img/rock3/3b/rock_3b_with_heatsink.webp)

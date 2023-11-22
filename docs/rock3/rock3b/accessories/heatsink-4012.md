@@ -23,7 +23,7 @@ Heatsink 4012 是可用在 ROCK 3B 的散热风扇，安装教程如图所示：
 
 ![Heatsink 4012](/img/rock5b/heatsink4012-use-2.webp)
 
-- 将卡扣对准 ROCK 5B 的孔位按压下去；
+- 将卡扣对准 ROCK 3B 的孔位按压下去；
 - 连接电源线到风扇座。
 
 ![Heatsink 4012](/img/rock3/3b/rock_3b_with_heatsink.webp)

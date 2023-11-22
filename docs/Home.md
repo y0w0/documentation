@@ -42,63 +42,19 @@ sidebar_custom_props: { product_docs: [
               {
                 title_zh: "官方系统镜像",
                 info_zh: "支持多种镜像下载",
-                title_en: "Image Downloads",
-                info_en: "Support Multiple Image Downloads",
+                title_en: "Image Download",
+                info_en: "Support Multiple Image Download",
                 url: "/rock3/images",
               },
               {
                 title_zh: "第三方操作系统",
                 info_zh: "支持第三方系统下载",
                 title_en: "Third Party OS",
-                info_en: "Support Third Party OS Downloads",
+                info_en: "Support Third Party OS Download",
                 url: "/rock3/images",
               },
             ],
         },
-
-        {
-          # 产品代号
-          product_code: "rs118",
-          # 产品名
-          product_name_zh: "ROCK 3B",
-          product_name_en: "ROCK 3B",
-          # 产品系列
-          Product_Line_zh: "ROCK 3 系列",
-          Product_Line_en: "ROCK 3 Series",
-          # 产品对应的所有文档
-          docs:
-            [
-              {
-                title_zh: "新手入门指南",
-                info_zh: "从这里开始你的 ROCK 3B 之旅",
-                title_en: "Getting Started Guide",
-                info_en: "Start Your ROCK 3B Journey Here",
-                url: "/rock3/rock3b/getting-started",
-              },
-              {
-                title_zh: "编译源码指南",
-                info_zh: "编译源码",
-                title_en: "Compile Source Guide",
-                info_en: "Compile the Source Code",
-                url: "/rock3/lowlevel-dev",
-              },
-              {
-                title_zh: "官方系统镜像",
-                info_zh: "支持多种镜像下载",
-                title_en: "Image Downloads",
-                info_en: "Support Multiple Image Downloads",
-                url: "/rock3/images",
-              },
-              {
-                title_zh: "第三方操作系统",
-                info_zh: "支持第三方系统下载",
-                title_en: "Third Party OS",
-                info_en: "Support Third Party OS Downloads",
-                url: "/rock3/images",
-              },
-            ],
-        },
-
         {
           # 产品代号
           product_code: "rs112",
@@ -142,15 +98,15 @@ sidebar_custom_props: { product_docs: [
               {
                 title_zh: "官方系统镜像",
                 info_zh: "支持多种镜像下载",
-                title_en: "Image Downloads",
-                info_en: "Support Multiple Image Downloads",
+                title_en: "Image Download",
+                info_en: "Support Multiple Image Download",
                 url: "/rock3/images",
               },
               {
                 title_zh: "第三方操作系统",
                 info_zh: "支持第三方系统下载",
                 title_en: "Third Party OS",
-                info_en: "Support Third Party OS Downloads",
+                info_en: "Support Third Party OS Download",
                 url: "/rock3/images",
               },
             ],
@@ -177,15 +133,15 @@ sidebar_custom_props: { product_docs: [
               {
                 title_zh: "官方系统镜像",
                 info_zh: "支持多种镜像下载",
-                title_en: "Image Downloads",
-                info_en: "Support Multiple Image Downloads",
+                title_en: "Image Download",
+                info_en: "Support Multiple Image Download",
                 url: "/rock4/official-images",
               },
               {
                 title_zh: "第三方操作系统",
                 info_zh: "支持第三方系统下载",
                 title_en: "Third Party OS",
-                info_en: "Support Third Party OS Downloads",
+                info_en: "Support Third Party OS Download",
                 url: "/rock4/alternative-os/third-party-images",
               },
             ],
@@ -212,16 +168,16 @@ sidebar_custom_props: { product_docs: [
               {
                 title_zh: "官方系统镜像",
                 info_zh: "支持多种镜像下载",
-                title_en: "Image Downloads",
-                info_en: "Support Multiple Image Downloads",
+                title_en: "Image Download",
+                info_en: "Support Multiple Image Download",
                 url: "/rock4/official-images",
               },
               {
                 title_zh: "第三方操作系统",
                 info_zh: "支持第三方系统下载",
                 title_en: "Third Party OS",
-                info_en: "Support Third Party OS Downloads",
-                url: "/rock4/alternative-os/third-party-images",
+                info_en: "Support Third Party OS Download",
+                url: "/rock4/alternative-os/third-party-image",
               },
               {
                 title_zh: "相关认证信息",
@@ -275,15 +231,15 @@ sidebar_custom_props: { product_docs: [
               {
                 title_zh: "官方系统镜像",
                 info_zh: "支持多种镜像下载",
-                title_en: "Image Downloads",
-                info_en: "Support Multiple Image Downloads",
+                title_en: "Image Download",
+                info_en: "Support Multiple Image Download",
                 url: "/rock5/official-images",
               },
               {
                 title_zh: "第三方操作系统",
                 info_zh: "支持第三方系统下载",
                 title_en: "Third Party OS",
-                info_en: "Support Third Party OS Downloads",
+                info_en: "Support Third Party OS Download",
                 url: "/rock5/alt-os",
               },
             ],
@@ -331,15 +287,15 @@ sidebar_custom_props: { product_docs: [
               {
                 title_zh: "官方系统镜像",
                 info_zh: "支持多种镜像下载",
-                title_en: "Image Downloads",
-                info_en: "Support Multiple Image Downloads",
+                title_en: "Image Download",
+                info_en: "Support Multiple Image Download",
                 url: "/rock5/official-images",
               },
               {
                 title_zh: "第三方操作系统",
                 info_zh: "支持第三方系统下载",
                 title_en: "Third Party OS",
-                info_en: "Support Third Party OS Downloads",
+                info_en: "Support Third Party OS Download",
                 url: "/rock5/alt-os",
               },
             ],
@@ -388,7 +344,7 @@ sidebar_custom_props: { product_docs: [
               {
                 title_zh: "官方系统镜像",
                 info_zh: "支持多种镜像下载",
-                title_en: "Image Downloads",
+                title_en: "Image Download",
                 info_en: "/compute-module/cm3/alt-os",
                 url: "",
               },
@@ -431,16 +387,16 @@ sidebar_custom_props: { product_docs: [
             [
               {
                 title_zh: "新手入门指南",
-                info_zh: "从这里开始你的 ZERO 3W/3E 之旅",
+                info_zh: "从这里开始你的 ZERO 3W / 3E 之旅",
                 title_en: "Getting Started Guide",
-                info_en: "Start Your ZERO 3W/3E Here",
+                info_en: "Start Your ZERO 3W / 3E Here",
                 url: "/zero/zero3",
               },
               {
                 title_zh: "配件使用指南",
-                info_zh: "使用 ZERO 3W/3E 配件",
+                info_zh: "使用 ZERO 3W / 3E 配件",
                 title_en: "Accessories Guide",
-                info_en: "Using ZERO 3W/3E Accessories",
+                info_en: "Using ZERO 3W / 3E Accessories",
                 url: "/zero/zero3/accessories-guides",
               },
             ],

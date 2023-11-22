@@ -43,7 +43,7 @@ sidebar_custom_props: { product_docs: [
                 title_zh: "官方系统镜像",
                 info_zh: "支持多种镜像下载",
                 title_en: "Image Download",
-                info_en: "Support Multiple Image Download",
+                info_en: "Support Multiple Images Download",
                 url: "/rock3/images",
               },
               {
@@ -99,7 +99,7 @@ sidebar_custom_props: { product_docs: [
                 title_zh: "官方系统镜像",
                 info_zh: "支持多种镜像下载",
                 title_en: "Image Download",
-                info_en: "Support Multiple Image Download",
+                info_en: "Support Multiple Images Download",
                 url: "/rock3/images",
               },
               {
@@ -134,7 +134,7 @@ sidebar_custom_props: { product_docs: [
                 title_zh: "官方系统镜像",
                 info_zh: "支持多种镜像下载",
                 title_en: "Image Download",
-                info_en: "Support Multiple Image Download",
+                info_en: "Support Multiple Images Download",
                 url: "/rock4/official-images",
               },
               {
@@ -169,7 +169,7 @@ sidebar_custom_props: { product_docs: [
                 title_zh: "官方系统镜像",
                 info_zh: "支持多种镜像下载",
                 title_en: "Image Download",
-                info_en: "Support Multiple Image Download",
+                info_en: "Support Multiple Images Download",
                 url: "/rock4/official-images",
               },
               {
@@ -232,7 +232,7 @@ sidebar_custom_props: { product_docs: [
                 title_zh: "官方系统镜像",
                 info_zh: "支持多种镜像下载",
                 title_en: "Image Download",
-                info_en: "Support Multiple Image Download",
+                info_en: "Support Multiple Images Download",
                 url: "/rock5/official-images",
               },
               {
@@ -288,7 +288,7 @@ sidebar_custom_props: { product_docs: [
                 title_zh: "官方系统镜像",
                 info_zh: "支持多种镜像下载",
                 title_en: "Image Download",
-                info_en: "Support Multiple Image Download",
+                info_en: "Support Multiple Images Download",
                 url: "/rock5/official-images",
               },
               {

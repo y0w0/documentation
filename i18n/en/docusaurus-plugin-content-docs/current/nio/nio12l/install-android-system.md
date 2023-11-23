@@ -62,7 +62,7 @@ You can also find and double-click the FlashToolSelector file in the file viewer
 
 5. After Downloading is completed, remove the USB Type-C cable, power on the board to start system.
 
-Note: You need keep Pressing the POWER Button until the system boot up like Phone
+ Note: You need keep Pressing the POWER Button until the system boot up like Phone
 
 <img src="/img/nio/nio12l/mtk-power-on.webp" width = "700" alt="mtk power on"/>
 
@@ -92,7 +92,6 @@ Note: You need keep Pressing the POWER Button until the system boot up like Phon
   Note: You need keep Pressing the POWER Button until the system boot up like Phone
 
   <img src="/img/nio/nio12l/mtk-power-on.webp" width = "700" alt="mtk power on"/>
-
 
 ### Note
 

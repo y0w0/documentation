@@ -11,7 +11,7 @@ import TabItem from '@theme/TabItem';
 ### 刷机前准备
 
 - Radxa NIO 12L
-- 一台L inux 或者 Windows 电脑
+- 一台 Linux 或者 Windows 电脑
 - USB 数据线
 - NIO 12L Android 镜像
 

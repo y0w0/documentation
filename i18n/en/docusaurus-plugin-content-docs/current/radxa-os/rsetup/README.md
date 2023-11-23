@@ -158,8 +158,8 @@ For the details, please refer to the [LED Setup](/radxa-os/rsetup/led).
 ### Thermal governor
 
 This module is used to adjust the fan and other temperature options.  
-Generally, we select `power_allcator` when using DC fan or fanless, select `step_wise` when using PWM fan.  
-**Note: If you connect the fan directly to the GPIO on 5V and GND pins, it would not be controlled and allways work.**
+Generally, we select `power_allocator` when using DC fan or fanless, select `step_wise` when using PWM fan.  
+**Note: If you connect the fan directly to the GPIO on 5V and GND pins, it would not be controlled and always work.**
 
 ### Configure DSI display mirroring
 
@@ -167,7 +167,7 @@ If DSI display has some problems when using HDMI display and DSI display at the 
 
 ## Overlays
 
-This option is for Configure Device Tree Overlay, please check [Device Tree Configuration](/radxa-os/rsetup/devicetree) for more informations.
+This option is for Configure Device Tree Overlay, please check [Device Tree Configuration](/radxa-os/rsetup/devicetree) for more information.
 
 ## Connectivity
 

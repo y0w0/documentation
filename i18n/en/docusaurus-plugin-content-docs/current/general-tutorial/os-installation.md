@@ -160,7 +160,7 @@ it is recommended that you erase the M.2 NVMe SSD before re-burning and then wri
 #### Boot from NVMe SSD
 
 After writing the image to the NVMe SSD, to boot from the NVMe SSD you need to write the bootloader to the SPI Flash.
-For more informations, please check [Installing the bootloader to SPI Flash](rksdk/rkdevtool) for details
+For more information, please check [Installing the bootloader to SPI Flash](rksdk/rkdevtool) for details
 
   </TabItem>
 </Tabs>

@@ -158,7 +158,7 @@ sidebar_position: 0
 ### Thermal governor选项
 
 该模块用于调整风扇和其他温度选项。
-一般来说，当使用直流风扇或不使用风扇时，选择`power_allcator`，当使用PWM风扇时，选择`step_wise`。  
+一般来说，当使用直流风扇或不使用风扇时，选择`power_allocator`，当使用PWM风扇时，选择`step_wise`。  
 **注意：如果你将风扇直接连接到GPIO的5V和GND引脚上，它将不受控制且一直工作。**
 
 ### Configure DSI display mirroring选项

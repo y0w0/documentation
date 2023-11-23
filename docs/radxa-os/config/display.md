@@ -14,7 +14,7 @@ sidebar_position: 10
 
 ### 系统设置-显示设置
 
-在KDE桌面上，左键点击左下角的 `Appliction Launcher`，就可以看到 `System Settings` 。
+在KDE桌面上，左键点击左下角的 `Application Launcher`，就可以看到 `System Settings` 。
 ![System settings](/img/configuration/start_sys_setting.webp)  
 选择 `System Settings`，在 `Hardware`选项中找到 `Display and Monitor`：  
 ![System Settings](/img/configuration/system_setting.webp)  

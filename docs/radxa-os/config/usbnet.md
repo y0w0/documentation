@@ -106,7 +106,7 @@ radxa@rock-5a:~$ sudo nmtui
         IPv4 CONFIGURATION <Shared> # Change <Automatic> to <Shared>
 ```
 
-保存配置并返回到设置界面 `Activate a connectin`，选择你刚刚添加的选项。
+保存配置并返回到设置界面 `Activate a connection`，选择你刚刚添加的选项。
 配置好后，则设置会更新为与以下相同：
 
 ```
@@ -169,7 +169,7 @@ Device usb0
 
 **连接到主机设备：**
 
-回到 `Activate a connectin`的设置界面，选择你刚刚添加的选项。
+回到 `Activate a connection`的设置界面，选择你刚刚添加的选项。
 
 ```
                 Ethernet (usb0)

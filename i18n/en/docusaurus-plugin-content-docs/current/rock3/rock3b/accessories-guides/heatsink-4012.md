@@ -50,7 +50,7 @@ Select `Hardware`:
 
 ```
 Please select an option below:
-        System Maintaince
+        System Maintenance
         Hardware
         Overlays
         Connectivity

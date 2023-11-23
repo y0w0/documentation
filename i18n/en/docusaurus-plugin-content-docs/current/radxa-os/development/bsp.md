@@ -5,7 +5,7 @@
 [`bsp`](https://github.com/radxa-repo/bsp) is the only kernel/bootloader compilation environment currently supported by RadxaOS, and it has the following features:
 
 1. Containerized build environment. No need to manage the build dependencies.
-2. Automatically downloads the source code for the targetting product.
+2. Automatically downloads the source code for the targeting product.
 3. Reset the source code tree before compilation to avoid building against a dirty tree.
 
 Currently, `bsp` is officially supported for cross-compilation on x64 platforms, and experimentally supported for native build on aarch64 platforms.

@@ -21,7 +21,7 @@ ROCK 5 支持 Maskrom 模式，这是 CPU 通过 USB OTG 端口接收命令的�
 
 - **在 Windows 下安装工具以及 RK 驱动：**  
   [RKDevTool V2.96](https://dl.radxa.com/tools/windows/RKDevTool_Release_v2.96-20221121.rar)  
-  [DriverAssitant V5.0](https://dl.radxa.com/tools/windows/DriverAssitant_v5.0.zip)
+  [DriverAssistant V5.0](https://dl.radxa.com/tools/windows/DriverAssitant_v5.0.zip)
 
 - 把板子启动到 Maskrom 模式：  
   ROCK 5A 进入 maskrom 模式的步骤：

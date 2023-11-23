@@ -21,11 +21,11 @@ RKDevTool is a USB flashing software developed by Rockchip for Windows platforms
 Please download and extract the following files to install RKDevTool:
 
 - [RKDevTool v2.96](https://dl.radxa.com/tools/windows/RKDevTool_Release_v2.96_zh.zip) (Includes Chinese documentation)
-- [DriverAssitant v5.0](https://dl.radxa.com/tools/windows/DriverAssitant_v5.0.zip)
+- [DriverAssistant v5.0](https://dl.radxa.com/tools/windows/DriverAssitant_v5.0.zip)
 
 ### Installation of drivers
 
-Download and unzip DriverAssitant, then execute DriverInstall.exe and click the `Install Driver` button to install the driver.  
+Download and unzip DriverAssistant, then execute DriverInstall.exe and click the `Install Driver` button to install the driver.  
 If you have previously installed another version of driver, please click `Uninstall Driver` to uninstall the driver first and then reinstall it.
 
 ![RK Driver](/img/configuration/RK-Driver-Assistant-Install-Uninstall.webp)

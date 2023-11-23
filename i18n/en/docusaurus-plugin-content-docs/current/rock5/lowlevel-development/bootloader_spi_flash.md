@@ -256,8 +256,8 @@ Next, click the right last columns in the "Loader" row to select rk3588_spl_load
 Step 4: Select SPI image
 Next, click the right last columns in the "spi" row to select spi-image.
 
-Step 5: Excute
-Finally, click the "Excute" button, and you will see the content in the red box on the right. When the progress reaches 100%, the download is completed.
+Step 5: Execute
+Finally, click the "Execute" button, and you will see the content in the red box on the right. When the progress reaches 100%, the download is completed.
 
 ![RKDevTool-03](/zh/img/rock5b/rock-5b-spi-flash-03.webp)
 

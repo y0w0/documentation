@@ -244,7 +244,7 @@ The program displays the character "Radxa ROCK 4".
 
 There is a buzzer, an led and an IR emitter. All three can be programmed and controlled. Here is how it works on the radxa platform:
 
-1. Wiring Methode
+1. Wiring Method
 
 ```
 

@@ -38,7 +38,7 @@ Re-install：
     sudo apt-get install ssh
 ```
 
-### View IP Adress
+### View IP Address
 
 #### View via Command
 

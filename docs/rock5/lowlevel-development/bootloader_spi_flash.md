@@ -288,7 +288,7 @@ sync
 
 在擦除之前，请确保 ROCK 5B/ROCK 5A 进入 Maskrom 模式
 
-- 打开 RKDevTool，选择 Adavanced Function。
+- 打开 RKDevTool，选择 Advanced Function。
 - 在 Boot 上选择 rk3588_spl_loader_v1.08.111.bin，然后点击下载按钮。
 - 进度完成后，点击 EraseALL 按钮
 - 结束后重启设备 ResetDevice

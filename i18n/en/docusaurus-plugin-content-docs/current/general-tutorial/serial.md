@@ -136,7 +136,7 @@ Now run minicom radxa to use the config above and connects to the ROCK board ser
 ![mac serial](/img/configuration/Coolterm-serialport-setting.webp)
 
 Click save icon to save the configuration as radxa and click connect icon.  
-Boot your ROCK boards and you will see the serial console ouput:  
+Boot your ROCK boards and you will see the serial console output:  
 ![mac serial output](/img/configuration/Coolterm-output.webp)
 
 </TabItem>

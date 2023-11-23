@@ -1,8 +1,8 @@
 ---
-sidebar_label: "System Maintaince"
+sidebar_label: "System Maintenance"
 ---
 
-# System Maintaince
+# System Maintenance
 
 import DocCardList from '@theme/DocCardList';
 

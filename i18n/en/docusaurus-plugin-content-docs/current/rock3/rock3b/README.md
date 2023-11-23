@@ -18,7 +18,7 @@ Moreover, ROCK 3B not only has a community version (RK3568), but also provides a
 
 |            Model            | ROCK 3B                                                                                                                                                                    |
 | :-------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| SoC<br/>CPU<br/>GPU<br/>NPU | **RK3568(J)**<br/>Quad-core Cortex-A55, freqency 2Ghz<br/>Mali G52<br/>0.8TOPS NPU                                                                                         |
+| SoC<br/>CPU<br/>GPU<br/>NPU | **RK3568(J)**<br/>Quad-core Cortex-A55, frequency 2Ghz<br/>Mali G52<br/>0.8TOPS NPU                                                                                        |
 |           Memory            | 2/4/8GB LPDDR4                                                                                                                                                             |
 |           Storage           | eMMC，microSD card，M.2 NVMe SSD                                                                                                                                           |
 |           Display           | HDMI: support up to 4K@60;support eDP                                                                                                                                      |

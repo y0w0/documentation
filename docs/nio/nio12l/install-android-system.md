@@ -10,6 +10,13 @@ import TabItem from '@theme/TabItem';
 
 该文档介绍如何安装Android系统
 
+### 刷机前准备
+
+- NIO 12L 主板
+- 一台Linux或者Windows电脑
+- USB数据线
+- NIO 12L Android镜像
+
 ### 刷机工具
 
 Linux:
@@ -56,7 +63,7 @@ $ ./FlashToolSelector
 
 5. 等下载完成,拔掉USB数据线，重新上电，按Power键启动系统.
 
-说明：你要一直按住POWER键，直到系统起来再松开，类似手机的操作.
+说明：一直按住POWER键，直到系统起来再松开，类似手机的操作.
 
  <img src="/img/nio/nio12l/mtk-power-on.webp" width = "700" alt="mtk power on"/>
 
@@ -83,7 +90,7 @@ $ ./FlashToolSelector
 <img src="/img/nio/nio12l/mtk-windows-tool-4.webp" width = "700" alt="mtk windows tool 4"/>
 
 6. 等下载完成,拔掉USB数据线，重新上电，按Power键启动系统.
-   说明：你要一直按住POWER键，直到系统起来再松开，类似手机的操作
+   说明：一直按住POWER键，直到系统起来再松开，类似手机的操作
    <img src="/img/nio/nio12l/mtk-power-on.webp" width = "700" alt="mtk power on"/>
 
 ### 注意项

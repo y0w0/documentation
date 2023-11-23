@@ -47,7 +47,7 @@ jobs:
         id: setup-pages
         uses: actions/configure-pages@v3
         continue-on-error: true
-        if: github.event_name != 'pull_request' && github.event_name != 'merge_group'
+        if: github.event_name != 'pull_request' && github.event_name != 'merge_group' && github.ref_name == 'main'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2

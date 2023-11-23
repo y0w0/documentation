@@ -101,3 +101,5 @@ import TabItem from '@theme/TabItem';
 ### System Installation
 
 [Yocto System installation](/nio/nio12l/install-yocto-system)
+
+[Android System installation](/nio/nio12l/install-android-system)

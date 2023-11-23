@@ -5,7 +5,7 @@ sidebar_position: 10
 
 # USB Networking
 
-Most of radxa products have reserved a USB port as an OTG port, it also a adb debug port when runuing Android. You can consult the port definitions of the corresponding [products](https://radxa.com/product).  
+Most of radxa products have reserved a USB port as an OTG port, it also a adb debug port when runuing Android. You can consult the port definitions of the corresponding [products](https://radxa.com/products).  
 You can set up a shared network between two products by connecting their OTG ports. Now officially supported for latest linux and android images.
 
 ## Preparations

@@ -1,6 +1,6 @@
 repos:
   - repo: https://github.com/radxa-docs/pre-commit-hooks
-    rev: e8b38c96bc9a061ae28ab5bc7d4203fdf778e9e9
+    rev: 2c644de1f7d7c66420f0e2605708e12c6bdc108e
     hooks:
       - id: remove-unreferenced-image
       - id: use-webp-image
@@ -8,6 +8,7 @@ repos:
       - id: tab-with-querystring-undefined
       - id: tab-without-querystring
       - id: no-full-uri-for-internal-pages
+      - id: check-external-links
   - repo: https://github.com/detailyang/pre-commit-shell
     rev: v1.0.6
     hooks:

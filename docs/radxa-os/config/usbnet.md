@@ -5,7 +5,7 @@ sidebar_position: 10
 
 # USB共享网络简介
 
-大多数radxa产品都预留了一个USB端口作为OTG端口，在运行Android时也作为adb调试端口。你可以在此查阅相应[产品](https://radxa.com/product)的端口定义。
+大多数radxa产品都预留了一个USB端口作为OTG端口，在运行Android时也作为adb调试端口。你可以在此查阅相应[产品](https://radxa.com/products)的端口定义。
 你可以通过OTG端口连接两个产品来建立一个共享网络。现在官方支持最新的linux和android图像。
 
 ## 准备工作

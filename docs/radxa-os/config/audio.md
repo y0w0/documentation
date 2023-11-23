@@ -79,4 +79,4 @@ radxa@rock-5a:~$ pacmd list-sinks | grep -e 'index:' -e 'name:'
 radxa@rock-5a:~$ pacmd set-default-sink alsa_output.platform-es8316-sound.HiFi__hw_rockchipes8316__sink  # 'alsa_output.platform-es8316-sound.HiFi__hw_rockchipes8316__sink' is the name of the device you want to set.
 ```
 
-想了解更多信息，请查看 [pacmd page](https://linux.die.net/man/1/pacmd).
+想了解更多信息，请查看 [pacmd page](https://man.archlinux.org/man/extra/pulseaudio/pacmd.1.en).

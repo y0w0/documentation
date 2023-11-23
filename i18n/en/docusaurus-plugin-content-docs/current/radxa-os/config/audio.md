@@ -81,4 +81,4 @@ The following command would help you to change default output device:
 radxa@rock-5a:~$ pacmd set-default-sink alsa_output.platform-es8316-sound.HiFi__hw_rockchipes8316__sink  # 'alsa_output.platform-es8316-sound.HiFi__hw_rockchipes8316__sink' is the name of the device you want to set.
 ```
 
-For more information, please check [pacmd page](https://linux.die.net/man/1/pacmd).
+For more information, please check [pacmd page](https://man.archlinux.org/man/extra/pulseaudio/pacmd.1.en).

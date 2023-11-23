@@ -6,7 +6,7 @@ sidebar_position: 20
 # 板端 Python NPU 模型推理教程 (RKNN Toolkit Lite2)
 
 :::info
-本文档仅演示如何运行官方示例，更多资料可以查看 (RKNN Toolkit2 源码库)[https://github.com/rockchip-linux/rknn-toolkit2]内的 rknn_toolkit_lite2/doc 文件夹。
+本文档仅演示如何运行官方示例，更多资料可以查看 [RKNN Toolkit2 源码库](https://github.com/rockchip-linux/rknn-toolkit2) 内的 rknn_toolkit_lite2/doc 文件夹。
 :::
 
 ## 安装 RKNN Toolkit Lite2 及其所需依赖

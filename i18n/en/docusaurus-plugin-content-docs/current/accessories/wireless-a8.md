@@ -22,7 +22,7 @@ Radxa Wireless Module A8 is a standard M.2 2230 Wireless Module based on Realtek
 
 For products that support the A8 module, Radxa has integrated the corresponding driver in the official image. You can directly insert the wireless module into the M.2 E Key holder to use it.
 
-Taking ROCK 5B as an example, the installation is as shown in the figure:
+Take the use under the official Debian system of ROCK 5B as an example, the installation is as shown in the figure:
 
 ![Radxa Wireless Module A8](/img/accessories/a8-module-02.webp)
 
@@ -58,25 +58,7 @@ In addition, you can also perform visual operations through the WiFi control pro
 
 ### Bluetooth usage
 
-When you use Radxa Wireless A8 Module, you must add the following blacklist and restart the application configuration to make BT work properly.
-
-```bash
-root@rock-5b:~$ sudo cat /etc/modprobe.d/blacklist.conf
-blacklist pgdrv
-blacklist btusb
-blacklist btrtl
-blacklist btbcm
-blacklist btintel
-
-root@rock-5b:~$ sudo reboot
-```
-
-Radxa APT includes the `broadcom-wifibt-firmware` package for Broadcom wireless modules and the `intel-wifibt-firmware` package for Intel wireless modules. The corresponding package needs to be downloaded.
-
-```bash
-root@rock-5b:~$ sudo apt-get update -y
-root@rock-5b:~$ sudo apt-get install -y broadcom-wifibt-firmware intel-wifibt-firmware
-```
+When you use Radxa Wireless A8 Module, you don't need to do anything else to use Bluetooth functionality:
 
 1. Test the Bluetooth module and check the Bluetooth device.
 

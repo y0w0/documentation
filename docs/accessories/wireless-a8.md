@@ -5,7 +5,7 @@ sidebar_position: 6
 
 # Radxa Wireless Module A8
 
-Radxa 无线模块 A8 是基于 Realtek RTL8852BE 的标准 M.2 2230 无线模块，这是一款高度集成的单芯片，支持 2 流 802.11ax 解决方案，具有多用户 MIMO（多输入，多输出）和无线局域网（ WLAN ）PCI Express 网络接口控制器，集成 BT5 USB 接口控制器。 它将 WLAN MAC、支持 2T2R 的 WLAN 基带和 RF 组合在一个芯片中。
+Radxa 无线模块 A8 是基于 Realtek RTL8852BE 的标准 M.2 2230 无线模块，这是一款高度集成的单芯片，支持两个数据流传输的 802.11ax 解决方案，具有多用户 MIMO（多输入，多输出）和无线局域网（ WLAN ）PCI Express 网络接口控制器，集成 BT5 USB 接口控制器。 它将 WLAN MAC、支持 2T2R 的 WLAN 基带和 RF 组合在一个芯片中。
 
 ![Radxa Wireless Module A8](/img/accessories/a8-module-01.webp)
 
@@ -22,7 +22,7 @@ Radxa 无线模块 A8 是基于 Realtek RTL8852BE 的标准 M.2 2230 无线模�
 
 对于支持 A8 模块的产品，瑞莎已在官方镜像中集成了对应驱动，直接将该无线模块插入 M.2 E Key 座子即可使用。
 
-以使用 ROCK 5B 为例，安装如图所示：
+以在 ROCK 5B 的官方 Debian 系统下使用为例，安装如图所示：
 
 ![Radxa Wireless Module A8](/img/accessories/a8-module-02.webp)
 
@@ -58,25 +58,7 @@ sudo nmcli dev wifi connect "wifi_name" password "wifi_password"
 
 ### 蓝牙使用
 
-当您使用 Radxa Wireless A8 Module 时，您必须添加如下黑名单后重启应用配置才能使 BT 正常工作。
-
-```bash
-root@rock-5b:~$ sudo cat /etc/modprobe.d/blacklist.conf
-blacklist pgdrv
-blacklist btusb
-blacklist btrtl
-blacklist btbcm
-blacklist btintel
-
-root@rock-5b:~$ sudo reboot
-```
-
-Radxa APT 包括 Broadcom 无线模块的 `broadcom-wifibt-firmware` 包和 Intel 无线模块的 `intel-wifibt-firmware` 包。需要下载相应的包。
-
-```bash
-root@rock-5b:~$ sudo apt-get update -y
-root@rock-5b:~$ sudo apt-get install -y broadcom-wifibt-firmware intel-wifibt-firmware
-```
+当您使用 Radxa Wireless A8 Module 时，您无需进行其他操作即可直接使用蓝牙功能：
 
 1. 测试蓝牙模块情况，检查蓝牙设备。
 

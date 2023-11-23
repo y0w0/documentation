@@ -8,7 +8,6 @@ import TabItem from '@theme/TabItem';
 
 # Android 系统安装
 
-该文档介绍如何安装Android系统
 
 ### 刷机前准备
 

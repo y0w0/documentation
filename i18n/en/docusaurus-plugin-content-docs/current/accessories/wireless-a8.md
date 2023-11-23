@@ -5,7 +5,7 @@ sidebar_position: 6
 
 # Radxa Wireless Module A8
 
-Radxa Wireless Module A8 is a standard M.2 2230 Wireless Module based on Realtek RTL8852BE, a highly integrated single-chip that support 2-stream 802.11ax solutions with multi-user MIMO (Multiple-Input, Multiple-Output) with Wireless LAN (WLAN) PCI Express network interface controller with integrated Bluetooth 5 USB interface controller. It combines a WLAN MAC, a 2T2R capable WLAN baseband, and RF in a single chip.
+Radxa Wireless Module A8 is a standard M.2 2230 Wireless Module based on Realtek RTL8852BE, a highly integrated single-chip that support 2-stream Wi-Fi 6 (802.11ax) solutions with multi-user MIMO (Multiple-Input, Multiple-Output) with Wireless LAN (WLAN) PCI Express network interface controller with integrated Bluetooth 5 USB interface controller. It combines a WLAN MAC, a 2T2R capable WLAN baseband, and RF in a single chip.
 
 ![Radxa Wireless Module A8](/img/accessories/a8-module-01.webp)
 
@@ -20,17 +20,17 @@ Radxa Wireless Module A8 is a standard M.2 2230 Wireless Module based on Realtek
 
 ### Installation
 
-For products that support the A8 module, Radxa has integrated the corresponding driver in the official image. You can directly insert the wireless module into the M.2 E Key holder to use it.
+For products that support the A8 module, Radxa has integrated the corresponding driver in the official image. You can directly insert the wireless module into the M.2 E Key connector to use it.
 
 Take the use under the official Debian system of ROCK 5B as an example, the installation is as shown in the figure:
 
 ![Radxa Wireless Module A8](/img/accessories/a8-module-02.webp)
 
-### WiFi usage
+### Wi-Fi usage
 
 1. After entering the system, open the terminal
 
-2. Enter the following command to enable WIFI
+2. Enter the following command to enable Wi-Fi
 
 ```bash
 sudo nmcli r wifi on
@@ -40,42 +40,41 @@ sudo nmcli r wifi on
 When you use the sudo command for the first time, you need to enter the password of the login account.
 :::
 
-3. Enter the following command to scan WIFI
+3. Enter the following command to scan Wi-Fi
 
 ```bash
 sudo nmcli dev wifi
 ```
 
-4. Enter the following command to connect to the WIFI network
+4. Enter the following command to connect to the Wi-Fi network
 
 ```bash
 sudo nmcli dev wifi connect "wifi_name" password "wifi_password"
 ```
 
-Among them, `wifi_name` is the name (SSID) of the WiFi you want to connect to, and `wifi_password` is the password of the WiFi.
+Among them, `wifi_name` is the name (SSID) of the Wi-Fi you want to connect to, and `wifi_password` is the password of the Wi-Fi.
 
 In addition, you can also perform visual operations through the WiFi control provided by the Linux desktop.
 
 ### Bluetooth usage
 
-When you use Radxa Wireless A8 Module, you don't need to do anything else to use Bluetooth functionality:
-
 1. Test the Bluetooth module and check the Bluetooth device.
 
 ```bash
-root@rock-5b:~$ sudo systemctl status bluetooth
+sudo systemctl status bluetooth
 ```
 
 2. Run the Bluetooth device.
 
 ```bash
-root@rock-5b:~$ sudo systemctl start bluetooth
+sudo systemctl start bluetooth
 ```
 
 3. Detect Bluetooth devices
 
 ```bash
-root@rock-5b:~$ sudo hciconfig
+sudo hciconfig
+
 hci0: Type: Primary Bus: UART
         BD Address: 10:2C:6B:49:D5:53 ACL MTU: 1021:8 SCO MTU: 64:1
         UP RUNNING
@@ -90,19 +89,20 @@ hci0: Type: Primary Bus: UART
    First install `pulseaudio`
 
    ```bash
-   root@rock-5b:~$ sudo apt-get install -y pulseaudio-module-bluetooth pulseaudio
+   sudo apt-get install -y pulseaudio-module-bluetooth pulseaudio
    ```
 
    Run `pulseaudio`
 
    ```bash
-   root@rock-5b:~$ sudo pulseaudio --start
+   sudo pulseaudio --start
    ```
 
    Connect using `pulseaudio`
 
    ```bash
-   root@rock-5b:~$ sudo bluetoothctl
+   sudo bluetoothctl
+
    [bluetooth]#default-agent
    [bluetooth]# power on
    [bluetooth]# scan on
@@ -110,8 +110,6 @@ hci0: Type: Primary Bus: UART
    [bluetooth]# pair 41:42:1A:8D:A9:65
    [bluetooth]# connect 41:42:1A:8D:A9:65
    ```
-
-In addition, you can also perform visual operations through the BT control provided by the Linux desktop.
 
 ## Hardware
 
@@ -127,7 +125,6 @@ In addition, you can also perform visual operations through the BT control provi
 - Support 20/40/80MHz 5GHz
 - supports WLAN-Bluetooth coexistence
 - supports low power Bluetooth
-- Support Bluetooth 5 system (BT 5.2 Logo Compliant)
 - Compatible with Bluetooth v2.1+EDR
 
 ### Block Diagram

@@ -127,6 +127,22 @@
     "description": "The generated-index page description for category ROCK 5B in sidebar tutorialSidebar",
     "message": "ROCK 5B is a powerful SBC with quad display support in Pico-ITX form factor."
   },
+  "sidebar.tutorialSidebar.category.ROCK S0": {
+    "description": "The label for category ROCK S0 in sidebar tutorialSidebar",
+    "message": "ROCK S0"
+  },
+  "sidebar.tutorialSidebar.category.ROCK S0.link.generated-index.description": {
+    "description": "The generated-index page description for category ROCK S0 in sidebar tutorialSidebar",
+    "message": "The Radxa ROCK S0 is an SBC designed to the dimensions of the ZERO series."
+  },
+  "sidebar.tutorialSidebar.category.ROCKPi 系列": {
+    "description": "The label for category ROCKPi 系列 in sidebar tutorialSidebar",
+    "message": "ROCKPi Family"
+  },
+  "sidebar.tutorialSidebar.category.ROCKPi 系列.link.generated-index.description": {
+    "description": "The generated-index page description for category ROCKPi 系列 in sidebar tutorialSidebar",
+    "message": "The ROCKPi series is Radxa's classic SBC series."
+  },
   "sidebar.tutorialSidebar.category.Radxa Display 8 HD": {
     "description": "The label for category Radxa Display 8 HD in sidebar tutorialSidebar",
     "message": "Radxa Display 8 HD"

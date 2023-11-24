@@ -1,0 +1,9 @@
+{
+  "label": "ROCKPi Series",
+  "link": {
+    "description": "The ROCKPi series is Radxa's classic SBC series.",
+    "slug": "/rockpi",
+    "type": "generated-index"
+  },
+  "position": 55
+}

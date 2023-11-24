@@ -1,0 +1,9 @@
+{
+  "label": "ROCK S0",
+  "link": {
+    "description": "Radxa ROCK S0 是按照 ZERO 系列的尺寸设计的 SBC",
+    "slug": "/rockpi/s0",
+    "type": "generated-index"
+  },
+  "position": 55
+}

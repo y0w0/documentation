@@ -1,5 +1,4 @@
 ---
-sidebar_label: "操作系统安装教程"
 sidebar_position: 17
 ---
 

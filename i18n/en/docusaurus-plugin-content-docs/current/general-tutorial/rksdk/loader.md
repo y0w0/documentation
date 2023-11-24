@@ -1,5 +1,4 @@
 ---
-sidebar_label: "Get Loader"
 sidebar_position: 2
 ---
 

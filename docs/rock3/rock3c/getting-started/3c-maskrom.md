@@ -1,5 +1,4 @@
 ---
-sidebar_label: "Maskrom 模式"
 sidebar_position: 8
 ---
 

@@ -1,5 +1,4 @@
 ---
-sidebar_label: "OS Images Download"
 sidebar_position: 2
 ---
 

@@ -1,5 +1,4 @@
 ---
-sidebar_label: "系统镜像下载"
 sidebar_position: 2
 ---
 

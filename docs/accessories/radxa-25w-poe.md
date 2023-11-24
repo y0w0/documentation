@@ -1,5 +1,4 @@
 ---
-sidebar_label: "Radxa 25W PoE HAT"
 sidebar_position: 34
 ---
 

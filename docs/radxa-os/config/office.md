@@ -1,5 +1,4 @@
 ---
-sidebar_label: "办公软件"
 sidebar_position: 100
 ---
 

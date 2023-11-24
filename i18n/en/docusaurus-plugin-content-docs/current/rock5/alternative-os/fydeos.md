@@ -1,5 +1,4 @@
 ---
-sidebar_label: "FydeOS"
 sidebar_position: 10
 ---
 

@@ -1,5 +1,4 @@
 ---
-sidebar_label: "Install Android System"
 sidebar_position: 3
 ---
 

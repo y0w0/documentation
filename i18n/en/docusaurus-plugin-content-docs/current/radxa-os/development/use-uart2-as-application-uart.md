@@ -1,5 +1,4 @@
 ---
-sidebar_label: "Configure the UART2_M0 interface as a normal serial port"
 sidebar_position: 10
 ---
 

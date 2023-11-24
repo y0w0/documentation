@@ -1,5 +1,4 @@
 ---
-sidebar_label: "远程登录"
 sidebar_position: 60
 ---
 

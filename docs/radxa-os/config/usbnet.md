@@ -1,5 +1,4 @@
 ---
-sidebar_label: "USB网络设置"
 sidebar_position: 10
 ---
 

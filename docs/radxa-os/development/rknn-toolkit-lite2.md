@@ -1,5 +1,4 @@
 ---
-sidebar_label: "板端 Python NPU 模型推理教程 (RKNN Toolkit Lite2)"
 sidebar_position: 20
 ---
 

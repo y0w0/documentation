@@ -1,5 +1,4 @@
 ---
-sidebar_label: "System Configuration"
 ---
 
 # System Configuration

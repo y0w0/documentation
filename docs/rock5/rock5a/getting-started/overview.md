@@ -1,5 +1,4 @@
 ---
-sidebar_label: "认识 ROCK 5A"
 sidebar_position: 10
 ---
 

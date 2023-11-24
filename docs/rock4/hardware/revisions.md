@@ -1,5 +1,4 @@
 ---
-sidebar_label: "硬件改版信息"
 sidebar_position: 20
 ---
 

@@ -1,5 +1,4 @@
 ---
-sidebar_label: "Camera"
 sidebar_position: 2
 ---
 

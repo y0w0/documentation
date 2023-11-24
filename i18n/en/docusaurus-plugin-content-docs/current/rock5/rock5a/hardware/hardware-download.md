@@ -1,5 +1,4 @@
 ---
-sidebar_label: "Hardware Data Download"
 sidebar_position: 30
 ---
 

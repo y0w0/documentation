@@ -1,5 +1,4 @@
 ---
-sidebar_label: "Hardware Revision"
 sidebar_position: 20
 ---
 

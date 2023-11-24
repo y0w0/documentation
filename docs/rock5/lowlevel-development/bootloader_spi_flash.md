@@ -1,5 +1,4 @@
 ---
-sidebar_label: "烧录 BootLoader 到 SPI Flash"
 sidebar_position: 20
 ---
 

@@ -1,5 +1,4 @@
 ---
-sidebar_label: "显示设置"
 sidebar_position: 10
 ---
 

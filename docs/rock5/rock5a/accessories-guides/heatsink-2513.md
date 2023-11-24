@@ -1,5 +1,4 @@
 ---
-sidebar_label: "ROCK 5A使用Radxa Heatsink 2513教程"
 sidebar_position: 20
 ---
 

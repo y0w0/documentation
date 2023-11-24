@@ -1,5 +1,4 @@
 ---
-sidebar_label: "ROCK 5B 金属外壳使用教程"
 sidebar_position: 20
 ---
 

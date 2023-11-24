@@ -1,5 +1,4 @@
 ---
-sidebar_label: "ROCK 5B Third-party Image"
 sidebar_position: 30
 ---
 

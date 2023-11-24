@@ -1,5 +1,4 @@
 ---
-sidebar_label: "操作系统安装介质选择指导"
 sidebar_position: 16
 ---
 

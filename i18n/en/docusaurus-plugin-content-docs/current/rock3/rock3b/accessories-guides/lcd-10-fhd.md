@@ -1,5 +1,4 @@
 ---
-sidebar_label: "Using Radxa Display 10 FHD on ROCK 3B"
 sidebar_position: 23
 ---
 

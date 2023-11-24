@@ -1,5 +1,4 @@
 ---
-sidebar_label: "Account management"
 sidebar_position: 10
 ---
 

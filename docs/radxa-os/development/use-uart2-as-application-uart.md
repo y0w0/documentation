@@ -1,5 +1,4 @@
 ---
-sidebar_label: "将 UART2_M0 接口配置为普通串口"
 sidebar_position: 10
 ---
 

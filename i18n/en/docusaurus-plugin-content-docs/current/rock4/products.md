@@ -1,5 +1,4 @@
 ---
-sidebar_label: "Products Introductions"
 sidebar_position: 2
 ---
 

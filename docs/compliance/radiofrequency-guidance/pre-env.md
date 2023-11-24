@@ -1,5 +1,4 @@
 ---
-sidebar_label: "定频认证指导"
 sidebar_position: 13
 ---
 

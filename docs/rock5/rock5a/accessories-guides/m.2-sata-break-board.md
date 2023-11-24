@@ -1,5 +1,4 @@
 ---
-sidebar_label: "ROCK 5A使用M.2 SATA breakout board教程"
 sidebar_position: 20
 ---
 

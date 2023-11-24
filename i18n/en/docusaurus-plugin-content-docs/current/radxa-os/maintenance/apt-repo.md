@@ -1,5 +1,4 @@
 ---
-sidebar_label: "APT Repository"
 ---
 
 import Tabs from '@theme/Tabs';

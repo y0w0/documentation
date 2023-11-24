@@ -1,5 +1,4 @@
 ---
-sidebar_label: "ROCK 3B GPIO 定义"
 sidebar_position: 50
 ---
 

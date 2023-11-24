@@ -1,5 +1,4 @@
 ---
-sidebar_label: "sensors of keyestudio"
 sidebar_position: 10
 ---
 

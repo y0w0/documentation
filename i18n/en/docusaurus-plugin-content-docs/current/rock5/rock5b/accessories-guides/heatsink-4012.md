@@ -1,5 +1,4 @@
 ---
-sidebar_label: "Heatsink 4012 Tutorial"
 sidebar_position: 20
 ---
 

@@ -1,5 +1,4 @@
 ---
-sidebar_label: "install OS from USB port by RKDevTool"
 sidebar_position: 36
 ---
 

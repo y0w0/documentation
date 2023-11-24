@@ -1,5 +1,4 @@
 ---
-sidebar_label: "rsetup"
 sidebar_position: 0
 ---
 

@@ -1,5 +1,4 @@
 ---
-sidebar_label: "音频设置"
 sidebar_position: 10
 ---
 

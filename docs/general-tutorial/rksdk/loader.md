@@ -1,5 +1,4 @@
 ---
-sidebar_label: "获取Loader"
 sidebar_position: 2
 ---
 

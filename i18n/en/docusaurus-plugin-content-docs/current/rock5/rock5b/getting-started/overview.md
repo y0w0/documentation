@@ -1,5 +1,4 @@
 ---
-sidebar_label: "ROCK 5B Overview"
 sidebar_position: 1
 ---
 

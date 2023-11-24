@@ -1,5 +1,4 @@
 ---
-sidebar_label: "Board-side Python NPU model inference tutorial (RKNN Toolkit Lite2)"
 sidebar_position: 20
 ---
 

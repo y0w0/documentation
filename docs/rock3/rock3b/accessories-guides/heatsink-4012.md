@@ -1,5 +1,4 @@
 ---
-sidebar_label: "散热器 4012"
 sidebar_position: 55
 ---
 

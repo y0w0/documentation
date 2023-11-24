@@ -1,5 +1,4 @@
 ---
-sidebar_label: "添加 LED（使用 rsetup 加载第三方设备树覆写文件（DTBO））"
 sidebar_position: 10
 ---
 

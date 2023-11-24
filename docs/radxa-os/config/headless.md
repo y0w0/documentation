@@ -1,5 +1,4 @@
 ---
-sidebar_label: "无屏模式"
 sidebar_position: 10
 ---
 

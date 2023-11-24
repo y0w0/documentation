@@ -1,5 +1,4 @@
 ---
-sidebar_label: "Radxa Wireless Module A8 使用教程"
 sidebar_position: 2
 ---
 

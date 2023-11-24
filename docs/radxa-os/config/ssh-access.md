@@ -1,5 +1,4 @@
 ---
-sidebar_label: "SSH使用教程"
 sidebar_position: 10
 ---
 

@@ -1,5 +1,4 @@
 ---
-sidebar_label: "Android系统安装"
 sidebar_position: 3
 ---
 

@@ -1,5 +1,4 @@
 ---
-sidebar_label: "Localization"
 sidebar_position: 40
 ---
 

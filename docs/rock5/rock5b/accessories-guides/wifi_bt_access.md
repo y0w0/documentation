@@ -1,5 +1,4 @@
 ---
-sidebar_label: "WIFI和BT教程"
 sidebar_position: 2
 ---
 

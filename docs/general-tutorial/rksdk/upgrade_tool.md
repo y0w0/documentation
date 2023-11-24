@@ -1,5 +1,4 @@
 ---
-sidebar_label: "upgrade_tool"
 sidebar_position: 3
 ---
 

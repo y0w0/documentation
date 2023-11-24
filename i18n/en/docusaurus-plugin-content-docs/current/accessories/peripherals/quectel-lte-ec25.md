@@ -1,5 +1,4 @@
 ---
-sidebar_label: "QUECTEL LTE EC25"
 sidebar_position: 10
 ---
 

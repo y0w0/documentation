@@ -1,5 +1,4 @@
 ---
-sidebar_label: "Modifying Linux Boot Parameters"
 sidebar_position: 10
 ---
 

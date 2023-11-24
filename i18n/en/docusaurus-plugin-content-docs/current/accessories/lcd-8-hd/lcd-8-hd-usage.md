@@ -1,5 +1,4 @@
 ---
-sidebar_label: "Radxa Display 8 HD Usage"
 sidebar_position: 6
 ---
 

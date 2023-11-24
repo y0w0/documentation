@@ -1,5 +1,4 @@
 ---
-sidebar_label: "RK3588 Installing Panfork Open Source GPU Driver"
 sidebar_position: 17
 ---
 

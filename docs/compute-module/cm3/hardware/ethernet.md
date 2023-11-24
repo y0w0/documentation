@@ -1,5 +1,4 @@
 ---
-sidebar_label: "千兆以太网"
 sidebar_position: 10
 ---
 

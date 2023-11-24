@@ -1,5 +1,4 @@
 ---
-sidebar_label: "Hardware Information Download"
 sidebar_position: 20
 ---
 

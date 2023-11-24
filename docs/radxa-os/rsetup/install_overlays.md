@@ -1,5 +1,4 @@
 ---
-sidebar_label: "使用 rsetup 安装设备树覆盖文件（DTBO）或源码（DTS）"
 sidebar_position: 10
 ---
 

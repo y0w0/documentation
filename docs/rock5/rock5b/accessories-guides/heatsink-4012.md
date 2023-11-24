@@ -1,5 +1,4 @@
 ---
-sidebar_label: "Radxa Heatsink 4012 使用教程"
 sidebar_position: 40
 ---
 

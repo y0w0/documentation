@@ -1,5 +1,4 @@
 ---
-sidebar_label: "APT 仓库"
 ---
 
 import Tabs from '@theme/Tabs';

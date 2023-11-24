@@ -1,5 +1,4 @@
 ---
-sidebar_label: "Radxa CM3 IO GPIO Definition"
 sidebar_position: 50
 ---
 

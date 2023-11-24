@@ -1,5 +1,4 @@
 ---
-sidebar_label: "OS Installation Guides"
 sidebar_position: 17
 ---
 

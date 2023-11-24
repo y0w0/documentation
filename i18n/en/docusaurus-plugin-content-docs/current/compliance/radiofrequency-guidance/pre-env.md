@@ -1,5 +1,4 @@
 ---
-sidebar_label: "Radiofrequency Compliance Guidance"
 sidebar_position: 13
 ---
 

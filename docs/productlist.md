@@ -1,5 +1,4 @@
 ---
-sidebar_label: "产品列表"
 sidebar_position: 2
 ---
 

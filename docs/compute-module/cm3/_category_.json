@@ -1,9 +1,0 @@
-{
-  "label": "瑞莎 CM3",
-  "link": {
-    "description": "Radxa Compute Module 3(Radxa CM3)是基于 Rockchip RK3566 SoC 所实现的，具有小尺寸和紧凑布局的计算模块。",
-    "slug": "/compute-module/cm3",
-    "type": "generated-index"
-  },
-  "position": 10
-}

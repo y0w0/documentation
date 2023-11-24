@@ -2,9 +2,6 @@
 sidebar_position: 5
 ---
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-
 # Introduction
 
 This guide is written for Radxa ZERO 2 PRO beginners to help you understand the basic preparation and setup of Radxa ZERO 2 PRO.

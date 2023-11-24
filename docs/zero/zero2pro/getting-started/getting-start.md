@@ -2,9 +2,6 @@
 sidebar_position: 5
 ---
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-
 # 简介
 
 本指南是为 瑞莎 ZERO 2 PRO 初级使用者编写，可以帮助您了解 瑞莎 ZERO 2 PRO 基本的准备和设置。

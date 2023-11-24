@@ -2,9 +2,6 @@
 sidebar_position: 8
 ---
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-
 # 简介
 
 ROCK 3C 支持 Maskrom 模式，这是 CPU 通过 USB OTG 端口接收命令的一种特殊操作模式。

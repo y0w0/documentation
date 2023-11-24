@@ -2,9 +2,6 @@
 sidebar_position: 2
 ---
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-
 # 系统镜像下载
 
 以下系统已由瑞莎官方测试验证：

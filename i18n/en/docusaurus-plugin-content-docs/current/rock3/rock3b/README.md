@@ -2,9 +2,6 @@
 sidebar_position: 30
 ---
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-
 # ROCK 3B
 
 Radxa ROCK 3B is a single-board computer based on the Pico-ITX form factor (100mm x 75mm) that not only outperforms similar products in terms of performance, but also offers superior mechanical compatibility.

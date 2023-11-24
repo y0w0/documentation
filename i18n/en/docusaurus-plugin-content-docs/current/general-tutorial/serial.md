@@ -39,9 +39,6 @@ The definition of each pin of USB to TTL cable is showing like this:
 
 ![USB to TTL connected](/img/accessories/1000px-Serial-connection.webp)
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-
 <Tabs queryString="os">
 <TabItem value="Windows" label="Windows" default>
 

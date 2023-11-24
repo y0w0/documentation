@@ -6,9 +6,6 @@ sidebar_position: 30
 
 ## Introduction to installation media
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-
 <Tabs queryString="target">
   <TabItem value="eMMC" label="eMMC">
 

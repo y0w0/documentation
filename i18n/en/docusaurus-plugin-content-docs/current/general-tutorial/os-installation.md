@@ -4,9 +4,6 @@ sidebar_position: 17
 
 # Operating System Installation Guides
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-
 :::tip
 The default account/password for the official images is **radxa**/**radxa**
 :::

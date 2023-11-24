@@ -2,9 +2,6 @@
 sidebar_position: 20
 ---
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-
 # 简介
 
 本指南可帮助您使用 rkdeveloptool 和 RKDevTool，以 maskrom 模式从 USB 端口将镜像安装到 SPI Nor Flash 中。

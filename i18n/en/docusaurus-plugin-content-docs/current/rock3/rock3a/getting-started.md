@@ -2,9 +2,6 @@
 sidebar_position: 3
 ---
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-
 # Getting Started
 
 ROCK 3A features a quad core Cortex-A55 ARM processor, 32bit LPDDR4 memory,

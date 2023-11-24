@@ -2,9 +2,6 @@
 sidebar_position: 20
 ---
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-
 # Introduction
 
 This guide can help you to install the image to the SPI Nor Flash from the USB port using the maskrom mode with the rkdeveloptool and the RKDevTool.

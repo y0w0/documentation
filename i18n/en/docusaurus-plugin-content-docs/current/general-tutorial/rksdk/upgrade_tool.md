@@ -2,9 +2,6 @@
 sidebar_position: 3
 ---
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-
 # upgrade_tool
 
 upgrade_tool is the software developed by Rockchip for USB flashing on Linux platform.

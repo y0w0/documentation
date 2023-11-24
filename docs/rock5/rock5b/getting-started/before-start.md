@@ -71,9 +71,6 @@ sidebar_position: 15
 
 ## 烧录方式选择
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-
 <Tabs queryString="app">
 	<TabItem value="Etcher" label="Etcher 方式" default>
 - 该方法适用于 Windows、MacOS、Linux x64 操作系统

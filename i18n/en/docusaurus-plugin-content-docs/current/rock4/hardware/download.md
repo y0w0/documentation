@@ -2,9 +2,6 @@
 sidebar_position: 20
 ---
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-
 # Hardware Information
 
 You can download the hardware information of ROCK 4 series board in this guide.

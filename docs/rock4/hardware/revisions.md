@@ -2,9 +2,6 @@
 sidebar_position: 20
 ---
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-
 # 改版详情
 
 您可以在此查询 ROCK 4 系列主板不同硬件版本之间的差异。

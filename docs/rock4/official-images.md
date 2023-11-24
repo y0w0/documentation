@@ -2,9 +2,6 @@
 sidebar_position: 8
 ---
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-
 # ROCK 4 系列官方镜像
 
 ROCK 4 官方操作系统镜像可从以下方式下载：

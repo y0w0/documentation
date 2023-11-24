@@ -2,9 +2,6 @@
 sidebar_position: 40
 ---
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-
 # Maskrom 模式
 
 ROCK 3B 的 OTG 接口位于处于上方的 USB 3.0 接口，如果需要进入 Maskrom 模式，则应先将 USB 3.0 座子下方的拨码开关调至 device 侧。  

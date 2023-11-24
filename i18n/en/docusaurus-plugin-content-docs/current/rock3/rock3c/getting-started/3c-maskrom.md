@@ -2,9 +2,6 @@
 sidebar_position: 8
 ---
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-
 # Introduction
 
 The ROCK 3C supports Maskrom mode, which is a special operation mode where the CPU receives commands through the USB OTG port.

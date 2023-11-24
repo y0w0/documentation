@@ -1,9 +1,6 @@
 ---
 ---
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-
 # APT Repository
 
 RadxaOS is an operating system based on Debian / Ubuntu. Our system contains not only the APT repositories of the upstream system, but also additional repositories for RadxaOS-specific packages.

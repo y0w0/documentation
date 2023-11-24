@@ -18,9 +18,6 @@ Many third party images have not been officially tested and may have some proble
 We will post information about each release on the [Radxa Forum](https://forum.radxa.com/).
 :::
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-
 <Tabs queryString="model">
 <TabItem value="ROCK 5A" label="ROCK 5A" default>
 

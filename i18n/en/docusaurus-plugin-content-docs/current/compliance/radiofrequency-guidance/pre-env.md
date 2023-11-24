@@ -2,9 +2,6 @@
 sidebar_position: 13
 ---
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-
 # Radiofrequency Compliance Guidance
 
 CE / FCC certification requires that the device's wireless signal operates at a specified frequency. This tutorial will guide you on how to set up Wi-Fi / Bluetooth for such test.

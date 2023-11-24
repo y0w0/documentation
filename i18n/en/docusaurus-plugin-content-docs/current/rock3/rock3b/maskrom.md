@@ -2,9 +2,6 @@
 sidebar_position: 40
 ---
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-
 # Maskrom Mode
 
 The OTG interface of ROCK 3B is located on the upper USB 3.0 interface. If you need to enter Maskrom mode, you should first adjust the switch under the USB 3.0 socket to the device side.

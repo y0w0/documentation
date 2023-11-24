@@ -2,9 +2,6 @@
 sidebar_position: 2
 ---
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-
 # SPI U-Boot 镜像及 Loader 文件
 
 :::tip

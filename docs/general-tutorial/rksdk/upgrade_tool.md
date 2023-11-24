@@ -2,9 +2,6 @@
 sidebar_position: 3
 ---
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-
 # upgrade_tool
 
 upgrade_tool 是 Rockchip 为 Linux 平台下进行 USB 烧录所开发的软件。

@@ -19,9 +19,6 @@ This page describe how to write/install the bootloader to the SPI flash on the R
 
 There are two methods available to flash the SPI:
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-
 <Tabs queryString="method">
 <TabItem value="simple" label="Simple method" default>
 

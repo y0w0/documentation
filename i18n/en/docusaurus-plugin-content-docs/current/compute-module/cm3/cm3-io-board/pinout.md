@@ -2,9 +2,6 @@
 sidebar_position: 50
 ---
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-
 # Radxa CM3 IO GPIO Definition
 
 ## GPIO Voltage

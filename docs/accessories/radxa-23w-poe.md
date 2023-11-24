@@ -2,9 +2,6 @@
 sidebar_position: 33
 ---
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-
 # Radxa 23W PoE HAT
 
 ![Radxa 23W PoE HAT](/img/accessories/poe-hat/23w-poe.webp)

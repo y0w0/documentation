@@ -2,9 +2,6 @@
 sidebar_position: 6
 ---
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-
 # Radxa Display 8 HD 使用教程
 
 ## 概述

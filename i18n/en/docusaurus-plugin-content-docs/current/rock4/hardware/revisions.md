@@ -2,9 +2,6 @@
 sidebar_position: 20
 ---
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-
 # Revision
 
 You can check the differences between different hardware versions of ROCK 4 series boards here.

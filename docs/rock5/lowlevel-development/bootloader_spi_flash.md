@@ -16,9 +16,6 @@ ROCK 5B 上有一个 SPI Flash（SPI 闪存）,在 ROCK 5A 上则为与 eMMC 模
 1. 初级方法：通过 ROCK 5B 自身烧录 SPI
 2. 高级方法：通过主机和 Maskrom 模式烧录 SPI（**目前 ROCK 5A 只能通过这种方式烧录 SPI 模块**）
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-
 <Tabs queryString="method">
 <TabItem value="basic" label="初级方法" default>
 

@@ -6,9 +6,6 @@ sidebar_position: 16
 
 ## 安装介质简介
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-
 <Tabs queryString="target">
   <TabItem value="eMMC" label="eMMC">
 

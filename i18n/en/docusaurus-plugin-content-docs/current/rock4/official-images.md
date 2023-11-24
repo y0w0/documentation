@@ -2,9 +2,6 @@
 sidebar_position: 8
 ---
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-
 # Official Images for ROCK 4 Series
 
 Official ROCK 4 OS images can also be downloaded from:

@@ -2,9 +2,6 @@
 sidebar_position: 50
 ---
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-
 # ROCK 3B GPIO Definition
 
 ## GPIO Voltage

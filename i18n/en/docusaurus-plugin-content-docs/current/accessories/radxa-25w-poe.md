@@ -2,9 +2,6 @@
 sidebar_position: 34
 ---
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-
 # Introduction
 
 The Radxa 25W PoE HAT provides boot over Power over Ethernet support for compatible Radxa SBCs.

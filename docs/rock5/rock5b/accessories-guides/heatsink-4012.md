@@ -1,5 +1,4 @@
 ---
-sidebar_label: "Radxa Heatsink 4012 使用教程"
 sidebar_position: 40
 ---
 
@@ -43,7 +42,7 @@ radxa@rock-5b:~$ rsetup
 
 ```bash
 Please select an option below:
-        System Maintaince
+        System Maintenance
         Hardware
         Overlays
         Connectivity

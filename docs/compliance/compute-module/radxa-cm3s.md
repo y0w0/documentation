@@ -1,5 +1,4 @@
 ---
-sidebar_label: "Radxa CM3S"
 sidebar_position: 1
 ---
 

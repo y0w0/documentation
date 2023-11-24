@@ -1,5 +1,4 @@
 ---
-sidebar_label: "MRAA 介绍"
 sidebar_position: 30
 ---
 

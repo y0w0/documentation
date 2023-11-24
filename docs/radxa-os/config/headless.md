@@ -1,5 +1,4 @@
 ---
-sidebar_label: "无屏模式"
 sidebar_position: 10
 ---
 
@@ -18,7 +17,7 @@ sidebar_position: 10
 
 The [wireless guide](/radxa-os/config/network.md) may be helpful.
 
-_注意：有些产品需要安装WiFi模块来连接到无线网络。更多细节，请在[产品介绍](https://radxa.com/product)上查看产品参数_。
+_注意：有些产品需要安装WiFi模块来连接到无线网络。更多细节，请在[产品介绍](https://radxa.com/products)上查看产品参数。_
 
 将系统镜像烧写到micro SD卡后不要从你的Linux或Windows机器拔出， 可以在文件系统中找到配置文件夹。其中有两个文件**before.txt\*和**config.txt\*\*。
 

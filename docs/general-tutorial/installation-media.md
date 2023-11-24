@@ -1,14 +1,10 @@
 ---
-sidebar_label: "操作系统安装介质选择指导"
 sidebar_position: 16
 ---
 
 # 选择安装介质
 
 ## 安装介质简介
-
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
 
 <Tabs queryString="target">
   <TabItem value="eMMC" label="eMMC">

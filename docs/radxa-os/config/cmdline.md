@@ -1,5 +1,4 @@
 ---
-sidebar_label: "修改 Linux 启动参数"
 sidebar_position: 10
 ---
 

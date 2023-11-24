@@ -2,9 +2,6 @@
 sidebar_position: 30
 ---
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-
 # ROCK 3B
 
 瑞莎 ROCK 3B 是一款基于 Pico-ITX 外形规格（100mm x 75mm）的单板计算机 (SBC)，与同类产品相比，不仅在性能方面更胜一筹，还更具出色的机械兼容性。

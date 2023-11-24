@@ -1,5 +1,4 @@
 ---
-sidebar_label: "移远 LTE EM05-CE"
 sidebar_position: 15
 ---
 

@@ -1,10 +1,6 @@
 ---
-sidebar_label: "Maskrom Mode"
 sidebar_position: 40
 ---
-
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
 
 # Maskrom Mode
 

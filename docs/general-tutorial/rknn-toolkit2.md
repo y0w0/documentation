@@ -1,5 +1,4 @@
 ---
-sidebar_label: "PC 端 NPU 模型转换与推理教程 (RKNN Toolkit2)"
 sidebar_position: 20
 ---
 

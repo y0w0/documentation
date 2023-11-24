@@ -1,5 +1,4 @@
 ---
-sidebar_label: "ROCK 3A"
 sidebar_position: 3
 ---
 

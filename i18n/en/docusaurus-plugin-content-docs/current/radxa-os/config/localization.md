@@ -1,5 +1,4 @@
 ---
-sidebar_label: "Localization"
 sidebar_position: 40
 ---
 
@@ -17,7 +16,7 @@ Select language you want and click Add.
 
 ![rock5a_system_language_2](/img/rock5a/rock5a_system_language_2.webp)
 
-In the new language column, click the up icon to promote to default, andd click Apply. Restart your computer that the system language will be setting new language.
+In the new language column, click the up icon to promote to default, and click Apply. Restart your computer that the system language will be setting new language.
 
 ![rock5a_system_language_3](/img/rock5a/rock5a_system_language_3.webp)
 
@@ -59,7 +58,7 @@ Right-click the keyboard picture and then click configure
 
 ![rock5a_language_input_3](/img/rock5a/rock5a_language_input_3.webp)
 
-Click '+' add new language iput method.
+Click '+' add new language input method.
 
 ![rock5a_language_input_4](/img/rock5a/rock5a_language_input_4.webp)
 

@@ -1,5 +1,4 @@
 ---
-sidebar_label: "ROCK 3B 使用 Radxa Display 8 HD 教程"
 sidebar_position: 20
 ---
 

@@ -1,9 +1,0 @@
-{
-  "label": "Alternative OS",
-  "link": {
-    "description": "Many other OSes already supports ROCK 5 family",
-    "slug": "/rock5/alt-os",
-    "type": "generated-index"
-  },
-  "position": 30
-}

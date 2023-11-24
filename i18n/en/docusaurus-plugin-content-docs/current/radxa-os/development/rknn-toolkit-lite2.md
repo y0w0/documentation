@@ -1,12 +1,11 @@
 ---
-sidebar_label: "Board-side Python NPU model inference tutorial (RKNN Toolkit Lite2)"
 sidebar_position: 20
 ---
 
 # Board-side Python NPU model inference tutorial (RKNN Toolkit Lite2)
 
 :::info
-This document only shows how to run the official example, for more information you can see the rknn_toolkit_lite2/doc folder in (RKNN Toolkit2 repository)[https://github.com/rockchip-linux/rknn-toolkit2].
+This document only shows how to run the official example, for more information you can see the rknn_toolkit_lite2/doc folder in [RKNN Toolkit2 repository](https://github.com/rockchip-linux/rknn-toolkit2).
 :::
 
 ## Install RKNN Toolkit Lite2 and its dependencies.

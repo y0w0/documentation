@@ -1,5 +1,4 @@
 ---
-sidebar_label: "Heatsink 4012 Tutorial"
 sidebar_position: 20
 ---
 
@@ -42,7 +41,7 @@ Select `Hardware`:
 
 ```
 Please select an option below:
-        System Maintaince
+        System Maintenance
         Hardware
         Overlays
         Connectivity

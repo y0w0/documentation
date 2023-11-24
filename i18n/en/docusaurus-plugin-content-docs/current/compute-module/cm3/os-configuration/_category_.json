@@ -1,9 +1,0 @@
-{
-  "label": "OS Configuration",
-  "link": {
-    "description": "The system configuration of Radxa CM3 ",
-    "slug": "/compute-module/cm3/os-config",
-    "type": "generated-index"
-  },
-  "position": 30
-}

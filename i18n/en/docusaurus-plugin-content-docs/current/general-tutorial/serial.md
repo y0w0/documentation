@@ -1,5 +1,4 @@
 ---
-sidebar_label: "UART Serial Console"
 sidebar_position: 5
 ---
 
@@ -39,9 +38,6 @@ The definition of each pin of USB to TTL cable is showing like this:
 </td></tr></tbody></table>
 
 ![USB to TTL connected](/img/accessories/1000px-Serial-connection.webp)
-
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
 
 <Tabs queryString="os">
 <TabItem value="Windows" label="Windows" default>
@@ -136,7 +132,7 @@ Now run minicom radxa to use the config above and connects to the ROCK board ser
 ![mac serial](/img/configuration/Coolterm-serialport-setting.webp)
 
 Click save icon to save the configuration as radxa and click connect icon.  
-Boot your ROCK boards and you will see the serial console ouput:  
+Boot your ROCK boards and you will see the serial console output:  
 ![mac serial output](/img/configuration/Coolterm-output.webp)
 
 </TabItem>

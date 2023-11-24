@@ -1,5 +1,4 @@
 ---
-sidebar_label: "Headless Setup"
 sidebar_position: 10
 ---
 
@@ -18,7 +17,7 @@ Connect the SBC to **the same network** as your computer via wired connection.
 
 The [wireless guide](/radxa-os/config/network.md) may be helpful.
 
-_Note: Some solutions require a WiFi module to be installed in order to connect to the wireless network. For more details, please check product parameters on [Product Introduction](https://radxa.com/product)._
+_Note: Some solutions require a WiFi module to be installed in order to connect to the wireless network. For more details, please check product parameters on [Product Introduction](https://radxa.com/products)._
 
 After flashing the image to a micro SD card, keep it connected with your Linux or Windows machines, the config folder will be available on file system. There are two files **before.txt** and **config.txt** in it.
 

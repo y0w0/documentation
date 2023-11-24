@@ -1,9 +1,0 @@
-{
-  "label": "Radxa NX5",
-  "link": {
-    "description": "Radxa NX5 is a compact computing module based on the Rockchip RK3588s SoC, known for its small size and compact layout.",
-    "slug": "/compute-module/nx5",
-    "type": "generated-index"
-  },
-  "position": 10
-}

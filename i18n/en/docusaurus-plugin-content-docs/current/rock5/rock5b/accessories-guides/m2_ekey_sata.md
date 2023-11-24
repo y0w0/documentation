@@ -1,5 +1,4 @@
 ---
-sidebar_label: "Radxa M.2 E Key to SATA Board Tutorial"
 sidebar_position: 5
 ---
 

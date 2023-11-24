@@ -105,9 +105,6 @@ radxa@radxa-zero2:~$ gpioget $(gpiofind PIN_27)
 
 ## Programming Reference
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-
 <Tabs queryString="lang">
 <TabItem value="C">
 

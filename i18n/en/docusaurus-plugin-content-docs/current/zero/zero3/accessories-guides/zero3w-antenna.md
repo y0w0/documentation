@@ -1,5 +1,4 @@
 ---
-sidebar_label: "Antenna"
 sidebar_position: 1
 ---
 

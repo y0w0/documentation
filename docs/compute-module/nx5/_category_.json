@@ -1,9 +1,0 @@
-{
-  "label": "瑞莎 NX5",
-  "link": {
-    "description": "Radxa NX5 是基于 Rockchip RK3588s SoC 所实现的，具有小尺寸和紧凑布局的计算模块。",
-    "slug": "/compute-module/nx5",
-    "type": "generated-index"
-  },
-  "position": 10
-}

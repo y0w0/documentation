@@ -1,5 +1,4 @@
 ---
-sidebar_label: "关于本文档"
 sidebar_position: 1
 ---
 

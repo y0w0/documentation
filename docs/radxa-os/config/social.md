@@ -1,5 +1,4 @@
 ---
-sidebar_label: "社交媒体应用程序"
 sidebar_position: 80
 ---
 

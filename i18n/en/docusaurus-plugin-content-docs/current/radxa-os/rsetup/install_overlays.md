@@ -1,5 +1,4 @@
 ---
-sidebar_label: "Use rsetup to install device tree overlay files (DTBO) or source code (DTS)"
 sidebar_position: 10
 ---
 

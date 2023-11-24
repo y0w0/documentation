@@ -1,5 +1,4 @@
 ---
-sidebar_label: "RK3588 安装 Panfork 开源 GPU 驱动"
 sidebar_position: 17
 ---
 

@@ -1,5 +1,4 @@
 ---
-sidebar_label: "注意事项"
 sidebar_position: 3
 ---
 

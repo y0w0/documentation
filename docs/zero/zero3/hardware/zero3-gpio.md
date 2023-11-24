@@ -1,5 +1,4 @@
 ---
-sidebar_label: "ZERO 3 GPIO"
 sidebar_position: 1
 ---
 

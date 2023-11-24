@@ -1,5 +1,4 @@
 ---
-sidebar_label: "PCIe"
 sidebar_position: 10
 ---
 

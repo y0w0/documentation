@@ -1,10 +1,6 @@
 ---
-sidebar_label: "Maskrom 模式"
 sidebar_position: 8
 ---
-
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
 
 # 简介
 
@@ -63,7 +59,7 @@ ROCK 3C 支持 Maskrom 模式，这是 CPU 通过 USB OTG 端口接收命令的�
    ```
 
    </TabItem>
-   <TabItem value="upgarde_tool">
+   <TabItem value="upgrade_tool">
 
    ```bash
        $ sudo ./upgrade_tool  # 列出已连接设备

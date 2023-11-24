@@ -1,5 +1,4 @@
 ---
-sidebar_label: "ROCK 3C GPIO"
 sidebar_position: 50
 ---
 

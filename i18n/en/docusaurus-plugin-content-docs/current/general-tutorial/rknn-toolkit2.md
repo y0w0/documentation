@@ -1,5 +1,4 @@
 ---
-sidebar_label: "PC-based NPU model transformation and inference tutorial (RKNN Toolkit2)"
 sidebar_position: 20
 ---
 

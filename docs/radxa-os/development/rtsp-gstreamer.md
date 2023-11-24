@@ -1,5 +1,4 @@
 ---
-sidebar_label: "RTSP 远程推流(基于 Gstreamer)"
 sidebar_position: 20
 ---
 

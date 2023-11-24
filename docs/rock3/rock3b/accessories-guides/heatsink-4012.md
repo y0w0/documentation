@@ -1,5 +1,4 @@
 ---
-sidebar_label: "散热器 4012"
 sidebar_position: 55
 ---
 
@@ -49,7 +48,7 @@ radxa@rock-3b:~$ rsetup
 
 ```bash
 Please select an option below:
-        System Maintaince
+        System Maintenance
         Hardware
         Overlays
         Connectivity

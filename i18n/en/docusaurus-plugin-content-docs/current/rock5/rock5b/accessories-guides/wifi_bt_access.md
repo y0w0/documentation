@@ -1,5 +1,4 @@
 ---
-sidebar_label: "WIFI & BT Tutorial"
 sidebar_position: 2
 ---
 

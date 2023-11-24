@@ -1,5 +1,4 @@
 ---
-sidebar_label: "RTSP Remote Streaming (based on Gstreamer)"
 sidebar_position: 20
 ---
 

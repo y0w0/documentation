@@ -1,11 +1,10 @@
 ---
-sidebar_label: "USB Networking Setup"
 sidebar_position: 10
 ---
 
 # USB Networking
 
-Most of radxa products have reserved a USB port as an OTG port, it also a adb debug port when runuing Android. You can consult the port definitions of the corresponding [products](https://radxa.com/product).  
+Most of radxa products have reserved a USB port as an OTG port, it also a adb debug port when runuing Android. You can consult the port definitions of the corresponding [products](https://radxa.com/products).  
 You can set up a shared network between two products by connecting their OTG ports. Now officially supported for latest linux and android images.
 
 ## Preparations
@@ -58,7 +57,7 @@ This guide you set it on terminal:
 
 **Set shared adapter:**
 
-Before operating, comfirm if there is a new networkcard device:
+Before operating, confirm if there is a new networkcard device:
 
 ```
 radxa@rock-5a:~$ ip a
@@ -106,7 +105,7 @@ Of the many options, we only need to fill in two of them:
         IPv4 CONFIGURATION <Shared> # Change <Automatic> to <Shared>
 ```
 
-Save the configuration and return to setting interface to `Activate a connectin`, select the option you just add.  
+Save the configuration and return to setting interface to `Activate a connection`, select the option you just add.  
 It would be following if you apply it right:
 
 ```
@@ -169,7 +168,7 @@ Other options remain default. Save the configuration.
 
 **Connect to Host device:**
 
-Return to setting interface to `Activate a connectin`, select the option you just add.
+Return to setting interface to `Activate a connection`, select the option you just add.
 
 ```
                 Ethernet (usb0)

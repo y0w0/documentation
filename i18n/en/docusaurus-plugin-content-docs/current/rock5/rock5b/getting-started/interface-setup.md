@@ -1,5 +1,4 @@
 ---
-sidebar_label: "Interface Usage"
 sidebar_position: 17
 ---
 

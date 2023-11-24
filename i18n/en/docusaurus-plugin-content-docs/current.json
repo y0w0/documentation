@@ -155,9 +155,9 @@
     "description": "The label for category System Configuration in sidebar tutorialSidebar",
     "message": "System Configuration"
   },
-  "sidebar.tutorialSidebar.category.System Maintaince": {
-    "description": "The label for category System Maintaince in sidebar tutorialSidebar",
-    "message": "System Maintaince"
+  "sidebar.tutorialSidebar.category.System Maintenance": {
+    "description": "The label for category System Maintenance in sidebar tutorialSidebar",
+    "message": "System Maintenance"
   },
   "sidebar.tutorialSidebar.category.Yocto": {
     "description": "The label for category Yocto in sidebar tutorialSidebar",
@@ -231,10 +231,10 @@
     "message": "Search other resource here."
   },
   "sidebar.tutorialSidebar.category.初级开发教程": {
-    "message": "Lowlevel Developement"
+    "message": "Lowlevel Development"
   },
   "sidebar.tutorialSidebar.category.初级开发教程.link.generated-index.description": {
-    "message": "Lowlevel developement guides."
+    "message": "Lowlevel development guides."
   },
   "sidebar.tutorialSidebar.category.基础使用教程": {
     "message": "Basic Tutorial"
@@ -259,7 +259,7 @@
     "message": "Simple application installation guides."
   },
   "sidebar.tutorialSidebar.category.应用开发": {
-    "message": "Applations Developement"
+    "message": "Applations Development"
   },
   "sidebar.tutorialSidebar.category.应用开发.link.generated-index.description": {
     "message": "Simple applications development guides."

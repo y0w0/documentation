@@ -1,5 +1,4 @@
 ---
-sidebar_label: "MRAA Introduction"
 sidebar_position: 30
 ---
 

@@ -1,9 +1,0 @@
-{
-  "label": "系统配置",
-  "link": {
-    "description": "Radxa CM3 系统配置",
-    "slug": "/compute-module/cm3/os-config",
-    "type": "generated-index"
-  },
-  "position": 30
-}

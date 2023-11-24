@@ -1,5 +1,4 @@
 ---
-sidebar_label: "Radxa CM3 IO Board"
 sidebar_position: 80
 ---
 

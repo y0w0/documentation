@@ -1,5 +1,4 @@
 ---
-sidebar_label: "Radxa Display 8 HD"
 sidebar_position: 5
 ---
 
@@ -9,7 +8,7 @@ sidebar_position: 5
 
 ## Overview
 
-Radxa Display 8 HD is a color active matrix LCD module with touch panel designed specifically for Radxa Single Board Computers. This 8.0 inch display lets you create interactive projects such as tablets, industrial HMI, information dashboards and so on. With a sinlge cable for power, display and touch, and enabled software on‑screen keyboard, the Radxa Display 8 HD gives you full human computer interface without the need to connect a keyboard or mouse. Additionally, a built‑in gensor on the display can be used for automatically potrail or landscape rotation. It has the following features:
+Radxa Display 8 HD is a color active matrix LCD module with touch panel designed specifically for Radxa Single Board Computers. This 8.0 inch display lets you create interactive projects such as tablets, industrial HMI, information dashboards and so on. With a single cable for power, display and touch, and enabled software on‑screen keyboard, the Radxa Display 8 HD gives you full human computer interface without the need to connect a keyboard or mouse. Additionally, a built‑in gensor on the display can be used for automatically potrail or landscape rotation. It has the following features:
 
 - 8.0 inch LCD
 - 800 x 1280, 16.7M colors resolution

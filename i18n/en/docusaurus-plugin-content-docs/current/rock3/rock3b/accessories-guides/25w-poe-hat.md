@@ -1,5 +1,4 @@
 ---
-sidebar_label: "25W PoE HAT"
 sidebar_position: 55
 ---
 

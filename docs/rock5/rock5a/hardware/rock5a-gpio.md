@@ -1,5 +1,4 @@
 ---
-sidebar_label: "ROCK 5A GPIO定义"
 sidebar_position: 50
 ---
 

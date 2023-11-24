@@ -1,5 +1,4 @@
 ---
-sidebar_label: "烧录 BootLoader 到 SPI Flash"
 sidebar_position: 20
 ---
 
@@ -16,9 +15,6 @@ ROCK 5B 上有一个 SPI Flash（SPI 闪存）,在 ROCK 5A 上则为与 eMMC 模
 
 1. 初级方法：通过 ROCK 5B 自身烧录 SPI
 2. 高级方法：通过主机和 Maskrom 模式烧录 SPI（**目前 ROCK 5A 只能通过这种方式烧录 SPI 模块**）
-
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
 
 <Tabs queryString="method">
 <TabItem value="basic" label="初级方法" default>
@@ -288,7 +284,7 @@ sync
 
 在擦除之前，请确保 ROCK 5B/ROCK 5A 进入 Maskrom 模式
 
-- 打开 RKDevTool，选择 Adavanced Function。
+- 打开 RKDevTool，选择 Advanced Function。
 - 在 Boot 上选择 rk3588_spl_loader_v1.08.111.bin，然后点击下载按钮。
 - 进度完成后，点击 EraseALL 按钮
 - 结束后重启设备 ResetDevice

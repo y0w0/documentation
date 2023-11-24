@@ -2,9 +2,6 @@
 sidebar_position: 3
 ---
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-
 # Getting Started
 
 ROCK 3A features a quad core Cortex-A55 ARM processor, 32bit LPDDR4 memory,
@@ -35,7 +32,7 @@ The following are the steps for the ROCK 3A to enter Maskrom mode:
 
 |            Model            | ROCK 3 Model A                                                                                                                                                                                     |
 | :-------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| SoC<br/>CPU<br/>GPU<br/>NPU | **RK3568**<br/>Quad-core Cortex-A55, freqency 2Ghz<br/>Mali G52<br/>0.8TOPS NPU                                                                                                                    |
+| SoC<br/>CPU<br/>GPU<br/>NPU | **RK3568**<br/>Quad-core Cortex-A55, frequency 2Ghz<br/>Mali G52<br/>0.8TOPS NPU                                                                                                                   |
 |           Memory            | 2/4/8GB LPDDR4 3200MT/s, up to 1560MHz                                                                                                                                                             |
 |           Storage           | eMMC<br/>microSD card (microSD slot supports up to 128 GB microSD card)<br/>M.2 SSD (M.2 connector supports up to 8TB M2 NVME SSD)                                                                 |
 |           Display           | HDMI 2.0 up to 4k\*2k@60                                                                                                                                                                           |
@@ -46,7 +43,7 @@ The following are the steps for the ROCK 3A to enter Maskrom mode:
 |             USB             | USB 3.0 OTG X1, software([rsetup](/radxa-os/rsetup)) switch for host/device switch, upper one<br/>USB 3.0 HOST X1<br/>USB 2.0 HOST X2                                                              |
 |          Ethernet           | GbE LAN with Power over Ethernet (PoE) support<br/>additional HAT is required for powering from PoE                                                                                                |
 |             IO              | 40-pin expansion header                                                                                                                                                                            |
-|            Power            | USB PD, support USB Type-C PD 2.0, 9V/2A, 12V/2A, 15V/2A, 20V/2A (Recommanded)<br/>Qualcomm® Quick ChargeTM: Supports QC 3.0/2.0 adapter, 9V/2A, 12V/1.5A (Recommanded)<br/>DC 5V/4A power supply |
+|            Power            | USB PD, support USB Type-C PD 2.0, 9V/2A, 12V/2A, 15V/2A, 20V/2A (Recommended)<br/>Qualcomm® Quick ChargeTM: Supports QC 3.0/2.0 adapter, 9V/2A, 12V/1.5A (Recommended)<br/>DC 5V/4A power supply |
 |            Size             | 85mm x 56mm                                                                                                                                                                                        |
 
 ## Start-up guide

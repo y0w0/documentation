@@ -1,5 +1,4 @@
 ---
-sidebar_label: "ROCK 5A使用Penta SATA HAT教程"
 sidebar_position: 20
 ---
 

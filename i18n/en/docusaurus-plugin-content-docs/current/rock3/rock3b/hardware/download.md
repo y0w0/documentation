@@ -1,5 +1,4 @@
 ---
-sidebar_label: "Hardware Information"
 sidebar_position: 55
 ---
 
@@ -17,9 +16,9 @@ ROCK 3B V1.5 Components Placement Map download: [Radxa_ROCK_3B_V1.51_SMD](https:
 
 ### 2D Designing Documents
 
-ROCK 3B V1.5 Top Dimensioning diagram download: [ROCK_3B_V1_5_pcb_reaerence_dimension_top](https://dl.radxa.com/rock3/docs/hw/3b/ROCK_3B_V1_5_pcb_reaerence_dimension_top.pdf).
+ROCK 3B V1.5 Top Dimensioning diagram download: [ROCK_3B_V1_5_pcb_reaerence_dimension_top](https://dl.radxa.com/rock3/docs/hw/3b/ROCK_3B_V1_5_pcb_reference_dimension_top.pdf).
 
-ROCK 3B V1.5 Bottom Dimensioning diagram download: [ROCK_3B_V1_5_pcb_reaerence_dimension_bottom](https://dl.radxa.com/rock3/docs/hw/3b/ROCK_3B_V1_5_pcb_reaerence_dimension_bottom.pdf).
+ROCK 3B V1.5 Bottom Dimensioning diagram download: [ROCK_3B_V1_5_pcb_reaerence_dimension_bottom](https://dl.radxa.com/rock3/docs/hw/3b/ROCK_3B_V1_5_pcb_reference_dimension_bottom.pdf).
 
 ROCK 3B V1.5 Top 2D design drawing download (.dxf): [ROCK_3B_V1_51_pcb_2d_top](https://dl.radxa.com/rock3/docs/hw/3b/ROCK_3B_V1_51_pcb_2d_top.dxf).
 

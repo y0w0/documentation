@@ -1,5 +1,4 @@
 ---
-sidebar_label: "SSD 兼容性列表"
 sidebar_position: 15
 ---
 

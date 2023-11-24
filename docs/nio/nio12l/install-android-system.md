@@ -1,10 +1,6 @@
 ---
-sidebar_label: "Android系统安装"
 sidebar_position: 3
 ---
-
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
 
 # Android 系统安装
 

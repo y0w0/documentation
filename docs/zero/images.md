@@ -1,10 +1,6 @@
 ---
-sidebar_label: "系统镜像下载"
 sidebar_position: 2
 ---
-
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
 
 # 系统镜像下载
 

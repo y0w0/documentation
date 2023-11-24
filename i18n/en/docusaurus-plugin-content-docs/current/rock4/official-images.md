@@ -1,10 +1,6 @@
 ---
-sidebar_label: "Official Images"
 sidebar_position: 8
 ---
-
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
 
 # Official Images for ROCK 4 Series
 

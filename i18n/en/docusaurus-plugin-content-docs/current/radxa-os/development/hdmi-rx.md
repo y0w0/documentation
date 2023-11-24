@@ -1,5 +1,4 @@
 ---
-sidebar_label: "HDMI RX Usage"
 sidebar_position: 30
 ---
 

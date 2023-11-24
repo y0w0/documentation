@@ -1,10 +1,6 @@
 ---
-sidebar_label: "硬件资料下载"
 sidebar_position: 20
 ---
-
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
 
 # 硬件资料
 

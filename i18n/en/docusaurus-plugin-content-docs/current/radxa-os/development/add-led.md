@@ -1,5 +1,4 @@
 ---
-sidebar_label: "Adding LEDs (using rsetup to load a third-party device tree overlay file (DTBO))"
 sidebar_position: 10
 ---
 

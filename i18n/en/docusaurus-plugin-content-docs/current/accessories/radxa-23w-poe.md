@@ -1,10 +1,6 @@
 ---
-sidebar_label: "Radxa 23W PoE HAT"
 sidebar_position: 33
 ---
-
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
 
 # Radxa 23W PoE
 

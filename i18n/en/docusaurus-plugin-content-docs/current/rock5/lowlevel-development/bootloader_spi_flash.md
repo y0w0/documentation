@@ -1,5 +1,4 @@
 ---
-sidebar_label: "Flash BootLoader to SPI Flash"
 sidebar_position: 20
 ---
 
@@ -19,9 +18,6 @@ This page describe how to write/install the bootloader to the SPI flash on the R
 **Notice: As eMMC and spi module share a common interface on the ROCK 5A, please use micro SD card when using simple method.**
 
 There are two methods available to flash the SPI:
-
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
 
 <Tabs queryString="method">
 <TabItem value="simple" label="Simple method" default>
@@ -256,8 +252,8 @@ Next, click the right last columns in the "Loader" row to select rk3588_spl_load
 Step 4: Select SPI image
 Next, click the right last columns in the "spi" row to select spi-image.
 
-Step 5: Excute
-Finally, click the "Excute" button, and you will see the content in the red box on the right. When the progress reaches 100%, the download is completed.
+Step 5: Execute
+Finally, click the "Execute" button, and you will see the content in the red box on the right. When the progress reaches 100%, the download is completed.
 
 ![RKDevTool-03](/zh/img/rock5b/rock-5b-spi-flash-03.webp)
 

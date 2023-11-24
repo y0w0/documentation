@@ -1,10 +1,6 @@
 ---
-sidebar_label: "Maskrom Mode"
 sidebar_position: 8
 ---
-
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
 
 # Introduction
 
@@ -63,7 +59,7 @@ This guide will instruct you how to operate the ROCK 3C in Maskrom mode.
    ```
 
    </TabItem>
-   <TabItem value="upgarde_tool">
+   <TabItem value="upgrade_tool">
 
    ```bash
        $ sudo . /upgrade_tool # List connected devices

@@ -1,10 +1,6 @@
 ---
-sidebar_label: "Install the image to SPI Nor Flash from USB port"
 sidebar_position: 20
 ---
-
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
 
 # Introduction
 

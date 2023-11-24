@@ -1,10 +1,6 @@
 ---
-sidebar_label: "操作系统安装教程"
 sidebar_position: 17
 ---
-
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
 
 # 操作系统安装教程
 

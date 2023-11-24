@@ -1,5 +1,4 @@
 ---
-sidebar_label: "自动登录"
 sidebar_position: 30
 ---
 

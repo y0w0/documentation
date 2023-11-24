@@ -1,11 +1,10 @@
 ---
-sidebar_label: "USB网络设置"
 sidebar_position: 10
 ---
 
 # USB共享网络简介
 
-大多数radxa产品都预留了一个USB端口作为OTG端口，在运行Android时也作为adb调试端口。你可以在此查阅相应[产品](https://radxa.com/product)的端口定义。
+大多数radxa产品都预留了一个USB端口作为OTG端口，在运行Android时也作为adb调试端口。你可以在此查阅相应[产品](https://radxa.com/products)的端口定义。
 你可以通过OTG端口连接两个产品来建立一个共享网络。现在官方支持最新的linux和android图像。
 
 ## 准备工作
@@ -106,7 +105,7 @@ radxa@rock-5a:~$ sudo nmtui
         IPv4 CONFIGURATION <Shared> # Change <Automatic> to <Shared>
 ```
 
-保存配置并返回到设置界面 `Activate a connectin`，选择你刚刚添加的选项。
+保存配置并返回到设置界面 `Activate a connection`，选择你刚刚添加的选项。
 配置好后，则设置会更新为与以下相同：
 
 ```
@@ -169,7 +168,7 @@ Device usb0
 
 **连接到主机设备：**
 
-回到 `Activate a connectin`的设置界面，选择你刚刚添加的选项。
+回到 `Activate a connection`的设置界面，选择你刚刚添加的选项。
 
 ```
                 Ethernet (usb0)

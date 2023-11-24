@@ -1,5 +1,4 @@
 ---
-sidebar_label: "Using Radxa Display 8 HD on ROCK 5A"
 sidebar_position: 20
 ---
 

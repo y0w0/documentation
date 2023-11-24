@@ -1,5 +1,4 @@
 ---
-sidebar_label: "网络设置"
 sidebar_position: 20
 ---
 

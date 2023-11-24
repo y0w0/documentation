@@ -23,7 +23,7 @@ On Radxa products, the power LED usually has `default-on` trigger, while the sta
 
 The following steps help us to change light status:
 
-1. Use the `up` or `down` key to move the highlighted selection to which LED you want to edit the statu;
+1. Use the `up` or `down` key to move the highlighted selection to which LED you want to edit the status;
 2. Use the `Space` bar to confirm your choose, a `*` would appeare on the `[ ]` at the start.
 
 ```
@@ -69,5 +69,5 @@ The following steps help us to change light status:
 ```
 
 4. Use the `up` and `down` arrow keys to select which you like and press `Space` to confirm, a `*` would appeare on the `( )` like step 2.
-5. Press `Enter` to save your choose and aplly it.
+5. Press `Enter` to save your choose and apply it.
 6. Your LED status would change after step 5 at once.

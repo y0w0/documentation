@@ -1,5 +1,4 @@
 ---
-sidebar_label: "产品简介"
 sidebar_position: 2
 ---
 

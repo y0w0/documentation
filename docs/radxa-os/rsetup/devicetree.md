@@ -1,5 +1,4 @@
 ---
-sidebar_label: "设备树设置"
 sidebar_position: 10
 ---
 

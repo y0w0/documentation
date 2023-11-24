@@ -1,5 +1,4 @@
 ---
-sidebar_label: "Using Camera 4K on ROCK 5B"
 sidebar_position: 4
 ---
 

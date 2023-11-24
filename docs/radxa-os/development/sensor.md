@@ -1,5 +1,4 @@
 ---
-sidebar_label: "科易传感器"
 sidebar_position: 10
 ---
 

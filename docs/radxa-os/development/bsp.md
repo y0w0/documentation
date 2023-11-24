@@ -26,5 +26,5 @@
 ## 参考
 
 - [U-Boot | Build U-Boot](https://u-boot.readthedocs.io/en/latest/build/index.html)
-- [U-Boot | Amlogic](https://u-boot.readthedocs.io/en/latest/board/Amlogic/)
+- [U-Boot | Amlogic](https://docs.u-boot.org/en/latest/board/amlogic/)
 - [U-Boot | Rockchip](https://u-boot.readthedocs.io/en/latest/board/rockchip/)

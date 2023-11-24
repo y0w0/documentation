@@ -1,10 +1,6 @@
 ---
-sidebar_label: "Install Android System"
 sidebar_position: 3
 ---
-
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
 
 # Install Android System
 

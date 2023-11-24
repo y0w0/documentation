@@ -1,5 +1,4 @@
 ---
-sidebar_label: "ROCK 4 系列 GPIO 定义"
 sidebar_position: 50
 ---
 

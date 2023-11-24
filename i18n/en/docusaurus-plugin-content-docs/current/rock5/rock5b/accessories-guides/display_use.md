@@ -1,5 +1,4 @@
 ---
-sidebar_label: "8/10 inch Display Screen Tutorial"
 sidebar_position: 3
 ---
 

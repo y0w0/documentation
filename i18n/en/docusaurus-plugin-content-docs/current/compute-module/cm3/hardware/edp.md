@@ -1,5 +1,4 @@
 ---
-sidebar_label: "eDP"
 sidebar_position: 10
 ---
 
@@ -19,7 +18,7 @@ eDP interface features꞉
 
 ## The impedance and description of the eDP interface signals
 
-| Singal            | Impedace   | Description                                            |
+| Signal            | Impedace   | Description                                            |
 | ----------------- | ---------- | ------------------------------------------------------ |
 | eDP_TX_DP/DN[3꞉0] | 100ohm±10% | eDP TX data transmission, coupled with 100nF capacitor |
 | eDP_TX_AUXP/N     | 100ohm±10% | eDP TX auxiliary channel, coupled with 100nF capacitor |

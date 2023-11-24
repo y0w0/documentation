@@ -1,5 +1,4 @@
 ---
-sidebar_label: "ROCK 5B 硬件接口定义"
 sidebar_position: 1
 ---
 

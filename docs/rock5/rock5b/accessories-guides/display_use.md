@@ -1,5 +1,4 @@
 ---
-sidebar_label: "Radxa Display 8 HD使用教程"
 sidebar_position: 3
 ---
 

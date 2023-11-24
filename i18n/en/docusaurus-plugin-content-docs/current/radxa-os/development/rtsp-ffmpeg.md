@@ -1,5 +1,4 @@
 ---
-sidebar_label: "RTSP Remote Streaming Guide (based on FFmpeg)"
 sidebar_position: 20
 ---
 

@@ -1,10 +1,6 @@
 ---
-sidebar_label: "upgrade_tool"
 sidebar_position: 3
 ---
-
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
 
 # upgrade_tool
 

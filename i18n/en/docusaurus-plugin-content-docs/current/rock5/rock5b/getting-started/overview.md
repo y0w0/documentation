@@ -1,5 +1,4 @@
 ---
-sidebar_label: "ROCK 5B Overview"
 sidebar_position: 1
 ---
 
@@ -55,7 +54,7 @@ Open RKDevTool and you would see the device is in Found One MASKROM Device.
 
 ### Hardware Specifications
 
-- Quad Cortex‑A76, freqency 2.2~2.4Ghz with quad Cortex‑A55, freqency 1.8Ghz
+- Quad Cortex‑A76, frequency 2.2~2.4Ghz with quad Cortex‑A55, frequency 1.8Ghz
 - Mali G610MP4 GPU, supports OpenGLES 1.1, 2.0, and 3.2, OpenCL up to 2.2 and Vulkan 1.2
 - Build‑in NPU supports INT4/INT8/INT16/FP16 hybrid operation and computing power is up to 6TOPs
 - 4GB/8GB/16GB 64bits LPDDR4x ram options

@@ -7,13 +7,13 @@ on:
   pull_request:
   merge_group:
 
-permissions:
-  id-token: write
-  pages: write
-
 jobs:
   test:
     runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
+    env:
+      GH_TOKEN: ${{ github.token }}
     strategy:
       fail-fast: false
       matrix:
@@ -45,18 +45,9 @@ jobs:
             fi
           elif [ "${{ github.event_name }}" == "pull_request" ]
           then
-            if [ "${{ github.event.action }}" == "opened" ]
-            then
-              FROM_REF="${{ github.event.pull_request.base.sha }}"
-              TO_REF="${{ github.event.pull_request.head.sha }}"
-              EXTRA_ARGS=("--from-ref" "$FROM_REF" "--to-ref" "$TO_REF")
-            elif [ "${{ github.event.action }}" == "synchronize" ]
-            then
-              git fetch origin ${{ github.event.before }}:old_head
-              FROM_REF="${{ github.event.before }}"
-              TO_REF="${{ github.event.after }}"
-              EXTRA_ARGS=("--from-ref" "$FROM_REF" "--to-ref" "$TO_REF")
-            fi
+            FROM_REF="${{ github.event.pull_request.base.sha }}"
+            TO_REF="${{ github.event.pull_request.head.sha }}"
+            EXTRA_ARGS=("--from-ref" "$FROM_REF" "--to-ref" "$TO_REF")
           elif [ "${{ github.event_name }}" == "merge_group" ]
           then
             git fetch origin ${{ github.event.merge_group.base_sha }}:old_head
@@ -92,12 +83,17 @@ jobs:
               case "${{ matrix.test }}"
               in
                 check-external-links)
-                  gh pr comment ${{github.event.number}} --body "Found potential broken links in the changed files."
+                  if [ "${{ github.event.action }}" == "opened" ]
+                  then
+                    #This is currently broken, see https://github.com/cli/cli/issues/8374
+                    #gh pr comment ${{github.event.number}} --body "Found potential broken links in the changed files."
+                    :
+                  fi
                   ;;
               esac
             fi
           fi
-  deploy:
+  build:
     needs: test
     runs-on: ubuntu-latest
     steps:
@@ -114,12 +110,18 @@ jobs:
         with:
           # Upload entire repository
           path: "./build"
+  deploy:
+    needs: build
+    if: github.event_name != 'pull_request' && github.event_name != 'merge_group' && github.ref_name == 'main'
+    runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+      pages: write
+    steps:
       - name: Setup Pages
         id: setup-pages
         uses: actions/configure-pages@v3
         continue-on-error: true
-        if: github.event_name != 'pull_request' && github.event_name != 'merge_group' && github.ref_name == 'main'
       - name: Deploy to GitHub Pages
-        id: deployment
         uses: actions/deploy-pages@v2
         if: steps.setup-pages.outcome == 'success'

@@ -14,13 +14,13 @@ Radxa CM3I 使用 3x 100P 0.4mm 间距 B2B 连接器，提供强大的功能支�
 Radxa CM3I 提供各种 LPDDR4 RAM 和 eMMC 配置：
 
 - RAM: 1 / 2 / 4 / 8 GB
-- eMMC: NA / 8 / 16 / 32 / 64 GB
+- eMMC: 0 / 8 / 16 / 32 / 64 GB （0: 表示eMMC空贴）
 
 :::tip
-如果您想定制想要的 CM3I 配置,欢迎您与瑞莎联系，邮箱：support@radxa.com !
+如果需要定制 CM3I 配置,可发邮件咨询 support@radxa.com。
 :::
 
-同时，我们提供[瑞莎 CM3I 接口板](/compute-module/cm3i/accessories-guides/cm3i-io-board)与 Radxa CM3I 相兼容，你可以使用它快速开发出你想要的产品。例如，HMI，机器人，可视对讲机，智能家居等。
+同时，Radxa 提供了与 CM3I 搭配的 [ CM3I 接口板](/compute-module/cm3i/accessories-guides/cm3i-io-board)，使用它可以快速开发出想要的产品，例如 HMI、机器人、可视对讲机、智能家居等。
 
 ![Radxa CM3I-IO](/img/cm3i/cm3i-io-overview.webp)
 
@@ -36,10 +36,10 @@ Radxa CM3I 提供各种 LPDDR4 RAM 和 eMMC 配置：
   - eMMC5.1 8GB / 16GB / 32GB / 64GB, eMMC 最大可达 256GB
   - SPI Flash
 - 显示：
-  - 1x HDMI TX up to 4096X2160@60Hz
-  - 1x eDP four lanes, 2.7Gps per lane
-  - 2x MIPI DSI four lanes, 1.6Gbps per lane
-  - 1x LVDS four lanes(muxed with MIPI DSI0)
+  - 1x HDMI TX 最大支持 4096X2160@60Hz
+  - 1x eDP 4 lanes, 2.7Gps/lane
+  - 2x MIPI DSI 4 lanes, 1.6Gbps/lane
+  - 1x LVDS 4 lanes(与MIPI DSI0复用)
 - 多媒体：
   - 4K H.265/H.264/VP9 视频解码器
   - 1080p@60fps H.264/H.265 视频编码器
@@ -51,10 +51,10 @@ Radxa CM3I 提供各种 LPDDR4 RAM 和 eMMC 配置：
   - SPDIF_TX
   - PDM, 支持麦克风阵列
 - 高速接口：
-  - 一个 USB 3.0 HOST、一个 USB 3.0 OTG、双 USB 2.0 HOST
-  - 三个 SATA，1 个与 USB 3.0 HOST 共用，1 个与 PCIe 共用，一个 USB 3 OTG 共用
-  - 一个 PCIe 3.0 2-lane
-  - 一个 PCIe 2.0 1-lane
+  - 1x USB 3.0 HOST、1x USB 3.0 OTG、2x USB 2.0 HOST
+  - 3x SATA (一个与 USB 3.0 HOST 共用，一个与 PCIe 共用，一个与 USB 3 OTG 共用)
+  - 1x PCIe 3.0 2-lane
+  - 1x PCIe 2.0 1-lane
 - 低速接口:
   - 8x UART
   - 4x SPI
@@ -69,12 +69,14 @@ Radxa CM3I 提供各种 LPDDR4 RAM 和 eMMC 配置：
   - OTP
   - 加密 (AES/TDES/SM4/SM3/SHA256/SHA512/RSA)
 - 工作温度:
-  - J0 model(RK3568): 0° to 60°C
-  - J1 model(RK3568J): ‑40° to 85°C
+  - J0 model(RK3568): 0°C to 60°C
+  - J1 model(RK3568J): ‑40°C to 85°C
 
 ### 软件
 
-- 支持 Debian 操作系统。
-- 支持 Android 11/12。
+- Debian / Ubuntu
+- Android 11/12
 
-## [Debian系统安装](/compute-module/cm3i/install-debian-system)
+## 系统安装
+
+ [Debian系统安装](/compute-module/cm3i/install-debian-system)

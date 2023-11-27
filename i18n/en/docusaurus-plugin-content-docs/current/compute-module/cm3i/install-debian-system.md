@@ -8,61 +8,63 @@ import TabItem from '@theme/TabItem';
 
 # Install Debian System
 
-## Flash OS image to microSD card
+There are two main startup ways for CM3I,boot from microSD and boot from eMMC, This page introduces how to install system image on these two medias.
+- Install system image on microSD 
+- Install system image on eMMC
+
+## Install System Image on microSD card
 
 ### Preparations
 
 1. Prepare a microSD card
 2. Prepare an SD card reader
-3. Download corresponding product of the official [Debian system image](/compute-module/images)
-4. Insert the SD card into the SD card reader, then insert the SD card reader into the USB port of the computer
+3. Download corresponding product's [system image](/compute-module/images)
+4. Insert the SD card into the SD card reader, then insert the reader into the PC's USB port 
 
-#### Flash OS image to microSD card via Etcher
+### Install System Image
+
+There are two main tools to install image on microSD card, you can choose one of them base on the actual situation.
+- Ethcher (Multi-platform)
+- Win32DiskImager (windows)
+
+#### Install System Image on microSD Card via Etcher
 
 1. [Download](https://etcher.balena.io/) flash tool `Etcher`
-   ![CM3I via Etcher 01](/img/rock5a/rock5a-etcher.webp)
+   <img src="/img/rock5a/rock5a-etcher.webp" width = "700" alt="CM3I via Etcher 01"/>
 
-2. Open the Etcher and flash the prepared OS image to the microSD card.
+2. Open Etcher, Click `Flash from file` to select the OS image you prepared.
+   <img src="/img/rock5a/rock5a-etcher-1.webp" width = "700" alt="CM3I via Etcher 02"/>
 
-3. click `Flash from file` to select the OS image you have just downloaded.
-   ![CM3I via Etcher 02](/img/rock5a/rock5a-etcher-1.webp)
+3. In the Etcher window, click on `Select target`.  
+   <img src="/img/rock5a/rock5a-etcher-2.webp" width = "700" alt="CM3I via Etcher 03"/>
 
-4. In the Etcher window, click on `Select target`.  
-   ![CM3I via Etcher 03](/img/rock5a/rock5a-etcher-2.webp)
+4. In the Etcher window, click on `Flash!` and wait for the progress bar to be painted.
+   <img src="/img/rock5a/rock5a-etcher-3.webp" width = "700" alt="CM3I via Etcher 04"/>
 
-5. In the Etcher window, click on `Flash!` and wait for the progress bar to be painted.
-   ![CM3I via Etcher 04](/img/rock5a/rock5a-etcher-3.webp)
+5. In the Etcher window, `Flash Complete!` will show when the flashing is completed.
+   <img src="/img/rock5a/rock5a-etcher-4.webp" width = "700" alt="CM3I via Etcher 05"/>
 
-6. In the Etcher window, `Flash Complete!` will show when the flashing is completed.
-   ![CM3I via Etcher 05](/img/rock5a/rock5a-etcher-4.webp)
+**If Install failed, please try again**
 
-**If the OS image is flashed failed, please try again manually.**
-
-#### Flash OS image to microSD card via Win32DiskImager
+#### Install System image on microSD Card via Win32DiskImager
 
 1. [Download](https://win32diskimager.org/) flash tool `Win32DiskImager`.
+   ![CM3I via Win32DiskImager 01](/img/rock5a/rock5a-win32.webp)
 
 2. Open Win32DiskImager.
+   ![CM3I via Win32DiskImager 02](/img/rock5a/rock5a-win32-1.webp)
 
 3. Click on the folder icon button and select the image to be flashed.
+   ![CM3I via Win32DiskImager 03](/img/rock5a/rock5a-win32-2.webp)
 
 4. Once you have done so, click the `Write` button to start writing the image and wait for the writing to be completed.
+   ![CM3I via Win32DiskImager 04](/img/rock5a/rock5a-win32-3.webp)
 
-## Flash OS image to EMMC Module
+## Install System image on eMMC
 
-### Enter MASKROM mode
+CM3I needs to Enter [Maskrom Mode ](/compute-module/cm3i/maskrom) before installing the system.
 
-When there is no available boot device in the system, it will automatically enter MASKROM mode, so you need only to make the microSD / eMMC / SPI Flash unable to boot.
-
-#### MASKROM mode steps
-
-![Radxa CM3I](/img/cm3i/cm3i-overview.webp)
-
-1. Remove the microSD card
-2. Simultaneously press and hold the Maskrom Button SPI Flash and Maskrom Button eMMC buttons on the CM3I
-3. Keep pressing the Maskrom button in step 2 and connect the power to enter the MASKROM mode
-
-### Flash OS image
+### Install System image
 
 <Tabs queryString="environment">
 <TabItem value="Linux">
@@ -71,13 +73,9 @@ When there is no available boot device in the system, it will automatically ente
 
 rkdeveloptool is a USB flashing software developed by Rockchip for Linux/macOS platforms.
 
-rkdeveloptool can be thought of as [upgrade_tool](/general-tutorial/rksdk/upgrade_tool) for [open source version](https://opensource.rock-chips.com/wiki_Rkdeveloptool).
-
----
-
 #### Installation for rkdeveloptool
 
-If there is no rkdeveloptool version for your operate system, you will need to compile it from source and then install it.
+If rockchip doesn't provide the Precompiled rkdeveloptool tools on your Operating System, you will need to compile it from source and then install it.
 
 <Tabs queryString="host_os">
 <TabItem value="Arch Linux">
@@ -104,6 +102,19 @@ sudo cp rkdeveloptool /usr/local/sbin/
 ```
 
 </TabItem>
+
+<TabItem value="Ubuntu">
+
+Execute the following command from the command line to install:
+
+```bash
+sudo apt-get update
+sudo apt-get install rkdeveloptool
+```
+If the command above failed, please refer to the debian to compile the source 
+
+</TabItem>
+
 <TabItem value="macOS">
 
 Please install [Homebrew](https://brew.sh/) first, then run the following command from the command line to install it:
@@ -137,16 +148,13 @@ rkdeveloptool ld
 ##### Write file
 
 :::caution
-rkdeveloptool does not automatically decompress compressed files when writing to them.
-
-First extract the used files and specify the extracted files in rkdeveloptool.
+If the image file is a compressed file (such as zip,xz,gz etc), please unzip it first.
 :::
 
 :::caution
-rkdeveloptool does not support the selection of Maskrom devices, nor can it select the storage media to be written to.  
-Normally when using rkdeveloptool, only a device and a storage medium are connected in hardware. This step cannot be controlled by software.
+rkdeveloptool can only flash one device at a time,
 
-If you need to write to multiple devices at the same time, use [upgrade_tool](/general-tutorial/rksdk/upgrade_tool).
+If needs to flash multiple devices at the same time, use [upgrade_tool](/general-tutorial/rksdk/upgrade_tool).
 :::
 
 ```bash
@@ -154,7 +162,7 @@ sudo rkdeveloptool db <loader>
 sudo rkdeveloptool wl 0 <image>
 ```
 
-Links to download the Loader files used by some products can be found on the [Loader](/general-tutorial/rksdk/loader) page.
+you can download [Loader](/general-tutorial/rksdk/loader) here.
 
 ##### Reboot device
 
@@ -185,8 +193,6 @@ If you have previously installed another version of driver, please click `Uninst
 
 ![RK Driver](/img/configuration/RK-Driver-Assistant-Install-Uninstall.webp)
 
----
-
 #### Write file to device
 
 ##### Run RKDevTool
@@ -195,16 +201,14 @@ If you have previously installed another version of driver, please click `Uninst
 
 ##### Connect the product and enter Maskrom mode
 
-:::info
-Please refer to the instructions of the product for operation. The way to enter Maskrom mode varies slightly from product to product.
-:::
+About how to enter Maskrom, please refer to [Maskrom Mode ](/compute-module/cm3i/maskrom)
 
 If the operation is normal, RKDevTool will prompt `Found One MASKROM Device`:
 
 ![RKDevTool zh maskrom](/img/configuration/rkdevtool-zh-maskrom.webp)
 
 :::caution
-Although RKDevTool supports the selection of Maskrom devices, writing to multiple devices at the same time will result in a write failure for the device being written to.
+rkdeveloptool can only flash one device at a time,
 
 If you need to write to multiple devices at the same time, use [upgrade_tool](/general-tutorial/rksdk/upgrade_tool).
 :::
@@ -212,9 +216,7 @@ If you need to write to multiple devices at the same time, use [upgrade_tool](/g
 ##### Configuring RKDevTool Write Parameters
 
 :::caution
-写入文件时，RKDevTool 不会自动对压缩文件进行解压缩。
-
-请首先将使用到的文件进行解压缩，并在 RKDevTool 中指定解压缩后的文件。
+If the image file is a compressed file (such as zip,xz,gz etc), please unzip it first.
 :::
 
 Click a blank cell to select the [Loader](/general-tutorial/rksdk/loader) and Image file to be used:
@@ -244,7 +246,7 @@ Select `Write by Address` and click `run`:
 
 ![RKDevTool zh flashing](/img/configuration/rkdevtool-zh-flashing.webp)
 
-Wait for the write to complete, after which the device will reboot automatically:
+Wait for the write to complete, the device will reboot automatically when writing finished.
 
 ![RKDevTool zh complete](/img/configuration/rkdevtool-zh-complete.webp)
 
@@ -255,9 +257,9 @@ Wait for the write to complete, after which the device will reboot automatically
 
 ### Unable to enter MASKROM mode
 
-If both SPI Flash and eMMC have boot images, you need to ensure that the Maskrom Button SPI Flash and Maskrom Button eMMC button are pressed and held before powering on. You can observe the serial port printing to see whether it has booted to the U-BOOT stage. If it has booted to the U-BOOT stage, The BOOT stage indicates that there is a normal boot medium during startup, and re-execute the above steps to enter MASKROM mode.
+If both SPI Flash and eMMC have boot images, you need to ensure that the Maskrom Button (SPI Flash) and Maskrom Button (eMMC) are both pressed and held before powering on.
 
-### Unable to enter the system after burning
+### Unable to enter the system after flashing image
 
-1. Since there are two boot media, SPI Flash and eMMC, on CM3I, booting from SPI Flash is preferred by default. If the image in SPI Flash is damaged, the system will not start.
-2. The image may be burned to SPI Flash due to operational issues when burning the image. You can press and hold the Maskrom button of another boot medium before starting burning. For example, if you want to burn an image in eMMC, press and hold the Maskrom Button SPI Flash button before clicking burn, click burn, and release the button when you observe that burning starts.
+1. Since there are two boot medias, SPI Flash and eMMC on CM3I, booting from SPI Flash is preferred by default. If the image in SPI Flash is damaged, the system will not start.
+2. The image may be flashed to SPI Flash by wrong operations when flashing the image. You can press and hold the Maskrom button of another boot medium before flashing. For example, if you want to flash an image to eMMC, press and hold the Maskrom Button (SPI Flash) before flashing, and release the button until the flashing begin.

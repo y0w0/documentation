@@ -5,7 +5,7 @@ sidebar_position: 1
 
 # 概览
 
-Radxa CM3I 计算模块是基于 Rockchip RK3568 片上系统 (SoC) 的系统模块 (SoM)。 CM3I 集成了中央处理器 (CPU)、电源管理单元 (PMU)、DRAM 内存、闪存和无线连接（WiFi 5 和 BT 5.0），外形小巧，其尺寸只有 70mm x 40mm , 接口丰富。
+Radxa CM3I 计算模块是基于 Rockchip RK3568(J) SoC 的系统模块 (SoM)。 CM3I 集成了中央处理器 (CPU)、电源管理单元 (PMU)、DRAM 内存、闪存和无线连接（WiFi 5 和 BT 5.0），外形小巧，其尺寸只有 70mm x 40mm , 接口丰富。
 
 Radxa CM3I 使用 3x 100P 0.4mm 间距 B2B 连接器，提供强大的功能支持，可与自定义的底板结合，构建完整的产品功能，从而加快研发进程。
 

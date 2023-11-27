@@ -2,9 +2,9 @@
 sidebar_position: 20
 ---
 
-# Third Party Images for ROCK 4 Series
+# Third Party Images for ROCK 4 Family
 
-This page provides downloads of the third party images of ROCK 4 Series,
+This page provides downloads of the third party images of ROCK 4 Family,
 the installstions of those images are the same as official images unless otherwise stated.
 
 ## Introduction and Download link

@@ -20,7 +20,7 @@ Tip: We will publish relevant information about each version release in [Raxa Fo
 
 ### Official Images
 
-Comming soon......
+Coming soon......
 
 </TabItem>
 <TabItem value="Radxa CM3I">
@@ -29,7 +29,7 @@ Comming soon......
 
 ### Official Images
 
-Comming soon......
+Coming soon......
 
 </TabItem>
 </Tabs>

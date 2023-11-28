@@ -20,7 +20,7 @@ import TabItem from '@theme/TabItem';
 
 ### 官方镜像
 
-Comming soon......
+Coming soon......
 
 </TabItem>
 <TabItem value="Radxa CM3I">
@@ -29,7 +29,7 @@ Comming soon......
 
 ### 官方镜像
 
-Comming soon......
+Coming soon......
 
 </TabItem>
 </Tabs>

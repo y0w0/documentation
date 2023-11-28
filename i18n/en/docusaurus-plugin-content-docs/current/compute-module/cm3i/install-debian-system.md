@@ -9,6 +9,7 @@ import TabItem from '@theme/TabItem';
 # Install Debian System
 
 There are two main startup ways for CM3I,boot from microSD and boot from eMMC, This page introduces how to install system image on these two medias.
+
 - Install system image on microSD 
 - Install system image on eMMC
 
@@ -24,6 +25,7 @@ There are two main startup ways for CM3I,boot from microSD and boot from eMMC, T
 ### Install System Image
 
 There are two main tools to install image on microSD card, you can choose one of them base on the actual situation.
+
 - Ethcher (Multi-platform)
 - Win32DiskImager (windows)
 
@@ -111,6 +113,7 @@ Execute the following command from the command line to install:
 sudo apt-get update
 sudo apt-get install rkdeveloptool
 ```
+
 If the command above failed, please refer to the debian to compile the source 
 
 </TabItem>
@@ -183,8 +186,8 @@ RKDevTool is a USB flashing software developed by Rockchip for Windows platforms
 
 Please download and extract the following files to install RKDevTool:
 
-- [RKDevTool v2.96](https://dl.radxa.com/tools/windows/RKDevTool_Release_v2.96_zh.zip) (Includes Chinese documentation)
-- [DriverAssitant v5.0](https://dl.radxa.com/tools/windows/DriverAssitant_v5.0.zip)
+- [RKDevTool v2.96](https://dl.radxa.com/tools/windows/RKDevTool_Release_v2.96_zh.zip)(Includes Chinese documentation)
+- [DriverAssistant v5.0](https://dl.radxa.com/tools/windows/DriverAssitant_v5.0.zip)
 
 ##### Installation of drivers
 

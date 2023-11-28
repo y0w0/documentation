@@ -9,6 +9,7 @@ import TabItem from '@theme/TabItem';
 # Debian系统安装
 
 CM3I 主要有两种启动方式，从 microSD 卡启动和从 eMMC 启动，这里主要介绍安装系统到这两种介质的方法。
+
 - 安装系统到 microSD 卡上
 - 安装系统到 eMMC 上
 
@@ -24,6 +25,7 @@ CM3I 主要有两种启动方式，从 microSD 卡启动和从 eMMC 启动，这
 ### 烧录镜像
 
 目前主要使用下面两种工具进行烧录, 你可以根据实际情况选择其中的一个
+
 - Etcher （跨平台）
 - Win32DiskImager （windows）
 
@@ -102,6 +104,7 @@ autoreconf -i
 make -j $(nproc)
 sudo cp rkdeveloptool /usr/local/sbin/
 ```
+
 </TabItem>
 
 <TabItem value="Ubuntu">
@@ -112,6 +115,7 @@ sudo cp rkdeveloptool /usr/local/sbin/
 sudo apt-get update
 sudo apt-get install rkdeveloptool
 ```
+
 如果上面的命令执行失败，可参考 Debian 下的源码编译方式
 
 </TabItem>
@@ -132,6 +136,7 @@ autoreconf -i
 make -j $(nproc)
 cp rkdeveloptool /opt/homebrew/bin/
 ```
+
 </TabItem>
 </Tabs>
 

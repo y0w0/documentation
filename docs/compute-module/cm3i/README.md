@@ -1,8 +1,5 @@
 ---
-label: "Radxa CM3I"
-description: "Radxa CM3I Compute module"
 sidebar_position: 10
-slug: /compute-module/cm3i
 ---
 
 # 瑞莎 CM3I

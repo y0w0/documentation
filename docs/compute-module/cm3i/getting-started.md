@@ -79,4 +79,4 @@ Radxa CM3I 提供各种 LPDDR4 RAM 和 eMMC 配置：
 
 ## 系统安装
 
- [Debian系统安装](/compute-module/cm3i/install-debian-system)
+[Debian系统安装](/compute-module/cm3i/install-debian-system)

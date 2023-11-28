@@ -191,7 +191,7 @@ Please download and extract the following files to install RKDevTool:
 
 ##### Installation of drivers
 
-Download and unzip DriverAssitant, then execute DriverInstall.exe and click the `Install Driver` button to install the driver.
+Download and unzip DriverAssistant, then execute DriverInstall.exe and click the `Install Driver` button to install the driver.
 If you have previously installed another version of driver, please click `Uninstall Driver` to uninstall the driver first and then reinstall it.
 
 ![RK Driver](/img/configuration/RK-Driver-Assistant-Install-Uninstall.webp)

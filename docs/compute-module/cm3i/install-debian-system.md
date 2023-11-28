@@ -166,7 +166,7 @@ sudo rkdeveloptool db <loader>
 sudo rkdeveloptool wl 0 <image>
 ```
 
-你可以从这里下载 [Loader](/general-tutorial/rksdk/loader) 
+你可以从这里下载 [Loader](/general-tutorial/rksdk/loader)
 
 ##### 重启设备
 

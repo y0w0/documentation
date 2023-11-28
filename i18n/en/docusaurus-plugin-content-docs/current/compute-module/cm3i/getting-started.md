@@ -42,7 +42,7 @@ such as HMI, robots, video intercoms, smart home and so on.
   - 2x MIPI DSI 4 lanes, 1.6Gbps/lane
   - 1x LVDS 4 lanes(muxed with MIPI DSI0)
 - Media:
-  - 4K H.265/H.264/VP9 decoder 
+  - 4K H.265/H.264/VP9 decoder
   - 1080p@60fps H.264/H.265 encoder
 - Video Input:
   - 1x 4‑lane MIPI CSI RX or 2x 2‑lane MIPI CSI RX
@@ -63,7 +63,7 @@ such as HMI, robots, video intercoms, smart home and so on.
   - 4x I2C
 - Ethernet: 1000M (RTL8211FS)
 - Powered : 5V DC
-- Security: 
+- Security:
   - Arm TrustZone® security extensions
   - secure video path
   - secure JTAG debugging

@@ -10,7 +10,7 @@ import TabItem from '@theme/TabItem';
 
 There are two main startup ways for CM3I,boot from microSD and boot from eMMC, This page introduces how to install system image on these two medias.
 
-- Install system image on microSD 
+- Install system image on microSD
 - Install system image on eMMC
 
 ## Install System Image on microSD card
@@ -20,7 +20,7 @@ There are two main startup ways for CM3I,boot from microSD and boot from eMMC, T
 1. Prepare a microSD card
 2. Prepare an SD card reader
 3. Download corresponding product's [system image](/compute-module/images)
-4. Insert the SD card into the SD card reader, then insert the reader into the PC's USB port 
+4. Insert the SD card into the SD card reader, then insert the reader into the PC's USB port
 
 ### Install System Image
 
@@ -114,7 +114,7 @@ sudo apt-get update
 sudo apt-get install rkdeveloptool
 ```
 
-If the command above failed, please refer to the debian to compile the source 
+If the command above failed, please refer to the debian to compile the source.
 
 </TabItem>
 
@@ -191,7 +191,7 @@ Please download and extract the following files to install RKDevTool:
 
 ##### Installation of drivers
 
-Download and unzip DriverAssitant, then execute DriverInstall.exe and click the `Install Driver` button to install the driver.  
+Download and unzip DriverAssitant, then execute DriverInstall.exe and click the `Install Driver` button to install the driver.
 If you have previously installed another version of driver, please click `Uninstall Driver` to uninstall the driver first and then reinstall it.
 
 ![RK Driver](/img/configuration/RK-Driver-Assistant-Install-Uninstall.webp)

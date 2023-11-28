@@ -7,6 +7,7 @@ sidebar_position: 1
 ## Environment configuration
 
 [Linux environment](https://mediatek.gitlab.io/aiot/doc/aiot-dev-guide/master/sw/yocto/get-started/env-setup/flash-env-linux.html)
+
 [Windows environment](https://mediatek.gitlab.io/aiot/doc/aiot-dev-guide/master/sw/yocto/get-started/env-setup/flash-env-windows.html)
 
 ## Installation Steps

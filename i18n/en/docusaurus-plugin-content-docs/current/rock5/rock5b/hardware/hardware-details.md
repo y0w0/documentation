@@ -1,5 +1,4 @@
 ---
-sidebar_label: "Hardware Information Details"
 sidebar_position: 1
 ---
 

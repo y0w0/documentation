@@ -1,5 +1,4 @@
 ---
-sidebar_label: "音频和视频"
 sidebar_position: 70
 ---
 

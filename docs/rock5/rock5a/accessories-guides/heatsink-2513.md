@@ -1,5 +1,4 @@
 ---
-sidebar_label: "ROCK 5A使用Radxa Heatsink 2513教程"
 sidebar_position: 20
 ---
 
@@ -36,7 +35,7 @@ radxa@rock-5a:~$ rsetup
 
 ```bash
 Please select an option below:
-        System Maintaince
+        System Maintenance
         Hardware
         Overlays
         Connectivity

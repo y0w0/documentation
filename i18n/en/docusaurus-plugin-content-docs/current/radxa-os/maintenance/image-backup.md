@@ -1,5 +1,4 @@
 ---
-sidebar_label: "Images Backup"
 sidebar_position: 20
 ---
 

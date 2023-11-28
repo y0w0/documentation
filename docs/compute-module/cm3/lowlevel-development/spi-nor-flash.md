@@ -1,10 +1,6 @@
 ---
-sidebar_label: "安装镜像到 SPI Nor Flash"
 sidebar_position: 20
 ---
-
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
 
 # 简介
 

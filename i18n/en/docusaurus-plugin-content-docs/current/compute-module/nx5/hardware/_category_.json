@@ -1,9 +1,0 @@
-{
-  "label": "Hardware",
-  "link": {
-    "description": "Hardware Information about Radxa NX5 IO",
-    "slug": "/compute-module/nx5/hardware",
-    "type": "generated-index"
-  },
-  "position": 30
-}

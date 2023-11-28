@@ -1,9 +1,0 @@
-{
-  "label": "第三方操作系统",
-  "link": {
-    "description": "Radxa CM3 也支持第三方的操作系统。",
-    "slug": "/compute-module/cm3/alt-os",
-    "type": "generated-index"
-  },
-  "position": 20
-}

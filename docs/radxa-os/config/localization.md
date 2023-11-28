@@ -1,5 +1,4 @@
 ---
-sidebar_label: "本土化设置"
 sidebar_position: 40
 ---
 

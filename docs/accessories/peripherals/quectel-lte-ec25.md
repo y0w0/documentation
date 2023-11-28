@@ -1,5 +1,4 @@
 ---
-sidebar_label: "移远 LTE EC25"
 sidebar_position: 10
 ---
 

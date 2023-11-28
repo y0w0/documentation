@@ -1,5 +1,4 @@
 ---
-sidebar_label: "ROCK 5A上使用Radxa Camera 4K教程"
 sidebar_position: 20
 ---
 

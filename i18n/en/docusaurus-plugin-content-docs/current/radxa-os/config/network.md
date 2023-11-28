@@ -1,5 +1,4 @@
 ---
-sidebar_label: "Network Setting"
 sidebar_position: 20
 ---
 

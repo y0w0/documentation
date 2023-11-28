@@ -1,10 +1,6 @@
 ---
-sidebar_label: "Hardware Revision"
 sidebar_position: 20
 ---
-
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
 
 # Revision
 

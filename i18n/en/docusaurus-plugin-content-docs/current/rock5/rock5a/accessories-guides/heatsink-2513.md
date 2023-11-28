@@ -1,5 +1,4 @@
 ---
-sidebar_label: "Using Radxa Heatsink 2513 on ROCK 5A"
 sidebar_position: 20
 ---
 
@@ -39,7 +38,7 @@ Select `Hardware`:
 
 ```
 Please select an option below:
-        System Maintaince
+        System Maintenance
         Hardware
         Overlays
         Connectivity

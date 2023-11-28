@@ -1,10 +1,6 @@
 ---
-sidebar_label: "定频认证指导"
 sidebar_position: 13
 ---
-
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
 
 # 定频认证指导
 

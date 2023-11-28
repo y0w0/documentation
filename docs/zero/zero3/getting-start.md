@@ -2,9 +2,6 @@
 sidebar_position: 1
 ---
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-
 # 开始使用
 
 - Radxa ZERO 3W/3E 是一款超小尺寸高性能单板计算机，外形紧凑，接口丰富

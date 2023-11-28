@@ -1,5 +1,3 @@
-import DocCardList from '@theme/DocCardList';
-
 # Rockchip SDK
 
 The Rockchip SDK provides the software resources needed for secondary development of Rockchip SoCs.

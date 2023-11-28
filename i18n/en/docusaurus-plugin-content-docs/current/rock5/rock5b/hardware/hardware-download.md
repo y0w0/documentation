@@ -1,5 +1,4 @@
 ---
-sidebar_label: "Hardware Dara Download "
 sidebar_position: 30
 ---
 

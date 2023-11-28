@@ -1,5 +1,4 @@
 ---
-sidebar_label: "官方操作系统"
 sidebar_position: 2
 ---
 
@@ -18,9 +17,6 @@ sidebar_position: 2
 :::tip
 提示： 我们将会在[瑞莎论坛](https://forum.radxa.com/)发布每次版本发布的相关信息。
 :::
-
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
 
 <Tabs queryString="model">
 <TabItem value="ROCK 5A" label="ROCK 5A" default>

@@ -1,5 +1,4 @@
 ---
-sidebar_label: "支持列表"
 sidebar_position: 1
 ---
 

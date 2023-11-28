@@ -1,5 +1,4 @@
 ---
-sidebar_label: "Display Setup"
 sidebar_position: 10
 ---
 
@@ -14,7 +13,7 @@ This setting is just available when you operating on the monitor, or you can set
 
 ### System Settings-Display Settings
 
-On KDE desktop, you would see the `System Settings` after left clicking on the `Appliction Launcher` in the lower left corner.  
+On KDE desktop, you would see the `System Settings` after left clicking on the `Application Launcher` in the lower left corner.  
 ![System settings](/img/configuration/start_sys_setting.webp)  
 Select the `System Settings`, find `Display and Monitor` in the `Hardware` option:  
 ![System Settings](/img/configuration/system_setting.webp)  
@@ -103,4 +102,4 @@ Dual Screen:
    xrandr --output HDMI-1 --right-of DP-1 --auto # DP-1 is the main display, the HDMI-1 is an extension and to the right of DP-1
 ```
 
-For more informations , please check [X.Org Server RandR](https://en.wikipedia.org/wiki/X.Org_Server#Other_DDX_components).
+For more information , please check [X.Org Server RandR](https://en.wikipedia.org/wiki/X.Org_Server#Other_DDX_components).

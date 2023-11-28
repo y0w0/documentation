@@ -1,5 +1,4 @@
 ---
-sidebar_label: "Device Tree Configuration"
 sidebar_position: 10
 ---
 

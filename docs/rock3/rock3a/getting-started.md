@@ -2,9 +2,6 @@
 sidebar_position: 3
 ---
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-
 # 开始使用
 
 ROCK 3A 配备了四核 Cortex-A55 ARM 处理器和 LPDDR4 运行内存，

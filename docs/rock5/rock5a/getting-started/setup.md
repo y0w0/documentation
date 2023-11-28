@@ -1,5 +1,4 @@
 ---
-sidebar_label: "接口使用设置"
 sidebar_position: 17
 ---
 

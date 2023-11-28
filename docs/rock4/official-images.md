@@ -1,10 +1,6 @@
 ---
-sidebar_label: "官方镜像"
 sidebar_position: 8
 ---
-
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
 
 # ROCK 4 系列官方镜像
 

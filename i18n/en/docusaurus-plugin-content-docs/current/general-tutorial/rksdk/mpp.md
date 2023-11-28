@@ -1,5 +1,4 @@
 ---
-sidebar_label: "Media Process Platform (MPP)"
 sidebar_position: 40
 ---
 

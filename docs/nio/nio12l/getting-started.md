@@ -2,9 +2,6 @@
 sidebar_position: 1
 ---
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-
 # 开始使用
 
 - Radxa NIO 12L 是一款小尺寸高性能单板计算机，搭载了 MediaTek MT8395(Genio 1200) 八核处理器作为开发平台,搭载有 Mali G-57 MC5 GPU 和 AI 处理模块,为用户提供流畅的桌面体验和强大的 AI 运算能力,丰富的外设接口为复杂多场景提供更多的可能。
@@ -102,4 +99,5 @@ import TabItem from '@theme/TabItem';
 
 [Yocto系统安装](/nio/nio12l/install-yocto-system)
 
-## [构建 Yocto](https://gitlab.com/mediatek-iot-yocto/docs)
+[Android系统安装](/nio/nio12l/install-android-system)
+

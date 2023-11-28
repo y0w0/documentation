@@ -1,5 +1,4 @@
 ---
-sidebar_label: "认识 ROCK 5B"
 sidebar_position: 1
 ---
 

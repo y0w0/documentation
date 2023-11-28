@@ -1,5 +1,4 @@
 ---
-sidebar_label: "ROCK 5A使用Radxa Wireless Module A8教程"
 sidebar_position: 20
 ---
 

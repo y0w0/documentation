@@ -1,5 +1,4 @@
 ---
-sidebar_label: "M.2 E Key to SATA 使用"
 sidebar_position: 5
 ---
 

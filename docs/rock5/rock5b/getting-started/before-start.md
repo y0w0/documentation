@@ -1,5 +1,4 @@
 ---
-sidebar_label: "开始前准备"
 sidebar_position: 15
 ---
 
@@ -71,9 +70,6 @@ sidebar_position: 15
     ![Radxa Wireless Module A8](/img/accessories/a8-module-01.webp).
 
 ## 烧录方式选择
-
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
 
 <Tabs queryString="app">
 	<TabItem value="Etcher" label="Etcher 方式" default>
@@ -281,8 +277,6 @@ ROCK 5B 具有电源 LED 和用户 LED。
 ### GPIO 功能描述
 
 ROCK 5B 有 1 个 40 针扩展接头。 每个管脚以颜色区分，更多信息请查看对应主板的**GPIO**介绍页.
-
-GPIO 的开发。 ROCK 5B 支持 libmraa GPIO 库，点击[这里](https://wiki.radxa.com/Rock5/dev/libmraa)获取更多信息。
 
 ### 关机与重启
 

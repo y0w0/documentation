@@ -1,10 +1,6 @@
 ---
-sidebar_label: "Radiofrequency Compliance Guidance"
 sidebar_position: 13
 ---
-
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
 
 # Radiofrequency Compliance Guidance
 

@@ -1,5 +1,4 @@
 ---
-sidebar_label: "HDMI"
 sidebar_position: 10
 ---
 

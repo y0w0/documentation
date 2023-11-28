@@ -1,5 +1,4 @@
 ---
-sidebar_label: "Radxa NX5 IO GPIO 定义"
 sidebar_position: 50
 ---
 

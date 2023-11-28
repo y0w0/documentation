@@ -1,10 +1,6 @@
 ---
-sidebar_label: "OS Images Download"
 sidebar_position: 2
 ---
-
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
 
 # Official Images Download
 

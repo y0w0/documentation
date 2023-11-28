@@ -2,9 +2,6 @@
 sidebar_position: 1
 ---
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-
 # Getting Started
 
 - Radxa ZERO 3W/3E is an ultra-small size high-performance single-board computer with compact appearance and rich interfaces

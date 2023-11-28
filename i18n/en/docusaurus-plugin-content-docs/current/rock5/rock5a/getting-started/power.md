@@ -1,5 +1,4 @@
 ---
-sidebar_label: "Power on/off"
 sidebar_position: 50
 ---
 

@@ -1,5 +1,4 @@
 ---
-sidebar_label: "Product Series Overview"
 sidebar_position: 1
 ---
 

@@ -1,5 +1,4 @@
 ---
-sidebar_label: "Metal Case for ROCK 5B Tutorial"
 sidebar_position: 20
 ---
 

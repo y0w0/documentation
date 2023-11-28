@@ -1,5 +1,4 @@
 ---
-sidebar_label: "镜像备份"
 sidebar_position: 20
 ---
 

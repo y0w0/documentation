@@ -1,5 +1,4 @@
 ---
-sidebar_label: "Before start"
 sidebar_position: 20
 ---
 
@@ -84,5 +83,5 @@ Audio can be played through speaker or headphones using a standard 3.5mm jack.
 ## OS Installation
 
 First, please download the official images of ROCK 4C Plus on the [ROCK 4 Official Images Download](/rock4/official-images).  
-Then, you can install the OS by refering the [OS Installation Guide](/general-tutorial/os-installation).  
+Then, you can install the OS by referring the [OS Installation Guide](/general-tutorial/os-installation).  
 Finally, insert the system storage media, microSD Card or eMMC Module into the socket on the board and power on ROCK 4C Plus by adapter with Type-C port.

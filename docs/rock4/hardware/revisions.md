@@ -1,10 +1,6 @@
 ---
-sidebar_label: "硬件改版信息"
 sidebar_position: 20
 ---
-
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
 
 # 改版详情
 

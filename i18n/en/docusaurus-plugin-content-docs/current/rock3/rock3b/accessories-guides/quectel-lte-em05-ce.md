@@ -1,5 +1,4 @@
 ---
-sidebar_label: "QUECTEL LTE EM05-CE"
 sidebar_position: 15
 ---
 

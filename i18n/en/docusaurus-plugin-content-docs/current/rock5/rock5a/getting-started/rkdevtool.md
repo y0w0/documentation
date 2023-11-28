@@ -1,5 +1,4 @@
 ---
-sidebar_label: "install OS from USB port by RKDevTool"
 sidebar_position: 36
 ---
 
@@ -21,7 +20,7 @@ We use the rkdeveloptool in Linux/macOS and the RKDevTool under Windows.
 
 - **Install Tool and Drivers on Windows:**  
   [RKDevTool V2.96](https://dl.radxa.com/tools/windows/RKDevTool_Release_v2.96-20221121.rar)  
-  [DriverAssitant V5.0](https://dl.radxa.com/tools/windows/DriverAssitant_v5.0.zip)
+  [DriverAssistant V5.0](https://dl.radxa.com/tools/windows/DriverAssitant_v5.0.zip)
 
 - Boot the board to Maskrom mode:  
   The steps to boot ROCK 5A to Maskrom mode:

@@ -39,4 +39,4 @@ Radxa CM3I IO Board 是 Radxa CM3I 的功能验证底板，可用于产品评估
 - 1x 12V DC 接口：提供 12V DC 电源的电源输入选项。
 - 1x 12V DC 引脚：提供直接 12V 电源 输入/输出 选项。
 - 1x PoE 支持：启用以太网供电功能。
-- 14 个 GPIO 引脚：提供调试串口, Speak 和 headphone 接口
+- 14 个 GPIO 引脚：提供调试串口, 扬声器和耳机接口

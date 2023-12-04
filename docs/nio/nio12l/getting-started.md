@@ -4,7 +4,6 @@ sidebar_position: 1
 
 # 开始使用
 
-
 ## 开始前准备
 
 NIO 12L 包装清单包含以下：
@@ -27,7 +26,7 @@ NIO 12L 包装清单包含以下：
 
 - 支持 HDMI 或者 USB Type C 输入的显示器
 
-- HDMI 线材或者支持视频信号的 USB Type C 线材  
+- HDMI 线材或者支持视频信号的 USB Type C 线材
 
 ### 可选项
 

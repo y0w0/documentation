@@ -21,22 +21,22 @@ NIO 12L 的设计理念在于结合高性能处理能力与低能耗优势，使
 
 ## 特性
 
-| 型号     | 瑞莎 NIO 12L 单板机                                                                                               |
-| ------ | ------------------------------------------------------------------------------------------------------------ |
-| 片上系统   | 联发科 MT8395 (Genio 1200)                                                                                      |
-| 中央处理器  | 四大核 Cortex-A78 2.2Ghz + 四小核 Cortex-A55 2.0Ghz                                                                |
-| 图形处理器  | Arm Mali™-G57 MC5 3D Graphics Accelerator (GPU) with Vulkan® 1.1, OpenGL ES 3.2 and OpenCL™ 2.2              |
-| AI 处理器 | Dual-core AI Processor Unit(APU) Cadence® Tensilica® VP6 processor with AI Accelerator (AIA)                 |
-| 内存     | 4 / 8 /16 GB LPDDR4X 4266MT/s                                                                                |
-| 存储     | 板载 128GB / 256GB / 512GB UFS 2.0 <br/> 一个 microSD 存储卡卡槽，支持高速模式  <br/>  一个板载 eMMC 预留，默认不焊                     |
-| 显示     | 一路 HDMI 2.0b 输出最高分辨率4KP60 <br/> 一路 TYPE-C DP 1.4 输出最高分辨率: 4KP60 <br/> 一路 MIPI LCD 四通道显示输出 <br/> 最多支持任意两屏同时工作 |
-| 以太网    | 10/100兆/1000兆自适应以太网                                                                                          |
-| 无线通讯   | Wi-Fi 6 (802.11 b/g/n/ac/ax) BT 5.2 支持 BLE，三个独立外置天线                                                          |
-| USB    | 一个 USB 3.0 Type-C OTG(支持 DP 显示输出)  <br/> 四个 USB 3.0 Type-A HOST                                              |
-| 视频输入   | 一路 HDMI 2.0b 输入最高分辨率 4Kp60  <br/> 两路 4 通道 MIPI CSI 最高支持单 48MP 像素摄像头或者 双 16MP 像素摄像头                           |
-| 音频     | 一个3.5mm 耳机接口，支持耳机录音                                                                                          |
-| 其他     | 一个40针扩展座 <br/> 一个电源按键 <br/> 一个用户按键 <br/> 一个强制下载按键 <br/> 一个双色 LED 灯                                           |
-| 电源     | 一个 Type-C 电源输入 5V / 3A                                                                                       |
+| 型号       | 瑞莎 NIO 12L 单板机                                                                                                                                 |
+| ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 片上系统   | 联发科 MT8395 (Genio 1200)                                                                                                                          |
+| 中央处理器 | 四大核 Cortex-A78 2.2Ghz + 四小核 Cortex-A55 2.0Ghz                                                                                                 |
+| 图形处理器 | Arm Mali™-G57 MC5 3D Graphics Accelerator (GPU) with Vulkan® 1.1, OpenGL ES 3.2 and OpenCL™ 2.2                                                  |
+| AI 处理器  | Dual-core AI Processor Unit(APU) Cadence® Tensilica® VP6 processor with AI Accelerator (AIA)                                                      |
+| 内存       | 4 / 8 /16 GB LPDDR4X 4266MT/s                                                                                                                       |
+| 存储       | 板载 128GB / 256GB / 512GB UFS 2.0 <br/> 一个 microSD 存储卡卡槽，支持高速模式 <br/> 一个板载 eMMC 预留，默认不焊                                   |
+| 显示       | 一路 HDMI 2.0b 输出最高分辨率4KP60 <br/> 一路 TYPE-C DP 1.4 输出最高分辨率: 4KP60 <br/> 一路 MIPI LCD 四通道显示输出 <br/> 最多支持任意两屏同时工作 |
+| 以太网     | 10/100兆/1000兆自适应以太网                                                                                                                         |
+| 无线通讯   | Wi-Fi 6 (802.11 b/g/n/ac/ax) BT 5.2 支持 BLE，三个独立外置天线                                                                                      |
+| USB        | 一个 USB 3.0 Type-C OTG(支持 DP 显示输出) <br/> 四个 USB 3.0 Type-A HOST                                                                            |
+| 视频输入   | 一路 HDMI 2.0b 输入最高分辨率 4Kp60 <br/> 两路 4 通道 MIPI CSI 最高支持单 48MP 像素摄像头或者 双 16MP 像素摄像头                                    |
+| 音频       | 一个3.5mm 耳机接口，支持耳机录音                                                                                                                    |
+| 其他       | 一个40针扩展座 <br/> 一个电源按键 <br/> 一个用户按键 <br/> 一个强制下载按键 <br/> 一个双色 LED 灯                                                   |
+| 电源       | 一个 Type-C 电源输入 5V / 3A                                                                                                                        |
 
 ## 系统框图
 

@@ -1,23 +1,24 @@
 ---
+sidebar_label: "引脚定义"
 sidebar_position: 50
 ---
 
-# Radxa NX5 IO GPIO Definition
+# 引脚定义
 
-## GPIO Voltage
+## GPIO 电压
 
-| GPIO       | Voltage | Max Voltage |
-| ---------- | ------- | ----------- |
-| All GPIO   | 3.3V    | 3.63V       |
-| SARADC_IN4 | 3.3V    | 1.98V       |
+| GPIO       | 电压 | 最高  |
+| ---------- | ---- | ----- |
+| 所有的GPIO | 3.3V | 3.63V |
+| SARADC_IN4 | 3.3V | 1.98V |
 
-## GPIO Interface
+## GPIO 接口
 
-Radxa NX5 IO provides a 40pin GPIO socket, which is compatible with most sensor applications on the market.
+Radxa NX5 IO 提供了一个40pin针脚的GPIO座子，兼容于市面上大部分传感器的应用。
 
-**_Tips:_ The actual compatibility is subject to usage. **
+**_提示:_ 实际兼容情况以使用为准。**
 
-- Radxa NX5 IO has a 40-pin expansion header. Each pin is color-coded.
+- Radxa NX5 IO 有一个40针扩展接头。每个引脚都用颜色区分。
 
 <div className='gpio_style'>
 
@@ -46,4 +47,4 @@ Radxa NX5 IO provides a 40pin GPIO socket, which is compatible with most sensor 
 
 </div>
 
-Please refer to [`libgpiod`](/radxa-os/development/libgpiod.md) for how to control GPIO.
+请参阅 [`libgpiod`](/radxa-os/development/libgpiod.md) 来了解该如何控制 GPIO。

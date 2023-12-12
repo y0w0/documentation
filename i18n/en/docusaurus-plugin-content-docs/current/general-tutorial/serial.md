@@ -114,10 +114,10 @@ Create and edit file ~/.minirc.radxa, add the following content:
    pu rtscts           No
 ```
 
-Now run 
+Now run
 
 ```bash
-minicom radxa 
+minicom radxa
 ```
 
 to use the config above and connects to the ROCK board serial console.

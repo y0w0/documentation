@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
- # 系统烧录
+# 系统烧录
 
 Zero 3W/3E 目前提供 Debian OS 系统
 

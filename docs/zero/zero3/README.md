@@ -16,11 +16,11 @@ sidebar_position: 2
   ![ZERO 3W Overview](/img/zero/zero3w/radxa_zero_3w.webp)
 
 - **ZERO 3E**
-  ![ZERO 3W Overview](/img/zero/zero3w/radxa_zero_3e.webp)
+  ![ZERO 3E Overview](/img/zero/zero3w/radxa_zero_3e.webp)
 
 ### 芯片框图
 
-![RK3566 block diagram](/img/zero/zero3w/rk3566_block_diagram.webp)
+![RK3566 block diagram](/img/rock3/rk3566_block_diagram.webp)
 
 ### 特性
 
@@ -91,9 +91,7 @@ sidebar_position: 2
 
 ## 文档使用指引
 
-下面讲对本文的整体内容划分进行介绍，帮助用户快速了解文档的结构和内容，以便更好地利用文档进行开发工作
-
-::: tip
+:::tip
 除去 Android 目录外，其他的目录都是 Debian OS 的内容。
 :::
 
